@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://danielxavier.dev/sitemap.xml
+Sitemap: https://www.danielxavier.dev/sitemap.xml
