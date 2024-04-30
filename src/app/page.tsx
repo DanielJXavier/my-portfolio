@@ -55,7 +55,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <section className="container mx-auto px-4 md:px-5 xl:px-6 py-4 md:py-8 lg:py-10 xl:py-12 flex flex-col lg:flex-row gap-y-3 md:gap-y-4 lg:gap-x-2 xl:gap-x-12 items-center">
+      <section className="container mx-auto px-4 md:px-5 xl:px-6 py-4 md:py-8 flex flex-col lg:flex-row gap-y-3 md:gap-y-4 lg:gap-x-2 xl:gap-x-12 items-center">
         <a
           className="flex gap-x-1.5 xl:gap-x-2 hover:text-[#fff] [&_svg]:hover:fill-[#fff] text-sm md:text-base"
           href="mailto:dxdanielxavier@gmail.com"
