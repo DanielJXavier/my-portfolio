@@ -59,6 +59,7 @@ export default function Home() {
         <a
           className="flex gap-x-1.5 xl:gap-x-2 hover:text-[#fff] [&_svg]:hover:fill-[#fff] text-sm md:text-base"
           href="mailto:dxdanielxavier@gmail.com"
+          target="_blank"
         >
           <Email />
           dxdanielxavier@gmail.com
@@ -66,6 +67,7 @@ export default function Home() {
         <a
           className="flex gap-x-1.5 xl:gap-x-2 hover:text-[#fff] [&_svg]:hover:fill-[#fff] text-sm md:text-base"
           href="https://wa.me/5531997325804"
+          target="_blank"
         >
           <WhatsApp />
           +55 31 99732-5804
@@ -73,6 +75,7 @@ export default function Home() {
         <a
           className="flex gap-x-1.5 xl:gap-x-2 hover:text-[#fff] [&_svg]:hover:fill-[#fff] text-sm md:text-base"
           href="https://www.linkedin.com/in/danieljxavier/"
+          target="_blank"
         >
           <LinkedIn />
           @danieljxavier
@@ -80,6 +83,7 @@ export default function Home() {
         <a
           className="flex gap-x-1.5 xl:gap-x-2 hover:text-[#fff] [&_svg]:hover:fill-[#fff] text-sm md:text-base"
           href="https://github.com/DanielJXavier"
+          target="_blank"
         >
           <GitHub />
           @DanielJXavier
@@ -87,6 +91,7 @@ export default function Home() {
         <a
           className="flex gap-x-1.5 xl:gap-x-2 hover:text-[#fff] [&_svg]:hover:fill-[#fff] text-sm md:text-base"
           href="https://www.instagram.com/danieljxavier/"
+          target="_blank"
         >
           <Instagram />
           @danieljxavier
