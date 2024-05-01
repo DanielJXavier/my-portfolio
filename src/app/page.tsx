@@ -6,7 +6,7 @@ import LinkedIn from "./icons/LinkedIn";
 import GitHub from "./icons/GitHub";
 import Instagram from "./icons/Instagram";
 
-export default function Home() {
+export default function Page() {
   return (
     <>
       <main className="container mx-auto px-4 md:px-5 xl:px-6 pt-6 md:pt-8 xl:pt-12 grid grid-cols-1 lg:grid-cols-3 md:gap-x-12">

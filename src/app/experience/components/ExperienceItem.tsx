@@ -2,7 +2,7 @@ import { ReactNode, useContext } from "react";
 
 import Image from "next/image";
 
-import { ExperienceViewContext } from "../page";
+import { ExperienceViewContext } from "../Experience";
 
 type ExperienceItemProps = {
   logoPath: string;
