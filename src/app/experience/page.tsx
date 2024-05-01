@@ -1,13 +1,38 @@
+"use client";
+
+import { createContext, useState } from "react";
+
 import Resposibilities from "./components/Responsibilities";
 import GreatestChallenge from "./components/GreatestChallenge";
 import ExperienceItem from "./components/ExperienceItem";
 
+export const ExperienceViewContext = createContext("");
+
 export default function Experience() {
+  const [experienceView, setExperienceView] = useState("simple");
+
   return (
-    <>
+    <ExperienceViewContext.Provider value={experienceView}>
       <main className="container mx-auto px-4 md:px-5 xl:px-6 pt-6 md:pt-8 xl:pt-12">
-        <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 md:mb-6 xl:mb-8">
-          Experience
+        <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 md:mb-6 xl:mb-8 flex items-center gap-x-3">
+          <span>Experience</span>
+          <span className="text-sm lg:text-base">
+            (
+            <button
+              className={`${experienceView === "simple" ? "underline" : ""}`}
+              onClick={() => setExperienceView("simple")}
+            >
+              simple
+            </button>{" "}
+            |{" "}
+            <button
+              className={`${experienceView === "detailed" ? "underline" : ""}`}
+              onClick={() => setExperienceView("detailed")}
+            >
+              detailed
+            </button>
+            )
+          </span>
         </h1>
         <ExperienceItem
           logoPath="/grupoolx_logo.jpeg"
@@ -147,6 +172,6 @@ export default function Experience() {
           </GreatestChallenge>
         </ExperienceItem>
       </main>
-    </>
+    </ExperienceViewContext.Provider>
   );
 }
