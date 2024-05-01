@@ -9,7 +9,7 @@ import Instagram from "./icons/Instagram";
 export default function Home() {
   return (
     <>
-      <main className="container mx-auto px-4 md:px-5 xl:px-6 py-6 md:py-8 xl:py-12 grid grid-cols-1 lg:grid-cols-3 md:gap-x-12">
+      <main className="container mx-auto px-4 md:px-5 xl:px-6 pt-6 md:pt-8 xl:pt-12 grid grid-cols-1 lg:grid-cols-3 md:gap-x-12">
         <div className="lg:col-span-2">
           <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 md:mb-6 xl:mb-8">
             Hey I&apos;m Daniel
