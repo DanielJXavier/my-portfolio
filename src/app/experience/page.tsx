@@ -120,7 +120,7 @@ export default function Experience() {
             </li>
           </Resposibilities>
           <GreatestChallenge>
-            To Perform several roles (Engineering Manager, Product Manager, Data
+            To perform several roles (Engineering Manager, Product Manager, Data
             Analyst, etc.) at the same time.
           </GreatestChallenge>
         </article>
