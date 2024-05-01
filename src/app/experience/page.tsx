@@ -1,7 +1,6 @@
-import Title from "./components/Title";
-import Description from "./components/Description";
 import Resposibilities from "./components/Responsibilities";
 import GreatestChallenge from "./components/GreatestChallenge";
+import ExperienceItem from "./components/ExperienceItem";
 
 export default function Experience() {
   return (
@@ -10,16 +9,13 @@ export default function Experience() {
         <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 md:mb-6 xl:mb-8">
           Experience
         </h1>
-        <article className="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-10 before:left-4 before:ml-0.5 before:w-1.5 before:h-5/6 before:bg-[#6d0ad5]">
-          <Title
-            logoPath="/grupoolx_logo.jpeg"
-            year="2024"
-            role="Software Engineering Manager"
-            company="Grupo OLX"
-          />
-          <Description>
-            I was a leader of the &ldquo;Ads Seller Experience&rdquo; team.
-          </Description>
+        <ExperienceItem
+          logoPath="/grupoolx_logo.jpeg"
+          year="2024"
+          role="Software Engineering Manager"
+          company="Grupo OLX"
+          description="I was a leader of the &ldquo;Ads Seller Experience&rdquo; team."
+        >
           <Resposibilities>
             <li>
               To directly lead all developers (9 devs) on the team, acting as a
@@ -44,18 +40,14 @@ export default function Experience() {
             To handle the high expectations of leaders for short-term
             deliveries.
           </GreatestChallenge>
-        </article>
-        <article className="my-10 relative before:content-[''] before:absolute before:top-10 before:left-4 before:ml-0.5 before:w-1.5 before:h-5/6 before:bg-[#6d0ad5]">
-          <Title
-            logoPath="/grupoolx_logo.jpeg"
-            year="2023"
-            role="Software Engineering Manager"
-            company="Grupo OLX"
-          />
-          <Description>
-            I was a leader of the &ldquo;Search & Recommendation&rdquo;
-            team&sup1; and the &ldquo;Design System&rdquo; chapter&sup2;.
-          </Description>
+        </ExperienceItem>
+        <ExperienceItem
+          logoPath="/grupoolx_logo.jpeg"
+          year="2023"
+          role="Software Engineering Manager"
+          company="Grupo OLX"
+          description="I was a leader of the &ldquo;Search & Recommendation&rdquo; team&sup1; and the &ldquo;Design System&rdquo; chapter&sup2;."
+        >
           <Resposibilities>
             <li>
               To directly lead all developers (8 devs) on the team, acting as a
@@ -85,17 +77,14 @@ export default function Experience() {
             To handle both big responsibilities (team&sup1; and chapter&sup2;)
             at the same time.
           </GreatestChallenge>
-        </article>
-        <article className="my-10 relative before:content-[''] before:absolute before:top-10 before:left-4 before:ml-0.5 before:w-1.5 before:h-5/6 before:bg-[#6d0ad5]">
-          <Title
-            logoPath="/grupoolx_logo.jpeg"
-            year="2022~2023"
-            role="Software Engineering Manager"
-            company="Grupo OLX"
-          />
-          <Description>
-            I was a leader of the &ldquo;Design System&rdquo; team.
-          </Description>
+        </ExperienceItem>
+        <ExperienceItem
+          logoPath="/grupoolx_logo.jpeg"
+          year="2022~2023"
+          role="Software Engineering Manager"
+          company="Grupo OLX"
+          description="I was a leader of the &ldquo;Design System&rdquo; team."
+        >
           <Resposibilities>
             <li>
               To directly lead all developers (9 devs) on the team, acting as a
@@ -123,17 +112,14 @@ export default function Experience() {
             To perform several roles (Engineering Manager, Product Manager, Data
             Analyst, etc.) at the same time.
           </GreatestChallenge>
-        </article>
-        <article className="my-10 relative before:content-[''] before:absolute before:top-10 before:left-4 before:ml-0.5 before:w-1.5 before:h-5/6 before:bg-[#6d0ad5]">
-          <Title
-            logoPath="/grupoolx_logo.jpeg"
-            year="2021~2022"
-            role="Software Engineering Manager"
-            company="Grupo OLX"
-          />
-          <Description>
-            I was a leader of the &ldquo;Advertising&rdquo; team.
-          </Description>
+        </ExperienceItem>
+        <ExperienceItem
+          logoPath="/grupoolx_logo.jpeg"
+          year="2021~2022"
+          role="Software Engineering Manager"
+          company="Grupo OLX"
+          description="I was a leader of the &ldquo;Advertising&rdquo; team."
+        >
           <Resposibilities>
             <li>
               To directly lead all developers (7 devs) on the team, acting as a
@@ -159,7 +145,7 @@ export default function Experience() {
           <GreatestChallenge>
             To manage high expectations regarding Advertising revenue results.
           </GreatestChallenge>
-        </article>
+        </ExperienceItem>
       </main>
     </>
   );
