@@ -2,7 +2,7 @@ import { ReactNode, useContext } from "react";
 
 import Image from "next/image";
 
-import { ExperienceViewContext } from "../Experience";
+import { ExperienceContext } from "../Experience";
 
 type ExperienceItemProps = {
   logoPath: string;
@@ -21,7 +21,7 @@ export default function ExperienceItem({
   description,
   children,
 }: ExperienceItemProps) {
-  const experienceView = useContext(ExperienceViewContext);
+  const experience = useContext(ExperienceContext);
 
   return (
     <article className="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-[#6d0ad5] before:via-[#6d0ad5] before:to-[#000] before:-z-10">
@@ -41,7 +41,7 @@ export default function ExperienceItem({
       <section className="pl-14 lg:px-14">
         <h3 className="xl:text-xl">{description}</h3>
       </section>
-      {experienceView === "detailed" && children}
+      {experience === "detailed" && children}
     </article>
   );
 }

@@ -6,28 +6,28 @@ import Resposibilities from "./components/Responsibilities";
 import GreatestChallenge from "./components/GreatestChallenge";
 import ExperienceItem from "./components/ExperienceItem";
 
-export const ExperienceViewContext = createContext("");
+export const ExperienceContext = createContext("");
 
 export default function Experience() {
-  const [experienceView, setExperienceView] = useState("simple");
+  const [experience, setExperience] = useState("simple");
 
   return (
-    <ExperienceViewContext.Provider value={experienceView}>
+    <ExperienceContext.Provider value={experience}>
       <main className="container mx-auto px-4 md:px-5 xl:px-6 pt-6 md:pt-8 xl:pt-12">
         <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 md:mb-6 xl:mb-8 flex items-center gap-x-3">
           <span>Experience</span>
           <span className="text-sm lg:text-base">
             (
             <button
-              className={`${experienceView === "simple" ? "underline" : ""}`}
-              onClick={() => setExperienceView("simple")}
+              className={`${experience === "simple" ? "underline" : ""}`}
+              onClick={() => setExperience("simple")}
             >
               simple
             </button>{" "}
             |{" "}
             <button
-              className={`${experienceView === "detailed" ? "underline" : ""}`}
-              onClick={() => setExperienceView("detailed")}
+              className={`${experience === "detailed" ? "underline" : ""}`}
+              onClick={() => setExperience("detailed")}
             >
               detailed
             </button>
@@ -172,6 +172,6 @@ export default function Experience() {
           </GreatestChallenge>
         </ExperienceItem>
       </main>
-    </ExperienceViewContext.Provider>
+    </ExperienceContext.Provider>
   );
 }
