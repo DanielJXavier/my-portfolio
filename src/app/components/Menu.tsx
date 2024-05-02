@@ -10,16 +10,14 @@ export default function Menu() {
   const [menu, setMenu] = useState(false);
 
   useEffect(() => {
+    document.body.style.overflow = menu ? "hidden" : "visible";
+  }, [menu]);
+
+  useEffect(() => {
     if (menu) {
       setMenu(!menu);
     }
   }, [pathname]); // eslint-disable-line react-hooks/exhaustive-deps
-
-  const handleClick = () => {
-    document.body.style.overflow = menu ? "visible" : "hidden";
-
-    setMenu(!menu);
-  };
 
   return (
     <nav>
@@ -27,7 +25,9 @@ export default function Menu() {
         className={`p-1.5 flex items-center justify-center gap-y-1 flex-col [&_hr]:hover:border-t-[#fff] ${
           menu ? "relative [&_hr]:border-t-[#fff]" : ""
         } md:hidden`}
-        onClick={handleClick}
+        onClick={() => {
+          setMenu(!menu);
+        }}
       >
         <hr
           className={`w-5 border-t-2 border-t-[#888] ${
