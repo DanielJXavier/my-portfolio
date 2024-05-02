@@ -14,8 +14,6 @@ export default function Menu() {
     if (menu) {
       setMenu(!menu);
     }
-
-    console.log(pathname);
   }, [pathname]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleClick = () => {
