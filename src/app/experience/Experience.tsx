@@ -41,30 +41,33 @@ export default function Experience() {
           year="2024"
           role="Software Engineering Manager"
           company="Grupo OLX"
-          description="I was a leader of the &ldquo;Ads Seller Experience&rdquo; team."
+          description="I was the leader of the &ldquo;Ads Seller Experience&rdquo; team."
         >
           <Resposibilities>
             <li>
-              To directly lead all developers (9 devs) on the team, acting as a
-              reference;
+              Spearheading a team of 9 developers, serving as a mentor and
+              guiding light;
             </li>
             <li>
-              To ensure delivery of the platform&apos;s registration and ad
-              management system roadmap;
+              Guaranteeing the successful execution of the platform&apos;s
+              registration and ad management system roadmap;
             </li>
-            <li>To bring engagement to the team;</li>
+            <li>Cultivating a high level of engagement within the team;</li>
             <li>
-              To do &ldquo;1:1s&rdquo; and help those led to execute their
-              performance cycle;
+              Conducting personalized &ldquo;1:1s&rdquo; to guide team members
+              through their performance cycles;
             </li>
-            <li>To apply agile methodologies and conduct team ceremonies;</li>
             <li>
-              To support the Product Manager to make the best decisions for the
-              product;
+              Implementing agile methodologies and leading team ceremonies to
+              ensure a streamlined workflow;
+            </li>
+            <li>
+              Collaborating closely with the Product Manager to facilitate
+              informed and effective product decisions;
             </li>
           </Resposibilities>
           <GreatestChallenge>
-            To handle the high expectations of leaders for short-term
+            Navigating the high-pressure demands of leadership for swift
             deliveries.
           </GreatestChallenge>
         </ExperienceItem>
@@ -75,36 +78,37 @@ export default function Experience() {
           year="2023"
           role="Software Engineering Manager"
           company="Grupo OLX"
-          description="I was a leader of the &ldquo;Search & Recommendation&rdquo; team&sup1; and the &ldquo;Design System&rdquo; chapter&sup2;."
+          description="I was the leader of the &ldquo;Search & Recommendation&rdquo; team&sup1; and the &ldquo;Design System&rdquo; chapter&sup2;."
         >
           <Resposibilities>
             <li>
-              To directly lead all developers (8 devs) on the team, acting as a
-              reference;&sup1;
+              Spearheading a team of 8 developers, serving as a mentor and
+              guiding light;¹
             </li>
             <li>
-              To ensure delivery of the search and recommendation systems
-              roadmap;&sup1;
+              Ensuring the successful execution of the search and recommendation
+              systems roadmap;¹
             </li>
             <li>
-              To organize the team and propose a better structure to support the
-              strategic plan for the next year;&sup1;
+              Structuring the team and proposing an optimized framework to
+              support the strategic plan for the upcoming year;¹
             </li>
             <li>
-              To clarify the company&apos;s understanding of the search and
-              recommendation subjects;&sup1;
+              Demystifying the company&apos;s understanding of search and
+              recommendation subjects;¹
             </li>
             <li>
-              To indirectly lead all developers (9 devs) on the chapter;&sup2;
+              Indirectly supervising all developers (9 devs) in the chapter,
+              fostering a sense of unity and direction;²
             </li>
             <li>
-              To bring engagement to the chapter and make valuable deliveries by
-              working just once a week;&sup2;
+              Cultivating engagement within the chapter and ensuring valuable
+              deliveries despite working only once a week;²
             </li>
           </Resposibilities>
           <GreatestChallenge>
-            To handle both big responsibilities (team&sup1; and chapter&sup2;)
-            at the same time.
+            Balancing the substantial responsibilities of both the team¹ and the
+            chapter² simultaneously.
           </GreatestChallenge>
         </ExperienceItem>
         <ExperienceItem
@@ -114,34 +118,33 @@ export default function Experience() {
           year="2022~2023"
           role="Software Engineering Manager"
           company="Grupo OLX"
-          description="I was a leader of the &ldquo;Design System&rdquo; team."
+          description="I was the leader of the &ldquo;Design System&rdquo; team."
         >
           <Resposibilities>
             <li>
-              To directly lead all developers (9 devs) on the team, acting as a
-              reference;
+              Leading a team of 9 developers, serving as a point of reference;
             </li>
             <li>
-              To partner with the Design Manager to make the best decisions for
-              the product and create a roadmap;
+              Collaborating with the Design Manager to make optimal product
+              decisions and establish a roadmap;
             </li>
-            <li>To ensure delivery of the Design System script;</li>
+            <li>Guaranteeing the delivery of the Design System roadmap;</li>
             <li>
-              To collect and analyze data to ensure the project was valuable to
-              the company;
-            </li>
-            <li>
-              To ensure that the Design System is evolving and is used by other
-              teams;
+              Collecting and analyzing data to validate the project&apos;s value
+              to the company;
             </li>
             <li>
-              To create documentations and processes for contributing to the
+              Ensuring the continuous evolution of the Design System and its
+              adoption by other teams;
+            </li>
+            <li>
+              Developing documentation and processes for contributing to the
               Design System project and managing its version;
             </li>
           </Resposibilities>
           <GreatestChallenge>
-            To perform several roles (Engineering Manager, Product Manager, Data
-            Analyst, etc.) at the same time.
+            Simultaneously assuming multiple roles, including Engineering
+            Manager, Product Manager, Data Analyst, among others.
           </GreatestChallenge>
         </ExperienceItem>
         <ExperienceItem
@@ -151,32 +154,31 @@ export default function Experience() {
           year="2021~2022"
           role="Software Engineering Manager"
           company="Grupo OLX"
-          description="I was a leader of the &ldquo;Advertising&rdquo; team."
+          description="I was the leader of the &ldquo;Advertising&rdquo; team."
         >
           <Resposibilities>
             <li>
-              To directly lead all developers (7 devs) on the team, acting as a
+              Directly leading a team of 7 developers, serving as a key
               reference;
             </li>
             <li>
-              To ensure delivery of the platform&apos;s direct and indirect
-              Advertising roadmap;
+              Ensuring the delivery of both direct and indirect Advertising
+              roadmaps for the platform;
             </li>
             <li>
-              To hire new professionals to get the necessary productive
-              capacity;
+              Recruiting new professionals to increase productive capacity;
             </li>
             <li>
-              To partner actively with the Product Manager to prioritize and
-              develop the best initiatives;
+              Actively partnering with the Product Manager to prioritize and
+              develop optimal initiatives;
             </li>
             <li>
-              To propose a new structure for the Advertising area to get better
+              Proposing a new structure for the Advertising area to enhance
               results;
             </li>
           </Resposibilities>
           <GreatestChallenge>
-            To manage high expectations regarding Advertising revenue results.
+            Managing high expectations related to Advertising revenue results.
           </GreatestChallenge>
         </ExperienceItem>
         <ExperienceItem
@@ -186,20 +188,19 @@ export default function Experience() {
           year="2023"
           role="CTO & Partner"
           company="Meaning"
-          description="I was the CTO and partner at the startup."
+          description="I held the position of CTO and co-founder at the startup."
         >
           <Resposibilities>
             <li>
-              To create the technical vision and product strategy for the
-              company;
+              Crafting the company&apos;s technical vision and product strategy;
             </li>
-            <li>To architect the solution from scratch;</li>
-            <li>To refine the technical requirements of the product;</li>
-            <li>To create a Proof of Concept project;</li>
+            <li>Architecting the solution from the ground up;</li>
+            <li>Refining the product&apos;s technical specifications;</li>
+            <li>Developing a Proof of Concept project;</li>
           </Resposibilities>
           <GreatestChallenge>
-            To transform a very &ldquo;human&rdquo; project based on personal
-            consultancy into a system.
+            Converting a highly &ldquo;human-centric&rdquo; project, rooted in
+            personal consultancy, into a systematic approach.
           </GreatestChallenge>
         </ExperienceItem>
         <ExperienceItem
@@ -209,38 +210,41 @@ export default function Experience() {
           year="2020~2021"
           role="Development Coordinator"
           company="Softplan"
-          description="I was a leader of the &ldquo;Estônia&rdquo; team."
+          description="I was the leader of the &ldquo;Estônia&rdquo; team."
         >
           <Resposibilities>
             <li>
-              To directly lead a multidisciplinary software development team,
-              composed of Software Architects, Developers, Quality Insurance
-              Analysts, Product Owners, Business Analysts, and Agile Masters;
+              Direct leadership of a multidisciplinary software development
+              team, inclusive of Software Architects, Developers, Quality
+              Assurance Analysts, Product Owners, Business Analysts, and Agile
+              Masters;
             </li>
             <li>
-              To mentor, and develop the employees (direct and indirect) using
-              techniques such as One-on-One and feedforward;
+              Mentoring and development of both direct and indirect employees,
+              utilizing techniques such as One-on-One and feedforward;
             </li>
             <li>
-              To plan and execute the deliveries of the most important modules
+              Planning and execution of deliveries for the most critical modules
               of the &ldquo;SAJ&rdquo; system;
             </li>
             <li>
-              To daily practice situational leadership to explore all the
-              potential of those led in the best possible way;
+              Daily application of situational leadership to maximize the
+              potential of those under my guidance;
             </li>
             <li>
-              To structure (and continuously improve) the team&apos;s workflow
+              Structuring and continuous enhancement of the team&apos;s workflow
               using agile software development methodologies;
             </li>
             <li>
-              To create formulas and metrics to identify the (realistic)
-              capacity of the team, and bring predictability to deliveries;
+              Creation of formulas and metrics to accurately gauge the
+              team&apos;s capacity, thereby bringing predictability to
+              deliveries;
             </li>
-            <li>To map the most effective talent retention strategies;</li>
+            <li>Mapping of effective talent retention strategies;</li>
           </Resposibilities>
           <GreatestChallenge>
-            To manage a huge team (28 professionals) and critical deliveries.
+            Managing a large team (comprising 28 professionals) and overseeing
+            critical deliveries.
           </GreatestChallenge>
         </ExperienceItem>
         <ExperienceItem
@@ -254,27 +258,27 @@ export default function Experience() {
         >
           <Resposibilities>
             <li>
-              To develop the new &ldquo;SAJ&rdquo; system, built using React JS,
-              .Net, and GraphQL;
+              Development of the new &ldquo;SAJ&rdquo; system, constructed using
+              React JS, .Net, and GraphQL;
             </li>
             <li>
-              To be responsible for the deliveries and deployment of 17 modules
-              of the system;
+              Oversight of the deliveries and deployment of 17 modules of the
+              system;
             </li>
             <li>
-              To provide training in HTML, CSS, JavaScript, React JS, GraphQL,
+              Provision of training in HTML, CSS, JavaScript, React JS, GraphQL,
               and unit tests;
             </li>
-            <li>To lead a team (10 devs) of Front-End React developers;</li>
-            <li>To hire new employees to the company;</li>
-            <li>To choose new contractor professionals;</li>
+            <li>Leadership of a team of 10 Front-End React developers;</li>
+            <li>Recruitment of new employees for the company;</li>
+            <li>Selection of new contractor professionals;</li>
             <li>
-              To develop the professionals (One-on-one, Feedbacks, Feedforwards,
-              Mentoring);
+              Professional development through One-on-one sessions, Feedbacks,
+              Feedforwards, and Mentoring;
             </li>
           </Resposibilities>
           <GreatestChallenge>
-            To learn leadership skills and people management.
+            Acquiring leadership skills and mastering people management.
           </GreatestChallenge>
         </ExperienceItem>
         <ExperienceItem
@@ -282,22 +286,22 @@ export default function Experience() {
           via="before:via-[#5d5ef1]"
           logoPath="/softplan_logo.jpg"
           year="2018~2019"
-          role="Tech Lead"
+          role="Senior Front-End Developer"
           company="Softplan"
           description="I was a Senior Front-End developer at the &ldquo;França&rdquo; team."
         >
           <Resposibilities>
             <li>
-              To develop new features for the &ldquo;e-SAJ&rdquo; portal using
-              React JS and GraphQL;
+              Development of new features for the &ldquo;e-SAJ&rdquo; portal
+              utilizing React JS and GraphQL;
             </li>
             <li>
-              To develop new features for the &ldquo;SAJ Tribunais&rdquo; system
-              using React JS and GraphQL;
+              Creation of new features for the &ldquo;SAJ Tribunais&rdquo;
+              system using React JS and GraphQL;
             </li>
           </Resposibilities>
           <GreatestChallenge>
-            To do all the deliveries of the project as the only Front-End
+            Managing all the deliveries of the project as the sole Front-End
             developer.
           </GreatestChallenge>
         </ExperienceItem>
@@ -312,16 +316,18 @@ export default function Experience() {
         >
           <Resposibilities>
             <li>
-              To develop systems to solve the internal demands of the company
-              and automate tasks using technologies such as Vue.js and Node.js;
+              Developing systems to address the company&apos;s internal needs
+              and automate tasks, leveraging technologies such as Vue.js and
+              Node.js;
             </li>
             <li>
-              To develop a POC with a new way of registering products on the
-              platform in a simple way;
+              Creating a Proof of Concept (POC) that introduced a simplified
+              method for product registration on the platform;
             </li>
           </Resposibilities>
           <GreatestChallenge>
-            To clearly understand customer needs and to code at the same time.
+            Balancing the need to comprehend customer requirements clearly while
+            simultaneously coding.
           </GreatestChallenge>
         </ExperienceItem>
         <ExperienceItem
@@ -335,21 +341,21 @@ export default function Experience() {
         >
           <Resposibilities>
             <li>
-              To develop a system to generate blog post images using components
-              and pre-defined templates to increase the designer&apos;s team
-              productivity;
+              Designing a system to generate blog post images using components
+              and pre-defined templates, thereby enhancing the productivity of
+              the design team;
             </li>
             <li>
-              To develop a high-performance caching system for the
-              &ldquo;Hotmart blog&rdquo; (WordPress) that brought a 300%
-              performance increase;
+              Developing a high-performance caching system for the
+              &ldquo;Hotmart blog&rdquo; (WordPress), which resulted in a 300%
+              increase in performance;
             </li>
             <li>
-              To implement the Arabic version of the &ldquo;Hotmart blog&rdquo;;
+              Implementing the Arabic version of the &ldquo;Hotmart blog&rdquo;;
             </li>
           </Resposibilities>
           <GreatestChallenge>
-            To create complex solutions from scratch;
+            Conceptualizing and developing complex solutions from the ground up.
           </GreatestChallenge>
         </ExperienceItem>
         <ExperienceItem
@@ -363,14 +369,19 @@ export default function Experience() {
         >
           <Resposibilities>
             <li>
-              To develop a new WordPress theme for the &ldquo;Hotmart
-              blog&rdquo; using Vanilla JS and CSS Grid Layout;
+              Developing a new WordPress theme for the &ldquo;Hotmart
+              blog&rdquo; utilizing only HTML5, CSS Grid Layout and Vanilla JS;
             </li>
-            <li>To implement the new &ldquo;Hotmart blog&rdquo; layout;</li>
-            <li>To develop custom features in the WordPress admin;</li>
+            <li>
+              Implementing the new layout for the &ldquo;Hotmart blog&rdquo;;
+            </li>
+            <li>
+              Creating custom features within the WordPress admin interface;
+            </li>
           </Resposibilities>
           <GreatestChallenge>
-            To learn new development skills and apply them in complex projects.
+            Acquiring new development skills and applying them to complex
+            projects.
           </GreatestChallenge>
         </ExperienceItem>
         <ExperienceItem
@@ -384,19 +395,26 @@ export default function Experience() {
           hasBlackLogo={true}
         >
           <Resposibilities>
-            <li>To develop some web projects using WordPress and Magento;</li>
             <li>
-              To make the modeling and automation of internal processes of the
-              company using BPMN;
+              Spearheading the development of web projects utilizing WordPress
+              and Magento;
             </li>
-            <li>To give technical support to users of company systems;</li>
             <li>
-              To make infrastructure configuration and monitoring of Linux and
-              Windows servers;
+              Facilitating the modeling and automation of the company&apos;s
+              internal processes through BPMN;
+            </li>
+            <li>
+              Providing comprehensive technical support to users of the
+              company&apos;s systems;
+            </li>
+            <li>
+              Overseeing the configuration and monitoring of both Linux and
+              Windows servers.
             </li>
           </Resposibilities>
           <GreatestChallenge>
-            To quickly learn development skills and work on legacy projects;
+            Rapidly acquiring development skills and contributing to legacy
+            projects.
           </GreatestChallenge>
         </ExperienceItem>
         <ExperienceItem
@@ -410,17 +428,22 @@ export default function Experience() {
           hasBlackLogo={true}
         >
           <Resposibilities>
-            <li>To give technical support to users of company systems;</li>
             <li>
-              To make infrastructure configuration and monitoring of Linux and
-              Windows servers;
+              Providing technical support to users of the company&apos;s
+              systems;
             </li>
-            <li>To make reports of the team;</li>
-            <li>To give infrastructure support for the company employees;</li>
+            <li>
+              Configuring and monitoring infrastructure on Linux and Windows
+              servers;
+            </li>
+            <li>Compiling team reports;</li>
+            <li>
+              Offering infrastructure support to the company&apos;s employees.
+            </li>
           </Resposibilities>
           <GreatestChallenge>
-            To learn many new things and deal with it together with the
-            university;
+            Simultaneously learning a multitude of new concepts and balancing
+            them with my university commitments.
           </GreatestChallenge>
         </ExperienceItem>
       </main>
