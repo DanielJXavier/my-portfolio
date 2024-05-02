@@ -1,9 +1,8 @@
-"use client";
-
 import { useEffect, useState } from "react";
 
-import Link from "next/link";
 import { usePathname } from "next/navigation";
+
+import MenuItem from "./MenuItem";
 
 export default function Menu() {
   const pathname = usePathname();
@@ -45,34 +44,13 @@ export default function Menu() {
         />
       </button>
       <ul
-        className={`absolute md:relative top-[38px] md:top-0 right-0 left-0 h-[calc(100vh-46px)] md:h-auto px-4 py-2 bg-[#000] z-50 text-xl lg:text-2xl font-light ${
+        className={`absolute md:relative top-[38px] md:top-0 right-0 left-0 h-[calc(100vh-46px)] md:h-auto px-4 py-2 bg-[#000] z-50 text-lg lg:text-xl font-light ${
           !menu ? "hidden md:flex" : ""
         } flex flex-col md:flex-row gap-y-2 md:gap-x-4`}
       >
-        <li>
-          <Link
-            className={`${
-              pathname === "/experience"
-                ? "text-[#fff] cursor-default underline"
-                : ""
-            } decoration-0 underline-offset-2 hover:text-[#fff] hover:underline`}
-            href="/experience"
-          >
-            Experience
-          </Link>
-        </li>
-        <li>
-          <Link
-            className={`${
-              pathname === "/recommendations"
-                ? "text-[#fff] cursor-default underline"
-                : ""
-            } decoration-0 underline-offset-2 hover:text-[#fff] hover:underline`}
-            href="/recommendations"
-          >
-            Recommendations
-          </Link>
-        </li>
+        <MenuItem href="/experience">Experience</MenuItem>
+        <MenuItem href="/education">Education</MenuItem>
+        <MenuItem href="/recommendations">Recommendations</MenuItem>
       </ul>
     </nav>
   );
