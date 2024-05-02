@@ -44,7 +44,7 @@ export default function Experience() {
           logoPath="/grupoolx_logo.jpg"
           year="2024"
           role="Software Engineering Manager"
-          company="Grupo OLX"
+          company="OLX"
           description="I was the leader of the &ldquo;Ads Seller Experience&rdquo; team."
         >
           <Resposibilities>
@@ -81,7 +81,7 @@ export default function Experience() {
           logoPath="/grupoolx_logo.jpg"
           year="2023"
           role="Software Engineering Manager"
-          company="Grupo OLX"
+          company="OLX"
           description="I was the leader of the &ldquo;Search & Recommendation&rdquo; team&sup1; and the &ldquo;Design System&rdquo; chapter&sup2;."
         >
           <Resposibilities>
@@ -121,7 +121,7 @@ export default function Experience() {
           logoPath="/grupoolx_logo.jpg"
           year="2022~2023"
           role="Software Engineering Manager"
-          company="Grupo OLX"
+          company="OLX"
           description="I was the leader of the &ldquo;Design System&rdquo; team."
         >
           <Resposibilities>
@@ -157,7 +157,7 @@ export default function Experience() {
           logoPath="/grupoolx_logo.jpg"
           year="2021~2022"
           role="Software Engineering Manager"
-          company="Grupo OLX"
+          company="OLX"
           description="I was the leader of the &ldquo;Advertising&rdquo; team."
         >
           <Resposibilities>
