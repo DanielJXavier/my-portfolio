@@ -20,7 +20,7 @@ export default function Experience() {
             (
             <button
               className={`${
-                experience === "simple" ? "underline" : ""
+                experience === "simple" ? "text-[#fff] underline" : ""
               } hover:text-[#fff] hover:underline`}
               onClick={() => setExperience("simple")}
             >
@@ -29,7 +29,7 @@ export default function Experience() {
             |{" "}
             <button
               className={`${
-                experience === "detailed" ? "underline" : ""
+                experience === "detailed" ? "text-[#fff] underline" : ""
               } hover:text-[#fff] hover:underline`}
               onClick={() => setExperience("detailed")}
             >
