@@ -373,6 +373,56 @@ export default function Experience() {
             To learn new development skills and apply them in complex projects.
           </GreatestChallenge>
         </ExperienceItem>
+        <ExperienceItem
+          from="before:from-[#fff]"
+          via="before:via-[#fff]"
+          logoPath="/sydle_logo.jpg"
+          year="2014~2016"
+          role="Support Analyst"
+          company="Sydle"
+          description="I was a Support Analyst at the &ldquo;Suporte & Sustentação&rdquo; team."
+          hasBlackLogo={true}
+        >
+          <Resposibilities>
+            <li>To develop some web projects using WordPress and Magento;</li>
+            <li>
+              To make the modeling and automation of internal processes of the
+              company using BPMN;
+            </li>
+            <li>To give technical support to users of company systems;</li>
+            <li>
+              To make infrastructure configuration and monitoring of Linux and
+              Windows servers;
+            </li>
+          </Resposibilities>
+          <GreatestChallenge>
+            To learn development skills fast and manage legacy projects;
+          </GreatestChallenge>
+        </ExperienceItem>
+        <ExperienceItem
+          from="before:from-[#fff]"
+          via="before:via-[#fff]"
+          logoPath="/sydle_logo.jpg"
+          year="2012~2014"
+          role="Support Intern"
+          company="Sydle"
+          description="I was a Support Intern at the &ldquo;Suporte & Sustentação&rdquo; team."
+          hasBlackLogo={true}
+        >
+          <Resposibilities>
+            <li>To give technical support to users of company systems;</li>
+            <li>
+              To make infrastructure configuration and monitoring of Linux and
+              Windows servers;
+            </li>
+            <li>To make reports of the team;</li>
+            <li>To give infrastructure support for the company employees;</li>
+          </Resposibilities>
+          <GreatestChallenge>
+            To learn many new things and dealing with it together with the
+            university;
+          </GreatestChallenge>
+        </ExperienceItem>
       </main>
     </ExperienceContext.Provider>
   );
