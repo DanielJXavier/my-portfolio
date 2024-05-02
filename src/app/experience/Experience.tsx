@@ -396,7 +396,7 @@ export default function Experience() {
             </li>
           </Resposibilities>
           <GreatestChallenge>
-            To learn development skills fast and manage legacy projects;
+            To quickly learn development skills and work on legacy projects;
           </GreatestChallenge>
         </ExperienceItem>
         <ExperienceItem
@@ -419,7 +419,7 @@ export default function Experience() {
             <li>To give infrastructure support for the company employees;</li>
           </Resposibilities>
           <GreatestChallenge>
-            To learn many new things and dealing with it together with the
+            To learn many new things and deal with it together with the
             university;
           </GreatestChallenge>
         </ExperienceItem>
