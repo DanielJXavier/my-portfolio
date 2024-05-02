@@ -15,31 +15,35 @@ export default function Page() {
             Hey I&apos;m Daniel
           </h1>
           <p className="mb-4 text-sm md:text-base text-justify">
-            With over 10 years of web development experience and a master&apos;s
-            degree in strategic people management, I am a passionate and skilled
+            With a decade-long web development journey and an MBA in strategic
+            people management, I&apos;ve honed my skills to become a dedicated
             technical leader.
           </p>
           <p className="mb-4 text-sm md:text-base text-justify">
-            My mission is to develop great solutions to complex problems in a
-            simple way, using JavaScript or frameworks and libraries like
-            React.js and Node.js, which I have mastered over the years. I also
-            love teaching and helping others, so I lead and mentor teams of
-            talented engineers who work on the search and recommendation systems
-            and the design system of the OLX platform, the global leader in
-            online classifieds.
+            My mission is to craft elegant solutions to intricate problems,
+            leveraging my expertise in JavaScript and its associated frameworks
+            and libraries such as React.js and Node.js. My passion extends
+            beyond development; I thrive on imparting knowledge and fostering
+            growth, leading me to mentor a team of exceptional engineers at OLX,
+            a global frontrunner in online classifieds. Our team is responsible
+            for the search and recommendation systems and the design system of
+            the platform.
           </p>
           <p className="mb-4 text-sm md:text-base text-justify">
-            In my previous roles, I have learned and applied some management
-            skills that gave me a huge advantage and made me an even better
-            professional, such as emotional intelligence, collaborative design,
-            and agile methodologies. I am always eager to learn new things and
-            face new challenges, and I believe that technology can make a
-            positive impact on people&apos;s lives and society.
+            In my past roles, I&apos;ve acquired and applied pivotal management
+            skills such as emotional intelligence, collaborative design, and
+            agile methodologies. These skills have not only given me a
+            competitive edge but also shaped me into a well-rounded
+            professional. I am driven by an insatiable curiosity to learn and a
+            readiness to take on new challenges. I firmly believe in the
+            transformative power of technology and its potential to positively
+            impact society.
           </p>
           <p className="mb-4 text-sm md:text-base text-justify">
-            Besides technology, I enjoy photographing landscapes and playing
-            sports. I speak Portuguese, English, and Spanish, and I am open to
-            new opportunities and connections. Let&apos;s talk!
+            Besides technology, I find joy in capturing the beauty of landscapes
+            through my lens and staying active with sports. I am always open to
+            exploring new opportunities and forging meaningful connections.
+            Let&apos;s engage in a conversation!
           </p>
         </div>
         <div className="flex items-center justify-center">
