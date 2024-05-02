@@ -30,21 +30,21 @@ export default function Menu() {
         }}
       >
         <hr
-          className={`w-5 border-t-2 border-t-[#888] ${
+          className={`w-5 border-t-2 border-t-[#bbb] ${
             menu ? "absolute rotate-45" : ""
           }`}
         />
         <hr
-          className={`w-5 border-t-2 border-t-[#888] ${menu ? "hidden" : ""}`}
+          className={`w-5 border-t-2 border-t-[#bbb] ${menu ? "hidden" : ""}`}
         />
         <hr
-          className={`w-5 border-t-2 border-t-[#888] ${
+          className={`w-5 border-t-2 border-t-[#bbb] ${
             menu ? "absolute rotate-[-45deg]" : ""
           }`}
         />
       </button>
       <ul
-        className={`absolute md:relative top-[38px] md:top-0 right-0 left-0 h-[calc(100vh-46px)] md:h-auto px-4 py-2 bg-[#000] z-50 text-lg lg:text-xl font-light ${
+        className={`absolute md:relative top-[38px] md:top-0 right-0 left-0 h-[calc(100vh-46px)] md:h-auto px-4 py-2 bg-[#000] md:bg-transparent z-50 text-lg lg:text-xl font-light ${
           !menu ? "hidden md:flex" : ""
         } flex flex-col md:flex-row gap-y-2 md:gap-x-4`}
       >
