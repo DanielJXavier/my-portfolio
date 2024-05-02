@@ -1,5 +1,3 @@
-import { ReactNode } from "react";
-
 type ResposibilitiesProps = {
   items: string[];
 };
