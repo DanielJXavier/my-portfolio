@@ -19,14 +19,18 @@ export default function Experience() {
           <span className="text-sm lg:text-base">
             (
             <button
-              className={`${experience === "simple" ? "underline" : ""}`}
+              className={`${
+                experience === "simple" ? "underline" : ""
+              } hover:text-[#fff] hover:underline`}
               onClick={() => setExperience("simple")}
             >
               simple
             </button>{" "}
             |{" "}
             <button
-              className={`${experience === "detailed" ? "underline" : ""}`}
+              className={`${
+                experience === "detailed" ? "underline" : ""
+              } hover:text-[#fff] hover:underline`}
               onClick={() => setExperience("detailed")}
             >
               detailed
