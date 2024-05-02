@@ -63,6 +63,18 @@ export default function Menu() {
             Experience
           </Link>
         </li>
+        <li>
+          <Link
+            className={`${
+              pathname === "/recommendations"
+                ? "text-[#fff] cursor-default underline"
+                : ""
+            } decoration-0 underline-offset-2 hover:text-[#fff] hover:underline`}
+            href="/recommendations"
+          >
+            Recommendations
+          </Link>
+        </li>
       </ul>
     </nav>
   );
