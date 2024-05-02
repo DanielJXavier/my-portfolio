@@ -35,7 +35,8 @@ export default function Experience() {
           </span>
         </h1>
         <ExperienceItem
-          logoPath="/grupoolx_logo.jpeg"
+          from="before:from-[#6d0ad5]"
+          via="before:via-[#6d0ad5]"
           year="2024"
           role="Software Engineering Manager"
           company="Grupo OLX"
@@ -67,7 +68,8 @@ export default function Experience() {
           </GreatestChallenge>
         </ExperienceItem>
         <ExperienceItem
-          logoPath="/grupoolx_logo.jpeg"
+          from="before:from-[#6d0ad5]"
+          via="before:via-[#6d0ad5]"
           year="2023"
           role="Software Engineering Manager"
           company="Grupo OLX"
@@ -104,7 +106,8 @@ export default function Experience() {
           </GreatestChallenge>
         </ExperienceItem>
         <ExperienceItem
-          logoPath="/grupoolx_logo.jpeg"
+          from="before:from-[#6d0ad5]"
+          via="before:via-[#6d0ad5]"
           year="2022~2023"
           role="Software Engineering Manager"
           company="Grupo OLX"
@@ -139,7 +142,8 @@ export default function Experience() {
           </GreatestChallenge>
         </ExperienceItem>
         <ExperienceItem
-          logoPath="/grupoolx_logo.jpeg"
+          from="before:from-[#6d0ad5]"
+          via="before:via-[#6d0ad5]"
           year="2021~2022"
           role="Software Engineering Manager"
           company="Grupo OLX"

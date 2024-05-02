@@ -5,6 +5,8 @@ import Image from "next/image";
 import { ExperienceContext } from "../Experience";
 
 type ExperienceItemProps = {
+  from: string;
+  via: string;
   logoPath: string;
   year: string;
   role: string;
@@ -14,6 +16,8 @@ type ExperienceItemProps = {
 };
 
 export default function ExperienceItem({
+  from,
+  via,
   logoPath,
   year,
   role,
@@ -24,7 +28,9 @@ export default function ExperienceItem({
   const experience = useContext(ExperienceContext);
 
   return (
-    <article className="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-[#6d0ad5] before:via-[#6d0ad5] before:to-[#000] before:-z-10">
+    <article
+      className={`my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b ${from} ${via} before:to-[#000] before:-z-10`}
+    >
       <header className="flex items-start gap-x-2">
         <Image
           className="rounded-full"
