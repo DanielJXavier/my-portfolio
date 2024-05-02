@@ -1,11 +1,10 @@
+import Title from "@/app/components/Title";
 import Recommendation from "./components/Recommendation";
 
 export default function Page() {
   return (
     <>
-      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 md:mb-6 xl:mb-8 flex items-center gap-x-3">
-        Recommendations
-      </h1>
+      <Title>Recommendations</Title>
       <Recommendation
         author="Camilla Polli"
         role="Design Manager"

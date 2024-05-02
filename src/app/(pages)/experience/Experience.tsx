@@ -2,6 +2,7 @@
 
 import { createContext, useState } from "react";
 
+import Title from "@/app/components/Title";
 import Resposibilities from "./components/Responsibilities";
 import GreatestChallenge from "./components/GreatestChallenge";
 import ExperienceItem from "./components/ExperienceItem";
@@ -13,10 +14,9 @@ export default function Experience() {
 
   return (
     <ExperienceContext.Provider value={experience}>
-      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 md:mb-6 xl:mb-8 flex items-center gap-x-3">
-        <span>Experience</span>
-        <span className="text-sm lg:text-base">
-          (
+      <Title>Experience</Title>
+      <menu className="text-sm lg:text-base flex gap-x-1">
+        <li>
           <button
             className={`${
               experience === "simple" ? "text-[#fff] underline" : ""
@@ -24,8 +24,10 @@ export default function Experience() {
             onClick={() => setExperience("simple")}
           >
             simple
-          </button>{" "}
-          |{" "}
+          </button>
+        </li>
+        <li>|</li>
+        <li>
           <button
             className={`${
               experience === "detailed" ? "text-[#fff] underline" : ""
@@ -34,9 +36,8 @@ export default function Experience() {
           >
             detailed
           </button>
-          )
-        </span>
-      </h1>
+        </li>
+      </menu>
       <ExperienceItem
         from="before:from-[#6d0ad5]"
         via="before:via-[#6d0ad5]"

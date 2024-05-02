@@ -1,13 +1,12 @@
 "use client";
 
+import Title from "@/app/components/Title";
 import EducationItem from "./components/EducationItem";
 
 export default function Page() {
   return (
     <>
-      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 md:mb-6 xl:mb-8 flex items-center gap-x-3">
-        Education
-      </h1>
+      <Title>Education</Title>
       <EducationItem
         from="before:from-[#2f4ccc]"
         via="via:from-[#2f4ccc]"
