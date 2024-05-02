@@ -202,6 +202,105 @@ export default function Experience() {
             consultancy into a system.
           </GreatestChallenge>
         </ExperienceItem>
+        <ExperienceItem
+          from="before:from-[#5d5ef1]"
+          via="before:via-[#5d5ef1]"
+          logoPath="/softplan_logo.jpg"
+          year="2020~2021"
+          role="Development Coordinator"
+          company="Softplan"
+          description="I was a leader of the &ldquo;Estônia&rdquo; team."
+        >
+          <Resposibilities>
+            <li>
+              To directly lead a multidisciplinary software development team,
+              composed of Software Architects, Developers, Quality Insurance
+              Analysts, Product Owners, Business Analysts, and Agile Masters;
+            </li>
+            <li>
+              To mentor, and develop the employees (direct and indirect) using
+              techniques such as One-on-One and feedforward;
+            </li>
+            <li>
+              To plan and execute the deliveries of the most important modules
+              of the &ldquo;SAJ&rdquo; system;
+            </li>
+            <li>
+              To daily practice situational leadership to explore all the
+              potential of those led in the best possible way;
+            </li>
+            <li>
+              To structure (and continuously improve) the team&apos;s workflow
+              using agile software development methodologies;
+            </li>
+            <li>
+              To create formulas and metrics to identify the (realistic)
+              capacity of the team, and bring predictability to deliveries;
+            </li>
+            <li>To map the most effective talent retention strategies;</li>
+          </Resposibilities>
+          <GreatestChallenge>
+            To manage a huge team (28 professionals) and critical deliveries.
+          </GreatestChallenge>
+        </ExperienceItem>
+        <ExperienceItem
+          from="before:from-[#5d5ef1]"
+          via="before:via-[#5d5ef1]"
+          logoPath="/softplan_logo.jpg"
+          year="2019~2020"
+          role="Tech Lead"
+          company="Softplan"
+          description="I was the technical leader of the Front-End chapter."
+        >
+          <Resposibilities>
+            <li>
+              To develop the new &ldquo;SAJ&rdquo; system, built using React JS,
+              .Net, and GraphQL;
+            </li>
+            <li>
+              To be responsible for the deliveries and deployment of 17 modules
+              of the system;
+            </li>
+            <li>
+              To provide training in HTML, CSS, JavaScript, React JS, GraphQL,
+              and unit tests;
+            </li>
+            <li>To lead a team (10 devs) of Front-End React developers;</li>
+            <li>To hire new employees to the company;</li>
+            <li>To choose new contractor professionals;</li>
+            <li>
+              To develop the professionals (One-on-one, Feedbacks, Feedforwards,
+              Mentoring);
+            </li>
+          </Resposibilities>
+          <GreatestChallenge>
+            To learn leadership skills and people management.
+          </GreatestChallenge>
+        </ExperienceItem>
+        <ExperienceItem
+          from="before:from-[#5d5ef1]"
+          via="before:via-[#5d5ef1]"
+          logoPath="/softplan_logo.jpg"
+          year="2018~2019"
+          role="Tech Lead"
+          company="Softplan"
+          description="I was a Senior Front-End developer at the &ldquo;França&rdquo; team."
+        >
+          <Resposibilities>
+            <li>
+              To develop new features for the &ldquo;e-SAJ&rdquo; portal using
+              React JS and GraphQL;
+            </li>
+            <li>
+              To develop new features for the &ldquo;SAJ Tribunais&rdquo; system
+              using React JS and GraphQL;
+            </li>
+          </Resposibilities>
+          <GreatestChallenge>
+            To do all the deliveries of the project as the only Front-End
+            developer.
+          </GreatestChallenge>
+        </ExperienceItem>
       </main>
     </ExperienceContext.Provider>
   );
