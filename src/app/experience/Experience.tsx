@@ -301,6 +301,78 @@ export default function Experience() {
             developer.
           </GreatestChallenge>
         </ExperienceItem>
+        <ExperienceItem
+          from="before:from-[#ee4e21]"
+          via="before:via-[#ee4e21]"
+          logoPath="/hotmart_logo.jpg"
+          year="2018"
+          role="Senior Front-End Developer"
+          company="Hotmart"
+          description="I was a Senior Front-End developer at the &ldquo;Growth Hacking&rdquo; team."
+        >
+          <Resposibilities>
+            <li>
+              To develop systems to solve the internal demands of the company
+              and automate tasks using technologies such as Vue.js and Node.js;
+            </li>
+            <li>
+              To develop a POC with a new way of registering products on the
+              platform in a simple way;
+            </li>
+          </Resposibilities>
+          <GreatestChallenge>
+            To clearly understand customer needs and to code at the same time.
+          </GreatestChallenge>
+        </ExperienceItem>
+        <ExperienceItem
+          from="before:from-[#ee4e21]"
+          via="before:via-[#ee4e21]"
+          logoPath="/hotmart_logo.jpg"
+          year="2017~2018"
+          role="Mid Level Front-End Developer"
+          company="Hotmart"
+          description="I was a Mid Level Front-End developer at the &ldquo;User Acquisition&rdquo; team."
+        >
+          <Resposibilities>
+            <li>
+              To develop a system to generate blog post images using components
+              and pre-defined templates to increase the designer&apos;s team
+              productivity;
+            </li>
+            <li>
+              To develop a high-performance caching system for the
+              &ldquo;Hotmart blog&rdquo; (WordPress) that brought a 300%
+              performance increase;
+            </li>
+            <li>
+              To implement the Arabic version of the &ldquo;Hotmart blog&rdquo;;
+            </li>
+          </Resposibilities>
+          <GreatestChallenge>
+            To create complex solutions from scratch;
+          </GreatestChallenge>
+        </ExperienceItem>
+        <ExperienceItem
+          from="before:from-[#ee4e21]"
+          via="before:via-[#ee4e21]"
+          logoPath="/hotmart_logo.jpg"
+          year="2016~2017"
+          role="Entry Level Front-End Developer"
+          company="Hotmart"
+          description="I was a Entry Level Front-End developer at the &ldquo;User Acquisition&rdquo; team."
+        >
+          <Resposibilities>
+            <li>
+              To develop a new WordPress theme for the &ldquo;Hotmart
+              blog&rdquo; using Vanilla JS and CSS Grid Layout;
+            </li>
+            <li>To implement the new &ldquo;Hotmart blog&rdquo; layout;</li>
+            <li>To develop custom features in the WordPress admin;</li>
+          </Resposibilities>
+          <GreatestChallenge>
+            To learn new development skills and apply them in complex projects.
+          </GreatestChallenge>
+        </ExperienceItem>
       </main>
     </ExperienceContext.Provider>
   );
