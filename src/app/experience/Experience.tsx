@@ -37,6 +37,7 @@ export default function Experience() {
         <ExperienceItem
           from="before:from-[#6d0ad5]"
           via="before:via-[#6d0ad5]"
+          logoPath="/grupoolx_logo.jpg"
           year="2024"
           role="Software Engineering Manager"
           company="Grupo OLX"
@@ -70,6 +71,7 @@ export default function Experience() {
         <ExperienceItem
           from="before:from-[#6d0ad5]"
           via="before:via-[#6d0ad5]"
+          logoPath="/grupoolx_logo.jpg"
           year="2023"
           role="Software Engineering Manager"
           company="Grupo OLX"
@@ -108,6 +110,7 @@ export default function Experience() {
         <ExperienceItem
           from="before:from-[#6d0ad5]"
           via="before:via-[#6d0ad5]"
+          logoPath="/grupoolx_logo.jpg"
           year="2022~2023"
           role="Software Engineering Manager"
           company="Grupo OLX"
@@ -144,6 +147,7 @@ export default function Experience() {
         <ExperienceItem
           from="before:from-[#6d0ad5]"
           via="before:via-[#6d0ad5]"
+          logoPath="/grupoolx_logo.jpg"
           year="2021~2022"
           role="Software Engineering Manager"
           company="Grupo OLX"
