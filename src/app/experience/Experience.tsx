@@ -179,6 +179,29 @@ export default function Experience() {
             To manage high expectations regarding Advertising revenue results.
           </GreatestChallenge>
         </ExperienceItem>
+        <ExperienceItem
+          from="before:from-[#8568ec]"
+          via="before:via-[#8568ec]"
+          logoPath="/meaning_logo.jpg"
+          year="2023"
+          role="CTO & Partner"
+          company="Meaning"
+          description="I was the CTO and partner at the startup."
+        >
+          <Resposibilities>
+            <li>
+              To create the technical vision and product strategy for the
+              company;
+            </li>
+            <li>To architect the solution from scratch;</li>
+            <li>To refine the technical requirements of the product;</li>
+            <li>To create a Proof of Concept project;</li>
+          </Resposibilities>
+          <GreatestChallenge>
+            To transform a very &ldquo;human&rdquo; project based on personal
+            consultancy into a system.
+          </GreatestChallenge>
+        </ExperienceItem>
       </main>
     </ExperienceContext.Provider>
   );
