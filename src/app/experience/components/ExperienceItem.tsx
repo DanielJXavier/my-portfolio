@@ -13,6 +13,7 @@ type ExperienceItemProps = {
   company: string;
   description: string;
   children: ReactNode;
+  hasBlackLogo?: boolean;
 };
 
 export default function ExperienceItem({
@@ -24,6 +25,7 @@ export default function ExperienceItem({
   company,
   description,
   children,
+  hasBlackLogo,
 }: ExperienceItemProps) {
   const experience = useContext(ExperienceContext);
 
@@ -33,7 +35,9 @@ export default function ExperienceItem({
     >
       <header className="flex items-start gap-x-2">
         <Image
-          className="rounded-full"
+          className={`rounded-full ${
+            hasBlackLogo ? "border-2 border-solid border-white" : ""
+          }`}
           src={logoPath}
           width={40}
           height={40}
