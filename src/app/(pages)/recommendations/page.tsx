@@ -2,7 +2,7 @@ import Recommendation from "./components/Recommendation";
 
 export default function Page() {
   return (
-    <main className="container mx-auto px-4 md:px-5 xl:px-6 pt-6 md:pt-8 xl:pt-12">
+    <>
       <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 md:mb-6 xl:mb-8 flex items-center gap-x-3">
         Recommendations
       </h1>
@@ -131,6 +131,6 @@ export default function Page() {
           "Daniel has the skill to see not only the micro but also the macro of the situation, so in this way supporting the team to achieve their goals in the best way possible!",
         ]}
       />
-    </main>
+    </>
   );
 }
