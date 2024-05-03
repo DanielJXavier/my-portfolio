@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import { ExperienceContext } from "../Experience";
 
-type ExperienceItemProps = {
+type ExperienceItemProps = Readonly<{
   from: string;
   via: string;
   logoPath: string;
@@ -14,7 +14,7 @@ type ExperienceItemProps = {
   description: string;
   children: ReactNode;
   hasBlackLogo?: boolean;
-};
+}>;
 
 export default function ExperienceItem({
   from,

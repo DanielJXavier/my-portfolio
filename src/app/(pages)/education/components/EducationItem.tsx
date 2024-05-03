@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-type EducationItemProps = {
+type EducationItemProps = Readonly<{
   from: string;
   via: string;
   logoPath: string;
@@ -9,7 +9,7 @@ type EducationItemProps = {
   degree: string;
   years: string;
   disciplines: string[];
-};
+}>;
 
 export default function EducationItem({
   from,

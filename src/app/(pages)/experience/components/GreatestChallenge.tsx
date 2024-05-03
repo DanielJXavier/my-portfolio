@@ -1,6 +1,6 @@
-type GreatestChallengeProps = {
+type GreatestChallengeProps = Readonly<{
   text: string;
-};
+}>;
 
 export default function GreatestChallenge({ text }: GreatestChallengeProps) {
   return (

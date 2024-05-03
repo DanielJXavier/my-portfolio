@@ -1,9 +1,9 @@
-type RecommendationProps = {
+type RecommendationProps = Readonly<{
   author: string;
   role: string;
   company: string;
   paragraphs: string[];
-};
+}>;
 
 export default function Recommendation({
   author,

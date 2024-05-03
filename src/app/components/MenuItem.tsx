@@ -3,10 +3,10 @@ import { ReactNode } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-type MenuItemProps = {
+type MenuItemProps = Readonly<{
   href: string;
   children: ReactNode;
-};
+}>;
 
 export default function MenuItem({ href, children }: MenuItemProps) {
   const pathname = usePathname();

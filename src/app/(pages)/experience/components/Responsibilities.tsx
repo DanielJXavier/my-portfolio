@@ -1,6 +1,6 @@
-type ResposibilitiesProps = {
+type ResposibilitiesProps = Readonly<{
   items: string[];
-};
+}>;
 
 export default function Resposibilities({ items }: ResposibilitiesProps) {
   return (
