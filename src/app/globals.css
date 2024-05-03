@@ -8,6 +8,12 @@
   -moz-osx-font-smoothing: grayscale;
   transition: all 0.25s;
 }
+
+html {
+  scrollbar-color: #bbb #222;
+  scrollbar-width: thin;
+}
+
 body {
   background-color: #000;
 }
