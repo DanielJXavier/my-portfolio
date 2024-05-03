@@ -17,3 +17,43 @@ html {
 body {
   background-color: #000;
 }
+
+@layer components {
+  /* LOADING PAGE */
+  @keyframes loading {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
+
+  .loading {
+    @apply absolute w-32 h-32 flex items-center justify-center;
+    @apply cursor-wait;
+
+    &::before,
+    &::after {
+      @apply content-[''];
+      @apply absolute;
+      @apply border rounded-full;
+      @apply animate-[loading_1.2s_linear_0s_infinite];
+    }
+
+    &::before {
+      @apply -top-0 -right-0 -bottom-0 -left-0;
+      @apply border-t-[rgba(255_255_255_0.87)] border-r-[rgba(255_255_255_0.87)] border-b-transparent	border-l-transparent;
+    }
+
+    &::after {
+      @apply -top-3 -right-3 -bottom-3 -left-3;
+      @apply border-t-[rgba(255_255_255_0.87)] border-r-transparent border-b-transparent	border-l-transparent;
+      animation-direction: reverse;
+    }
+
+    & > p {
+      @apply absolute text-5xl font-light leading-none;
+    }
+  }
+}
