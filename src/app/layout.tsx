@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${font.className} relative pb-24 md:pb-20 lg:pb-16 lg:min-h-dvh`}
+        className={`${font.className} relative pb-24 md:pb-20 lg:pb-16 min-h-dvh`}
       >
         <Header />
         {children}
