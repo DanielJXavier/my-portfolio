@@ -5,6 +5,8 @@ import { createContext, useState } from "react";
 import Title from "@/app/components/Title";
 import Work from "@/app/icons/Work";
 
+import Menu from "../components/Menu";
+
 import Resposibilities from "./components/Responsibilities";
 import GreatestChallenge from "./components/GreatestChallenge";
 import ExperienceItem from "./components/ExperienceItem";
@@ -17,29 +19,11 @@ export default function Experience() {
   return (
     <ExperienceContext.Provider value={experience}>
       <Title icon={<Work />}>Experience</Title>
-      <menu className="text-sm lg:text-base flex gap-x-1">
-        <li>
-          <button
-            className={`${
-              experience === "simple" ? "text-[#fff] underline" : ""
-            } hover:text-[#fff] hover:underline`}
-            onClick={() => setExperience("simple")}
-          >
-            simple
-          </button>
-        </li>
-        <li>|</li>
-        <li>
-          <button
-            className={`${
-              experience === "detailed" ? "text-[#fff] underline" : ""
-            } hover:text-[#fff] hover:underline`}
-            onClick={() => setExperience("detailed")}
-          >
-            detailed
-          </button>
-        </li>
-      </menu>
+      <Menu
+        items={["simple", "detailed"]}
+        activeItem={experience}
+        setActiveItem={setExperience}
+      />
       <ExperienceItem
         from="before:from-[#6d0ad5]"
         via="before:via-[#6d0ad5]"
