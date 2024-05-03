@@ -3,6 +3,8 @@
 import { createContext, useState } from "react";
 
 import Title from "@/app/components/Title";
+import Work from "@/app/icons/Work";
+
 import Resposibilities from "./components/Responsibilities";
 import GreatestChallenge from "./components/GreatestChallenge";
 import ExperienceItem from "./components/ExperienceItem";
@@ -14,7 +16,7 @@ export default function Experience() {
 
   return (
     <ExperienceContext.Provider value={experience}>
-      <Title>Experience</Title>
+      <Title icon={<Work />}>Experience</Title>
       <menu className="text-sm lg:text-base flex gap-x-1">
         <li>
           <button

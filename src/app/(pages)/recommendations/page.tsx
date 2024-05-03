@@ -1,10 +1,12 @@
 import Title from "@/app/components/Title";
+import Reviews from "@/app/icons/Reviews";
+
 import Recommendation from "./components/Recommendation";
 
 export default function Page() {
   return (
     <>
-      <Title>Recommendations</Title>
+      <Title icon={<Reviews />}>Recommendations</Title>
       <Recommendation
         author="Camilla Polli"
         role="Design Manager"

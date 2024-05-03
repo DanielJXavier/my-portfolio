@@ -1,12 +1,14 @@
 "use client";
 
 import Title from "@/app/components/Title";
+import School from "@/app/icons/School";
+
 import EducationItem from "./components/EducationItem";
 
 export default function Page() {
   return (
     <>
-      <Title>Education</Title>
+      <Title icon={<School />}>Education</Title>
       <EducationItem
         from="before:from-[#2f4ccc]"
         via="via:from-[#2f4ccc]"
