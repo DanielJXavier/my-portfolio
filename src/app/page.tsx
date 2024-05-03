@@ -53,8 +53,8 @@ export default function Page() {
               priority={true}
               src="/profile.jpg"
               fill
-              sizes="48rem, (min-width: 768px): 60rem, (min-width: 1024px): 72rem, (min-width: 1280px): 80rem, (min-width: 1536px): 96rem"
-              alt="Picture of the author (Daniel Xavier)"
+              sizes="50vw, (min-width: 768px): 33vw, (min-width: 1024px): 30vw, (min-width: 1280px): 25vw, (min-width: 1536px): 20vw"
+              alt="Photo of the author (Daniel Xavier)"
             />
           </div>
         </div>
