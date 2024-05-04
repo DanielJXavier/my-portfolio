@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from "react";
 
-import Title from "@/app/components/Title";
-import Psychology from "@/app/icons/Psychology";
+import Title from "@/components/Title";
+import Psychology from "@/icons/Psychology";
 
 import Menu from "../components/Menu";
 
