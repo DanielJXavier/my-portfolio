@@ -28,6 +28,7 @@ export default function Menu() {
         onClick={() => {
           setMenu(!menu);
         }}
+        aria-label="Menu"
       >
         <hr
           className={`w-5 border-t-2 border-t-[#bbb] ${
