@@ -1,12 +1,6 @@
 import Image from "next/image";
 
-type RecommendationItemProps = Readonly<{
-  authorId: string;
-  authorName: string;
-  role: string;
-  company: string;
-  paragraphs: string[];
-}>;
+import { RecommendationsType } from "../data";
 
 export default function RecommendationItem({
   authorId,
@@ -14,7 +8,7 @@ export default function RecommendationItem({
   role,
   company,
   paragraphs,
-}: RecommendationItemProps) {
+}: RecommendationsType) {
   return (
     <article className={`my-6 sm:my-10`}>
       <header className="flex gap-x-3">
