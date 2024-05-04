@@ -6,7 +6,11 @@ import { ExperienceModeContext } from "../Experience";
 
 import { ExperienceType } from "../data";
 
-const mapCompanyIdToColor = {
+type MapCompanyIdToColorType = {
+  [key: string]: string;
+};
+
+const mapCompanyIdToColor: MapCompanyIdToColorType = {
   olx: "before:from-[#6d0ad5] before:via-[#6d0ad5]",
   meaning: "before:from-[#8568ec] before:via-[#8568ec]",
   softplan: "before:from-[#5d5ef1] before:via-[#5d5ef1]",
