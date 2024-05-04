@@ -9,14 +9,15 @@ import LinkedIn from "@/icons/LinkedIn";
 import GitHub from "@/icons/GitHub";
 import Instagram from "@/icons/Instagram";
 
-import { title, paragraphs, authorName, links } from "./data";
+import { author } from "@/data";
+import { paragraphs, links } from "./data";
 
 export default function Page() {
   return (
     <>
       <main className="container mx-auto px-4 md:px-5 xl:px-6 pt-6 md:pt-8 xl:pt-12 grid grid-cols-1 lg:grid-cols-3 md:gap-x-12">
         <div className="lg:col-span-2">
-          <Title icon={<KeepPublic />}>{title}</Title>
+          <Title icon={<KeepPublic />}>Hey, I&apos;m {author.firstName}!</Title>
           {paragraphs.map((paragraph, i) => (
             <p key={i} className="mt-4 text-sm md:text-base text-justify">
               {paragraph}
@@ -31,7 +32,7 @@ export default function Page() {
               src="/profile.jpg"
               fill
               sizes="50vw, (min-width: 768px): 33vw, (min-width: 1024px): 30vw, (min-width: 1280px): 25vw, (min-width: 1536px): 20vw"
-              alt={`Photo of the author (${authorName})`}
+              alt={`Photo of the author (${author.firstName} ${author.lastName})`}
             />
           </div>
         </div>
