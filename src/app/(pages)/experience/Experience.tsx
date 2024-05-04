@@ -25,12 +25,10 @@ export default function Experience() {
         setActiveItem={setExperience}
       />
       <ExperienceItem
-        from="before:from-[#6d0ad5]"
-        via="before:via-[#6d0ad5]"
-        logoPath="/olx_logo.jpg"
-        year="2024"
         role="Software Engineering Manager"
-        company="OLX"
+        companyId="olx"
+        companyName="OLX"
+        year="2024"
         description='I was the leader of the "Ads Seller Experience" team.'
       >
         <Resposibilities
@@ -46,12 +44,10 @@ export default function Experience() {
         <GreatestChallenge text="Navigating the high-pressure demands of leadership for swift deliveries." />
       </ExperienceItem>
       <ExperienceItem
-        from="before:from-[#6d0ad5]"
-        via="before:via-[#6d0ad5]"
-        logoPath="/olx_logo.jpg"
-        year="2023"
         role="Software Engineering Manager"
-        company="OLX"
+        companyId="olx"
+        companyName="OLX"
+        year="2023"
         description='I was the leader of the "Search & Recommendation" team&sup1; and the "Design System" chapter&sup2;.'
       >
         <Resposibilities
@@ -67,12 +63,10 @@ export default function Experience() {
         <GreatestChallenge text="Balancing the substantial responsibilities of both the team¹ and the chapter² simultaneously." />
       </ExperienceItem>
       <ExperienceItem
-        from="before:from-[#6d0ad5]"
-        via="before:via-[#6d0ad5]"
-        logoPath="/olx_logo.jpg"
-        year="2022~2023"
         role="Software Engineering Manager"
-        company="OLX"
+        companyId="olx"
+        companyName="OLX"
+        year="2022~2023"
         description='I was the leader of the "Design System" team.'
       >
         <Resposibilities
@@ -88,12 +82,10 @@ export default function Experience() {
         <GreatestChallenge text="Simultaneously assuming multiple roles, including Engineering Manager, Product Manager, Data Analyst, among others." />
       </ExperienceItem>
       <ExperienceItem
-        from="before:from-[#6d0ad5]"
-        via="before:via-[#6d0ad5]"
-        logoPath="/olx_logo.jpg"
-        year="2021~2022"
         role="Software Engineering Manager"
-        company="OLX"
+        companyId="olx"
+        companyName="OLX"
+        year="2021~2022"
         description='I was the leader of the "Advertising" team.'
       >
         <Resposibilities
@@ -108,12 +100,10 @@ export default function Experience() {
         <GreatestChallenge text="Managing high expectations related to Advertising revenue results." />
       </ExperienceItem>
       <ExperienceItem
-        from="before:from-[#8568ec]"
-        via="before:via-[#8568ec]"
-        logoPath="/meaning_logo.jpg"
-        year="2023"
         role="CTO & Partner"
-        company="Meaning"
+        companyId="meaning"
+        companyName="Meaning"
+        year="2023"
         description="I held the position of CTO and co-founder at the startup."
       >
         <Resposibilities
@@ -127,12 +117,10 @@ export default function Experience() {
         <GreatestChallenge text='Converting a highly "human-centric" project, rooted in personal consultancy, into a systematic approach.' />
       </ExperienceItem>
       <ExperienceItem
-        from="before:from-[#5d5ef1]"
-        via="before:via-[#5d5ef1]"
-        logoPath="/softplan_logo.jpg"
-        year="2020~2021"
         role="Development Coordinator"
-        company="Softplan"
+        companyId="softplan"
+        companyName="Softplan"
+        year="2020~2021"
         description='I was the leader of the "Estônia" team.'
       >
         <Resposibilities
@@ -149,12 +137,10 @@ export default function Experience() {
         <GreatestChallenge text="Managing a large team (comprising 28 professionals) and overseeing critical deliveries." />
       </ExperienceItem>
       <ExperienceItem
-        from="before:from-[#5d5ef1]"
-        via="before:via-[#5d5ef1]"
-        logoPath="/softplan_logo.jpg"
-        year="2019~2020"
         role="Tech Lead"
-        company="Softplan"
+        companyId="softplan"
+        companyName="Softplan"
+        year="2019~2020"
         description="I was the technical leader of the Front-End chapter."
       >
         <Resposibilities
@@ -171,12 +157,10 @@ export default function Experience() {
         <GreatestChallenge text="Acquiring leadership skills and mastering people management." />
       </ExperienceItem>
       <ExperienceItem
-        from="before:from-[#5d5ef1]"
-        via="before:via-[#5d5ef1]"
-        logoPath="/softplan_logo.jpg"
-        year="2018~2019"
         role="Senior Front-End Developer"
-        company="Softplan"
+        companyId="softplan"
+        companyName="Softplan"
+        year="2018~2019"
         description='I was a Senior Front-End developer at the "França" team.'
       >
         <Resposibilities
@@ -188,12 +172,10 @@ export default function Experience() {
         <GreatestChallenge text="Managing all the deliveries of the project as the sole Front-End developer." />
       </ExperienceItem>
       <ExperienceItem
-        from="before:from-[#ee4e21]"
-        via="before:via-[#ee4e21]"
-        logoPath="/hotmart_logo.jpg"
-        year="2018"
         role="Senior Front-End Developer"
-        company="Hotmart"
+        companyId="hotmart"
+        companyName="Hotmart"
+        year="2018"
         description='I was a Senior Front-End developer at the "Growth Hacking" team.'
       >
         <Resposibilities
@@ -205,12 +187,10 @@ export default function Experience() {
         <GreatestChallenge text="Balancing the need to comprehend customer requirements clearly while simultaneously coding." />
       </ExperienceItem>
       <ExperienceItem
-        from="before:from-[#ee4e21]"
-        via="before:via-[#ee4e21]"
-        logoPath="/hotmart_logo.jpg"
-        year="2017~2018"
         role="Mid Level Front-End Developer"
-        company="Hotmart"
+        companyId="hotmart"
+        companyName="Hotmart"
+        year="2017~2018"
         description='I was a Mid Level Front-End developer at the "User Acquisition" team.'
       >
         <Resposibilities
@@ -223,12 +203,10 @@ export default function Experience() {
         <GreatestChallenge text="Conceptualizing and developing complex solutions from the ground up." />
       </ExperienceItem>
       <ExperienceItem
-        from="before:from-[#ee4e21]"
-        via="before:via-[#ee4e21]"
-        logoPath="/hotmart_logo.jpg"
-        year="2016~2017"
         role="Entry Level Front-End Developer"
-        company="Hotmart"
+        companyId="hotmart"
+        companyName="Hotmart"
+        year="2016~2017"
         description='I was an Entry Level Front-End developer at the "User Acquisition" team.'
       >
         <Resposibilities
@@ -241,12 +219,10 @@ export default function Experience() {
         <GreatestChallenge text="Acquiring new development skills and applying them to complex projects." />
       </ExperienceItem>
       <ExperienceItem
-        from="before:from-[#fff]"
-        via="before:via-[#fff]"
-        logoPath="/sydle_logo.jpg"
-        year="2014~2016"
         role="Support Analyst"
-        company="Sydle"
+        companyId="sydle"
+        companyName="Sydle"
+        year="2014~2016"
         description='I was a Support Analyst at the "Suporte & Sustentação" team.'
         hasBlackLogo={true}
       >
@@ -261,12 +237,10 @@ export default function Experience() {
         <GreatestChallenge text="Rapidly acquiring development skills and contributing to legacy projects." />
       </ExperienceItem>
       <ExperienceItem
-        from="before:from-[#fff]"
-        via="before:via-[#fff]"
-        logoPath="/sydle_logo.jpg"
-        year="2012~2014"
         role="Support Intern"
-        company="Sydle"
+        companyId="sydle"
+        companyName="Sydle"
+        year="2012~2014"
         description='I was a Support Intern at the "Suporte & Sustentação" team.'
         hasBlackLogo={true}
       >
