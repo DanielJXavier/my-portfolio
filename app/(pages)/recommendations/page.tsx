@@ -1,5 +1,5 @@
-import Title from "@/app/components/Title";
-import Reviews from "@/app/icons/Reviews";
+import Title from "@/components/Title";
+import Reviews from "@/icons/Reviews";
 
 import RecommendationItem from "./components/RecommendationItem";
 
