@@ -44,13 +44,14 @@ export default function Menu() {
         />
       </button>
       <ul
-        className={`absolute md:relative top-[38px] md:top-0 right-0 left-0 h-[calc(100vh-46px)] md:h-auto px-4 py-2 bg-[#000] md:bg-transparent z-50 text-lg lg:text-xl font-light ${
+        className={`absolute md:relative top-[38px] md:top-0 right-0 left-0 h-[calc(100vh-46px)] md:h-auto px-4 md:px-0 py-2 bg-[#000] md:bg-transparent z-50 text-lg lg:text-xl font-light ${
           !menu ? "hidden md:flex" : ""
-        } flex flex-col md:flex-row gap-y-2 md:gap-x-4`}
+        } flex flex-col md:flex-row gap-y-2 md:gap-x-3`}
       >
         <MenuItem href="/experience">Experience</MenuItem>
         <MenuItem href="/education">Education</MenuItem>
         <MenuItem href="/recommendations">Recommendations</MenuItem>
+        <MenuItem href="/skills">Skills</MenuItem>
       </ul>
     </nav>
   );
