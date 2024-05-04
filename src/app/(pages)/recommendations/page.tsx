@@ -1,14 +1,15 @@
 import Title from "@/app/components/Title";
 import Reviews from "@/app/icons/Reviews";
 
-import Recommendation from "./components/Recommendation";
+import RecommendationItem from "./components/RecommendationItem";
 
 export default function Page() {
   return (
     <>
       <Title icon={<Reviews />}>Recommendations</Title>
-      <Recommendation
-        author="Camilla Polli"
+      <RecommendationItem
+        authorId="1665746687624"
+        authorName="Camilla Polli"
         role="Design Manager"
         company="OLX"
         paragraphs={[
@@ -17,8 +18,9 @@ export default function Page() {
           "I highly recommend Daniel for leadership positions and reinforce my admiration for his professional commitment to business objectives and how he does not hesitate to invest effort in solving challenges along the way.",
         ]}
       />
-      <Recommendation
-        author="Fernanda Rabelo"
+      <RecommendationItem
+        authorId="1711736735188"
+        authorName="Fernanda Rabelo"
         role="Senior Product Manager"
         company="OLX"
         paragraphs={[
@@ -26,16 +28,18 @@ export default function Page() {
           "He is a people focused leader and makes effort to build a good team atmosphere. Also knows a lot about front-end technology and managed many different context teams.",
         ]}
       />
-      <Recommendation
-        author="Matheus Queiroz"
+      <RecommendationItem
+        authorId="1692061488021"
+        authorName="Matheus Queiroz"
         role="Senior Staff Software Engineer"
         company="OLX"
         paragraphs={[
           "I've had the opportunity to closely interact with Daniel during our teams' collaborative efforts, and I can attest to his qualities as a leader. Daniel brings positive energy to the table and demonstrates genuine interest in developing his team members and pairs. His commitment to delivering on agreed-upon solutions is unwavering, reflecting his dedication to meeting business objectives effectively. I recommend Daniel for any leadership role where his expertise will make a significant impact.",
         ]}
       />
-      <Recommendation
-        author="Douglas Ferreira"
+      <RecommendationItem
+        authorId="1695594745530"
+        authorName="Douglas Ferreira"
         role="Product Designer"
         company="OLX"
         paragraphs={[
@@ -43,40 +47,45 @@ export default function Page() {
           "He demonstrates a medium/long-term concern in his decisions, and manages to balance theory well with practice in his deliveries, which is essential for the healthy development of products and the team. In addition to having a great critical sense in several aspects, he clearly positively influenced the team's deliveries and strategic directions.",
         ]}
       />
-      <Recommendation
-        author="Alan Cezar"
+      <RecommendationItem
+        authorId="1565735422940"
+        authorName="Alan Cezar"
         role="Principal Software Engineer"
         company="OLX"
         paragraphs={[
           "Daniel is a great professional, always very committed. I worked with him at OLX Brasil, and saw him lead teams, always getting to know each of his team members, and using their skills positively to achieve relevant results. He was an example to be followed for his leadership, and will certainly be an excellent professional in his next challenges.",
         ]}
       />
-      <Recommendation
-        author="Matheus Missaci"
+      <RecommendationItem
+        authorId="1593552193665"
+        authorName="Matheus Missaci"
         role="Software Engineering Manager"
         company="OLX"
         paragraphs={[
           "Daniel is a very proactive and engaged professional. He was responsible for a more data-driven approach to monitoring web vitals at OLX Brasil, bringing greater visibility to the current situation and bringing the entire company to the topic. He has a strong problem-solving profile, strong leadership and achieves high engagement in his teams. Despite his management position, he has in-depth knowledge of front-end development, which helps with the technical development of his team members.",
         ]}
       />
-      <Recommendation
-        author="Ricardo Moraes"
+      <RecommendationItem
+        authorId="1660079652443"
+        authorName="Ricardo Moraes"
         role="Senior Product Manager"
         company="VendorSmart"
         paragraphs={[
           "Daniel is an excellent, up-to-date professional. He demonstrates commitment, high technical knowledge, extremely collaborative. He always works for the common good and goals of the team and company. Always willing to share knowledge. Excellent addition to any company.",
         ]}
       />
-      <Recommendation
-        author="Mateus Queiroz Correia"
+      <RecommendationItem
+        authorId="1622852709278"
+        authorName="Mateus Queiroz Correia"
         role="Engineering Manager"
         company="Nubank"
         paragraphs={[
           "Daniel is a very constructive person, who enjoys getting involved in different areas with assertive contributions and a lot of energy. He enjoys big challenges and being recognized for his contributions, sparing no effort to achieve goals. He also enjoys learning, relearning, collaborating, and sharing, enhancing other talents within the company. His good humor comes along with criticism regarding what can and should be improved, doing his part, seeking feedback, and asking for help with matters beyond his scope. Technically, he stood out in frontend work when we worked together, helping to shape other professionals who added a lot, and as a coordinator, he showed great organization, planning, and performance in complex projects, managing and caring for people, and providing good leadership within the team.",
         ]}
       />
-      <Recommendation
-        author="Fernanda Ribeiro Durbano"
+      <RecommendationItem
+        authorId="1606086729239"
+        authorName="Fernanda Ribeiro Durbano"
         role="Data Analyst II"
         company="OLX"
         paragraphs={[
@@ -86,8 +95,9 @@ export default function Page() {
           "Daniel is a leader who is always available to help, guide and lead the team from the most everyday situations to the most urgent challenges.",
         ]}
       />
-      <Recommendation
-        author="Gustavo Chimenes Dias"
+      <RecommendationItem
+        authorId="1683719518610"
+        authorName="Gustavo Chimenes Dias"
         role="Software Engineer"
         company="OLX"
         paragraphs={[
@@ -96,8 +106,9 @@ export default function Page() {
           "Despite taking on a leadership role, Dani did not hesitate to get involved in technical issues. Actively collaborating on initiatives such as simplifying functions, solving problems with project components on other pages, and has always demonstrated a technical interest in understanding the functioning of different areas of the project to make the best decisions.",
         ]}
       />
-      <Recommendation
-        author="Cássio Fonseca"
+      <RecommendationItem
+        authorId="1712709978402"
+        authorName="Cássio Fonseca"
         role="Engineering Manager"
         company="Linx"
         paragraphs={[
@@ -105,24 +116,27 @@ export default function Page() {
           "As a peer, he demonstrated strong leadership skills in creating and managing teams. Excellent professional.",
         ]}
       />
-      <Recommendation
-        author="Pedro Dias"
+      <RecommendationItem
+        authorId="1695221396520"
+        authorName="Pedro Dias"
         role="Software Engineer"
         company="OLX"
         paragraphs={[
           "I had the pleasure of being led by Daniel at OLX. He was willing to help my professional growth from the beginning of our journey together, he was always available to help solve more complex problems and inspired me in the way he led with accurate questions and precise directions so that problems could be solved. This is because Daniel is a highly skilled professional in frontend stacks, with extensive knowledge of JavaScript. This knowledge, combined with the extensive experience he has as a leader and the calm and positive attitude he demonstrates, resulted in a very good experience on a daily basis. He was the best leader I ever had.",
         ]}
       />
-      <Recommendation
-        author="Euler Filho"
+      <RecommendationItem
+        authorId="1700516452017"
+        authorName="Euler Filho"
         role="Senior Software Engineer"
         company="Techifide Ltd"
         paragraphs={[
           "I had the pleasure of working closely with Daniel Xavier at Softplan, where he excelled as our Tech Lead. Daniel is a standout front-end developer with expertise in JavaScript, React, TypeScript, and modern front-end practices like React Testing Library and GraphQL. His ability to architect scalable solutions and lead teams effectively sets him apart. Daniel's professionalism, reliability, and dedication to learning make him an invaluable asset to any team. I highly recommend Daniel for roles requiring top-tier front-end skills and strong leadership.",
         ]}
       />
-      <Recommendation
-        author="Bruno Cechet"
+      <RecommendationItem
+        authorId="1713311445833"
+        authorName="Bruno Cechet"
         role="Senior Front-End Engineer"
         company="Altruist"
         paragraphs={[
