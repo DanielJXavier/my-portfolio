@@ -21,7 +21,10 @@ const font = Source_Code_Pro({ subsets: ["latin"] });
 const year = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: `<${author.firstName}${author.lastName} />`,
+  title: {
+    template: `%s | ${author.firstName} ${author.lastName}`,
+    default: `<${author.firstName}${author.lastName} />`,
+  },
   description: author.headline,
 };
 
