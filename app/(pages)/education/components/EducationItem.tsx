@@ -1,13 +1,6 @@
 import Image from "next/image";
 
-type EducationItemProps = Readonly<{
-  schoolId: "estacio" | "fumec";
-  schoolName: string;
-  fieldOfStudy: string;
-  degree: string;
-  years: string;
-  disciplines: string[];
-}>;
+import { EducationType } from "../data";
 
 const mapSchoolIdToColor = {
   estacio: "before:from-[#2f4ccc] before:via-[#2f4ccc]",
@@ -21,7 +14,7 @@ export default function EducationItem({
   degree,
   years,
   disciplines,
-}: EducationItemProps) {
+}: EducationType) {
   return (
     <article
       className={`my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b ${mapSchoolIdToColor[schoolId]} before:to-[#000] before:-z-10`}
