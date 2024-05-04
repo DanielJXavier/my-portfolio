@@ -1,21 +1,22 @@
 import { useEffect, useState } from "react";
 
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
-import MenuItem from "./MenuItem";
+import { menu } from "@/data";
 
 export default function Menu() {
   const pathname = usePathname();
 
-  const [menu, setMenu] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
-    document.body.style.overflow = menu ? "hidden" : "visible";
-  }, [menu]);
+    document.body.style.overflow = menuOpen ? "hidden" : "visible";
+  }, [menuOpen]);
 
   useEffect(() => {
-    if (menu) {
-      setMenu(!menu);
+    if (menuOpen) {
+      setMenuOpen(!menuOpen);
     }
   }, [pathname]); // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -23,36 +24,46 @@ export default function Menu() {
     <nav>
       <button
         className={`p-1.5 flex items-center justify-center gap-y-1 flex-col [&_hr]:hover:border-t-[#fff] ${
-          menu ? "relative [&_hr]:border-t-[#fff]" : ""
+          menuOpen ? "relative [&_hr]:border-t-[#fff]" : ""
         } md:hidden`}
         onClick={() => {
-          setMenu(!menu);
+          setMenuOpen(!menuOpen);
         }}
         aria-label="Menu"
       >
         <hr
           className={`w-5 border-t-2 border-t-[#bbb] ${
-            menu ? "absolute right-1.5 rotate-45" : ""
+            menuOpen ? "absolute right-1.5 rotate-45" : ""
           }`}
         />
         <hr
-          className={`w-5 border-t-2 border-t-[#bbb] ${menu ? "hidden" : ""}`}
+          className={`w-5 border-t-2 border-t-[#bbb] ${
+            menuOpen ? "hidden" : ""
+          }`}
         />
         <hr
           className={`w-5 border-t-2 border-t-[#bbb] ${
-            menu ? "absolute right-1.5 rotate-[-45deg]" : ""
+            menuOpen ? "absolute right-1.5 rotate-[-45deg]" : ""
           }`}
         />
       </button>
       <ul
         className={`absolute md:relative top-[38px] md:top-0 right-0 left-0 h-[calc(100vh-46px)] md:h-auto px-4 md:px-0 py-2 bg-[#000] md:bg-transparent z-50 text-lg lg:text-xl font-light ${
-          !menu ? "hidden md:flex" : ""
+          !menuOpen ? "hidden md:flex" : ""
         } flex flex-col md:flex-row gap-y-2 md:gap-x-3`}
       >
-        <MenuItem href="/experience">Experience</MenuItem>
-        <MenuItem href="/education">Education</MenuItem>
-        <MenuItem href="/skills">Skills</MenuItem>
-        <MenuItem href="/recommendations">Recommendations</MenuItem>
+        {menu.map(({ href, title }, i) => (
+          <li key={i}>
+            <Link
+              className={`${
+                pathname === href ? "text-[#fff] cursor-default underline" : ""
+              } decoration-0 underline-offset-2 hover:text-[#fff] hover:underline`}
+              href={href}
+            >
+              {title}
+            </Link>
+          </li>
+        ))}
       </ul>
     </nav>
   );
