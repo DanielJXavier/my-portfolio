@@ -1,21 +1,22 @@
 import Image from "next/image";
 
 type EducationItemProps = Readonly<{
-  from: string;
-  via: string;
-  logoPath: string;
-  school: string;
+  schoolId: "estacio" | "fumec";
+  schoolName: string;
   fieldOfStudy: string;
   degree: string;
   years: string;
   disciplines: string[];
 }>;
 
+const mapSchoolIdToColor = {
+  estacio: "before:from-[#2f4ccc] before:via-[#2f4ccc]",
+  fumec: "before:from-[#316ba9] before:via-[#316ba9]",
+};
+
 export default function EducationItem({
-  from,
-  via,
-  logoPath,
-  school,
+  schoolId,
+  schoolName,
   fieldOfStudy,
   degree,
   years,
@@ -23,18 +24,18 @@ export default function EducationItem({
 }: EducationItemProps) {
   return (
     <article
-      className={`my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b ${from} ${via} before:to-[#000] before:-z-10`}
+      className={`my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b ${mapSchoolIdToColor[schoolId]} before:to-[#000] before:-z-10`}
     >
       <header className="flex items-start gap-x-2">
         <Image
           className="rounded-full"
-          src={logoPath}
+          src={`/education/${schoolId}.jpg`}
           width={40}
           height={40}
-          alt={`Logo of ${school} school`}
+          alt={`Logo of ${schoolName} school`}
         />
         <h2 className="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight">
-          {fieldOfStudy} @ {school}
+          {fieldOfStudy} @ {schoolName}
           <span className="text-xs md:text-sm"> ({years})</span>
         </h2>
       </header>

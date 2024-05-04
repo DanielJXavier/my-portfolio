@@ -10,10 +10,8 @@ export default function Page() {
     <>
       <Title icon={<School />}>Education</Title>
       <EducationItem
-        from="before:from-[#2f4ccc]"
-        via="via:from-[#2f4ccc]"
-        logoPath="/estacio_logo.jpg"
-        school="Estácio"
+        schoolId="estacio"
+        schoolName="Estácio"
         fieldOfStudy="Strategic People Management"
         degree="Master of Business Administration - MBA"
         years="2020~2021"
@@ -30,10 +28,8 @@ export default function Page() {
         ]}
       />
       <EducationItem
-        from="before:from-[#316ba9]"
-        via="via:from-[#316ba9]"
-        logoPath="/fumec_logo.jpg"
-        school="Universidade FUMEC"
+        schoolId="fumec"
+        schoolName="Universidade FUMEC"
         fieldOfStudy="Computer Science"
         degree="Bachelor"
         years="2010~2014"
