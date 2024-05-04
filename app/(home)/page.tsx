@@ -1,0 +1,90 @@
+import Image from "next/image";
+
+import Title from "@/components/Title";
+
+import KeepPublic from "@/icons/KeepPublic";
+import Email from "@/icons/Email";
+import WhatsApp from "@/icons/WhatsApp";
+import LinkedIn from "@/icons/LinkedIn";
+import GitHub from "@/icons/GitHub";
+import Instagram from "@/icons/Instagram";
+
+import { title, paragraphs, authorName, links } from "./data";
+
+export default function Page() {
+  return (
+    <>
+      <main className="container mx-auto px-4 md:px-5 xl:px-6 pt-6 md:pt-8 xl:pt-12 grid grid-cols-1 lg:grid-cols-3 md:gap-x-12">
+        <div className="lg:col-span-2">
+          <Title icon={<KeepPublic />}>{title}</Title>
+          {paragraphs.map((paragraph, i) => (
+            <p key={i} className="mt-4 text-sm md:text-base text-justify">
+              {paragraph}
+            </p>
+          ))}
+        </div>
+        <div className="flex items-center justify-center">
+          <div className="relative w-48 md:w-60 lg:w-72 xl:w-80 2xl:w-96 h-48 md:h-60 lg:h-72 xl:h-80 2xl:h-96">
+            <Image
+              className="object-contain rounded-full"
+              priority={true}
+              src="/profile.jpg"
+              fill
+              sizes="50vw, (min-width: 768px): 33vw, (min-width: 1024px): 30vw, (min-width: 1280px): 25vw, (min-width: 1536px): 20vw"
+              alt={`Photo of the author (${authorName})`}
+            />
+          </div>
+        </div>
+      </main>
+      <section className="container mx-auto mt-4 px-4 md:px-5 xl:px-6 py-4 md:py-8 flex flex-col lg:flex-row gap-y-3 md:gap-y-4 lg:gap-x-2 xl:gap-x-12 items-center">
+        {links.email && (
+          <a
+            className="flex gap-x-1.5 xl:gap-x-2 hover:text-[#fff] [&_svg]:hover:fill-[#fff] text-sm md:text-base"
+            href={`mailto:${links.email}`}
+            target="_blank"
+          >
+            <Email />
+            {links.email}
+          </a>
+        )}
+        {links.whatsApp && (
+          <a
+            className="flex gap-x-1.5 xl:gap-x-2 hover:text-[#fff] [&_svg]:hover:fill-[#fff] text-sm md:text-base"
+            href={`https://wa.me/${links.whatsApp.replaceAll(/\+|\s|-/g, "")}`}
+            target="_blank"
+          >
+            <WhatsApp />
+            {links.whatsApp}
+          </a>
+        )}
+        {links.linkedIn && (
+          <a
+            className="flex gap-x-1.5 xl:gap-x-2 hover:text-[#fff] [&_svg]:hover:fill-[#fff] text-sm md:text-base"
+            href={`https://www.linkedin.com/in/${links.linkedIn}/`}
+            target="_blank"
+          >
+            <LinkedIn />@{links.linkedIn}
+          </a>
+        )}
+        {links.gitHub && (
+          <a
+            className="flex gap-x-1.5 xl:gap-x-2 hover:text-[#fff] [&_svg]:hover:fill-[#fff] text-sm md:text-base"
+            href={`https://github.com/${links.gitHub}`}
+            target="_blank"
+          >
+            <GitHub />@{links.gitHub}
+          </a>
+        )}
+        {links.instagram && (
+          <a
+            className="flex gap-x-1.5 xl:gap-x-2 hover:text-[#fff] [&_svg]:hover:fill-[#fff] text-sm md:text-base"
+            href={`https://www.instagram.com/${links.instagram}/`}
+            target="_blank"
+          >
+            <Instagram />@{links.instagram}
+          </a>
+        )}
+      </section>
+    </>
+  );
+}
