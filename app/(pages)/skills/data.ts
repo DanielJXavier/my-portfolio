@@ -1,7 +1,7 @@
-export type skillType = {
+export type skillType = Readonly<{
   name: string;
   size: 1 | 2 | 3 | 4 | 5;
-};
+}>;
 
 export const hardSkills: skillType[] = [
   /* Front-End */
