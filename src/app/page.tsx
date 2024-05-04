@@ -15,12 +15,12 @@ export default function Page() {
       <main className="container mx-auto px-4 md:px-5 xl:px-6 pt-6 md:pt-8 xl:pt-12 grid grid-cols-1 lg:grid-cols-3 md:gap-x-12">
         <div className="lg:col-span-2">
           <Title icon={<KeepPublic />}>Hey I&apos;m Daniel</Title>
-          <p className="mb-4 text-sm md:text-base text-justify">
+          <p className="mt-4 text-sm md:text-base text-justify">
             With a decade-long web development journey and an MBA in strategic
             people management, I&apos;ve honed my skills to become a dedicated
             technical leader.
           </p>
-          <p className="mb-4 text-sm md:text-base text-justify">
+          <p className="mt-4 text-sm md:text-base text-justify">
             My mission is to craft elegant solutions to intricate problems,
             leveraging my expertise in JavaScript and its associated frameworks
             and libraries such as React.js and Node.js. My passion extends
@@ -30,7 +30,7 @@ export default function Page() {
             for the search and recommendation systems and the design system of
             the platform.
           </p>
-          <p className="mb-4 text-sm md:text-base text-justify">
+          <p className="mt-4 text-sm md:text-base text-justify">
             In my past roles, I&apos;ve acquired and applied pivotal management
             skills such as emotional intelligence, collaborative design, and
             agile methodologies. These skills have not only given me a
@@ -40,7 +40,7 @@ export default function Page() {
             transformative power of technology and its potential to positively
             impact society.
           </p>
-          <p className="mb-4 text-sm md:text-base text-justify">
+          <p className="mt-4 text-sm md:text-base text-justify">
             Besides technology, I find joy in capturing the beauty of landscapes
             through my lens and staying active with sports. I am always open to
             exploring new opportunities and forging meaningful connections.
@@ -60,7 +60,7 @@ export default function Page() {
           </div>
         </div>
       </main>
-      <section className="container mx-auto px-4 md:px-5 xl:px-6 py-4 md:py-8 flex flex-col lg:flex-row gap-y-3 md:gap-y-4 lg:gap-x-2 xl:gap-x-12 items-center">
+      <section className="container mx-auto mt-4 px-4 md:px-5 xl:px-6 py-4 md:py-8 flex flex-col lg:flex-row gap-y-3 md:gap-y-4 lg:gap-x-2 xl:gap-x-12 items-center">
         <a
           className="flex gap-x-1.5 xl:gap-x-2 hover:text-[#fff] [&_svg]:hover:fill-[#fff] text-sm md:text-base"
           href="mailto:dxdanielxavier@gmail.com"
