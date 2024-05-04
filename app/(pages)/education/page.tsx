@@ -11,22 +11,9 @@ export default function Page() {
   return (
     <>
       <Title icon={<School />}>Education</Title>
-      {education.map(
-        (
-          { schoolId, schoolName, fieldOfStudy, degree, years, disciplines },
-          i
-        ) => (
-          <EducationItem
-            key={i}
-            schoolId={schoolId}
-            schoolName={schoolName}
-            fieldOfStudy={fieldOfStudy}
-            degree={degree}
-            years={years}
-            disciplines={disciplines}
-          />
-        )
-      )}
+      {education.map((item, i) => (
+        <EducationItem key={i} {...item} />
+      ))}
     </>
   );
 }
