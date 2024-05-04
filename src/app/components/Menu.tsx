@@ -50,8 +50,8 @@ export default function Menu() {
       >
         <MenuItem href="/experience">Experience</MenuItem>
         <MenuItem href="/education">Education</MenuItem>
-        <MenuItem href="/recommendations">Recommendations</MenuItem>
         <MenuItem href="/skills">Skills</MenuItem>
+        <MenuItem href="/recommendations">Recommendations</MenuItem>
       </ul>
     </nav>
   );
