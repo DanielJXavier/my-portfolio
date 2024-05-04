@@ -32,7 +32,7 @@ export default function Menu() {
       >
         <hr
           className={`w-5 border-t-2 border-t-[#bbb] ${
-            menu ? "absolute rotate-45" : ""
+            menu ? "absolute right-1.5 rotate-45" : ""
           }`}
         />
         <hr
@@ -40,7 +40,7 @@ export default function Menu() {
         />
         <hr
           className={`w-5 border-t-2 border-t-[#bbb] ${
-            menu ? "absolute rotate-[-45deg]" : ""
+            menu ? "absolute right-1.5 rotate-[-45deg]" : ""
           }`}
         />
       </button>
