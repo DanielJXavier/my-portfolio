@@ -1,18 +1,10 @@
-import { ReactNode, useContext } from "react";
+import { useContext } from "react";
 
 import Image from "next/image";
 
-import { ExperienceContext } from "../Experience";
+import { ExperienceModeContext } from "../Experience";
 
-type ExperienceItemProps = Readonly<{
-  role: string;
-  companyId: "olx" | "meaning" | "softplan" | "hotmart" | "sydle";
-  companyName: string;
-  year: string;
-  description: string;
-  children: ReactNode;
-  hasBlackLogo?: boolean;
-}>;
+import { ExperienceType } from "../data";
 
 const mapCompanyIdToColor = {
   olx: "before:from-[#6d0ad5] before:via-[#6d0ad5]",
@@ -28,10 +20,11 @@ export default function ExperienceItem({
   companyName,
   year,
   description,
-  children,
+  resposibilities,
+  greatestChallenge,
   hasBlackLogo,
-}: ExperienceItemProps) {
-  const experience = useContext(ExperienceContext);
+}: ExperienceType) {
+  const experienceMode = useContext(ExperienceModeContext);
 
   return (
     <article
@@ -55,7 +48,26 @@ export default function ExperienceItem({
       <section className="pl-14 lg:px-14">
         <h3 className="xl:text-xl">{description}</h3>
       </section>
-      {experience === "detailed" && children}
+      {experienceMode === "detailed" && (
+        <>
+          <section className="mt-4 pl-14 xl:px-14">
+            <h3 className="font-semibold xl:text-xl">
+              My main responsibilities were:
+            </h3>
+            <ul className="pl-7 list-disc text-sm xl:text-base">
+              {resposibilities.map((responsibility, i) => (
+                <li key={i}>{responsibility}</li>
+              ))}
+            </ul>
+          </section>
+          <section className="mt-4 pl-14 xl:px-14">
+            <h3 className="font-semibold xl:text-xl">
+              And my greatest challenge was:
+            </h3>
+            <p className="text-sm xl:text-base">{greatestChallenge}</p>
+          </section>
+        </>
+      )}
     </article>
   );
 }
