@@ -1,5 +1,3 @@
-"use client";
-
 import Title from "@/components/Title";
 import School from "@/icons/School";
 
