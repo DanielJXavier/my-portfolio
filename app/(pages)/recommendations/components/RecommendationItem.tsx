@@ -11,7 +11,7 @@ export default function RecommendationItem({
 }: RecommendationsType) {
   return (
     <article className={`my-6 sm:my-10`}>
-      <header className="flex gap-x-3">
+      <header className="grid grid-cols-[auto_1fr] gap-x-3">
         <Image
           className="rounded-full"
           src={`/recommendations/${authorId}.jpeg`}
