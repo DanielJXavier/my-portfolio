@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react";
+
 import { ReactNode } from "react";
 
 import type { Metadata } from "next";
@@ -37,6 +39,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             All Rights Reserved.
           </p>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
