@@ -21,7 +21,7 @@ export default function NotFound() {
         </div>
         <div className="absolute top-0 right-0 bottom-0 left-32 z-0">
           <Image
-            className="right-0 object-contain pointer-events-none drop-shadow-shaped grayscale"
+            className="right-0 object-contain drop-shadow-shaped grayscale"
             priority={true}
             src="/404.png"
             fill

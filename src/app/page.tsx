@@ -50,7 +50,7 @@ export default function Page() {
         <div className="flex items-center justify-center">
           <div className="relative w-48 md:w-60 lg:w-72 xl:w-80 2xl:w-96 h-48 md:h-60 lg:h-72 xl:h-80 2xl:h-96">
             <Image
-              className="object-contain rounded-full pointer-events-none"
+              className="object-contain rounded-full"
               priority={true}
               src="/profile.jpg"
               fill
