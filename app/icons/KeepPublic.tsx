@@ -1,7 +1,7 @@
 export default function KeepPublic() {
   return (
     <svg
-      className="fill-[#bbb] w-6 md:w-8 h-6 md:h-8"
+      className="fill-primary w-6 md:w-8 h-6 md:h-8"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 -960 960 960"
     >

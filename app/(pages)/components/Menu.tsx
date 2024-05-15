@@ -15,9 +15,9 @@ export default function Menu({ items, activeItem, setActiveItem }: MenuProps) {
             <button
               className={`${
                 activeItem === item
-                  ? "text-[#fff] underline cursor-default"
+                  ? "text-secondary underline cursor-default"
                   : ""
-              } hover:text-[#fff] hover:underline`}
+              } hover:text-secondary hover:underline`}
               onClick={() => setActiveItem(item)}
             >
               {item}

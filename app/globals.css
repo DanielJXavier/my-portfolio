@@ -2,19 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary: #444;
+  --secondary: #000;
+  --surface: #ddd;
+  --background: #fff;
+}
 * {
-  color: #bbb;
-  transition: all 0.25s;
+  @apply text-primary;
   @apply antialiased;
+  transition: all 0.25s;
 }
 
 html {
-  scrollbar-color: #bbb #222;
+  scrollbar-color: var(--primary) var(--surface);
   scrollbar-width: thin;
+
+  &.dark {
+    --primary: #bbb;
+    --secondary: #fff;
+    --surface: #222;
+    --background: #000;
+  }
 }
 
 body {
-  background-color: #000;
+  @apply bg-background;
 }
 
 @layer base {

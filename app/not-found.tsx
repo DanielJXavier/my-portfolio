@@ -13,7 +13,7 @@ export default function NotFound() {
             </p>
           </div>
           <Link
-            className="text-sm sm:text-base lg:text-lg font-medium underline hover:text-[#fff]"
+            className="text-sm sm:text-base lg:text-lg font-medium underline hover:text-secondary"
             href="/"
           >
             Let&apos; go back to the fun!

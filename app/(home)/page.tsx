@@ -40,7 +40,7 @@ export default function Page() {
       <section className="container mx-auto mt-4 px-4 md:px-5 xl:px-6 py-4 md:py-8 flex flex-col lg:flex-row gap-y-3 md:gap-y-4 lg:gap-x-2 xl:gap-x-12 items-center">
         {links.email && (
           <a
-            className="flex gap-x-1.5 xl:gap-x-2 hover:text-[#fff] [&_svg]:hover:fill-[#fff] text-sm md:text-base"
+            className="flex gap-x-1.5 xl:gap-x-2 hover:text-secondary [&_svg]:hover:fill-secondary text-sm md:text-base"
             href={`mailto:${links.email}`}
             target="_blank"
           >
@@ -50,7 +50,7 @@ export default function Page() {
         )}
         {links.whatsApp && (
           <a
-            className="flex gap-x-1.5 xl:gap-x-2 hover:text-[#fff] [&_svg]:hover:fill-[#fff] text-sm md:text-base"
+            className="flex gap-x-1.5 xl:gap-x-2 hover:text-secondary [&_svg]:hover:fill-secondary text-sm md:text-base"
             href={`https://wa.me/${links.whatsApp.replaceAll(/\+|\s|-/g, "")}`}
             target="_blank"
           >
@@ -60,7 +60,7 @@ export default function Page() {
         )}
         {links.linkedIn && (
           <a
-            className="flex gap-x-1.5 xl:gap-x-2 hover:text-[#fff] [&_svg]:hover:fill-[#fff] text-sm md:text-base"
+            className="flex gap-x-1.5 xl:gap-x-2 hover:text-secondary [&_svg]:hover:fill-secondary text-sm md:text-base"
             href={`https://www.linkedin.com/in/${links.linkedIn}/`}
             target="_blank"
           >
@@ -69,7 +69,7 @@ export default function Page() {
         )}
         {links.gitHub && (
           <a
-            className="flex gap-x-1.5 xl:gap-x-2 hover:text-[#fff] [&_svg]:hover:fill-[#fff] text-sm md:text-base"
+            className="flex gap-x-1.5 xl:gap-x-2 hover:text-secondary [&_svg]:hover:fill-secondary text-sm md:text-base"
             href={`https://github.com/${links.gitHub}`}
             target="_blank"
           >
@@ -78,7 +78,7 @@ export default function Page() {
         )}
         {links.instagram && (
           <a
-            className="flex gap-x-1.5 xl:gap-x-2 hover:text-[#fff] [&_svg]:hover:fill-[#fff] text-sm md:text-base"
+            className="flex gap-x-1.5 xl:gap-x-2 hover:text-secondary [&_svg]:hover:fill-secondary text-sm md:text-base"
             href={`https://www.instagram.com/${links.instagram}/`}
             target="_blank"
           >

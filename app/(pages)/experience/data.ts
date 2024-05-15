@@ -33,7 +33,7 @@ export const experience: ExperienceType[] = [
     companyName: "OLX",
     year: "2023",
     description:
-      'I was the leader of the "Search & Recommendation" team&sup1; and the "Design System" chapter&sup2;.',
+      'I was the leader of the "Search & Recommendation" team¹ and the "Design System" chapter².',
     resposibilities: [
       "Spearheading a team of 8 developers, serving as a mentor and guiding light;¹",
       "Ensuring the successful execution of the search and recommendation systems roadmap;¹",
