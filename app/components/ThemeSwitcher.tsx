@@ -27,6 +27,7 @@ const ThemeSwitcher = () => {
       }`}
       onClick={() => setDark(!dark)}
       aria-label={`Toggle to ${dark ? "light" : "dark"} theme`}
+      data-testid="theme-switcher"
     >
       {dark ? <LightMode /> : <DarkMode />}
     </button>

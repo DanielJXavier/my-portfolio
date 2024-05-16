@@ -21,7 +21,7 @@ export default function Menu() {
   }, [pathname]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <nav className="order-last lg:order-none">
+    <nav className="order-last lg:order-none" data-testid="menu">
       <button
         className={`w-8 h-[26px] p-1.5 flex items-center justify-center gap-y-1 flex-col [&_hr]:hover:border-t-secondary ${
           menuOpen ? "relative [&_hr]:border-t-secondary" : ""
@@ -30,6 +30,7 @@ export default function Menu() {
           setMenuOpen(!menuOpen);
         }}
         aria-label="Menu"
+        data-testid="menu-button"
       >
         <hr
           className={`w-5 border-t-2 border-t-primary ${
@@ -51,6 +52,7 @@ export default function Menu() {
         className={`absolute md:relative top-[38px] md:top-0 right-0 left-0 h-[calc(100vh-46px)] md:h-auto px-4 md:px-0 py-2 bg-background md:bg-transparent z-50 text-lg lg:text-xl font-light ${
           !menuOpen ? "hidden lg:flex" : ""
         } flex flex-col md:flex-row gap-y-2 md:gap-x-3`}
+        data-testid="menu-list"
       >
         {menu.map(({ href, title }, i) => (
           <li key={i}>
