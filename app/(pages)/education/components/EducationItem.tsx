@@ -17,7 +17,7 @@ export default function EducationItem({
   fieldOfStudy,
   degree,
   years,
-  disciplines,
+  subjects,
 }: EducationType) {
   return (
     <article
@@ -41,8 +41,8 @@ export default function EducationItem({
       </section>
       <section className="mt-4 pl-14 xl:px-14">
         <ul className="pl-7 list-disc text-sm xl:text-base">
-          {disciplines.map((discipline, i) => (
-            <li key={i}>{discipline}</li>
+          {subjects.map((subject, i) => (
+            <li key={i}>{subject}</li>
           ))}
         </ul>
       </section>

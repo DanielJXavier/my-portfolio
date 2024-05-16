@@ -4,7 +4,7 @@ export type EducationType = Readonly<{
   fieldOfStudy: string;
   degree: string;
   years: string;
-  disciplines: string[];
+  subjects: string[];
 }>;
 
 export const education: EducationType[] = [
@@ -14,7 +14,7 @@ export const education: EducationType[] = [
     fieldOfStudy: "Strategic People Management",
     degree: "Master of Business Administration - MBA",
     years: "2020~2021",
-    disciplines: [
+    subjects: [
       "Coaching and Leadership",
       "Communication in Organizations",
       "Conflict Management and Negotiation",
@@ -32,7 +32,7 @@ export const education: EducationType[] = [
     fieldOfStudy: "Computer Science",
     degree: "Bachelor",
     years: "2010~2014",
-    disciplines: [
+    subjects: [
       "Analytical Algebra and Geometry",
       "Programming Language and Techniques I",
       "Computer Architecture",
