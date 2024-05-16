@@ -30,7 +30,10 @@ export default function RecommendationItem({
       </header>
       <section className="mt-4 pl-4 border-l">
         {paragraphs.map((paragraph, i) => (
-          <blockquote className="mb-4 text-sm xl:text-base" key={i}>
+          <blockquote
+            className="mb-4 text-sm xl:text-base text-justify"
+            key={i}
+          >
             {paragraph}
           </blockquote>
         ))}
