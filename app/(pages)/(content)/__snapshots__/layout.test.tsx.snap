@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages layout renders the layout 1`] = `
+<div>
+  <header
+    class="py-2 md:py-3 lg:py-4 shadow-sm shadow-primary"
+    data-testid="header"
+  >
+    <div
+      class="relative container mx-auto px-4 md:px-5 xl:px-6 grid grid-cols-[auto_1fr_auto] items-center justify-between justify-items-end gap-x-2 md:gap-x-3 lg:gap-x-8"
+    >
+      <a
+        class="text-xl md:text-2xl lg:text-3xl font-light hover:text-secondary "
+        data-testid="header-link"
+        href="/"
+      >
+        &lt;DanielXavier /&gt;
+      </a>
+      <nav
+        class="order-last lg:order-none"
+        data-testid="menu"
+      >
+        <button
+          aria-label="Menu"
+          class="w-8 h-[26px] p-1.5 flex items-center justify-center gap-y-1 flex-col [&_hr]:hover:border-t-secondary  lg:hidden"
+          data-testid="menu-button"
+        >
+          <hr
+            class="w-5 border-t-2 border-t-primary "
+          />
+          <hr
+            class="w-5 border-t-2 border-t-primary "
+          />
+          <hr
+            class="w-5 border-t-2 border-t-primary "
+          />
+        </button>
+        <ul
+          class="absolute md:relative top-[38px] md:top-0 right-0 left-0 h-[calc(100vh-46px)] md:h-auto px-4 md:px-0 py-2 bg-background md:bg-transparent z-50 text-lg lg:text-xl font-light hidden lg:flex flex flex-col md:flex-row gap-y-2 md:gap-x-3"
+          data-testid="menu-list"
+        >
+          <li>
+            <a
+              class=" decoration-0 underline-offset-2 hover:text-secondary hover:underline"
+              href="/experience"
+            >
+              Experience
+            </a>
+          </li>
+          <li>
+            <a
+              class=" decoration-0 underline-offset-2 hover:text-secondary hover:underline"
+              href="/education"
+            >
+              Education
+            </a>
+          </li>
+          <li>
+            <a
+              class=" decoration-0 underline-offset-2 hover:text-secondary hover:underline"
+              href="/skills"
+            >
+              Skills
+            </a>
+          </li>
+          <li>
+            <a
+              class=" decoration-0 underline-offset-2 hover:text-secondary hover:underline"
+              href="/recommendations"
+            >
+              Recommendations
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button
+        aria-label="Toggle to dark theme"
+        class="p-1 rounded-full bg-[#e6eaee] dark:bg-[#444547] [&_svg]:hover:fill-secondary "
+        data-testid="theme-switcher"
+      >
+        <svg
+          class="fill-primary w-5 md:w-6 h-5 md:h-6"
+          viewBox="0 -960 960 960"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M481.15-140q-141.66 0-240.83-99.17-99.16-99.16-99.16-240.83 0-135.77 92.11-232.88 92.11-97.12 225.57-105.2 8.62 0 16.93.62 8.3.62 16.3 1.85-30.61 28.61-48.76 69.15-18.16 40.54-18.16 86.46 0 98.33 68.84 167.17Q562.82-424 661.15-424q46.54 0 86.77-18.15 40.23-18.16 68.46-48.77 1.23 8 1.85 16.31.61 8.3.61 16.92-7.69 133.46-104.8 225.57Q616.92-140 481.15-140Zm0-60q88 0 158-48.5t102-126.5q-20 5-40 8t-40 3q-123 0-209.5-86.5T365.15-660q0-20 3-40t8-40q-78 32-126.5 102t-48.5 158q0 116 82 198t198 82Zm-10-270Z"
+          />
+        </svg>
+      </button>
+    </div>
+  </header>
+  <main
+    class="main-container"
+  >
+    children
+  </main>
+  ;
+  <footer
+    class="absolute right-0 bottom-0 left-0 h-24 md:h-20 lg:h-16 flex items-center justify-center"
+  >
+    <p
+      class="text-xs md:text-sm text-center"
+    >
+      Copyright © 
+      2024
+       
+      Daniel
+       
+      Xavier
+      .
+       
+      <br
+        class="sm:hidden"
+      />
+      All Rights Reserved.
+    </p>
+  </footer>
+</div>
+`;

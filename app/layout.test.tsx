@@ -16,7 +16,7 @@ jest.mock("@vercel/speed-insights/next", () => ({
 
 describe("Root layout", () => {
   it("renders the layout", () => {
-    const { container } = render(<RootLayout>layout</RootLayout>);
+    const { container } = render(<RootLayout>children</RootLayout>);
 
     expect(container).toMatchSnapshot();
   });
