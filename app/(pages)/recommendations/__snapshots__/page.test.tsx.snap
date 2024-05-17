@@ -1,0 +1,703 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Recommendations page renders the page 1`] = `
+<div>
+  <h1
+    class="text-xl md:text-2xl lg:text-3xl flex items-center gap-x-2"
+    data-testid="title"
+  >
+    <svg
+      class="fill-primary w-6 md:w-8 h-6 md:h-8"
+      viewBox="0 -960 960 960"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M371.85-401.54 480-467.15l108.15 65.61-28.69-123 95.92-82.69-126.23-10.62L480-733.84l-49.15 115.99-126.23 10.62 95.92 82.69-28.69 123ZM100-118.46v-683.85q0-23.53 17.08-40.61T157.69-860h644.62q23.53 0 40.61 17.08T860-802.31v484.62q0 23.53-17.08 40.61T802.31-260H241.54L100-118.46Zm121.69-186.93h580.62q4.61 0 8.46-3.84 3.84-3.85 3.84-8.46v-484.62q0-4.61-3.84-8.46-3.85-3.84-8.46-3.84H157.69q-4.61 0-8.46 3.84-3.84 3.85-3.84 8.46v577.69l76.3-80.77Zm-76.3 0V-814.61-305.39Z"
+      />
+    </svg>
+    Recommendations
+  </h1>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (Camilla Polli)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Frecommendations%2F1665746687624.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Frecommendations%2F1665746687624.jpeg&w=64&q=75 1x, /_next/image?url=%2Frecommendations%2F1665746687624.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Camilla Polli
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Design Manager
+           @ 
+          OLX
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        I had the opportunity to work with Daniel in co-leading the Design System at OLX, and his role was essential in building a strong community and an engaged team with the mission of scaling development and elevating the quality of our interfaces.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        He consistently made significant contributions in meetings, actively sharing his knowledge and insights to propel discussions forward. Furthermore, Daniel interacts effectively with all disciplines involved and identifies moments to mobilize teams towards impactful action.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        I highly recommend Daniel for leadership positions and reinforce my admiration for his professional commitment to business objectives and how he does not hesitate to invest effort in solving challenges along the way.
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (Fernanda Rabelo)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Frecommendations%2F1711736735188.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Frecommendations%2F1711736735188.jpeg&w=64&q=75 1x, /_next/image?url=%2Frecommendations%2F1711736735188.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Fernanda Rabelo
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Senior Product Manager
+           @ 
+          OLX
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Daniel was a true partner specially when we were facing a business impact due to the pandemic. He worked non stop to come up with a solid business/tech plan together in order to recover from this scenario, also communicating what was needed to the management team.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        He is a people focused leader and makes effort to build a good team atmosphere. Also knows a lot about front-end technology and managed many different context teams.
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (Matheus Queiroz)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Frecommendations%2F1692061488021.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Frecommendations%2F1692061488021.jpeg&w=64&q=75 1x, /_next/image?url=%2Frecommendations%2F1692061488021.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Matheus Queiroz
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Senior Staff Software Engineer
+           @ 
+          OLX
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        I've had the opportunity to closely interact with Daniel during our teams' collaborative efforts, and I can attest to his qualities as a leader. Daniel brings positive energy to the table and demonstrates genuine interest in developing his team members and pairs. His commitment to delivering on agreed-upon solutions is unwavering, reflecting his dedication to meeting business objectives effectively. I recommend Daniel for any leadership role where his expertise will make a significant impact.
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (Douglas Ferreira)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Frecommendations%2F1695594745530.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Frecommendations%2F1695594745530.jpeg&w=64&q=75 1x, /_next/image?url=%2Frecommendations%2F1695594745530.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Douglas Ferreira
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Product Designer
+           @ 
+          OLX
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Daniel is a very committed and dedicated professional. He is always interested in contributing in the best way possible and helping the team achieve its goals. If he doesn't know about the subject, he will try to collaborate in some way.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        He demonstrates a medium/long-term concern in his decisions, and manages to balance theory well with practice in his deliveries, which is essential for the healthy development of products and the team. In addition to having a great critical sense in several aspects, he clearly positively influenced the team's deliveries and strategic directions.
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (Alan Cezar)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Frecommendations%2F1565735422940.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Frecommendations%2F1565735422940.jpeg&w=64&q=75 1x, /_next/image?url=%2Frecommendations%2F1565735422940.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Alan Cezar
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Principal Software Engineer
+           @ 
+          OLX
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Daniel is a great professional, always very committed. I worked with him at OLX Brasil, and saw him lead teams, always getting to know each of his team members, and using their skills positively to achieve relevant results. He was an example to be followed for his leadership, and will certainly be an excellent professional in his next challenges.
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (Matheus Missaci)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Frecommendations%2F1593552193665.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Frecommendations%2F1593552193665.jpeg&w=64&q=75 1x, /_next/image?url=%2Frecommendations%2F1593552193665.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Matheus Missaci
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Software Engineering Manager
+           @ 
+          OLX
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Daniel is a very proactive and engaged professional. He was responsible for a more data-driven approach to monitoring web vitals at OLX Brasil, bringing greater visibility to the current situation and bringing the entire company to the topic. He has a strong problem-solving profile, strong leadership and achieves high engagement in his teams. Despite his management position, he has in-depth knowledge of front-end development, which helps with the technical development of his team members.
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (Ricardo Moraes)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Frecommendations%2F1660079652443.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Frecommendations%2F1660079652443.jpeg&w=64&q=75 1x, /_next/image?url=%2Frecommendations%2F1660079652443.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Ricardo Moraes
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Senior Product Manager
+           @ 
+          VendorSmart
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Daniel is an excellent, up-to-date professional. He demonstrates commitment, high technical knowledge, extremely collaborative. He always works for the common good and goals of the team and company. Always willing to share knowledge. Excellent addition to any company.
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (Mateus Queiroz Correia)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Frecommendations%2F1622852709278.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Frecommendations%2F1622852709278.jpeg&w=64&q=75 1x, /_next/image?url=%2Frecommendations%2F1622852709278.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Mateus Queiroz Correia
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Engineering Manager
+           @ 
+          Nubank
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Daniel is a very constructive person, who enjoys getting involved in different areas with assertive contributions and a lot of energy. He enjoys big challenges and being recognized for his contributions, sparing no effort to achieve goals. He also enjoys learning, relearning, collaborating, and sharing, enhancing other talents within the company. His good humor comes along with criticism regarding what can and should be improved, doing his part, seeking feedback, and asking for help with matters beyond his scope. Technically, he stood out in frontend work when we worked together, helping to shape other professionals who added a lot, and as a coordinator, he showed great organization, planning, and performance in complex projects, managing and caring for people, and providing good leadership within the team.
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (Fernanda Ribeiro Durbano)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Frecommendations%2F1606086729239.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Frecommendations%2F1606086729239.jpeg&w=64&q=75 1x, /_next/image?url=%2Frecommendations%2F1606086729239.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Fernanda Ribeiro Durbano
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Data Analyst II
+           @ 
+          OLX
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Daniel is an excellent professional and I'd like to highlight his performance as a leader...
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        I had the opportunity to work with him in two different teams and contexts. During this oppotunities I could witness a leader highly engaged in the development of each team member, including those ones that were not directly managed by him, such as me. Even during the period we were not on the same team, we had recurrent meetings, where he gave me a lot of orientations and helped me with my development.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Furthermore, he was always concerned and showed interest in develop multidisciplinary solutions, bringing people from different areas of knowledge to the discussions.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Daniel is a leader who is always available to help, guide and lead the team from the most everyday situations to the most urgent challenges.
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (Gustavo Chimenes Dias)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Frecommendations%2F1683719518610.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Frecommendations%2F1683719518610.jpeg&w=64&q=75 1x, /_next/image?url=%2Frecommendations%2F1683719518610.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Gustavo Chimenes Dias
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Software Engineer
+           @ 
+          OLX
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        During the period in which I was led by Dani I was able to witness his excellence as a manager. Your transparency stood out, transmitting confidence to the entire team!
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        He is constantly concerned with the development of each team member, not only in terms of results, but also in career progression. He encouraged me to study relevant technical points and choose the tasks most beneficial to my growth and visibility within the company.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Despite taking on a leadership role, Dani did not hesitate to get involved in technical issues. Actively collaborating on initiatives such as simplifying functions, solving problems with project components on other pages, and has always demonstrated a technical interest in understanding the functioning of different areas of the project to make the best decisions.
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (Cássio Fonseca)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Frecommendations%2F1712709978402.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Frecommendations%2F1712709978402.jpeg&w=64&q=75 1x, /_next/image?url=%2Frecommendations%2F1712709978402.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Cássio Fonseca
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Engineering Manager
+           @ 
+          Linx
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        I worked with Daniel and had the opportunity to be his leader and partner. As IC he was always very kind, proactive and very knowledgeable in frontend such as (JavaScript, React, Angular, etc.).
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        As a peer, he demonstrated strong leadership skills in creating and managing teams. Excellent professional.
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (Pedro Dias)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Frecommendations%2F1695221396520.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Frecommendations%2F1695221396520.jpeg&w=64&q=75 1x, /_next/image?url=%2Frecommendations%2F1695221396520.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Pedro Dias
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Software Engineer
+           @ 
+          OLX
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        I had the pleasure of being led by Daniel at OLX. He was willing to help my professional growth from the beginning of our journey together, he was always available to help solve more complex problems and inspired me in the way he led with accurate questions and precise directions so that problems could be solved. This is because Daniel is a highly skilled professional in frontend stacks, with extensive knowledge of JavaScript. This knowledge, combined with the extensive experience he has as a leader and the calm and positive attitude he demonstrates, resulted in a very good experience on a daily basis. He was the best leader I ever had.
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (Euler Filho)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Frecommendations%2F1700516452017.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Frecommendations%2F1700516452017.jpeg&w=64&q=75 1x, /_next/image?url=%2Frecommendations%2F1700516452017.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Euler Filho
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Senior Software Engineer
+           @ 
+          Techifide Ltd
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        I had the pleasure of working closely with Daniel Xavier at Softplan, where he excelled as our Tech Lead. Daniel is a standout front-end developer with expertise in JavaScript, React, TypeScript, and modern front-end practices like React Testing Library and GraphQL. His ability to architect scalable solutions and lead teams effectively sets him apart. Daniel's professionalism, reliability, and dedication to learning make him an invaluable asset to any team. I highly recommend Daniel for roles requiring top-tier front-end skills and strong leadership.
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (Bruno Cechet)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Frecommendations%2F1713311445833.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Frecommendations%2F1713311445833.jpeg&w=64&q=75 1x, /_next/image?url=%2Frecommendations%2F1713311445833.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Bruno Cechet
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Senior Front-End Engineer
+           @ 
+          Altruist
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Daniel is absolutely one of the most promising professionals I've met in my career!
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Very talkative professional, clear, and always have a point to put on the table to get rich some discussion.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        As tech lead (where I've worked with him), shows always open to listen and to help me and other colleagues.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Daniel has the skill to see not only the micro but also the macro of the situation, so in this way supporting the team to achieve their goals in the best way possible!
+      </blockquote>
+    </section>
+  </article>
+   
+</div>
+`;

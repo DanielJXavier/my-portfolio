@@ -1,0 +1,616 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Experience page renders the page 1`] = `
+<div>
+  <h1
+    class="text-xl md:text-2xl lg:text-3xl flex items-center gap-x-2"
+    data-testid="title"
+  >
+    <svg
+      class="fill-primary w-6 md:w-8 h-6 md:h-8"
+      viewBox="0 -960 960 960"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M157.69-140q-23.53 0-40.61-17.08T100-197.69v-444.62q0-23.53 17.08-40.61T157.69-700H340v-82.3q0-23.53 17.08-40.62Q374.16-840 397.69-840h164.62q23.53 0 40.61 17.08Q620-805.83 620-782.3v82.3h182.31q23.53 0 40.61 17.08T860-642.31v444.62q0 23.53-17.08 40.61T802.31-140H157.69Zm0-45.39h644.62q4.61 0 8.46-3.84 3.84-3.85 3.84-8.46v-444.62q0-4.61-3.84-8.46-3.85-3.84-8.46-3.84H157.69q-4.61 0-8.46 3.84-3.84 3.85-3.84 8.46v444.62q0 4.61 3.84 8.46 3.85 3.84 8.46 3.84ZM385.39-700h189.22v-82.3q0-4.62-3.84-8.47-3.85-3.84-8.46-3.84H397.69q-4.61 0-8.46 3.84-3.84 3.85-3.84 8.47v82.3Zm-240 514.61V-654.61-185.39Z"
+      />
+    </svg>
+    Experience
+  </h1>
+  <menu
+    class="mt-1 md:mt-2 text-sm lg:mt-3 lg:text-base flex gap-x-1"
+    data-testid="menu"
+  >
+    <li>
+      <button
+        class="text-secondary underline cursor-default hover:text-secondary hover:underline"
+        disabled=""
+      >
+        simple
+      </button>
+    </li>
+    <li>
+      |
+    </li>
+    <li>
+      <button
+        class=" hover:text-secondary hover:underline"
+      >
+        detailed
+      </button>
+    </li>
+  </menu>
+  <article
+    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-[#6d0ad5] before:via-[#6d0ad5] before:to-background before:-z-10"
+    data-testid="experience-item"
+  >
+    <header
+      class="flex items-start gap-x-2"
+    >
+      <img
+        alt="Logo of OLX company"
+        class="rounded-full "
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fexperience%2Folx.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fexperience%2Folx.jpg&w=48&q=75 1x, /_next/image?url=%2Fexperience%2Folx.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <h2
+        class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
+      >
+        Software Engineering Manager
+         @ 
+        OLX
+        <span
+          class="text-xs md:text-sm"
+        >
+           (
+          2024
+          )
+        </span>
+      </h2>
+    </header>
+    <section
+      class="pl-14 lg:px-14"
+    >
+      <h3
+        class="xl:text-xl"
+      >
+        I was the leader of the "Ads Seller Experience" team.
+      </h3>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-[#6d0ad5] before:via-[#6d0ad5] before:to-background before:-z-10"
+    data-testid="experience-item"
+  >
+    <header
+      class="flex items-start gap-x-2"
+    >
+      <img
+        alt="Logo of OLX company"
+        class="rounded-full "
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fexperience%2Folx.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fexperience%2Folx.jpg&w=48&q=75 1x, /_next/image?url=%2Fexperience%2Folx.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <h2
+        class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
+      >
+        Software Engineering Manager
+         @ 
+        OLX
+        <span
+          class="text-xs md:text-sm"
+        >
+           (
+          2023
+          )
+        </span>
+      </h2>
+    </header>
+    <section
+      class="pl-14 lg:px-14"
+    >
+      <h3
+        class="xl:text-xl"
+      >
+        I was the leader of the "Search & Recommendation" team¹ and the "Design System" chapter².
+      </h3>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-[#6d0ad5] before:via-[#6d0ad5] before:to-background before:-z-10"
+    data-testid="experience-item"
+  >
+    <header
+      class="flex items-start gap-x-2"
+    >
+      <img
+        alt="Logo of OLX company"
+        class="rounded-full "
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fexperience%2Folx.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fexperience%2Folx.jpg&w=48&q=75 1x, /_next/image?url=%2Fexperience%2Folx.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <h2
+        class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
+      >
+        Software Engineering Manager
+         @ 
+        OLX
+        <span
+          class="text-xs md:text-sm"
+        >
+           (
+          2022~2023
+          )
+        </span>
+      </h2>
+    </header>
+    <section
+      class="pl-14 lg:px-14"
+    >
+      <h3
+        class="xl:text-xl"
+      >
+        I was the leader of the "Design System" team.
+      </h3>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-[#6d0ad5] before:via-[#6d0ad5] before:to-background before:-z-10"
+    data-testid="experience-item"
+  >
+    <header
+      class="flex items-start gap-x-2"
+    >
+      <img
+        alt="Logo of OLX company"
+        class="rounded-full "
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fexperience%2Folx.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fexperience%2Folx.jpg&w=48&q=75 1x, /_next/image?url=%2Fexperience%2Folx.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <h2
+        class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
+      >
+        Software Engineering Manager
+         @ 
+        OLX
+        <span
+          class="text-xs md:text-sm"
+        >
+           (
+          2021~2022
+          )
+        </span>
+      </h2>
+    </header>
+    <section
+      class="pl-14 lg:px-14"
+    >
+      <h3
+        class="xl:text-xl"
+      >
+        I was the leader of the "Advertising" team.
+      </h3>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-[#8568ec] before:via-[#8568ec] before:to-background before:-z-10"
+    data-testid="experience-item"
+  >
+    <header
+      class="flex items-start gap-x-2"
+    >
+      <img
+        alt="Logo of Meaning company"
+        class="rounded-full "
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fexperience%2Fmeaning.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fexperience%2Fmeaning.jpg&w=48&q=75 1x, /_next/image?url=%2Fexperience%2Fmeaning.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <h2
+        class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
+      >
+        CTO & Partner
+         @ 
+        Meaning
+        <span
+          class="text-xs md:text-sm"
+        >
+           (
+          2023
+          )
+        </span>
+      </h2>
+    </header>
+    <section
+      class="pl-14 lg:px-14"
+    >
+      <h3
+        class="xl:text-xl"
+      >
+        I held the position of CTO and co-founder at the startup.
+      </h3>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-[#5d5ef1] before:via-[#5d5ef1] before:to-background before:-z-10"
+    data-testid="experience-item"
+  >
+    <header
+      class="flex items-start gap-x-2"
+    >
+      <img
+        alt="Logo of Softplan company"
+        class="rounded-full "
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fexperience%2Fsoftplan.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fexperience%2Fsoftplan.jpg&w=48&q=75 1x, /_next/image?url=%2Fexperience%2Fsoftplan.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <h2
+        class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
+      >
+        Development Coordinator
+         @ 
+        Softplan
+        <span
+          class="text-xs md:text-sm"
+        >
+           (
+          2020~2021
+          )
+        </span>
+      </h2>
+    </header>
+    <section
+      class="pl-14 lg:px-14"
+    >
+      <h3
+        class="xl:text-xl"
+      >
+        I was the leader of the "Estônia" team.
+      </h3>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-[#5d5ef1] before:via-[#5d5ef1] before:to-background before:-z-10"
+    data-testid="experience-item"
+  >
+    <header
+      class="flex items-start gap-x-2"
+    >
+      <img
+        alt="Logo of Softplan company"
+        class="rounded-full "
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fexperience%2Fsoftplan.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fexperience%2Fsoftplan.jpg&w=48&q=75 1x, /_next/image?url=%2Fexperience%2Fsoftplan.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <h2
+        class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
+      >
+        Tech Lead
+         @ 
+        Softplan
+        <span
+          class="text-xs md:text-sm"
+        >
+           (
+          2019~2020
+          )
+        </span>
+      </h2>
+    </header>
+    <section
+      class="pl-14 lg:px-14"
+    >
+      <h3
+        class="xl:text-xl"
+      >
+        I was the technical leader of the Front-End chapter.
+      </h3>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-[#5d5ef1] before:via-[#5d5ef1] before:to-background before:-z-10"
+    data-testid="experience-item"
+  >
+    <header
+      class="flex items-start gap-x-2"
+    >
+      <img
+        alt="Logo of Softplan company"
+        class="rounded-full "
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fexperience%2Fsoftplan.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fexperience%2Fsoftplan.jpg&w=48&q=75 1x, /_next/image?url=%2Fexperience%2Fsoftplan.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <h2
+        class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
+      >
+        Senior Front-End Developer
+         @ 
+        Softplan
+        <span
+          class="text-xs md:text-sm"
+        >
+           (
+          2018~2019
+          )
+        </span>
+      </h2>
+    </header>
+    <section
+      class="pl-14 lg:px-14"
+    >
+      <h3
+        class="xl:text-xl"
+      >
+        I was a Senior Front-End developer at the "França" team.
+      </h3>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-[#ee4e21] before:via-[#ee4e21] before:to-background before:-z-10"
+    data-testid="experience-item"
+  >
+    <header
+      class="flex items-start gap-x-2"
+    >
+      <img
+        alt="Logo of Hotmart company"
+        class="rounded-full "
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fexperience%2Fhotmart.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fexperience%2Fhotmart.jpg&w=48&q=75 1x, /_next/image?url=%2Fexperience%2Fhotmart.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <h2
+        class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
+      >
+        Senior Front-End Developer
+         @ 
+        Hotmart
+        <span
+          class="text-xs md:text-sm"
+        >
+           (
+          2018
+          )
+        </span>
+      </h2>
+    </header>
+    <section
+      class="pl-14 lg:px-14"
+    >
+      <h3
+        class="xl:text-xl"
+      >
+        I was a Senior Front-End developer at the "Growth Hacking" team.
+      </h3>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-[#ee4e21] before:via-[#ee4e21] before:to-background before:-z-10"
+    data-testid="experience-item"
+  >
+    <header
+      class="flex items-start gap-x-2"
+    >
+      <img
+        alt="Logo of Hotmart company"
+        class="rounded-full "
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fexperience%2Fhotmart.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fexperience%2Fhotmart.jpg&w=48&q=75 1x, /_next/image?url=%2Fexperience%2Fhotmart.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <h2
+        class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
+      >
+        Mid Level Front-End Developer
+         @ 
+        Hotmart
+        <span
+          class="text-xs md:text-sm"
+        >
+           (
+          2017~2018
+          )
+        </span>
+      </h2>
+    </header>
+    <section
+      class="pl-14 lg:px-14"
+    >
+      <h3
+        class="xl:text-xl"
+      >
+        I was a Mid Level Front-End developer at the "User Acquisition" team.
+      </h3>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-[#ee4e21] before:via-[#ee4e21] before:to-background before:-z-10"
+    data-testid="experience-item"
+  >
+    <header
+      class="flex items-start gap-x-2"
+    >
+      <img
+        alt="Logo of Hotmart company"
+        class="rounded-full "
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fexperience%2Fhotmart.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fexperience%2Fhotmart.jpg&w=48&q=75 1x, /_next/image?url=%2Fexperience%2Fhotmart.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <h2
+        class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
+      >
+        Entry Level Front-End Developer
+         @ 
+        Hotmart
+        <span
+          class="text-xs md:text-sm"
+        >
+           (
+          2016~2017
+          )
+        </span>
+      </h2>
+    </header>
+    <section
+      class="pl-14 lg:px-14"
+    >
+      <h3
+        class="xl:text-xl"
+      >
+        I was an Entry Level Front-End developer at the "User Acquisition" team.
+      </h3>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-secondary before:via-secondary before:to-background before:-z-10"
+    data-testid="experience-item"
+  >
+    <header
+      class="flex items-start gap-x-2"
+    >
+      <img
+        alt="Logo of Sydle company"
+        class="rounded-full border-2 border-solid border-secondary"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fexperience%2Fsydle.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fexperience%2Fsydle.jpg&w=48&q=75 1x, /_next/image?url=%2Fexperience%2Fsydle.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <h2
+        class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
+      >
+        Support Analyst
+         @ 
+        Sydle
+        <span
+          class="text-xs md:text-sm"
+        >
+           (
+          2014~2016
+          )
+        </span>
+      </h2>
+    </header>
+    <section
+      class="pl-14 lg:px-14"
+    >
+      <h3
+        class="xl:text-xl"
+      >
+        I was a Support Analyst at the "Suporte & Sustentação" team.
+      </h3>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-secondary before:via-secondary before:to-background before:-z-10"
+    data-testid="experience-item"
+  >
+    <header
+      class="flex items-start gap-x-2"
+    >
+      <img
+        alt="Logo of Sydle company"
+        class="rounded-full border-2 border-solid border-secondary"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fexperience%2Fsydle.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fexperience%2Fsydle.jpg&w=48&q=75 1x, /_next/image?url=%2Fexperience%2Fsydle.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <h2
+        class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
+      >
+        Support Intern
+         @ 
+        Sydle
+        <span
+          class="text-xs md:text-sm"
+        >
+           (
+          2012~2014
+          )
+        </span>
+      </h2>
+    </header>
+    <section
+      class="pl-14 lg:px-14"
+    >
+      <h3
+        class="xl:text-xl"
+      >
+        I was a Support Intern at the "Suporte & Sustentação" team.
+      </h3>
+    </section>
+  </article>
+</div>
+`;

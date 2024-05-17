@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages layout renders the layout 1`] = `
+<div>
+  <main
+    class="main-container"
+  >
+    layout
+  </main>
+</div>
+`;

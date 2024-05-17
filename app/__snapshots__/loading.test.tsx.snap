@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading page renders the page 1`] = `
+<div>
+  <main
+    class="absolute top-0 right-0 bottom-0 left-0 flex items-center justify-center"
+  >
+    <div
+      class="loading"
+    >
+      <p>
+        dx
+      </p>
+    </div>
+  </main>
+</div>
+`;

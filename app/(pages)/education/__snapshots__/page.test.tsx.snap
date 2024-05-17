@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Education page renders the page 1`] = `
+<div>
+  <h1
+    class="text-xl md:text-2xl lg:text-3xl flex items-center gap-x-2"
+    data-testid="title"
+  >
+    <svg
+      class="fill-primary w-6 md:w-8 h-6 md:h-8"
+      viewBox="0 -960 960 960"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m479.38-166.16-267.3-146.3v-216.93L81.54-600l397.84-216.92L878.46-600v285.46h-45.39v-258.92l-86.38 44.07v216.93l-267.31 146.3Zm0-268.38L782.85-600 479.38-763.23 177.15-600l302.23 165.46Zm0 216.92 221.93-122v-162.23l-221.93 118.7-221.92-120.31v163.84l221.92 122Zm.62-216.92Zm-.62 60.54Zm0 0Z"
+      />
+    </svg>
+    Education
+  </h1>
+  <article
+    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-[#2f4ccc] before:via-[#2f4ccc] before:to-background before:-z-10"
+    data-testid="education-item"
+  >
+    <header
+      class="flex items-start gap-x-2"
+    >
+      <img
+        alt="Logo of Estácio school"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Feducation%2Festacio.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Feducation%2Festacio.jpg&w=48&q=75 1x, /_next/image?url=%2Feducation%2Festacio.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <h2
+        class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
+      >
+        Strategic People Management
+         @ 
+        Estácio
+        <span
+          class="text-xs md:text-sm"
+        >
+           (
+          2020~2021
+          )
+        </span>
+      </h2>
+    </header>
+    <section
+      class="pl-14 lg:px-14"
+    >
+      <h3
+        class="xl:text-xl"
+      >
+        Master of Business Administration - MBA
+      </h3>
+    </section>
+    <section
+      class="mt-4 pl-14 xl:px-14"
+    >
+      <ul
+        class="pl-7 list-disc text-sm xl:text-base"
+      >
+        <li>
+          Coaching and Leadership
+        </li>
+        <li>
+          Communication in Organizations
+        </li>
+        <li>
+          Conflict Management and Negotiation
+        </li>
+        <li>
+          Corporative Education
+        </li>
+        <li>
+          Creativity and Organizational Innovation
+        </li>
+        <li>
+          Finance Principles
+        </li>
+        <li>
+          Knowledge Management
+        </li>
+        <li>
+          Strategic Vision in People Management
+        </li>
+        <li>
+          Theory of Organizational Development
+        </li>
+      </ul>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-[#316ba9] before:via-[#316ba9] before:to-background before:-z-10"
+    data-testid="education-item"
+  >
+    <header
+      class="flex items-start gap-x-2"
+    >
+      <img
+        alt="Logo of Universidade FUMEC school"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Feducation%2Ffumec.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Feducation%2Ffumec.jpg&w=48&q=75 1x, /_next/image?url=%2Feducation%2Ffumec.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <h2
+        class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
+      >
+        Computer Science
+         @ 
+        Universidade FUMEC
+        <span
+          class="text-xs md:text-sm"
+        >
+           (
+          2010~2014
+          )
+        </span>
+      </h2>
+    </header>
+    <section
+      class="pl-14 lg:px-14"
+    >
+      <h3
+        class="xl:text-xl"
+      >
+        Bachelor
+      </h3>
+    </section>
+    <section
+      class="mt-4 pl-14 xl:px-14"
+    >
+      <ul
+        class="pl-7 list-disc text-sm xl:text-base"
+      >
+        <li>
+          Analytical Algebra and Geometry
+        </li>
+        <li>
+          Programming Language and Techniques I
+        </li>
+        <li>
+          Computer Architecture
+        </li>
+        <li>
+          Fundamentals of Distributed Systems
+        </li>
+        <li>
+          Calculus I
+        </li>
+        <li>
+          Introduction to Logical Systems
+        </li>
+        <li>
+          Programming Language and Techniques II
+        </li>
+        <li>
+          Computer Networks
+        </li>
+        <li>
+          Data Structures I
+        </li>
+        <li>
+          Calculus II
+        </li>
+        <li>
+          Programming Language and Techniques III
+        </li>
+        <li>
+          Data Structures II
+        </li>
+        <li>
+          Introduction to Robotics
+        </li>
+        <li>
+          Statistics
+        </li>
+        <li>
+          Programming Language and Techniques IV
+        </li>
+        <li>
+          Human Resources Administration
+        </li>
+        <li>
+          Connectivity
+        </li>
+        <li>
+          Algorithm Analysis
+        </li>
+        <li>
+          Operating Systems and Basic Software
+        </li>
+        <li>
+          Introduction to Administration
+        </li>
+        <li>
+          Fundamentals of Physics
+        </li>
+        <li>
+          Human-Machine Interface
+        </li>
+        <li>
+          Theoretical Foundations of Computing
+        </li>
+        <li>
+          Telecommunications
+        </li>
+        <li>
+          Analysis and Systems Design
+        </li>
+        <li>
+          Software Engineering I
+        </li>
+        <li>
+          Database I
+        </li>
+        <li>
+          Compilers
+        </li>
+        <li>
+          Computer Graphics
+        </li>
+        <li>
+          Software Engineering II
+        </li>
+        <li>
+          Law Applied to Informatics
+        </li>
+        <li>
+          Database II
+        </li>
+        <li>
+          Numerical Calculus
+        </li>
+        <li>
+          Information Systems Administration
+        </li>
+        <li>
+          Information Technology Project Management
+        </li>
+        <li>
+          Security in Computer Networks
+        </li>
+        <li>
+          Final Course Work
+        </li>
+        <li>
+          Artificial Intelligence
+        </li>
+        <li>
+          Web Development
+        </li>
+        <li>
+          Development of Distributed Systems
+        </li>
+      </ul>
+    </section>
+  </article>
+</div>
+`;
