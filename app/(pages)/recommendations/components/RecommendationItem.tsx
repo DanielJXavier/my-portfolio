@@ -10,7 +10,7 @@ export default function RecommendationItem({
   paragraphs,
 }: RecommendationsType) {
   return (
-    <article className={`my-6 sm:my-10`}>
+    <article className={`my-6 sm:my-10`} data-testid="recommendation-item">
       <header className="grid grid-cols-[auto_1fr] gap-x-3">
         <Image
           className="rounded-full"
