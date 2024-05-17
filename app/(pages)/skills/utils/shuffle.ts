@@ -1,6 +1,6 @@
 import { skillType } from "../data";
 
-export default function shuffleSkills(array: skillType[]) {
+export default function shuffle(array: skillType[]) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
 

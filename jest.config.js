@@ -10,10 +10,10 @@ const config = {
   collectCoverageFrom: ["app/**/*.{ts,tsx}", "!app/**/data.ts", "!app/icons/*"],
   coverageThreshold: {
     global: {
-      statements: 21.29,
-      branches: 67.92,
-      functions: 26.08,
-      lines: 21.29,
+      statements: 22.75,
+      branches: 70.37,
+      functions: 30.43,
+      lines: 22.75,
     },
   },
 };

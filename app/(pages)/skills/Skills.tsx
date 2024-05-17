@@ -7,7 +7,7 @@ import Psychology from "@/icons/Psychology";
 
 import Menu from "../components/Menu";
 
-import shuffleSkills from "./utils/shuffle";
+import shuffle from "./utils/shuffle";
 
 import { skills } from "./data";
 
@@ -31,7 +31,7 @@ export default function Skills() {
         setActiveItem={setSkillFilter}
       />
       <article className="my-6 md:my-8 lg:my-10 flex gap-x-3 md:gap-x-5 lg:gap-x-8 gap-y-2 md:gap-y-3 lg:gap-y-4 flex-wrap items-center justify-center lg:justify-between">
-        {shuffleSkills(skills)
+        {shuffle(skills)
           .filter(({ type }) => skillFilter === "all" || type === skillFilter)
           .map(({ name, size }, i) => (
             <span
