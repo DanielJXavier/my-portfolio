@@ -18,9 +18,9 @@ export default function Page() {
       <main className="container mx-auto px-4 md:px-5 xl:px-6 pt-6 md:pt-8 xl:pt-12 grid grid-cols-1 lg:grid-cols-3 md:gap-x-12">
         <div className="lg:col-span-2">
           <Title icon={<KeepPublic />}>Hey, I&apos;m {author.firstName}!</Title>
-          {paragraphs.map((paragraph, i) => (
+          {paragraphs.map(({ text }, i) => (
             <p key={i} className="mt-4 text-sm md:text-base text-justify">
-              {paragraph}
+              {text}
             </p>
           ))}
         </div>
