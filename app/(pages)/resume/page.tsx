@@ -6,8 +6,15 @@ import { experience } from "@/(pages)/(content)/experience/data";
 import { education } from "@/(pages)/(content)/education/data";
 import { skills } from "@/(pages)/(content)/skills/data";
 
+const today = new Date();
+const year = today.getFullYear();
+const month = String(today.getMonth() + 1).padStart(2, "0");
+const day = String(today.getDate()).padStart(2, "0");
+
 export const metadata: Metadata = {
-  title: "Resume",
+  title: {
+    absolute: `Resume_${author.firstName}-${author.lastName}_${year}${month}${day}`,
+  },
 };
 
 export default function Page() {
