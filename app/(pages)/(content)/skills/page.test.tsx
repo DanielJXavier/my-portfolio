@@ -4,7 +4,7 @@ import { render } from "@testing-library/react";
 
 import Page from "./page";
 
-describe("Skills page", () => {
+describe("Skills page (Server-side)", () => {
   it("renders the page", () => {
     const { container } = render(<Page />);
 

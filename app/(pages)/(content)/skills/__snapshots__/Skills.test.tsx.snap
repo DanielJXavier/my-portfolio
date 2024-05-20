@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Skills page renders the page 1`] = `
+exports[`Skills page (Client-side) renders the page 1`] = `
 <div>
   <h1
     class="text-xl md:text-2xl lg:text-3xl flex items-center gap-x-2"
