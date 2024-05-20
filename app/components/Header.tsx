@@ -16,7 +16,7 @@ export default function Header() {
     >
       <div className="relative container mx-auto px-4 md:px-5 xl:px-6 grid grid-cols-[auto_1fr_auto] items-center justify-between justify-items-end gap-x-2 md:gap-x-3 lg:gap-x-8">
         <Link
-          className={`text-xl md:text-2xl lg:text-3xl font-light hover:text-secondary ${
+          className={`text-xl lg:text-3xl font-light hover:text-secondary ${
             pathname === "/" ? "text-secondary cursor-default" : ""
           }`}
           href="/"

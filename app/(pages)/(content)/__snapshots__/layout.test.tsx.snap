@@ -10,19 +10,19 @@ exports[`Pages layout renders the layout 1`] = `
       class="relative container mx-auto px-4 md:px-5 xl:px-6 grid grid-cols-[auto_1fr_auto] items-center justify-between justify-items-end gap-x-2 md:gap-x-3 lg:gap-x-8"
     >
       <a
-        class="text-xl md:text-2xl lg:text-3xl font-light hover:text-secondary "
+        class="text-xl lg:text-3xl font-light hover:text-secondary "
         data-testid="header-link"
         href="/"
       >
         &lt;DanielXavier /&gt;
       </a>
       <nav
-        class="order-last lg:order-none"
+        class="order-last md:order-none"
         data-testid="menu"
       >
         <button
           aria-label="Menu"
-          class="w-8 h-[26px] p-1.5 flex items-center justify-center gap-y-1 flex-col [&_hr]:hover:border-t-secondary  lg:hidden"
+          class="w-8 h-[26px] p-1.5 flex items-center justify-center gap-y-1 flex-col [&_hr]:hover:border-t-secondary  md:hidden"
           data-testid="menu-button"
         >
           <hr
@@ -36,7 +36,7 @@ exports[`Pages layout renders the layout 1`] = `
           />
         </button>
         <ul
-          class="absolute md:relative top-[38px] md:top-0 right-0 left-0 h-[calc(100vh-46px)] md:h-auto px-4 md:px-0 py-2 bg-background md:bg-transparent z-50 text-lg lg:text-xl font-light hidden lg:flex flex flex-col md:flex-row gap-y-2 md:gap-x-3"
+          class="absolute md:relative top-[38px] md:top-0 right-0 left-0 h-[calc(100vh-46px)] md:h-auto px-4 md:px-0 py-2 md:py-0 bg-background md:bg-transparent z-50 text-lg lg:text-xl font-light hidden md:flex flex flex-col md:flex-row gap-y-2 md:gap-x-3"
           data-testid="menu-list"
         >
           <li>
@@ -79,7 +79,7 @@ exports[`Pages layout renders the layout 1`] = `
         data-testid="theme-switcher"
       >
         <svg
-          class="fill-primary w-5 md:w-6 h-5 md:h-6"
+          class="fill-primary w-5 lg:w-6 h-5 lg:h-6"
           viewBox="0 -960 960 960"
           xmlns="http://www.w3.org/2000/svg"
         >
