@@ -1,10 +1,10 @@
-export type skillType = Readonly<{
+export interface SkillInterface {
   name: string;
   size: 1 | 2 | 3 | 4 | 5;
   type: "hard" | "soft";
-}>;
+}
 
-export const skills: skillType[] = [
+export const skills: SkillInterface[] = [
   /* Front-End */
   { name: "HTML", size: 5, type: "hard" },
   { name: "CSS", size: 5, type: "hard" },

@@ -1,6 +1,8 @@
 import Image from "next/image";
 
-import { RecommendationsType } from "../data";
+import { RecommendationInterface } from "../data";
+
+type RecommendationItemPropsType = Readonly<RecommendationInterface>;
 
 export default function RecommendationItem({
   authorId,
@@ -8,7 +10,7 @@ export default function RecommendationItem({
   role,
   company,
   paragraphs,
-}: RecommendationsType) {
+}: RecommendationItemPropsType) {
   return (
     <article className={`my-6 sm:my-10`} data-testid="recommendation-item">
       <header className="grid grid-cols-[auto_1fr] gap-x-3">

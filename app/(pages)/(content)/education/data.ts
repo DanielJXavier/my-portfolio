@@ -1,13 +1,13 @@
-export type EducationType = Readonly<{
+export interface EducationInterface {
   schoolId: string;
   schoolName: string;
   fieldOfStudy: string;
   degree: string;
   years: string;
   subjects: string[];
-}>;
+}
 
-export const education: EducationType[] = [
+export const education: EducationInterface[] = [
   {
     schoolId: "estacio",
     schoolName: "Estácio",

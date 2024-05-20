@@ -1,11 +1,13 @@
-import { skillType } from "../data";
+import { SkillInterface } from "../data";
 
-export default function shuffle(array: skillType[]) {
+type SkillsArrayType = SkillInterface[];
+
+export default function shuffle(array: SkillsArrayType) {
   if (process.env.NODE_ENV === "test") {
     return array;
   }
 
-  const shuffledArray: skillType[] = JSON.parse(JSON.stringify(array));
+  const shuffledArray: SkillsArrayType = JSON.parse(JSON.stringify(array));
 
   for (let i = shuffledArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));

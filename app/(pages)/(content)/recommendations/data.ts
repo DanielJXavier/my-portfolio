@@ -1,12 +1,12 @@
-export type RecommendationsType = Readonly<{
+export interface RecommendationInterface {
   authorId: string;
   authorName: string;
   role: string;
   company: string;
   paragraphs: string[];
-}>;
+}
 
-export const recommendations: RecommendationsType[] = [
+export const recommendations: RecommendationInterface[] = [
   {
     authorId: "1665746687624",
     authorName: "Camilla Polli",
