@@ -4,12 +4,11 @@ export interface ExperienceInterface {
   companyName: string;
   year: string;
   description: string;
-  resposibilities: {
+  responsibilities: {
     text: string;
     resume: boolean;
   }[];
-  greatestChallenge: string;
-  resume: boolean;
+  biggestChallenge: string;
   hasBlackLogo?: boolean;
 }
 
@@ -20,7 +19,7 @@ export const experience: ExperienceInterface[] = [
     companyName: "OLX",
     year: "2024",
     description: 'I was the leader of the "Ads Seller Experience" team.',
-    resposibilities: [
+    responsibilities: [
       {
         text: "Spearheading a team of 9 developers, serving as a mentor and guiding light;",
         resume: true,
@@ -46,7 +45,7 @@ export const experience: ExperienceInterface[] = [
         resume: false,
       },
     ],
-    greatestChallenge:
+    biggestChallenge:
       "Navigating the high-pressure demands of leadership for swift deliveries.",
     resume: true,
   },
@@ -57,7 +56,7 @@ export const experience: ExperienceInterface[] = [
     year: "2023",
     description:
       'I was the leader of the "Search & Recommendation" team¹ and the "Design System" chapter².',
-    resposibilities: [
+    responsibilities: [
       {
         text: "Spearheading a team of 8 developers, serving as a mentor and guiding light;¹",
         resume: true,
@@ -83,7 +82,7 @@ export const experience: ExperienceInterface[] = [
         resume: false,
       },
     ],
-    greatestChallenge:
+    biggestChallenge:
       "Balancing the substantial resposibilities of both the team¹ and the chapter² simultaneously.",
     resume: true,
   },
@@ -93,7 +92,7 @@ export const experience: ExperienceInterface[] = [
     companyName: "OLX",
     year: "2022~2023",
     description: 'I was the leader of the "Design System" team.',
-    resposibilities: [
+    responsibilities: [
       {
         text: "Leading a team of 9 developers, serving as a point of reference;",
         resume: true,
@@ -119,7 +118,7 @@ export const experience: ExperienceInterface[] = [
         resume: false,
       },
     ],
-    greatestChallenge:
+    biggestChallenge:
       "Simultaneously assuming multiple roles, including Engineering Manager, Product Manager, Data Analyst, among others.",
     resume: true,
   },
@@ -129,7 +128,7 @@ export const experience: ExperienceInterface[] = [
     companyName: "OLX",
     year: "2021~2022",
     description: 'I was the leader of the "Advertising" team.',
-    resposibilities: [
+    responsibilities: [
       {
         text: "Directly leading a team of 7 developers, serving as a key reference;",
         resume: true,
@@ -151,7 +150,7 @@ export const experience: ExperienceInterface[] = [
         resume: false,
       },
     ],
-    greatestChallenge:
+    biggestChallenge:
       "Managing high expectations related to Advertising revenue results.",
     resume: true,
   },
@@ -161,7 +160,7 @@ export const experience: ExperienceInterface[] = [
     companyName: "Meaning",
     year: "2023",
     description: "I held the position of CTO and co-founder at the startup.",
-    resposibilities: [
+    responsibilities: [
       {
         text: "Crafting the company's technical vision and product strategy;",
         resume: true,
@@ -173,7 +172,7 @@ export const experience: ExperienceInterface[] = [
       },
       { text: "Developing a Proof of Concept project;", resume: false },
     ],
-    greatestChallenge:
+    biggestChallenge:
       'Converting a highly "human-centric" project, rooted in personal consultancy, into a systematic approach.',
     resume: true,
   },
@@ -183,7 +182,7 @@ export const experience: ExperienceInterface[] = [
     companyName: "Softplan",
     year: "2020~2021",
     description: 'I was the leader of the "Estônia" team.',
-    resposibilities: [
+    responsibilities: [
       {
         text: "Direct leadership of a multidisciplinary software development team, inclusive of Software Architects, Developers, Quality Assurance Analysts, Product Owners, Business Analysts, and Agile Masters;",
         resume: true,
@@ -213,7 +212,7 @@ export const experience: ExperienceInterface[] = [
         resume: false,
       },
     ],
-    greatestChallenge:
+    biggestChallenge:
       "Managing a large team (comprising 28 professionals) and overseeing critical deliveries.",
     resume: true,
   },
@@ -223,7 +222,7 @@ export const experience: ExperienceInterface[] = [
     companyName: "Softplan",
     year: "2019~2020",
     description: "I was the technical leader of the Front-End chapter.",
-    resposibilities: [
+    responsibilities: [
       {
         text: 'Development of the new "SAJ" system, constructed using React JS, .Net, and GraphQL;',
         resume: true,
@@ -247,7 +246,7 @@ export const experience: ExperienceInterface[] = [
         resume: false,
       },
     ],
-    greatestChallenge:
+    biggestChallenge:
       "Acquiring leadership skills and mastering people management.",
     resume: true,
   },
@@ -257,7 +256,7 @@ export const experience: ExperienceInterface[] = [
     companyName: "Softplan",
     year: "2018~2019",
     description: 'I was a Senior Front-End developer at the "França" team.',
-    resposibilities: [
+    responsibilities: [
       {
         text: 'Development of new features for the "e-SAJ" portal utilizing React JS and GraphQL;',
         resume: true,
@@ -267,7 +266,7 @@ export const experience: ExperienceInterface[] = [
         resume: true,
       },
     ],
-    greatestChallenge:
+    biggestChallenge:
       "Managing all the deliveries of the project as the sole Front-End developer.",
     resume: true,
   },
@@ -278,7 +277,7 @@ export const experience: ExperienceInterface[] = [
     year: "2018",
     description:
       'I was a Senior Front-End developer at the "Growth Hacking" team.',
-    resposibilities: [
+    responsibilities: [
       {
         text: "Developing systems to address the company's internal needs and automate tasks, leveraging technologies such as Vue.js, and Node.js;",
         resume: true,
@@ -288,9 +287,7 @@ export const experience: ExperienceInterface[] = [
         resume: true,
       },
     ],
-    greatestChallenge:
-      "Balancing the need to comprehend customer requirements clearly while simultaneously coding.",
-    resume: false,
+    biggestChallenge:
   },
   {
     role: "Mid Level Front-End Developer",
@@ -299,7 +296,7 @@ export const experience: ExperienceInterface[] = [
     year: "2017~2018",
     description:
       'I was a Mid Level Front-End developer at the "User Acquisition" team.',
-    resposibilities: [
+    responsibilities: [
       {
         text: "Designing a system to generate blog post images using components and pre-defined templates, thereby enhancing the productivity of the design team;",
         resume: true,
@@ -313,9 +310,7 @@ export const experience: ExperienceInterface[] = [
         resume: true,
       },
     ],
-    greatestChallenge:
-      "Conceptualizing and developing complex solutions from the ground up.",
-    resume: false,
+    biggestChallenge:
   },
   {
     role: "Entry Level Front-End Developer",
@@ -324,7 +319,7 @@ export const experience: ExperienceInterface[] = [
     year: "2016~2017",
     description:
       'I was an Entry Level Front-End developer at the "User Acquisition" team.',
-    resposibilities: [
+    responsibilities: [
       {
         text: 'Developing a new WordPress theme for the "Hotmart blog" utilizing only HTML5, CSS Grid Layout, and Vanilla JS;',
         resume: true,
@@ -338,9 +333,7 @@ export const experience: ExperienceInterface[] = [
         resume: true,
       },
     ],
-    greatestChallenge:
-      "Acquiring new development skills and applying them to complex projects.",
-    resume: false,
+    biggestChallenge:
   },
   {
     role: "Support Analyst",
@@ -348,7 +341,7 @@ export const experience: ExperienceInterface[] = [
     companyName: "Sydle",
     year: "2014~2016",
     description: 'I was a Support Analyst at the "Suporte & Sustentação" team.',
-    resposibilities: [
+    responsibilities: [
       {
         text: "Spearheading the development of web projects utilizing WordPress and Magento;",
         resume: true,
@@ -366,7 +359,7 @@ export const experience: ExperienceInterface[] = [
         resume: true,
       },
     ],
-    greatestChallenge:
+    biggestChallenge:
       "Rapidly acquiring development skills and contributing to legacy projects.",
     resume: false,
     hasBlackLogo: true,
@@ -377,7 +370,7 @@ export const experience: ExperienceInterface[] = [
     companyName: "Sydle",
     year: "2012~2014",
     description: 'I was a Support Intern at the "Suporte & Sustentação" team.',
-    resposibilities: [
+    responsibilities: [
       {
         text: "Providing technical support to users of the company's systems;",
         resume: true,
@@ -392,7 +385,7 @@ export const experience: ExperienceInterface[] = [
         resume: true,
       },
     ],
-    greatestChallenge:
+    biggestChallenge:
       "Simultaneously learning a multitude of new concepts and balancing them with my university commitments.",
     resume: false,
     hasBlackLogo: true,

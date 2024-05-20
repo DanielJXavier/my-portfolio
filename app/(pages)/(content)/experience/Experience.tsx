@@ -32,8 +32,8 @@ export default function Experience() {
             companyName,
             year,
             description,
-            resposibilities,
-            greatestChallenge,
+            responsibilities,
+            biggestChallenge,
             hasBlackLogo,
           },
           i
@@ -45,8 +45,8 @@ export default function Experience() {
             companyName={companyName}
             year={year}
             description={description}
-            resposibilities={resposibilities}
-            greatestChallenge={greatestChallenge}
+            responsibilities={responsibilities}
+            biggestChallenge={biggestChallenge}
             hasBlackLogo={hasBlackLogo}
           />
         )

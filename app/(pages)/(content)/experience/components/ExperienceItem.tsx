@@ -26,8 +26,8 @@ export default function ExperienceItem({
   companyName,
   year,
   description,
-  resposibilities,
-  greatestChallenge,
+  responsibilities,
+  biggestChallenge,
   hasBlackLogo,
 }: ExperienceItemPropsType) {
   const experienceMode = useContext(ExperienceModeContext);
@@ -62,16 +62,13 @@ export default function ExperienceItem({
               My main responsibilities were:
             </h3>
             <ul className="pl-7 list-disc text-sm xl:text-base">
-              {resposibilities.map(({ text }, i) => (
+              {responsibilities.map(({ text }, i) => (
                 <li key={i}>{text}</li>
               ))}
             </ul>
           </section>
           <section className="mt-4 pl-14 xl:px-14">
-            <h3 className="font-semibold xl:text-xl">
-              And my greatest challenge was:
-            </h3>
-            <p className="text-sm xl:text-base">{greatestChallenge}</p>
+            <p className="text-sm xl:text-base">{biggestChallenge}</p>
           </section>
         </>
       )}

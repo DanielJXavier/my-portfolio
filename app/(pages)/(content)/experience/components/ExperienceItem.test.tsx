@@ -15,8 +15,8 @@ describe("ExperienceItem component", () => {
       companyName,
       year,
       description,
-      resposibilities,
-      greatestChallenge,
+      responsibilities,
+      biggestChallenge,
       hasBlackLogo,
     } = experience[0];
 
@@ -27,8 +27,8 @@ describe("ExperienceItem component", () => {
         companyName={companyName}
         year={year}
         description={description}
-        resposibilities={resposibilities}
-        greatestChallenge={greatestChallenge}
+        responsibilities={responsibilities}
+        biggestChallenge={biggestChallenge}
         hasBlackLogo={hasBlackLogo}
       />
     );
@@ -55,8 +55,8 @@ describe("ExperienceItem component", () => {
       companyName,
       year,
       description,
-      resposibilities,
-      greatestChallenge,
+      responsibilities,
+      biggestChallenge,
     } = experience[0];
 
     render(
@@ -66,8 +66,8 @@ describe("ExperienceItem component", () => {
         companyName={companyName}
         year={year}
         description={description}
-        resposibilities={resposibilities}
-        greatestChallenge={greatestChallenge}
+        responsibilities={responsibilities}
+        biggestChallenge={biggestChallenge}
         hasBlackLogo={true}
       />
     );
@@ -86,8 +86,8 @@ describe("ExperienceItem component", () => {
       companyName,
       year,
       description,
-      resposibilities,
-      greatestChallenge,
+      responsibilities,
+      biggestChallenge,
       hasBlackLogo,
     } = experience[0];
 
@@ -99,8 +99,8 @@ describe("ExperienceItem component", () => {
           companyName={companyName}
           year={year}
           description={description}
-          resposibilities={resposibilities}
-          greatestChallenge={greatestChallenge}
+          responsibilities={responsibilities}
+          biggestChallenge={biggestChallenge}
           hasBlackLogo={hasBlackLogo}
         />
       </ExperienceModeContext.Provider>
@@ -119,9 +119,9 @@ describe("ExperienceItem component", () => {
     expect(experienceItem).toBeInTheDocument();
 
     expect(firstResponsibilityElement?.innerHTML).toContain(
-      resposibilities[0].text
+      responsibilities[0].text
     );
 
-    expect(challenge?.innerHTML).toContain(greatestChallenge);
+    expect(challenge?.innerHTML).toContain(biggestChallenge);
   });
 });
