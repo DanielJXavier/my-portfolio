@@ -3,7 +3,7 @@
 exports[`Resume page renders the page 1`] = `
 <div>
   <main
-    class="w-[210mm] flex flex-col gap-y-4 font-serif p-[0.5in]"
+    class="max-w-[210mm] print:w-[210mm] flex flex-col gap-y-4 font-serif p-[0.5in]"
   >
     <section>
       <h1

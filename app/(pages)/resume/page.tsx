@@ -6,7 +6,7 @@ import { skills } from "@/(pages)/(content)/skills/data";
 
 export default function Page() {
   return (
-    <main className="w-[210mm] flex flex-col gap-y-4 font-serif p-[0.5in]">
+    <main className="max-w-[210mm] print:w-[210mm] flex flex-col gap-y-4 font-serif p-[0.5in]">
       <section>
         <h1 className="text-[18pt] font-bold">
           {author.firstName} {author.lastName}
