@@ -26,12 +26,12 @@ describe("Menu component", () => {
     const menuList = screen.getByTestId("menu-list");
 
     expect(menuButton).not.toHaveClass("relative [&_hr]:border-t-secondary");
-    expect(menuList).toHaveClass("hidden lg:flex");
+    expect(menuList).toHaveClass("hidden md:flex");
 
     fireEvent.click(menuButton);
 
     expect(menuButton).toHaveClass("relative [&_hr]:border-t-secondary");
-    expect(menuList).not.toHaveClass("hidden lg:flex");
+    expect(menuList).not.toHaveClass("hidden md:flex");
   });
 
   it("renders the component with the first link highlighted", () => {
@@ -58,6 +58,6 @@ describe("Menu component", () => {
     fireEvent.click(menuList.childNodes[1]);
 
     expect(menuButton).not.toHaveClass("relative [&_hr]:border-t-secondary");
-    expect(menuList).toHaveClass("hidden lg:flex");
+    expect(menuList).toHaveClass("hidden md:flex");
   });
 });
