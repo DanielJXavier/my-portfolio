@@ -17,7 +17,7 @@ export default function Page() {
       <Title icon={<Reviews />}>Recommendations</Title>
       {recommendations.map((item, i) => (
         <RecommendationItem key={i} {...item} />
-      ))}{" "}
+      ))}
     </>
   );
 }
