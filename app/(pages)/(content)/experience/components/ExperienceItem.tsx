@@ -4,7 +4,9 @@ import Image from "next/image";
 
 import { ExperienceModeContext } from "../Experience";
 
-import { ExperienceType } from "../data";
+import { ExperienceInterface } from "../data";
+
+type ExperienceItemPropsType = Omit<Readonly<ExperienceInterface>, "resume">;
 
 type MapCompanyIdToColorType = {
   [key: string]: string;
@@ -27,7 +29,7 @@ export default function ExperienceItem({
   resposibilities,
   greatestChallenge,
   hasBlackLogo,
-}: ExperienceType) {
+}: ExperienceItemPropsType) {
   const experienceMode = useContext(ExperienceModeContext);
 
   return (
@@ -60,8 +62,8 @@ export default function ExperienceItem({
               My main responsibilities were:
             </h3>
             <ul className="pl-7 list-disc text-sm xl:text-base">
-              {resposibilities.map((responsibility, i) => (
-                <li key={i}>{responsibility}</li>
+              {resposibilities.map(({ text }, i) => (
+                <li key={i}>{text}</li>
               ))}
             </ul>
           </section>

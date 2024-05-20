@@ -24,9 +24,33 @@ export default function Experience() {
         activeItem={experienceMode}
         setActiveItem={setExperienceMode}
       />
-      {experience.map((item, i) => (
-        <ExperienceItem key={i} {...item} />
-      ))}
+      {experience.map(
+        (
+          {
+            role,
+            companyId,
+            companyName,
+            year,
+            description,
+            resposibilities,
+            greatestChallenge,
+            hasBlackLogo,
+          },
+          i
+        ) => (
+          <ExperienceItem
+            key={i}
+            role={role}
+            companyId={companyId}
+            companyName={companyName}
+            year={year}
+            description={description}
+            resposibilities={resposibilities}
+            greatestChallenge={greatestChallenge}
+            hasBlackLogo={hasBlackLogo}
+          />
+        )
+      )}
     </ExperienceModeContext.Provider>
   );
 }

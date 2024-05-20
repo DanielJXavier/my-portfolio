@@ -117,7 +117,11 @@ describe("ExperienceItem component", () => {
     );
 
     expect(experienceItem).toBeInTheDocument();
-    expect(firstResponsibilityElement?.innerHTML).toContain(resposibilities[0]);
+
+    expect(firstResponsibilityElement?.innerHTML).toContain(
+      resposibilities[0].text
+    );
+
     expect(challenge?.innerHTML).toContain(greatestChallenge);
   });
 });
