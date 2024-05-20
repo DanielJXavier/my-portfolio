@@ -698,6 +698,5 @@ exports[`Recommendations page renders the page 1`] = `
       </blockquote>
     </section>
   </article>
-   
 </div>
 `;

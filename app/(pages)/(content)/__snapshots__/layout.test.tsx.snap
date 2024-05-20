@@ -95,7 +95,6 @@ exports[`Pages layout renders the layout 1`] = `
   >
     children
   </main>
-  ;
   <footer
     class="absolute right-0 bottom-0 left-0 h-24 md:h-20 lg:h-16 flex items-center justify-center"
   >
