@@ -2,16 +2,17 @@ export interface SkillInterface {
   name: string;
   size: 1 | 2 | 3 | 4 | 5;
   type: "hard" | "soft";
+  resume?: boolean;
 }
 
 export const skills: SkillInterface[] = [
   /* Front-End */
-  { name: "HTML", size: 5, type: "hard" },
-  { name: "CSS", size: 5, type: "hard" },
-  { name: "JavaScript", size: 5, type: "hard" },
-  { name: "React", size: 4, type: "hard" },
+  { name: "HTML5", size: 5, type: "hard", resume: true },
+  { name: "CSS3", size: 5, type: "hard", resume: true },
+  { name: "JavaScript", size: 5, type: "hard", resume: true },
+  { name: "React", size: 4, type: "hard", resume: true },
   { name: "Next.js", size: 3, type: "hard" },
-  { name: "Tailwind", size: 4, type: "hard" },
+  { name: "Tailwind CSS", size: 4, type: "hard" },
   { name: "Vue.js", size: 1, type: "hard" },
   { name: "Nuxt.js", size: 1, type: "hard" },
   { name: "Angular", size: 1, type: "hard" },
@@ -32,7 +33,7 @@ export const skills: SkillInterface[] = [
   { name: "Styled Components", size: 1, type: "hard" },
   { name: "PWA", size: 2, type: "hard" },
   /* Back-End */
-  { name: "Node.js", size: 3, type: "hard" },
+  { name: "Node.js", size: 3, type: "hard", resume: true },
   { name: "Express", size: 3, type: "hard" },
   { name: "LoopBack", size: 1, type: "hard" },
   { name: "Meteor", size: 1, type: "hard" },
@@ -89,18 +90,18 @@ export const skills: SkillInterface[] = [
   { name: "MarkDown", size: 1, type: "hard" },
   /* Soft skills */
   { name: "Communication", size: 5, type: "soft" },
-  { name: "Leadership", size: 5, type: "soft" },
-  { name: "Problem Solving", size: 5, type: "soft" },
-  { name: "Decision Making", size: 5, type: "soft" },
+  { name: "Leadership", size: 5, type: "soft", resume: true },
+  { name: "Problem Solving", size: 5, type: "soft", resume: true },
+  { name: "Decision Making", size: 5, type: "soft", resume: true },
   { name: "Empathy", size: 5, type: "soft" },
-  { name: "Conflict Resolution", size: 4, type: "soft" },
+  { name: "Conflict Resolution", size: 4, type: "soft", resume: true },
   { name: "Adaptability", size: 4, type: "soft" },
   { name: "Time Management", size: 3, type: "soft" },
   { name: "Organization", size: 3, type: "soft" },
   { name: "Strategic Thinking", size: 3, type: "soft" },
   { name: "Mentoring", size: 4, type: "soft" },
   { name: "Negotiation", size: 4, type: "soft" },
-  { name: "Resilience", size: 5, type: "soft" },
+  { name: "Resilience", size: 5, type: "soft", resume: true },
   { name: "Critical Thinking", size: 3, type: "soft" },
   { name: "Creativity", size: 3, type: "soft" },
   { name: "Active Listening", size: 3, type: "soft" },
