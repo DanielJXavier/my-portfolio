@@ -194,12 +194,12 @@ exports[`Resume page renders the page 1`] = `
             <li
               class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
             >
-              Delivered the successful execution of the search and recommendation systems roadmap including the new LTR rank algorythn;¹
+              Delivered the successful execution of the search and recommendation systems roadmap including the new LTR rank algorithm;¹
             </li>
             <li
               class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
             >
-              Structured the team and proposed an new approach to support the strategic plan for the upcoming year;¹
+              Structured the team and proposed a new approach to support the strategic plan for the upcoming year;¹
             </li>
           </ul>
           <p
@@ -238,7 +238,7 @@ exports[`Resume page renders the page 1`] = `
             <li
               class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
             >
-              Delivered the Design System roadmap including a entire new platform homepage done in less than 48 hours;
+              Delivered the Design System roadmap including an entirely new platform homepage created in less than 48 hours;
             </li>
           </ul>
           <p

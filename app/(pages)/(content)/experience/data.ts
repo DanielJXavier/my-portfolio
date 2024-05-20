@@ -60,11 +60,11 @@ export const experience: ExperienceInterface[] = [
         resume: true,
       },
       {
-        text: "Delivered the successful execution of the search and recommendation systems roadmap including the new LTR rank algorythn;¹",
+        text: "Delivered the successful execution of the search and recommendation systems roadmap including the new LTR rank algorithm;¹",
         resume: true,
       },
       {
-        text: "Structured the team and proposed an new approach to support the strategic plan for the upcoming year;¹",
+        text: "Structured the team and proposed a new approach to support the strategic plan for the upcoming year;¹",
         resume: true,
       },
       {
@@ -97,7 +97,7 @@ export const experience: ExperienceInterface[] = [
         resume: true,
       },
       {
-        text: "Delivered the Design System roadmap including a entire new platform homepage done in less than 48 hours;",
+        text: "Delivered the Design System roadmap including an entirely new platform homepage created in less than 48 hours;",
         resume: true,
       },
       {
@@ -242,7 +242,7 @@ export const experience: ExperienceInterface[] = [
     companyId: "softplan",
     companyName: "Softplan",
     year: "2018 ~ 2019",
-    description: 'I was a Senior Front-End developer at the "França" team.',
+    description: 'I was a Senior Front-End developer on the "França" team.',
     responsibilities: [
       {
         text: 'Developed new features for the "e-SAJ" portal utilizing React JS and GraphQL;',
@@ -263,7 +263,7 @@ export const experience: ExperienceInterface[] = [
     companyName: "Hotmart",
     year: "2018",
     description:
-      'I was a Senior Front-End developer at the "Growth Hacking" team.',
+      'I was a Senior Front-End developer on the "Growth Hacking" team.',
     responsibilities: [
       {
         text: "Developed systems to address the company's internal needs and automate tasks, leveraging technologies such as Vue.js, and Node.js;",
@@ -283,7 +283,7 @@ export const experience: ExperienceInterface[] = [
     companyName: "Hotmart",
     year: "2017 ~ 2018",
     description:
-      'I was a Mid Level Front-End developer at the "User Acquisition" team.',
+      'I was a Mid Level Front-End developer on the "User Acquisition" team.',
     responsibilities: [
       {
         text: "Designed a system to generate blog post images using components and pre-defined templates, thereby enhancing the productivity of the design team;",
@@ -307,7 +307,7 @@ export const experience: ExperienceInterface[] = [
     companyName: "Hotmart",
     year: "2016 ~ 2017",
     description:
-      'I was an Entry Level Front-End developer at the "User Acquisition" team.',
+      'I was an Entry Level Front-End developer on the "User Acquisition" team.',
     responsibilities: [
       {
         text: 'Developed a new WordPress theme for the "Hotmart blog" utilizing only HTML5, CSS Grid Layout, and Vanilla JS;',
@@ -330,7 +330,7 @@ export const experience: ExperienceInterface[] = [
     companyId: "sydle",
     companyName: "Sydle",
     year: "2014 ~ 2016",
-    description: 'I was a Support Analyst at the "Suporte & Sustentação" team.',
+    description: 'I was a Support Analyst on the "Suporte & Sustentação" team.',
     responsibilities: [
       {
         text: "Spearheaded the development of web projects utilizing WordPress and Magento;",
@@ -359,7 +359,7 @@ export const experience: ExperienceInterface[] = [
     companyId: "sydle",
     companyName: "Sydle",
     year: "2012 ~ 2014",
-    description: 'I was a Support Intern at the "Suporte & Sustentação" team.',
+    description: 'I was a Support Intern on the "Suporte & Sustentação" team.',
     responsibilities: [
       {
         text: "Provided technical support to users of the company's systems;",

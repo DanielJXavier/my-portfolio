@@ -388,7 +388,7 @@ exports[`Experience page renders the page 1`] = `
       <h3
         class="xl:text-xl"
       >
-        I was a Senior Front-End developer at the "França" team.
+        I was a Senior Front-End developer on the "França" team.
       </h3>
     </section>
   </article>
@@ -432,7 +432,7 @@ exports[`Experience page renders the page 1`] = `
       <h3
         class="xl:text-xl"
       >
-        I was a Senior Front-End developer at the "Growth Hacking" team.
+        I was a Senior Front-End developer on the "Growth Hacking" team.
       </h3>
     </section>
   </article>
@@ -476,7 +476,7 @@ exports[`Experience page renders the page 1`] = `
       <h3
         class="xl:text-xl"
       >
-        I was a Mid Level Front-End developer at the "User Acquisition" team.
+        I was a Mid Level Front-End developer on the "User Acquisition" team.
       </h3>
     </section>
   </article>
@@ -520,7 +520,7 @@ exports[`Experience page renders the page 1`] = `
       <h3
         class="xl:text-xl"
       >
-        I was an Entry Level Front-End developer at the "User Acquisition" team.
+        I was an Entry Level Front-End developer on the "User Acquisition" team.
       </h3>
     </section>
   </article>
@@ -564,7 +564,7 @@ exports[`Experience page renders the page 1`] = `
       <h3
         class="xl:text-xl"
       >
-        I was a Support Analyst at the "Suporte & Sustentação" team.
+        I was a Support Analyst on the "Suporte & Sustentação" team.
       </h3>
     </section>
   </article>
@@ -608,7 +608,7 @@ exports[`Experience page renders the page 1`] = `
       <h3
         class="xl:text-xl"
       >
-        I was a Support Intern at the "Suporte & Sustentação" team.
+        I was a Support Intern on the "Suporte & Sustentação" team.
       </h3>
     </section>
   </article>
