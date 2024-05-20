@@ -94,21 +94,14 @@ export default function Resume() {
                     {role} @ {companyName}
                   </p>
                   <p className="text-[12pt]">{year}</p>
-                  <ul className="pl-3.5">
+                  <ul className="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]">
                     {responsibilities
                       .filter(({ resume }) => resume)
                       .map(({ text }, i) => (
-                        <li
-                          key={i}
-                          className="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
-                        >
-                          {text}
-                        </li>
+                        <li key={i}>{text}</li>
                       ))}
+                    <li>Biggest challenge: {biggestChallenge}</li>
                   </ul>
-                  <p className="text-[12pt] text-justify">
-                    Biggest challenge: {biggestChallenge}
-                  </p>
                 </div>
               )
             )}
