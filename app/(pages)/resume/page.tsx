@@ -1,8 +1,14 @@
+import { Metadata } from "next";
+
 import { author } from "@/data";
 import { links, paragraphs } from "@/(pages)/(home)/data";
 import { experience } from "@/(pages)/(content)/experience/data";
 import { education } from "@/(pages)/(content)/education/data";
 import { skills } from "@/(pages)/(content)/skills/data";
+
+export const metadata: Metadata = {
+  title: "Resume",
+};
 
 export default function Page() {
   return (
