@@ -13,7 +13,7 @@ export const education: EducationInterface[] = [
     schoolName: "Estácio",
     fieldOfStudy: "Strategic People Management",
     degree: "Master of Business Administration - MBA",
-    years: "2020~2021",
+    years: "2020 ~ 2021",
     subjects: [
       "Coaching and Leadership",
       "Communication in Organizations",
@@ -31,7 +31,7 @@ export const education: EducationInterface[] = [
     schoolName: "Universidade FUMEC",
     fieldOfStudy: "Computer Science",
     degree: "Bachelor",
-    years: "2010~2014",
+    years: "2010 ~ 2014",
     subjects: [
       "Analytical Algebra and Geometry",
       "Programming Language and Techniques I",

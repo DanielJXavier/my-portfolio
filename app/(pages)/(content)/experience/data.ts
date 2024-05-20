@@ -6,10 +6,11 @@ export interface ExperienceInterface {
   description: string;
   responsibilities: {
     text: string;
-    resume: boolean;
+    resume?: boolean;
   }[];
   biggestChallenge: string;
   hasBlackLogo?: boolean;
+  resume?: boolean;
 }
 
 export const experience: ExperienceInterface[] = [
@@ -21,32 +22,29 @@ export const experience: ExperienceInterface[] = [
     description: 'I was the leader of the "Ads Seller Experience" team.',
     responsibilities: [
       {
-        text: "Spearheading a team of 9 developers, serving as a mentor and guiding light;",
+        text: "Led a team of 9 developers, serving as a mentor and guiding light;",
         resume: true,
       },
       {
-        text: "Guaranteeing the successful execution of the platform's registration and ad management system roadmap;",
+        text: "Delivered the successful execution of the platform's registration and ad management system roadmap including the new Ad Insertion in steps journey;",
         resume: true,
       },
       {
-        text: "Cultivating a high level of engagement within the team;",
-        resume: false,
+        text: "Built a high level of engagement within the team;",
       },
       {
-        text: 'Conducting personalized "1:1s" to guide team members through their performance cycles;',
-        resume: false,
+        text: 'Held personalized "1:1s" to guide team members through their performance cycles;',
       },
       {
-        text: "Implementing agile methodologies and leading team ceremonies to ensure a streamlined workflow;",
+        text: "Adopted agile methodologies and led team ceremonies to ensure a streamlined workflow balancing product and technical tasks;",
         resume: true,
       },
       {
-        text: "Collaborating closely with the Product Manager to facilitate informed and effective product decisions;",
-        resume: false,
+        text: "Worked closely with the Product Manager to facilitate informed and effective product decisions;",
       },
     ],
     biggestChallenge:
-      "Navigating the high-pressure demands of leadership for swift deliveries.",
+      "To deal with pressure from leadership to do major deliveries in the short term.",
     resume: true,
   },
   {
@@ -58,100 +56,92 @@ export const experience: ExperienceInterface[] = [
       'I was the leader of the "Search & Recommendation" team¹ and the "Design System" chapter².',
     responsibilities: [
       {
-        text: "Spearheading a team of 8 developers, serving as a mentor and guiding light;¹",
+        text: "Led a team of 8 developers, serving as a mentor and guiding light;¹",
         resume: true,
       },
       {
-        text: "Ensuring the successful execution of the search and recommendation systems roadmap;¹",
+        text: "Delivered the successful execution of the search and recommendation systems roadmap including the new LTR rank algorythn;¹",
         resume: true,
       },
       {
-        text: "Structuring the team and proposing an optimized framework to support the strategic plan for the upcoming year;¹",
+        text: "Structured the team and proposed an new approach to support the strategic plan for the upcoming year;¹",
         resume: true,
       },
       {
-        text: "Demystifying the company's understanding of search and recommendation subjects;¹",
-        resume: false,
+        text: "Clarified the company's understanding of search and recommendation subjects;¹",
       },
       {
-        text: "Indirectly supervising all developers (9 devs) in the chapter, fostering a sense of unity and direction;²",
-        resume: false,
+        text: "Supervised all developers (9 devs) in the chapter indirectly, fostered a sense of unity and direction;²",
       },
       {
-        text: "Cultivating engagement within the chapter and ensuring valuable deliveries despite working only once a week;²",
-        resume: false,
+        text: "Fostered engagement within the chapter and ensured valuable deliveries despite working only once a week;²",
       },
     ],
     biggestChallenge:
-      "Balancing the substantial resposibilities of both the team¹ and the chapter² simultaneously.",
+      "To balance the substantial responsibilities of both the team¹ and the chapter² simultaneously.",
     resume: true,
   },
   {
     role: "Software Engineering Manager",
     companyId: "olx",
     companyName: "OLX",
-    year: "2022~2023",
-    description: 'I was the leader of the "Design System" team.',
+    year: "2022 ~ 2023",
+    description: "I was the leader of the 'Design System' team.",
     responsibilities: [
       {
-        text: "Leading a team of 9 developers, serving as a point of reference;",
+        text: "Led a team of 9 developers, serving as a point of reference;",
         resume: true,
       },
       {
-        text: "Collaborating with the Design Manager to make optimal product decisions and establish a roadmap;",
+        text: "Partnered with the Design Manager to make optimal product decisions and establish a roadmap;",
         resume: true,
       },
       {
-        text: "Guaranteeing the delivery of the Design System roadmap;",
+        text: "Delivered the Design System roadmap including a entire new platform homepage done in less than 48 hours;",
         resume: true,
       },
       {
-        text: "Collecting and analyzing data to validate the project's value to the company;",
-        resume: false,
+        text: "Gathered and analyzed data to validate the project's value to the company;",
       },
       {
-        text: "Ensuring the continuous evolution of the Design System and its adoption by other teams;",
-        resume: false,
+        text: "Ensured the continuous evolution of the Design System and its adoption by other teams;",
       },
       {
-        text: "Developing documentation and processes for contributing to the Design System project and managing its version;",
-        resume: false,
+        text: "Developed documentation and processes for contributing to the Design System project and managing its version;",
       },
     ],
     biggestChallenge:
-      "Simultaneously assuming multiple roles, including Engineering Manager, Product Manager, Data Analyst, among others.",
+      "To assume multiple roles simultaneously, including Engineering Manager, Product Manager, Data Analyst, among others.",
     resume: true,
   },
   {
     role: "Software Engineering Manager",
     companyId: "olx",
     companyName: "OLX",
-    year: "2021~2022",
+    year: "2021 ~ 2022",
     description: 'I was the leader of the "Advertising" team.',
     responsibilities: [
       {
-        text: "Directly leading a team of 7 developers, serving as a key reference;",
+        text: "Led a team of 7 developers, serving as a key reference;",
         resume: true,
       },
       {
-        text: "Ensuring the delivery of both direct and indirect Advertising roadmaps for the platform;",
+        text: "Delivered both direct and indirect Advertising roadmaps for the platform that brought R$80 million in revenue;",
         resume: true,
       },
       {
-        text: "Recruiting new professionals to increase productive capacity;",
+        text: "Recruited new professionals to increase productive capacity in 300%;",
         resume: true,
       },
       {
-        text: "Actively partnering with the Product Manager to prioritize and develop optimal initiatives;",
-        resume: false,
+        text: "Partnered actively with the Product Manager to prioritize and develop optimal initiatives;",
       },
       {
-        text: "Proposing a new structure for the Advertising area to enhance results;",
-        resume: false,
+        text: "Proposed a new structure for the Advertising area to enhance results;",
       },
     ],
     biggestChallenge:
-      "Managing high expectations related to Advertising revenue results.",
+      "To manage high expectations related to Advertising revenue results.",
     resume: true,
   },
   {
@@ -162,112 +152,109 @@ export const experience: ExperienceInterface[] = [
     description: "I held the position of CTO and co-founder at the startup.",
     responsibilities: [
       {
-        text: "Crafting the company's technical vision and product strategy;",
+        text: "Crafted the startup's technical vision and product strategy;",
         resume: true,
       },
-      { text: "Architecting the solution from the ground up;", resume: true },
       {
-        text: "Refining the product's technical specifications;",
+        text: "Architected the solution from the ground up;",
         resume: true,
       },
-      { text: "Developing a Proof of Concept project;", resume: false },
+      {
+        text: "Refined the product's technical specifications;",
+        resume: true,
+      },
+      { text: "Developed a Proof of Concept project;", resume: false },
     ],
     biggestChallenge:
-      'Converting a highly "human-centric" project, rooted in personal consultancy, into a systematic approach.',
+      'To convert a highly "human-centric" project, rooted in personal consultancy, into a systematic approach.',
     resume: true,
   },
   {
     role: "Development Coordinator",
     companyId: "softplan",
     companyName: "Softplan",
-    year: "2020~2021",
+    year: "2020 ~ 2021",
     description: 'I was the leader of the "Estônia" team.',
     responsibilities: [
       {
-        text: "Direct leadership of a multidisciplinary software development team, inclusive of Software Architects, Developers, Quality Assurance Analysts, Product Owners, Business Analysts, and Agile Masters;",
+        text: "Led directly a multidisciplinary software development team, inclusive of Software Architects, Developers, Quality Assurance Analysts, Product Owners, Business Analysts, and Agile Masters;",
         resume: true,
       },
       {
-        text: "Mentoring and development of both direct and indirect employees, utilizing techniques such as One-on-One and feedforward;",
-        resume: false,
+        text: "Mentored and developed both direct and indirect employees, utilizing techniques such as 1:1 and feedforward;",
       },
       {
-        text: 'Planning and execution of deliveries for the most critical modules of the "SAJ" system;',
+        text: 'Planned and executed deliveries for the most 2 critical modules of the "SAJ" system;',
         resume: true,
       },
       {
-        text: "Daily application of situational leadership to maximize the potential of those under my guidance;",
-        resume: false,
+        text: "Applied daily situational leadership to maximize the potential of those under my guidance;",
       },
       {
-        text: "Structuring and continuous enhancement of the team's workflow using agile software development methodologies;",
+        text: "Structured and continuously enhanced the team's workflow using agile software development methodologies;",
         resume: true,
       },
       {
-        text: "Creation of formulas and metrics to accurately gauge the team's capacity, thereby bringing predictability to deliveries;",
-        resume: false,
+        text: "Created formulas and metrics to accurately gauge the team's capacity, thereby bringing predictability to deliveries;",
       },
       {
-        text: "Mapping of effective talent retention strategies;",
-        resume: false,
+        text: "Mapped effective talent retention strategies;",
       },
     ],
     biggestChallenge:
-      "Managing a large team (comprising 28 professionals) and overseeing critical deliveries.",
+      "To manage a large team (28 professionals) and oversee critical deliveries.",
     resume: true,
   },
   {
     role: "Tech Lead",
     companyId: "softplan",
     companyName: "Softplan",
-    year: "2019~2020",
+    year: "2019 ~ 2020",
     description: "I was the technical leader of the Front-End chapter.",
     responsibilities: [
       {
-        text: 'Development of the new "SAJ" system, constructed using React JS, .Net, and GraphQL;',
+        text: 'Developed the new "SAJ" system, constructed using React JS, .Net, and GraphQL;',
         resume: true,
       },
       {
-        text: "Oversight of the deliveries and deployment of 17 modules of the system;",
+        text: "Oversaw the deliveries and deployment of 17 modules of the system;",
         resume: true,
       },
       {
-        text: "Provision of training in HTML, CSS, JavaScript, React JS, GraphQL, and unit tests;",
-        resume: false,
+        text: "Provided training in HTML, CSS, JavaScript, React JS, GraphQL, and unit tests;",
       },
       {
-        text: "Leadership of a team of 10 Front-End React developers;",
+        text: "Led a team of 10 Front-End React developers;",
         resume: true,
       },
-      { text: "Recruitment of new employees for the company;", resume: false },
-      { text: "Selection of new contractor professionals;", resume: false },
+      { text: "Recruited new employees for the company;", resume: false },
+      { text: "Selected new contractor professionals;", resume: false },
       {
-        text: "Professional development through One-on-one sessions, Feedbacks, Feedforwards, and Mentoring;",
-        resume: false,
+        text: "Developed professionals through 1:1 sessions, Feedforwards, and Mentoring;",
       },
     ],
     biggestChallenge:
-      "Acquiring leadership skills and mastering people management.",
+      "To acquire leadership skills and master people management.",
     resume: true,
   },
   {
     role: "Senior Front-End Developer",
     companyId: "softplan",
     companyName: "Softplan",
-    year: "2018~2019",
+    year: "2018 ~ 2019",
     description: 'I was a Senior Front-End developer at the "França" team.',
     responsibilities: [
       {
-        text: 'Development of new features for the "e-SAJ" portal utilizing React JS and GraphQL;',
+        text: 'Developed new features for the "e-SAJ" portal utilizing React JS and GraphQL;',
         resume: true,
       },
       {
-        text: 'Creation of new features for the "SAJ Tribunais" system using React JS and GraphQL;',
+        text: 'Created new features for the "SAJ Tribunais" system using React JS and GraphQL;',
         resume: true,
       },
     ],
     biggestChallenge:
-      "Managing all the deliveries of the project as the sole Front-End developer.",
+      "To manage all the deliveries of the project as the sole Front-End developer.",
     resume: true,
   },
   {
@@ -279,115 +266,118 @@ export const experience: ExperienceInterface[] = [
       'I was a Senior Front-End developer at the "Growth Hacking" team.',
     responsibilities: [
       {
-        text: "Developing systems to address the company's internal needs and automate tasks, leveraging technologies such as Vue.js, and Node.js;",
+        text: "Developed systems to address the company's internal needs and automate tasks, leveraging technologies such as Vue.js, and Node.js;",
         resume: true,
       },
       {
-        text: "Creating a Proof of Concept (POC) that introduced a simplified method for product registration on the platform;",
+        text: "Created a Proof of Concept (POC) that introduced a simplified method for product registration on the platform;",
         resume: true,
       },
     ],
     biggestChallenge:
+      "To balance the need to comprehend customer requirements clearly while simultaneously coding.",
   },
   {
     role: "Mid Level Front-End Developer",
     companyId: "hotmart",
     companyName: "Hotmart",
-    year: "2017~2018",
+    year: "2017 ~ 2018",
     description:
       'I was a Mid Level Front-End developer at the "User Acquisition" team.',
     responsibilities: [
       {
-        text: "Designing a system to generate blog post images using components and pre-defined templates, thereby enhancing the productivity of the design team;",
+        text: "Designed a system to generate blog post images using components and pre-defined templates, thereby enhancing the productivity of the design team;",
         resume: true,
       },
       {
-        text: 'Developing a high-performance caching system for the "Hotmart blog" (WordPress), which resulted in a 300% increase in performance;',
+        text: 'Developed a high-performance caching system for the "Hotmart blog" (WordPress), which resulted in a 300% increase in performance;',
         resume: true,
       },
       {
-        text: 'Implementing the Arabic version of the "Hotmart blog";',
+        text: 'Implemented the Arabic version of the "Hotmart blog";',
         resume: true,
       },
     ],
     biggestChallenge:
+      "To conceptualize and develop complex solutions from the ground up.",
   },
   {
     role: "Entry Level Front-End Developer",
     companyId: "hotmart",
     companyName: "Hotmart",
-    year: "2016~2017",
+    year: "2016 ~ 2017",
     description:
       'I was an Entry Level Front-End developer at the "User Acquisition" team.',
     responsibilities: [
       {
-        text: 'Developing a new WordPress theme for the "Hotmart blog" utilizing only HTML5, CSS Grid Layout, and Vanilla JS;',
+        text: 'Developed a new WordPress theme for the "Hotmart blog" utilizing only HTML5, CSS Grid Layout, and Vanilla JS;',
         resume: true,
       },
       {
-        text: 'Implementing the new layout for the "Hotmart blog";',
+        text: 'Implemented the new layout for the "Hotmart blog";',
         resume: true,
       },
       {
-        text: "Creating custom features within the WordPress admin interface;",
+        text: "Created custom features within the WordPress admin interface;",
         resume: true,
       },
     ],
     biggestChallenge:
+      "To acquire new development skills and apply them to complex projects.",
   },
   {
     role: "Support Analyst",
     companyId: "sydle",
     companyName: "Sydle",
-    year: "2014~2016",
+    year: "2014 ~ 2016",
     description: 'I was a Support Analyst at the "Suporte & Sustentação" team.',
     responsibilities: [
       {
-        text: "Spearheading the development of web projects utilizing WordPress and Magento;",
+        text: "Spearheaded the development of web projects utilizing WordPress and Magento;",
         resume: true,
       },
       {
-        text: "Facilitating the modeling and automation of the company's internal processes through BPMN;",
+        text: "Facilitated the modeling and automation of the company's internal processes through BPMN;",
         resume: true,
       },
       {
-        text: "Providing comprehensive technical support to users of the company's systems;",
+        text: "Provided comprehensive technical support to users of the company's systems;",
         resume: true,
       },
       {
-        text: "Overseeing the configuration and monitoring of both Linux and Windows servers.",
+        text: "Oversaw the configuration and monitoring of both Linux and Windows servers.",
         resume: true,
       },
     ],
     biggestChallenge:
-      "Rapidly acquiring development skills and contributing to legacy projects.",
-    resume: false,
+      "To rapidly acquire development skills and contribute to legacy projects.",
+
     hasBlackLogo: true,
   },
   {
     role: "Support Intern",
     companyId: "sydle",
     companyName: "Sydle",
-    year: "2012~2014",
+    year: "2012 ~ 2014",
     description: 'I was a Support Intern at the "Suporte & Sustentação" team.',
     responsibilities: [
       {
-        text: "Providing technical support to users of the company's systems;",
+        text: "Provided technical support to users of the company's systems;",
         resume: true,
       },
       {
-        text: "Configuring and monitoring infrastructure on Linux and Windows servers;",
+        text: "Configured and monitored infrastructure on Linux and Windows servers;",
         resume: true,
       },
-      { text: "Compiling team reports;", resume: true },
+      { text: "Compiled team reports;", resume: true },
       {
-        text: "Offering infrastructure support to the company's employees.",
+        text: "Offered infrastructure support to the company's employees.",
         resume: true,
       },
     ],
     biggestChallenge:
-      "Simultaneously learning a multitude of new concepts and balancing them with my university commitments.",
-    resume: false,
+      "To simultaneously learn a multitude of new concepts and balance them with my university commitments.",
+
     hasBlackLogo: true,
   },
 ];

@@ -58,9 +58,7 @@ export default function ExperienceItem({
       {experienceMode === "detailed" && (
         <>
           <section className="mt-4 pl-14 xl:px-14">
-            <h3 className="font-semibold xl:text-xl">
-              My main responsibilities were:
-            </h3>
+            <h3 className="font-semibold xl:text-xl">Main responsibilities:</h3>
             <ul className="pl-7 list-disc text-sm xl:text-base">
               {responsibilities.map(({ text }, i) => (
                 <li key={i}>{text}</li>
@@ -68,6 +66,7 @@ export default function ExperienceItem({
             </ul>
           </section>
           <section className="mt-4 pl-14 xl:px-14">
+            <h3 className="font-semibold xl:text-xl">Biggest challenge:</h3>
             <p className="text-sm xl:text-base">{biggestChallenge}</p>
           </section>
         </>
