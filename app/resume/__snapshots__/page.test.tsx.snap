@@ -1,0 +1,484 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Resume page renders the page 1`] = `
+<div>
+  <main
+    class="w-[210mm] flex flex-col gap-y-4 font-serif p-[0.5in]"
+  >
+    <section>
+      <h1
+        class="text-[18pt] font-bold"
+      >
+        Daniel
+         
+        Xavier
+      </h1>
+      <p>
+        dxdanielxavier@gmail.com
+      </p>
+      <p>
+        +55 31 99732-5804
+      </p>
+      <p>
+        <a
+          class="underline"
+          href="https://www.linkedin.com/in/danieljxavier/"
+          target="_blank"
+        >
+          linkedin.com/in/
+          danieljxavier
+        </a>
+      </p>
+      <p>
+        <a
+          class="underline"
+          href="https://www.danielxavier.dev/"
+          target="_blank"
+        >
+          danielxavier.dev
+        </a>
+      </p>
+    </section>
+    <section>
+      <h2
+        class="text-[16pt] font-bold"
+      >
+        Summary
+      </h2>
+      <p
+        class="text-[12pt] text-justify"
+      >
+        With a decade of web development experience and mastery in JavaScript, React.js, and Node.js, I’ve excelled as a Technical Leader, creating elegant solutions for complex problems.
+      </p>
+      <p
+        class="text-[12pt] text-justify"
+      >
+        My leadership extends beyond technical skills, as I’ve mentored teams on intricate projects and honed management skills like emotional intelligence and conflict resolution.
+      </p>
+      <p
+        class="text-[12pt] text-justify"
+      >
+        This blend of technical expertise and leadership has shaped me into a well-rounded Front-End focused Technical Leader.
+      </p>
+    </section>
+    <section>
+      <h2
+        class="text-[16pt] font-bold"
+      >
+        Skills
+      </h2>
+      <ul
+        class="flex gap-x-3.5 flex-wrap"
+      >
+        <li
+          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+        >
+          HTML5
+        </li>
+        <li
+          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+        >
+          CSS3
+        </li>
+        <li
+          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+        >
+          JavaScript
+        </li>
+        <li
+          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+        >
+          React
+        </li>
+        <li
+          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+        >
+          Node.js
+        </li>
+        <li
+          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+        >
+          Leadership
+        </li>
+        <li
+          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+        >
+          Problem Solving
+        </li>
+        <li
+          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+        >
+          Decision Making
+        </li>
+        <li
+          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+        >
+          Conflict Resolution
+        </li>
+        <li
+          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+        >
+          Resilience
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2
+        class="text-[16pt] font-bold"
+      >
+        Experience
+      </h2>
+      <div
+        class="flex flex-col gap-y-3"
+      >
+        <div>
+          <p
+            class="text-[12pt] font-bold"
+          >
+            Software Engineering Manager
+             @ 
+            OLX
+          </p>
+          <p
+            class="text-[12pt]"
+          >
+            2024
+          </p>
+          <ul
+            class="pl-3.5"
+          >
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Led a team of 9 developers, serving as a mentor and guiding light;
+            </li>
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Delivered the successful execution of the platform's registration and ad management system roadmap including the new Ad Insertion in steps journey;
+            </li>
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Adopted agile methodologies and led team ceremonies to ensure a streamlined workflow balancing product and technical tasks;
+            </li>
+          </ul>
+          <p
+            class="text-[12pt] text-justify"
+          >
+            Biggest challenge: 
+            To deal with pressure from leadership to do major deliveries in the short term.
+          </p>
+        </div>
+        <div>
+          <p
+            class="text-[12pt] font-bold"
+          >
+            Software Engineering Manager
+             @ 
+            OLX
+          </p>
+          <p
+            class="text-[12pt]"
+          >
+            2023
+          </p>
+          <ul
+            class="pl-3.5"
+          >
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Led a team of 8 developers, serving as a mentor and guiding light;¹
+            </li>
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Delivered the successful execution of the search and recommendation systems roadmap including the new LTR rank algorythn;¹
+            </li>
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Structured the team and proposed an new approach to support the strategic plan for the upcoming year;¹
+            </li>
+          </ul>
+          <p
+            class="text-[12pt] text-justify"
+          >
+            Biggest challenge: 
+            To balance the substantial responsibilities of both the team¹ and the chapter² simultaneously.
+          </p>
+        </div>
+        <div>
+          <p
+            class="text-[12pt] font-bold"
+          >
+            Software Engineering Manager
+             @ 
+            OLX
+          </p>
+          <p
+            class="text-[12pt]"
+          >
+            2022 ~ 2023
+          </p>
+          <ul
+            class="pl-3.5"
+          >
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Led a team of 9 developers, serving as a point of reference;
+            </li>
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Partnered with the Design Manager to make optimal product decisions and establish a roadmap;
+            </li>
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Delivered the Design System roadmap including a entire new platform homepage done in less than 48 hours;
+            </li>
+          </ul>
+          <p
+            class="text-[12pt] text-justify"
+          >
+            Biggest challenge: 
+            To assume multiple roles simultaneously, including Engineering Manager, Product Manager, Data Analyst, among others.
+          </p>
+        </div>
+        <div>
+          <p
+            class="text-[12pt] font-bold"
+          >
+            Software Engineering Manager
+             @ 
+            OLX
+          </p>
+          <p
+            class="text-[12pt]"
+          >
+            2021 ~ 2022
+          </p>
+          <ul
+            class="pl-3.5"
+          >
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Led a team of 7 developers, serving as a key reference;
+            </li>
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Delivered both direct and indirect Advertising roadmaps for the platform that brought R$80 million in revenue;
+            </li>
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Recruited new professionals to increase productive capacity in 300%;
+            </li>
+          </ul>
+          <p
+            class="text-[12pt] text-justify"
+          >
+            Biggest challenge: 
+            To manage high expectations related to Advertising revenue results.
+          </p>
+        </div>
+        <div>
+          <p
+            class="text-[12pt] font-bold"
+          >
+            CTO & Partner
+             @ 
+            Meaning
+          </p>
+          <p
+            class="text-[12pt]"
+          >
+            2023
+          </p>
+          <ul
+            class="pl-3.5"
+          >
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Crafted the startup's technical vision and product strategy;
+            </li>
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Architected the solution from the ground up;
+            </li>
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Refined the product's technical specifications;
+            </li>
+          </ul>
+          <p
+            class="text-[12pt] text-justify"
+          >
+            Biggest challenge: 
+            To convert a highly "human-centric" project, rooted in personal consultancy, into a systematic approach.
+          </p>
+        </div>
+        <div>
+          <p
+            class="text-[12pt] font-bold"
+          >
+            Development Coordinator
+             @ 
+            Softplan
+          </p>
+          <p
+            class="text-[12pt]"
+          >
+            2020 ~ 2021
+          </p>
+          <ul
+            class="pl-3.5"
+          >
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Led directly a multidisciplinary software development team, inclusive of Software Architects, Developers, Quality Assurance Analysts, Product Owners, Business Analysts, and Agile Masters;
+            </li>
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Planned and executed deliveries for the most 2 critical modules of the "SAJ" system;
+            </li>
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Structured and continuously enhanced the team's workflow using agile software development methodologies;
+            </li>
+          </ul>
+          <p
+            class="text-[12pt] text-justify"
+          >
+            Biggest challenge: 
+            To manage a large team (28 professionals) and oversee critical deliveries.
+          </p>
+        </div>
+        <div>
+          <p
+            class="text-[12pt] font-bold"
+          >
+            Tech Lead
+             @ 
+            Softplan
+          </p>
+          <p
+            class="text-[12pt]"
+          >
+            2019 ~ 2020
+          </p>
+          <ul
+            class="pl-3.5"
+          >
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Developed the new "SAJ" system, constructed using React JS, .Net, and GraphQL;
+            </li>
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Oversaw the deliveries and deployment of 17 modules of the system;
+            </li>
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Led a team of 10 Front-End React developers;
+            </li>
+          </ul>
+          <p
+            class="text-[12pt] text-justify"
+          >
+            Biggest challenge: 
+            To acquire leadership skills and master people management.
+          </p>
+        </div>
+        <div>
+          <p
+            class="text-[12pt] font-bold"
+          >
+            Senior Front-End Developer
+             @ 
+            Softplan
+          </p>
+          <p
+            class="text-[12pt]"
+          >
+            2018 ~ 2019
+          </p>
+          <ul
+            class="pl-3.5"
+          >
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Developed new features for the "e-SAJ" portal utilizing React JS and GraphQL;
+            </li>
+            <li
+              class="relative text-[12pt] text-justify before:content-['•'] before:absolute before:-left-[10px]"
+            >
+              Created new features for the "SAJ Tribunais" system using React JS and GraphQL;
+            </li>
+          </ul>
+          <p
+            class="text-[12pt] text-justify"
+          >
+            Biggest challenge: 
+            To manage all the deliveries of the project as the sole Front-End developer.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2
+        class="text-[16pt] font-bold"
+      >
+        Education
+      </h2>
+      <div
+        class="flex flex-col gap-y-3"
+      >
+        <div>
+          <p
+            class="text-[12pt] font-bold"
+          >
+            Master of Business Administration - MBA
+            , 
+            Strategic People Management
+          </p>
+          <p
+            class="text-[12pt]"
+          >
+            Estácio
+          </p>
+        </div>
+        <div>
+          <p
+            class="text-[12pt] font-bold"
+          >
+            Bachelor
+            , 
+            Computer Science
+          </p>
+          <p
+            class="text-[12pt]"
+          >
+            Universidade FUMEC
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+`;
