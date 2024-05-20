@@ -157,7 +157,7 @@ exports[`Experience page renders the page 1`] = `
           class="text-xs md:text-sm"
         >
            (
-          2022~2023
+          2022 ~ 2023
           )
         </span>
       </h2>
@@ -168,7 +168,7 @@ exports[`Experience page renders the page 1`] = `
       <h3
         class="xl:text-xl"
       >
-        I was the leader of the "Design System" team.
+        I was the leader of the 'Design System' team.
       </h3>
     </section>
   </article>
@@ -201,7 +201,7 @@ exports[`Experience page renders the page 1`] = `
           class="text-xs md:text-sm"
         >
            (
-          2021~2022
+          2021 ~ 2022
           )
         </span>
       </h2>
@@ -289,7 +289,7 @@ exports[`Experience page renders the page 1`] = `
           class="text-xs md:text-sm"
         >
            (
-          2020~2021
+          2020 ~ 2021
           )
         </span>
       </h2>
@@ -333,7 +333,7 @@ exports[`Experience page renders the page 1`] = `
           class="text-xs md:text-sm"
         >
            (
-          2019~2020
+          2019 ~ 2020
           )
         </span>
       </h2>
@@ -377,7 +377,7 @@ exports[`Experience page renders the page 1`] = `
           class="text-xs md:text-sm"
         >
            (
-          2018~2019
+          2018 ~ 2019
           )
         </span>
       </h2>
@@ -465,7 +465,7 @@ exports[`Experience page renders the page 1`] = `
           class="text-xs md:text-sm"
         >
            (
-          2017~2018
+          2017 ~ 2018
           )
         </span>
       </h2>
@@ -509,7 +509,7 @@ exports[`Experience page renders the page 1`] = `
           class="text-xs md:text-sm"
         >
            (
-          2016~2017
+          2016 ~ 2017
           )
         </span>
       </h2>
@@ -553,7 +553,7 @@ exports[`Experience page renders the page 1`] = `
           class="text-xs md:text-sm"
         >
            (
-          2014~2016
+          2014 ~ 2016
           )
         </span>
       </h2>
@@ -597,7 +597,7 @@ exports[`Experience page renders the page 1`] = `
           class="text-xs md:text-sm"
         >
            (
-          2012~2014
+          2012 ~ 2014
           )
         </span>
       </h2>

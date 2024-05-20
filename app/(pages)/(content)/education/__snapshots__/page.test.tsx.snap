@@ -46,7 +46,7 @@ exports[`Education page renders the page 1`] = `
           class="text-xs md:text-sm"
         >
            (
-          2020~2021
+          2020 ~ 2021
           )
         </span>
       </h2>
@@ -125,7 +125,7 @@ exports[`Education page renders the page 1`] = `
           class="text-xs md:text-sm"
         >
            (
-          2010~2014
+          2010 ~ 2014
           )
         </span>
       </h2>
