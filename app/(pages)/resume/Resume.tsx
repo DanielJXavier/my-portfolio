@@ -10,7 +10,7 @@ import { useEffect } from "react";
 export default function Resume() {
   useEffect(() => {
     if (typeof window !== undefined) {
-      const tempTitle = document.title;
+      const title = document.title;
 
       window.addEventListener("beforeprint", () => {
         const today = new Date();
@@ -22,7 +22,7 @@ export default function Resume() {
       });
 
       window.addEventListener("afterprint", () => {
-        document.title = tempTitle;
+        document.title = title;
       });
     }
   }, []);
