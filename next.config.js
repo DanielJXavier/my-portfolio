@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+
 const cspHeader = `
     default-src 'self';
     script-src 'self' 'unsafe-eval' 'unsafe-inline';
@@ -11,8 +12,6 @@ const cspHeader = `
     frame-ancestors 'none';
     upgrade-insecure-requests;
 `;
-
-const path = require("path");
 
 module.exports = {
   async headers() {
