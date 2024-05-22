@@ -5,6 +5,6 @@ import { addMatchImageSnapshotCommand } from "@simonsmith/cypress-image-snapshot
 addMatchImageSnapshotCommand({
   comparisonMethod: "ssim",
   customSnapshotsDir: "cypress/visual-testing",
-  failureThreshold: 0.05,
+  failureThreshold: 0.01,
   failureThresholdType: "percent",
 });
