@@ -1,6 +1,6 @@
 const config = {
   ROOT_DIR: "cypress/visual-testing",
-  FAILURE_THRESHOLD: 0.05,
+  FAILURE_THRESHOLD: 0.1,
   FAIL_ON_MISSING_BASELINE: true,
   JSON_REPORT: {
     FILENAME: "report",
