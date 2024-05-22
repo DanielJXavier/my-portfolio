@@ -1,0 +1,24 @@
+name: Unit Tests
+
+on: [push]
+
+jobs:
+  lint:
+    name: Unit Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          cache: "yarn"
+          node-version: 20
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Unit Tests
+        run: yarn test
