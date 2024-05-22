@@ -17,8 +17,7 @@
 /coverage
 /cypress/downloads/*
 /cypress/screenshots/*
-/cypress/visual-testing/*
-!/cypress/visual-testing/baseline
+/cypress/visual-testing/**/__diff_output__
 
 # next.js
 /.next/
