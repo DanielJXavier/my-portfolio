@@ -7,10 +7,10 @@
     "lint": "next lint",
     "test": "jest",
     "coverage": "jest --coverage",
-    "cy:build": "CYPRESS=true && yarn build",
+    "cy:prepare": "CYPRESS=true && yarn build && yarn start",
     "cy:open": "cypress open",
     "cy:run": "cypress run --browser chrome",
-    "cy:update": "cypress run --browser chrome --env updateSnapshots=true",
+    "cy:update": "yarn cy:run --env updateSnapshots=true",
     "build": "next build",
     "start": "next start"
   },
