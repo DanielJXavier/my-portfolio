@@ -1,10 +1,10 @@
-name: TypeScript
+name: Code
 
 on: [push]
 
 jobs:
-  lint:
-    name: TypeScript
+  dependencies:
+    name: Dependencies
     runs-on: ubuntu-latest
 
     steps:
@@ -20,5 +20,23 @@ jobs:
       - name: Install dependencies
         run: yarn
 
+      - name: Lint
+        run: yarn lint
+
+  lint:
+    name: Lint
+    needs: dependencies
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Lint
+        run: yarn lint
+
+  typescript:
+    name: TypeScript
+    needs: dependencies
+    runs-on: ubuntu-latest
+
+    steps:
       - name: TypeScript
         run: tsc
