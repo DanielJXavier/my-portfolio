@@ -11,8 +11,14 @@ jobs:
       - name: Check out Git repository
         uses: actions/checkout@v4
 
-      - name: Dependencies
-        uses: ./.github/dependencies
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          cache: "yarn"
+          node-version: 20
+
+      - name: Install dependencies
+        run: yarn
 
       - name: Unit Tests
         run: yarn test
@@ -25,8 +31,14 @@ jobs:
       - name: Check out Git repository
         uses: actions/checkout@v4
 
-      - name: Dependencies
-        uses: ./.github/dependencies
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          cache: "yarn"
+          node-version: 20
+
+      - name: Install dependencies
+        run: yarn
 
       - name: Build
         uses: ./.github/workflows/dependencies.yml
