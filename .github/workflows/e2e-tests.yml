@@ -23,8 +23,7 @@ jobs:
       - name: Build
         run: yarn build
 
-      - name: Start
-        run: yarn start
-
       - name: E2E Tests
-        run: yarn cy:run
+        run: |
+          yarn start & npx wait-on http://localhost:3000
+          yarn cy:run
