@@ -27,3 +27,8 @@ jobs:
         run: |
           yarn start & npx wait-on http://localhost:3000
           yarn cy:run --spec "cypress/e2e/responsive/desktop.cy.ts"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cypress-snapshots
+          path: cypress/snapshots
