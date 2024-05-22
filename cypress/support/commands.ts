@@ -1,0 +1,19 @@
+/// <reference types="cypress" />
+
+declare namespace Cypress {
+  interface Chainable {
+    visitDarkTheme(url: string, isDarkTheme?: boolean): void;
+  }
+}
+
+Cypress.Commands.add("visitDarkTheme", (url, isDarkTheme = true) => {
+  cy.visit(url, {
+    onBeforeLoad(win) {
+      cy.stub(win, "matchMedia")
+        .withArgs("(prefers-color-scheme: dark)")
+        .returns({
+          matches: isDarkTheme,
+        });
+    },
+  });
+});

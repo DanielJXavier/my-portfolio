@@ -15,6 +15,10 @@
 
 # testing
 /coverage
+/cypress/downloads/*
+/cypress/screenshots/*
+/cypress/visual-testing/*
+!/cypress/visual-testing/baseline
 
 # next.js
 /.next/
