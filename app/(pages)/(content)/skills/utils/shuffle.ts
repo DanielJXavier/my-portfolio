@@ -3,7 +3,7 @@ import { SkillInterface } from "../data";
 type SkillsArrayType = SkillInterface[];
 
 export default function shuffle(array: SkillsArrayType) {
-  if (process.env.NODE_ENV === "test") {
+  if (process.env.NODE_ENV === "test" || process.env.CYPRESS) {
     return array;
   }
 
