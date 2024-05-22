@@ -27,8 +27,8 @@ jobs:
         run: |
           yarn start & npx wait-on http://localhost:3000
           yarn cy:run --spec "cypress/e2e/responsive/desktop.cy.ts"
-
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: cypress-visual-testing
           path: cypress/visual-testing
