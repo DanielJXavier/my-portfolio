@@ -19,8 +19,7 @@
     "@vercel/speed-insights": "^1.0.10",
     "next": "^14.2.3",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "sharp": "^0.33.4"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@simonsmith/cypress-image-snapshot": "^9.0.3",
