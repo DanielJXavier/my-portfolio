@@ -26,4 +26,4 @@ jobs:
       - name: E2E Tests
         run: |
           yarn start & npx wait-on http://localhost:3000
-          yarn cy:run --spec "cypress/e2e/responsive/desktop.cy.js"
+          yarn cy:run --spec "cypress/e2e/responsive/desktop.cy.ts"
