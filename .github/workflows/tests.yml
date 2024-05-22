@@ -3,24 +3,28 @@ name: Tests
 on: [push]
 
 jobs:
-  dependencies:
-    uses: ./.github/workflows/dependencies.yml
-
   unit-test:
     name: Unit Tests
-    needs: dependencies
     runs-on: ubuntu-latest
 
     steps:
+      - id: dependencies
+        uses: ./.github/actions/dependencies.yml
+
       - name: Unit Tests
         run: yarn test
 
   e2e-tests:
     name: E2E Tests
-    needs: dependencies
     runs-on: ubuntu-latest
 
     steps:
+      - id: dependencies
+        uses: ./.github/actions/dependencies.yml
+
+      - name: Build
+        uses: ./.github/workflows/dependencies.yml
+
       - name: Build
         env:
           CYPRESS: true

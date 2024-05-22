@@ -3,23 +3,24 @@ name: Code
 on: [push]
 
 jobs:
-  dependencies:
-    uses: ./.github/workflows/dependencies.yml
-
   lint:
     name: Lint
-    needs: dependencies
     runs-on: ubuntu-latest
 
     steps:
+      - id: dependencies
+        uses: ./.github/actions/dependencies.yml
+
       - name: Lint
         run: yarn lint
 
   typescript:
     name: TypeScript
-    needs: dependencies
     runs-on: ubuntu-latest
 
     steps:
+      - id: dependencies
+        uses: ./.github/actions/dependencies.yml
+
       - name: TypeScript
         run: tsc
