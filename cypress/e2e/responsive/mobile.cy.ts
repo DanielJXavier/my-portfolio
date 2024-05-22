@@ -7,9 +7,9 @@ describe("Mobile", () => {
         it(`${name} page`, () => {
           cy.viewport(resolution[0], resolution[1]);
 
-          cy.visit(`/${path}`);
+          cy.visitDarkTheme(`/${path}`, false);
 
-          cy.compareSnapshot(`mobile-${i + 1}-${name.toLowerCase()}-page`);
+          cy.matchImageSnapshot(`mobile-${i + 1}-${name.toLowerCase()}-page`);
         });
       });
     });

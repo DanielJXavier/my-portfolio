@@ -10,6 +10,7 @@
     "cy:build": "CYPRESS=true && yarn build",
     "cy:open": "cypress open",
     "cy:run": "cypress run --browser chrome",
+    "cy:update": "cypress run --browser chrome --env updateSnapshots=true",
     "build": "next build",
     "start": "next start"
   },
@@ -22,6 +23,7 @@
     "sharp": "^0.33.4"
   },
   "devDependencies": {
+    "@simonsmith/cypress-image-snapshot": "^9.0.3",
     "@testing-library/jest-dom": "^6.4.5",
     "@testing-library/react": "^15.0.7",
     "@types/jest": "^29.5.12",

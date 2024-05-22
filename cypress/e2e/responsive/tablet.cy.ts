@@ -7,9 +7,9 @@ describe("Tablet", () => {
         it(`${name} page`, () => {
           cy.viewport(resolution[0], resolution[1]);
 
-          cy.visit(`/${path}`);
+          cy.visitDarkTheme(`/${path}`, false);
 
-          cy.compareSnapshot(`tablet-${i + 1}-${name.toLowerCase()}-page`);
+          cy.matchImageSnapshot(`tablet-${i + 1}-${name.toLowerCase()}-page`);
         });
       });
     });
