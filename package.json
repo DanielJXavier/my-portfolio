@@ -10,6 +10,7 @@
     "cy:prepare": "CYPRESS=true && yarn build && yarn start",
     "cy:open": "cypress open",
     "cy:run": "cypress run --browser chrome",
+    "cy:update": "cypress-image-diff -u",
     "build": "next build",
     "start": "next start"
   },
