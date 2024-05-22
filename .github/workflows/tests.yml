@@ -4,21 +4,7 @@ on: [push]
 
 jobs:
   dependencies:
-    name: Dependencies
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check out Git repository
-        uses: actions/checkout@v4
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          cache: "yarn"
-          node-version: 20
-
-      - name: Install dependencies
-        run: yarn
+    uses: ./.github/workflows/dependencies.yml
 
   unit-test:
     name: Unit Tests
@@ -26,18 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out Git repository
-        uses: actions/checkout@v4
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          cache: "yarn"
-          node-version: 20
-
-      - name: Install dependencies
-        run: yarn
-
       - name: Unit Tests
         run: yarn test
 
