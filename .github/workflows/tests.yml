@@ -49,6 +49,7 @@ jobs:
         run: |
           yarn start & npx wait-on http://localhost:3000
           yarn cy:run
+
       - uses: actions/upload-artifact@v4
         if: failure()
         with:
