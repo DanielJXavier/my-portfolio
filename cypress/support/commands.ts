@@ -1,8 +1,11 @@
 /// <reference types="cypress" />
 
-declare namespace Cypress {
-  interface Chainable {
-    visitDarkTheme(url: string, isDarkTheme?: boolean): void;
+declare global {
+  namespace Cypress {
+    interface Chainable {
+      compareSnapshot(options: string): Chainable<Element>;
+      visitDarkTheme(url: string, isDarkTheme?: boolean): void;
+    }
   }
 }
 
