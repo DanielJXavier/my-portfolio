@@ -1,7 +1,19 @@
+"use client";
+
+import { useEffect } from "react";
+
 import Image from "next/image";
 import Link from "next/link";
 
 export default function NotFound() {
+  useEffect(() => {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, []);
+
   return (
     <main className="main-container relative pt-32 flex justify-center">
       <div className="absolute w-[320px] sm:w-[400px] lg:w-[450px] h-[265px] sm:h-[365px] lg:h-[432px]">
