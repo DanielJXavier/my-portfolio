@@ -6,6 +6,7 @@
     "dev": "next dev",
     "lint": "next lint",
     "test": "jest",
+    "test:update": "jest --updateSnapshot",
     "coverage": "jest --coverage",
     "cy:prepare": "CYPRESS=true && yarn build && yarn start",
     "cy:open": "cypress open",
