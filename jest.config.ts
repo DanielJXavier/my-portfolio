@@ -12,7 +12,7 @@ const config: Config = {
   collectCoverageFrom: [
     "app/**/*.{ts,tsx}",
     "!app/**/data.ts",
-    "!app/icons/*",
+    "!app/_icons/*",
     "!app/robots.ts",
     "!app/sitemap.ts",
   ],

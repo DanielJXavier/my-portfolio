@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-import Header from "@/components/Header";
+import Header from "@/_components/Header";
 
 import { author } from "@/data";
 

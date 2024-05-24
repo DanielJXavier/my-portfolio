@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
-import DarkMode from "@/icons/DarkMode";
-import LightMode from "@/icons/LightMode";
+import DarkMode from "@/_icons/DarkMode";
+import LightMode from "@/_icons/LightMode";
 
 type DarkType = null | boolean;
 

@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 
-import Title from "@/components/Title";
-import Reviews from "@/icons/Reviews";
+import Title from "@/_components/Title";
+import Reviews from "@/_icons/Reviews";
 
-import RecommendationItem from "./components/RecommendationItem";
+import RecommendationItem from "./_components/RecommendationItem";
 
 import { recommendations } from "./data";
 

@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 
-import Title from "@/components/Title";
-import School from "@/icons/School";
+import Title from "@/_components/Title";
+import School from "@/_icons/School";
 
-import EducationItem from "./components/EducationItem";
+import EducationItem from "./_components/EducationItem";
 
 import { education } from "./data";
 

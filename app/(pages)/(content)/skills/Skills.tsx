@@ -2,12 +2,12 @@
 
 import { useState } from "react";
 
-import Title from "@/components/Title";
-import Psychology from "@/icons/Psychology";
+import Title from "@/_components/Title";
+import Psychology from "@/_icons/Psychology";
 
-import Menu from "../components/Menu";
+import Menu from "../_components/Menu";
 
-import shuffle from "./utils/shuffle";
+import shuffle from "./_utils/shuffle";
 
 import { skills } from "./data";
 

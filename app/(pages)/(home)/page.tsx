@@ -1,13 +1,13 @@
 import Image from "next/image";
 
-import Title from "@/components/Title";
+import Title from "@/_components/Title";
 
-import KeepPublic from "@/icons/KeepPublic";
-import Email from "@/icons/Email";
-import WhatsApp from "@/icons/WhatsApp";
-import LinkedIn from "@/icons/LinkedIn";
-import GitHub from "@/icons/GitHub";
-import Instagram from "@/icons/Instagram";
+import KeepPublic from "@/_icons/KeepPublic";
+import Email from "@/_icons/Email";
+import WhatsApp from "@/_icons/WhatsApp";
+import LinkedIn from "@/_icons/LinkedIn";
+import GitHub from "@/_icons/GitHub";
+import Instagram from "@/_icons/Instagram";
 
 import { author } from "@/data";
 import { paragraphs, links } from "./data";

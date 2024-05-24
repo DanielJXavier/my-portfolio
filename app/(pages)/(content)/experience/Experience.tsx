@@ -2,12 +2,12 @@
 
 import { createContext, useState } from "react";
 
-import Title from "@/components/Title";
-import Work from "@/icons/Work";
+import Title from "@/_components/Title";
+import Work from "@/_icons/Work";
 
-import ExperienceItem from "./components/ExperienceItem";
+import ExperienceItem from "./_components/ExperienceItem";
 
-import Menu from "../components/Menu";
+import Menu from "../_components/Menu";
 
 import { experience } from "./data";
 
