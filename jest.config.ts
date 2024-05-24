@@ -13,6 +13,7 @@ const config: Config = {
     "app/**/*.{ts,tsx}",
     "!app/**/data.ts",
     "!app/icons/*",
+    "!app/robots.ts",
     "!app/sitemap.ts",
   ],
   coverageThreshold: {
