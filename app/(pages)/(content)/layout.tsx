@@ -17,7 +17,7 @@ export default function Layout({ children }: LayoutProps) {
       <main className="main-container">{children}</main>
       <footer className="absolute right-0 bottom-0 left-0 h-24 md:h-20 lg:h-16 flex items-center justify-center">
         <p className="text-xs md:text-sm text-center">
-          Copyright &copy; {year} {author.firstName} {author.lastName}.{" "}
+          Copyright © {year} {author.firstName} {author.lastName}.{" "}
           <br className="sm:hidden" />
           All Rights Reserved.
         </p>

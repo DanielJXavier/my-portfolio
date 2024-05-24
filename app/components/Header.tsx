@@ -22,7 +22,7 @@ export default function Header() {
           href="/"
           data-testid="header-link"
         >
-          &lt;DanielXavier /&gt;
+          {"<DanielXavier />"}
         </Link>
         <Menu />
         <ThemeSwitcher />

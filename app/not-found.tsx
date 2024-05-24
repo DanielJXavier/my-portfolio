@@ -16,7 +16,7 @@ export default function NotFound() {
             className="text-sm sm:text-base lg:text-lg font-medium underline hover:text-secondary"
             href="/"
           >
-            Let&apos; go back to the fun!
+            {"Let's see a real page!"}
           </Link>
         </div>
         <div className="absolute top-0 right-0 bottom-0 left-32 z-0">

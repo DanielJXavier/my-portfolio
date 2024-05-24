@@ -27,7 +27,7 @@ exports[`NotFound page renders the page 1`] = `
           class="text-sm sm:text-base lg:text-lg font-medium underline hover:text-secondary"
           href="/"
         >
-          Let' go back to the fun!
+          Let's see a real page!
         </a>
       </div>
       <div

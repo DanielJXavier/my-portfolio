@@ -5,11 +5,11 @@ type ParagraphType = {
 
 export const paragraphs: ParagraphType[] = [
   {
-    text: "With a decade of web development experience and mastery in JavaScript, React.js, and Node.js, I’ve excelled as a Technical Leader, creating elegant solutions for complex problems.",
+    text: "With a decade of web development experience and mastery in JavaScript, React.js, and Node.js, I've excelled as a Technical Leader, creating elegant solutions for complex problems.",
     resume: true,
   },
   {
-    text: "My leadership extends beyond technical skills, as I’ve mentored teams on intricate projects and honed management skills like emotional intelligence and conflict resolution.",
+    text: "My leadership extends beyond technical skills, as I've mentored teams on intricate projects and honed management skills like emotional intelligence and conflict resolution.",
     resume: true,
   },
   {
