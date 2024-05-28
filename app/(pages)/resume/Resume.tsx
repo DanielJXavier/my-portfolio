@@ -7,7 +7,7 @@ import { useParams } from "next/navigation";
 import { getDictionary } from "get-dictionary";
 import { Locale } from "i18n-config";
 
-import { links } from "@/(pages)/(home)/data";
+import { links } from "@/(pages)/(home)/_config";
 import { experience } from "@/(pages)/(content)/experience/data";
 import { education } from "@/(pages)/(content)/education/data";
 import { skills } from "@/(pages)/(content)/skills/data";

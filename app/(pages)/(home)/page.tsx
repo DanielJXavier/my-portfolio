@@ -12,7 +12,7 @@ import LinkedIn from "@/_icons/LinkedIn";
 import GitHub from "@/_icons/GitHub";
 import Instagram from "@/_icons/Instagram";
 
-import { links } from "./data";
+import { links } from "./_config";
 
 export default function Page({
   params: { lang },
