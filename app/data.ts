@@ -1,15 +1,3 @@
-type AuthorType = {
-  firstName: string;
-  lastName: string;
-  headline: string;
-};
-
-export const author: AuthorType = {
-  firstName: "Daniel",
-  lastName: "Xavier",
-  headline: "Technical Lead | JavaScript | React | MBA, Team Leadership",
-};
-
 type MenuType = {
   href: string;
   title: string;

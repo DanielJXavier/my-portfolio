@@ -1,13 +1,24 @@
 "use client";
 
-import { author } from "@/data";
+import { useEffect } from "react";
+
+import { useParams } from "next/navigation";
+
+import { getDictionary } from "get-dictionary";
+import { Locale } from "i18n-config";
+
 import { links, paragraphs } from "@/(pages)/(home)/data";
 import { experience } from "@/(pages)/(content)/experience/data";
 import { education } from "@/(pages)/(content)/education/data";
 import { skills } from "@/(pages)/(content)/skills/data";
-import { useEffect } from "react";
 
 export default function Resume() {
+  const { lang } = useParams<{ lang: Locale }>();
+
+  const {
+    global: { author },
+  } = getDictionary(lang);
+
   useEffect(() => {
     if (typeof window !== undefined) {
       const title = document.title;
