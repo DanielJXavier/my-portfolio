@@ -6,9 +6,11 @@ import Menu from "./Menu";
 
 import { menu } from "@/data";
 
-const { usePathname } = require("next/navigation");
+const { usePathname, useParams } = require("next/navigation");
 
 jest.mock("next/navigation");
+
+useParams.mockImplementation(() => ({ lang: "en" }));
 
 describe("Menu component", () => {
   it("renders the component", () => {

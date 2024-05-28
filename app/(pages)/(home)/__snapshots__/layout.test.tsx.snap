@@ -98,12 +98,11 @@ exports[`Home layout renders the layout 1`] = `
     <p
       class="text-xs md:text-sm text-center"
     >
-      Copyright © 
-      2024
-       
       Daniel
        
       Xavier
+       © 
+      2024
       .
        
       <br
