@@ -7,16 +7,19 @@ import { useParams } from "next/navigation";
 import { getDictionary } from "get-dictionary";
 import { Locale } from "i18n-config";
 
-import { links, paragraphs } from "@/(pages)/(home)/data";
+import { links } from "@/(pages)/(home)/data";
 import { experience } from "@/(pages)/(content)/experience/data";
 import { education } from "@/(pages)/(content)/education/data";
 import { skills } from "@/(pages)/(content)/skills/data";
+
+import { maxSummaryParagraphs } from "./_config";
 
 export default function Resume() {
   const { lang } = useParams<{ lang: Locale }>();
 
   const {
     global: { author },
+    home: { summary },
   } = getDictionary(lang);
 
   useEffect(() => {
@@ -36,7 +39,7 @@ export default function Resume() {
         document.title = title;
       });
     }
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <main className="max-w-[210mm] print:w-[210mm] flex flex-col gap-y-4 font-serif p-[0.5in]">
@@ -67,11 +70,11 @@ export default function Resume() {
       </section>
       <section>
         <h2 className="text-[16pt] font-bold">Summary</h2>
-        {paragraphs
-          .filter(({ resume }) => resume)
-          .map(({ text }, i) => (
+        {summary
+          .filter((_, i) => i < maxSummaryParagraphs)
+          .map((paragraph, i) => (
             <p key={i} className="text-[12pt] text-justify">
-              {text}
+              {paragraph}
             </p>
           ))}
       </section>
