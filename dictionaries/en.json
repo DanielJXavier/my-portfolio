@@ -5,6 +5,12 @@
       "lastName": "Xavier",
       "headline": "Technical Lead | JavaScript | React | MBA, Team Leadership"
     },
-    "copyright": "All Rights Reserved."
+    "copyright": "All Rights Reserved.",
+    "menu": {
+      "experience": "Experience",
+      "education": "Education",
+      "skills": "Skills",
+      "recommendations": "Recommendations"
+    }
   }
 }

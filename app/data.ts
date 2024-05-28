@@ -1,11 +1,6 @@
-type MenuType = {
-  href: string;
-  title: string;
-};
-
-export const menu: MenuType[] = [
-  { href: "/experience", title: "Experience" },
-  { href: "/education", title: "Education" },
-  { href: "/skills", title: "Skills" },
-  { href: "/recommendations", title: "Recommendations" },
-];
+export const menu = [
+  { href: "/experience", key: "experience" },
+  { href: "/education", key: "education" },
+  { href: "/skills", key: "skills" },
+  { href: "/recommendations", key: "recommendations" },
+] as const;

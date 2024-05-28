@@ -1,11 +1,20 @@
 import { useEffect, useState } from "react";
 
-import { usePathname } from "next/navigation";
+import { usePathname, useParams } from "next/navigation";
 import Link from "next/link";
+
+import { getDictionary } from "get-dictionary";
+import { Locale } from "i18n-config";
 
 import { menu } from "@/data";
 
 export default function Menu() {
+  const { lang } = useParams<{ lang: Locale }>();
+
+  const {
+    global: { menu: menuStrings },
+  } = getDictionary(lang);
+
   const pathname = usePathname();
 
   const [menuOpen, setMenuOpen] = useState(false);
@@ -54,7 +63,7 @@ export default function Menu() {
         } flex flex-col md:flex-row gap-y-2 md:gap-x-3`}
         data-testid="menu-list"
       >
-        {menu.map(({ href, title }, i) => (
+        {menu.map(({ href, key }, i) => (
           <li key={i}>
             <Link
               className={`${
@@ -64,7 +73,7 @@ export default function Menu() {
               } decoration-0 underline-offset-2 hover:text-secondary hover:underline`}
               href={href}
             >
-              {title}
+              {menuStrings[key]}
             </Link>
           </li>
         ))}
