@@ -5,30 +5,23 @@ import { render, screen } from "@testing-library/react";
 import ExperienceItem from "./ExperienceItem";
 
 import { ExperienceModeContext } from "../Experience";
-import { experience } from "../data";
+
+import { experience } from "../_config";
+import { experience as experienceStrings } from "dictionaries/en.json";
 
 describe("ExperienceItem component", () => {
   it("renders the component", () => {
-    const {
-      role,
-      companyId,
-      companyName,
-      year,
-      description,
-      responsibilities,
-      biggestChallenge,
-      hasBlackLogo,
-    } = experience[0];
+    const { key, companyId, companyName, year, hasBlackLogo } = experience[0];
 
     render(
       <ExperienceItem
-        role={role}
+        role={experienceStrings[key].role}
         companyId={companyId}
         companyName={companyName}
         year={year}
-        description={description}
-        responsibilities={responsibilities}
-        biggestChallenge={biggestChallenge}
+        description={experienceStrings[key].description}
+        responsibilities={experienceStrings[key].responsibilities}
+        biggestChallenge={experienceStrings[key].biggestChallenge}
         hasBlackLogo={hasBlackLogo}
       />
     );
@@ -42,32 +35,24 @@ describe("ExperienceItem component", () => {
     expect(experienceItem).toBeInTheDocument();
     expect(image?.getAttribute("src")).toContain(companyId);
     expect(image?.getAttribute("alt")).toContain(companyName);
-    expect(title?.innerHTML).toContain(role);
+    expect(title?.innerHTML).toContain(experienceStrings[key].role);
     expect(title?.innerHTML).toContain(companyName);
     expect(titleSpan?.innerHTML).toContain(year);
-    expect(desc?.innerHTML).toContain(description);
+    expect(desc?.innerHTML).toContain(experienceStrings[key].description);
   });
 
   it("renders the component with black logo style", () => {
-    const {
-      role,
-      companyId,
-      companyName,
-      year,
-      description,
-      responsibilities,
-      biggestChallenge,
-    } = experience[0];
+    const { key, companyId, companyName, year } = experience[0];
 
     render(
       <ExperienceItem
-        role={role}
+        role={experienceStrings[key].role}
         companyId={companyId}
         companyName={companyName}
         year={year}
-        description={description}
-        responsibilities={responsibilities}
-        biggestChallenge={biggestChallenge}
+        description={experienceStrings[key].description}
+        responsibilities={experienceStrings[key].responsibilities}
+        biggestChallenge={experienceStrings[key].biggestChallenge}
         hasBlackLogo={true}
       />
     );
@@ -80,27 +65,18 @@ describe("ExperienceItem component", () => {
   });
 
   it("renders the component in the detailed mode", () => {
-    const {
-      role,
-      companyId,
-      companyName,
-      year,
-      description,
-      responsibilities,
-      biggestChallenge,
-      hasBlackLogo,
-    } = experience[0];
+    const { key, companyId, companyName, year, hasBlackLogo } = experience[0];
 
     render(
       <ExperienceModeContext.Provider value="detailed">
         <ExperienceItem
-          role={role}
+          role={experienceStrings[key].role}
           companyId={companyId}
           companyName={companyName}
           year={year}
-          description={description}
-          responsibilities={responsibilities}
-          biggestChallenge={biggestChallenge}
+          description={experienceStrings[key].description}
+          responsibilities={experienceStrings[key].responsibilities}
+          biggestChallenge={experienceStrings[key].biggestChallenge}
           hasBlackLogo={hasBlackLogo}
         />
       </ExperienceModeContext.Provider>
@@ -119,9 +95,11 @@ describe("ExperienceItem component", () => {
     expect(experienceItem).toBeInTheDocument();
 
     expect(firstResponsibilityElement?.innerHTML).toContain(
-      responsibilities[0].text
+      experienceStrings[key].responsibilities[0]
     );
 
-    expect(challenge?.innerHTML).toContain(biggestChallenge);
+    expect(challenge?.innerHTML).toContain(
+      experienceStrings[key].biggestChallenge
+    );
   });
 });

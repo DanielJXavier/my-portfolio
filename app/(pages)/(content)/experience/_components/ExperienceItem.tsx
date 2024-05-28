@@ -4,9 +4,17 @@ import Image from "next/image";
 
 import { ExperienceModeContext } from "../Experience";
 
-import { ExperienceInterface } from "../data";
-
-type ExperienceItemPropsType = Omit<Readonly<ExperienceInterface>, "resume">;
+type ExperienceItemPropsType = Readonly<{
+  role: string;
+  companyId: string;
+  companyName: string;
+  year: string;
+  description: string;
+  responsibilities: string[];
+  biggestChallenge: string;
+  hasBlackLogo?: boolean;
+  resume?: boolean;
+}>;
 
 type MapCompanyIdToColorType = {
   [key: string]: string;
@@ -60,8 +68,8 @@ export default function ExperienceItem({
           <section className="mt-4 pl-14 xl:px-14">
             <h3 className="font-semibold xl:text-xl">Main responsibilities:</h3>
             <ul className="pl-7 list-disc text-sm xl:text-base">
-              {responsibilities.map(({ text }, i) => (
-                <li key={i}>{text}</li>
+              {responsibilities.map((responsibility, i) => (
+                <li key={i}>{responsibility}</li>
               ))}
             </ul>
           </section>

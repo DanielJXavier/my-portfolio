@@ -8,7 +8,7 @@ import { getDictionary } from "get-dictionary";
 import { Locale } from "i18n-config";
 
 import { links } from "@/(pages)/(home)/_config";
-import { experience } from "@/(pages)/(content)/experience/data";
+import { experience } from "@/(pages)/(content)/experience/_config";
 import { education } from "@/(pages)/(content)/education/data";
 import { skills } from "@/(pages)/(content)/skills/data";
 
@@ -20,6 +20,7 @@ export default function Resume() {
   const {
     global: { author },
     home: { summary },
+    experience: experienceStrings,
   } = getDictionary(lang);
 
   useEffect(() => {
@@ -98,27 +99,28 @@ export default function Resume() {
         <div className="flex flex-col gap-y-3">
           {experience
             .filter(({ resume }) => resume)
-            .map(
-              (
-                { role, companyName, year, responsibilities, biggestChallenge },
-                i
-              ) => (
-                <div key={i}>
-                  <p className="text-[12pt] font-bold">
-                    {role} @ {companyName}
-                  </p>
-                  <p className="text-[12pt]">{year}</p>
-                  <ul className="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]">
-                    {responsibilities
-                      .filter(({ resume }) => resume)
-                      .map(({ text }, i) => (
-                        <li key={i}>{text}</li>
-                      ))}
-                    <li>Biggest challenge: {biggestChallenge}</li>
-                  </ul>
-                </div>
-              )
-            )}
+            .map(({ key, companyName, year, resumeResponsibilities }, i) => (
+              <div key={i}>
+                <p className="text-[12pt] font-bold">
+                  {experienceStrings[key].role} @ {companyName}
+                </p>
+                <p className="text-[12pt]">{year}</p>
+                <ul className="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]">
+                  {experienceStrings[key].responsibilities
+                    .filter((_, i) =>
+                      resumeResponsibilities?.some(
+                        (resumeResponsibility) => resumeResponsibility === i + 1
+                      )
+                    )
+                    .map((responsibility, i) => (
+                      <li key={i}>{responsibility}</li>
+                    ))}
+                  <li>
+                    Biggest challenge: {experienceStrings[key].biggestChallenge}
+                  </li>
+                </ul>
+              </div>
+            ))}
         </div>
       </section>
       <section>

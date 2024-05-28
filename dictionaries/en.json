@@ -21,5 +21,157 @@
       "This blend of technical expertise and leadership has shaped me into a well-rounded Front-End focused Technical Leader.",
       "In addition to technology, I like to photograph landscapes, practice adventure sports, and visit new places whenever possible. I'm always open to exploring new opportunities and making meaningful connections. Let's talk!"
     ]
+  },
+  "experience": {
+    "olx-4": {
+      "role": "Software Engineering Manager",
+      "description": "I was the leader of the \"Ads Seller Experience\" team.",
+      "responsibilities": [
+        "Led a team of 9 developers, serving as a mentor and guiding light;",
+        "Delivered the successful execution of the platform's registration and ad management system roadmap including the new Ad Insertion in steps journey;",
+        "Built a high level of engagement within the team;",
+        "Held personalized \"1:1s\" to guide team members through their performance cycles;",
+        "Adopted agile methodologies and led team ceremonies to ensure a streamlined workflow balancing product and technical tasks;",
+        "Worked closely with the Product Manager to facilitate informed and effective product decisions;"
+      ],
+      "biggestChallenge": "To deal with pressure from leadership to do major deliveries in the short term."
+    },
+    "olx-3": {
+      "role": "Software Engineering Manager",
+      "description": "I was the leader of the \"Search & Recommendation\" team¹ and the \"Design System\" chapter².",
+      "responsibilities": [
+        "Led a team of 8 developers, serving as a mentor and guiding light;¹",
+        "Delivered the successful execution of the search and recommendation systems roadmap including the new LTR rank algorithm;¹",
+        "Structured the team and proposed a new approach to support the strategic plan for the upcoming year;¹",
+        "Clarified the company's understanding of search and recommendation subjects;¹",
+        "Supervised all developers (9 devs) in the chapter indirectly, fostered a sense of unity and direction;²",
+        "Fostered engagement within the chapter and ensured valuable deliveries despite working only once a week;²"
+      ],
+      "biggestChallenge": "To balance the substantial responsibilities of both the team¹ and the chapter² simultaneously."
+    },
+    "olx-2": {
+      "role": "Software Engineering Manager",
+      "description": "I was the leader of the 'Design System' team.",
+      "responsibilities": [
+        "Led a team of 9 developers, serving as a point of reference;",
+        "Partnered with the Design Manager to make optimal product decisions and establish a roadmap;",
+        "Delivered the Design System roadmap including an entirely new platform homepage created in less than 48 hours;",
+        "Gathered and analyzed data to validate the project's value to the company;",
+        "Ensured the continuous evolution of the Design System and its adoption by other teams;",
+        "Developed documentation and processes for contributing to the Design System project and managing its version;"
+      ],
+      "biggestChallenge": "To assume multiple roles simultaneously, including Engineering Manager, Product Manager, Data Analyst, among others."
+    },
+    "olx-1": {
+      "role": "Software Engineering Manager",
+      "description": "I was the leader of the \"Advertising\" team.",
+      "responsibilities": [
+        "Led a team of 7 developers, serving as a key reference;",
+        "Delivered both direct and indirect Advertising roadmaps for the platform that brought R$80 million in revenue;",
+        "Recruited new professionals to increase productive capacity in 300%;",
+        "Partnered actively with the Product Manager to prioritize and develop optimal initiatives;",
+        "Proposed a new structure for the Advertising area to enhance results;"
+      ],
+      "biggestChallenge": "To manage high expectations related to Advertising revenue results."
+    },
+    "meaning-1": {
+      "role": "CTO & Partner",
+      "description": "I held the position of CTO and co-founder at the startup.",
+      "responsibilities": [
+        "Crafted the startup's technical vision and product strategy;",
+        "Architected the solution from the ground up;",
+        "Refined the product's technical specifications;",
+        "Developed a Proof of Concept project;"
+      ],
+      "biggestChallenge": "To convert a highly \"human-centric\" project, rooted in personal consultancy, into a systematic approach."
+    },
+    "softplan-3": {
+      "role": "Development Coordinator",
+      "description": "I was the leader of the \"Estônia\" team.",
+      "responsibilities": [
+        "Led directly a multidisciplinary software development team, inclusive of Software Architects, Developers, Quality Assurance Analysts, Product Owners, Business Analysts, and Agile Masters;",
+        "Mentored and developed both direct and indirect employees, utilizing techniques such as 1:1 and feedforward;",
+        "Planned and executed deliveries for the most 2 critical modules of the \"SAJ\" system;",
+        "Applied daily situational leadership to maximize the potential of those under my guidance;",
+        "Structured and continuously enhanced the team's workflow using agile software development methodologies;",
+        "Created formulas and metrics to accurately gauge the team's capacity, thereby bringing predictability to deliveries;",
+        "Mapped effective talent retention strategies;"
+      ],
+      "biggestChallenge": "To manage a large team (28 professionals) and oversee critical deliveries."
+    },
+    "softplan-2": {
+      "role": "Tech Lead",
+      "description": "I was the technical leader of the Front-End chapter.",
+      "responsibilities": [
+        "Developed the new \"SAJ\" system, constructed using React JS, .Net, and GraphQL;",
+        "Oversaw the deliveries and deployment of 17 modules of the system;",
+        "Provided training in HTML, CSS, JavaScript, React JS, GraphQL, and unit tests;",
+        "Led a team of 10 Front-End React developers;",
+        "Recruited new employees for the company;",
+        "Selected new contractor professionals;",
+        "Developed professionals through 1:1 sessions, Feedforwards, and Mentoring;"
+      ],
+      "biggestChallenge": "To acquire leadership skills and master people management."
+    },
+    "softplan-1": {
+      "role": "Senior Front-End Developer",
+      "description": "I was a Senior Front-End developer on the \"França\" team.",
+      "responsibilities": [
+        "Developed new features for the \"e-SAJ\" portal utilizing React JS and GraphQL;",
+        "Created new features for the \"SAJ Tribunais\" system using React JS and GraphQL;"
+      ],
+      "biggestChallenge": "To manage all the deliveries of the project as the sole Front-End developer."
+    },
+    "hotmart-3": {
+      "role": "Senior Front-End Developer",
+      "description": "I was a Senior Front-End developer on the \"Growth Hacking\" team.",
+      "responsibilities": [
+        "Developed systems to address the company's internal needs and automate tasks, leveraging technologies such as Vue.js, and Node.js;",
+        "Created a Proof of Concept (POC) that introduced a simplified method for product registration on the platform;"
+      ],
+      "biggestChallenge": "To balance the need to comprehend customer requirements clearly while simultaneously coding."
+    },
+    "hotmart-2": {
+      "role": "Mid Level Front-End Developer",
+      "description": "I was a Mid Level Front-End developer on the \"User Acquisition\" team.",
+      "responsibilities": [
+        "Designed a system to generate blog post images using components and pre-defined templates, thereby enhancing the productivity of the design team;",
+        "Developed a high-performance caching system for the \"Hotmart blog\" (WordPress), which resulted in a 300% increase in performance;",
+        "Implemented the Arabic version of the \"Hotmart blog\";"
+      ],
+      "biggestChallenge": "To conceptualize and develop complex solutions from the ground up."
+    },
+    "hotmart-1": {
+      "role": "Entry Level Front-End Developer",
+      "description": "I was an Entry Level Front-End developer on the \"User Acquisition\" team.",
+      "responsibilities": [
+        "Developed a new WordPress theme for the \"Hotmart blog\" utilizing only HTML5, CSS Grid Layout, and Vanilla JS;",
+        "Implemented the new layout for the \"Hotmart blog\";",
+        "Created custom features within the WordPress admin interface;"
+      ],
+      "biggestChallenge": "To acquire new development skills and apply them to complex projects."
+    },
+    "sydle-2": {
+      "role": "Support Analyst",
+      "description": "I was a Support Analyst on the \"Suporte & Sustentação\" team.",
+      "responsibilities": [
+        "Spearheaded the development of web projects utilizing WordPress and Magento;",
+        "Facilitated the modeling and automation of the company's internal processes through BPMN;",
+        "Provided comprehensive technical support to users of the company's systems;",
+        "Oversaw the configuration and monitoring of both Linux and Windows servers."
+      ],
+      "biggestChallenge": "To rapidly acquire development skills and contribute to legacy projects."
+    },
+    "sydle-1": {
+      "role": "Support Intern",
+      "description": "I was a Support Intern on the \"Suporte & Sustentação\" team.",
+      "responsibilities": [
+        "Provided technical support to users of the company's systems;",
+        "Configured and monitored infrastructure on Linux and Windows servers;",
+        "Compiled team reports;",
+        "Offered infrastructure support to the company's employees."
+      ],
+      "biggestChallenge": "To simultaneously learn a multitude of new concepts and balance them with my university commitments."
+    }
   }
 }
