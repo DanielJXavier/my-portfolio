@@ -6,7 +6,13 @@ import Page from "./page";
 
 describe("Education page", () => {
   it("renders the page", () => {
-    const { container } = render(<Page />);
+    const { container } = render(
+      <Page
+        params={{
+          lang: "en",
+        }}
+      />
+    );
 
     expect(container).toMatchSnapshot();
   });

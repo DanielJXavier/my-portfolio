@@ -1,8 +1,13 @@
 import Image from "next/image";
 
-import { EducationInterface } from "../data";
-
-type EducationItemPropsType = Readonly<EducationInterface>;
+type EducationItemPropsType = Readonly<{
+  schoolId: string;
+  schoolName: string;
+  fieldOfStudy: string;
+  degree: string;
+  years: string;
+  subjects: string[];
+}>;
 
 type MapSchoolIdToColorType = {
   [key: string]: string;

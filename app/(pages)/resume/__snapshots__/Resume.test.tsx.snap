@@ -392,7 +392,8 @@ exports[`Resume page (Client-side) renders the page 1`] = `
             class="text-[12pt] font-bold"
           >
             Master of Business Administration - MBA
-            , 
+            ,
+             
             Strategic People Management
           </p>
           <p
@@ -406,7 +407,8 @@ exports[`Resume page (Client-side) renders the page 1`] = `
             class="text-[12pt] font-bold"
           >
             Bachelor
-            , 
+            ,
+             
             Computer Science
           </p>
           <p

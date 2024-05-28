@@ -4,21 +4,27 @@ import { render, screen } from "@testing-library/react";
 
 import EducationItem from "./EducationItem";
 
-import { education } from "../data";
+import { education } from "../_config";
+import { education as educationStrings } from "dictionaries/en.json";
+
+const { useParams } = require("next/navigation");
+
+jest.mock("next/navigation");
+
+useParams.mockImplementation(() => ({ lang: "en" }));
 
 describe("EducationItem component", () => {
   it("renders the component", () => {
-    const { schoolId, schoolName, fieldOfStudy, degree, years, subjects } =
-      education[0];
+    const { schoolId, schoolName, years } = education[0];
 
     render(
       <EducationItem
         schoolId={schoolId}
         schoolName={schoolName}
-        fieldOfStudy={fieldOfStudy}
-        degree={degree}
+        fieldOfStudy={educationStrings[schoolId].fieldOfStudy}
+        degree={educationStrings[schoolId].degree}
         years={years}
-        subjects={subjects}
+        subjects={educationStrings[schoolId].subjects}
       />
     );
 
@@ -34,10 +40,12 @@ describe("EducationItem component", () => {
     expect(educationItem).toBeInTheDocument();
     expect(image?.getAttribute("src")).toContain(schoolId);
     expect(image?.getAttribute("alt")).toContain(schoolName);
-    expect(title?.innerHTML).toContain(fieldOfStudy);
+    expect(title?.innerHTML).toContain(educationStrings[schoolId].fieldOfStudy);
     expect(title?.innerHTML).toContain(schoolName);
     expect(titleSpan?.innerHTML).toContain(years);
-    expect(desc?.innerHTML).toContain(degree);
-    expect(firstSubject?.innerHTML).toContain(subjects[0]);
+    expect(desc?.innerHTML).toContain(educationStrings[schoolId].degree);
+    expect(firstSubject?.innerHTML).toContain(
+      educationStrings[schoolId].subjects[0]
+    );
   });
 });

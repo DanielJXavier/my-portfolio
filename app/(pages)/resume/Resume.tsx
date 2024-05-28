@@ -9,7 +9,7 @@ import { Locale } from "i18n-config";
 
 import { links } from "@/(pages)/(home)/_config";
 import { experience } from "@/(pages)/(content)/experience/_config";
-import { education } from "@/(pages)/(content)/education/data";
+import { education } from "@/(pages)/(content)/education/_config";
 import { skills } from "@/(pages)/(content)/skills/data";
 
 import { maxSummaryParagraphs } from "./_config";
@@ -21,6 +21,7 @@ export default function Resume() {
     global: { author },
     home: { summary },
     experience: experienceStrings,
+    education: educationStrings,
   } = getDictionary(lang);
 
   useEffect(() => {
@@ -126,10 +127,11 @@ export default function Resume() {
       <section>
         <h2 className="text-[16pt] font-bold">Education</h2>
         <div className="flex flex-col gap-y-3">
-          {education.map(({ schoolName, fieldOfStudy, degree }, i) => (
+          {education.map(({ schoolId, schoolName }, i) => (
             <div key={i}>
               <p className="text-[12pt] font-bold">
-                {degree}, {fieldOfStudy}
+                {educationStrings[schoolId].degree},{" "}
+                {educationStrings[schoolId].fieldOfStudy}
               </p>
               <p className="text-[12pt]">{schoolName}</p>
             </div>
