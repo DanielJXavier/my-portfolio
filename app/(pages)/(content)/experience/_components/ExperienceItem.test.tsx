@@ -15,13 +15,13 @@ describe("ExperienceItem component", () => {
 
     render(
       <ExperienceItem
-        role={experienceStrings[key].role}
+        role={experienceStrings.items[key].role}
         companyId={companyId}
         companyName={companyName}
         year={year}
-        description={experienceStrings[key].description}
-        responsibilities={experienceStrings[key].responsibilities}
-        biggestChallenge={experienceStrings[key].biggestChallenge}
+        description={experienceStrings.items[key].description}
+        responsibilities={experienceStrings.items[key].responsibilities}
+        biggestChallenge={experienceStrings.items[key].biggestChallenge}
         hasBlackLogo={hasBlackLogo}
       />
     );
@@ -35,10 +35,10 @@ describe("ExperienceItem component", () => {
     expect(experienceItem).toBeInTheDocument();
     expect(image?.getAttribute("src")).toContain(companyId);
     expect(image?.getAttribute("alt")).toContain(companyName);
-    expect(title?.innerHTML).toContain(experienceStrings[key].role);
+    expect(title?.innerHTML).toContain(experienceStrings.items[key].role);
     expect(title?.innerHTML).toContain(companyName);
     expect(titleSpan?.innerHTML).toContain(year);
-    expect(desc?.innerHTML).toContain(experienceStrings[key].description);
+    expect(desc?.innerHTML).toContain(experienceStrings.items[key].description);
   });
 
   it("renders the component with black logo style", () => {
@@ -46,13 +46,13 @@ describe("ExperienceItem component", () => {
 
     render(
       <ExperienceItem
-        role={experienceStrings[key].role}
+        role={experienceStrings.items[key].role}
         companyId={companyId}
         companyName={companyName}
         year={year}
-        description={experienceStrings[key].description}
-        responsibilities={experienceStrings[key].responsibilities}
-        biggestChallenge={experienceStrings[key].biggestChallenge}
+        description={experienceStrings.items[key].description}
+        responsibilities={experienceStrings.items[key].responsibilities}
+        biggestChallenge={experienceStrings.items[key].biggestChallenge}
         hasBlackLogo={true}
       />
     );
@@ -70,13 +70,13 @@ describe("ExperienceItem component", () => {
     render(
       <ExperienceModeContext.Provider value="detailed">
         <ExperienceItem
-          role={experienceStrings[key].role}
+          role={experienceStrings.items[key].role}
           companyId={companyId}
           companyName={companyName}
           year={year}
-          description={experienceStrings[key].description}
-          responsibilities={experienceStrings[key].responsibilities}
-          biggestChallenge={experienceStrings[key].biggestChallenge}
+          description={experienceStrings.items[key].description}
+          responsibilities={experienceStrings.items[key].responsibilities}
+          biggestChallenge={experienceStrings.items[key].biggestChallenge}
           hasBlackLogo={hasBlackLogo}
         />
       </ExperienceModeContext.Provider>
@@ -95,11 +95,11 @@ describe("ExperienceItem component", () => {
     expect(experienceItem).toBeInTheDocument();
 
     expect(firstResponsibilityElement?.innerHTML).toContain(
-      experienceStrings[key].responsibilities[0]
+      experienceStrings.items[key].responsibilities[0]
     );
 
     expect(challenge?.innerHTML).toContain(
-      experienceStrings[key].biggestChallenge
+      experienceStrings.items[key].biggestChallenge
     );
   });
 });

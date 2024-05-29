@@ -19,7 +19,9 @@ export const ExperienceModeContext = createContext("");
 export default function Experience() {
   const { lang } = useParams<{ lang: Locale }>();
 
-  const { experience: experienceStrings } = getDictionary(lang);
+  const {
+    experience: { items: experienceStrings },
+  } = getDictionary(lang);
 
   const [experienceMode, setExperienceMode] = useState("simple");
 

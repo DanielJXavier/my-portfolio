@@ -15,9 +15,9 @@ describe("RecommendationItem component", () => {
       <RecommendationItem
         authorId={authorId}
         authorName={authorName}
-        role={recommendationsStrings[authorId].role}
+        role={recommendationsStrings.items[authorId].role}
         company={company}
-        paragraphs={recommendationsStrings[authorId].paragraphs}
+        paragraphs={recommendationsStrings.items[authorId].paragraphs}
       />
     );
 
@@ -34,11 +34,11 @@ describe("RecommendationItem component", () => {
     expect(image?.getAttribute("alt")).toContain(authorName);
     expect(title?.innerHTML).toContain(authorName);
     expect(subtitle?.innerHTML).toContain(
-      recommendationsStrings[authorId].role
+      recommendationsStrings.items[authorId].role
     );
     expect(subtitle?.innerHTML).toContain(company);
     expect(firstParagraph?.innerHTML).toContain(
-      recommendationsStrings[authorId].paragraphs[0]
+      recommendationsStrings.items[authorId].paragraphs[0]
     );
   });
 });

@@ -28,9 +28,9 @@ export default function Resume() {
   const {
     global: { author },
     home: { summary },
-    experience: experienceStrings,
-    education: educationStrings,
-    skills: { softSkills: softSkillsStrings },
+    experience: { items: experienceStrings },
+    education: { items: educationStrings },
+    skills: { items: softSkillsStrings },
   } = getDictionary(lang);
 
   useEffect(() => {

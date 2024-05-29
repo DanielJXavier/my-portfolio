@@ -10,16 +10,28 @@ import RecommendationItem from "./_components/RecommendationItem";
 
 import { recommendations } from "./_config";
 
-export const metadata: Metadata = {
-  title: "Recommendations",
-};
+export async function generateMetadata({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}): Promise<Metadata> {
+  const {
+    recommendations: { title },
+  } = getDictionary(lang);
+
+  return {
+    title,
+  };
+}
 
 export default function Page({
   params: { lang },
 }: {
   params: { lang: Locale };
 }) {
-  const { recommendations: recommendationsStrings } = getDictionary(lang);
+  const {
+    recommendations: { items: recommendationsStrings },
+  } = getDictionary(lang);
 
   return (
     <>

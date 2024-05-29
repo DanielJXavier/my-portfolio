@@ -21,10 +21,10 @@ describe("EducationItem component", () => {
       <EducationItem
         schoolId={schoolId}
         schoolName={schoolName}
-        fieldOfStudy={educationStrings[schoolId].fieldOfStudy}
-        degree={educationStrings[schoolId].degree}
+        fieldOfStudy={educationStrings.items[schoolId].fieldOfStudy}
+        degree={educationStrings.items[schoolId].degree}
         years={years}
-        subjects={educationStrings[schoolId].subjects}
+        subjects={educationStrings.items[schoolId].subjects}
       />
     );
 
@@ -40,12 +40,14 @@ describe("EducationItem component", () => {
     expect(educationItem).toBeInTheDocument();
     expect(image?.getAttribute("src")).toContain(schoolId);
     expect(image?.getAttribute("alt")).toContain(schoolName);
-    expect(title?.innerHTML).toContain(educationStrings[schoolId].fieldOfStudy);
+    expect(title?.innerHTML).toContain(
+      educationStrings.items[schoolId].fieldOfStudy
+    );
     expect(title?.innerHTML).toContain(schoolName);
     expect(titleSpan?.innerHTML).toContain(years);
-    expect(desc?.innerHTML).toContain(educationStrings[schoolId].degree);
+    expect(desc?.innerHTML).toContain(educationStrings.items[schoolId].degree);
     expect(firstSubject?.innerHTML).toContain(
-      educationStrings[schoolId].subjects[0]
+      educationStrings.items[schoolId].subjects[0]
     );
   });
 });

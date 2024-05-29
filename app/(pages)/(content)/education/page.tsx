@@ -9,16 +9,28 @@ import School from "@/_icons/School";
 import { education } from "./_config";
 import EducationItem from "./_components/EducationItem";
 
-export const metadata: Metadata = {
-  title: "Education",
-};
+export async function generateMetadata({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}): Promise<Metadata> {
+  const {
+    education: { title },
+  } = getDictionary(lang);
+
+  return {
+    title,
+  };
+}
 
 export default function Page({
   params: { lang },
 }: {
   params: { lang: Locale };
 }) {
-  const { education: educationStrings } = getDictionary(lang);
+  const {
+    education: { items: educationStrings },
+  } = getDictionary(lang);
 
   return (
     <>
