@@ -1,12 +1,12 @@
-import { Dispatch, Fragment, SetStateAction } from "react";
+import { Fragment } from "react";
 
 type MenuProps = Readonly<{
   items: string[];
   activeItem: string;
-  setActiveItem: Dispatch<SetStateAction<string>>;
+  handleClick: (item: string) => void;
 }>;
 
-export default function Menu({ items, activeItem, setActiveItem }: MenuProps) {
+export default function Menu({ items, activeItem, handleClick }: MenuProps) {
   return (
     <menu
       className="mt-1 md:mt-2 text-sm lg:mt-3 lg:text-base flex gap-x-1"
@@ -21,7 +21,7 @@ export default function Menu({ items, activeItem, setActiveItem }: MenuProps) {
                   ? "text-secondary underline cursor-default"
                   : ""
               } hover:text-secondary hover:underline`}
-              onClick={() => setActiveItem(item)}
+              onClick={() => handleClick(item)}
               disabled={activeItem === item}
             >
               {item}
