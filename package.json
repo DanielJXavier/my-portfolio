@@ -11,7 +11,7 @@
     "cy:prepare": "CYPRESS=true && yarn build && yarn start",
     "cy:open": "cypress open",
     "cy:run": "cypress run --browser chrome",
-    "cy:update": "yarn cy:run --env updateSnapshots=true --env failureThreshold=0",
+    "cy:update": "yarn cy:run --env updateSnapshots=true,failureThreshold=0",
     "build": "next build",
     "start": "next start"
   },
