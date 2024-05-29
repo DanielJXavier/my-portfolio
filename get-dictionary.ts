@@ -1,10 +1,17 @@
-import en from "dictionaries/en.json" assert { type: "json" };
-
 import { i18n, Locale } from "i18n-config";
 
+import en from "dictionaries/en.json" assert { type: "json" };
 const dictionaries = {
+type DictionaryType = typeof en;
+
+type DictionariesType = {
+  [key: Locale]: DictionaryType;
+};
+
+const dictionaries: DictionariesType = {
+  en,
   en,
 };
 
-export const getDictionary = (locale: Locale) =>
+export const getDictionary = (locale: Locale): DictionaryType =>
   dictionaries[locale] ?? dictionaries[i18n.defaultLocale];
