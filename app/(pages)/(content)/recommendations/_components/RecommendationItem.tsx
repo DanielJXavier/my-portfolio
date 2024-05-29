@@ -1,8 +1,12 @@
 import Image from "next/image";
 
-import { RecommendationInterface } from "../data";
-
-type RecommendationItemPropsType = Readonly<RecommendationInterface>;
+type RecommendationItemPropsType = Readonly<{
+  authorId: string;
+  authorName: string;
+  role: string;
+  company: string;
+  paragraphs: string[];
+}>;
 
 export default function RecommendationItem({
   authorId,
