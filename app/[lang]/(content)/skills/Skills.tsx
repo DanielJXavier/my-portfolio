@@ -26,7 +26,7 @@ export default function Skills() {
   const { lang } = useParams<{ lang: Locale }>();
 
   const {
-    skills: { items: skillsStrings, bottomText },
+    skills: { title, menu: menuStrings, items: skillsStrings, bottomText },
   } = getDictionary(lang);
 
   const softSkills = useRef(
@@ -40,6 +40,12 @@ export default function Skills() {
 
   const [skills, setSkills] = useState(allSkills.current);
   const [filter, setFilter] = useState("all");
+
+  const menuItems = useRef([
+    { text: menuStrings.all, value: "all" },
+    { text: menuStrings.hard, value: "hard" },
+    { text: menuStrings.soft, value: "soft" },
+  ]);
 
   const handleClick = (item: string) => {
     setFilter(item);
@@ -55,9 +61,9 @@ export default function Skills() {
 
   return (
     <>
-      <Title icon={<Psychology />}>Skills</Title>
+      <Title icon={<Psychology />}>{title}</Title>
       <Menu
-        items={["all", "hard", "soft"]}
+        items={menuItems.current}
         activeItem={filter}
         handleClick={handleClick}
       />

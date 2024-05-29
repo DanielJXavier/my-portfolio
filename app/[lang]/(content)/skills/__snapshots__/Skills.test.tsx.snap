@@ -496,11 +496,6 @@ exports[`Skills page (Client-side) renders the page 1`] = `
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Cultural Awareness
-    </span>
-    <span
-      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
-    >
       Ethical Decision Making
     </span>
     <span
@@ -532,11 +527,6 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Networking
-    </span>
-    <span
-      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      Salesmanship
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"

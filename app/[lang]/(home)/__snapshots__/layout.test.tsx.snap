@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Pages layout renders the layout 1`] = `
+exports[`Home layout renders the layout 1`] = `
 <div>
   <header
     class="py-2 md:py-3 lg:py-4 shadow-sm shadow-primary"
@@ -12,7 +12,7 @@ exports[`Pages layout renders the layout 1`] = `
       <a
         class="text-xl lg:text-3xl font-light hover:text-secondary "
         data-testid="header-link"
-        href="/"
+        href="/en"
       >
         &lt;DanielXavier /&gt;
       </a>
@@ -41,32 +41,32 @@ exports[`Pages layout renders the layout 1`] = `
         >
           <li>
             <a
-              class=" decoration-0 underline-offset-2 hover:text-secondary hover:underline"
-              href="/experience"
+              class=" decoration-0 underline-offset-2 tracking-tighter [word-spacing:-0.25em] hover:text-secondary hover:underline"
+              href="/en/experience"
             >
               Experience
             </a>
           </li>
           <li>
             <a
-              class=" decoration-0 underline-offset-2 hover:text-secondary hover:underline"
-              href="/education"
+              class=" decoration-0 underline-offset-2 tracking-tighter [word-spacing:-0.25em] hover:text-secondary hover:underline"
+              href="/en/education"
             >
               Education
             </a>
           </li>
           <li>
             <a
-              class=" decoration-0 underline-offset-2 hover:text-secondary hover:underline"
-              href="/skills"
+              class=" decoration-0 underline-offset-2 tracking-tighter [word-spacing:-0.25em] hover:text-secondary hover:underline"
+              href="/en/skills"
             >
               Skills
             </a>
           </li>
           <li>
             <a
-              class=" decoration-0 underline-offset-2 hover:text-secondary hover:underline"
-              href="/recommendations"
+              class=" decoration-0 underline-offset-2 tracking-tighter [word-spacing:-0.25em] hover:text-secondary hover:underline"
+              href="/en/recommendations"
             >
               Recommendations
             </a>
@@ -90,11 +90,7 @@ exports[`Pages layout renders the layout 1`] = `
       </button>
     </div>
   </header>
-  <main
-    class="main-container"
-  >
-    children
-  </main>
+  children
   <footer
     class="absolute right-0 bottom-0 left-0 h-24 md:h-20 lg:h-16 flex items-center justify-center"
     data-testid="footer"
@@ -112,7 +108,7 @@ exports[`Pages layout renders the layout 1`] = `
       <br
         class="sm:hidden"
       />
-      All Rights Reserved.
+      All rights reserved.
     </p>
   </footer>
 </div>

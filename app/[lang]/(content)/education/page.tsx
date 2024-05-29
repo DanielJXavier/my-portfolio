@@ -29,12 +29,12 @@ export default function Page({
   params: { lang: Locale };
 }) {
   const {
-    education: { items: educationStrings },
+    education: { title, items: educationStrings },
   } = getDictionary(lang);
 
   return (
     <>
-      <Title icon={<School />}>Education</Title>
+      <Title icon={<School />}>{title}</Title>
       {education.map(({ schoolId, schoolName, years }, i) => (
         <EducationItem
           key={i}

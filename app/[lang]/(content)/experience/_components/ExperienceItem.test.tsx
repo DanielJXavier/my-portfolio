@@ -9,6 +9,12 @@ import { ExperienceModeContext } from "../Experience";
 import { experience } from "../_config";
 import { experience as experienceStrings } from "dictionaries/en.json";
 
+const { useParams } = require("next/navigation");
+
+jest.mock("next/navigation");
+
+useParams.mockImplementation(() => ({ lang: "en" }));
+
 describe("ExperienceItem component", () => {
   it("renders the component", () => {
     const { key, companyId, companyName, year, hasBlackLogo } = experience[0];

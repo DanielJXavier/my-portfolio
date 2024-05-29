@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Resume page (Client-side) renders the page 1`] = `
+exports[`Resume page (Server-side) renders the page 1`] = `
 <div>
   <main
     class="max-w-[210mm] print:w-[210mm] flex flex-col gap-y-4 font-serif p-[0.5in]"
@@ -157,7 +157,9 @@ exports[`Resume page (Client-side) renders the page 1`] = `
               Adopted agile methodologies and led team ceremonies to ensure a streamlined workflow balancing product and technical tasks;
             </li>
             <li>
-              Biggest challenge: 
+              Biggest challenge
+              :
+               
               To deal with pressure from leadership to do major deliveries in the short term.
             </li>
           </ul>
@@ -188,7 +190,9 @@ exports[`Resume page (Client-side) renders the page 1`] = `
               Structured the team and proposed a new approach to support the strategic plan for the upcoming year;¹
             </li>
             <li>
-              Biggest challenge: 
+              Biggest challenge
+              :
+               
               To balance the substantial responsibilities of both the team¹ and the chapter² simultaneously.
             </li>
           </ul>
@@ -219,7 +223,9 @@ exports[`Resume page (Client-side) renders the page 1`] = `
               Delivered the Design System roadmap including an entirely new platform homepage created in less than 48 hours;
             </li>
             <li>
-              Biggest challenge: 
+              Biggest challenge
+              :
+               
               To assume multiple roles simultaneously, including Engineering Manager, Product Manager, Data Analyst, among others.
             </li>
           </ul>
@@ -250,7 +256,9 @@ exports[`Resume page (Client-side) renders the page 1`] = `
               Recruited new professionals to increase productive capacity in 300%;
             </li>
             <li>
-              Biggest challenge: 
+              Biggest challenge
+              :
+               
               To manage high expectations related to Advertising revenue results.
             </li>
           </ul>
@@ -281,7 +289,9 @@ exports[`Resume page (Client-side) renders the page 1`] = `
               Refined the product's technical specifications;
             </li>
             <li>
-              Biggest challenge: 
+              Biggest challenge
+              :
+               
               To convert a highly "human-centric" project, rooted in personal consultancy, into a systematic approach.
             </li>
           </ul>
@@ -312,7 +322,9 @@ exports[`Resume page (Client-side) renders the page 1`] = `
               Structured and continuously enhanced the team's workflow using agile software development methodologies;
             </li>
             <li>
-              Biggest challenge: 
+              Biggest challenge
+              :
+               
               To manage a large team (28 professionals) and oversee critical deliveries.
             </li>
           </ul>
@@ -343,7 +355,9 @@ exports[`Resume page (Client-side) renders the page 1`] = `
               Led a team of 10 Front-End React developers;
             </li>
             <li>
-              Biggest challenge: 
+              Biggest challenge
+              :
+               
               To acquire leadership skills and master people management.
             </li>
           </ul>
@@ -371,7 +385,9 @@ exports[`Resume page (Client-side) renders the page 1`] = `
               Created new features for the "SAJ Tribunais" system using React JS and GraphQL;
             </li>
             <li>
-              Biggest challenge: 
+              Biggest challenge
+              :
+               
               To manage all the deliveries of the project as the sole Front-End developer.
             </li>
           </ul>

@@ -30,12 +30,12 @@ export default function Page({
   params: { lang: Locale };
 }) {
   const {
-    recommendations: { items: recommendationsStrings },
+    recommendations: { title, items: recommendationsStrings },
   } = getDictionary(lang);
 
   return (
     <>
-      <Title icon={<Reviews />}>Recommendations</Title>
+      <Title icon={<Reviews />}>{title}</Title>
       {recommendations.map(({ authorId, authorName, company }, i) => (
         <RecommendationItem
           key={i}

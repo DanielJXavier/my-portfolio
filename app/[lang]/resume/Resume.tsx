@@ -7,14 +7,14 @@ import { useParams } from "next/navigation";
 import { getDictionary } from "get-dictionary";
 import { Locale } from "i18n-config";
 
-import { links } from "@/(pages)/(home)/_config";
-import { experience } from "@/(pages)/(content)/experience/_config";
-import { education } from "@/(pages)/(content)/education/_config";
+import { links } from "@/[lang]/(home)/_config";
+import { experience } from "@/[lang]/(content)/experience/_config";
+import { education } from "@/[lang]/(content)/education/_config";
 
 import {
   hardSkills as allHardSkills,
   softSkills as softSkillsKeys,
-} from "@/(pages)/(content)/skills/_config";
+} from "@/[lang]/(content)/skills/_config";
 
 import {
   maxSummaryParagraphs,
@@ -31,6 +31,7 @@ export default function Resume() {
     experience: { items: experienceStrings },
     education: { items: educationStrings },
     skills: { items: softSkillsStrings },
+    resume: { sectionTitles, biggestChallengeTitle },
   } = getDictionary(lang);
 
   useEffect(() => {
@@ -99,7 +100,7 @@ export default function Resume() {
         </p>
       </section>
       <section>
-        <h2 className="text-[16pt] font-bold">Summary</h2>
+        <h2 className="text-[16pt] font-bold">{sectionTitles[0]}</h2>
         {summary
           .filter((_, i) => i < maxSummaryParagraphs)
           .map((paragraph, i) => (
@@ -109,7 +110,7 @@ export default function Resume() {
           ))}
       </section>
       <section>
-        <h2 className="text-[16pt] font-bold">Skills</h2>
+        <h2 className="text-[16pt] font-bold">{sectionTitles[1]}</h2>
         <ul className="flex gap-x-3.5 flex-wrap">
           {skills.current.map(({ name }, i) => (
             <li
@@ -122,7 +123,7 @@ export default function Resume() {
         </ul>
       </section>
       <section>
-        <h2 className="text-[16pt] font-bold">Experience</h2>
+        <h2 className="text-[16pt] font-bold">{sectionTitles[2]}</h2>
         <div className="flex flex-col gap-y-3">
           {experience
             .filter(({ resume }) => resume)
@@ -143,7 +144,8 @@ export default function Resume() {
                       <li key={i}>{responsibility}</li>
                     ))}
                   <li>
-                    Biggest challenge: {experienceStrings[key].biggestChallenge}
+                    {biggestChallengeTitle}:{" "}
+                    {experienceStrings[key].biggestChallenge}
                   </li>
                 </ul>
               </div>
@@ -151,7 +153,7 @@ export default function Resume() {
         </div>
       </section>
       <section>
-        <h2 className="text-[16pt] font-bold">Education</h2>
+        <h2 className="text-[16pt] font-bold">{sectionTitles[3]}</h2>
         <div className="flex flex-col gap-y-3">
           {education.map(({ schoolId, schoolName }, i) => (
             <div key={i}>

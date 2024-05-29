@@ -2,6 +2,11 @@ import { useContext } from "react";
 
 import Image from "next/image";
 
+import { useParams } from "next/navigation";
+
+import { getDictionary } from "get-dictionary";
+import { Locale } from "i18n-config";
+
 import { ExperienceModeContext } from "../Experience";
 
 type ExperienceItemPropsType = Readonly<{
@@ -38,6 +43,12 @@ export default function ExperienceItem({
   biggestChallenge,
   hasBlackLogo,
 }: ExperienceItemPropsType) {
+  const { lang } = useParams<{ lang: Locale }>();
+
+  const {
+    experience: { responsibilitiesTitle, biggestChallengeTitle },
+  } = getDictionary(lang);
+
   const experienceMode = useContext(ExperienceModeContext);
 
   return (
@@ -66,7 +77,9 @@ export default function ExperienceItem({
       {experienceMode === "detailed" && (
         <>
           <section className="mt-4 pl-14 xl:px-14">
-            <h3 className="font-semibold xl:text-xl">Main responsibilities:</h3>
+            <h3 className="font-semibold xl:text-xl">
+              {responsibilitiesTitle}:
+            </h3>
             <ul className="pl-7 list-disc text-sm xl:text-base">
               {responsibilities.map((responsibility, i) => (
                 <li key={i}>{responsibility}</li>
@@ -74,7 +87,9 @@ export default function ExperienceItem({
             </ul>
           </section>
           <section className="mt-4 pl-14 xl:px-14">
-            <h3 className="font-semibold xl:text-xl">Biggest challenge:</h3>
+            <h3 className="font-semibold xl:text-xl">
+              {biggestChallengeTitle}:
+            </h3>
             <p className="text-sm xl:text-base">{biggestChallenge}</p>
           </section>
         </>

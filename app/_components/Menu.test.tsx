@@ -4,7 +4,7 @@ import { fireEvent, render, screen } from "@testing-library/react";
 
 import Menu from "./Menu";
 
-import { menu } from "@/data";
+import { menu } from "@/_config";
 
 const { usePathname, useParams } = require("next/navigation");
 
@@ -37,7 +37,7 @@ describe("Menu component", () => {
   });
 
   it("renders the component with the first link highlighted", () => {
-    usePathname.mockImplementationOnce(() => menu[0].href);
+    usePathname.mockImplementationOnce(() => `/en${menu[0].href}`);
 
     render(<Menu />);
 

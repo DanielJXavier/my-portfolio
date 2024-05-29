@@ -22,7 +22,7 @@ describe("Header component", () => {
   });
 
   it("renders the component for home with the correct classes", () => {
-    usePathname.mockImplementationOnce(() => "/");
+    usePathname.mockImplementationOnce(() => "/en");
 
     render(<Header />);
 

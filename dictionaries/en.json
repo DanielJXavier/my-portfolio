@@ -5,7 +5,7 @@
       "lastName": "Xavier",
       "headline": "Technical Lead | JavaScript | React | MBA, Team Leadership"
     },
-    "copyright": "All Rights Reserved.",
+    "copyright": "All rights reserved.",
     "menu": {
       "experience": "Experience",
       "education": "Education",
@@ -24,6 +24,12 @@
   },
   "experience": {
     "title": "Experience",
+    "menu": {
+      "simple": "simple",
+      "detailed": "detailed"
+    },
+    "responsibilitiesTitle": "Main responsibilities",
+    "biggestChallengeTitle": "Biggest challenge",
     "items": {
       "olx-4": {
         "role": "Software Engineering Manager",
@@ -137,7 +143,7 @@
         "role": "Mid Level Front-End Developer",
         "description": "I was a Mid Level Front-End developer on the \"User Acquisition\" team.",
         "responsibilities": [
-          "Designed a system to generate blog post images using components and pre-defined templates, thereby enhancing the productivity of the design team;",
+          "Designed a system to generate blog post images using components and pre-defined templates, thereby enhancing the productivity of the design team by 1000%;",
           "Developed a high-performance caching system for the \"Hotmart blog\" (WordPress), which resulted in a 300% increase in performance;",
           "Implemented the Arabic version of the \"Hotmart blog\";"
         ],
@@ -245,6 +251,11 @@
   },
   "skills": {
     "title": "Skills",
+    "menu": {
+      "all": "all",
+      "hard": "hard",
+      "soft": "soft"
+    },
     "items": {
       "communication": "Communication",
       "leadership": "Leadership",
@@ -263,7 +274,6 @@
       "creativity": "Creativity",
       "active-listening": "Active Listening",
       "team-building": "Team Building",
-      "cultural-awareness": "Cultural Awareness",
       "ethical-decision-making": "Ethical Decision Making",
       "customer-orientation": "Customer Orientation",
       "learning-agility": "Learning Agility",
@@ -271,7 +281,6 @@
       "patience": "Patience",
       "public-speaking": "Public Speaking",
       "networking": "Networking",
-      "salesmanship": "Salesmanship",
       "multitasking": "Multitasking",
       "attention-to-detail": "Attention to Detail",
       "motivation": "Motivation",
@@ -383,6 +392,8 @@
     }
   },
   "resume": {
-    "title": "Resume"
+    "title": "Resume",
+    "sectionTitles": ["Summary", "Skills", "Experience", "Education"],
+    "biggestChallengeTitle": "Biggest challenge"
   }
 }

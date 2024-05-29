@@ -1,0 +1,408 @@
+{
+  "global": {
+    "author": {
+      "firstName": "Daniel",
+      "lastName": "Xavier",
+      "headline": "Líder Técnico | JavaScript | React | MBA, Liderança de Equipe"
+    },
+    "copyright": "Todos os direitos reservados.",
+    "menu": {
+      "experience": "Experiência",
+      "education": "Formação acadêmica",
+      "skills": "Competências",
+      "recommendations": "Recomendações"
+    }
+  },
+  "home": {
+    "greeting": "Oie, sou o",
+    "summary": [
+      "Com uma década de experiência em desenvolvimento web e domínio em JavaScript, React.js e Node.js, me destaquei como Líder Técnico, criando soluções elegantes para problemas complexos.",
+      "Minha liderança vai além das habilidades técnicas, pois mentoreei equipes em projetos complexos e aprimorei habilidades de gerenciamento como inteligência emocional e resolução de conflitos.",
+      "Essa combinação de expertise técnica e liderança me transformou em um Líder Técnico focado em Front-End bem equilibrado.",
+      "Além da tecnologia, gosto de fotografar paisagens, praticar esportes de aventura e visitar novos lugares sempre que possível. Estou sempre aberto a explorar novas oportunidades e fazer novas conexões. Vamos conversar!"
+    ]
+  },
+  "experience": {
+    "title": "Experiência",
+    "menu": {
+      "simple": "resumida",
+      "detailed": "detalhada"
+    },
+    "responsibilitiesTitle": "Principais responsabilidades",
+    "biggestChallengeTitle": "Maior desafio",
+    "items": {
+      "olx-4": {
+        "role": "Gerente de Engenharia de Software",
+        "description": "Eu era o líder da equipe \"Ads Seller Experience\".",
+        "responsibilities": [
+          "Liderei uma equipe de 9 desenvolvedores, atuando como mentor e guia;",
+          "Entreguei os itens do roadpmap de cadastro e gerenciamento de anúncios da plataforma, incluindo a nova inserção de anúncios em etapas;",
+          "Construi um alto nível de engajamento dentro da equipe;",
+          "Realizei \"1:1s\" personalizados para orientar os membros da equipe em seus ciclos de desempenho;",
+          "Adotei metodologias ágeis e liderei cerimônias de equipe para garantir um fluxo de trabalho simplificado equilibrando tarefas técnicas e de produto;",
+          "Trabalhei de perto com o Gerente de Produto para garantir decisões de produto mais assertivas e eficazes;"
+        ],
+        "biggestChallenge": "Lidar com a pressão da liderança para fazer grandes entregas a curto prazo."
+      },
+      "olx-3": {
+        "role": "Gerente de Engenharia de Software",
+        "description": "Eu era o líder da equipe \"Search & Recommendation\"¹ e do capítulo \"Design System\"².",
+        "responsibilities": [
+          "Liderei uma equipe de 8 desenvolvedores, atuando como mentor e guia;¹",
+          "Realizei a execução bem-sucedida do roadmap dos sistemas de busca e recomendação, incluindo o novo algoritmo de classificação LTR;¹",
+          "Estruturei a equipe e propus uma nova abordagem para apoiar o plano estratégico para o próximo ano;¹",
+          "Esclareci o entendimento da empresa sobre os assuntos de busca e recomendação;¹",
+          "Supervisionei todos os desenvolvedores (9 devs) no capítulo indiretamente, fomentando um senso de unidade e direção;²",
+          "Fomentei o engajamento dentro do capítulo e garanti entregas valiosas apesar de trabalhar apenas uma vez por semana;²"
+        ],
+        "biggestChallenge": "Equilibrar as substanciais responsabilidades da equipe¹ e do capítulo² simultaneamente."
+      },
+      "olx-2": {
+        "role": "Gerente de Engenharia de Software",
+        "description": "Eu era o líder da equipe 'Design System'.",
+        "responsibilities": [
+          "Liderei uma equipe de 9 desenvolvedores, atuando como ponto de referência;",
+          "Fiz parceria ativa com a Gerente de Design para tomar decisões de produto ótimas e estabelecer um roadmap;",
+          "Entreguei o roadmap do Design System, incluindo uma nova página inicial da plataforma criada em menos de 48 horas;",
+          "Coletei e analisei dados para validar o valor do projeto para a empresa;",
+          "Garanti a evolução contínua do Design System e sua adoção por outras equipes;",
+          "Desenvolvi documentação e processos para contribuir para o projeto do Design System e gerenciar sua versão;"
+        ],
+        "biggestChallenge": "Assumir vários papéis simultaneamente, incluindo Gerente de Engenharia, Gerente de Produto, Analista de Dados, entre outros."
+      },
+      "olx-1": {
+        "role": "Gerente de Engenharia de Software",
+        "description": "Eu era o líder da equipe \"Advertising\".",
+        "responsibilities": [
+          "Liderei uma equipe de 7 desenvolvedores, atuando como referência chave;",
+          "Entreguei o roadmap de Publicidade direta e indireta para a plataforma que trouxeram R$80 milhões em receita;",
+          "Recrutei novos profissionais para aumentar a capacidade produtiva em 300%;",
+          "Fiz parceria ativa com a Gerente de Produto para priorizar e desenvolver as melhores iniciativas;",
+          "Propus uma nova estrutura para a área de Publicidade para melhorar os resultados;"
+        ],
+        "biggestChallenge": "Gerenciar altas expectativas relacionadas aos resultados de receita de Publicidade."
+      },
+      "meaning-1": {
+        "role": "CTO & Sócio",
+        "description": "Ocupei a posição de CTO e co-fundador na startup.",
+        "responsibilities": [
+          "Elaborei a visão técnica e a estratégia de produto da startup;",
+          "Arquitetei a solução desde o início;",
+          "Refinei as especificações técnicas do produto;",
+          "Desenvolvi um projeto de Prova de Conceito;"
+        ],
+        "biggestChallenge": "Converter um projeto altamente \"humano\", vindo de consultoria pessoal, em uma abordagem sistêmica."
+      },
+      "softplan-3": {
+        "role": "Coordenador de Desenvolvimento",
+        "description": "Eu era o líder da equipe \"Estônia\".",
+        "responsibilities": [
+          "Liderei diretamente uma equipe multidisciplinar de desenvolvimento de software, inclusive Arquitetos de Software, Desenvolvedores, Analistas de Garantia de Qualidade, Gerente de Produtos, Analistas de Negócios e Agilistas;",
+          "Mentoreei e desenvolvi tanto funcionários diretos quanto indiretos, utilizando técnicas como 1:1 e feedforward;",
+          "Planejei e executei entregas para os 2 módulos mais críticos do sistema \"SAJ\";",
+          "Apliquei liderança situacional diária para maximizar o potencial daqueles sob minha orientação;",
+          "Estruturei e aprimorei continuamente o fluxo de trabalho da equipe usando metodologias ágeis de desenvolvimento de software;",
+          "Criei fórmulas e métricas para medir com precisão a capacidade da equipe, trazendo assim previsibilidade para as entregas;",
+          "Mapeei estratégias eficazes de retenção de talentos;"
+        ],
+        "biggestChallenge": "Gerenciar uma grande equipe (28 profissionais) e supervisionar entregas críticas."
+      },
+      "softplan-2": {
+        "role": "Líder Técnico",
+        "description": "Eu era o líder técnico do capítulo de Front-End.",
+        "responsibilities": [
+          "Desenvolvi o novo sistema \"SAJ\", construído usando React JS, .Net e GraphQL;",
+          "Supervisionei as entregas e implantação de 17 módulos do sistema;",
+          "Ministrei treinamentos de HTML, CSS, JavaScript, React JS, GraphQL e testes unitários;",
+          "Liderei uma equipe de 10 desenvolvedores Front-End React;",
+          "Recrutei novos funcionários para a empresa;",
+          "Selecionei novos profissionais terceirizados;",
+          "Desenvolvi profissionais através de sessões 1:1, feedforwards e mentorias;"
+        ],
+        "biggestChallenge": "Adquirir habilidades de liderança e dominar a gestão de pessoas."
+      },
+      "softplan-1": {
+        "role": "Desenvolvedor Front-End Sênior",
+        "description": "Eu era um desenvolvedor Front-End sênior na equipe \"França\".",
+        "responsibilities": [
+          "Desenvolvi novas funcionalidades para o portal \"e-SAJ\" utilizando React JS e GraphQL;",
+          "Criei novas funcionalidades para o sistema \"SAJ Tribunais\" usando React JS e GraphQL;"
+        ],
+        "biggestChallenge": "Gerenciar todas as entregas do projeto como o único desenvolvedor Front-End."
+      },
+      "hotmart-3": {
+        "role": "Desenvolvedor Front-End Sênior",
+        "description": "Eu era um desenvolvedor Front-End sênior na equipe de \"Growth Hacking\".",
+        "responsibilities": [
+          "Desenvolvi sistemas para atender às necessidades internas da empresa e automatizar tarefas, usando tecnologias como Vue.js e Node.js;",
+          "Criei uma Prova de Conceito (POC) que introduziu um método simplificado para o registro de produtos na plataforma;"
+        ],
+        "biggestChallenge": "Equilibrar a necessidade de compreender claramente os requisitos do cliente e codificar simultaneamente."
+      },
+      "hotmart-2": {
+        "role": "Desenvolvedor Front-End Pleno",
+        "description": "Eu era um desenvolvedor Front-End Pleno na equipe de \"User Acquisition\".",
+        "responsibilities": [
+          "Projetei um sistema para gerar imagens de postagens de blog usando componentes e modelos pré-definidos, aumentando assim a produtividade da equipe de design em 1000%;",
+          "Desenvolvi um sistema de cache de alto desempenho para o \"blog Hotmart\" (WordPress), resultando em um aumento de desempenho de 300%;",
+          "Implementei a versão em árabe do \"blog Hotmart\";"
+        ],
+        "biggestChallenge": "Conceber e desenvolver soluções complexas do zero."
+      },
+      "hotmart-1": {
+        "role": "Desenvolvedor Front-End Júnior",
+        "description": "Eu era um desenvolvedor Front-End Júnior na equipe de \"User Acquisition\".",
+        "responsibilities": [
+          "Desenvolvi um novo tema WordPress para o \"blog Hotmart\" utilizando apenas HTML5, CSS Grid Layout e Vanilla JS;",
+          "Implementei o novo layout para o \"blog Hotmart\";",
+          "Criei recursos personalizados dentro da interface de administração do WordPress;"
+        ],
+        "biggestChallenge": "Adquirir novas habilidades de desenvolvimento e aplicá-las em projetos complexos."
+      },
+      "sydle-2": {
+        "role": "Analista de Suporte",
+        "description": "Eu era um Analista de Suporte na equipe de \"Suporte & Sustentação\".",
+        "responsibilities": [
+          "Liderei o desenvolvimento de projetos web utilizando WordPress e Magento;",
+          "Facilitei a modelagem e automação dos processos internos da empresa através do BPMN;",
+          "Forneci suporte técnico abrangente aos usuários dos sistemas da empresa;",
+          "Supervisionei a configuração e monitoramento de servidores Linux e Windows."
+        ],
+        "biggestChallenge": "Adquirir rapidamente habilidades de desenvolvimento e contribuir para projetos legados."
+      },
+      "sydle-1": {
+        "role": "Estagiário de Suporte",
+        "description": "Eu era um Estagiário de Suporte na equipe de \"Suporte & Sustentação\".",
+        "responsibilities": [
+          "Forneci suporte técnico aos usuários dos sistemas da empresa;",
+          "Configurei e monitorei a infraestrutura em servidores Linux e Windows;",
+          "Compilei relatórios da equipe;",
+          "Ofereci suporte de infraestrutura aos funcionários da empresa."
+        ],
+        "biggestChallenge": "Aprender simultaneamente uma infinidade de novos conceitos e equilibrá-los com meus compromissos da faculdade."
+      }
+    }
+  },
+  "education": {
+    "title": "Formação acadêmica",
+    "items": {
+      "estacio": {
+        "fieldOfStudy": "Gestão Estratégica de Pessoas",
+        "degree": "Pós-graduação - MBA",
+        "subjects": [
+          "Coaching e Liderança",
+          "Comunicação nas Organizações",
+          "Gestão de Conflitos e Negociação",
+          "Educação Corporativa",
+          "Criatividade e Inovação Organizacional",
+          "Princípios de Finanças",
+          "Gestão do Conhecimento",
+          "Visão Estratégica no Gerenciamento de Pessoas",
+          "Teoria do Desenvolvimento Organizacional"
+        ]
+      },
+      "fumec": {
+        "fieldOfStudy": "Ciência da Computação",
+        "degree": "Bacharelado",
+        "subjects": [
+          "Álgebra e Geometria Análitica",
+          "Linguagens e Técnicas de Programação I",
+          "Arquitetura de Computadores",
+          "Fundamentos de Sistemas Distribuídos",
+          "Cálculo I",
+          "Introdução aos Sistemas Lógicos",
+          "Linguagens e Técnicas de Programação II",
+          "Redes de Computadores",
+          "Estrutura de Dados I",
+          "Cálculo II",
+          "Linguagens e Técnicas de Programação III",
+          "Estrutura de Dados II",
+          "Introdução à Robótica",
+          "Estatística",
+          "Linguagens e Técnicas de Programação IV",
+          "Administração de Recursos Humanos",
+          "Conectividade",
+          "Análise de Algoritmos",
+          "Sistemas Operacionais e Software Básico",
+          "Introdução à Administração",
+          "Fundamentos de Física",
+          "Interface Homem-Máquina",
+          "Fundamentos Teóricos da Computação",
+          "Telecomunicações",
+          "Análise e Projetos de Sistemas",
+          "Engenharia de Software I",
+          "Banco de Dados I",
+          "Compiladores",
+          "Computação Gráfica",
+          "Engenharia de Software II",
+          "Direito aplicado à Informática",
+          "Banco de Dados II",
+          "Cálculo Numérico",
+          "Administração de Sistemas de Informação",
+          "Gestão de Projetos de Tecnologia da Informação",
+          "Segurança em Redes de Computadores",
+          "Trabalho de Conclusão de Curso",
+          "Inteligência Artificial",
+          "Desenvolvimento Web",
+          "Desenvolvimento de Sistemas Distribuídos"
+        ]
+      }
+    }
+  },
+  "skills": {
+    "title": "Competências",
+    "menu": {
+      "all": "todas",
+      "hard": "técnicas",
+      "soft": "comportamentais"
+    },
+    "items": {
+      "communication": "Comunicação",
+      "leadership": "Liderança",
+      "problem-solving": "Resolução de Problemas",
+      "decision-making": "Tomada de Decisão",
+      "empathy": "Empatia",
+      "conflict-resolution": "Resolução de Conflitos",
+      "adaptability": "Adaptabilidade",
+      "time-management": "Gestão do Tempo",
+      "organization": "Organização",
+      "strategic-thinking": "Pensamento Estratégico",
+      "mentoring": "Mentoria",
+      "negotiation": "Negociação",
+      "resilience": "Resiliência",
+      "critical-thinking": "Pensamento Crítico",
+      "creativity": "Criatividade",
+      "active-listening": "Escuta Ativa",
+      "team-building": "Construção de Equipe",
+      "ethical-decision-making": "Tomada de Decisão Ética",
+      "customer-orientation": "Foco no Cliente",
+      "learning-agility": "Aprendizado Rápido",
+      "curiosity": "Curiosidade",
+      "patience": "Paciência",
+      "public-speaking": "Falar em Público",
+      "networking": "Networking",
+      "multitasking": "Multitarefa",
+      "attention-to-detail": "Atenção aos Detalhes",
+      "motivation": "Motivação",
+      "persuasion": "Persuasão",
+      "emotional-intelligence": "Inteligência Emocional"
+    },
+    "bottomText": "E sempre aprendendo coisas novas para ampliar a lista..."
+  },
+  "recommendations": {
+    "title": "Recomendações",
+    "items": {
+      "1665746687624": {
+        "role": "Gerente de Design",
+        "paragraphs": [
+          "Tive a oportunidade de trabalhar com Daniel na co-liderança do Design System na OLX, e seu papel foi essencial na construção de uma comunidade forte e uma equipe engajada com a missão de escalar o desenvolvimento e elevar a qualidade de nossas interfaces.",
+          "Ele consistentemente fez contribuições significativas nas reuniões, compartilhando ativamente seu conhecimento e insights para impulsionar as discussões. Além disso, Daniel interage efetivamente com todas as disciplinas envolvidas e identifica momentos para mobilizar as equipes em direção a ações impactantes.",
+          "Eu recomendo fortemente Daniel para posições de liderança e reforço minha admiração por seu compromisso profissional com os objetivos de negócios e como ele não hesita em investir esforço na resolução de desafios ao longo do caminho."
+        ]
+      },
+      "1711736735188": {
+        "role": "Gerente de Produto Sênior",
+        "paragraphs": [
+          "Daniel foi um verdadeiro parceiro, especialmente quando estávamos enfrentando um impacto nos negócios devido à pandemia. Ele trabalhou sem parar para elaborar um sólido plano de negócios/tecnologia para se recuperar deste cenário, também comunicando o que era necessário para a equipe de gestão.",
+          "Ele é um líder focado nas pessoas e se esforça para construir uma boa atmosfera de equipe. Também sabe muito sobre tecnologia front-end e gerenciou muitas equipes de contextos diferentes."
+        ]
+      },
+      "1692061488021": {
+        "role": "Engenheiro de Software Sênior (Senior Staff)",
+        "paragraphs": [
+          "Tive a oportunidade de interagir de perto com Daniel durante os esforços colaborativos de nossas equipes, e posso atestar suas qualidades como líder. Daniel traz energia positiva para a mesa e demonstra genuíno interesse em desenvolver seus membros de equipe e pares. Seu compromisso em entregar as soluções acordadas é inabalável, refletindo sua dedicação em atender efetivamente os objetivos de negócios. Eu recomendo Daniel para qualquer função de liderança onde sua expertise fará um impacto significativo."
+        ]
+      },
+      "1695594745530": {
+        "role": "Designer de Produto",
+        "paragraphs": [
+          "Daniel é um profissional muito comprometido e dedicado. Ele está sempre interessado em contribuir da melhor maneira possível e ajudar a equipe a alcançar seus objetivos. Se ele não sabe sobre o assunto, ele tentará colaborar de alguma forma.",
+          "Ele demonstra uma preocupação de médio/longo prazo em suas decisões, e consegue equilibrar bem a teoria com a prática em suas entregas, o que é essencial para o desenvolvimento saudável de produtos e da equipe. Além de ter um grande senso crítico em vários aspectos, ele claramente influenciou positivamente as entregas da equipe e as direções estratégicas."
+        ]
+      },
+      "1565735422940": {
+        "role": "Engenheiro de Software Sênior (Principal)",
+        "paragraphs": [
+          "Daniel é um ótimo profissional, sempre muito comprometido. Trabalhei com ele na OLX Brasil, e o vi liderar equipes, sempre conhecendo cada um dos membros de sua equipe, e usando suas habilidades positivamente para alcançar resultados relevantes. Ele era um exemplo a ser seguido por sua liderança, e certamente será um excelente profissional em seus próximos desafios."
+        ]
+      },
+      "1593552193665": {
+        "role": "Gerente de Engenharia de Software",
+        "paragraphs": [
+          "Daniel é um profissional muito proativo e engajado. Ele foi responsável por uma abordagem mais orientada a dados para monitorar os \"web vitals\" na OLX Brasil, trazendo maior visibilidade para a situação atual e trazendo toda a empresa para o tópico. Ele tem um perfil forte de resolução de problemas, forte liderança e alcança alto engajamento em suas equipes. Apesar de sua posição de gerência, ele tem conhecimento aprofundado do desenvolvimento front-end, o que ajuda no desenvolvimento técnico de seus membros da equipe."
+        ]
+      },
+      "1660079652443": {
+        "role": "Gerente de Produto Sênior",
+        "paragraphs": [
+          "Daniel é um profissional excelente e atualizado. Ele demonstra comprometimento, alto conhecimento técnico, extremamente colaborativo. Ele sempre trabalha para o bem comum e os objetivos da equipe e da empresa. Sempre disposto a compartilhar conhecimento. Excelente adição a qualquer empresa."
+        ]
+      },
+      "1622852709278": {
+        "role": "Gerente de Engenharia",
+        "paragraphs": [
+          "Daniel é uma pessoa muito construtiva, gosta de se envolver nas diferentes frentes, com contribuições assertivas e muita energia.",
+          "Gosta de grandes desafios e ser reconhecido por suas contribuições, não medindo esforços para alcançar objetivos.",
+          "Também gosta de aprender, reaprender, colaborar e compartilhar, potencializando outros talentos na empresa.",
+          "Seu bom humor vem em conjunto com críticas em relação ao que pode e deve ser melhorado, fazendo a parte que lhe cabe, pedindo feedback e ajuda ao que foge a alçada dele.",
+          "Tecnicamente, foi um destaque no frontend quando trabalhamos juntos, ajudando a formar outros profissionais que agregaram muito e como coordenador mostrou muita organização, planejamento e atuação em projetos complexos, gestão e cuidado com as pessoas e boa liderança junto ao time."
+        ]
+      },
+      "1606086729239": {
+        "role": "Analista de Dados II",
+        "paragraphs": [
+          "Daniel é um excelente profissional e gostaria de destacar seu desempenho como líder...",
+          "Tive a oportunidade de trabalhar com ele em duas equipes e contextos diferentes. Durante essas oportunidades, pude testemunhar um líder altamente engajado no desenvolvimento de cada membro da equipe, incluindo aqueles que não eram diretamente gerenciados por ele, como eu. Mesmo durante o período em que não estávamos na mesma equipe, tivemos reuniões recorrentes, onde ele me deu muitas orientações e ajudou no meu desenvolvimento.",
+          "Além disso, ele sempre se mostrou preocupado e interessado em desenvolver soluções multidisciplinares, trazendo pessoas de diferentes áreas de conhecimento para as discussões.",
+          "Daniel é um líder que está sempre disponível para ajudar, orientar e liderar a equipe desde as situações mais cotidianas até os desafios mais urgentes."
+        ]
+      },
+      "1683719518610": {
+        "role": "Engenheiro de Software",
+        "paragraphs": [
+          "Durante o período em que fui liderado pelo Dani, pude testemunhar sua excelência como gerente. Sua transparência se destacou, transmitindo confiança para toda a equipe!",
+          "Ele está constantemente preocupado com o desenvolvimento de cada membro da equipe, não apenas em termos de resultados, mas também na progressão da carreira. Ele me incentivou a estudar pontos técnicos relevantes e escolher as tarefas mais benéficas para o meu crescimento e visibilidade dentro da empresa.",
+          "Apesar de assumir um papel de liderança, Dani não hesitou em se envolver em questões técnicas. Colaborando ativamente em iniciativas como simplificar funções, resolver problemas com componentes do projeto em outras páginas, e sempre demonstrou um interesse técnico em entender o funcionamento de diferentes áreas do projeto para tomar as melhores decisões."
+        ]
+      },
+      "1712709978402": {
+        "role": "Gerente de Engenharia",
+        "paragraphs": [
+          "Trabalhei com Daniel e tive a oportunidade de ser seu líder e parceiro. Como IC, ele sempre foi muito gentil, proativo e muito conhecedor de frontend, como (JavaScript, React, Angular, etc.).",
+          "Como colega, ele demonstrou fortes habilidades de liderança na criação e gestão de equipes. Excelente profissional."
+        ]
+      },
+      "1695221396520": {
+        "role": "Engenheiro de Software",
+        "paragraphs": [
+          "Tive o prazer de ser liderado por Daniel na OLX. Ele estava disposto a ajudar no meu crescimento profissional desde o início de nossa jornada juntos, ele estava sempre disponível para ajudar a resolver problemas mais complexos e me inspirou na maneira como liderava com perguntas precisas e direções precisas para que os problemas pudessem ser resolvidos. Isso porque Daniel é um profissional altamente qualificado em tecnologias de frontend, com amplo conhecimento em JavaScript. Esse conhecimento, combinado com a vasta experiência que ele tem como líder e a atitude calma e positiva que demonstra, resultou em uma experiência muito boa no dia a dia. Ele foi o melhor líder que já tive."
+        ]
+      },
+      "1700516452017": {
+        "role": "Engenheiro de Software Sênior",
+        "paragraphs": [
+          "Tive o prazer de trabalhar de perto com Daniel Xavier na Softplan, onde ele se destacou como nosso Tech Lead. Daniel é um desenvolvedor front-end de destaque com expertise em JavaScript, React, TypeScript e práticas modernas de front-end como React Testing Library e GraphQL. Sua habilidade para arquitetar soluções escaláveis e liderar equipes efetivamente o diferencia. O profissionalismo, confiabilidade e dedicação ao aprendizado do Daniel o tornam um ativo inestimável para qualquer equipe. Eu recomendo fortemente o Daniel para funções que requerem habilidades de front-end de alto nível e forte liderança."
+        ]
+      },
+      "1713311445833": {
+        "role": "Engenheiro de Front-End Sênior",
+        "paragraphs": [
+          "Daniel é absolutamente um dos profissionais mais promissores que já conheci na minha carreira!",
+          "Profissional muito comunicativo, claro, e sempre tem um ponto para colocar na mesa para enriquecer alguma discussão.",
+          "Como líder técnico (onde trabalhei com ele), sempre se mostra aberto para ouvir e ajudar a mim e a outros colegas.",
+          "Daniel tem a habilidade de ver não apenas o micro, mas também o macro da situação, apoiando assim a equipe a alcançar seus objetivos da melhor maneira possível!"
+        ]
+      }
+    }
+  },
+  "resume": {
+    "title": "Resume",
+    "sectionTitles": [
+      "Resumo",
+      "Competências",
+      "Experiência",
+      "Formação acadêmica"
+    ],
+    "biggestChallengeTitle": "Maior desafio"
+  }
+}

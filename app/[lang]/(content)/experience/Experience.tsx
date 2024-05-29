@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useState } from "react";
+import { createContext, useRef, useState } from "react";
 
 import { useParams } from "next/navigation";
 
@@ -20,16 +20,21 @@ export default function Experience() {
   const { lang } = useParams<{ lang: Locale }>();
 
   const {
-    experience: { items: experienceStrings },
+    experience: { title, menu: menuStrings, items: experienceStrings },
   } = getDictionary(lang);
 
   const [experienceMode, setExperienceMode] = useState("simple");
 
+  const menuItems = useRef([
+    { text: menuStrings.simple, value: "simple" },
+    { text: menuStrings.detailed, value: "detailed" },
+  ]);
+
   return (
     <ExperienceModeContext.Provider value={experienceMode}>
-      <Title icon={<Work />}>Experience</Title>
+      <Title icon={<Work />}>{title}</Title>
       <Menu
-        items={["simple", "detailed"]}
+        items={menuItems.current}
         activeItem={experienceMode}
         handleClick={setExperienceMode}
       />

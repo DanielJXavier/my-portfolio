@@ -6,7 +6,7 @@ import Link from "next/link";
 import { getDictionary } from "get-dictionary";
 import { Locale } from "i18n-config";
 
-import { menu } from "@/data";
+import { menu } from "@/_config";
 
 export default function Menu() {
   const { lang } = useParams<{ lang: Locale }>();
@@ -67,11 +67,11 @@ export default function Menu() {
           <li key={i}>
             <Link
               className={`${
-                pathname === href
+                pathname === `/${lang}${href}`
                   ? "text-secondary cursor-default underline"
                   : ""
-              } decoration-0 underline-offset-2 hover:text-secondary hover:underline`}
-              href={href}
+              } decoration-0 underline-offset-2 tracking-tighter [word-spacing:-0.25em] hover:text-secondary hover:underline`}
+              href={`/${lang}${href}`}
             >
               {menuStrings[key]}
             </Link>
