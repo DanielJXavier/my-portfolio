@@ -11,7 +11,7 @@ const config: Config = {
   testEnvironment: "jsdom",
   collectCoverageFrom: [
     "app/**/*.{ts,tsx}",
-    "!app/**/data.ts",
+    "!app/**/_config.ts",
     "!app/_icons/*",
     "!app/robots.ts",
     "!app/sitemap.ts",
