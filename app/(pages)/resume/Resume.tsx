@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 import { useParams } from "next/navigation";
 
@@ -10,9 +10,17 @@ import { Locale } from "i18n-config";
 import { links } from "@/(pages)/(home)/_config";
 import { experience } from "@/(pages)/(content)/experience/_config";
 import { education } from "@/(pages)/(content)/education/_config";
-import { skills } from "@/(pages)/(content)/skills/data";
 
-import { maxSummaryParagraphs } from "./_config";
+import {
+  hardSkills as allHardSkills,
+  softSkills as softSkillsKeys,
+} from "@/(pages)/(content)/skills/_config";
+
+import {
+  maxSummaryParagraphs,
+  chosenHardSkills,
+  chosenSoftSkills,
+} from "./_config";
 
 export default function Resume() {
   const { lang } = useParams<{ lang: Locale }>();
@@ -22,6 +30,7 @@ export default function Resume() {
     home: { summary },
     experience: experienceStrings,
     education: educationStrings,
+    skills: { softSkills: softSkillsStrings },
   } = getDictionary(lang);
 
   useEffect(() => {
@@ -42,6 +51,25 @@ export default function Resume() {
       });
     }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  const hardSkills = useRef(
+    allHardSkills.filter(({ name }) =>
+      chosenHardSkills.some((hardSkill) => name === hardSkill)
+    )
+  );
+
+  const softSkills = useRef(
+    softSkillsKeys
+      .filter(({ key }) =>
+        chosenSoftSkills.some((softSkill) => key === softSkill)
+      )
+      .map(({ key, size }) => ({
+        name: softSkillsStrings[key],
+        size,
+      }))
+  );
+
+  const skills = useRef([...hardSkills.current, ...softSkills.current]);
 
   return (
     <main className="max-w-[210mm] print:w-[210mm] flex flex-col gap-y-4 font-serif p-[0.5in]">
@@ -83,16 +111,14 @@ export default function Resume() {
       <section>
         <h2 className="text-[16pt] font-bold">Skills</h2>
         <ul className="flex gap-x-3.5 flex-wrap">
-          {skills
-            .filter(({ resume }) => resume)
-            .map(({ name }, i) => (
-              <li
-                key={i}
-                className="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
-              >
-                {name}
-              </li>
-            ))}
+          {skills.current.map(({ name }, i) => (
+            <li
+              key={i}
+              className="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+            >
+              {name}
+            </li>
+          ))}
         </ul>
       </section>
       <section>

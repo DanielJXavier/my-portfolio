@@ -29,7 +29,7 @@ export default function Experience() {
       <Menu
         items={["simple", "detailed"]}
         activeItem={experienceMode}
-        setActiveItem={setExperienceMode}
+        handleClick={setExperienceMode}
       />
       {experience.map(
         ({ key, companyId, companyName, year, hasBlackLogo }, i) => (

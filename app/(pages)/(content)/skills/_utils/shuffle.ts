@@ -1,4 +1,4 @@
-import { SkillInterface } from "../data";
+import { SkillInterface } from "../_config";
 
 type SkillsArrayType = SkillInterface[];
 

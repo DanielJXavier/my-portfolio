@@ -1,6 +1,6 @@
 import shuffle from "./shuffle";
 
-import { skills } from "../data";
+import { hardSkills } from "../_config";
 
 describe("shuffle util", () => {
   const NODE_ENV_ORIGINAL = process.env.NODE_ENV;
@@ -12,9 +12,9 @@ describe("shuffle util", () => {
   });
 
   it("returns the given list in test environment", () => {
-    const shuffledSkills = shuffle(skills);
+    const shuffledSkills = shuffle(hardSkills);
 
-    expect(skills).toEqual(shuffledSkills);
+    expect(hardSkills).toEqual(shuffledSkills);
   });
 
   it("returns a shuffled list", () => {
@@ -22,8 +22,8 @@ describe("shuffle util", () => {
       NODE_ENV: "production",
     });
 
-    const shuffledSkills = shuffle(skills);
+    const shuffledSkills = shuffle(hardSkills);
 
-    expect(skills).not.toStrictEqual(shuffledSkills);
+    expect(hardSkills).not.toStrictEqual(shuffledSkills);
   });
 });

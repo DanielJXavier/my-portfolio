@@ -1,15 +1,18 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
+
+import { useParams } from "next/navigation";
+
+import { getDictionary } from "get-dictionary";
+import { Locale } from "i18n-config";
 
 import Title from "@/_components/Title";
 import Psychology from "@/_icons/Psychology";
 
+import { hardSkills, softSkills as softSkillsKeys } from "./_config";
 import Menu from "../_components/Menu";
-
 import shuffle from "./_utils/shuffle";
-
-import { skills as allSkills } from "./data";
 
 const mapSizeToFontSize = {
   1: "text-sm md:text-base lg:text-lg",
@@ -20,17 +23,34 @@ const mapSizeToFontSize = {
 };
 
 export default function Skills() {
-  const [skills, setSkills] = useState(allSkills);
+  const { lang } = useParams<{ lang: Locale }>();
+
+  const {
+    skills: { softSkills: softSkillsStrings, bottomText },
+  } = getDictionary(lang);
+
+  const softSkills = useRef(
+    softSkillsKeys.map(({ key, size }) => ({
+      name: softSkillsStrings[key],
+      size,
+    }))
+  );
+
+  const allSkills = useRef([...hardSkills, ...softSkills.current]);
+
+  const [skills, setSkills] = useState(allSkills.current);
   const [filter, setFilter] = useState("all");
 
   const handleClick = (item: string) => {
     setFilter(item);
 
-    const filteredSkills = allSkills.filter(
-      ({ type }) => item === "all" || type === item
-    );
-
-    setSkills(filteredSkills);
+    if (item === "hard") {
+      setSkills(hardSkills);
+    } else if (item === "soft") {
+      setSkills(softSkills.current);
+    } else {
+      setSkills(allSkills.current);
+    }
   };
 
   return (
@@ -53,7 +73,7 @@ export default function Skills() {
         ))}
       </article>
       <article className="py-5 md:py-6 lg:py-8 text-base md:text-lg lg:text-2xl font-light text-center lg:text-justify">
-        And always learning new things to expand the list...
+        {bottomText}
       </article>
     </>
   );

@@ -236,5 +236,41 @@
         "Development of Distributed Systems"
       ]
     }
+  },
+  "skills": {
+    "softSkills": {
+      "communication": "Communication",
+      "leadership": "Leadership",
+      "problem-solving": "Problem Solving",
+      "decision-making": "Decision Making",
+      "empathy": "Empathy",
+      "conflict-resolution": "Conflict Resolution",
+      "adaptability": "Adaptability",
+      "time-management": "Time Management",
+      "organization": "Organization",
+      "strategic-thinking": "Strategic Thinking",
+      "mentoring": "Mentoring",
+      "negotiation": "Negotiation",
+      "resilience": "Resilience",
+      "critical-thinking": "Critical Thinking",
+      "creativity": "Creativity",
+      "active-listening": "Active Listening",
+      "team-building": "Team Building",
+      "cultural-awareness": "Cultural Awareness",
+      "ethical-decision-making": "Ethical Decision Making",
+      "customer-orientation": "Customer Orientation",
+      "learning-agility": "Learning Agility",
+      "curiosity": "Curiosity",
+      "patience": "Patience",
+      "public-speaking": "Public Speaking",
+      "networking": "Networking",
+      "salesmanship": "Salesmanship",
+      "multitasking": "Multitasking",
+      "attention-to-detail": "Attention to Detail",
+      "motivation": "Motivation",
+      "persuasion": "Persuasion",
+      "emotional-intelligence": "Emotional Intelligence"
+    },
+    "bottomText": "And always learning new things to expand the list..."
   }
 }

@@ -10,7 +10,7 @@ describe("Menu component", () => {
       <Menu
         items={["Item 1", "Item 2"]}
         activeItem=""
-        setActiveItem={jest.fn()}
+        handleClick={jest.fn()}
       />
     );
 
@@ -24,7 +24,7 @@ describe("Menu component", () => {
       <Menu
         items={["Item 1", "Item 2"]}
         activeItem="Item 1"
-        setActiveItem={jest.fn()}
+        handleClick={jest.fn()}
       />
     );
 
@@ -35,14 +35,14 @@ describe("Menu component", () => {
     expect(activeItem).toBeDisabled();
   });
 
-  it("calls the setActiveItem function", () => {
-    const setActiveItem = jest.fn();
+  it("calls the handleClick function", () => {
+    const handleClick = jest.fn();
 
     render(
       <Menu
         items={["Item 1", "Item 2"]}
         activeItem=""
-        setActiveItem={setActiveItem}
+        handleClick={handleClick}
       />
     );
 
@@ -50,7 +50,7 @@ describe("Menu component", () => {
 
     fireEvent.click(menu.childNodes[0].childNodes[0]);
 
-    expect(setActiveItem).toHaveBeenCalledTimes(1);
-    expect(setActiveItem).toHaveBeenCalledWith("Item 1");
+    expect(handleClick).toHaveBeenCalledTimes(1);
+    expect(handleClick).toHaveBeenCalledWith("Item 1");
   });
 });
