@@ -404,5 +404,9 @@
       "Formação acadêmica"
     ],
     "biggestChallengeTitle": "Maior desafio"
+  },
+  "not-found": {
+    "text": "Nenhuma página aqui.",
+    "link": "Vamos para uma página!"
   }
 }

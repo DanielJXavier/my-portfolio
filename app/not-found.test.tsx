@@ -6,6 +6,12 @@ import { render } from "@testing-library/react";
 
 import NotFound from "./not-found";
 
+const { usePathname } = require("next/navigation");
+
+jest.mock("next/navigation");
+
+usePathname.mockImplementation(() => "/en");
+
 describe("NotFound page", () => {
   it("renders the page", () => {
     const { container } = render(<NotFound />);

@@ -395,5 +395,9 @@
     "title": "Resume",
     "sectionTitles": ["Summary", "Skills", "Experience", "Education"],
     "biggestChallengeTitle": "Biggest challenge"
+  },
+  "not-found": {
+    "text": "There is no page here.",
+    "link": "Let's see a real page!"
   }
 }
