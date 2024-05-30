@@ -10,7 +10,7 @@ exports[`Home layout renders the layout 1`] = `
       class="relative container mx-auto px-4 md:px-5 xl:px-6 grid grid-cols-[auto_1fr_auto] items-center justify-between justify-items-end gap-x-2 md:gap-x-3 lg:gap-x-8"
     >
       <a
-        class="text-xl lg:text-3xl font-light hover:text-secondary "
+        class="text-xl lg:text-3xl font-light hover:text-secondary text-secondary cursor-default"
         data-testid="header-link"
         href="/en"
       >
@@ -92,9 +92,27 @@ exports[`Home layout renders the layout 1`] = `
   </header>
   children
   <footer
-    class="absolute right-0 bottom-0 left-0 h-24 md:h-20 lg:h-16 flex items-center justify-center"
+    class="absolute right-0 bottom-0 left-0 h-32 md:h-28 lg:h-24 grid gap-y-2 items-center justify-center content-center"
     data-testid="footer"
   >
+    <menu
+      class="flex gap-x-3 justify-center"
+    >
+      <li>
+        <a
+          href="/en"
+        >
+          🇺🇸
+        </a>
+      </li>
+      <li>
+        <a
+          href="/pt"
+        >
+          🇧🇷
+        </a>
+      </li>
+    </menu>
     <p
       class="text-xs md:text-sm text-center"
     >
