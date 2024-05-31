@@ -31,8 +31,8 @@ exports[`Education page renders the page 1`] = `
         decoding="async"
         height="40"
         loading="lazy"
-        src="/_next/image?url=%2Feducation%2Festacio.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Feducation%2Festacio.jpg&w=48&q=75 1x, /_next/image?url=%2Feducation%2Festacio.jpg&w=96&q=75 2x"
+        src="/_next/image?url=%2Fimages%2Feducation%2Festacio.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fimages%2Feducation%2Festacio.jpg&w=48&q=75 1x, /_next/image?url=%2Fimages%2Feducation%2Festacio.jpg&w=96&q=75 2x"
         style="color: transparent;"
         width="40"
       />
@@ -110,8 +110,8 @@ exports[`Education page renders the page 1`] = `
         decoding="async"
         height="40"
         loading="lazy"
-        src="/_next/image?url=%2Feducation%2Ffumec.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Feducation%2Ffumec.jpg&w=48&q=75 1x, /_next/image?url=%2Feducation%2Ffumec.jpg&w=96&q=75 2x"
+        src="/_next/image?url=%2Fimages%2Feducation%2Ffumec.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fimages%2Feducation%2Ffumec.jpg&w=48&q=75 1x, /_next/image?url=%2Fimages%2Feducation%2Ffumec.jpg&w=96&q=75 2x"
         style="color: transparent;"
         width="40"
       />

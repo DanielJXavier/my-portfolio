@@ -61,7 +61,7 @@ export default function ExperienceItem({
           className={`rounded-full ${
             hasBlackLogo ? "border-2 border-solid border-secondary" : ""
           }`}
-          src={`/experience/${companyId}.jpg`}
+          src={`/images/experience/${companyId}.jpg`}
           width={40}
           height={40}
           alt={`Logo of ${companyName} company`}

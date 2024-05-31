@@ -47,7 +47,7 @@ export default function NotFound() {
           <Image
             className="right-0 object-contain drop-shadow-shaped grayscale"
             priority={true}
-            src="/404.png"
+            src="/images/404.png"
             fill
             sizes="50vw, (min-width: 640px): 50vw, (min-width: 1024px): 33vw"
             alt="Photo of the author (Daniel Xavier) indicating a 404 error with his finger"

@@ -38,7 +38,7 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
             <Image
               className="object-contain rounded-full"
               priority={true}
-              src="/profile.jpg"
+              src="/images/profile.jpg"
               fill
               sizes="50vw, (min-width: 768px): 33vw, (min-width: 1024px): 30vw, (min-width: 1280px): 25vw, (min-width: 1536px): 20vw"
               alt={`Photo of the author (${author.firstName} ${author.lastName})`}

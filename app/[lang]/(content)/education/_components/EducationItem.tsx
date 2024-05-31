@@ -34,7 +34,7 @@ export default function EducationItem({
       <header className="flex items-start gap-x-2">
         <Image
           className="rounded-full"
-          src={`/education/${schoolId}.jpg`}
+          src={`/images/education/${schoolId}.jpg`}
           width={40}
           height={40}
           alt={`Logo of ${schoolName} school`}

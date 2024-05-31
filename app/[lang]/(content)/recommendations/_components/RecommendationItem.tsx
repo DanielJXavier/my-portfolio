@@ -20,7 +20,7 @@ export default function RecommendationItem({
       <header className="grid grid-cols-[auto_1fr] gap-x-3">
         <Image
           className="rounded-full"
-          src={`/recommendations/${authorId}.jpeg`}
+          src={`/images/recommendations/${authorId}.jpeg`}
           width={64}
           height={64}
           alt={`Photo of the author (${authorName})`}
