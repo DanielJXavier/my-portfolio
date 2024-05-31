@@ -28,6 +28,7 @@ describe("ExperienceItem component", () => {
         description={experienceStrings.items[key].description}
         responsibilities={experienceStrings.items[key].responsibilities}
         biggestChallenge={experienceStrings.items[key].biggestChallenge}
+        imageAltText={experienceStrings.imageAltText}
         hasBlackLogo={hasBlackLogo}
       />
     );
@@ -59,6 +60,7 @@ describe("ExperienceItem component", () => {
         description={experienceStrings.items[key].description}
         responsibilities={experienceStrings.items[key].responsibilities}
         biggestChallenge={experienceStrings.items[key].biggestChallenge}
+        imageAltText={experienceStrings.imageAltText}
         hasBlackLogo={true}
       />
     );
@@ -83,6 +85,7 @@ describe("ExperienceItem component", () => {
           description={experienceStrings.items[key].description}
           responsibilities={experienceStrings.items[key].responsibilities}
           biggestChallenge={experienceStrings.items[key].biggestChallenge}
+          imageAltText={experienceStrings.imageAltText}
           hasBlackLogo={hasBlackLogo}
         />
       </ExperienceModeContext.Provider>

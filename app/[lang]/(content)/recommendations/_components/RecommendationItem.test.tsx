@@ -18,6 +18,7 @@ describe("RecommendationItem component", () => {
         role={recommendationsStrings.items[authorId].role}
         company={company}
         paragraphs={recommendationsStrings.items[authorId].paragraphs}
+        imageAltText={recommendationsStrings.imageAltText}
       />
     );
 

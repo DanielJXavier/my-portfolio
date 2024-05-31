@@ -20,7 +20,12 @@ export default function Experience() {
   const { lang } = useParams<{ lang: Lang }>();
 
   const {
-    experience: { title, menu: menuStrings, items: experienceStrings },
+    experience: {
+      title,
+      menu: menuStrings,
+      items: experienceStrings,
+      imageAltText,
+    },
   } = getDictionary(lang);
 
   const [experienceMode, setExperienceMode] = useState("simple");
@@ -49,6 +54,7 @@ export default function Experience() {
             description={experienceStrings[key].description}
             responsibilities={experienceStrings[key].responsibilities}
             biggestChallenge={experienceStrings[key].biggestChallenge}
+            imageAltText={imageAltText}
             hasBlackLogo={hasBlackLogo}
           />
         )

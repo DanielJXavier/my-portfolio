@@ -20,7 +20,8 @@
       "Minha liderança vai além das habilidades técnicas, pois mentoreei equipes em projetos complexos e aprimorei habilidades de gerenciamento como inteligência emocional e resolução de conflitos.",
       "Essa combinação de expertise técnica e liderança me transformou em um Líder Técnico focado em Front-End bem equilibrado.",
       "Além da tecnologia, gosto de fotografar paisagens, praticar esportes de aventura e visitar novos lugares sempre que possível. Estou sempre aberto a explorar novas oportunidades e fazer novas conexões. Vamos conversar!"
-    ]
+    ],
+    "imageAltText": "Foto do autor"
   },
   "experience": {
     "title": "Experiência",
@@ -181,6 +182,10 @@
         ],
         "biggestChallenge": "Aprender simultaneamente uma infinidade de novos conceitos e equilibrá-los com meus compromissos da faculdade."
       }
+    },
+    "imageAltText": {
+      "prefix": "Logo da empresa ",
+      "sufix": ""
     }
   },
   "education": {
@@ -247,6 +252,10 @@
           "Desenvolvimento de Sistemas Distribuídos"
         ]
       }
+    },
+    "imageAltText": {
+      "prefix": "Logo da instituição ",
+      "sufix": ""
     }
   },
   "skills": {
@@ -393,7 +402,8 @@
           "Daniel tem a habilidade de ver não apenas o micro, mas também o macro da situação, apoiando assim a equipe a alcançar seus objetivos da melhor maneira possível!"
         ]
       }
-    }
+    },
+    "imageAltText": "Foto do(a) autor(a)"
   },
   "resume": {
     "title": "Resume",
@@ -407,6 +417,10 @@
   },
   "not-found": {
     "text": "Nenhuma página aqui.",
-    "link": "Vamos para uma página!"
+    "link": "Vamos para uma página!",
+    "imageAltText": {
+      "prefix": "Foto do autor",
+      "sufix": "indicando um link com seu dedo"
+    }
   }
 }

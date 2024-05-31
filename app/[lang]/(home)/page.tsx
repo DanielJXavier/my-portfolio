@@ -17,7 +17,7 @@ import { links } from "./_config";
 export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
   const {
     global: { author },
-    home: { greeting, summary },
+    home: { greeting, summary, imageAltText },
   } = getDictionary(lang);
 
   return (
@@ -41,7 +41,7 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
               src="/images/profile.jpg"
               fill
               sizes="50vw, (min-width: 768px): 33vw, (min-width: 1024px): 30vw, (min-width: 1280px): 25vw, (min-width: 1536px): 20vw"
-              alt={`Photo of the author (${author.firstName} ${author.lastName})`}
+              alt={`${imageAltText} (${author.firstName} ${author.lastName})`}
             />
           </div>
         </div>

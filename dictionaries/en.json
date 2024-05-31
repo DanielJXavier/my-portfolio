@@ -20,7 +20,8 @@
       "My leadership extends beyond technical skills, as I've mentored teams on intricate projects and honed management skills like emotional intelligence and conflict resolution.",
       "This blend of technical expertise and leadership has shaped me into a well-rounded Front-End focused Technical Leader.",
       "In addition to technology, I like to photograph landscapes, practice adventure sports, and visit new places whenever possible. I'm always open to exploring new opportunities and making meaningful connections. Let's talk!"
-    ]
+    ],
+    "imageAltText": "Photo of the author"
   },
   "experience": {
     "title": "Experience",
@@ -181,6 +182,10 @@
         ],
         "biggestChallenge": "To simultaneously learn a multitude of new concepts and balance them with my university commitments."
       }
+    },
+    "imageAltText": {
+      "prefix": "Logo of ",
+      "sufix": " company"
     }
   },
   "education": {
@@ -247,6 +252,10 @@
           "Development of Distributed Systems"
         ]
       }
+    },
+    "imageAltText": {
+      "prefix": "Logo of ",
+      "sufix": " school"
     }
   },
   "skills": {
@@ -389,7 +398,8 @@
           "Daniel has the skill to see not only the micro but also the macro of the situation, so in this way supporting the team to achieve their goals in the best way possible!"
         ]
       }
-    }
+    },
+    "imageAltText": "Photo of the author"
   },
   "resume": {
     "title": "Resume",
@@ -398,6 +408,10 @@
   },
   "not-found": {
     "text": "There is no page here.",
-    "link": "Let's see a real page!"
+    "link": "Let's see a real page!",
+    "imageAltText": {
+      "prefix": "Photo of the author",
+      "sufix": "indicating a link with his finger"
+    }
   }
 }

@@ -26,7 +26,7 @@ export async function generateMetadata({
 
 export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
   const {
-    recommendations: { title, items: recommendationsStrings },
+    recommendations: { title, items: recommendationsStrings, imageAltText },
   } = getDictionary(lang);
 
   return (
@@ -40,6 +40,7 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
           role={recommendationsStrings[authorId].role}
           company={company}
           paragraphs={recommendationsStrings[authorId].paragraphs}
+          imageAltText={imageAltText}
         />
       ))}
     </>

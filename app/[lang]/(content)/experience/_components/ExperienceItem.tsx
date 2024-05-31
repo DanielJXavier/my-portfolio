@@ -17,8 +17,11 @@ type ExperienceItemPropsType = Readonly<{
   description: string;
   responsibilities: string[];
   biggestChallenge: string;
+  imageAltText: {
+    prefix: string;
+    sufix: string;
+  };
   hasBlackLogo?: boolean;
-  resume?: boolean;
 }>;
 
 type MapCompanyIdToColorType = {
@@ -41,6 +44,7 @@ export default function ExperienceItem({
   description,
   responsibilities,
   biggestChallenge,
+  imageAltText,
   hasBlackLogo,
 }: ExperienceItemPropsType) {
   const { lang } = useParams<{ lang: Lang }>();
@@ -64,7 +68,7 @@ export default function ExperienceItem({
           src={`/images/experience/${companyId}.jpg`}
           width={40}
           height={40}
-          alt={`Logo of ${companyName} company`}
+          alt={`${imageAltText.prefix}${companyName}${imageAltText.sufix}`}
         />
         <h2 className="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight">
           {role} @ {companyName}

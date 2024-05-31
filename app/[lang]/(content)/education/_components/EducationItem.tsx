@@ -7,6 +7,10 @@ type EducationItemPropsType = Readonly<{
   degree: string;
   years: string;
   subjects: string[];
+  imageAltText: {
+    prefix: string;
+    sufix: string;
+  };
 }>;
 
 type MapSchoolIdToColorType = {
@@ -25,6 +29,7 @@ export default function EducationItem({
   degree,
   years,
   subjects,
+  imageAltText,
 }: EducationItemPropsType) {
   return (
     <article
@@ -37,7 +42,7 @@ export default function EducationItem({
           src={`/images/education/${schoolId}.jpg`}
           width={40}
           height={40}
-          alt={`Logo of ${schoolName} school`}
+          alt={`${imageAltText.prefix}${schoolName}${imageAltText.sufix}`}
         />
         <h2 className="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight">
           {fieldOfStudy} @ {schoolName}

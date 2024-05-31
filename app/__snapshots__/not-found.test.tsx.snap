@@ -34,7 +34,7 @@ exports[`NotFound page renders the page 1`] = `
         class="absolute top-0 right-0 bottom-0 left-32 z-0"
       >
         <img
-          alt="Photo of the author (Daniel Xavier) indicating a 404 error with his finger"
+          alt="Photo of the author (Daniel Xavier) indicating a link with his finger"
           class="right-0 object-contain drop-shadow-shaped grayscale"
           data-nimg="fill"
           decoding="async"

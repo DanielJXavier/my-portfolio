@@ -25,6 +25,7 @@ describe("EducationItem component", () => {
         degree={educationStrings.items[schoolId].degree}
         years={years}
         subjects={educationStrings.items[schoolId].subjects}
+        imageAltText={educationStrings.imageAltText}
       />
     );
 

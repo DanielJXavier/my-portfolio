@@ -6,6 +6,7 @@ type RecommendationItemPropsType = Readonly<{
   role: string;
   company: string;
   paragraphs: string[];
+  imageAltText: string;
 }>;
 
 export default function RecommendationItem({
@@ -14,6 +15,7 @@ export default function RecommendationItem({
   role,
   company,
   paragraphs,
+  imageAltText,
 }: RecommendationItemPropsType) {
   return (
     <article className={`my-6 sm:my-10`} data-testid="recommendation-item">
@@ -23,7 +25,7 @@ export default function RecommendationItem({
           src={`/images/recommendations/${authorId}.jpeg`}
           width={64}
           height={64}
-          alt={`Photo of the author (${authorName})`}
+          alt={`${imageAltText} (${authorName})`}
         />
         <div>
           <h2 className="text-base sm:text-lg md:text-xl xl:text-2xl font-bold">

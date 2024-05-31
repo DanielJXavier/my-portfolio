@@ -25,7 +25,7 @@ export async function generateMetadata({
 
 export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
   const {
-    education: { title, items: educationStrings },
+    education: { title, items: educationStrings, imageAltText },
   } = getDictionary(lang);
 
   return (
@@ -40,6 +40,7 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
           degree={educationStrings[schoolId].degree}
           years={years}
           subjects={educationStrings[schoolId].subjects}
+          imageAltText={imageAltText}
         />
       ))}
     </>

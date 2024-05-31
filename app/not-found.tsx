@@ -17,7 +17,8 @@ export default function NotFound() {
   ) || i18n.defaultLang) as Lang;
 
   const {
-    "not-found": { text, link },
+    global: { author },
+    "not-found": { text, link, imageAltText },
   } = getDictionary(lang);
 
   useEffect(() => {
@@ -50,7 +51,7 @@ export default function NotFound() {
             src="/images/404.png"
             fill
             sizes="50vw, (min-width: 640px): 50vw, (min-width: 1024px): 33vw"
-            alt="Photo of the author (Daniel Xavier) indicating a 404 error with his finger"
+            alt={`${imageAltText.prefix} (${author.firstName} ${author.lastName}) ${imageAltText.sufix}`}
           />
         </div>
       </div>
