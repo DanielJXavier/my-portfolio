@@ -2,7 +2,9 @@ import "@testing-library/jest-dom";
 
 import { render } from "@testing-library/react";
 
-import Page from "./page";
+import Page, { generateMetadata } from "./page";
+
+import en from "dictionaries/en.json";
 
 describe("Recommendations page", () => {
   it("renders the page", () => {
@@ -15,5 +17,19 @@ describe("Recommendations page", () => {
     );
 
     expect(container).toMatchSnapshot();
+  });
+
+  it("generate the page metadata", async () => {
+    const metadata = await generateMetadata({
+      params: {
+        lang: "en",
+      },
+    });
+
+    const {
+      recommendations: { title },
+    } = en;
+
+    expect(metadata.title).toEqual(title);
   });
 });

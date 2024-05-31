@@ -2,9 +2,7 @@
 
 exports[`Root layout renders the layout 1`] = `
 <div>
-  <html
-    lang="en"
-  >
+  <html>
     <body
       class="className relative pb-24 md:pb-20 lg:pb-16 min-h-dvh"
     >
