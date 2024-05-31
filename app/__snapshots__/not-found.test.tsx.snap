@@ -3,7 +3,7 @@
 exports[`NotFound page renders the page 1`] = `
 <div>
   <main
-    class="main-container relative pt-32 flex justify-center"
+    class="main-container row-span-3 relative pt-32 flex justify-center"
   >
     <div
       class="absolute w-[320px] sm:w-[400px] lg:w-[450px] h-[265px] sm:h-[365px] lg:h-[432px]"

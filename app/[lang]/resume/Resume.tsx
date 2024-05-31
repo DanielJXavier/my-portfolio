@@ -73,7 +73,7 @@ export default function Resume() {
   const skills = useRef([...hardSkills.current, ...softSkills.current]);
 
   return (
-    <main className="max-w-[210mm] print:w-[210mm] flex flex-col gap-y-4 font-serif p-[0.5in]">
+    <main className="max-w-[210mm] print:w-[210mm] row-span-3 flex flex-col gap-y-4 font-serif p-[0.5in]">
       <section>
         <h1 className="text-[18pt] font-bold">
           {author.firstName} {author.lastName}

@@ -30,7 +30,7 @@ export default function NotFound() {
   }, []);
 
   return (
-    <main className="main-container relative pt-32 flex justify-center">
+    <main className="main-container row-span-3 relative pt-32 flex justify-center">
       <div className="absolute w-[320px] sm:w-[400px] lg:w-[450px] h-[265px] sm:h-[365px] lg:h-[432px]">
         <div className="absolute sm:top-8 lg:top-10 flex flex-col gap-y-7 lg:gap-y-10 z-10">
           <div>

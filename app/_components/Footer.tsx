@@ -17,7 +17,7 @@ export default function Footer() {
 
   return (
     <footer
-      className="absolute right-0 bottom-0 left-0 h-32 md:h-28 lg:h-24 grid gap-y-2 items-center justify-center content-center"
+      className="self-end pb-6 md:pb-8 xl:pb-12 grid gap-y-2 items-center justify-center content-center"
       data-testid="footer"
     >
       <menu className="flex gap-x-3 justify-center">

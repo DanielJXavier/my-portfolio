@@ -42,7 +42,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang={lang}>
       <body
-        className={`${font.className} relative pb-24 md:pb-20 lg:pb-16 min-h-dvh`}
+        className={`${font.className} grid min-h-dvh grid-rows-[repeat(2,_auto)_1fr] gap-y-6 md:gap-y-8 xl:gap-y-12`}
       >
         {children}
         <Analytics />
