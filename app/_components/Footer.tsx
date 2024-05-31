@@ -1,10 +1,10 @@
 "use client";
 
-import { useParams, usePathname } from "next/navigation";
-import Link from "next/link";
+import { useParams } from "next/navigation";
 
 import { getDictionary } from "get-dictionary";
-import { Locale } from "i18n-config";
+import { i18n, Locale } from "i18n-config";
+import LangSwitcher from "./LangSwitcher";
 
 const year = new Date().getFullYear();
 
@@ -22,12 +22,11 @@ export default function Footer() {
       data-testid="footer"
     >
       <menu className="flex gap-x-3 justify-center">
-        <li>
-          <Link href={pathname.replace(`/${lang}`, "/en")}>🇺🇸</Link>
-        </li>
-        <li>
-          <Link href={pathname.replace(`/${lang}`, "/pt")}>🇧🇷</Link>
-        </li>
+        {i18n.locales.map((locale, i) => (
+          <li key={i}>
+            <LangSwitcher targetLang={locale} />
+          </li>
+        ))}
       </menu>
       <p className="text-xs md:text-sm text-center">
         {author.firstName} {author.lastName} © {year}.{" "}
