@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useParams } from "next/navigation";
 
 import { getDictionary } from "get-dictionary";
-import { Locale } from "i18n-config";
+import { Lang } from "i18n-config";
 
 import { ExperienceModeContext } from "../Experience";
 
@@ -43,7 +43,7 @@ export default function ExperienceItem({
   biggestChallenge,
   hasBlackLogo,
 }: ExperienceItemPropsType) {
-  const { lang } = useParams<{ lang: Locale }>();
+  const { lang } = useParams<{ lang: Lang }>();
 
   const {
     experience: { responsibilitiesTitle, biggestChallengeTitle },

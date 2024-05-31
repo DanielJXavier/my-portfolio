@@ -5,7 +5,7 @@ import { createContext, useRef, useState } from "react";
 import { useParams } from "next/navigation";
 
 import { getDictionary } from "get-dictionary";
-import { Locale } from "i18n-config";
+import { Lang } from "i18n-config";
 
 import Title from "@/_components/Title";
 import Work from "@/_icons/Work";
@@ -17,7 +17,7 @@ import Menu from "../_components/Menu";
 export const ExperienceModeContext = createContext("");
 
 export default function Experience() {
-  const { lang } = useParams<{ lang: Locale }>();
+  const { lang } = useParams<{ lang: Lang }>();
 
   const {
     experience: { title, menu: menuStrings, items: experienceStrings },

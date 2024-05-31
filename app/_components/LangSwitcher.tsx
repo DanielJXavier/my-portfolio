@@ -3,19 +3,19 @@
 import { useParams, usePathname } from "next/navigation";
 import Link from "next/link";
 
-import { Locale } from "i18n-config";
+import { Lang } from "i18n-config";
 
 type LangSwitcherProps = Readonly<{
-  targetLang: Locale;
+  targetLang: Lang;
 }>;
 
-const mapLangToFlag: { [key: Locale]: string } = {
+const mapLangToFlag: { [key: Lang]: string } = {
   en: "🇺🇸",
   pt: "🇧🇷",
 };
 
 export default function LangSwitcher({ targetLang }: LangSwitcherProps) {
-  const { lang } = useParams<{ lang: Locale }>();
+  const { lang } = useParams<{ lang: Lang }>();
   const pathname = usePathname();
 
   return (

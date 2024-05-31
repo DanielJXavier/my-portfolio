@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { getDictionary } from "get-dictionary";
-import { Locale } from "i18n-config";
+import { Lang } from "i18n-config";
 
 import Title from "@/_components/Title";
 
@@ -14,11 +14,7 @@ import Instagram from "@/_icons/Instagram";
 
 import { links } from "./_config";
 
-export default function Page({
-  params: { lang },
-}: {
-  params: { lang: Locale };
-}) {
+export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
   const {
     global: { author },
     home: { greeting, summary },

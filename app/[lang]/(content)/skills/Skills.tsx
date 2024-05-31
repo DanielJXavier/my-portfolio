@@ -5,7 +5,7 @@ import { useRef, useState } from "react";
 import { useParams } from "next/navigation";
 
 import { getDictionary } from "get-dictionary";
-import { Locale } from "i18n-config";
+import { Lang } from "i18n-config";
 
 import Title from "@/_components/Title";
 import Psychology from "@/_icons/Psychology";
@@ -23,7 +23,7 @@ const mapSizeToFontSize = {
 };
 
 export default function Skills() {
-  const { lang } = useParams<{ lang: Locale }>();
+  const { lang } = useParams<{ lang: Lang }>();
 
   const {
     skills: { title, menu: menuStrings, items: skillsStrings, bottomText },

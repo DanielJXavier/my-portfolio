@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 import { getDictionary } from "get-dictionary";
-import { Locale } from "i18n-config";
+import { Lang } from "i18n-config";
 
 import Title from "@/_components/Title";
 import School from "@/_icons/School";
@@ -12,7 +12,7 @@ import EducationItem from "./_components/EducationItem";
 export async function generateMetadata({
   params: { lang },
 }: {
-  params: { lang: Locale };
+  params: { lang: Lang };
 }): Promise<Metadata> {
   const {
     education: { title },
@@ -23,11 +23,7 @@ export async function generateMetadata({
   };
 }
 
-export default function Page({
-  params: { lang },
-}: {
-  params: { lang: Locale };
-}) {
+export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
   const {
     education: { title, items: educationStrings },
   } = getDictionary(lang);

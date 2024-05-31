@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 import { getDictionary } from "get-dictionary";
-import { Locale } from "i18n-config";
+import { Lang } from "i18n-config";
 
 import Title from "@/_components/Title";
 import Reviews from "@/_icons/Reviews";
@@ -13,7 +13,7 @@ import { recommendations } from "./_config";
 export async function generateMetadata({
   params: { lang },
 }: {
-  params: { lang: Locale };
+  params: { lang: Lang };
 }): Promise<Metadata> {
   const {
     recommendations: { title },
@@ -24,11 +24,7 @@ export async function generateMetadata({
   };
 }
 
-export default function Page({
-  params: { lang },
-}: {
-  params: { lang: Locale };
-}) {
+export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
   const {
     recommendations: { title, items: recommendationsStrings },
   } = getDictionary(lang);

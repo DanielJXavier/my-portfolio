@@ -6,15 +6,15 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { getDictionary } from "get-dictionary";
-import { i18n, Locale } from "i18n-config";
+import { i18n, Lang } from "i18n-config";
 import { usePathname } from "next/navigation";
 
 export default function NotFound() {
   const pathname = usePathname();
 
-  const lang = i18n.locales.find(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
-  ) as Locale;
+  const lang = i18n.langs.find(
+    (lang) => pathname.startsWith(`/${lang}/`) || pathname === `/${lang}`
+  ) as Lang;
 
   const {
     "not-found": { text, link },

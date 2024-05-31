@@ -8,7 +8,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import { getDictionary } from "get-dictionary";
-import { Locale } from "i18n-config";
+import { Lang } from "i18n-config";
 
 import "@/globals.css";
 
@@ -18,11 +18,11 @@ type RootLayoutProps = Readonly<{
 
 export async function generateMetadata() {
   const headersList = headers();
-  const locale = headersList.get("x-locale") as Locale;
+  const lang = headersList.get("x-lang") as Lang;
 
   const {
     global: { author },
-  } = getDictionary(locale);
+  } = getDictionary(lang);
 
   return {
     title: {
@@ -37,10 +37,10 @@ const font = Source_Code_Pro({ subsets: ["latin"] });
 
 export default function RootLayout({ children }: RootLayoutProps) {
   const headersList = headers();
-  const locale = headersList.get("x-locale") as Locale;
+  const lang = headersList.get("x-lang") as Lang;
 
   return (
-    <html lang={locale}>
+    <html lang={lang}>
       <body
         className={`${font.className} relative pb-24 md:pb-20 lg:pb-16 min-h-dvh`}
       >

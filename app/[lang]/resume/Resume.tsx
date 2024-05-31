@@ -5,7 +5,7 @@ import { useEffect, useRef } from "react";
 import { useParams } from "next/navigation";
 
 import { getDictionary } from "get-dictionary";
-import { Locale } from "i18n-config";
+import { Lang } from "i18n-config";
 
 import { links } from "@/[lang]/(home)/_config";
 import { experience } from "@/[lang]/(content)/experience/_config";
@@ -23,7 +23,7 @@ import {
 } from "./_config";
 
 export default function Resume() {
-  const { lang } = useParams<{ lang: Locale }>();
+  const { lang } = useParams<{ lang: Lang }>();
 
   const {
     global: { author },

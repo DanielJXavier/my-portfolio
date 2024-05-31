@@ -3,14 +3,14 @@
 import { useParams, usePathname } from "next/navigation";
 import Link from "next/link";
 
-import { Locale } from "i18n-config";
+import { Lang } from "i18n-config";
 
 import Menu from "./Menu";
 import ThemeSwitcher from "./ThemeSwitcher";
 
 export default function Header() {
   const pathname = usePathname();
-  const { lang } = useParams<{ lang: Locale }>();
+  const { lang } = useParams<{ lang: Lang }>();
 
   return (
     <header

@@ -3,14 +3,13 @@
 import { useParams } from "next/navigation";
 
 import { getDictionary } from "get-dictionary";
-import { i18n, Locale } from "i18n-config";
+import { i18n, Lang } from "i18n-config";
 import LangSwitcher from "./LangSwitcher";
 
 const year = new Date().getFullYear();
 
 export default function Footer() {
-  const { lang } = useParams<{ lang: Locale }>();
-  const pathname = usePathname();
+  const { lang } = useParams<{ lang: Lang }>();
 
   const {
     global: { author, copyright },
@@ -22,9 +21,9 @@ export default function Footer() {
       data-testid="footer"
     >
       <menu className="flex gap-x-3 justify-center">
-        {i18n.locales.map((locale, i) => (
+        {i18n.langs.map((lang, i) => (
           <li key={i}>
-            <LangSwitcher targetLang={locale} />
+            <LangSwitcher targetLang={lang} />
           </li>
         ))}
       </menu>

@@ -4,12 +4,12 @@ import { usePathname, useParams } from "next/navigation";
 import Link from "next/link";
 
 import { getDictionary } from "get-dictionary";
-import { Locale } from "i18n-config";
+import { Lang } from "i18n-config";
 
 import { menu } from "@/_config";
 
 export default function Menu() {
-  const { lang } = useParams<{ lang: Locale }>();
+  const { lang } = useParams<{ lang: Lang }>();
 
   const {
     global: { menu: menuStrings },
