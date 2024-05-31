@@ -4,9 +4,9 @@ import type { NextRequest } from "next/server";
 import { match as matchLocale } from "@formatjs/intl-localematcher";
 import Negotiator from "negotiator";
 
-import { i18n } from "./i18n-config";
+import { i18n, Locale } from "./i18n-config";
 
-const getLocale = (request: NextRequest): string | undefined => {
+const getPreferedLocale = (request: NextRequest): string | undefined => {
   const negotiatorHeaders: Record<string, string> = {};
 
   request.headers.forEach((value, key) => (negotiatorHeaders[key] = value));
@@ -15,25 +15,38 @@ const getLocale = (request: NextRequest): string | undefined => {
     i18n.locales
   );
 
-  const locale = matchLocale(languages, i18n.locales, i18n.defaultLocale);
+  const preferedLocale = matchLocale(
+    languages,
+    i18n.locales,
+    i18n.defaultLocale
+  );
 
-  return locale;
+  return preferedLocale;
 };
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  const pathnameHasLocale = i18n.locales.some(
+  const currentLocale = i18n.locales.find(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
-  );
+  ) as Locale;
 
-  if (pathnameHasLocale) return;
+  const requestHeaders = new Headers(request.headers);
 
-  const locale = getLocale(request);
+  requestHeaders.set("x-locale", currentLocale);
+
+  if (currentLocale)
+    return NextResponse.next({
+      request: {
+        headers: requestHeaders,
+      },
+    });
+
+  const preferedLocale = getPreferedLocale(request);
 
   return NextResponse.redirect(
     new URL(
-      `/${locale}${pathname.startsWith("/") ? "" : "/"}${pathname}`,
+      `/${preferedLocale}${pathname.startsWith("/") ? "" : "/"}${pathname}`,
       request.url
     )
   );
