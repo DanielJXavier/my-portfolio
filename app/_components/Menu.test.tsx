@@ -46,7 +46,7 @@ describe("Menu component", () => {
     const menuList = screen.getByTestId("menu-list");
 
     expect(menuList.querySelector("a")?.className).toContain(
-      "text-secondary cursor-default underline"
+      "text-secondary pointer-events-none cursor-default underline"
     );
   });
 

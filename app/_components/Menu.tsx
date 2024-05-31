@@ -68,7 +68,7 @@ export default function Menu() {
             <Link
               className={`${
                 pathname === `/${lang}${href}`
-                  ? "text-secondary cursor-default underline"
+                  ? "text-secondary pointer-events-none cursor-default underline"
                   : ""
               } decoration-0 underline-offset-2 tracking-tighter [word-spacing:-0.25em] hover:text-secondary hover:underline`}
               href={`/${lang}${href}`}

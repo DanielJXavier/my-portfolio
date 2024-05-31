@@ -20,6 +20,9 @@ export default function LangSwitcher({ targetLang }: LangSwitcherProps) {
 
   return (
     <Link
+      className={
+        targetLang === lang ? "pointer-events-none cursor-default" : ""
+      }
       href={pathname.replace(`/${lang}`, `/${targetLang}`)}
       onClick={() => {
         document.documentElement.lang = targetLang;

@@ -100,6 +100,7 @@ exports[`Home layout renders the layout 1`] = `
     >
       <li>
         <a
+          class="pointer-events-none cursor-default"
           href="/en"
         >
           🇺🇸
@@ -107,6 +108,7 @@ exports[`Home layout renders the layout 1`] = `
       </li>
       <li>
         <a
+          class=""
           href="/pt"
         >
           🇧🇷
