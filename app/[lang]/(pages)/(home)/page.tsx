@@ -22,7 +22,7 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
 
   return (
     <>
-      <main className="container mx-auto px-4 md:px-5 xl:px-6 pt-6 md:pt-8 xl:pt-12 grid grid-cols-1 lg:grid-cols-3 md:gap-x-12">
+      <section className="grid grid-cols-1 lg:grid-cols-3 md:gap-x-12">
         <div className="lg:col-span-2">
           <Title
             icon={<KeepPublic />}
@@ -45,8 +45,8 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
             />
           </div>
         </div>
-      </main>
-      <section className="container mx-auto mt-4 px-4 md:px-5 xl:px-6 py-4 md:py-8 flex flex-col lg:flex-row gap-y-3 md:gap-y-4 lg:gap-x-2 xl:gap-x-12 items-center">
+      </section>
+      <section className="mt-4 py-4 md:py-8 flex flex-col lg:flex-row gap-y-3 md:gap-y-4 lg:gap-x-2 xl:gap-x-12 items-center">
         {links.email && (
           <a
             className="flex gap-x-1.5 xl:gap-x-2 hover:text-secondary [&_svg]:hover:fill-secondary text-sm md:text-base"

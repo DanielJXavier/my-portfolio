@@ -7,14 +7,14 @@ import { useParams } from "next/navigation";
 import { getDictionary } from "get-dictionary";
 import { Lang } from "i18n-config";
 
-import { links } from "@/[lang]/(home)/_config";
-import { experience } from "@/[lang]/(content)/experience/_config";
-import { education } from "@/[lang]/(content)/education/_config";
+import { links } from "@/[lang]/(pages)/(home)/_config";
+import { experience } from "@/[lang]/(pages)/experience/_config";
+import { education } from "@/[lang]/(pages)/education/_config";
 
 import {
   hardSkills as allHardSkills,
   softSkills as softSkillsKeys,
-} from "@/[lang]/(content)/skills/_config";
+} from "@/[lang]/(pages)/skills/_config";
 
 import {
   maxSummaryParagraphs,
