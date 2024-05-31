@@ -37,7 +37,7 @@ export async function generateMetadata({
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en">
+    <html>
       <body
         className={`${font.className} relative pb-24 md:pb-20 lg:pb-16 min-h-dvh`}
       >
