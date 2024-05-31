@@ -9,11 +9,11 @@ import { ExperienceModeContext } from "../Experience";
 import { experience } from "../_config";
 import { experience as experienceStrings } from "dictionaries/en.json";
 
-const { useParams } = require("next/navigation");
+import { useParams } from "next/navigation";
 
 jest.mock("next/navigation");
 
-useParams.mockImplementation(() => ({ lang: "en" }));
+(useParams as jest.Mock).mockImplementation(() => ({ lang: "en" }));
 
 describe("ExperienceItem component", () => {
   it("renders the component", () => {

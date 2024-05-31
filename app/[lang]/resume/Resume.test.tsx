@@ -4,11 +4,11 @@ import { render } from "@testing-library/react";
 
 import Page from "./page";
 
-const { useParams } = require("next/navigation");
+import { useParams } from "next/navigation";
 
 jest.mock("next/navigation");
 
-useParams.mockImplementation(() => ({ lang: "en" }));
+(useParams as jest.Mock).mockImplementation(() => ({ lang: "en" }));
 
 describe("Resume page (Client-side)", () => {
   it("renders the page", () => {

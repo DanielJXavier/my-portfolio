@@ -6,11 +6,11 @@ import { render, screen } from "@testing-library/react";
 
 import Header from "./Header";
 
-const { usePathname, useParams } = require("next/navigation");
+import { usePathname, useParams } from "next/navigation";
 
 jest.mock("next/navigation");
 
-useParams.mockImplementation(() => ({ lang: "en" }));
+(useParams as jest.Mock).mockImplementation(() => ({ lang: "en" }));
 
 describe("Header component", () => {
   it("renders the component", () => {
@@ -22,7 +22,7 @@ describe("Header component", () => {
   });
 
   it("renders the component for home with the correct classes", () => {
-    usePathname.mockImplementationOnce(() => "/en");
+    (usePathname as jest.Mock).mockImplementationOnce(() => "/en");
 
     render(<Header />);
 

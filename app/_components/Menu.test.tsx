@@ -6,11 +6,11 @@ import Menu from "./Menu";
 
 import { menu } from "@/_config";
 
-const { usePathname, useParams } = require("next/navigation");
+import { usePathname, useParams } from "next/navigation";
 
 jest.mock("next/navigation");
 
-useParams.mockImplementation(() => ({ lang: "en" }));
+(useParams as jest.Mock).mockImplementation(() => ({ lang: "en" }));
 
 describe("Menu component", () => {
   it("renders the component", () => {
@@ -37,7 +37,9 @@ describe("Menu component", () => {
   });
 
   it("renders the component with the first link highlighted", () => {
-    usePathname.mockImplementationOnce(() => `/en${menu[0].href}`);
+    (usePathname as jest.Mock).mockImplementationOnce(
+      () => `/en${menu[0].href}`
+    );
 
     render(<Menu />);
 
@@ -49,7 +51,7 @@ describe("Menu component", () => {
   });
 
   it("closes the menu when pathname changes", () => {
-    usePathname.mockImplementationOnce(() => menu[0].href);
+    (usePathname as jest.Mock).mockImplementationOnce(() => menu[0].href);
 
     render(<Menu />);
 

@@ -4,12 +4,12 @@ import { render, screen } from "@testing-library/react";
 
 import Footer from "./Footer";
 
-const { useParams, usePathname } = require("next/navigation");
+import { useParams, usePathname } from "next/navigation";
 
 jest.mock("next/navigation");
 
-useParams.mockImplementation(() => ({ lang: "en" }));
-usePathname.mockImplementation(() => "/en");
+(useParams as jest.Mock).mockImplementation(() => ({ lang: "en" }));
+(usePathname as jest.Mock).mockImplementation(() => "/en");
 
 describe("Footer component", () => {
   it("renders the component", () => {

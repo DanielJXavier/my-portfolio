@@ -6,11 +6,11 @@ import Page, { generateMetadata } from "./page";
 
 import en from "dictionaries/en.json";
 
-const { useParams } = require("next/navigation");
+import { useParams } from "next/navigation";
 
 jest.mock("next/navigation");
 
-useParams.mockImplementation(() => ({ lang: "en" }));
+(useParams as jest.Mock).mockImplementation(() => ({ lang: "en" }));
 
 describe("Experience page (Server-side)", () => {
   it("renders the page", () => {

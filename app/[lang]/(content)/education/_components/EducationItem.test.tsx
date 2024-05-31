@@ -7,11 +7,11 @@ import EducationItem from "./EducationItem";
 import { education } from "../_config";
 import { education as educationStrings } from "dictionaries/en.json";
 
-const { useParams } = require("next/navigation");
+import { useParams } from "next/navigation";
 
 jest.mock("next/navigation");
 
-useParams.mockImplementation(() => ({ lang: "en" }));
+(useParams as jest.Mock).mockImplementation(() => ({ lang: "en" }));
 
 describe("EducationItem component", () => {
   it("renders the component", () => {
