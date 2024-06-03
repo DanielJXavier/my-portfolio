@@ -12,9 +12,9 @@ import { usePathname } from "next/navigation";
 export default function NotFound() {
   const pathname = usePathname();
 
-  const lang = (i18n.langs.find(
+  const lang = i18n.langs.find(
     (lang) => pathname.startsWith(`/${lang}/`) || pathname === `/${lang}`
-  ) || i18n.defaultLang) as Lang;
+  ) as Lang;
 
   const {
     global: { author },
