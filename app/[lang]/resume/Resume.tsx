@@ -35,7 +35,7 @@ export default function Resume() {
   } = getDictionary(lang);
 
   useEffect(() => {
-    if (typeof window !== undefined) {
+    if (typeof window !== "undefined") {
       const title = document.title;
 
       window.addEventListener("beforeprint", () => {

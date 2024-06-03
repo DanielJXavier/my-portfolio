@@ -25,5 +25,6 @@ describe("ThemeSwitcher component", () => {
     fireEvent.click(themeSwitcher);
 
     expect(document.documentElement.className).toContain("dark");
+    expect(window.localStorage.theme).toEqual("dark");
   });
 });
