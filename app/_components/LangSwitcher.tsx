@@ -3,32 +3,34 @@
 import { useParams, usePathname } from "next/navigation";
 import Link from "next/link";
 
-import { Lang } from "i18n-config";
-
-type LangSwitcherProps = Readonly<{
-  targetLang: Lang;
-}>;
+import { i18n, Lang } from "i18n-config";
 
 const mapLangToFlag: { [key: Lang]: string } = {
   en: "🇺🇸",
   pt: "🇧🇷",
 };
 
-export default function LangSwitcher({ targetLang }: LangSwitcherProps) {
+export default function LangSwitcher() {
   const { lang } = useParams<{ lang: Lang }>();
   const pathname = usePathname();
 
   return (
-    <Link
-      className={
-        targetLang === lang ? "pointer-events-none cursor-default" : ""
-      }
-      href={pathname.replace(`/${lang}`, `/${targetLang}`)}
-      onClick={() => {
-        document.documentElement.lang = targetLang;
-      }}
-    >
-      {mapLangToFlag[targetLang]}
-    </Link>
+    <menu className="flex gap-x-3 justify-center" data-testid="lang-switcher">
+      {i18n.langs.map((targetLang, i) => (
+        <li key={i}>
+          <Link
+            className={
+              targetLang === lang ? "pointer-events-none cursor-default" : ""
+            }
+            href={pathname.replace(`/${lang}`, `/${targetLang}`)}
+            onClick={() => {
+              document.documentElement.lang = targetLang;
+            }}
+          >
+            {mapLangToFlag[targetLang]}
+          </Link>
+        </li>
+      ))}
+    </menu>
   );
 }

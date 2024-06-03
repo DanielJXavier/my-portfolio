@@ -101,6 +101,7 @@ exports[`Pages layout renders the layout 1`] = `
   >
     <menu
       class="flex gap-x-3 justify-center"
+      data-testid="lang-switcher"
     >
       <li>
         <a
