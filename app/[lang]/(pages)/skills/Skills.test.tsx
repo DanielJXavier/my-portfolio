@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom";
 
-import { render } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 
 import Skills from "./Skills";
 
@@ -14,6 +14,24 @@ describe("Skills page (Client-side)", () => {
   it("renders the page", () => {
     const { container } = render(<Skills />);
 
+    expect(container).toMatchSnapshot();
+  });
+
+  it("calls the handleClick function", () => {
+    const { container } = render(<Skills />);
+
+    const menu = screen.getByTestId("menu");
+
+    // Hard skills
+    fireEvent.click(menu.childNodes[2].childNodes[0]);
+    expect(container).toMatchSnapshot();
+
+    // Soft skills
+    fireEvent.click(menu.childNodes[4].childNodes[0]);
+    expect(container).toMatchSnapshot();
+
+    // All skills
+    fireEvent.click(menu.childNodes[0].childNodes[0]);
     expect(container).toMatchSnapshot();
   });
 });
