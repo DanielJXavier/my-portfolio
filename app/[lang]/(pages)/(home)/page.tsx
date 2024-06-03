@@ -46,7 +46,7 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
           </div>
         </div>
       </section>
-      <section className="mt-4 py-4 md:py-8 flex flex-col lg:flex-row gap-y-3 md:gap-y-4 lg:gap-x-2 xl:gap-x-12 items-center">
+      <section className="mt-4 py-4 md:py-8 flex flex-col lg:flex-row gap-y-3 md:gap-y-4 lg:gap-x-2 xl:gap-x-12 items-center [&_svg]:md:w-6 [&_svg]:md:h-6">
         {links.email && (
           <a
             className="flex gap-x-1.5 xl:gap-x-2 hover:text-secondary [&_svg]:hover:fill-secondary text-sm md:text-base"
