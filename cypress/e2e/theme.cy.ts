@@ -1,6 +1,6 @@
 describe("Theme", () => {
   it("should open the page with dark theme", () => {
-    cy.visitDarkTheme("/");
+    cy.visitDarkTheme("/en");
 
     cy.get("*").should("have.css", "color", "rgb(187, 187, 187)");
 
@@ -14,7 +14,7 @@ describe("Theme", () => {
   });
 
   it("should open the page with light theme", () => {
-    cy.visitDarkTheme("/", false);
+    cy.visitDarkTheme("/en", false);
 
     cy.get("*").should("have.css", "color", "rgb(68, 68, 68)");
 

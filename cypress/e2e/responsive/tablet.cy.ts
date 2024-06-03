@@ -7,7 +7,7 @@ describe("Tablet", () => {
         it(`${name} page`, () => {
           cy.viewport(resolution[0], resolution[1]);
 
-          cy.visitDarkTheme(`/${path}`, false);
+          cy.visitDarkTheme(path, false);
 
           cy.matchImageSnapshot(`tablet-${i + 1}-${name.toLowerCase()}-page`);
         });

@@ -25,22 +25,22 @@ export const resolutions = {
 export const pages = [
   {
     name: "Home",
-    path: "",
+    path: "/en",
   },
   {
     name: "Experience",
-    path: "experience",
+    path: "/en/experience",
   },
   {
     name: "Education",
-    path: "education",
+    path: "/en/education",
   },
   {
     name: "Skills",
-    path: "skills",
+    path: "/en/skills",
   },
   {
     name: "Recommendations",
-    path: "recommendations",
+    path: "/en/recommendations",
   },
 ];
