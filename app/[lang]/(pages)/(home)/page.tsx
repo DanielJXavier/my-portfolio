@@ -15,7 +15,6 @@ import GitHub from "@/_icons/GitHub";
 import Instagram from "@/_icons/Instagram";
 
 import { links } from "./_config";
-import Head from "next/head";
 
 export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
   const {
@@ -24,13 +23,6 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
 
   return (
     <>
-      <Head>
-        <link
-          rel="canonical"
-          href="https://example.com/blog/original-post"
-          key="canonical"
-        />
-      </Head>
       <section className="grid grid-cols-1 lg:grid-cols-3 md:gap-x-12">
         <div className="lg:col-span-2">
           <Title
