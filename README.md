@@ -5,7 +5,6 @@
 ![](https://shields.io/badge/jest-black?logo=jest&style=for-the-badge)
 ![](https://shields.io/badge/testinglibrary-black?logo=testinglibrary&style=for-the-badge)
 ![](https://shields.io/badge/cypress-black?logo=cypress&style=for-the-badge)
-![](https://shields.io/badge/vercel-black?logo=vercel&style=for-the-badge)
 
 # my-portfolio
 
