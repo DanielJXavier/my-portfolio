@@ -4,19 +4,17 @@ import { useEffect } from "react";
 
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 import { getDictionary } from "get-dictionary";
-import { i18n, Lang } from "i18n-config";
-import { usePathname } from "next/navigation";
+import { getCurrentLang } from "i18n-config";
 
 import { author } from "@/_config";
 
 export default function NotFound() {
   const pathname = usePathname();
 
-  const lang = i18n.langs.find(
-    (lang) => pathname.startsWith(`/${lang}/`) || pathname === `/${lang}`
-  ) as Lang;
+  const lang = getCurrentLang(pathname);
 
   const {
     "not-found": { text, link, imageAltText },

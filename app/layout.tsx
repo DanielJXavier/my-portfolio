@@ -8,7 +8,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import { getDictionary } from "get-dictionary";
-import { i18n, Lang } from "i18n-config";
+import { getAlternateLanguages, langStaticParams, Lang } from "i18n-config";
 
 import { author } from "@/_config";
 
@@ -19,7 +19,7 @@ type RootLayoutProps = Readonly<{
 }>;
 
 export async function generateStaticParams() {
-  return i18n.langs.map((lang) => ({ lang }));
+  return langStaticParams;
 }
 
 export async function generateMetadata() {
@@ -41,13 +41,7 @@ export async function generateMetadata() {
     },
     description: headline,
     alternates: {
-      languages: i18n.langs.reduce(
-        (languages, language) => ({
-          ...languages,
-          [language]: href.replace(lang, language),
-        }),
-        {}
-      ),
+      languages: getAlternateLanguages(href, lang),
     },
   };
 }
