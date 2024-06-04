@@ -21,7 +21,7 @@ const getPreferedLang = (request: NextRequest): string | undefined => {
 };
 
 export function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl;
+  const { href, pathname } = request.nextUrl;
 
   const currentLang = i18n.langs.find(
     (lang) => pathname.startsWith(`/${lang}/`) || pathname === `/${lang}`
@@ -30,6 +30,7 @@ export function middleware(request: NextRequest) {
   const requestHeaders = new Headers(request.headers);
 
   requestHeaders.set("x-lang", currentLang);
+  requestHeaders.set("x-href", href);
 
   if (currentLang)
     return NextResponse.next({
@@ -49,5 +50,7 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!_next|images|apple-icon.png|favicon.ico).*)"],
+  matcher: [
+    "/((?!_next|images|apple-icon.png|favicon.ico|robots.txt|sitemap.xml).*)",
+  ],
 };

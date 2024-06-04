@@ -8,11 +8,20 @@ import en from "dictionaries/en.json";
 
 import { author } from "@/_config";
 
-import RootLayout, { generateMetadata } from "./layout";
+import RootLayout, { generateMetadata, generateStaticParams } from "./layout";
 
 jest.mock("next/headers", () => ({
   headers: jest.fn().mockImplementation(() => ({
-    get: jest.fn(),
+    get: jest.fn().mockImplementation((header) => {
+      switch (header) {
+        case "x-lang":
+          return "en";
+        case "x-href":
+          return "http://localhost:3000/en";
+        default:
+          return null;
+      }
+    }),
   })),
 }));
 
@@ -29,6 +38,12 @@ describe("Root layout", () => {
     const { container } = render(<RootLayout>children</RootLayout>);
 
     expect(container).toMatchSnapshot();
+  });
+
+  it("generate the static params", async () => {
+    const staticParams = await generateStaticParams();
+
+    expect(staticParams).toEqual([{ lang: "en" }, { lang: "pt" }]);
   });
 
   it("generate the page metadata", async () => {

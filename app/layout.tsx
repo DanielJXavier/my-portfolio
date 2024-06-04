@@ -8,7 +8,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import { getDictionary } from "get-dictionary";
-import { Lang } from "i18n-config";
+import { i18n, Lang } from "i18n-config";
 
 import { author } from "@/_config";
 
@@ -18,9 +18,15 @@ type RootLayoutProps = Readonly<{
   children: ReactNode;
 }>;
 
+export async function generateStaticParams() {
+  return i18n.langs.map((lang) => ({ lang }));
+}
+
 export async function generateMetadata() {
   const headersList = headers();
+
   const lang = headersList.get("x-lang") as Lang;
+  const href = headersList.get("x-href") as string;
 
   const {
     global: {
@@ -34,6 +40,15 @@ export async function generateMetadata() {
       default: `<${author.firstName}${author.lastName} />`,
     },
     description: headline,
+    alternates: {
+      languages: i18n.langs.reduce(
+        (languages, language) => ({
+          ...languages,
+          [language]: href.replace(lang, language),
+        }),
+        {}
+      ),
+    },
   };
 }
 
