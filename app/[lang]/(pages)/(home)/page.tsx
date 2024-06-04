@@ -5,6 +5,8 @@ import { Lang } from "i18n-config";
 
 import Title from "@/_components/Title";
 
+import { author } from "@/_config";
+
 import KeepPublic from "@/_icons/KeepPublic";
 import Email from "@/_icons/Email";
 import WhatsApp from "@/_icons/WhatsApp";
@@ -16,7 +18,6 @@ import { links } from "./_config";
 
 export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
   const {
-    global: { author },
     home: { greeting, summary, imageAltText },
   } = getDictionary(lang);
 

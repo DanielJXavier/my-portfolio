@@ -4,9 +4,11 @@ import "@testing-library/jest-dom";
 
 import { render } from "@testing-library/react";
 
-import RootLayout, { generateMetadata } from "./layout";
-
 import en from "dictionaries/en.json";
+
+import { author } from "@/_config";
+
+import RootLayout, { generateMetadata } from "./layout";
 
 jest.mock("next/headers", () => ({
   headers: jest.fn().mockImplementation(() => ({
@@ -33,7 +35,9 @@ describe("Root layout", () => {
     const metadata = await generateMetadata();
 
     const {
-      global: { author },
+      global: {
+        author: { headline },
+      },
     } = en;
 
     expect(metadata.title.template).toEqual(
@@ -44,6 +48,6 @@ describe("Root layout", () => {
       `<${author.firstName}${author.lastName} />`
     );
 
-    expect(metadata.description).toEqual(author.headline);
+    expect(metadata.description).toEqual(headline);
   });
 });

@@ -10,6 +10,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { getDictionary } from "get-dictionary";
 import { Lang } from "i18n-config";
 
+import { author } from "@/_config";
+
 import "@/globals.css";
 
 type RootLayoutProps = Readonly<{
@@ -21,7 +23,9 @@ export async function generateMetadata() {
   const lang = headersList.get("x-lang") as Lang;
 
   const {
-    global: { author },
+    global: {
+      author: { headline },
+    },
   } = getDictionary(lang);
 
   return {
@@ -29,7 +33,7 @@ export async function generateMetadata() {
       template: `%s | ${author.firstName} ${author.lastName}`,
       default: `<${author.firstName}${author.lastName} />`,
     },
-    description: author.headline,
+    description: headline,
   };
 }
 

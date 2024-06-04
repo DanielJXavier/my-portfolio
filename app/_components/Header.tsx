@@ -6,6 +6,8 @@ import Link from "next/link";
 
 import { Lang } from "i18n-config";
 
+import { author } from "@/_config";
+
 import Menu from "./Menu";
 
 const ThemeSwitcher = dynamic(() => import("./ThemeSwitcher"), { ssr: false });
@@ -27,7 +29,7 @@ export default function Header() {
           href={`/${lang}`}
           data-testid="header-link"
         >
-          {"<DanielXavier />"}
+          {`<${author.firstName}${author.lastName} />`}
         </Link>
         <Menu />
         <div className="w-7 lg:w-8 h-7 lg:h-8">

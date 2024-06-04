@@ -9,6 +9,8 @@ import { getDictionary } from "get-dictionary";
 import { i18n, Lang } from "i18n-config";
 import { usePathname } from "next/navigation";
 
+import { author } from "@/_config";
+
 export default function NotFound() {
   const pathname = usePathname();
 
@@ -17,7 +19,6 @@ export default function NotFound() {
   ) as Lang;
 
   const {
-    global: { author },
     "not-found": { text, link, imageAltText },
   } = getDictionary(lang);
 

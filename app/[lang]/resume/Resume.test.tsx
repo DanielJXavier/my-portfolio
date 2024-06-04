@@ -4,7 +4,7 @@ import { render } from "@testing-library/react";
 
 import Page from "./page";
 
-import en from "dictionaries/en.json";
+import { author } from "@/_config";
 
 import { useParams } from "next/navigation";
 
@@ -20,10 +20,6 @@ describe("Resume page (Client-side)", () => {
   });
 
   it("changes the page title when prints the page", () => {
-    const {
-      global: { author },
-    } = en;
-
     const today = new Date();
     const year = today.getFullYear();
     const month = String(today.getMonth() + 1).padStart(2, "0");

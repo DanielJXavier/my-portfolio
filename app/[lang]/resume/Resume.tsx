@@ -7,6 +7,8 @@ import { useParams } from "next/navigation";
 import { getDictionary } from "get-dictionary";
 import { Lang } from "i18n-config";
 
+import { author } from "@/_config";
+
 import { links } from "@/[lang]/(pages)/(home)/_config";
 import { experience } from "@/[lang]/(pages)/experience/_config";
 import { education } from "@/[lang]/(pages)/education/_config";
@@ -26,7 +28,6 @@ export default function Resume() {
   const { lang } = useParams<{ lang: Lang }>();
 
   const {
-    global: { author },
     home: { summary },
     experience: { items: experienceStrings },
     education: { items: educationStrings },
