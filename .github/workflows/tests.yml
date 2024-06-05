@@ -21,7 +21,7 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: yarn
+        run: yarn install --frozen-lockfile
 
       - name: Unit Tests
         run: yarn test
@@ -44,7 +44,7 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: yarn
+        run: yarn install --frozen-lockfile
 
       - name: Build
         env:
