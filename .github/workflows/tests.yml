@@ -8,6 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Enable corepack
+        run: corepack enable
+
       - name: Check out Git repository
         uses: actions/checkout@v4
 
@@ -28,6 +31,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Enable corepack
+        run: corepack enable
+
       - name: Check out Git repository
         uses: actions/checkout@v4
 
