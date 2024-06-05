@@ -16,8 +16,8 @@ export default function LangSwitcher() {
 
   return (
     <menu className="flex gap-x-3 justify-center" data-testid="lang-switcher">
-      {i18n.langs.map((targetLang, i) => (
-        <li key={i}>
+      {i18n.langs.map((targetLang) => (
+        <li key={targetLang}>
           <Link
             className={
               targetLang === lang ? "pointer-events-none cursor-default" : ""

@@ -40,7 +40,7 @@ export default function RecommendationItem({
         {paragraphs.map((paragraph, i) => (
           <blockquote
             className="mb-4 text-sm xl:text-base text-justify"
-            key={i}
+            key={`paragraph-${i}`}
           >
             {paragraph}
           </blockquote>

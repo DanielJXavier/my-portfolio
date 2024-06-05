@@ -30,8 +30,8 @@ export default function Skills() {
   } = getDictionary(lang);
 
   const softSkills = useRef(
-    softSkillsKeys.map(({ key, size }) => ({
-      name: skillsStrings[key],
+    softSkillsKeys.map((skill) => ({
+      ...skill,
       name: softSkillsStrings[skill.key],
     }))
   );
@@ -68,10 +68,10 @@ export default function Skills() {
         handleClick={handleClick}
       />
       <article className="my-6 md:my-8 lg:my-10 flex gap-x-3 md:gap-x-5 lg:gap-x-8 gap-y-2 md:gap-y-3 lg:gap-y-4 flex-wrap items-center justify-center lg:justify-between">
-        {shuffle(skills).map(({ name, size }, i) => (
+        {shuffle(skills).map(({ key, name, size }) => (
           <span
             className={`${mapSizeToFontSize[size]} font-light tracking-tighter [word-spacing:-0.35em]`}
-            key={i}
+            key={key}
             suppressHydrationWarning
           >
             {name}
