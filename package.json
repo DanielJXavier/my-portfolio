@@ -74,5 +74,6 @@
     "node": ">=18.17",
     "yarn": "^4.2.2"
   },
-  "private": true
+  "private": true,
+  "packageManager": "yarn@4.2.2"
 }
