@@ -263,7 +263,7 @@
       "hard": "técnicas",
       "soft": "comportamentais"
     },
-    "items": {
+    "soft": {
       "communication": "Comunicação",
       "leadership": "Liderança",
       "problem-solving": "Resolução de Problemas",

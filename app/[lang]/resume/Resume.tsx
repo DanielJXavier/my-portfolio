@@ -31,7 +31,7 @@ export default function Resume() {
     home: { summary },
     experience: { items: experienceStrings },
     education: { items: educationStrings },
-    skills: { items: softSkillsStrings },
+    skills: { soft: softSkillsStrings },
     resume: { sectionTitles, biggestChallengeTitle },
   } = getDictionary(lang);
 

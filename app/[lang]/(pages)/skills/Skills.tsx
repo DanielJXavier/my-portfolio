@@ -26,13 +26,13 @@ export default function Skills() {
   const { lang } = useParams<{ lang: Lang }>();
 
   const {
-    skills: { title, menu: menuStrings, items: skillsStrings, bottomText },
+    skills: { title, menu: menuStrings, soft: softSkillsStrings, bottomText },
   } = getDictionary(lang);
 
   const softSkills = useRef(
     softSkillsKeys.map(({ key, size }) => ({
       name: skillsStrings[key],
-      size,
+      name: softSkillsStrings[skill.key],
     }))
   );
 

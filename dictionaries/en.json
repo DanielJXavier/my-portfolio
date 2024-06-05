@@ -263,7 +263,7 @@
       "hard": "hard",
       "soft": "soft"
     },
-    "items": {
+    "soft": {
       "communication": "Communication",
       "leadership": "Leadership",
       "problem-solving": "Problem Solving",
