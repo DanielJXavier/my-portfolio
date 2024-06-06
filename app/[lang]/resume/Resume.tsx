@@ -31,7 +31,7 @@ export default function Resume() {
     home: { summary },
     experience: { items: experienceStrings },
     education: { items: educationStrings },
-    skills: { items: softSkillsStrings },
+    skills: { soft: softSkillsStrings },
     resume: { sectionTitles, biggestChallengeTitle },
   } = getDictionary(lang);
 
@@ -65,9 +65,9 @@ export default function Resume() {
       .filter(({ key }) =>
         chosenSoftSkills.some((softSkill) => key === softSkill)
       )
-      .map(({ key, size }) => ({
-        name: softSkillsStrings[key],
-        size,
+      .map((skill) => ({
+        ...skill,
+        name: softSkillsStrings[skill.key],
       }))
   );
 
@@ -105,7 +105,7 @@ export default function Resume() {
         {summary
           .filter((_, i) => i < maxSummaryParagraphs)
           .map((paragraph, i) => (
-            <p key={i} className="text-[12pt] text-justify">
+            <p key={`paragraph-${i}`} className="text-[12pt] text-justify">
               {paragraph}
             </p>
           ))}
@@ -113,9 +113,9 @@ export default function Resume() {
       <section>
         <h2 className="text-[16pt] font-bold">{sectionTitles[1]}</h2>
         <ul className="flex gap-x-3.5 flex-wrap">
-          {skills.current.map(({ name }, i) => (
+          {skills.current.map(({ key, name }) => (
             <li
-              key={i}
+              key={key}
               className="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
             >
               {name}
@@ -128,8 +128,8 @@ export default function Resume() {
         <div className="flex flex-col gap-y-3">
           {experience
             .filter(({ resume }) => resume)
-            .map(({ key, companyName, year, resumeResponsibilities }, i) => (
-              <div key={i}>
+            .map(({ key, companyName, year, resumeResponsibilities }) => (
+              <div key={key}>
                 <p className="text-[12pt] font-bold">
                   {experienceStrings[key].role} @ {companyName}
                 </p>
@@ -142,7 +142,7 @@ export default function Resume() {
                       )
                     )
                     .map((responsibility, i) => (
-                      <li key={i}>{responsibility}</li>
+                      <li key={`responsibility-${i}`}>{responsibility}</li>
                     ))}
                   <li>
                     {biggestChallengeTitle}:{" "}
@@ -157,7 +157,7 @@ export default function Resume() {
         <h2 className="text-[16pt] font-bold">{sectionTitles[3]}</h2>
         <div className="flex flex-col gap-y-3">
           {education.map(({ schoolId, schoolName }, i) => (
-            <div key={i}>
+            <div key={`education-item-${i}`}>
               <p className="text-[12pt] font-bold">
                 {educationStrings[schoolId].degree},{" "}
                 {educationStrings[schoolId].fieldOfStudy}

@@ -29,7 +29,10 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
             icon={<KeepPublic />}
           >{`${greeting} ${author.firstName}!`}</Title>
           {summary.map((paragraph, i) => (
-            <p key={i} className="mt-4 text-sm md:text-base text-justify">
+            <p
+              key={`paragraph-${i}`}
+              className="mt-4 text-sm md:text-base text-justify"
+            >
               {paragraph}
             </p>
           ))}

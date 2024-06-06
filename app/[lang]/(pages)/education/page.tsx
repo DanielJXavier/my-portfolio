@@ -33,7 +33,7 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
       <Title icon={<School />}>{title}</Title>
       {education.map(({ schoolId, schoolName, years }, i) => (
         <EducationItem
-          key={i}
+          key={`education-item-${i}`}
           schoolId={schoolId}
           schoolName={schoolName}
           fieldOfStudy={educationStrings[schoolId].fieldOfStudy}

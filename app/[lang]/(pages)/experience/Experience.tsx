@@ -43,22 +43,20 @@ export default function Experience() {
         activeItem={experienceMode}
         handleClick={setExperienceMode}
       />
-      {experience.map(
-        ({ key, companyId, companyName, year, hasBlackLogo }, i) => (
-          <ExperienceItem
-            key={i}
-            role={experienceStrings[key].role}
-            companyId={companyId}
-            companyName={companyName}
-            year={year}
-            description={experienceStrings[key].description}
-            responsibilities={experienceStrings[key].responsibilities}
-            biggestChallenge={experienceStrings[key].biggestChallenge}
-            imageAltText={imageAltText}
-            hasBlackLogo={hasBlackLogo}
-          />
-        )
-      )}
+      {experience.map(({ key, companyId, companyName, year, hasBlackLogo }) => (
+        <ExperienceItem
+          key={key}
+          role={experienceStrings[key].role}
+          companyId={companyId}
+          companyName={companyName}
+          year={year}
+          description={experienceStrings[key].description}
+          responsibilities={experienceStrings[key].responsibilities}
+          biggestChallenge={experienceStrings[key].biggestChallenge}
+          imageAltText={imageAltText}
+          hasBlackLogo={hasBlackLogo}
+        />
+      ))}
     </ExperienceModeContext.Provider>
   );
 }

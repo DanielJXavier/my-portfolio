@@ -1,7 +1,31 @@
 {
+  "description": "A fully responsive SPA built with React, Next.js, TypeScript and Tailwind CSS following the best practices of code, performance and acessibility.",
   "name": "my-portfolio",
   "version": "1.0.0",
-  "private": true,
+  "keywords": [
+    "react",
+    "next.js",
+    "typescript",
+    "tailwind",
+    "jest",
+    "react-testing-library",
+    "cypress",
+    "vercel"
+  ],
+  "homepage": "https://github.com/DanielJXavier/my-portfolio#readme",
+  "bugs": {
+    "url": "https://github.com/DanielJXavier/my-portfolio/issues"
+  },
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Daniel Xavier",
+    "email": "dxdanielxavier@gmail.com",
+    "url": "https://www.danielxavier.dev/en"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielJXavier/my-portfolio.git"
+  },
   "scripts": {
     "dev": "next dev",
     "lint": "next lint",
@@ -31,10 +55,10 @@
     "@testing-library/react": "^16.0.0",
     "@types/jest": "^29.5.12",
     "@types/negotiator": "^0.6.3",
-    "@types/node": "^20.14.1",
+    "@types/node": "^20.14.2",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "cypress": "^13.10.0",
+    "cypress": "^13.11.0",
     "eslint": "^8.57.0",
     "eslint-config-next": "^14.2.3",
     "eslint-config-prettier": "^9.1.0",
@@ -45,5 +69,11 @@
     "tailwindcss": "^3.4.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
-  }
+  },
+  "engines": {
+    "node": ">=18.17",
+    "yarn": "^1.22.22"
+  },
+  "private": true,
+  "packageManager": "yarn@1.22.22"
 }

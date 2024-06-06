@@ -63,8 +63,8 @@ export default function Menu() {
         } flex flex-col md:flex-row gap-y-2 md:gap-x-3`}
         data-testid="menu-list"
       >
-        {menu.map(({ href, key }, i) => (
-          <li key={i}>
+        {menu.map(({ href, key }) => (
+          <li key={key}>
             <Link
               className={`${
                 pathname === `/${lang}${href}`

@@ -32,9 +32,9 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
   return (
     <>
       <Title icon={<Reviews />}>{title}</Title>
-      {recommendations.map(({ authorId, authorName, company }, i) => (
+      {recommendations.map(({ authorId, authorName, company }) => (
         <RecommendationItem
-          key={i}
+          key={authorId}
           authorId={authorId}
           authorName={authorName}
           role={recommendationsStrings[authorId].role}

@@ -86,7 +86,7 @@ export default function ExperienceItem({
             </h3>
             <ul className="pl-7 list-disc text-sm xl:text-base">
               {responsibilities.map((responsibility, i) => (
-                <li key={i}>{responsibility}</li>
+                <li key={`responsibility-${i}`}>{responsibility}</li>
               ))}
             </ul>
           </section>

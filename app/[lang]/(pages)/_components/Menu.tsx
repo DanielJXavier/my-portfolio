@@ -16,7 +16,7 @@ export default function Menu({ items, activeItem, handleClick }: MenuProps) {
       data-testid="menu"
     >
       {items.map(({ text, value }, i) => (
-        <Fragment key={i}>
+        <Fragment key={value}>
           <li>
             <button
               className={`${
