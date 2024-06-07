@@ -8,7 +8,7 @@
 
 # my-portfolio
 
-This is a project created to practice some development skills and also used as my professional portfolio.
+This project was created to practice some development skills and also used as my professional portfolio.
 
 ## About the project
 
@@ -16,7 +16,7 @@ This is a project created to practice some development skills and also used as m
 
 All the pages were created following the LinkedIn profile structure to keep it simple to understand and easy to change when it is needed:
 
-- [Home](https://www.danielxavier.dev/en)
+- [Homepage](https://www.danielxavier.dev/en)
   - This page has some introduction info:
     - Summary;
     - Some contact links;
@@ -24,33 +24,36 @@ All the pages were created following the LinkedIn profile structure to keep it s
 - [Experience](https://www.danielxavier.dev/en/experience)
   - This page has a timeline of all my professional positions;
   - The items are listed by default as a simple list only showing:
+    - Company logo;
     - Role name;
     - Company name;
     - Start and end years;
-    - A short description about the role;
-  - It's possible to see a detailed version incluind:
+    - A short description of the role;
+  - It's possible to see a detailed version including:
     - A list of the main responsibilities;
     - The biggest challenge faced;
 - [Education](https://www.danielxavier.dev/en/education)
-  - This page has a timeline of all my school and education hsitory;
+  - This page has a timeline of all my school and education history;
   - The items are listed as a list including:
+    - School logo;
     - Field of study;
     - School name;
     - Start and end years;
     - Degree;
     - Subjects;
 - [Skills](https://www.danielxavier.dev/en/skills)
-  - This page has a list my most relevant skills;
+  - This page has a list of my most relevant skills;
   - The items are listed by default as a random sorted Word Cloud including:
     - Hard skills;
     - Soft skills;
   - The words have a size between 1 and 5 where:
     - 5 -> My major skills and my current focus;
     - ...
-    - 1 -> The skills that I've learned but I don't using or it's not so relevant for now;
+    - 1 -> The skills I learned but am not using or are not so relevant at the moment;
 - [Recommendations](https://www.danielxavier.dev/en/recommendations)
   - This page has a list of the latest professional recommendations received from workmates;
   - The items are listed as quotes including:
+    - Author's photo
     - Author's name;
     - Author's role;
     - Author's company;
