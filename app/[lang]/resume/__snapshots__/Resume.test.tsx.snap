@@ -128,10 +128,10 @@ exports[`Resume page (Client-side) renders the page 1`] = `
       >
         Experience
       </h2>
-      <div
+      <ul
         class="flex flex-col gap-y-3"
       >
-        <div>
+        <li>
           <p
             class="text-[12pt] font-bold"
           >
@@ -163,8 +163,8 @@ exports[`Resume page (Client-side) renders the page 1`] = `
               To deal with pressure from leadership to do major deliveries in the short term.
             </li>
           </ul>
-        </div>
-        <div>
+        </li>
+        <li>
           <p
             class="text-[12pt] font-bold"
           >
@@ -196,8 +196,8 @@ exports[`Resume page (Client-side) renders the page 1`] = `
               To balance the substantial responsibilities of both the team¹ and the chapter² simultaneously.
             </li>
           </ul>
-        </div>
-        <div>
+        </li>
+        <li>
           <p
             class="text-[12pt] font-bold"
           >
@@ -229,8 +229,8 @@ exports[`Resume page (Client-side) renders the page 1`] = `
               To assume multiple roles simultaneously, including Engineering Manager, Product Manager, Data Analyst, among others.
             </li>
           </ul>
-        </div>
-        <div>
+        </li>
+        <li>
           <p
             class="text-[12pt] font-bold"
           >
@@ -262,8 +262,8 @@ exports[`Resume page (Client-side) renders the page 1`] = `
               To manage high expectations related to Advertising revenue results.
             </li>
           </ul>
-        </div>
-        <div>
+        </li>
+        <li>
           <p
             class="text-[12pt] font-bold"
           >
@@ -295,8 +295,8 @@ exports[`Resume page (Client-side) renders the page 1`] = `
               To convert a highly "human-centric" project, rooted in personal consultancy, into a systematic approach.
             </li>
           </ul>
-        </div>
-        <div>
+        </li>
+        <li>
           <p
             class="text-[12pt] font-bold"
           >
@@ -328,8 +328,8 @@ exports[`Resume page (Client-side) renders the page 1`] = `
               To manage a large team (28 professionals) and oversee critical deliveries.
             </li>
           </ul>
-        </div>
-        <div>
+        </li>
+        <li>
           <p
             class="text-[12pt] font-bold"
           >
@@ -361,8 +361,8 @@ exports[`Resume page (Client-side) renders the page 1`] = `
               To acquire leadership skills and master people management.
             </li>
           </ul>
-        </div>
-        <div>
+        </li>
+        <li>
           <p
             class="text-[12pt] font-bold"
           >
@@ -391,8 +391,15 @@ exports[`Resume page (Client-side) renders the page 1`] = `
               To manage all the deliveries of the project as the sole Front-End developer.
             </li>
           </ul>
-        </div>
-      </div>
+        </li>
+        <li>
+          ... and
+           
+          5
+           
+          other previous roles
+        </li>
+      </ul>
     </section>
     <section>
       <h2

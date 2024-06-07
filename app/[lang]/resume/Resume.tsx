@@ -29,7 +29,7 @@ export default function Resume() {
 
   const {
     home: { summary },
-    experience: { items: experienceStrings },
+    experience: { items: experienceStrings, previousItemsText },
     education: { items: educationStrings },
     skills: { soft: softSkillsStrings },
     resume: { sectionTitles, biggestChallengeTitle },
@@ -72,6 +72,8 @@ export default function Resume() {
   );
 
   const skills = useRef([...hardSkills.current, ...softSkills.current]);
+
+  const resumeExperience = useRef(experience.filter(({ resume }) => resume));
 
   return (
     <main className="max-w-[210mm] print:w-[210mm] row-span-3 flex flex-col gap-y-4 font-serif p-[0.5in]">
@@ -125,11 +127,10 @@ export default function Resume() {
       </section>
       <section>
         <h2 className="text-[16pt] font-bold">{sectionTitles[2]}</h2>
-        <div className="flex flex-col gap-y-3">
-          {experience
-            .filter(({ resume }) => resume)
-            .map(({ key, companyName, year, resumeResponsibilities }) => (
-              <div key={key}>
+        <ul className="flex flex-col gap-y-3">
+          {resumeExperience.current.map(
+            ({ key, companyName, year, resumeResponsibilities }) => (
+              <li key={key}>
                 <p className="text-[12pt] font-bold">
                   {experienceStrings[key].role} @ {companyName}
                 </p>
@@ -149,9 +150,17 @@ export default function Resume() {
                     {experienceStrings[key].biggestChallenge}
                   </li>
                 </ul>
-              </div>
-            ))}
-        </div>
+              </li>
+            )
+          )}
+          {experience.length > resumeExperience.current.length && (
+            <li>
+              {previousItemsText.prefix}{" "}
+              {experience.length - resumeExperience.current.length}{" "}
+              {previousItemsText.sufix}
+            </li>
+          )}
+        </ul>
       </section>
       <section>
         <h2 className="text-[16pt] font-bold">{sectionTitles[3]}</h2>

@@ -181,6 +181,10 @@
         "biggestChallenge": "To simultaneously learn a multitude of new concepts and balance them with my university commitments."
       }
     },
+    "previousItemsText": {
+      "prefix": "... and",
+      "sufix": "other previous roles"
+    },
     "imageAltText": {
       "prefix": "Logo of ",
       "sufix": " company"

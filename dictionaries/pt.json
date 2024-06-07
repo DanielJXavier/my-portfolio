@@ -181,6 +181,10 @@
         "biggestChallenge": "Aprender simultaneamente uma infinidade de novos conceitos e equilibrá-los com meus compromissos da faculdade."
       }
     },
+    "previousItemsText": {
+      "prefix": "... e outras",
+      "sufix": "funções anteriores"
+    },
     "imageAltText": {
       "prefix": "Logo da empresa ",
       "sufix": ""
