@@ -41,6 +41,7 @@ export async function generateMetadata() {
     },
     description: headline,
     alternates: {
+      canonical: href.replace(`/${lang}`, ""),
       languages: getAlternateLanguages(href, lang),
     },
   };
