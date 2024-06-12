@@ -10,31 +10,83 @@ exports[`ContactInfo component renders the component 1`] = `
        
       Xavier
     </h1>
-    <p>
-      dxdanielxavier@gmail.com
-    </p>
-    <p>
-      +55 31 99732-5804
-    </p>
-    <p>
-      <a
-        class="underline"
-        href="https://www.linkedin.com/in/danieljxavier/"
-        target="_blank"
+    <div
+      class="flex gap-x-1.5"
+      data-testid="visibility-control"
+    >
+      <input
+        checked=""
+        class="print:hidden"
+        type="checkbox"
+      />
+      <div
+        class=""
       >
-        linkedin.com/in/
-        danieljxavier
-      </a>
-    </p>
-    <p>
-      <a
-        class="underline"
-        href="https://www.danielxavier.dev/"
-        target="_blank"
+        <p>
+          dxdanielxavier@gmail.com
+        </p>
+      </div>
+    </div>
+    <div
+      class="flex gap-x-1.5"
+      data-testid="visibility-control"
+    >
+      <input
+        checked=""
+        class="print:hidden"
+        type="checkbox"
+      />
+      <div
+        class=""
       >
-        danielxavier.dev
-      </a>
-    </p>
+        <p>
+          +55 31 99732-5804
+        </p>
+      </div>
+    </div>
+    <div
+      class="flex gap-x-1.5"
+      data-testid="visibility-control"
+    >
+      <input
+        checked=""
+        class="print:hidden"
+        type="checkbox"
+      />
+      <div
+        class=""
+      >
+        <a
+          class="underline"
+          href="https://www.linkedin.com/in/danieljxavier/"
+          target="_blank"
+        >
+          linkedin.com/in/
+          danieljxavier
+        </a>
+      </div>
+    </div>
+    <div
+      class="flex gap-x-1.5"
+      data-testid="visibility-control"
+    >
+      <input
+        checked=""
+        class="print:hidden"
+        type="checkbox"
+      />
+      <div
+        class=""
+      >
+        <a
+          class="underline"
+          href="https://www.danielxavier.dev/"
+          target="_blank"
+        >
+          danielxavier.dev
+        </a>
+      </div>
+    </div>
   </section>
 </div>
 `;

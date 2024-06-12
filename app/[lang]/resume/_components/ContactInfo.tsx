@@ -2,15 +2,21 @@ import { author } from "@/_config";
 
 import { links } from "@/[lang]/(pages)/(home)/_config";
 
+import VisibilityControl from "./VisibiltyControl";
+
 export default function ContactInfo() {
   return (
     <section>
       <h1 className="text-[18pt] font-bold">
         {author.firstName} {author.lastName}
       </h1>
-      <p>{links.email}</p>
-      <p>{links.whatsApp}</p>
-      <p>
+      <VisibilityControl>
+        <p>{links.email}</p>
+      </VisibilityControl>
+      <VisibilityControl>
+        <p>{links.whatsApp}</p>
+      </VisibilityControl>
+      <VisibilityControl>
         <a
           className="underline"
           href={`https://www.linkedin.com/in/${links.linkedIn}/`}
@@ -18,8 +24,8 @@ export default function ContactInfo() {
         >
           linkedin.com/in/{links.linkedIn}
         </a>
-      </p>
-      <p>
+      </VisibilityControl>
+      <VisibilityControl>
         <a
           className="underline"
           href={`https://www.${links.site}/`}
@@ -27,7 +33,7 @@ export default function ContactInfo() {
         >
           {links.site}
         </a>
-      </p>
+      </VisibilityControl>
     </section>
   );
 }
