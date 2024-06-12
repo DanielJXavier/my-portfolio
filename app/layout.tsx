@@ -1,11 +1,19 @@
 import { ReactNode } from "react";
 
+import dynamic from "next/dynamic";
 import { headers } from "next/headers";
 
 import { Source_Code_Pro } from "next/font/google";
 
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+const Analytics = dynamic(() =>
+  import("@vercel/analytics/react").then(({ Analytics }) => Analytics)
+);
+
+const SpeedInsights = dynamic(() =>
+  import("@vercel/speed-insights/next").then(
+    ({ SpeedInsights }) => SpeedInsights
+  )
+);
 
 import { getDictionary } from "get-dictionary";
 import { getAlternateLanguages, langStaticParams, Lang } from "i18n-config";
