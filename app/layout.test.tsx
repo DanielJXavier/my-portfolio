@@ -17,7 +17,7 @@ jest.mock("next/headers", () => ({
         case "x-lang":
           return "en";
         case "x-href":
-          return "http://localhost:3000/en";
+          return "http://localhost:3000/en/experience";
         default:
           return null;
       }
