@@ -97,21 +97,14 @@ exports[`Resume page (Server-side) renders the page 1`] = `
       >
         Summary
       </h2>
-      <p
-        class="text-[12pt] text-justify"
+      <textarea
+        class="w-full text-[12pt] text-justify align-top border border-primary print:border-none print:resize-none"
+        rows="6"
       >
         With a decade of web development experience and mastery in JavaScript, React.js, and Node.js, I've excelled as a Technical Leader, creating elegant solutions for complex problems.
-      </p>
-      <p
-        class="text-[12pt] text-justify"
-      >
-        My leadership extends beyond technical skills, as I've mentored teams on intricate projects and honed management skills like emotional intelligence and conflict resolution.
-      </p>
-      <p
-        class="text-[12pt] text-justify"
-      >
-        This blend of technical expertise and leadership has shaped me into a well-rounded Front-End focused Technical Leader.
-      </p>
+My leadership extends beyond technical skills, as I've mentored teams on intricate projects and honed management skills like emotional intelligence and conflict resolution.
+This blend of technical expertise and leadership has shaped me into a well-rounded Front-End focused Technical Leader.
+      </textarea>
     </section>
     <section>
       <h2
