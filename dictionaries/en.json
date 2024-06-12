@@ -405,7 +405,12 @@
   },
   "resume": {
     "title": "Resume",
-    "sectionTitles": ["Summary", "Skills", "Experience", "Education"],
+    "sectionTitles": {
+      "summary": "Summary",
+      "skills": "Skills",
+      "experience": "Experience",
+      "education": "Education"
+    },
     "biggestChallengeTitle": "Biggest challenge"
   },
   "not-found": {

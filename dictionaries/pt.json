@@ -409,12 +409,12 @@
   },
   "resume": {
     "title": "Resume",
-    "sectionTitles": [
-      "Resumo",
-      "Competências",
-      "Experiência",
-      "Formação acadêmica"
-    ],
+    "sectionTitles": {
+      "summary": "Resumo",
+      "skills": "Competências",
+      "experience": "Experiência",
+      "education": "Formação acadêmica"
+    },
     "biggestChallengeTitle": "Maior desafio"
   },
   "not-found": {

@@ -103,7 +103,7 @@ export default function Resume() {
         </p>
       </section>
       <section>
-        <h2 className="text-[16pt] font-bold">{sectionTitles[0]}</h2>
+        <h2 className="text-[16pt] font-bold">{sectionTitles.summary}</h2>
         {summary
           .filter((_, i) => i < maxSummaryParagraphs)
           .map((paragraph, i) => (
@@ -113,7 +113,7 @@ export default function Resume() {
           ))}
       </section>
       <section>
-        <h2 className="text-[16pt] font-bold">{sectionTitles[1]}</h2>
+        <h2 className="text-[16pt] font-bold">{sectionTitles.skills}</h2>
         <ul className="flex gap-x-3.5 flex-wrap">
           {skills.current.map(({ key, name }) => (
             <li
@@ -126,7 +126,7 @@ export default function Resume() {
         </ul>
       </section>
       <section>
-        <h2 className="text-[16pt] font-bold">{sectionTitles[2]}</h2>
+        <h2 className="text-[16pt] font-bold">{sectionTitles.experience}</h2>
         <ul className="flex flex-col gap-y-3">
           {resumeExperience.current.map(
             ({ key, companyName, year, resumeResponsibilities }) => (
@@ -163,7 +163,7 @@ export default function Resume() {
         </ul>
       </section>
       <section>
-        <h2 className="text-[16pt] font-bold">{sectionTitles[3]}</h2>
+        <h2 className="text-[16pt] font-bold">{sectionTitles.education}</h2>
         <div className="flex flex-col gap-y-3">
           {education.map(({ schoolId, schoolName }, i) => (
             <div key={`education-item-${i}`}>
