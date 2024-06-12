@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactInfo component renders the component 1`] = `
+<div>
+  <section>
+    <h1
+      class="text-[18pt] font-bold"
+    >
+      Daniel
+       
+      Xavier
+    </h1>
+    <p>
+      dxdanielxavier@gmail.com
+    </p>
+    <p>
+      +55 31 99732-5804
+    </p>
+    <p>
+      <a
+        class="underline"
+        href="https://www.linkedin.com/in/danieljxavier/"
+        target="_blank"
+      >
+        linkedin.com/in/
+        danieljxavier
+      </a>
+    </p>
+    <p>
+      <a
+        class="underline"
+        href="https://www.danielxavier.dev/"
+        target="_blank"
+      >
+        danielxavier.dev
+      </a>
+    </p>
+  </section>
+</div>
+`;

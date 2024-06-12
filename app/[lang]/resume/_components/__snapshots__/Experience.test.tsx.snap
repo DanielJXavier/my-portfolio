@@ -1,0 +1,285 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Experience component renders the component 1`] = `
+<div>
+  <section>
+    <h2
+      class="text-[16pt] font-bold"
+    >
+      Experience
+    </h2>
+    <ul
+      class="flex flex-col gap-y-3"
+    >
+      <li>
+        <p
+          class="text-[12pt] font-bold"
+        >
+          Software Engineering Manager
+           @ 
+          OLX
+        </p>
+        <p
+          class="text-[12pt]"
+        >
+          2024
+        </p>
+        <ul
+          class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+        >
+          <li>
+            Led a team of 9 developers, serving as a mentor and guiding light;
+          </li>
+          <li>
+            Delivered the successful execution of the platform's registration and ad management system roadmap including the new Ad Insertion in steps journey;
+          </li>
+          <li>
+            Adopted agile methodologies and led team ceremonies to ensure a streamlined workflow balancing product and technical tasks;
+          </li>
+          <li>
+            Biggest challenge
+            :
+             
+            To deal with pressure from leadership to do major deliveries in the short term.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p
+          class="text-[12pt] font-bold"
+        >
+          Software Engineering Manager
+           @ 
+          OLX
+        </p>
+        <p
+          class="text-[12pt]"
+        >
+          2023
+        </p>
+        <ul
+          class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+        >
+          <li>
+            Led a team of 8 developers, serving as a mentor and guiding light;¹
+          </li>
+          <li>
+            Delivered the successful execution of the search and recommendation systems roadmap including the new LTR rank algorithm;¹
+          </li>
+          <li>
+            Structured the team and proposed a new approach to support the strategic plan for the upcoming year;¹
+          </li>
+          <li>
+            Biggest challenge
+            :
+             
+            To balance the substantial responsibilities of both the team¹ and the chapter² simultaneously.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p
+          class="text-[12pt] font-bold"
+        >
+          Software Engineering Manager
+           @ 
+          OLX
+        </p>
+        <p
+          class="text-[12pt]"
+        >
+          2022 ~ 2023
+        </p>
+        <ul
+          class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+        >
+          <li>
+            Led a team of 9 developers, serving as a point of reference;
+          </li>
+          <li>
+            Partnered with the Design Manager to make optimal product decisions and establish a roadmap;
+          </li>
+          <li>
+            Delivered the Design System roadmap including an entirely new platform homepage created in less than 48 hours;
+          </li>
+          <li>
+            Biggest challenge
+            :
+             
+            To assume multiple roles simultaneously, including Engineering Manager, Product Manager, Data Analyst, among others.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p
+          class="text-[12pt] font-bold"
+        >
+          Software Engineering Manager
+           @ 
+          OLX
+        </p>
+        <p
+          class="text-[12pt]"
+        >
+          2021 ~ 2022
+        </p>
+        <ul
+          class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+        >
+          <li>
+            Led a team of 7 developers, serving as a key reference;
+          </li>
+          <li>
+            Delivered both direct and indirect Advertising roadmaps for the platform that brought R$80 million in revenue;
+          </li>
+          <li>
+            Recruited new professionals to increase productive capacity in 300%;
+          </li>
+          <li>
+            Biggest challenge
+            :
+             
+            To manage high expectations related to Advertising revenue results.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p
+          class="text-[12pt] font-bold"
+        >
+          CTO & Partner
+           @ 
+          Meaning
+        </p>
+        <p
+          class="text-[12pt]"
+        >
+          2023
+        </p>
+        <ul
+          class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+        >
+          <li>
+            Crafted the startup's technical vision and product strategy;
+          </li>
+          <li>
+            Architected the solution from the ground up;
+          </li>
+          <li>
+            Refined the product's technical specifications;
+          </li>
+          <li>
+            Biggest challenge
+            :
+             
+            To convert a highly "human-centric" project, rooted in personal consultancy, into a systematic approach.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p
+          class="text-[12pt] font-bold"
+        >
+          Development Coordinator
+           @ 
+          Softplan
+        </p>
+        <p
+          class="text-[12pt]"
+        >
+          2020 ~ 2021
+        </p>
+        <ul
+          class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+        >
+          <li>
+            Led directly a multidisciplinary software development team, inclusive of Software Architects, Developers, Quality Assurance Analysts, Product Owners, Business Analysts, and Agile Masters;
+          </li>
+          <li>
+            Planned and executed deliveries for the most 2 critical modules of the "SAJ" system;
+          </li>
+          <li>
+            Structured and continuously enhanced the team's workflow using agile software development methodologies;
+          </li>
+          <li>
+            Biggest challenge
+            :
+             
+            To manage a large team (28 professionals) and oversee critical deliveries.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p
+          class="text-[12pt] font-bold"
+        >
+          Tech Lead
+           @ 
+          Softplan
+        </p>
+        <p
+          class="text-[12pt]"
+        >
+          2019 ~ 2020
+        </p>
+        <ul
+          class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+        >
+          <li>
+            Developed the new "SAJ" system, constructed using React JS, .Net, and GraphQL;
+          </li>
+          <li>
+            Oversaw the deliveries and deployment of 17 modules of the system;
+          </li>
+          <li>
+            Led a team of 10 Front-End React developers;
+          </li>
+          <li>
+            Biggest challenge
+            :
+             
+            To acquire leadership skills and master people management.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p
+          class="text-[12pt] font-bold"
+        >
+          Senior Front-End Developer
+           @ 
+          Softplan
+        </p>
+        <p
+          class="text-[12pt]"
+        >
+          2018 ~ 2019
+        </p>
+        <ul
+          class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+        >
+          <li>
+            Developed new features for the "e-SAJ" portal utilizing React JS and GraphQL;
+          </li>
+          <li>
+            Created new features for the "SAJ Tribunais" system using React JS and GraphQL;
+          </li>
+          <li>
+            Biggest challenge
+            :
+             
+            To manage all the deliveries of the project as the sole Front-End developer.
+          </li>
+        </ul>
+      </li>
+      <li>
+        ... and
+         
+        5
+         
+        other previous roles
+      </li>
+    </ul>
+  </section>
+</div>
+`;

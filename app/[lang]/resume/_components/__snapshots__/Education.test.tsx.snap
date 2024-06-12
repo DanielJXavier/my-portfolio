@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Education component renders the component 1`] = `
+<div>
+  <section>
+    <h2
+      class="text-[16pt] font-bold"
+    >
+      Education
+    </h2>
+    <div
+      class="flex flex-col gap-y-3"
+    >
+      <div>
+        <p
+          class="text-[12pt] font-bold"
+        >
+          Master of Business Administration - MBA
+          ,
+           
+          Strategic People Management
+        </p>
+        <p
+          class="text-[12pt]"
+        >
+          Estácio
+        </p>
+      </div>
+      <div>
+        <p
+          class="text-[12pt] font-bold"
+        >
+          Bachelor
+          ,
+           
+          Computer Science
+        </p>
+        <p
+          class="text-[12pt]"
+        >
+          Universidade FUMEC
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+`;

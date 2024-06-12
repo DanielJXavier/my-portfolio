@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skills component renders the component 1`] = `
+<div>
+  <section>
+    <h2
+      class="text-[16pt] font-bold"
+    >
+      Skills
+    </h2>
+    <ul
+      class="flex gap-x-3.5 flex-wrap"
+    >
+      <li
+        class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+      >
+        HTML5
+      </li>
+      <li
+        class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+      >
+        CSS3
+      </li>
+      <li
+        class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+      >
+        JavaScript
+      </li>
+      <li
+        class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+      >
+        React
+      </li>
+      <li
+        class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+      >
+        Node.js
+      </li>
+      <li
+        class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+      >
+        Leadership
+      </li>
+      <li
+        class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+      >
+        Problem Solving
+      </li>
+      <li
+        class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+      >
+        Decision Making
+      </li>
+      <li
+        class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+      >
+        Conflict Resolution
+      </li>
+      <li
+        class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+      >
+        Resilience
+      </li>
+    </ul>
+  </section>
+</div>
+`;
