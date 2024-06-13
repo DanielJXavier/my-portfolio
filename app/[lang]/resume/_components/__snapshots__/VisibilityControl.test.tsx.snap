@@ -3,19 +3,16 @@
 exports[`VisibiltyControl component renders the component 1`] = `
 <div>
   <div
-    class="flex gap-x-1.5"
+    class=" flex gap-x-1.5 "
     data-testid="visibility-control"
+    data-visible=""
   >
     <input
       checked=""
       class="print:hidden"
       type="checkbox"
     />
-    <div
-      class=""
-    >
-      children
-    </div>
+    children
   </div>
 </div>
 `;

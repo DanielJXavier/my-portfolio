@@ -11,81 +11,65 @@ exports[`ContactInfo component renders the component 1`] = `
       Xavier
     </h1>
     <div
-      class="flex gap-x-1.5"
+      class=" flex gap-x-1.5 "
       data-testid="visibility-control"
+      data-visible=""
     >
       <input
         checked=""
         class="print:hidden"
         type="checkbox"
       />
-      <div
-        class=""
-      >
-        <p>
-          dxdanielxavier@gmail.com
-        </p>
-      </div>
+      dxdanielxavier@gmail.com
     </div>
     <div
-      class="flex gap-x-1.5"
+      class=" flex gap-x-1.5 "
       data-testid="visibility-control"
+      data-visible=""
     >
       <input
         checked=""
         class="print:hidden"
         type="checkbox"
       />
-      <div
-        class=""
-      >
-        <p>
-          +55 31 99732-5804
-        </p>
-      </div>
+      +55 31 99732-5804
     </div>
     <div
-      class="flex gap-x-1.5"
+      class=" flex gap-x-1.5 "
       data-testid="visibility-control"
+      data-visible=""
     >
       <input
         checked=""
         class="print:hidden"
         type="checkbox"
       />
-      <div
-        class=""
+      <a
+        class="underline"
+        href="https://www.linkedin.com/in/danieljxavier/"
+        target="_blank"
       >
-        <a
-          class="underline"
-          href="https://www.linkedin.com/in/danieljxavier/"
-          target="_blank"
-        >
-          linkedin.com/in/
-          danieljxavier
-        </a>
-      </div>
+        linkedin.com/in/
+        danieljxavier
+      </a>
     </div>
     <div
-      class="flex gap-x-1.5"
+      class=" flex gap-x-1.5 "
       data-testid="visibility-control"
+      data-visible=""
     >
       <input
         checked=""
         class="print:hidden"
         type="checkbox"
       />
-      <div
-        class=""
+      <a
+        class="underline"
+        href="https://www.danielxavier.dev/"
+        target="_blank"
       >
-        <a
-          class="underline"
-          href="https://www.danielxavier.dev/"
-          target="_blank"
-        >
-          danielxavier.dev
-        </a>
-      </div>
+        danielxavier.dev
+      </a>
     </div>
   </section>
 </div>

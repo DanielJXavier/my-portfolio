@@ -18,7 +18,7 @@ describe("VisibiltyControl component", () => {
 
     fireEvent.click(visibilityControl.childNodes[0]);
 
-    expect(visibilityControl.childNodes[1]).toHaveClass(
+    expect(visibilityControl).toHaveClass(
       "opacity-50 line-through print:hidden"
     );
   });
