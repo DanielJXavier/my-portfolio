@@ -12,6 +12,8 @@ import {
 
 import { chosenHardSkills, chosenSoftSkills } from "../_config";
 
+import VisibilityControl from "./VisibiltyControl";
+
 export default function Skills() {
   const { lang } = useParams<{ lang: Lang }>();
 
@@ -21,35 +23,49 @@ export default function Skills() {
   } = getDictionary(lang);
 
   const hardSkills = useRef(
-    allHardSkills.filter(({ name }) =>
-      chosenHardSkills.some((hardSkill) => name === hardSkill)
-    )
+    allHardSkills.map((skill) => ({
+      ...skill,
+      visible: chosenHardSkills.some((key) => key === skill.key),
+    }))
   );
 
   const softSkills = useRef(
-    softSkillsKeys
-      .filter(({ key }) =>
-        chosenSoftSkills.some((softSkill) => key === softSkill)
-      )
-      .map((skill) => ({
-        ...skill,
-        name: softSkillsStrings[skill.key],
-      }))
+    softSkillsKeys.map((skill) => ({
+      ...skill,
+      name: softSkillsStrings[skill.key],
+      visible: chosenSoftSkills.some((key) => key === skill.key),
+    }))
   );
-
-  const skills = useRef([...hardSkills.current, ...softSkills.current]);
 
   return (
     <section>
       <h2 className="text-[16pt] font-bold">{sectionTitles.skills}</h2>
-      <ul className="flex gap-x-3.5 flex-wrap">
-        {skills.current.map(({ key, name }) => (
-          <li
+      <ul className="grid grid-flow-row-dense grid-cols-2 print:flex print:gap-x-3.5 print:flex-wrap">
+        {hardSkills.current.map(({ key, name, visible }) => (
+          <VisibilityControl
+            className={`col-start-1 ${
+              visible &&
+              "print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px]"
+            }`}
             key={key}
-            className="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+            defaultVisible={visible}
+            tag="li"
           >
             {name}
-          </li>
+          </VisibilityControl>
+        ))}
+        {softSkills.current.map(({ key, name, visible }) => (
+          <VisibilityControl
+            className={`col-start-2 ${
+              visible &&
+              "print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px]"
+            }`}
+            key={key}
+            defaultVisible={visible}
+            tag="li"
+          >
+            {name}
+          </VisibilityControl>
         ))}
       </ul>
     </section>
