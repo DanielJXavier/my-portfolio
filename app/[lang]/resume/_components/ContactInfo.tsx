@@ -10,12 +10,8 @@ export default function ContactInfo() {
       <h1 className="text-[18pt] font-bold">
         {author.firstName} {author.lastName}
       </h1>
-      <VisibilityControl>
-        <p>{links.email}</p>
-      </VisibilityControl>
-      <VisibilityControl>
-        <p>{links.whatsApp}</p>
-      </VisibilityControl>
+      <VisibilityControl>{links.email}</VisibilityControl>
+      <VisibilityControl>{links.whatsApp}</VisibilityControl>
       <VisibilityControl>
         <a
           className="underline"
