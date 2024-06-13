@@ -5,6 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
+      disallow: "/resume/",
     },
     sitemap: "https://www.danielxavier.dev/sitemap.xml",
   };
