@@ -85,11 +85,11 @@ exports[`Resume page (Client-side) renders the page 1`] = `
       </h2>
       <textarea
         class="w-full text-[12pt] text-justify align-top border border-primary print:border-none print:resize-none"
-        rows="6"
+        rows="11"
       >
-        With a decade of web development experience and mastery in JavaScript, React.js, and Node.js, I've excelled as a Technical Leader, creating elegant solutions for complex problems.
-My leadership extends beyond technical skills, as I've mentored teams on intricate projects and honed management skills like emotional intelligence and conflict resolution.
-This blend of technical expertise and leadership has shaped me into a well-rounded Front-End focused Technical Leader.
+        With over a decade of experience in web development and expertise in TypeScript, JavaScript, React, and Node.js, I have consistently delivered elegant solutions to complex challenges. My proficiency extends beyond technical skills, as I have successfully led teams on intricate projects, mentoring them and fostering skills in emotional intelligence and conflict resolution.
+As a Front-End focused Technical Leader, I have a proven track record of designing intuitive user interfaces and robust backend systems, ensuring high performance, scalability, and security. My leadership style is rooted in collaboration and continuous improvement, driving my teams to achieve excellence.
+Outside of technology, I am passionate about photographing landscapes, engaging in adventure sports, and exploring new places. I am always open to new opportunities and connections. Let's connect and explore how we can achieve great results together!
       </textarea>
     </section>
     <section>
@@ -1133,7 +1133,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
         class="flex flex-col gap-y-3"
       >
         <li
-          class="items-baseline flex gap-x-1.5 "
+          class="items-baseline break-inside-avoid flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -1243,7 +1243,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           </div>
         </li>
         <li
-          class="items-baseline flex gap-x-1.5 "
+          class="items-baseline break-inside-avoid flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -1353,7 +1353,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           </div>
         </li>
         <li
-          class="items-baseline flex gap-x-1.5 "
+          class="items-baseline break-inside-avoid flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -1463,7 +1463,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           </div>
         </li>
         <li
-          class="items-baseline flex gap-x-1.5 "
+          class="items-baseline break-inside-avoid flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -1563,7 +1563,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           </div>
         </li>
         <li
-          class="items-baseline flex gap-x-1.5 "
+          class="items-baseline break-inside-avoid flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -1653,7 +1653,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           </div>
         </li>
         <li
-          class="items-baseline flex gap-x-1.5 "
+          class="items-baseline break-inside-avoid flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -1773,7 +1773,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           </div>
         </li>
         <li
-          class="items-baseline flex gap-x-1.5 "
+          class="items-baseline break-inside-avoid flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -1893,7 +1893,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           </div>
         </li>
         <li
-          class="items-baseline flex gap-x-1.5 "
+          class="items-baseline break-inside-avoid flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -1961,10 +1961,12 @@ This blend of technical expertise and leadership has shaped me into a well-round
           </div>
         </li>
         <li
-          class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="items-baseline break-inside-avoid flex gap-x-1.5 "
           data-testid="visibility-control"
+          data-visible=""
         >
           <input
+            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -1985,30 +1987,36 @@ This blend of technical expertise and leadership has shaped me into a well-round
               class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
             >
               <li
-                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                class="items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
+                data-visible=""
               >
                 <input
+                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
                 Developed systems to address the company's internal needs and automate tasks, leveraging technologies such as Vue.js, and Node.js;
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                class="items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
+                data-visible=""
               >
                 <input
+                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
                 Created a Proof of Concept (POC) that introduced a simplified method for product registration on the platform;
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                class="items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
+                data-visible=""
               >
                 <input
+                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
@@ -2021,10 +2029,12 @@ This blend of technical expertise and leadership has shaped me into a well-round
           </div>
         </li>
         <li
-          class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="items-baseline break-inside-avoid flex gap-x-1.5 "
           data-testid="visibility-control"
+          data-visible=""
         >
           <input
+            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -2045,20 +2055,24 @@ This blend of technical expertise and leadership has shaped me into a well-round
               class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
             >
               <li
-                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                class="items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
+                data-visible=""
               >
                 <input
+                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
                 Designed a system to generate blog post images using components and pre-defined templates, thereby enhancing the productivity of the design team by 1000%;
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                class="items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
+                data-visible=""
               >
                 <input
+                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
@@ -2075,10 +2089,12 @@ This blend of technical expertise and leadership has shaped me into a well-round
                 Implemented the Arabic version of the "Hotmart blog";
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                class="items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
+                data-visible=""
               >
                 <input
+                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
@@ -2091,7 +2107,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           </div>
         </li>
         <li
-          class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -2161,7 +2177,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           </div>
         </li>
         <li
-          class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -2241,7 +2257,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           </div>
         </li>
         <li
-          class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -2337,7 +2353,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
         class="flex flex-col gap-y-3"
       >
         <li
-          class="items-baseline flex gap-x-1.5 "
+          class="items-baseline break-inside-avoid flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -2363,7 +2379,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           </div>
         </li>
         <li
-          class="items-baseline flex gap-x-1.5 "
+          class="items-baseline break-inside-avoid flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >

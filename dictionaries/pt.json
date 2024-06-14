@@ -1,7 +1,7 @@
 {
   "global": {
     "author": {
-      "headline": "Líder Técnico | JavaScript | React | MBA, Liderança de Equipe"
+      "headline": "Senior Software Enginner | React | Next.js | TypeScript | Node.js | JavaScript | Liderança"
     },
     "copyright": "Todos os direitos reservados.",
     "menu": {
@@ -14,10 +14,9 @@
   "home": {
     "greeting": "Oie, sou o",
     "summary": [
-      "Com uma década de experiência em desenvolvimento web e domínio em JavaScript, React.js e Node.js, me destaquei como Líder Técnico, criando soluções elegantes para problemas complexos.",
-      "Minha liderança vai além das habilidades técnicas, pois mentoreei equipes em projetos complexos e aprimorei habilidades de gerenciamento como inteligência emocional e resolução de conflitos.",
-      "Essa combinação de expertise técnica e liderança me transformou em um Líder Técnico focado em Front-End bem equilibrado.",
-      "Além da tecnologia, gosto de fotografar paisagens, praticar esportes de aventura e visitar novos lugares sempre que possível. Estou sempre aberto a explorar novas oportunidades e fazer novas conexões. Vamos conversar!"
+      "Com mais de uma década de experiência em desenvolvimento web e expertise em TypeScript, JavaScript, React e Node.js, tenho consistentemente entregado soluções elegantes para desafios complexos. Minha proficiência vai além das habilidades técnicas, pois tenho liderado equipes em projetos intrincados, orientando-os e promovendo habilidades em inteligência emocional e resolução de conflitos.",
+      "Como Líder Técnico focado em Front-End, tenho um histórico comprovado de projetar interfaces de usuário intuitivas e sistemas robustos de backend, garantindo alto desempenho, escalabilidade e segurança. Meu estilo de liderança é baseado em colaboração e melhoria contínua, impulsionando minhas equipes a alcançar a excelência.",
+      "Fora do campo tecnológico, sou apaixonado por fotografar paisagens, praticar esportes de aventura e explorar novos lugares. Estou sempre aberto a novas oportunidades e conexões. Vamos nos conectar e explorar como podemos alcançar grandes resultados juntos!"
     ],
     "imageAltText": "Foto do autor"
   },

@@ -10,11 +10,11 @@ exports[`Summary component renders the component 1`] = `
     </h2>
     <textarea
       class="w-full text-[12pt] text-justify align-top border border-primary print:border-none print:resize-none"
-      rows="6"
+      rows="11"
     >
-      With a decade of web development experience and mastery in JavaScript, React.js, and Node.js, I've excelled as a Technical Leader, creating elegant solutions for complex problems.
-My leadership extends beyond technical skills, as I've mentored teams on intricate projects and honed management skills like emotional intelligence and conflict resolution.
-This blend of technical expertise and leadership has shaped me into a well-rounded Front-End focused Technical Leader.
+      With over a decade of experience in web development and expertise in TypeScript, JavaScript, React, and Node.js, I have consistently delivered elegant solutions to complex challenges. My proficiency extends beyond technical skills, as I have successfully led teams on intricate projects, mentoring them and fostering skills in emotional intelligence and conflict resolution.
+As a Front-End focused Technical Leader, I have a proven track record of designing intuitive user interfaces and robust backend systems, ensuring high performance, scalability, and security. My leadership style is rooted in collaboration and continuous improvement, driving my teams to achieve excellence.
+Outside of technology, I am passionate about photographing landscapes, engaging in adventure sports, and exploring new places. I am always open to new opportunities and connections. Let's connect and explore how we can achieve great results together!
     </textarea>
   </section>
 </div>
