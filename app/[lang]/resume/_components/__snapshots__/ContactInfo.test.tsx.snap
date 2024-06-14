@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactInfo component renders the component 1`] = `
+<div>
+  <section>
+    <h1
+      class="text-[18pt] font-bold"
+    >
+      Daniel
+       
+      Xavier
+    </h1>
+    <ul>
+      <li
+        class=" flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        dxdanielxavier@gmail.com
+      </li>
+      <li
+        class=" flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        +55 31 99732-5804
+      </li>
+      <li
+        class=" flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        <a
+          class="underline"
+          href="https://www.linkedin.com/in/danieljxavier/"
+          target="_blank"
+        >
+          linkedin.com/in/
+          danieljxavier
+        </a>
+      </li>
+      <li
+        class=" flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        <a
+          class="underline"
+          href="https://www.danielxavier.dev/"
+          target="_blank"
+        >
+          danielxavier.dev
+        </a>
+      </li>
+    </ul>
+  </section>
+</div>
+`;

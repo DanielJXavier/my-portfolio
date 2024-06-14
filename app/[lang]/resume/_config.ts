@@ -1,12 +1,6 @@
 export const maxSummaryParagraphs = 3;
 
-export const chosenHardSkills = [
-  "HTML5",
-  "CSS3",
-  "JavaScript",
-  "React",
-  "Node.js",
-];
+export const chosenHardSkills = ["react", "ts", "next", "tailwind", "node"];
 
 export const chosenSoftSkills = [
   "leadership",

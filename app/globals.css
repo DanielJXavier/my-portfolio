@@ -79,4 +79,9 @@ body {
       @apply absolute text-5xl font-light leading-none;
     }
   }
+
+  /* RESUME SKILLS */
+  [data-visible]:not(:has(~ [data-visible])) {
+    @apply print:after:content-[''];
+  }
 }

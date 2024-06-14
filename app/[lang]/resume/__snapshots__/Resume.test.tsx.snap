@@ -13,31 +13,69 @@ exports[`Resume page (Client-side) renders the page 1`] = `
          
         Xavier
       </h1>
-      <p>
-        dxdanielxavier@gmail.com
-      </p>
-      <p>
-        +55 31 99732-5804
-      </p>
-      <p>
-        <a
-          class="underline"
-          href="https://www.linkedin.com/in/danieljxavier/"
-          target="_blank"
+      <ul>
+        <li
+          class=" flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
         >
-          linkedin.com/in/
-          danieljxavier
-        </a>
-      </p>
-      <p>
-        <a
-          class="underline"
-          href="https://www.danielxavier.dev/"
-          target="_blank"
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          dxdanielxavier@gmail.com
+        </li>
+        <li
+          class=" flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
         >
-          danielxavier.dev
-        </a>
-      </p>
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          +55 31 99732-5804
+        </li>
+        <li
+          class=" flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          <a
+            class="underline"
+            href="https://www.linkedin.com/in/danieljxavier/"
+            target="_blank"
+          >
+            linkedin.com/in/
+            danieljxavier
+          </a>
+        </li>
+        <li
+          class=" flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          <a
+            class="underline"
+            href="https://www.danielxavier.dev/"
+            target="_blank"
+          >
+            danielxavier.dev
+          </a>
+        </li>
+      </ul>
     </section>
     <section>
       <h2
@@ -45,21 +83,14 @@ exports[`Resume page (Client-side) renders the page 1`] = `
       >
         Summary
       </h2>
-      <p
-        class="text-[12pt] text-justify"
+      <textarea
+        class="w-full text-[12pt] text-justify align-top border border-primary print:border-none print:resize-none"
+        rows="6"
       >
         With a decade of web development experience and mastery in JavaScript, React.js, and Node.js, I've excelled as a Technical Leader, creating elegant solutions for complex problems.
-      </p>
-      <p
-        class="text-[12pt] text-justify"
-      >
-        My leadership extends beyond technical skills, as I've mentored teams on intricate projects and honed management skills like emotional intelligence and conflict resolution.
-      </p>
-      <p
-        class="text-[12pt] text-justify"
-      >
-        This blend of technical expertise and leadership has shaped me into a well-rounded Front-End focused Technical Leader.
-      </p>
+My leadership extends beyond technical skills, as I've mentored teams on intricate projects and honed management skills like emotional intelligence and conflict resolution.
+This blend of technical expertise and leadership has shaped me into a well-rounded Front-End focused Technical Leader.
+      </textarea>
     </section>
     <section>
       <h2
@@ -68,57 +99,1027 @@ exports[`Resume page (Client-side) renders the page 1`] = `
         Skills
       </h2>
       <ul
-        class="flex gap-x-3.5 flex-wrap"
+        class="grid grid-flow-row-dense grid-cols-2 print:flex print:gap-x-3.5 print:flex-wrap"
       >
         <li
-          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
         >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
           HTML5
         </li>
         <li
-          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
         >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
           CSS3
         </li>
         <li
-          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
         >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
           JavaScript
         </li>
         <li
-          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
         >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
           React
         </li>
         <li
-          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
         >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          Next.js
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          Tailwind CSS
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Vue.js
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Nuxt.js
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Angular
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Responsive Design
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          SEO
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          SSR
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Sass
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Semantical HTML
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          TypeScript
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Webpack
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Redux
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          jQuery
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Web Accessibility
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Core Web Vitals
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Web Performance
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Web Security
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Web Sockets
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Styled Components
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          PWA
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
           Node.js
         </li>
         <li
-          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
         >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Express
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          LoopBack
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Meteor
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Jest
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Code Coverage
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          React Testing Library
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Cypress
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Chromatic
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          HTTP
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          GraphQL
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          REST
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          PHP
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          WordPress
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Magento
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Laravel
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Nginx
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Apache
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          GitHub Actions
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Bash
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Docker
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          YML
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          AWS
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Kubernets
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Terraform
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          SQL
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          MySQL
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          SQL Server
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          PostgreSQL
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Oracle
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          NoSQL
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          MongoDB
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Jira
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Confluence
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Slack Workflows
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Slack Apps
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          BPMN
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          A/B Testing
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Atomic Design
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Design Systems
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Semantic Versioning
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          UI/UX
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Functional Programming
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          OOP
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Regular Expressions
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          MarkDown
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Communication
+        </li>
+        <li
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
           Leadership
         </li>
         <li
-          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
         >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
           Problem Solving
         </li>
         <li
-          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
         >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
           Decision Making
         </li>
         <li
-          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
         >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Empathy
+        </li>
+        <li
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
           Conflict Resolution
         </li>
         <li
-          class="relative text-[12pt] after:content-['•'] after:absolute after:-right-[10px] last-of-type:after:content-['']"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
         >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Adaptability
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Time Management
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Organization
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Strategic Thinking
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Mentoring
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Negotiation
+        </li>
+        <li
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
           Resilience
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Critical Thinking
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Creativity
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Active Listening
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Team Building
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Ethical Decision Making
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Customer Orientation
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Learning Agility
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Curiosity
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Patience
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Public Speaking
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Networking
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Multitasking
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Attention to Detail
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Motivation
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Persuasion
+        </li>
+        <li
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Emotional Intelligence
         </li>
       </ul>
     </section>
@@ -131,271 +1132,1196 @@ exports[`Resume page (Client-side) renders the page 1`] = `
       <ul
         class="flex flex-col gap-y-3"
       >
-        <li>
-          <p
-            class="text-[12pt] font-bold"
-          >
-            Software Engineering Manager
-             @ 
-            OLX
-          </p>
-          <p
-            class="text-[12pt]"
-          >
-            2024
-          </p>
-          <ul
-            class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
-          >
-            <li>
-              Led a team of 9 developers, serving as a mentor and guiding light;
-            </li>
-            <li>
-              Delivered the successful execution of the platform's registration and ad management system roadmap including the new Ad Insertion in steps journey;
-            </li>
-            <li>
-              Adopted agile methodologies and led team ceremonies to ensure a streamlined workflow balancing product and technical tasks;
-            </li>
-            <li>
-              Biggest challenge
-              :
-               
-              To deal with pressure from leadership to do major deliveries in the short term.
-            </li>
-          </ul>
+        <li
+          class="items-baseline flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt] font-bold"
+            >
+              Software Engineering Manager
+               @ 
+              OLX
+            </p>
+            <p
+              class="text-[12pt]"
+            >
+              2024
+            </p>
+            <ul
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+            >
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Led a team of 9 developers, serving as a mentor and guiding light;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Delivered the successful execution of the platform's registration and ad management system roadmap including the new Ad Insertion in steps journey;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Built a high level of engagement within the team;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Held personalized "1:1s" to guide team members through their performance cycles;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Adopted agile methodologies and led team ceremonies to ensure a streamlined workflow balancing product and technical tasks;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Worked closely with the Product Manager to facilitate informed and effective product decisions;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Biggest challenge
+                :
+                 
+                To deal with pressure from leadership to do major deliveries in the short term.
+              </li>
+            </ul>
+          </div>
         </li>
-        <li>
-          <p
-            class="text-[12pt] font-bold"
-          >
-            Software Engineering Manager
-             @ 
-            OLX
-          </p>
-          <p
-            class="text-[12pt]"
-          >
-            2023
-          </p>
-          <ul
-            class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
-          >
-            <li>
-              Led a team of 8 developers, serving as a mentor and guiding light;¹
-            </li>
-            <li>
-              Delivered the successful execution of the search and recommendation systems roadmap including the new LTR rank algorithm;¹
-            </li>
-            <li>
-              Structured the team and proposed a new approach to support the strategic plan for the upcoming year;¹
-            </li>
-            <li>
-              Biggest challenge
-              :
-               
-              To balance the substantial responsibilities of both the team¹ and the chapter² simultaneously.
-            </li>
-          </ul>
+        <li
+          class="items-baseline flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt] font-bold"
+            >
+              Software Engineering Manager
+               @ 
+              OLX
+            </p>
+            <p
+              class="text-[12pt]"
+            >
+              2023
+            </p>
+            <ul
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+            >
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Led a team of 8 developers, serving as a mentor and guiding light;¹
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Delivered the successful execution of the search and recommendation systems roadmap including the new LTR rank algorithm;¹
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Structured the team and proposed a new approach to support the strategic plan for the upcoming year;¹
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Clarified the company's understanding of search and recommendation subjects;¹
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Supervised all developers (9 devs) in the chapter indirectly, fostered a sense of unity and direction;²
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Fostered engagement within the chapter and ensured valuable deliveries despite working only once a week;²
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Biggest challenge
+                :
+                 
+                To balance the substantial responsibilities of both the team¹ and the chapter² simultaneously.
+              </li>
+            </ul>
+          </div>
         </li>
-        <li>
-          <p
-            class="text-[12pt] font-bold"
-          >
-            Software Engineering Manager
-             @ 
-            OLX
-          </p>
-          <p
-            class="text-[12pt]"
-          >
-            2022 ~ 2023
-          </p>
-          <ul
-            class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
-          >
-            <li>
-              Led a team of 9 developers, serving as a point of reference;
-            </li>
-            <li>
-              Partnered with the Design Manager to make optimal product decisions and establish a roadmap;
-            </li>
-            <li>
-              Delivered the Design System roadmap including an entirely new platform homepage created in less than 48 hours;
-            </li>
-            <li>
-              Biggest challenge
-              :
-               
-              To assume multiple roles simultaneously, including Engineering Manager, Product Manager, Data Analyst, among others.
-            </li>
-          </ul>
+        <li
+          class="items-baseline flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt] font-bold"
+            >
+              Software Engineering Manager
+               @ 
+              OLX
+            </p>
+            <p
+              class="text-[12pt]"
+            >
+              2022 ~ 2023
+            </p>
+            <ul
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+            >
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Led a team of 9 developers, serving as a point of reference;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Partnered with the Design Manager to make optimal product decisions and establish a roadmap;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Delivered the Design System roadmap including an entirely new platform homepage created in less than 48 hours;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Gathered and analyzed data to validate the project's value to the company;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Ensured the continuous evolution of the Design System and its adoption by other teams;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Developed documentation and processes for contributing to the Design System project and managing its version;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Biggest challenge
+                :
+                 
+                To assume multiple roles simultaneously, including Engineering Manager, Product Manager, Data Analyst, among others.
+              </li>
+            </ul>
+          </div>
         </li>
-        <li>
-          <p
-            class="text-[12pt] font-bold"
-          >
-            Software Engineering Manager
-             @ 
-            OLX
-          </p>
-          <p
-            class="text-[12pt]"
-          >
-            2021 ~ 2022
-          </p>
-          <ul
-            class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
-          >
-            <li>
-              Led a team of 7 developers, serving as a key reference;
-            </li>
-            <li>
-              Delivered both direct and indirect Advertising roadmaps for the platform that brought R$80 million in revenue;
-            </li>
-            <li>
-              Recruited new professionals to increase productive capacity in 300%;
-            </li>
-            <li>
-              Biggest challenge
-              :
-               
-              To manage high expectations related to Advertising revenue results.
-            </li>
-          </ul>
+        <li
+          class="items-baseline flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt] font-bold"
+            >
+              Software Engineering Manager
+               @ 
+              OLX
+            </p>
+            <p
+              class="text-[12pt]"
+            >
+              2021 ~ 2022
+            </p>
+            <ul
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+            >
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Led a team of 7 developers, serving as a key reference;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Delivered both direct and indirect Advertising roadmaps for the platform that brought R$80 million in revenue;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Recruited new professionals to increase productive capacity in 300%;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Partnered actively with the Product Manager to prioritize and develop optimal initiatives;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Proposed a new structure for the Advertising area to enhance results;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Biggest challenge
+                :
+                 
+                To manage high expectations related to Advertising revenue results.
+              </li>
+            </ul>
+          </div>
         </li>
-        <li>
-          <p
-            class="text-[12pt] font-bold"
-          >
-            CTO & Partner
-             @ 
-            Meaning
-          </p>
-          <p
-            class="text-[12pt]"
-          >
-            2023
-          </p>
-          <ul
-            class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
-          >
-            <li>
-              Crafted the startup's technical vision and product strategy;
-            </li>
-            <li>
-              Architected the solution from the ground up;
-            </li>
-            <li>
-              Refined the product's technical specifications;
-            </li>
-            <li>
-              Biggest challenge
-              :
-               
-              To convert a highly "human-centric" project, rooted in personal consultancy, into a systematic approach.
-            </li>
-          </ul>
+        <li
+          class="items-baseline flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt] font-bold"
+            >
+              CTO & Partner
+               @ 
+              Meaning
+            </p>
+            <p
+              class="text-[12pt]"
+            >
+              2023
+            </p>
+            <ul
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+            >
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Crafted the startup's technical vision and product strategy;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Architected the solution from the ground up;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Refined the product's technical specifications;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Developed a Proof of Concept project;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Biggest challenge
+                :
+                 
+                To convert a highly "human-centric" project, rooted in personal consultancy, into a systematic approach.
+              </li>
+            </ul>
+          </div>
         </li>
-        <li>
-          <p
-            class="text-[12pt] font-bold"
-          >
-            Development Coordinator
-             @ 
-            Softplan
-          </p>
-          <p
-            class="text-[12pt]"
-          >
-            2020 ~ 2021
-          </p>
-          <ul
-            class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
-          >
-            <li>
-              Led directly a multidisciplinary software development team, inclusive of Software Architects, Developers, Quality Assurance Analysts, Product Owners, Business Analysts, and Agile Masters;
-            </li>
-            <li>
-              Planned and executed deliveries for the most 2 critical modules of the "SAJ" system;
-            </li>
-            <li>
-              Structured and continuously enhanced the team's workflow using agile software development methodologies;
-            </li>
-            <li>
-              Biggest challenge
-              :
-               
-              To manage a large team (28 professionals) and oversee critical deliveries.
-            </li>
-          </ul>
+        <li
+          class="items-baseline flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt] font-bold"
+            >
+              Development Coordinator
+               @ 
+              Softplan
+            </p>
+            <p
+              class="text-[12pt]"
+            >
+              2020 ~ 2021
+            </p>
+            <ul
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+            >
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Led directly a multidisciplinary software development team, inclusive of Software Architects, Developers, Quality Assurance Analysts, Product Owners, Business Analysts, and Agile Masters;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Mentored and developed both direct and indirect employees, utilizing techniques such as 1:1 and feedforward;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Planned and executed deliveries for the most 2 critical modules of the "SAJ" system;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Applied daily situational leadership to maximize the potential of those under my guidance;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Structured and continuously enhanced the team's workflow using agile software development methodologies;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Created formulas and metrics to accurately gauge the team's capacity, thereby bringing predictability to deliveries;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Mapped effective talent retention strategies;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Biggest challenge
+                :
+                 
+                To manage a large team (28 professionals) and oversee critical deliveries.
+              </li>
+            </ul>
+          </div>
         </li>
-        <li>
-          <p
-            class="text-[12pt] font-bold"
-          >
-            Tech Lead
-             @ 
-            Softplan
-          </p>
-          <p
-            class="text-[12pt]"
-          >
-            2019 ~ 2020
-          </p>
-          <ul
-            class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
-          >
-            <li>
-              Developed the new "SAJ" system, constructed using React JS, .Net, and GraphQL;
-            </li>
-            <li>
-              Oversaw the deliveries and deployment of 17 modules of the system;
-            </li>
-            <li>
-              Led a team of 10 Front-End React developers;
-            </li>
-            <li>
-              Biggest challenge
-              :
-               
-              To acquire leadership skills and master people management.
-            </li>
-          </ul>
+        <li
+          class="items-baseline flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt] font-bold"
+            >
+              Tech Lead
+               @ 
+              Softplan
+            </p>
+            <p
+              class="text-[12pt]"
+            >
+              2019 ~ 2020
+            </p>
+            <ul
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+            >
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Developed the new "SAJ" system, constructed using React JS, .Net, and GraphQL;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Oversaw the deliveries and deployment of 17 modules of the system;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Provided training in HTML, CSS, JavaScript, React JS, GraphQL, and unit tests;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Led a team of 10 Front-End React developers;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Recruited new employees for the company;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Selected new contractor professionals;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Developed professionals through 1:1 sessions, Feedforwards, and Mentoring;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Biggest challenge
+                :
+                 
+                To acquire leadership skills and master people management.
+              </li>
+            </ul>
+          </div>
         </li>
-        <li>
-          <p
-            class="text-[12pt] font-bold"
-          >
-            Senior Front-End Developer
-             @ 
-            Softplan
-          </p>
-          <p
-            class="text-[12pt]"
-          >
-            2018 ~ 2019
-          </p>
-          <ul
-            class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
-          >
-            <li>
-              Developed new features for the "e-SAJ" portal utilizing React JS and GraphQL;
-            </li>
-            <li>
-              Created new features for the "SAJ Tribunais" system using React JS and GraphQL;
-            </li>
-            <li>
-              Biggest challenge
-              :
-               
-              To manage all the deliveries of the project as the sole Front-End developer.
-            </li>
-          </ul>
+        <li
+          class="items-baseline flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt] font-bold"
+            >
+              Senior Front-End Developer
+               @ 
+              Softplan
+            </p>
+            <p
+              class="text-[12pt]"
+            >
+              2018 ~ 2019
+            </p>
+            <ul
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+            >
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Developed new features for the "e-SAJ" portal utilizing React JS and GraphQL;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Created new features for the "SAJ Tribunais" system using React JS and GraphQL;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Biggest challenge
+                :
+                 
+                To manage all the deliveries of the project as the sole Front-End developer.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li
+          class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt] font-bold"
+            >
+              Senior Front-End Developer
+               @ 
+              Hotmart
+            </p>
+            <p
+              class="text-[12pt]"
+            >
+              2018
+            </p>
+            <ul
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+            >
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Developed systems to address the company's internal needs and automate tasks, leveraging technologies such as Vue.js, and Node.js;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Created a Proof of Concept (POC) that introduced a simplified method for product registration on the platform;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Biggest challenge
+                :
+                 
+                To balance the need to comprehend customer requirements clearly while simultaneously coding.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li
+          class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt] font-bold"
+            >
+              Mid Level Front-End Developer
+               @ 
+              Hotmart
+            </p>
+            <p
+              class="text-[12pt]"
+            >
+              2017 ~ 2018
+            </p>
+            <ul
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+            >
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Designed a system to generate blog post images using components and pre-defined templates, thereby enhancing the productivity of the design team by 1000%;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Developed a high-performance caching system for the "Hotmart blog" (WordPress), which resulted in a 300% increase in performance;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Implemented the Arabic version of the "Hotmart blog";
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Biggest challenge
+                :
+                 
+                To conceptualize and develop complex solutions from the ground up.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li
+          class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt] font-bold"
+            >
+              Entry Level Front-End Developer
+               @ 
+              Hotmart
+            </p>
+            <p
+              class="text-[12pt]"
+            >
+              2016 ~ 2017
+            </p>
+            <ul
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+            >
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Developed a new WordPress theme for the "Hotmart blog" utilizing only HTML5, CSS Grid Layout, and Vanilla JS;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Implemented the new layout for the "Hotmart blog";
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Created custom features within the WordPress admin interface;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Biggest challenge
+                :
+                 
+                To acquire new development skills and apply them to complex projects.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li
+          class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt] font-bold"
+            >
+              Support Analyst
+               @ 
+              Sydle
+            </p>
+            <p
+              class="text-[12pt]"
+            >
+              2014 ~ 2016
+            </p>
+            <ul
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+            >
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Spearheaded the development of web projects utilizing WordPress and Magento;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Facilitated the modeling and automation of the company's internal processes through BPMN;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Provided comprehensive technical support to users of the company's systems;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Oversaw the configuration and monitoring of both Linux and Windows servers.
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Biggest challenge
+                :
+                 
+                To rapidly acquire development skills and contribute to legacy projects.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li
+          class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt] font-bold"
+            >
+              Support Intern
+               @ 
+              Sydle
+            </p>
+            <p
+              class="text-[12pt]"
+            >
+              2012 ~ 2014
+            </p>
+            <ul
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+            >
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Provided technical support to users of the company's systems;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Configured and monitored infrastructure on Linux and Windows servers;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Compiled team reports;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Offered infrastructure support to the company's employees.
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Biggest challenge
+                :
+                 
+                To simultaneously learn a multitude of new concepts and balance them with my university commitments.
+              </li>
+            </ul>
+          </div>
         </li>
         <li>
           ... and
-           
-          5
            
           other previous roles
         </li>
@@ -407,40 +2333,62 @@ exports[`Resume page (Client-side) renders the page 1`] = `
       >
         Education
       </h2>
-      <div
+      <ul
         class="flex flex-col gap-y-3"
       >
-        <div>
-          <p
-            class="text-[12pt] font-bold"
-          >
-            Master of Business Administration - MBA
-            ,
-             
-            Strategic People Management
-          </p>
-          <p
-            class="text-[12pt]"
-          >
-            Estácio
-          </p>
-        </div>
-        <div>
-          <p
-            class="text-[12pt] font-bold"
-          >
-            Bachelor
-            ,
-             
-            Computer Science
-          </p>
-          <p
-            class="text-[12pt]"
-          >
-            Universidade FUMEC
-          </p>
-        </div>
-      </div>
+        <li
+          class="items-baseline flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt] font-bold"
+            >
+              Master of Business Administration - MBA
+              ,
+               
+              Strategic People Management
+            </p>
+            <p
+              class="text-[12pt]"
+            >
+              Estácio
+            </p>
+          </div>
+        </li>
+        <li
+          class="items-baseline flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt] font-bold"
+            >
+              Bachelor
+              ,
+               
+              Computer Science
+            </p>
+            <p
+              class="text-[12pt]"
+            >
+              Universidade FUMEC
+            </p>
+          </div>
+        </li>
+      </ul>
     </section>
   </main>
 </div>

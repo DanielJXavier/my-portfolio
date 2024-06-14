@@ -9,11 +9,11 @@ exports[`Home page renders the page 1`] = `
       class="lg:col-span-2"
     >
       <h1
-        class="text-xl md:text-2xl lg:text-3xl flex items-center gap-x-2 [&_svg]:md:w-8 [&_svg]:md:h-8"
+        class="text-xl md:text-2xl lg:text-3xl flex items-center gap-x-2"
         data-testid="title"
       >
         <svg
-          class="fill-primary w-6 h-6"
+          class="fill-primary w-6 md:w-8 h-6 md:h-8"
           viewBox="0 -960 960 960"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -65,15 +65,15 @@ exports[`Home page renders the page 1`] = `
     </div>
   </section>
   <section
-    class="mt-4 py-4 md:py-8 flex flex-col lg:flex-row gap-y-3 md:gap-y-4 lg:gap-x-2 xl:gap-x-12 items-center [&_svg]:md:w-6 [&_svg]:md:h-6"
+    class="mt-4 py-4 md:py-8 flex flex-col lg:flex-row gap-y-3 md:gap-y-4 lg:gap-x-2 xl:gap-x-12 items-center"
   >
     <a
-      class="flex gap-x-1.5 xl:gap-x-2 hover:text-secondary [&_svg]:hover:fill-secondary text-sm md:text-base"
+      class="group/svg flex gap-x-1.5 xl:gap-x-2 hover:text-secondary text-sm md:text-base"
       href="mailto:dxdanielxavier@gmail.com"
       target="_blank"
     >
       <svg
-        class="fill-primary w-5 h-5"
+        class="fill-primary group-hover/svg:fill-secondary w-5 md:w-6 h-5 md:h-6"
         viewBox="0 0 512 512"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -84,12 +84,12 @@ exports[`Home page renders the page 1`] = `
       dxdanielxavier@gmail.com
     </a>
     <a
-      class="flex gap-x-1.5 xl:gap-x-2 hover:text-secondary [&_svg]:hover:fill-secondary text-sm md:text-base"
+      class="group/svg flex gap-x-1.5 xl:gap-x-2 hover:text-secondary text-sm md:text-base"
       href="https://wa.me/5531997325804"
       target="_blank"
     >
       <svg
-        class="fill-primary w-5 h-5"
+        class="fill-primary group-hover/svg:fill-secondary w-5 md:w-6 h-5 md:h-6"
         viewBox="0 0 448 512"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -100,12 +100,12 @@ exports[`Home page renders the page 1`] = `
       +55 31 99732-5804
     </a>
     <a
-      class="flex gap-x-1.5 xl:gap-x-2 hover:text-secondary [&_svg]:hover:fill-secondary text-sm md:text-base"
+      class="group/svg flex gap-x-1.5 xl:gap-x-2 hover:text-secondary text-sm md:text-base"
       href="https://www.linkedin.com/in/danieljxavier/"
       target="_blank"
     >
       <svg
-        class="fill-primary w-5 h-5"
+        class="fill-primary group-hover/svg:fill-secondary w-5 md:w-6 h-5 md:h-6"
         viewBox="0 0 448 512"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -117,12 +117,12 @@ exports[`Home page renders the page 1`] = `
       danieljxavier
     </a>
     <a
-      class="flex gap-x-1.5 xl:gap-x-2 hover:text-secondary [&_svg]:hover:fill-secondary text-sm md:text-base"
+      class="group/svg flex gap-x-1.5 xl:gap-x-2 hover:text-secondary text-sm md:text-base"
       href="https://github.com/DanielJXavier"
       target="_blank"
     >
       <svg
-        class="fill-primary w-5 h-5"
+        class="fill-primary group-hover/svg:fill-secondary w-5 md:w-6 h-5 md:h-6"
         viewBox="0 0 496 512"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -134,12 +134,12 @@ exports[`Home page renders the page 1`] = `
       DanielJXavier
     </a>
     <a
-      class="flex gap-x-1.5 xl:gap-x-2 hover:text-secondary [&_svg]:hover:fill-secondary text-sm md:text-base"
+      class="group/svg flex gap-x-1.5 xl:gap-x-2 hover:text-secondary text-sm md:text-base"
       href="https://www.instagram.com/danieljxavier/"
       target="_blank"
     >
       <svg
-        class="fill-primary w-5 h-5"
+        class="fill-primary group-hover/svg:fill-secondary w-5 md:w-6 h-5 md:h-6"
         viewBox="0 0 448 512"
         xmlns="http://www.w3.org/2000/svg"
       >

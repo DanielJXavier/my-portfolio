@@ -1,0 +1,1037 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skills component renders the component 1`] = `
+<div>
+  <section>
+    <h2
+      class="text-[16pt] font-bold"
+    >
+      Skills
+    </h2>
+    <ul
+      class="grid grid-flow-row-dense grid-cols-2 print:flex print:gap-x-3.5 print:flex-wrap"
+    >
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        HTML5
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        CSS3
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        JavaScript
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        React
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        Next.js
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        Tailwind CSS
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Vue.js
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Nuxt.js
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Angular
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Responsive Design
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        SEO
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        SSR
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Sass
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Semantical HTML
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        TypeScript
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Webpack
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Redux
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        jQuery
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Web Accessibility
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Core Web Vitals
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Web Performance
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Web Security
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Web Sockets
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Styled Components
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        PWA
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        Node.js
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Express
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        LoopBack
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Meteor
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Jest
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Code Coverage
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        React Testing Library
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Cypress
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Chromatic
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        HTTP
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        GraphQL
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        REST
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        PHP
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        WordPress
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Magento
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Laravel
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Nginx
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Apache
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        GitHub Actions
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Bash
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Docker
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        YML
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        AWS
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Kubernets
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Terraform
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        SQL
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        MySQL
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        SQL Server
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        PostgreSQL
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Oracle
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        NoSQL
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        MongoDB
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Jira
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Confluence
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Slack Workflows
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Slack Apps
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        BPMN
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        A/B Testing
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Atomic Design
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Design Systems
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Semantic Versioning
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        UI/UX
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Functional Programming
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        OOP
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Regular Expressions
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        MarkDown
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Communication
+      </li>
+      <li
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        Leadership
+      </li>
+      <li
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        Problem Solving
+      </li>
+      <li
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        Decision Making
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Empathy
+      </li>
+      <li
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        Conflict Resolution
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Adaptability
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Time Management
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Organization
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Strategic Thinking
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Mentoring
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Negotiation
+      </li>
+      <li
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        Resilience
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Critical Thinking
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Creativity
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Active Listening
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Team Building
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Ethical Decision Making
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Customer Orientation
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Learning Agility
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Curiosity
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Patience
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Public Speaking
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Networking
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Multitasking
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Attention to Detail
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Motivation
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Persuasion
+      </li>
+      <li
+        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Emotional Intelligence
+      </li>
+    </ul>
+  </section>
+</div>
+`;
