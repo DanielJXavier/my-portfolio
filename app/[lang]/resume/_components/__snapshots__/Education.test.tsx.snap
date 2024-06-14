@@ -12,7 +12,7 @@ exports[`Education component renders the component 1`] = `
       class="flex flex-col gap-y-3"
     >
       <li
-        class="items-baseline flex gap-x-1.5 "
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
         data-testid="visibility-control"
         data-visible=""
       >
@@ -38,7 +38,7 @@ exports[`Education component renders the component 1`] = `
         </div>
       </li>
       <li
-        class="items-baseline flex gap-x-1.5 "
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
         data-testid="visibility-control"
         data-visible=""
       >

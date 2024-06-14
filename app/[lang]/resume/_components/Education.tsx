@@ -22,7 +22,7 @@ export default function Education() {
         {education.map(({ schoolId, schoolName }, i) => (
           <VisibilityControl
             key={`education-item-${i}`}
-            className="items-baseline"
+            className="items-baseline break-inside-avoid"
           >
             <div>
               <p className="text-[12pt] font-bold">

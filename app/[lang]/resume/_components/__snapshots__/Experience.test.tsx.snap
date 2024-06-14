@@ -12,7 +12,7 @@ exports[`Experience component renders the component 1`] = `
       class="flex flex-col gap-y-3"
     >
       <li
-        class="items-baseline flex gap-x-1.5 "
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
         data-testid="visibility-control"
         data-visible=""
       >
@@ -122,7 +122,7 @@ exports[`Experience component renders the component 1`] = `
         </div>
       </li>
       <li
-        class="items-baseline flex gap-x-1.5 "
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
         data-testid="visibility-control"
         data-visible=""
       >
@@ -232,7 +232,7 @@ exports[`Experience component renders the component 1`] = `
         </div>
       </li>
       <li
-        class="items-baseline flex gap-x-1.5 "
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
         data-testid="visibility-control"
         data-visible=""
       >
@@ -342,7 +342,7 @@ exports[`Experience component renders the component 1`] = `
         </div>
       </li>
       <li
-        class="items-baseline flex gap-x-1.5 "
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
         data-testid="visibility-control"
         data-visible=""
       >
@@ -442,7 +442,7 @@ exports[`Experience component renders the component 1`] = `
         </div>
       </li>
       <li
-        class="items-baseline flex gap-x-1.5 "
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
         data-testid="visibility-control"
         data-visible=""
       >
@@ -532,7 +532,7 @@ exports[`Experience component renders the component 1`] = `
         </div>
       </li>
       <li
-        class="items-baseline flex gap-x-1.5 "
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
         data-testid="visibility-control"
         data-visible=""
       >
@@ -652,7 +652,7 @@ exports[`Experience component renders the component 1`] = `
         </div>
       </li>
       <li
-        class="items-baseline flex gap-x-1.5 "
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
         data-testid="visibility-control"
         data-visible=""
       >
@@ -772,7 +772,7 @@ exports[`Experience component renders the component 1`] = `
         </div>
       </li>
       <li
-        class="items-baseline flex gap-x-1.5 "
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
         data-testid="visibility-control"
         data-visible=""
       >
@@ -840,10 +840,12 @@ exports[`Experience component renders the component 1`] = `
         </div>
       </li>
       <li
-        class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
         data-testid="visibility-control"
+        data-visible=""
       >
         <input
+          checked=""
           class="print:hidden"
           type="checkbox"
         />
@@ -864,30 +866,36 @@ exports[`Experience component renders the component 1`] = `
             class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
           >
             <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+              class="items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
+              data-visible=""
             >
               <input
+                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
               Developed systems to address the company's internal needs and automate tasks, leveraging technologies such as Vue.js, and Node.js;
             </li>
             <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+              class="items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
+              data-visible=""
             >
               <input
+                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
               Created a Proof of Concept (POC) that introduced a simplified method for product registration on the platform;
             </li>
             <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+              class="items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
+              data-visible=""
             >
               <input
+                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -900,10 +908,12 @@ exports[`Experience component renders the component 1`] = `
         </div>
       </li>
       <li
-        class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
         data-testid="visibility-control"
+        data-visible=""
       >
         <input
+          checked=""
           class="print:hidden"
           type="checkbox"
         />
@@ -924,20 +934,24 @@ exports[`Experience component renders the component 1`] = `
             class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
           >
             <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+              class="items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
+              data-visible=""
             >
               <input
+                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
               Designed a system to generate blog post images using components and pre-defined templates, thereby enhancing the productivity of the design team by 1000%;
             </li>
             <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+              class="items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
+              data-visible=""
             >
               <input
+                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -954,10 +968,12 @@ exports[`Experience component renders the component 1`] = `
               Implemented the Arabic version of the "Hotmart blog";
             </li>
             <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+              class="items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
+              data-visible=""
             >
               <input
+                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -970,7 +986,7 @@ exports[`Experience component renders the component 1`] = `
         </div>
       </li>
       <li
-        class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1040,7 +1056,7 @@ exports[`Experience component renders the component 1`] = `
         </div>
       </li>
       <li
-        class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1120,7 +1136,7 @@ exports[`Experience component renders the component 1`] = `
         </div>
       </li>
       <li
-        class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input

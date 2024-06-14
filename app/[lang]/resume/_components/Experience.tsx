@@ -23,7 +23,7 @@ export default function Experience() {
           ({ key, companyName, year, resumeResponsibilities, resume }) => (
             <VisibilityControl
               key={key}
-              className="items-baseline"
+              className="items-baseline break-inside-avoid"
               defaultVisible={resume}
             >
               <div>
