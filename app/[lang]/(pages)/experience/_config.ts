@@ -76,8 +76,8 @@ export const experience = [
     companyId: "hotmart",
     companyName: "Hotmart",
     year: "2018",
-    resume: false,
-    resumeResponsibilities: [],
+    resume: true,
+    resumeResponsibilities: [1, 2],
     hasBlackLogo: false,
   },
   {
@@ -85,8 +85,8 @@ export const experience = [
     companyId: "hotmart",
     companyName: "Hotmart",
     year: "2017 ~ 2018",
-    resume: false,
-    resumeResponsibilities: [],
+    resume: true,
+    resumeResponsibilities: [1, 2],
     hasBlackLogo: false,
   },
   {
