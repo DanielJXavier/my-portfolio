@@ -44,8 +44,9 @@ export default function Skills() {
         {hardSkills.current.map(({ key, name, visible }) => (
           <VisibilityControl
             className={`col-start-1 ${
-              visible &&
-              "print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px]"
+              visible
+                ? "print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px]"
+                : ""
             }`}
             key={key}
             defaultVisible={visible}
@@ -56,8 +57,9 @@ export default function Skills() {
         {softSkills.current.map(({ key, name, visible }) => (
           <VisibilityControl
             className={`col-start-2 ${
-              visible &&
-              "print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px]"
+              visible
+                ? "print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px]"
+                : ""
             }`}
             key={key}
             defaultVisible={visible}

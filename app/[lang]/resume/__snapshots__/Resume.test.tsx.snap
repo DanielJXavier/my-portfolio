@@ -102,36 +102,30 @@ This blend of technical expertise and leadership has shaped me into a well-round
         class="grid grid-flow-row-dense grid-cols-2 print:flex print:gap-x-3.5 print:flex-wrap"
       >
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
-          data-visible=""
         >
           <input
-            checked=""
             class="print:hidden"
             type="checkbox"
           />
           HTML5
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
-          data-visible=""
         >
           <input
-            checked=""
             class="print:hidden"
             type="checkbox"
           />
           CSS3
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
-          data-visible=""
         >
           <input
-            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -150,27 +144,31 @@ This blend of technical expertise and leadership has shaped me into a well-round
           React
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
           data-testid="visibility-control"
+          data-visible=""
         >
           <input
+            checked=""
             class="print:hidden"
             type="checkbox"
           />
           Next.js
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
           data-testid="visibility-control"
+          data-visible=""
         >
           <input
+            checked=""
             class="print:hidden"
             type="checkbox"
           />
           Tailwind CSS
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -180,7 +178,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Vue.js
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -190,7 +188,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Nuxt.js
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -200,7 +198,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Angular
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -210,7 +208,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Responsive Design
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -220,7 +218,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           SEO
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -230,7 +228,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           SSR
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -240,7 +238,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Sass
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -250,17 +248,19 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Semantical HTML
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
           data-testid="visibility-control"
+          data-visible=""
         >
           <input
+            checked=""
             class="print:hidden"
             type="checkbox"
           />
           TypeScript
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -270,7 +270,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Webpack
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -280,7 +280,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Redux
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -290,7 +290,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           jQuery
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -300,7 +300,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Web Accessibility
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -310,7 +310,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Core Web Vitals
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -320,7 +320,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Web Performance
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -330,7 +330,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Web Security
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -340,7 +340,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Web Sockets
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -350,7 +350,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Styled Components
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -372,7 +372,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Node.js
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -382,7 +382,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Express
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -392,7 +392,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           LoopBack
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -402,7 +402,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Meteor
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -412,7 +412,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Jest
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -422,7 +422,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Code Coverage
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -432,7 +432,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           React Testing Library
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -442,7 +442,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Cypress
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -452,7 +452,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Chromatic
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -462,7 +462,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           HTTP
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -472,7 +472,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           GraphQL
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -482,7 +482,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           REST
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -492,7 +492,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           PHP
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -502,7 +502,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           WordPress
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -512,7 +512,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Magento
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -522,7 +522,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Laravel
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -532,7 +532,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Nginx
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -542,7 +542,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Apache
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -552,7 +552,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           GitHub Actions
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -562,7 +562,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Bash
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -572,7 +572,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Docker
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -582,7 +582,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           YML
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -592,7 +592,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           AWS
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -602,7 +602,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Kubernets
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -612,7 +612,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Terraform
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -622,7 +622,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           SQL
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -632,7 +632,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           MySQL
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -642,7 +642,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           SQL Server
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -652,7 +652,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           PostgreSQL
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -662,7 +662,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Oracle
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -672,7 +672,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           NoSQL
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -682,7 +682,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           MongoDB
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -692,7 +692,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Jira
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -702,7 +702,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Confluence
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -712,7 +712,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Slack Workflows
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -722,7 +722,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Slack Apps
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -732,7 +732,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           BPMN
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -742,7 +742,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           A/B Testing
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -752,7 +752,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Atomic Design
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -762,7 +762,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Design Systems
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -772,7 +772,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Semantic Versioning
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -782,7 +782,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           UI/UX
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -792,7 +792,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Functional Programming
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -802,7 +802,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           OOP
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -812,7 +812,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Regular Expressions
         </li>
         <li
-          class="col-start-1 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -822,7 +822,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           MarkDown
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -868,7 +868,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Decision Making
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -890,7 +890,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Conflict Resolution
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -900,7 +900,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Adaptability
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -910,7 +910,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Time Management
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -920,7 +920,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Organization
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -930,7 +930,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Strategic Thinking
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -940,7 +940,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Mentoring
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -962,7 +962,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Resilience
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -972,7 +972,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Critical Thinking
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -982,7 +982,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Creativity
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -992,7 +992,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Active Listening
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1002,7 +1002,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Team Building
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1012,7 +1012,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Ethical Decision Making
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1022,7 +1022,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Customer Orientation
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1032,7 +1032,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Learning Agility
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1042,7 +1042,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Curiosity
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1052,7 +1052,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Patience
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1062,7 +1062,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Public Speaking
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1072,7 +1072,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Networking
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1082,7 +1082,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Multitasking
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1092,7 +1092,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Attention to Detail
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1102,7 +1102,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Motivation
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1112,7 +1112,7 @@ This blend of technical expertise and leadership has shaped me into a well-round
           Persuasion
         </li>
         <li
-          class="col-start-2 false flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
