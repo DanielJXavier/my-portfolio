@@ -5,6 +5,8 @@ import { Lang } from "i18n-config";
 
 import { education } from "@/[lang]/(pages)/education/_config";
 
+import VisibilityControl from "./VisibiltyControl";
+
 export default function Education() {
   const { lang } = useParams<{ lang: Lang }>();
 
@@ -16,17 +18,23 @@ export default function Education() {
   return (
     <section>
       <h2 className="text-[16pt] font-bold">{sectionTitles.education}</h2>
-      <div className="flex flex-col gap-y-3">
+      <ul className="flex flex-col gap-y-3">
         {education.map(({ schoolId, schoolName }, i) => (
-          <div key={`education-item-${i}`}>
-            <p className="text-[12pt] font-bold">
-              {educationStrings[schoolId].degree},{" "}
-              {educationStrings[schoolId].fieldOfStudy}
-            </p>
-            <p className="text-[12pt]">{schoolName}</p>
-          </div>
+          <VisibilityControl
+            key={`education-item-${i}`}
+            className="items-baseline"
+            tag="li"
+          >
+            <div>
+              <p className="text-[12pt] font-bold">
+                {educationStrings[schoolId].degree},{" "}
+                {educationStrings[schoolId].fieldOfStudy}
+              </p>
+              <p className="text-[12pt]">{schoolName}</p>
+            </div>
+          </VisibilityControl>
         ))}
-      </div>
+      </ul>
     </section>
   );
 }
