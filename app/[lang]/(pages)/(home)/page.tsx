@@ -50,10 +50,10 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
           </div>
         </div>
       </section>
-      <section className="mt-4 py-4 md:py-8 flex flex-col lg:flex-row gap-y-3 md:gap-y-4 lg:gap-x-2 xl:gap-x-12 items-center [&_svg]:md:w-6 [&_svg]:md:h-6">
+      <section className="mt-4 py-4 md:py-8 flex flex-col lg:flex-row gap-y-3 md:gap-y-4 lg:gap-x-2 xl:gap-x-12 items-center">
         {links.email && (
           <a
-            className="flex gap-x-1.5 xl:gap-x-2 hover:text-secondary [&_svg]:hover:fill-secondary text-sm md:text-base"
+            className="group/svg flex gap-x-1.5 xl:gap-x-2 hover:text-secondary text-sm md:text-base"
             href={`mailto:${links.email}`}
             target="_blank"
           >
@@ -63,7 +63,7 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
         )}
         {links.whatsApp && (
           <a
-            className="flex gap-x-1.5 xl:gap-x-2 hover:text-secondary [&_svg]:hover:fill-secondary text-sm md:text-base"
+            className="group/svg flex gap-x-1.5 xl:gap-x-2 hover:text-secondary text-sm md:text-base"
             href={`https://wa.me/${links.whatsApp.replaceAll(/\+|\s|-/g, "")}`}
             target="_blank"
           >
@@ -73,7 +73,7 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
         )}
         {links.linkedIn && (
           <a
-            className="flex gap-x-1.5 xl:gap-x-2 hover:text-secondary [&_svg]:hover:fill-secondary text-sm md:text-base"
+            className="group/svg flex gap-x-1.5 xl:gap-x-2 hover:text-secondary text-sm md:text-base"
             href={`https://www.linkedin.com/in/${links.linkedIn}/`}
             target="_blank"
           >
@@ -82,7 +82,7 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
         )}
         {links.gitHub && (
           <a
-            className="flex gap-x-1.5 xl:gap-x-2 hover:text-secondary [&_svg]:hover:fill-secondary text-sm md:text-base"
+            className="group/svg flex gap-x-1.5 xl:gap-x-2 hover:text-secondary text-sm md:text-base"
             href={`https://github.com/${links.gitHub}`}
             target="_blank"
           >
@@ -91,7 +91,7 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
         )}
         {links.instagram && (
           <a
-            className="flex gap-x-1.5 xl:gap-x-2 hover:text-secondary [&_svg]:hover:fill-secondary text-sm md:text-base"
+            className="group/svg flex gap-x-1.5 xl:gap-x-2 hover:text-secondary text-sm md:text-base"
             href={`https://www.instagram.com/${links.instagram}/`}
             target="_blank"
           >

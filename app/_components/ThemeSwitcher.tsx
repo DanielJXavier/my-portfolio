@@ -24,7 +24,7 @@ const ThemeSwitcher = () => {
 
   return (
     <button
-      className="p-1 rounded-full bg-[#e6eaee] dark:bg-[#444547] [&_svg]:lg:w-6 [&_svg]:lg:h-6 [&_svg]:hover:fill-secondary"
+      className="group/svg p-1 rounded-full bg-[#e6eaee] dark:bg-[#444547]"
       onClick={() => setDark(!dark)}
       aria-label={`Toggle to ${dark ? "light" : "dark"} theme`}
       data-testid="theme-switcher"

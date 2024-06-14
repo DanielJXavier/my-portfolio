@@ -1,7 +1,7 @@
 export default function LightMode() {
   return (
     <svg
-      className="fill-primary w-5 h-5"
+      className="fill-primary group-hover/svg:fill-secondary w-5 lg:w-6 h-5 lg:h-6"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 -960 960 960"
     >
