@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 
-import { useParams } from "next/navigation";
+import { useParams, useSearchParams } from "next/navigation";
 
 import { getDictionary } from "get-dictionary";
 import { Lang } from "i18n-config";
@@ -10,8 +10,9 @@ import { Lang } from "i18n-config";
 import Title from "@/_components/Title";
 import Psychology from "@/_icons/Psychology";
 
-import { hardSkills, softSkills as softSkillsKeys } from "./_config";
 import Menu from "../_components/Menu";
+
+import { hardSkills, softSkills as softSkillsKeys } from "./_config";
 import shuffle from "./_utils/shuffle";
 
 const mapSizeToFontSize = {
@@ -24,6 +25,9 @@ const mapSizeToFontSize = {
 
 export default function Skills() {
   const { lang } = useParams<{ lang: Lang }>();
+  const searchParams = useSearchParams();
+
+  const random = searchParams.get("random");
 
   const {
     skills: { title, menu: menuStrings, soft: softSkillsStrings, bottomText },
@@ -68,15 +72,17 @@ export default function Skills() {
         handleClick={handleClick}
       />
       <article className="my-6 md:my-8 lg:my-10 flex gap-x-3 md:gap-x-5 lg:gap-x-8 gap-y-2 md:gap-y-3 lg:gap-y-4 flex-wrap items-center justify-center lg:justify-between">
-        {shuffle(skills).map(({ key, name, size }) => (
-          <span
-            className={`${mapSizeToFontSize[size]} font-light tracking-tighter [word-spacing:-0.35em]`}
-            key={key}
-            suppressHydrationWarning
-          >
-            {name}
-          </span>
-        ))}
+        {(random === "0" ? skills : shuffle(skills)).map(
+          ({ key, name, size }) => (
+            <span
+              className={`${mapSizeToFontSize[size]} font-light tracking-tighter [word-spacing:-0.35em]`}
+              key={key}
+              suppressHydrationWarning
+            >
+              {name}
+            </span>
+          )
+        )}
       </article>
       <article className="py-5 md:py-6 lg:py-8 text-base md:text-lg lg:text-2xl font-light text-center lg:text-justify">
         {bottomText}

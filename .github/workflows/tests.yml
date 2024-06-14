@@ -47,13 +47,9 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Build
-        env:
-          CYPRESS: true
         run: yarn build
 
       - name: E2E Tests
-        env:
-          CYPRESS: true
         run: |
           yarn start & npx wait-on http://localhost:3000
           yarn cy:run

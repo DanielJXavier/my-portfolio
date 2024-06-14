@@ -37,7 +37,7 @@ export const pages = [
   },
   {
     name: "Skills",
-    path: "/en/skills",
+    path: "/en/skills?random=0",
   },
   {
     name: "Recommendations",

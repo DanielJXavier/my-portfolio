@@ -6,11 +6,15 @@ import Page, { generateMetadata } from "./page";
 
 import en from "dictionaries/en.json";
 
-import { useParams } from "next/navigation";
+import { useParams, useSearchParams } from "next/navigation";
 
 jest.mock("next/navigation");
 
 (useParams as jest.Mock).mockImplementation(() => ({ lang: "en" }));
+
+(useSearchParams as jest.Mock).mockImplementation(() => ({
+  get: jest.fn().mockImplementation((_) => null),
+}));
 
 describe("Skills page (Server-side)", () => {
   it("renders the page", () => {
