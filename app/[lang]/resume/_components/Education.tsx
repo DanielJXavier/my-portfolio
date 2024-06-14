@@ -23,7 +23,6 @@ export default function Education() {
           <VisibilityControl
             key={`education-item-${i}`}
             className="items-baseline"
-            tag="li"
           >
             <div>
               <p className="text-[12pt] font-bold">

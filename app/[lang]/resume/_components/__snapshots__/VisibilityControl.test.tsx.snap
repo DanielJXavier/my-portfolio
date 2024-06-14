@@ -2,7 +2,7 @@
 
 exports[`VisibiltyControl component renders the component 1`] = `
 <div>
-  <div
+  <li
     class=" flex gap-x-1.5 "
     data-testid="visibility-control"
     data-visible=""
@@ -13,6 +13,6 @@ exports[`VisibiltyControl component renders the component 1`] = `
       type="checkbox"
     />
     children
-  </div>
+  </li>
 </div>
 `;

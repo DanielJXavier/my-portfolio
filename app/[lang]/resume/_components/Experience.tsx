@@ -25,7 +25,6 @@ export default function Experience() {
               key={key}
               className="items-baseline"
               defaultVisible={resume}
-              tag="li"
             >
               <div>
                 <p className="text-[12pt] font-bold">
@@ -42,7 +41,6 @@ export default function Experience() {
                           (resumeResponsibility) =>
                             resumeResponsibility === i + 1
                         )}
-                        tag="li"
                       >
                         {responsibility}
                       </VisibilityControl>
@@ -51,7 +49,6 @@ export default function Experience() {
                   <VisibilityControl
                     className="items-baseline"
                     defaultVisible={resume}
-                    tag="li"
                   >
                     {biggestChallengeTitle}:{" "}
                     {experienceStrings[key].biggestChallenge}

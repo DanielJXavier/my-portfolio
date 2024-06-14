@@ -13,67 +13,69 @@ exports[`Resume page (Client-side) renders the page 1`] = `
          
         Xavier
       </h1>
-      <div
-        class=" flex gap-x-1.5 "
-        data-testid="visibility-control"
-        data-visible=""
-      >
-        <input
-          checked=""
-          class="print:hidden"
-          type="checkbox"
-        />
-        dxdanielxavier@gmail.com
-      </div>
-      <div
-        class=" flex gap-x-1.5 "
-        data-testid="visibility-control"
-        data-visible=""
-      >
-        <input
-          checked=""
-          class="print:hidden"
-          type="checkbox"
-        />
-        +55 31 99732-5804
-      </div>
-      <div
-        class=" flex gap-x-1.5 "
-        data-testid="visibility-control"
-        data-visible=""
-      >
-        <input
-          checked=""
-          class="print:hidden"
-          type="checkbox"
-        />
-        <a
-          class="underline"
-          href="https://www.linkedin.com/in/danieljxavier/"
-          target="_blank"
+      <ul>
+        <li
+          class=" flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
         >
-          linkedin.com/in/
-          danieljxavier
-        </a>
-      </div>
-      <div
-        class=" flex gap-x-1.5 "
-        data-testid="visibility-control"
-        data-visible=""
-      >
-        <input
-          checked=""
-          class="print:hidden"
-          type="checkbox"
-        />
-        <a
-          class="underline"
-          href="https://www.danielxavier.dev/"
-          target="_blank"
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          dxdanielxavier@gmail.com
+        </li>
+        <li
+          class=" flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
         >
-          danielxavier.dev
-        </a>
-      </div>
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          +55 31 99732-5804
+        </li>
+        <li
+          class=" flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          <a
+            class="underline"
+            href="https://www.linkedin.com/in/danieljxavier/"
+            target="_blank"
+          >
+            linkedin.com/in/
+            danieljxavier
+          </a>
+        </li>
+        <li
+          class=" flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          <a
+            class="underline"
+            href="https://www.danielxavier.dev/"
+            target="_blank"
+          >
+            danielxavier.dev
+          </a>
+        </li>
+      </ul>
     </section>
     <section>
       <h2

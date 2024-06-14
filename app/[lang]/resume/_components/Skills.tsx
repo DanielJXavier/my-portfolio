@@ -49,7 +49,6 @@ export default function Skills() {
             }`}
             key={key}
             defaultVisible={visible}
-            tag="li"
           >
             {name}
           </VisibilityControl>
@@ -62,7 +61,6 @@ export default function Skills() {
             }`}
             key={key}
             defaultVisible={visible}
-            tag="li"
           >
             {name}
           </VisibilityControl>
