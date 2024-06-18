@@ -72,16 +72,6 @@ exports[`Experience component renders the component 1`] = `
               I mentored the team members through their performance cycles with clear and achievable goals for the next year;
             </li>
             <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              I led team ceremonies with agile practices to ensure a streamlined workflow improving task throughtput in 50%;
-            </li>
-            <li
               class="items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
               data-visible=""
@@ -91,7 +81,17 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Worked closely with the Product Manager to mitigate risks and effective product decisions;
+              I led team ceremonies with agile practices to ensure a streamlined workflow improving task throughtput in 50%;
+            </li>
+            <li
+              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+              data-testid="visibility-control"
+            >
+              <input
+                class="print:hidden"
+                type="checkbox"
+              />
+              Worked closely with the Product Manager to mitigate risks and make effective product decisions;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -174,10 +174,12 @@ exports[`Experience component renders the component 1`] = `
               I structured the team into 3 independent squads to support the strategic plan for next year;¹
             </li>
             <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+              class="items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
+              data-visible=""
             >
               <input
+                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -250,12 +252,10 @@ exports[`Experience component renders the component 1`] = `
               I led a team of 9 developers, influencing technical decisions;
             </li>
             <li
-              class="items-baseline flex gap-x-1.5 "
+              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
               data-testid="visibility-control"
-              data-visible=""
             >
               <input
-                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -284,14 +284,16 @@ exports[`Experience component renders the component 1`] = `
               I ensured the continuous evolution of the Design System and its adoption by other teams;
             </li>
             <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+              class="items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
+              data-visible=""
             >
               <input
+                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
-              I created processes for contributing to the Design System project, bringing 10 new employees;
+              I created processes for contributing to the Design System project, bringing 10 new external contributors;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -459,7 +461,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Architected the solution from the ground up and delivered it for 4 new clients;
+              Architected the solution from the ground up and delivered it to 4 new clients;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -537,13 +539,15 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Led directly a multidisciplinary software development team of 28 people
+              Led directly a multidisciplinary software development team of 28 people;
             </li>
             <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+              class="items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
+              data-visible=""
             >
               <input
+                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
