@@ -13,8 +13,7 @@
 # testing
 /coverage
 /cypress/downloads/*
-/cypress/screenshots/*
-/cypress/visual-testing/**/__diff_output__
+/cypress/screenshots/**/__diff_output__
 
 # next.js
 /.next/

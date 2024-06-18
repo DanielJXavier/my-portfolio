@@ -57,5 +57,5 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: failure()
         with:
-          name: cypress-visual-testing
-          path: cypress/visual-testing
+          name: cypress-screenshots
+          path: cypress/screenshots
