@@ -26,7 +26,7 @@ describe("ExperienceItem component", () => {
         companyName={companyName}
         year={year}
         description={experienceStrings.items[key].description}
-        responsibilities={experienceStrings.items[key].responsibilities}
+        accomplishments={experienceStrings.items[key].accomplishments}
         biggestChallenge={experienceStrings.items[key].biggestChallenge}
         imageAltText={experienceStrings.imageAltText}
         hasBlackLogo={hasBlackLogo}
@@ -58,7 +58,7 @@ describe("ExperienceItem component", () => {
         companyName={companyName}
         year={year}
         description={experienceStrings.items[key].description}
-        responsibilities={experienceStrings.items[key].responsibilities}
+        accomplishments={experienceStrings.items[key].accomplishments}
         biggestChallenge={experienceStrings.items[key].biggestChallenge}
         imageAltText={experienceStrings.imageAltText}
         hasBlackLogo={true}
@@ -83,7 +83,7 @@ describe("ExperienceItem component", () => {
           companyName={companyName}
           year={year}
           description={experienceStrings.items[key].description}
-          responsibilities={experienceStrings.items[key].responsibilities}
+          accomplishments={experienceStrings.items[key].accomplishments}
           biggestChallenge={experienceStrings.items[key].biggestChallenge}
           imageAltText={experienceStrings.imageAltText}
           hasBlackLogo={hasBlackLogo}
@@ -93,7 +93,7 @@ describe("ExperienceItem component", () => {
 
     const experienceItem = screen.getByTestId("experience-item");
 
-    const firstResponsibilityElement = experienceItem.querySelector(
+    const firstAccomplishmentsElement = experienceItem.querySelector(
       "section:nth-of-type(2) > ul > li"
     );
 
@@ -103,8 +103,8 @@ describe("ExperienceItem component", () => {
 
     expect(experienceItem).toBeInTheDocument();
 
-    expect(firstResponsibilityElement?.innerHTML).toContain(
-      experienceStrings.items[key].responsibilities[0]
+    expect(firstAccomplishmentsElement?.innerHTML).toContain(
+      experienceStrings.items[key].accomplishments[0]
     );
 
     expect(challenge?.innerHTML).toContain(

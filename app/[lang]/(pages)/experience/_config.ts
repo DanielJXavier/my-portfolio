@@ -5,7 +5,7 @@ export const experience = [
     companyName: "OLX",
     year: "2024",
     resume: true,
-    resumeResponsibilities: [1, 2, 5],
+    resumeAccomplishments: [1, 2, 5],
     hasBlackLogo: false,
   },
   {
@@ -14,7 +14,7 @@ export const experience = [
     companyName: "OLX",
     year: "2023",
     resume: true,
-    resumeResponsibilities: [1, 2, 3],
+    resumeAccomplishments: [1, 2, 3],
     hasBlackLogo: false,
   },
   {
@@ -23,7 +23,7 @@ export const experience = [
     companyName: "OLX",
     year: "2022 ~ 2023",
     resume: true,
-    resumeResponsibilities: [1, 2, 3],
+    resumeAccomplishments: [1, 2, 3],
     hasBlackLogo: false,
   },
   {
@@ -31,7 +31,7 @@ export const experience = [
     companyId: "olx",
     companyName: "OLX",
     year: "2021 ~ 2022",
-    resumeResponsibilities: [1, 2, 3],
+    resumeAccomplishments: [1, 2, 3],
     resume: true,
     hasBlackLogo: false,
   },
@@ -40,7 +40,7 @@ export const experience = [
     companyId: "meaning",
     companyName: "Meaning",
     year: "2023",
-    resumeResponsibilities: [1, 2, 3],
+    resumeAccomplishments: [1, 2, 3],
     resume: true,
     hasBlackLogo: false,
   },
@@ -50,7 +50,7 @@ export const experience = [
     companyName: "Softplan",
     year: "2020 ~ 2021",
     resume: true,
-    resumeResponsibilities: [1, 3, 5],
+    resumeAccomplishments: [1, 3, 5],
     hasBlackLogo: false,
   },
   {
@@ -59,7 +59,7 @@ export const experience = [
     companyName: "Softplan",
     year: "2019 ~ 2020",
     resume: true,
-    resumeResponsibilities: [1, 2, 4],
+    resumeAccomplishments: [1, 2, 4],
     hasBlackLogo: false,
   },
   {
@@ -68,7 +68,7 @@ export const experience = [
     companyName: "Softplan",
     year: "2018 ~ 2019",
     resume: true,
-    resumeResponsibilities: [1, 2],
+    resumeAccomplishments: [1, 2, 3],
     hasBlackLogo: false,
   },
   {
@@ -77,7 +77,7 @@ export const experience = [
     companyName: "Hotmart",
     year: "2018",
     resume: true,
-    resumeResponsibilities: [1, 2],
+    resumeAccomplishments: [1, 2],
     hasBlackLogo: false,
   },
   {
@@ -86,7 +86,7 @@ export const experience = [
     companyName: "Hotmart",
     year: "2017 ~ 2018",
     resume: true,
-    resumeResponsibilities: [1, 2],
+    resumeAccomplishments: [1, 2],
     hasBlackLogo: false,
   },
   {
@@ -95,7 +95,7 @@ export const experience = [
     companyName: "Hotmart",
     year: "2016 ~ 2017",
     resume: false,
-    resumeResponsibilities: [],
+    resumeAccomplishments: [],
     hasBlackLogo: false,
   },
   {
@@ -104,7 +104,7 @@ export const experience = [
     companyName: "Sydle",
     year: "2014 ~ 2016",
     resume: false,
-    resumeResponsibilities: [],
+    resumeAccomplishments: [],
     hasBlackLogo: true,
   },
   {
@@ -113,7 +113,7 @@ export const experience = [
     companyName: "Sydle",
     year: "2012 ~ 2014",
     resume: false,
-    resumeResponsibilities: [],
+    resumeAccomplishments: [],
     hasBlackLogo: true,
   },
 ] as const;

@@ -15,7 +15,7 @@ type ExperienceItemPropsType = Readonly<{
   companyName: string;
   year: string;
   description: string;
-  responsibilities: string[];
+  accomplishments: string[];
   biggestChallenge: string;
   imageAltText: {
     prefix: string;
@@ -42,7 +42,7 @@ export default function ExperienceItem({
   companyName,
   year,
   description,
-  responsibilities,
+  accomplishments,
   biggestChallenge,
   imageAltText,
   hasBlackLogo,
@@ -50,7 +50,7 @@ export default function ExperienceItem({
   const { lang } = useParams<{ lang: Lang }>();
 
   const {
-    experience: { responsibilitiesTitle, biggestChallengeTitle },
+    experience: { accomplishmentsTitle, biggestChallengeTitle },
   } = getDictionary(lang);
 
   const experienceMode = useContext(ExperienceModeContext);
@@ -82,11 +82,11 @@ export default function ExperienceItem({
         <>
           <section className="mt-4 pl-14 xl:px-14">
             <h3 className="font-semibold xl:text-xl">
-              {responsibilitiesTitle}:
+              {accomplishmentsTitle}:
             </h3>
             <ul className="pl-7 list-disc text-sm xl:text-base">
-              {responsibilities.map((responsibility, i) => (
-                <li key={`responsibility-${i}`}>{responsibility}</li>
+              {accomplishments.map((accomplishment, i) => (
+                <li key={`accomplishment-${i}`}>{accomplishment}</li>
               ))}
             </ul>
           </section>

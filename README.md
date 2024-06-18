@@ -30,7 +30,7 @@ All the pages were created following the LinkedIn profile structure to keep it s
     - Start and end years;
     - A short description of the role;
   - It's possible to see a detailed version including:
-    - A list of the main responsibilities;
+    - A list of the main accomplishments;
     - The biggest challenge faced;
 - [Education](https://www.danielxavier.dev/en/education)
   - This page has a timeline of all my school and education history;

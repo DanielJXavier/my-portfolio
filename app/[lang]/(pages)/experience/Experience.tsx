@@ -51,7 +51,7 @@ export default function Experience() {
           companyName={companyName}
           year={year}
           description={experienceStrings[key].description}
-          responsibilities={experienceStrings[key].responsibilities}
+          accomplishments={experienceStrings[key].accomplishments}
           biggestChallenge={experienceStrings[key].biggestChallenge}
           imageAltText={imageAltText}
           hasBlackLogo={hasBlackLogo}

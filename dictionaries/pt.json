@@ -26,67 +26,65 @@
       "simple": "resumida",
       "detailed": "detalhada"
     },
-    "responsibilitiesTitle": "Principais responsabilidades",
+    "accomplishmentsTitle": "Principais conquistas",
     "biggestChallengeTitle": "Maior desafio",
     "items": {
       "olx-4": {
         "role": "Gerente de Engenharia de Software",
         "description": "Eu era o líder da equipe \"Ads Seller Experience\".",
-        "responsibilities": [
-          "Liderei uma equipe de 9 desenvolvedores, atuando como mentor e guia;",
-          "Entreguei os itens do roadpmap de cadastro e gerenciamento de anúncios da plataforma, incluindo a nova inserção de anúncios em etapas;",
-          "Construi um alto nível de engajamento dentro da equipe;",
-          "Realizei \"1:1s\" personalizados para orientar os membros da equipe em seus ciclos de desempenho;",
-          "Adotei metodologias ágeis e liderei cerimônias de equipe para garantir um fluxo de trabalho simplificado equilibrando tarefas técnicas e de produto;",
-          "Trabalhei de perto com o Gerente de Produto para garantir decisões de produto mais assertivas e eficazes;"
+        "accomplishments": [
+          "Liderei uma equipe de 9 desenvolvedores, engajando-os mesmo em cenário de crise;",
+          "Entreguei a nova jornada de Inserção de Anúncios em etapas, proporcionando aos usuários uma experiência fluida e mais fácil para vender itens na plataforma de classificados;",
+          "Definido um plano de ação para reescrever o aplicativo móvel da plataforma com tecnologias nativas;",
+          "Orientei os membros da equipe em seus ciclos de desempenho com metas claras e alcançáveis ​​para o próximo ano;",
+          "Liderei cerimônias de equipe com práticas ágeis para garantir um fluxo de trabalho simplificado, melhorando o rendimento das tarefas em 50%;",
+          "Trabalhei em estreita colaboração com o Gerente de Produto para mitigar riscos e tomar decisões eficazes sobre produtos;"
         ],
         "biggestChallenge": "Lidar com a pressão da liderança para fazer grandes entregas a curto prazo."
       },
       "olx-3": {
         "role": "Gerente de Engenharia de Software",
         "description": "Eu era o líder da equipe \"Search & Recommendation\"¹ e do capítulo \"Design System\"².",
-        "responsibilities": [
-          "Liderei uma equipe de 8 desenvolvedores, atuando como mentor e guia;¹",
-          "Realizei a execução bem-sucedida do roadmap dos sistemas de busca e recomendação, incluindo o novo algoritmo de classificação LTR;¹",
-          "Estruturei a equipe e propus uma nova abordagem para apoiar o plano estratégico para o próximo ano;¹",
-          "Esclareci o entendimento da empresa sobre os assuntos de busca e recomendação;¹",
-          "Supervisionei todos os desenvolvedores (9 devs) no capítulo indiretamente, fomentando um senso de unidade e direção;²",
-          "Fomentei o engajamento dentro do capítulo e garanti entregas valiosas apesar de trabalhar apenas uma vez por semana;²"
+        "accomplishments": [
+          "Liderei uma equipe de 8 desenvolvedores, aproveitando os pontos fortes de cada um deles;¹",
+          "Forneça um novo algoritmo de classificação LTR que traz 10% mais conversão;¹",
+          "Estruturei a equipe em 3 squads independentes para apoiar o plano estratégico para o próximo ano;¹",
+          "Liderei indiretamente todos os desenvolvedores (9 devs) do capítulo, mantendo o foco nas entregas mais valiosas;²",
+          "Lançado o Design System v3, trazendo 30% mais performance para todas as páginas da plataforma;²"
         ],
         "biggestChallenge": "Equilibrar as substanciais responsabilidades da equipe¹ e do capítulo² simultaneamente."
       },
       "olx-2": {
         "role": "Gerente de Engenharia de Software",
         "description": "Eu era o líder da equipe 'Design System'.",
-        "responsibilities": [
-          "Liderei uma equipe de 9 desenvolvedores, atuando como ponto de referência;",
-          "Fiz parceria ativa com a Gerente de Design para tomar decisões de produto ótimas e estabelecer um roadmap;",
-          "Entreguei o roadmap do Design System, incluindo uma nova página inicial da plataforma criada em menos de 48 horas;",
-          "Coletei e analisei dados para validar o valor do projeto para a empresa;",
-          "Garanti a evolução contínua do Design System e sua adoção por outras equipes;",
-          "Desenvolvi documentação e processos para contribuir para o projeto do Design System e gerenciar sua versão;"
+        "accomplishments": [
+          "Liderei uma equipe de 9 desenvolvedores, influenciando decisões técnicas;",
+          "Parceria de liderança com o Gerente de Design para tomar decisões de produto ideais e definir um roteiro de produto;",
+          "Entreguei o roteiro do Design System, incluindo uma nova página inicial da plataforma, criada em menos de 48 horas;",
+          "Garanti a evolução contínua do Design System e a sua adoção por outras equipas;",
+          "Criei processos para contribuição no projeto Design System, trazendo 10 novos colaboradores;"
         ],
         "biggestChallenge": "Assumir vários papéis simultaneamente, incluindo Gerente de Engenharia, Gerente de Produto, Analista de Dados, entre outros."
       },
       "olx-1": {
         "role": "Gerente de Engenharia de Software",
         "description": "Eu era o líder da equipe \"Advertising\".",
-        "responsibilities": [
-          "Liderei uma equipe de 7 desenvolvedores, atuando como referência chave;",
-          "Entreguei o roadmap de Publicidade direta e indireta para a plataforma que trouxeram R$80 milhões em receita;",
+        "accomplishments": [
+          "Liderei uma equipe de 7 desenvolvedores, servindo como referência chave;",
+          "Entreguei algumas melhorias publicitárias para a plataforma que geraram receita de R$ 80 milhões;",
           "Recrutei novos profissionais para aumentar a capacidade produtiva em 300%;",
-          "Fiz parceria ativa com a Gerente de Produto para priorizar e desenvolver as melhores iniciativas;",
-          "Propus uma nova estrutura para a área de Publicidade para melhorar os resultados;"
+          "Parceria ativa com o Gerente de Produto para priorizar e desenvolver iniciativas ideais;",
+          "Propus uma nova estrutura para a área de Publicidade para potencializar resultados;"
         ],
         "biggestChallenge": "Gerenciar altas expectativas relacionadas aos resultados de receita de Publicidade."
       },
       "meaning-1": {
         "role": "CTO & Sócio",
         "description": "Ocupei a posição de CTO e co-fundador na startup.",
-        "responsibilities": [
-          "Elaborei a visão técnica e a estratégia de produto da startup;",
-          "Arquitetei a solução desde o início;",
-          "Refinei as especificações técnicas do produto;",
+        "accomplishments": [
+          "Elaborei a visão técnica e estratégia de produto da startup;",
+          "Arquitetei a solução do zero e entreguei para 4 novos clientes;",
+          "Refinadas as especificações técnicas do produto;",
           "Desenvolvi um projeto de Prova de Conceito;"
         ],
         "biggestChallenge": "Converter um projeto altamente \"humano\", vindo de consultoria pessoal, em uma abordagem sistêmica."
@@ -94,45 +92,41 @@
       "softplan-3": {
         "role": "Coordenador de Desenvolvimento",
         "description": "Eu era o líder da equipe \"Estônia\".",
-        "responsibilities": [
-          "Liderei diretamente uma equipe multidisciplinar de desenvolvimento de software, inclusive Arquitetos de Software, Desenvolvedores, Analistas de Garantia de Qualidade, Gerente de Produtos, Analistas de Negócios e Agilistas;",
-          "Mentoreei e desenvolvi tanto funcionários diretos quanto indiretos, utilizando técnicas como 1:1 e feedforward;",
-          "Planejei e executei entregas para os 2 módulos mais críticos do sistema \"SAJ\";",
-          "Apliquei liderança situacional diária para maximizar o potencial daqueles sob minha orientação;",
-          "Estruturei e aprimorei continuamente o fluxo de trabalho da equipe usando metodologias ágeis de desenvolvimento de software;",
-          "Criei fórmulas e métricas para medir com precisão a capacidade da equipe, trazendo assim previsibilidade para as entregas;",
-          "Mapeei estratégias eficazes de retenção de talentos;"
+        "accomplishments": [
+          "Liderei diretamente uma equipe multidisciplinar de desenvolvimento de software de 28 pessoas",
+          "Entregas planejadas e executadas para os 2 módulos mais críticos do sistema \"SAJ\";",
+          "Estruturei e aprimorei continuamente o fluxo de trabalho da equipe utilizando metodologias ágeis de desenvolvimento de software;",
+          "Criei fórmulas e métricas para medir com precisão a capacidade da equipe, trazendo previsibilidade às entregas;"
         ],
         "biggestChallenge": "Gerenciar uma grande equipe (28 profissionais) e supervisionar entregas críticas."
       },
       "softplan-2": {
         "role": "Líder Técnico",
         "description": "Eu era o líder técnico do capítulo de Front-End.",
-        "responsibilities": [
+        "accomplishments": [
           "Desenvolvi o novo sistema \"SAJ\", construído usando React JS, .Net e GraphQL;",
           "Supervisionei as entregas e implantação de 17 módulos do sistema;",
-          "Ministrei treinamentos de HTML, CSS, JavaScript, React JS, GraphQL e testes unitários;",
+          "Forneci treinamento em HTML, CSS, JavaScript, React JS, GraphQL e testes unitários;",
           "Liderei uma equipe de 10 desenvolvedores Front-End React;",
-          "Recrutei novos funcionários para a empresa;",
-          "Selecionei novos profissionais terceirizados;",
-          "Desenvolvi profissionais através de sessões 1:1, feedforwards e mentorias;"
+          "Recrutou novos funcionários para a empresa e novos profissionais terceirizados;"
         ],
         "biggestChallenge": "Adquirir habilidades de liderança e dominar a gestão de pessoas."
       },
       "softplan-1": {
         "role": "Desenvolvedor Front-End Sênior",
         "description": "Eu era um desenvolvedor Front-End sênior na equipe \"França\".",
-        "responsibilities": [
+        "accomplishments": [
+          "Entregue o projeto mais crítico e complexo em menos de 6 meses",
           "Desenvolvi novas funcionalidades para o portal \"e-SAJ\" utilizando React JS e GraphQL;",
-          "Criei novas funcionalidades para o sistema \"SAJ Tribunais\" usando React JS e GraphQL;"
+          "Criação de novas funcionalidades para o sistema \"SAJ Tribunais\" utilizando React JS e GraphQL;"
         ],
         "biggestChallenge": "Gerenciar todas as entregas do projeto como o único desenvolvedor Front-End."
       },
       "hotmart-3": {
         "role": "Desenvolvedor Front-End Sênior",
         "description": "Eu era um desenvolvedor Front-End sênior na equipe de \"Growth Hacking\".",
-        "responsibilities": [
-          "Desenvolvi sistemas para atender às necessidades internas da empresa e automatizar tarefas, usando tecnologias como Vue.js e Node.js;",
+        "accomplishments": [
+          "Desenvolvi sistemas para atender às necessidades internas da empresa e automatizar tarefas, aproveitando tecnologias como Vue.js e Node.js trazendo mais de 1000 novos leads;",
           "Criei uma Prova de Conceito (POC) que introduziu um método simplificado para o registro de produtos na plataforma;"
         ],
         "biggestChallenge": "Equilibrar a necessidade de compreender claramente os requisitos do cliente e codificar simultaneamente."
@@ -140,7 +134,7 @@
       "hotmart-2": {
         "role": "Desenvolvedor Front-End Pleno",
         "description": "Eu era um desenvolvedor Front-End Pleno na equipe de \"User Acquisition\".",
-        "responsibilities": [
+        "accomplishments": [
           "Projetei um sistema para gerar imagens de postagens de blog usando componentes e modelos pré-definidos, aumentando assim a produtividade da equipe de design em 1000%;",
           "Desenvolvi um sistema de cache de alto desempenho para o \"blog Hotmart\" (WordPress), resultando em um aumento de desempenho de 300%;",
           "Implementei a versão em árabe do \"blog Hotmart\";"
@@ -150,7 +144,7 @@
       "hotmart-1": {
         "role": "Desenvolvedor Front-End Júnior",
         "description": "Eu era um desenvolvedor Front-End Júnior na equipe de \"User Acquisition\".",
-        "responsibilities": [
+        "accomplishments": [
           "Desenvolvi um novo tema WordPress para o \"blog Hotmart\" utilizando apenas HTML5, CSS Grid Layout e Vanilla JS;",
           "Implementei o novo layout para o \"blog Hotmart\";",
           "Criei recursos personalizados dentro da interface de administração do WordPress;"
@@ -160,7 +154,7 @@
       "sydle-2": {
         "role": "Analista de Suporte",
         "description": "Eu era um Analista de Suporte na equipe de \"Suporte & Sustentação\".",
-        "responsibilities": [
+        "accomplishments": [
           "Liderei o desenvolvimento de projetos web utilizando WordPress e Magento;",
           "Facilitei a modelagem e automação dos processos internos da empresa através do BPMN;",
           "Forneci suporte técnico abrangente aos usuários dos sistemas da empresa;",
@@ -171,7 +165,7 @@
       "sydle-1": {
         "role": "Estagiário de Suporte",
         "description": "Eu era um Estagiário de Suporte na equipe de \"Suporte & Sustentação\".",
-        "responsibilities": [
+        "accomplishments": [
           "Forneci suporte técnico aos usuários dos sistemas da empresa;",
           "Configurei e monitorei a infraestrutura em servidores Linux e Windows;",
           "Compilei relatórios da equipe;",

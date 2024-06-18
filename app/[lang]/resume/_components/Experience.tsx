@@ -20,7 +20,7 @@ export default function Experience() {
       <h2 className="text-[16pt] font-bold">{sectionTitles.experience}</h2>
       <ul className="flex flex-col gap-y-3">
         {experience.map(
-          ({ key, companyName, year, resumeResponsibilities, resume }) => (
+          ({ key, companyName, year, resumeAccomplishments, resume }) => (
             <VisibilityControl
               key={key}
               className="items-baseline break-inside-avoid"
@@ -32,17 +32,17 @@ export default function Experience() {
                 </p>
                 <p className="text-[12pt]">{year}</p>
                 <ul className="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]">
-                  {experienceStrings[key].responsibilities.map(
-                    (responsibility, i) => (
+                  {experienceStrings[key].accomplishments.map(
+                    (accomplishment, i) => (
                       <VisibilityControl
-                        key={`responsibility-${i}`}
+                        key={`accomplishment-${i}`}
                         className="items-baseline"
-                        defaultVisible={resumeResponsibilities?.some(
-                          (resumeResponsibility) =>
-                            resumeResponsibility === i + 1
+                        defaultVisible={resumeAccomplishments?.some(
+                          (resumeAccomplishment) =>
+                            resumeAccomplishment === i + 1
                         )}
                       >
-                        {responsibility}
+                        {accomplishment}
                       </VisibilityControl>
                     )
                   )}
