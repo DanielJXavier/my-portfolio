@@ -10,10 +10,12 @@ exports[`Summary component renders the component 1`] = `
     </h2>
     <textarea
       class="w-full text-[12pt] text-justify align-top border border-primary print:border-none print:resize-none"
-      rows="11"
+      rows="13"
     >
       With more than 10 years of experience in web development and expertise in TypeScript, JavaScript, React, and Node.js, I have consistently delivered elegant solutions to complex challenges. My proficiency extends beyond technical skills, as I have successfully led teams on complex projects with relevant results for the company.
+
 As an experienced Front-End developer and leader, I have a proven track record of designing intuitive user interfaces and robust backend systems, ensuring high performance, scalability, and security. My leadership style is rooted in collaboration and continuous improvement, driving my teams to achieve excellence.
+
 Now, I am focused back on the hands-on approach, designing and developing robust and scalable solutions with the best practices contributing actively to the company's goals achieving great results together!
     </textarea>
   </section>
