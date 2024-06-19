@@ -29,6 +29,16 @@
     "accomplishmentsTitle": "Main accomplishments",
     "biggestChallengeTitle": "Biggest challenge",
     "items": {
+      "danielxavier-1": {
+        "role": "Senior Full-Stack Developer",
+        "description": "I am a Senior Full-Stack developer.",
+        "accomplishments": [
+          "High performance and fully acessible professional website using React, Next.js, and Tailwind CSS;",
+          "Template based app for print medical reports with React, and Next.js;",
+          "Ticket booking API with Nest.js, and Kong;"
+        ],
+        "biggestChallenge": "To quickly conceptualize and release projects from scratch and with few defined requirements."
+      },
       "olx-4": {
         "role": "Software Engineering Manager",
         "description": "I was the leader of the \"Ads Seller Experience\" team.",

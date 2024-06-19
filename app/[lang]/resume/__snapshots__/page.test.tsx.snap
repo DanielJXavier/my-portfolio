@@ -1148,6 +1148,86 @@ Now, I am focused back on the hands-on approach, designing and developing robust
             <p
               class="text-[12pt] font-bold"
             >
+              Senior Full-Stack Developer
+               @ 
+              &lt;DanielXavier /&gt;
+            </p>
+            <p
+              class="text-[12pt]"
+            >
+              2024
+            </p>
+            <ul
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+            >
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                High performance and fully acessible professional website using React, Next.js, and Tailwind CSS;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Template based app for print medical reports with React, and Next.js;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Ticket booking API with Nest.js, and Kong;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Biggest challenge
+                :
+                 
+                To quickly conceptualize and release projects from scratch and with few defined requirements.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li
+          class="items-baseline break-inside-avoid flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt] font-bold"
+            >
               Software Engineering Manager
                @ 
               OLX

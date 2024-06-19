@@ -17,7 +17,7 @@ jest.mock("next/navigation");
 
 describe("ExperienceItem component", () => {
   it("renders the component", () => {
-    const { key, companyId, companyName, year, hasBlackLogo } = experience[0];
+    const { key, companyId, companyName, year, hasBlackLogo } = experience[1];
 
     render(
       <ExperienceItem
@@ -49,7 +49,7 @@ describe("ExperienceItem component", () => {
   });
 
   it("renders the component with black logo style", () => {
-    const { key, companyId, companyName, year } = experience[0];
+    const { key, companyId, companyName, year } = experience[1];
 
     render(
       <ExperienceItem
@@ -73,7 +73,7 @@ describe("ExperienceItem component", () => {
   });
 
   it("renders the component in the detailed mode", () => {
-    const { key, companyId, companyName, year, hasBlackLogo } = experience[0];
+    const { key, companyId, companyName, year, hasBlackLogo } = experience[1];
 
     render(
       <ExperienceModeContext.Provider value="detailed">

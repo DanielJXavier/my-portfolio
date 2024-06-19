@@ -1,5 +1,14 @@
 export const experience = [
   {
+    key: "danielxavier-1",
+    companyId: "danielxavier",
+    companyName: "<DanielXavier />",
+    year: "2024",
+    resume: true,
+    resumeAccomplishments: [1, 2, 3],
+    hasBlackLogo: true,
+  },
+  {
     key: "olx-4",
     companyId: "olx",
     companyName: "OLX",
