@@ -414,7 +414,7 @@ exports[`Experience page (Client-side) renders the page 1`] = `
       <h2
         class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
       >
-        Senior Front-End Developer
+        Senior Full-Stack Developer
          @ 
         Hotmart
         <span
@@ -432,7 +432,7 @@ exports[`Experience page (Client-side) renders the page 1`] = `
       <h3
         class="xl:text-xl"
       >
-        I was a Senior Front-End developer on the "Growth Hacking" team.
+        I was a Senior Full-Stack developer on the "Growth Hacking" team.
       </h3>
     </section>
   </article>
