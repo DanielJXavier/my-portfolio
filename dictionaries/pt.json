@@ -123,8 +123,8 @@
         "biggestChallenge": "Gerenciar todas as entregas do projeto como o único desenvolvedor Front-End."
       },
       "hotmart-3": {
-        "role": "Desenvolvedor Front-End Sênior",
-        "description": "Eu era um desenvolvedor Front-End sênior na equipe de \"Growth Hacking\".",
+        "role": "Desenvolvedor Full-Stack Sênior",
+        "description": "Eu era um desenvolvedor Full-Stack sênior na equipe de \"Growth Hacking\".",
         "accomplishments": [
           "Desenvolvi sistemas para atender às necessidades internas da empresa e automatizar tarefas, aproveitando tecnologias como Vue.js e Node.js trazendo mais de 1000 novos leads;",
           "Criei uma Prova de Conceito (POC) que introduziu um método simplificado para o registro de produtos na plataforma;"
