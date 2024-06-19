@@ -47,7 +47,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              High performance and fully acessible professional website using React, Next.js, and Tailwind CSS;
+              High-performance and fully accessible professional website using React, Next.js, and Tailwind CSS;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -59,7 +59,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Template based app for print medical reports with React, and Next.js;
+              Template-based app for printing medical reports with React, and Next.js;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
