@@ -6,11 +6,12 @@ export interface SkillInterface {
 
 export const hardSkills: SkillInterface[] = [
   /* Front-End */
+  { key: "react", name: "React", size: 5 },
+  { key: "next", name: "Next.js", size: 4 },
+  { key: "ts", name: "TypeScript", size: 4 },
+  { key: "js", name: "JavaScript", size: 5 },
   { key: "html", name: "HTML5", size: 5 },
   { key: "css", name: "CSS3", size: 5 },
-  { key: "js", name: "JavaScript", size: 5 },
-  { key: "react", name: "React", size: 4 },
-  { key: "next", name: "Next.js", size: 3 },
   { key: "tailwind", name: "Tailwind CSS", size: 4 },
   { key: "vue", name: "Vue.js", size: 1 },
   { key: "nuxt", name: "Nuxt.js", size: 1 },
@@ -20,7 +21,6 @@ export const hardSkills: SkillInterface[] = [
   { key: "ssr", name: "SSR", size: 2 },
   { key: "sass", name: "Sass", size: 4 },
   { key: "semantical-html", name: "Semantical HTML", size: 4 },
-  { key: "ts", name: "TypeScript", size: 4 },
   { key: "webpack", name: "Webpack", size: 1 },
   { key: "redux", name: "Redux", size: 1 },
   { key: "jquery", name: "jQuery", size: 1 },
@@ -90,8 +90,8 @@ export const hardSkills: SkillInterface[] = [
 ];
 
 export const softSkills = [
-  { key: "communication", size: 5 },
   { key: "leadership", size: 5 },
+  { key: "communication", size: 5 },
   { key: "problem-solving", size: 5 },
   { key: "decision-making", size: 5 },
   { key: "empathy", size: 5 },
