@@ -30,7 +30,7 @@
     "biggestChallengeTitle": "Biggest challenge",
     "items": {
       "danielxavier-1": {
-        "role": "Senior Full-Stack Developer",
+        "role": "Full Stack Engineer",
         "description": "I am a Senior Full-Stack developer.",
         "accomplishments": [
           "High-performance and fully accessible professional website using React, Next.js, and Tailwind CSS;",
@@ -122,7 +122,7 @@
         "biggestChallenge": "To acquire leadership skills and master people management."
       },
       "softplan-1": {
-        "role": "Senior Front-End Developer",
+        "role": "Senior Front-End Engineer",
         "description": "I was a Senior Front-End developer on the \"França\" team.",
         "accomplishments": [
           "Delivered the most critical and complex project in less than 6 months",
@@ -132,7 +132,7 @@
         "biggestChallenge": "To manage all the deliveries of the project as the sole Front-End developer."
       },
       "hotmart-3": {
-        "role": "Senior Full-Stack Developer",
+        "role": "Senior Full-Stack Engineer",
         "description": "I was a Senior Full-Stack developer on the \"Growth Hacking\" team.",
         "accomplishments": [
           "Developed systems to address the company's internal needs and automate tasks, leveraging technologies such as Vue.js, and Node.js bringing more than 1000 new leads;",
@@ -141,7 +141,7 @@
         "biggestChallenge": "To balance the need to comprehend customer requirements clearly while simultaneously coding."
       },
       "hotmart-2": {
-        "role": "Mid Level Front-End Developer",
+        "role": "Mid Level Front-End Engineer",
         "description": "I was a Mid Level Front-End developer on the \"User Acquisition\" team.",
         "accomplishments": [
           "Designed a system to generate blog post images using components and pre-defined templates, thereby enhancing the productivity of the design team by 1000%;",
@@ -151,7 +151,7 @@
         "biggestChallenge": "To conceptualize and develop complex solutions from the ground up."
       },
       "hotmart-1": {
-        "role": "Entry Level Front-End Developer",
+        "role": "Entry Level Front-End Engineer",
         "description": "I was an Entry Level Front-End developer on the \"User Acquisition\" team.",
         "accomplishments": [
           "Developed a new WordPress theme for the \"Hotmart blog\" utilizing only HTML5, CSS Grid Layout, and Vanilla JS;",

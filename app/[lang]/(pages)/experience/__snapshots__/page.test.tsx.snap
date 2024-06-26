@@ -62,7 +62,7 @@ exports[`Experience page (Server-side) renders the page 1`] = `
       <h2
         class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
       >
-        Senior Full-Stack Developer
+        Full Stack Engineer
          @ 
         &lt;DanielXavier /&gt;
         <span
@@ -414,7 +414,7 @@ exports[`Experience page (Server-side) renders the page 1`] = `
       <h2
         class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
       >
-        Senior Front-End Developer
+        Senior Front-End Engineer
          @ 
         Softplan
         <span
@@ -458,7 +458,7 @@ exports[`Experience page (Server-side) renders the page 1`] = `
       <h2
         class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
       >
-        Senior Full-Stack Developer
+        Senior Full-Stack Engineer
          @ 
         Hotmart
         <span
@@ -502,7 +502,7 @@ exports[`Experience page (Server-side) renders the page 1`] = `
       <h2
         class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
       >
-        Mid Level Front-End Developer
+        Mid Level Front-End Engineer
          @ 
         Hotmart
         <span
@@ -546,7 +546,7 @@ exports[`Experience page (Server-side) renders the page 1`] = `
       <h2
         class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
       >
-        Entry Level Front-End Developer
+        Entry Level Front-End Engineer
          @ 
         Hotmart
         <span
