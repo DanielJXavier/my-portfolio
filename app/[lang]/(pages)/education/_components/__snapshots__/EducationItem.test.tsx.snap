@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EducationItem component renders the component 1`] = `
+<div>
+  <article
+    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-[#2f4ccc] before:via-[#2f4ccc] before:to-background before:-z-10"
+    data-testid="education-item"
+  >
+    <header
+      class="flex items-start gap-x-2"
+    >
+      <img
+        alt="Logo of Estácio school"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Feducation%2Festacio.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fimages%2Feducation%2Festacio.jpg&w=48&q=75 1x, /_next/image?url=%2Fimages%2Feducation%2Festacio.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <h2
+        class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
+      >
+        Strategic People Management
+         @ 
+        Estácio
+        <span
+          class="text-xs md:text-sm"
+        >
+           (
+          2020 ~ 2021
+          )
+        </span>
+      </h2>
+    </header>
+    <section
+      class="pl-14 lg:px-14"
+    >
+      <h3
+        class="xl:text-xl"
+      >
+        Master of Business Administration - MBA
+      </h3>
+    </section>
+    <section
+      class="mt-4 pl-14 xl:px-14"
+    >
+      <ul
+        class="pl-7 list-disc text-sm xl:text-base"
+      >
+        <li>
+          Coaching and Leadership
+        </li>
+        <li>
+          Communication in Organizations
+        </li>
+        <li>
+          Conflict Management and Negotiation
+        </li>
+        <li>
+          Corporative Education
+        </li>
+        <li>
+          Creativity and Organizational Innovation
+        </li>
+        <li>
+          Finance Principles
+        </li>
+        <li>
+          Knowledge Management
+        </li>
+        <li>
+          Strategic Vision in People Management
+        </li>
+        <li>
+          Theory of Organizational Development
+        </li>
+      </ul>
+    </section>
+  </article>
+</div>
+`;

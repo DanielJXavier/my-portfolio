@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecommendationItem component renders the component 1`] = `
+<div>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (Renan Silva)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Frecommendations%2F1716417055984.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Fimages%2Frecommendations%2F1716417055984.jpeg&w=64&q=75 1x, /_next/image?url=%2Fimages%2Frecommendations%2F1716417055984.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Renan Silva
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Software Engineer
+           @ 
+          Acert Grup
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        I had the pleasure of working with Daniel Xavier at MEANING, and I can confidently say that he is an exceptional professional. Daniel stood out as a senior full-stack developer focused on front-end, with expertise in technologies such as React, Next.js, TypeScript, Node.js, and JavaScript. His technical ability is always far ahead of other team members.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        In addition to his advanced technical knowledge, Daniel is a proactive collaborator, always presenting innovative ideas that add value to projects. He has a natural ability to lead and inspire the team, creating a collaborative and productive work environment.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        I highly recommend Daniel Xavier for any position he applies for. I have full confidence that he will be a valuable addition to any team, bringing with him not only exceptional technical skills but also a positive attitude and exemplary work ethic.
+      </blockquote>
+    </section>
+  </article>
+</div>
+`;
