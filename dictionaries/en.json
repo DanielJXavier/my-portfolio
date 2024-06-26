@@ -28,6 +28,7 @@
     },
     "accomplishmentsTitle": "Main accomplishments",
     "biggestChallengeTitle": "Biggest challenge",
+    "mainStackTitle": "Main stack",
     "items": {
       "danielxavier-1": {
         "role": "Full Stack Engineer",
@@ -420,8 +421,7 @@
       "skills": "Skills",
       "experience": "Experience",
       "education": "Education"
-    },
-    "biggestChallengeTitle": "Biggest challenge"
+    }
   },
   "not-found": {
     "text": "There is no page here.",

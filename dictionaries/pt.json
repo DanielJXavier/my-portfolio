@@ -28,6 +28,7 @@
     },
     "accomplishmentsTitle": "Principais conquistas",
     "biggestChallengeTitle": "Maior desafio",
+    "mainStackTitle": "Stack principal",
     "items": {
       "danielxavier-1": {
         "role": "Senior Full-Stack Developer",
@@ -425,8 +426,7 @@
       "skills": "Competências",
       "experience": "Experiência",
       "education": "Formação acadêmica"
-    },
-    "biggestChallengeTitle": "Maior desafio"
+    }
   },
   "not-found": {
     "text": "Nenhuma página aqui.",

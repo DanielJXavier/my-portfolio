@@ -4,7 +4,7 @@ exports[`Education component renders the component 1`] = `
 <div>
   <section>
     <h2
-      class="text-[16pt] font-bold"
+      class="mb-2 text-[16pt] font-bold"
     >
       Education
     </h2>

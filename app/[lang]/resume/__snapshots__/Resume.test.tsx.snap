@@ -3,7 +3,7 @@
 exports[`Resume page (Client-side) renders the page 1`] = `
 <div>
   <main
-    class="max-w-[210mm] print:w-[210mm] row-span-3 flex flex-col gap-y-4 font-serif p-[0.5in]"
+    class="max-w-[210mm] print:w-[210mm] row-span-3 flex flex-col gap-y-3 font-serif p-[0.5in] leading-snug"
   >
     <section>
       <h1
@@ -87,11 +87,11 @@ exports[`Resume page (Client-side) renders the page 1`] = `
         class="w-full text-[12pt] text-justify align-top border border-primary print:border-none print:resize-none"
         rows="13"
       >
-        With more than 10 years of experience in web development and expertise in TypeScript, JavaScript, React, and Node.js, I have consistently delivered elegant solutions to complex challenges. My proficiency extends beyond technical skills, as I have successfully led teams on complex projects with relevant results for the company.
+        With more than 10 years of experience in fullstack web development and expertise in React, TypeScript, Next.js, Node.js, and JavaScript, I have consistently delivered elegant solutions to complex challenges. My proficiency extends beyond technical skills, as I have successfully led teams on complex projects with relevant results.
 
-As an experienced Front-End developer and leader, I have a proven track record of designing intuitive user interfaces and robust backend systems, ensuring high performance, scalability, and security. My leadership style is rooted in collaboration and continuous improvement, driving my teams to achieve excellence.
+As an experienced Fullstack engineer and leader, I have a proven track record of designing intuitive user interfaces and robust backend systems, ensuring high performance, scalability, and security. My leadership style is rooted in collaboration and continuous improvement, driving my teams to achieve excellence.
 
-Now, I am focused back on the hands-on approach, designing and developing robust and scalable solutions with the best practices contributing actively to the company's goals achieving great results together!
+I am focused on obtaining an international/global opportunity as a Lead/Senior Full-Stack Engineer, designing and developing robust and scalable solutions with best practices, actively contributing to the company's goals and achieving great results together!
       </textarea>
     </section>
     <section>
@@ -103,36 +103,6 @@ Now, I am focused back on the hands-on approach, designing and developing robust
       <ul
         class="grid grid-flow-row-dense grid-cols-2 print:flex print:gap-x-3.5 print:flex-wrap"
       >
-        <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
-          data-testid="visibility-control"
-        >
-          <input
-            class="print:hidden"
-            type="checkbox"
-          />
-          HTML5
-        </li>
-        <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
-          data-testid="visibility-control"
-        >
-          <input
-            class="print:hidden"
-            type="checkbox"
-          />
-          CSS3
-        </li>
-        <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
-          data-testid="visibility-control"
-        >
-          <input
-            class="print:hidden"
-            type="checkbox"
-          />
-          JavaScript
-        </li>
         <li
           class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
           data-testid="visibility-control"
@@ -156,6 +126,50 @@ Now, I am focused back on the hands-on approach, designing and developing robust
             type="checkbox"
           />
           Next.js
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          TypeScript
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          JavaScript
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          HTML5
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          CSS3
         </li>
         <li
           class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
@@ -248,18 +262,6 @@ Now, I am focused back on the hands-on approach, designing and developing robust
             type="checkbox"
           />
           Semantical HTML
-        </li>
-        <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
-          data-testid="visibility-control"
-          data-visible=""
-        >
-          <input
-            checked=""
-            class="print:hidden"
-            type="checkbox"
-          />
-          TypeScript
         </li>
         <li
           class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -362,6 +364,26 @@ Now, I am focused back on the hands-on approach, designing and developing robust
           PWA
         </li>
         <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Storybook
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Micro Frontends
+        </li>
+        <li
           class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
@@ -372,6 +394,16 @@ Now, I am focused back on the hands-on approach, designing and developing robust
             type="checkbox"
           />
           Node.js
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Nest.js
         </li>
         <li
           class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -402,6 +434,36 @@ Now, I am focused back on the hands-on approach, designing and developing robust
             type="checkbox"
           />
           Meteor
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Kong
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Kong
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          .NET
         </li>
         <li
           class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -551,6 +613,26 @@ Now, I am focused back on the hands-on approach, designing and developing robust
             class="print:hidden"
             type="checkbox"
           />
+          Linux Servers
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Windows Servers
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
           GitHub Actions
         </li>
         <li
@@ -592,6 +674,16 @@ Now, I am focused back on the hands-on approach, designing and developing robust
             type="checkbox"
           />
           AWS
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          AWS S3
         </li>
         <li
           class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -791,6 +883,86 @@ Now, I am focused back on the hands-on approach, designing and developing robust
             class="print:hidden"
             type="checkbox"
           />
+          Google Ad Manager
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Native Android
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Java
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Kotlin
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Native iOS
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          SwiftUI
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          React Native
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Firebase
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
           Functional Programming
         </li>
         <li
@@ -824,14 +996,24 @@ Now, I am focused back on the hands-on approach, designing and developing robust
           MarkDown
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
             class="print:hidden"
             type="checkbox"
           />
-          Communication
+          Elasticsearh
+        </li>
+        <li
+          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Delphi
         </li>
         <li
           class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
@@ -844,6 +1026,18 @@ Now, I am focused back on the hands-on approach, designing and developing robust
             type="checkbox"
           />
           Leadership
+        </li>
+        <li
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          Communication
         </li>
         <li
           class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
@@ -1127,7 +1321,7 @@ Now, I am focused back on the hands-on approach, designing and developing robust
     </section>
     <section>
       <h2
-        class="text-[16pt] font-bold"
+        class="mb-2 text-[16pt] font-bold"
       >
         Experience
       </h2>
@@ -1146,16 +1340,20 @@ Now, I am focused back on the hands-on approach, designing and developing robust
           />
           <div>
             <p
-              class="text-[12pt] font-bold"
-            >
-              Senior Full-Stack Developer
-               @ 
-              &lt;DanielXavier /&gt;
-            </p>
-            <p
               class="text-[12pt]"
             >
-              2024
+              <span
+                class="font-bold"
+              >
+                Full Stack Engineer
+                 @ 
+                &lt;DanielXavier /&gt;
+              </span>
+              <span>
+                 (
+                2024
+                )
+              </span>
             </p>
             <ul
               class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
@@ -1197,7 +1395,7 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 Ticket booking API with Nest.js, and Kong;
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
                 data-visible=""
               >
@@ -1210,6 +1408,21 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 :
                  
                 To quickly conceptualize and release projects from scratch and with few defined requirements.
+              </li>
+              <li
+                class="mt-1 items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Main stack
+                :
+                 
+                React | Next.js | TypeScript | JavaScript | HTML5 | CSS3 | Tailwind CSS | Node.js | Nest.js | Kong | Jest | Cypress | Docker | MySQL
               </li>
             </ul>
           </div>
@@ -1226,16 +1439,20 @@ Now, I am focused back on the hands-on approach, designing and developing robust
           />
           <div>
             <p
-              class="text-[12pt] font-bold"
-            >
-              Software Engineering Manager
-               @ 
-              OLX
-            </p>
-            <p
               class="text-[12pt]"
             >
-              2024
+              <span
+                class="font-bold"
+              >
+                Software Engineering Manager
+                 @ 
+                OLX
+              </span>
+              <span>
+                 (
+                2024
+                )
+              </span>
             </p>
             <ul
               class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
@@ -1297,7 +1514,7 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 Worked closely with the Product Manager to mitigate risks and make effective product decisions;
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
                 data-visible=""
               >
@@ -1310,6 +1527,21 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 :
                  
                 To deal with pressure from leadership to do major deliveries in the short term.
+              </li>
+              <li
+                class="mt-1 items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Main stack
+                :
+                 
+                React | Node.js | Kong | AWS S3 | Native Android | Kotlin | Native iOS | SwiftUI | React Native | Firebase
               </li>
             </ul>
           </div>
@@ -1326,16 +1558,20 @@ Now, I am focused back on the hands-on approach, designing and developing robust
           />
           <div>
             <p
-              class="text-[12pt] font-bold"
-            >
-              Software Engineering Manager
-               @ 
-              OLX
-            </p>
-            <p
               class="text-[12pt]"
             >
-              2023
+              <span
+                class="font-bold"
+              >
+                Software Engineering Manager
+                 @ 
+                OLX
+              </span>
+              <span>
+                 (
+                2023
+                )
+              </span>
             </p>
             <ul
               class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
@@ -1399,7 +1635,7 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 Launched the Design System v3 has been launched, bringing 30% more performance to all pages on the platform;²
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
                 data-visible=""
               >
@@ -1412,6 +1648,21 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 :
                  
                 To balance the substantial responsibilities of both the team¹ and the chapter² simultaneously.
+              </li>
+              <li
+                class="mt-1 items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Main stack
+                :
+                 
+                React | Storybook | Kong | AWS S3 | PostgreSQL | Kotlin | Native iOS | SwiftUI | React Native | Elasticsearh
               </li>
             </ul>
           </div>
@@ -1428,16 +1679,20 @@ Now, I am focused back on the hands-on approach, designing and developing robust
           />
           <div>
             <p
-              class="text-[12pt] font-bold"
-            >
-              Software Engineering Manager
-               @ 
-              OLX
-            </p>
-            <p
               class="text-[12pt]"
             >
-              2022 ~ 2023
+              <span
+                class="font-bold"
+              >
+                Software Engineering Manager
+                 @ 
+                OLX
+              </span>
+              <span>
+                 (
+                2022 ~ 2023
+                )
+              </span>
             </p>
             <ul
               class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
@@ -1499,7 +1754,7 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 I created processes for contributing to the Design System project, bringing 10 new external contributors;
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
                 data-visible=""
               >
@@ -1512,6 +1767,21 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 :
                  
                 To assume multiple roles simultaneously, including Engineering Manager, Product Manager, Data Analyst, among others.
+              </li>
+              <li
+                class="mt-1 items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Main stack
+                :
+                 
+                React | Storybook | AWS S3 | Native Android | Kotlin | Native iOS | SwiftUI
               </li>
             </ul>
           </div>
@@ -1528,16 +1798,20 @@ Now, I am focused back on the hands-on approach, designing and developing robust
           />
           <div>
             <p
-              class="text-[12pt] font-bold"
-            >
-              Software Engineering Manager
-               @ 
-              OLX
-            </p>
-            <p
               class="text-[12pt]"
             >
-              2021 ~ 2022
+              <span
+                class="font-bold"
+              >
+                Software Engineering Manager
+                 @ 
+                OLX
+              </span>
+              <span>
+                 (
+                2021 ~ 2022
+                )
+              </span>
             </p>
             <ul
               class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
@@ -1599,7 +1873,7 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 Proposed a new structure for the Advertising area to enhance results;
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
                 data-visible=""
               >
@@ -1612,6 +1886,21 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 :
                  
                 To manage high expectations related to Advertising revenue results.
+              </li>
+              <li
+                class="mt-1 items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Main stack
+                :
+                 
+                JavaScript | HTML5 | CSS3 | AWS S3 | Google Ad Manager | Native Android | Java | Kotlin | Native iOS | SwiftUI | Firebase
               </li>
             </ul>
           </div>
@@ -1628,16 +1917,20 @@ Now, I am focused back on the hands-on approach, designing and developing robust
           />
           <div>
             <p
-              class="text-[12pt] font-bold"
-            >
-              CTO & Partner
-               @ 
-              Meaning
-            </p>
-            <p
               class="text-[12pt]"
             >
-              2023
+              <span
+                class="font-bold"
+              >
+                CTO & Partner
+                 @ 
+                Meaning
+              </span>
+              <span>
+                 (
+                2023
+                )
+              </span>
             </p>
             <ul
               class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
@@ -1689,7 +1982,7 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 Developed a Proof of Concept project;
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
                 data-visible=""
               >
@@ -1702,6 +1995,21 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 :
                  
                 To convert a highly "human-centric" project, rooted in personal consultancy, into a systematic approach.
+              </li>
+              <li
+                class="mt-1 items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Main stack
+                :
+                 
+                JavaScript | HTML5 | CSS3 | BPMN
               </li>
             </ul>
           </div>
@@ -1718,16 +2026,20 @@ Now, I am focused back on the hands-on approach, designing and developing robust
           />
           <div>
             <p
-              class="text-[12pt] font-bold"
-            >
-              Development Coordinator
-               @ 
-              Softplan
-            </p>
-            <p
               class="text-[12pt]"
             >
-              2020 ~ 2021
+              <span
+                class="font-bold"
+              >
+                Development Coordinator
+                 @ 
+                Softplan
+              </span>
+              <span>
+                 (
+                2020 ~ 2021
+                )
+              </span>
             </p>
             <ul
               class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
@@ -1779,7 +2091,7 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 Created formulas and metrics to accurately gauge the team's capacity, thereby bringing predictability to deliveries;
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
                 data-visible=""
               >
@@ -1792,6 +2104,21 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 :
                  
                 To manage a large team (28 professionals) and oversee critical deliveries.
+              </li>
+              <li
+                class="mt-1 items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Main stack
+                :
+                 
+                React | Micro Frontends | .NET | GraphQL | SQL Server | Delphi
               </li>
             </ul>
           </div>
@@ -1808,16 +2135,20 @@ Now, I am focused back on the hands-on approach, designing and developing robust
           />
           <div>
             <p
-              class="text-[12pt] font-bold"
-            >
-              Tech Lead
-               @ 
-              Softplan
-            </p>
-            <p
               class="text-[12pt]"
             >
-              2019 ~ 2020
+              <span
+                class="font-bold"
+              >
+                Tech Lead
+                 @ 
+                Softplan
+              </span>
+              <span>
+                 (
+                2019 ~ 2020
+                )
+              </span>
             </p>
             <ul
               class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
@@ -1879,7 +2210,7 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 Recruited new employees for the company and new contractor professionals;
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
                 data-visible=""
               >
@@ -1892,6 +2223,21 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 :
                  
                 To acquire leadership skills and master people management.
+              </li>
+              <li
+                class="mt-1 items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Main stack
+                :
+                 
+                React | Micro Frontends | .NET | GraphQL | SQL Server
               </li>
             </ul>
           </div>
@@ -1908,16 +2254,20 @@ Now, I am focused back on the hands-on approach, designing and developing robust
           />
           <div>
             <p
-              class="text-[12pt] font-bold"
-            >
-              Senior Front-End Developer
-               @ 
-              Softplan
-            </p>
-            <p
               class="text-[12pt]"
             >
-              2018 ~ 2019
+              <span
+                class="font-bold"
+              >
+                Senior Front-End Engineer
+                 @ 
+                Softplan
+              </span>
+              <span>
+                 (
+                2018 ~ 2019
+                )
+              </span>
             </p>
             <ul
               class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
@@ -1959,7 +2309,7 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 Created new features for the "SAJ Tribunais" system using React JS and GraphQL;
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
                 data-visible=""
               >
@@ -1972,6 +2322,21 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 :
                  
                 To manage all the deliveries of the project as the sole Front-End developer.
+              </li>
+              <li
+                class="mt-1 items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Main stack
+                :
+                 
+                React | Micro Frontends | .NET | GraphQL | SQL Server
               </li>
             </ul>
           </div>
@@ -1988,16 +2353,20 @@ Now, I am focused back on the hands-on approach, designing and developing robust
           />
           <div>
             <p
-              class="text-[12pt] font-bold"
-            >
-              Senior Full-Stack Developer
-               @ 
-              Hotmart
-            </p>
-            <p
               class="text-[12pt]"
             >
-              2018
+              <span
+                class="font-bold"
+              >
+                Senior Full-Stack Engineer
+                 @ 
+                Hotmart
+              </span>
+              <span>
+                 (
+                2018
+                )
+              </span>
             </p>
             <ul
               class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
@@ -2027,7 +2396,7 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 Created a Proof of Concept (POC) that introduced a simplified method for product registration on the platform;
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
                 data-visible=""
               >
@@ -2040,6 +2409,21 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 :
                  
                 To balance the need to comprehend customer requirements clearly while simultaneously coding.
+              </li>
+              <li
+                class="mt-1 items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Main stack
+                :
+                 
+                JavaScript | HTML5 | CSS3 | Vue.js | Nuxt.js | Node.js | MySQL
               </li>
             </ul>
           </div>
@@ -2056,16 +2440,20 @@ Now, I am focused back on the hands-on approach, designing and developing robust
           />
           <div>
             <p
-              class="text-[12pt] font-bold"
-            >
-              Mid Level Front-End Developer
-               @ 
-              Hotmart
-            </p>
-            <p
               class="text-[12pt]"
             >
-              2017 ~ 2018
+              <span
+                class="font-bold"
+              >
+                Mid Level Front-End Engineer
+                 @ 
+                Hotmart
+              </span>
+              <span>
+                 (
+                2017 ~ 2018
+                )
+              </span>
             </p>
             <ul
               class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
@@ -2105,7 +2493,7 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 Implemented the Arabic version of the "Hotmart blog";
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
                 data-visible=""
               >
@@ -2118,6 +2506,21 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 :
                  
                 To conceptualize and develop complex solutions from the ground up.
+              </li>
+              <li
+                class="mt-1 items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Main stack
+                :
+                 
+                JavaScript | HTML5 | CSS3 | Vue.js | Nuxt.js | Node.js | PHP | WordPress | Nginx | MySQL
               </li>
             </ul>
           </div>
@@ -2132,16 +2535,20 @@ Now, I am focused back on the hands-on approach, designing and developing robust
           />
           <div>
             <p
-              class="text-[12pt] font-bold"
-            >
-              Entry Level Front-End Developer
-               @ 
-              Hotmart
-            </p>
-            <p
               class="text-[12pt]"
             >
-              2016 ~ 2017
+              <span
+                class="font-bold"
+              >
+                Entry Level Front-End Engineer
+                 @ 
+                Hotmart
+              </span>
+              <span>
+                 (
+                2016 ~ 2017
+                )
+              </span>
             </p>
             <ul
               class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
@@ -2177,7 +2584,7 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 Created custom features within the WordPress admin interface;
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
               >
                 <input
@@ -2188,6 +2595,19 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 :
                  
                 To acquire new development skills and apply them to complex projects.
+              </li>
+              <li
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Main stack
+                :
+                 
+                JavaScript | HTML5 | CSS3 | PHP | WordPress | Nginx | MySQL
               </li>
             </ul>
           </div>
@@ -2202,16 +2622,20 @@ Now, I am focused back on the hands-on approach, designing and developing robust
           />
           <div>
             <p
-              class="text-[12pt] font-bold"
-            >
-              Support Analyst
-               @ 
-              Sydle
-            </p>
-            <p
               class="text-[12pt]"
             >
-              2014 ~ 2016
+              <span
+                class="font-bold"
+              >
+                Support Analyst
+                 @ 
+                Sydle
+              </span>
+              <span>
+                 (
+                2014 ~ 2016
+                )
+              </span>
             </p>
             <ul
               class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
@@ -2257,7 +2681,7 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 Oversaw the configuration and monitoring of both Linux and Windows servers.
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
               >
                 <input
@@ -2268,6 +2692,19 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 :
                  
                 To rapidly acquire development skills and contribute to legacy projects.
+              </li>
+              <li
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Main stack
+                :
+                 
+                JavaScript | HTML5 | CSS3 | Angular | Node.js | Express | LoopBack | PHP | WordPress | Magento | Apache | Linux Servers | Windows Servers | MySQL | SQL Server | Oracle | BPMN
               </li>
             </ul>
           </div>
@@ -2282,16 +2719,20 @@ Now, I am focused back on the hands-on approach, designing and developing robust
           />
           <div>
             <p
-              class="text-[12pt] font-bold"
-            >
-              Support Intern
-               @ 
-              Sydle
-            </p>
-            <p
               class="text-[12pt]"
             >
-              2012 ~ 2014
+              <span
+                class="font-bold"
+              >
+                Support Intern
+                 @ 
+                Sydle
+              </span>
+              <span>
+                 (
+                2012 ~ 2014
+                )
+              </span>
             </p>
             <ul
               class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
@@ -2337,7 +2778,7 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 Offered infrastructure support to the company's employees.
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
               >
                 <input
@@ -2348,6 +2789,19 @@ Now, I am focused back on the hands-on approach, designing and developing robust
                 :
                  
                 To simultaneously learn a multitude of new concepts and balance them with my university commitments.
+              </li>
+              <li
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Main stack
+                :
+                 
+                JavaScript | Linux Servers | Windows Servers | SQL Server | Oracle | BPMN
               </li>
             </ul>
           </div>
@@ -2361,7 +2815,7 @@ Now, I am focused back on the hands-on approach, designing and developing robust
     </section>
     <section>
       <h2
-        class="text-[16pt] font-bold"
+        class="mb-2 text-[16pt] font-bold"
       >
         Education
       </h2>

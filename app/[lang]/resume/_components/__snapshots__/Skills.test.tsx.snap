@@ -12,36 +12,6 @@ exports[`Skills component renders the component 1`] = `
       class="grid grid-flow-row-dense grid-cols-2 print:flex print:gap-x-3.5 print:flex-wrap"
     >
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
-        data-testid="visibility-control"
-      >
-        <input
-          class="print:hidden"
-          type="checkbox"
-        />
-        HTML5
-      </li>
-      <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
-        data-testid="visibility-control"
-      >
-        <input
-          class="print:hidden"
-          type="checkbox"
-        />
-        CSS3
-      </li>
-      <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
-        data-testid="visibility-control"
-      >
-        <input
-          class="print:hidden"
-          type="checkbox"
-        />
-        JavaScript
-      </li>
-      <li
         class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
         data-testid="visibility-control"
         data-visible=""
@@ -64,6 +34,50 @@ exports[`Skills component renders the component 1`] = `
           type="checkbox"
         />
         Next.js
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        TypeScript
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        JavaScript
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        HTML5
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        CSS3
       </li>
       <li
         class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
@@ -156,18 +170,6 @@ exports[`Skills component renders the component 1`] = `
           type="checkbox"
         />
         Semantical HTML
-      </li>
-      <li
-        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
-        data-testid="visibility-control"
-        data-visible=""
-      >
-        <input
-          checked=""
-          class="print:hidden"
-          type="checkbox"
-        />
-        TypeScript
       </li>
       <li
         class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -270,6 +272,26 @@ exports[`Skills component renders the component 1`] = `
         PWA
       </li>
       <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Storybook
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Micro Frontends
+      </li>
+      <li
         class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
         data-testid="visibility-control"
         data-visible=""
@@ -280,6 +302,16 @@ exports[`Skills component renders the component 1`] = `
           type="checkbox"
         />
         Node.js
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Nest.js
       </li>
       <li
         class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -310,6 +342,36 @@ exports[`Skills component renders the component 1`] = `
           type="checkbox"
         />
         Meteor
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Kong
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Kong
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        .NET
       </li>
       <li
         class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -459,6 +521,26 @@ exports[`Skills component renders the component 1`] = `
           class="print:hidden"
           type="checkbox"
         />
+        Linux Servers
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Windows Servers
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
         GitHub Actions
       </li>
       <li
@@ -500,6 +582,16 @@ exports[`Skills component renders the component 1`] = `
           type="checkbox"
         />
         AWS
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        AWS S3
       </li>
       <li
         class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -699,6 +791,86 @@ exports[`Skills component renders the component 1`] = `
           class="print:hidden"
           type="checkbox"
         />
+        Google Ad Manager
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Native Android
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Java
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Kotlin
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Native iOS
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        SwiftUI
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        React Native
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Firebase
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
         Functional Programming
       </li>
       <li
@@ -732,14 +904,24 @@ exports[`Skills component renders the component 1`] = `
         MarkDown
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
           class="print:hidden"
           type="checkbox"
         />
-        Communication
+        Elasticsearh
+      </li>
+      <li
+        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Delphi
       </li>
       <li
         class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
@@ -752,6 +934,18 @@ exports[`Skills component renders the component 1`] = `
           type="checkbox"
         />
         Leadership
+      </li>
+      <li
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        Communication
       </li>
       <li
         class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "

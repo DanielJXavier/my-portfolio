@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExperienceItem component renders the component 1`] = `
+<div>
+  <article
+    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-[#6d0ad5] before:via-[#6d0ad5] before:to-background before:-z-10"
+    data-testid="experience-item"
+  >
+    <header
+      class="flex items-start gap-x-2"
+    >
+      <img
+        alt="Logo of OLX company"
+        class="rounded-full "
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Fexperience%2Folx.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fimages%2Fexperience%2Folx.jpg&w=48&q=75 1x, /_next/image?url=%2Fimages%2Fexperience%2Folx.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <h2
+        class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
+      >
+        Software Engineering Manager
+         @ 
+        OLX
+        <span
+          class="text-xs md:text-sm"
+        >
+           (
+          2024
+          )
+        </span>
+      </h2>
+    </header>
+    <section
+      class="pl-14 lg:px-14"
+    >
+      <h3
+        class="xl:text-xl"
+      >
+        I was the leader of the "Ads Seller Experience" team.
+      </h3>
+    </section>
+  </article>
+</div>
+`;

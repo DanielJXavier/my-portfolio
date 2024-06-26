@@ -4,15 +4,16 @@ import { createContext, useRef, useState } from "react";
 
 import { useParams } from "next/navigation";
 
-import { getDictionary } from "get-dictionary";
+import { ExperienceItemsType, getDictionary } from "get-dictionary";
 import { Lang } from "i18n-config";
 
 import Title from "@/_components/Title";
 import Work from "@/_icons/Work";
 
+import Menu from "../_components/Menu";
+
 import { experience } from "./_config";
 import ExperienceItem from "./_components/ExperienceItem";
-import Menu from "../_components/Menu";
 
 export const ExperienceModeContext = createContext("");
 
@@ -20,20 +21,17 @@ export default function Experience() {
   const { lang } = useParams<{ lang: Lang }>();
 
   const {
-    experience: {
-      title,
-      menu: menuStrings,
-      items: experienceStrings,
-      imageAltText,
-    },
+    experience: { title, menu, items, imageAltText },
   } = getDictionary(lang);
 
   const [experienceMode, setExperienceMode] = useState("simple");
 
   const menuItems = useRef([
-    { text: menuStrings.simple, value: "simple" },
-    { text: menuStrings.detailed, value: "detailed" },
+    { text: menu.simple, value: "simple" },
+    { text: menu.detailed, value: "detailed" },
   ]);
+
+  const experienceItems = useRef<ExperienceItemsType>(items);
 
   return (
     <ExperienceModeContext.Provider value={experienceMode}>
@@ -43,20 +41,23 @@ export default function Experience() {
         activeItem={experienceMode}
         handleClick={setExperienceMode}
       />
-      {experience.map(({ key, companyId, companyName, year, hasBlackLogo }) => (
-        <ExperienceItem
-          key={key}
-          role={experienceStrings[key].role}
-          companyId={companyId}
-          companyName={companyName}
-          year={year}
-          description={experienceStrings[key].description}
-          accomplishments={experienceStrings[key].accomplishments}
-          biggestChallenge={experienceStrings[key].biggestChallenge}
-          imageAltText={imageAltText}
-          hasBlackLogo={hasBlackLogo}
-        />
-      ))}
+      {experience.map(
+        ({ key, companyId, companyName, year, mainStack, hasBlackLogo }) => (
+          <ExperienceItem
+            key={key}
+            role={experienceItems.current[key].role}
+            companyId={companyId}
+            companyName={companyName}
+            year={year}
+            description={experienceItems.current[key].description}
+            accomplishments={experienceItems.current[key].accomplishments}
+            biggestChallenge={experienceItems.current[key].biggestChallenge}
+            mainStack={mainStack}
+            imageAltText={imageAltText}
+            hasBlackLogo={hasBlackLogo}
+          />
+        )
+      )}
     </ExperienceModeContext.Provider>
   );
 }

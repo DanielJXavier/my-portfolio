@@ -7,13 +7,17 @@ import { useParams } from "next/navigation";
 import { getDictionary } from "get-dictionary";
 import { Lang } from "i18n-config";
 
+import { hardSkills } from "../../skills/_config";
+
+import { ExperienceInterface } from "../_config";
 import { ExperienceModeContext } from "../Experience";
 
-type ExperienceItemPropsType = Readonly<{
+type ExperienceConfigType = Omit<
+  ExperienceInterface,
+  "key" | "resume" | "resumeAccomplishments"
+>;
+interface ExperienceItemPropsInterface extends ExperienceConfigType {
   role: string;
-  companyId: string;
-  companyName: string;
-  year: string;
   description: string;
   accomplishments: string[];
   biggestChallenge: string;
@@ -21,8 +25,7 @@ type ExperienceItemPropsType = Readonly<{
     prefix: string;
     sufix: string;
   };
-  hasBlackLogo?: boolean;
-}>;
+}
 
 type MapCompanyIdToColorType = {
   [key: string]: string;
@@ -45,13 +48,14 @@ export default function ExperienceItem({
   description,
   accomplishments,
   biggestChallenge,
+  mainStack,
   imageAltText,
   hasBlackLogo,
-}: ExperienceItemPropsType) {
+}: ExperienceItemPropsInterface) {
   const { lang } = useParams<{ lang: Lang }>();
 
   const {
-    experience: { accomplishmentsTitle, biggestChallengeTitle },
+    experience: { accomplishmentsTitle, biggestChallengeTitle, mainStackTitle },
   } = getDictionary(lang);
 
   const experienceMode = useContext(ExperienceModeContext);
@@ -96,6 +100,15 @@ export default function ExperienceItem({
               {biggestChallengeTitle}:
             </h3>
             <p className="text-sm xl:text-base">{biggestChallenge}</p>
+          </section>
+          <section className="mt-4 pl-14 xl:px-14">
+            <h3 className="font-semibold xl:text-xl">{mainStackTitle}:</h3>
+            <p className="text-sm xl:text-base">
+              {hardSkills
+                .filter(({ key }) => mainStack.some((stack) => stack === key))
+                .map(({ name }) => name)
+                .join(" | ")}
+            </p>
           </section>
         </>
       )}
