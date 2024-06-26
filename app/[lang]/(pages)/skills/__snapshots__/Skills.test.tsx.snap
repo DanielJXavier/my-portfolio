@@ -56,12 +56,17 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
     <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      HTML5
+      React
     </span>
     <span
-      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      CSS3
+      Next.js
+    </span>
+    <span
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      TypeScript
     </span>
     <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -69,14 +74,14 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
       JavaScript
     </span>
     <span
-      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      React
+      HTML5
     </span>
     <span
-      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Next.js
+      CSS3
     </span>
     <span
       class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -122,11 +127,6 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
       class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Semantical HTML
-    </span>
-    <span
-      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      TypeScript
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
@@ -179,9 +179,24 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
       PWA
     </span>
     <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Storybook
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Micro Frontends
+    </span>
+    <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Node.js
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Nest.js
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -197,6 +212,21 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Meteor
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Kong
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Kong
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      .NET
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -269,6 +299,16 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
       Apache
     </span>
     <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Linux Servers
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Windows Servers
+    </span>
+    <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       GitHub Actions
@@ -292,6 +332,11 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       AWS
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      AWS S3
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
@@ -391,6 +436,46 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
+      Google Ad Manager
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Native Android
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Java
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Kotlin
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Native iOS
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      SwiftUI
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      React Native
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Firebase
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
       Functional Programming
     </span>
     <span
@@ -407,6 +492,16 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       MarkDown
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Elasticsearh
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Delphi
     </span>
   </article>
   <article
@@ -473,12 +568,12 @@ exports[`Skills page (Client-side) calls the handleClick function 2`] = `
     <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Communication
+      Leadership
     </span>
     <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Leadership
+      Communication
     </span>
     <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -680,12 +775,17 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
     <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      HTML5
+      React
     </span>
     <span
-      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      CSS3
+      Next.js
+    </span>
+    <span
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      TypeScript
     </span>
     <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -693,14 +793,14 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
       JavaScript
     </span>
     <span
-      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      React
+      HTML5
     </span>
     <span
-      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Next.js
+      CSS3
     </span>
     <span
       class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -746,11 +846,6 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
       class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Semantical HTML
-    </span>
-    <span
-      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      TypeScript
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
@@ -803,9 +898,24 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
       PWA
     </span>
     <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Storybook
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Micro Frontends
+    </span>
+    <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Node.js
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Nest.js
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -821,6 +931,21 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Meteor
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Kong
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Kong
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      .NET
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -893,6 +1018,16 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
       Apache
     </span>
     <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Linux Servers
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Windows Servers
+    </span>
+    <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       GitHub Actions
@@ -916,6 +1051,11 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       AWS
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      AWS S3
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1015,6 +1155,46 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
+      Google Ad Manager
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Native Android
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Java
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Kotlin
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Native iOS
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      SwiftUI
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      React Native
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Firebase
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
       Functional Programming
     </span>
     <span
@@ -1033,14 +1213,24 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
       MarkDown
     </span>
     <span
-      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Communication
+      Elasticsearh
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Delphi
     </span>
     <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Leadership
+    </span>
+    <span
+      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Communication
     </span>
     <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1242,12 +1432,17 @@ exports[`Skills page (Client-side) renders the page 1`] = `
     <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      HTML5
+      React
     </span>
     <span
-      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      CSS3
+      Next.js
+    </span>
+    <span
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      TypeScript
     </span>
     <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1255,14 +1450,14 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       JavaScript
     </span>
     <span
-      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      React
+      HTML5
     </span>
     <span
-      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Next.js
+      CSS3
     </span>
     <span
       class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1308,11 +1503,6 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Semantical HTML
-    </span>
-    <span
-      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      TypeScript
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1365,9 +1555,24 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       PWA
     </span>
     <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Storybook
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Micro Frontends
+    </span>
+    <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Node.js
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Nest.js
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1383,6 +1588,21 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Meteor
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Kong
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Kong
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      .NET
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1455,6 +1675,16 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       Apache
     </span>
     <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Linux Servers
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Windows Servers
+    </span>
+    <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       GitHub Actions
@@ -1478,6 +1708,11 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       AWS
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      AWS S3
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1577,6 +1812,46 @@ exports[`Skills page (Client-side) renders the page 1`] = `
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
+      Google Ad Manager
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Native Android
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Java
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Kotlin
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Native iOS
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      SwiftUI
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      React Native
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Firebase
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
       Functional Programming
     </span>
     <span
@@ -1595,14 +1870,24 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       MarkDown
     </span>
     <span
-      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Communication
+      Elasticsearh
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Delphi
     </span>
     <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Leadership
+    </span>
+    <span
+      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Communication
     </span>
     <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1804,12 +2089,17 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
     <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      HTML5
+      React
     </span>
     <span
-      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      CSS3
+      Next.js
+    </span>
+    <span
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      TypeScript
     </span>
     <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1817,14 +2107,14 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
       JavaScript
     </span>
     <span
-      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      React
+      HTML5
     </span>
     <span
-      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Next.js
+      CSS3
     </span>
     <span
       class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1870,11 +2160,6 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
       class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Semantical HTML
-    </span>
-    <span
-      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      TypeScript
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1927,9 +2212,24 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
       PWA
     </span>
     <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Storybook
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Micro Frontends
+    </span>
+    <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Node.js
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Nest.js
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1945,6 +2245,21 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Meteor
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Kong
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Kong
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      .NET
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -2017,6 +2332,16 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
       Apache
     </span>
     <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Linux Servers
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Windows Servers
+    </span>
+    <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       GitHub Actions
@@ -2040,6 +2365,11 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       AWS
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      AWS S3
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
@@ -2139,6 +2469,46 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
+      Google Ad Manager
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Native Android
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Java
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Kotlin
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Native iOS
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      SwiftUI
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      React Native
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Firebase
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
       Functional Programming
     </span>
     <span
@@ -2157,14 +2527,24 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
       MarkDown
     </span>
     <span
-      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Communication
+      Elasticsearh
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Delphi
     </span>
     <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Leadership
+    </span>
+    <span
+      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Communication
     </span>
     <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
