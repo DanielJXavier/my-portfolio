@@ -231,6 +231,11 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
+      Unit tests
+    </span>
+    <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
       Jest
     </span>
     <span
@@ -307,6 +312,11 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Windows Servers
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      CI/CD
     </span>
     <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -409,6 +419,11 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
       BPMN
     </span>
     <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Git
+    </span>
+    <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       A/B Testing
@@ -437,6 +452,21 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Google Ad Manager
+    </span>
+    <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Agile
+    </span>
+    <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Scrum
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Kanban
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
@@ -474,7 +504,7 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
       Firebase
     </span>
     <span
-      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Functional Programming
     </span>
@@ -659,6 +689,11 @@ exports[`Skills page (Client-side) calls the handleClick function 2`] = `
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Customer Orientation
+    </span>
+    <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Stakeholder Management
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -950,6 +985,11 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
+      Unit tests
+    </span>
+    <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
       Jest
     </span>
     <span
@@ -1026,6 +1066,11 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Windows Servers
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      CI/CD
     </span>
     <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1128,6 +1173,11 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
       BPMN
     </span>
     <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Git
+    </span>
+    <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       A/B Testing
@@ -1156,6 +1206,21 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Google Ad Manager
+    </span>
+    <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Agile
+    </span>
+    <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Scrum
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Kanban
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1193,7 +1258,7 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
       Firebase
     </span>
     <span
-      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Functional Programming
     </span>
@@ -1316,6 +1381,11 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Customer Orientation
+    </span>
+    <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Stakeholder Management
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1607,6 +1677,11 @@ exports[`Skills page (Client-side) renders the page 1`] = `
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
+      Unit tests
+    </span>
+    <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
       Jest
     </span>
     <span
@@ -1683,6 +1758,11 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Windows Servers
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      CI/CD
     </span>
     <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1785,6 +1865,11 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       BPMN
     </span>
     <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Git
+    </span>
+    <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       A/B Testing
@@ -1813,6 +1898,21 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Google Ad Manager
+    </span>
+    <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Agile
+    </span>
+    <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Scrum
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Kanban
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1850,7 +1950,7 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       Firebase
     </span>
     <span
-      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Functional Programming
     </span>
@@ -1973,6 +2073,11 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Customer Orientation
+    </span>
+    <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Stakeholder Management
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -2264,6 +2369,11 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
+      Unit tests
+    </span>
+    <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
       Jest
     </span>
     <span
@@ -2340,6 +2450,11 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Windows Servers
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      CI/CD
     </span>
     <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -2442,6 +2557,11 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
       BPMN
     </span>
     <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Git
+    </span>
+    <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       A/B Testing
@@ -2470,6 +2590,21 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Google Ad Manager
+    </span>
+    <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Agile
+    </span>
+    <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Scrum
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Kanban
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
@@ -2507,7 +2642,7 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
       Firebase
     </span>
     <span
-      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Functional Programming
     </span>
@@ -2630,6 +2765,11 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Customer Orientation
+    </span>
+    <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Stakeholder Management
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"

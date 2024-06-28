@@ -60,7 +60,7 @@ exports[`Skills component renders the component 1`] = `
         JavaScript
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -70,7 +70,7 @@ exports[`Skills component renders the component 1`] = `
         HTML5
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -92,7 +92,7 @@ exports[`Skills component renders the component 1`] = `
         Tailwind CSS
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -102,7 +102,7 @@ exports[`Skills component renders the component 1`] = `
         Vue.js
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -112,7 +112,7 @@ exports[`Skills component renders the component 1`] = `
         Nuxt.js
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -122,7 +122,7 @@ exports[`Skills component renders the component 1`] = `
         Angular
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -132,7 +132,7 @@ exports[`Skills component renders the component 1`] = `
         Responsive Design
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -142,7 +142,7 @@ exports[`Skills component renders the component 1`] = `
         SEO
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -152,7 +152,7 @@ exports[`Skills component renders the component 1`] = `
         SSR
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -162,7 +162,7 @@ exports[`Skills component renders the component 1`] = `
         Sass
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -172,7 +172,7 @@ exports[`Skills component renders the component 1`] = `
         Semantical HTML
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -182,7 +182,7 @@ exports[`Skills component renders the component 1`] = `
         Webpack
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -192,7 +192,7 @@ exports[`Skills component renders the component 1`] = `
         Redux
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -202,7 +202,7 @@ exports[`Skills component renders the component 1`] = `
         jQuery
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -212,7 +212,7 @@ exports[`Skills component renders the component 1`] = `
         Web Accessibility
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -222,7 +222,7 @@ exports[`Skills component renders the component 1`] = `
         Core Web Vitals
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -232,7 +232,7 @@ exports[`Skills component renders the component 1`] = `
         Web Performance
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -242,7 +242,7 @@ exports[`Skills component renders the component 1`] = `
         Web Security
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -252,7 +252,7 @@ exports[`Skills component renders the component 1`] = `
         Web Sockets
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -262,7 +262,7 @@ exports[`Skills component renders the component 1`] = `
         Styled Components
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -272,7 +272,7 @@ exports[`Skills component renders the component 1`] = `
         PWA
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -282,7 +282,7 @@ exports[`Skills component renders the component 1`] = `
         Storybook
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -304,7 +304,7 @@ exports[`Skills component renders the component 1`] = `
         Node.js
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -314,7 +314,7 @@ exports[`Skills component renders the component 1`] = `
         Nest.js
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -324,7 +324,7 @@ exports[`Skills component renders the component 1`] = `
         Express
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -334,7 +334,7 @@ exports[`Skills component renders the component 1`] = `
         LoopBack
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -344,7 +344,7 @@ exports[`Skills component renders the component 1`] = `
         Meteor
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -354,7 +354,7 @@ exports[`Skills component renders the component 1`] = `
         Kong
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -364,7 +364,7 @@ exports[`Skills component renders the component 1`] = `
         Kong
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -374,7 +374,17 @@ exports[`Skills component renders the component 1`] = `
         .NET
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Unit tests
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -384,7 +394,7 @@ exports[`Skills component renders the component 1`] = `
         Jest
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -394,7 +404,7 @@ exports[`Skills component renders the component 1`] = `
         Code Coverage
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -404,7 +414,7 @@ exports[`Skills component renders the component 1`] = `
         React Testing Library
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -414,7 +424,7 @@ exports[`Skills component renders the component 1`] = `
         Cypress
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -424,7 +434,7 @@ exports[`Skills component renders the component 1`] = `
         Chromatic
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -434,7 +444,7 @@ exports[`Skills component renders the component 1`] = `
         HTTP
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -444,7 +454,7 @@ exports[`Skills component renders the component 1`] = `
         GraphQL
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -454,7 +464,7 @@ exports[`Skills component renders the component 1`] = `
         REST
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -464,7 +474,7 @@ exports[`Skills component renders the component 1`] = `
         PHP
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -474,7 +484,7 @@ exports[`Skills component renders the component 1`] = `
         WordPress
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -484,7 +494,7 @@ exports[`Skills component renders the component 1`] = `
         Magento
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -494,7 +504,7 @@ exports[`Skills component renders the component 1`] = `
         Laravel
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -504,7 +514,7 @@ exports[`Skills component renders the component 1`] = `
         Nginx
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -514,7 +524,7 @@ exports[`Skills component renders the component 1`] = `
         Apache
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -524,7 +534,7 @@ exports[`Skills component renders the component 1`] = `
         Linux Servers
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -534,7 +544,17 @@ exports[`Skills component renders the component 1`] = `
         Windows Servers
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        CI/CD
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -544,7 +564,7 @@ exports[`Skills component renders the component 1`] = `
         GitHub Actions
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -554,7 +574,7 @@ exports[`Skills component renders the component 1`] = `
         Bash
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -564,7 +584,7 @@ exports[`Skills component renders the component 1`] = `
         Docker
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -574,7 +594,7 @@ exports[`Skills component renders the component 1`] = `
         YML
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -584,7 +604,7 @@ exports[`Skills component renders the component 1`] = `
         AWS
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -594,7 +614,7 @@ exports[`Skills component renders the component 1`] = `
         AWS S3
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -604,7 +624,7 @@ exports[`Skills component renders the component 1`] = `
         Kubernets
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -614,7 +634,7 @@ exports[`Skills component renders the component 1`] = `
         Terraform
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -624,7 +644,7 @@ exports[`Skills component renders the component 1`] = `
         SQL
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -634,7 +654,7 @@ exports[`Skills component renders the component 1`] = `
         MySQL
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -644,7 +664,7 @@ exports[`Skills component renders the component 1`] = `
         SQL Server
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -654,7 +674,7 @@ exports[`Skills component renders the component 1`] = `
         PostgreSQL
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -664,7 +684,7 @@ exports[`Skills component renders the component 1`] = `
         Oracle
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -674,7 +694,7 @@ exports[`Skills component renders the component 1`] = `
         NoSQL
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -684,7 +704,7 @@ exports[`Skills component renders the component 1`] = `
         MongoDB
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -694,7 +714,7 @@ exports[`Skills component renders the component 1`] = `
         Jira
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -704,7 +724,7 @@ exports[`Skills component renders the component 1`] = `
         Confluence
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -714,7 +734,7 @@ exports[`Skills component renders the component 1`] = `
         Slack Workflows
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -724,7 +744,7 @@ exports[`Skills component renders the component 1`] = `
         Slack Apps
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -734,7 +754,17 @@ exports[`Skills component renders the component 1`] = `
         BPMN
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Git
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -744,7 +774,7 @@ exports[`Skills component renders the component 1`] = `
         A/B Testing
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -754,7 +784,7 @@ exports[`Skills component renders the component 1`] = `
         Atomic Design
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -764,7 +794,7 @@ exports[`Skills component renders the component 1`] = `
         Design Systems
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -774,7 +804,7 @@ exports[`Skills component renders the component 1`] = `
         Semantic Versioning
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -784,7 +814,7 @@ exports[`Skills component renders the component 1`] = `
         UI/UX
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -794,7 +824,37 @@ exports[`Skills component renders the component 1`] = `
         Google Ad Manager
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Agile
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Scrum
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Kanban
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -804,7 +864,7 @@ exports[`Skills component renders the component 1`] = `
         Native Android
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -814,7 +874,7 @@ exports[`Skills component renders the component 1`] = `
         Java
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -824,7 +884,7 @@ exports[`Skills component renders the component 1`] = `
         Kotlin
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -834,7 +894,7 @@ exports[`Skills component renders the component 1`] = `
         Native iOS
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -844,7 +904,7 @@ exports[`Skills component renders the component 1`] = `
         SwiftUI
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -854,7 +914,7 @@ exports[`Skills component renders the component 1`] = `
         React Native
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -864,7 +924,7 @@ exports[`Skills component renders the component 1`] = `
         Firebase
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -874,7 +934,7 @@ exports[`Skills component renders the component 1`] = `
         Functional Programming
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -884,7 +944,7 @@ exports[`Skills component renders the component 1`] = `
         OOP
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -894,7 +954,7 @@ exports[`Skills component renders the component 1`] = `
         Regular Expressions
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -904,7 +964,7 @@ exports[`Skills component renders the component 1`] = `
         MarkDown
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -914,7 +974,7 @@ exports[`Skills component renders the component 1`] = `
         Elasticsearh
       </li>
       <li
-        class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -972,7 +1032,7 @@ exports[`Skills component renders the component 1`] = `
         Decision Making
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -994,7 +1054,7 @@ exports[`Skills component renders the component 1`] = `
         Conflict Resolution
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1004,7 +1064,7 @@ exports[`Skills component renders the component 1`] = `
         Adaptability
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1014,7 +1074,7 @@ exports[`Skills component renders the component 1`] = `
         Time Management
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1024,7 +1084,7 @@ exports[`Skills component renders the component 1`] = `
         Organization
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1034,7 +1094,7 @@ exports[`Skills component renders the component 1`] = `
         Strategic Thinking
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1044,7 +1104,7 @@ exports[`Skills component renders the component 1`] = `
         Mentoring
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1066,7 +1126,7 @@ exports[`Skills component renders the component 1`] = `
         Resilience
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1076,7 +1136,7 @@ exports[`Skills component renders the component 1`] = `
         Critical Thinking
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1086,7 +1146,7 @@ exports[`Skills component renders the component 1`] = `
         Creativity
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1096,7 +1156,7 @@ exports[`Skills component renders the component 1`] = `
         Active Listening
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1106,7 +1166,7 @@ exports[`Skills component renders the component 1`] = `
         Team Building
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1116,7 +1176,7 @@ exports[`Skills component renders the component 1`] = `
         Ethical Decision Making
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1126,7 +1186,17 @@ exports[`Skills component renders the component 1`] = `
         Customer Orientation
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Stakeholder Management
+      </li>
+      <li
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1136,7 +1206,7 @@ exports[`Skills component renders the component 1`] = `
         Learning Agility
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1146,7 +1216,7 @@ exports[`Skills component renders the component 1`] = `
         Curiosity
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1156,7 +1226,7 @@ exports[`Skills component renders the component 1`] = `
         Patience
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1166,7 +1236,7 @@ exports[`Skills component renders the component 1`] = `
         Public Speaking
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1176,7 +1246,7 @@ exports[`Skills component renders the component 1`] = `
         Networking
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1186,7 +1256,7 @@ exports[`Skills component renders the component 1`] = `
         Multitasking
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1196,7 +1266,7 @@ exports[`Skills component renders the component 1`] = `
         Attention to Detail
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1206,7 +1276,7 @@ exports[`Skills component renders the component 1`] = `
         Motivation
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input
@@ -1216,7 +1286,7 @@ exports[`Skills component renders the component 1`] = `
         Persuasion
       </li>
       <li
-        class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
         <input

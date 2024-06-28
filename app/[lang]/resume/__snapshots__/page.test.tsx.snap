@@ -152,7 +152,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           JavaScript
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -162,7 +162,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           HTML5
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -184,7 +184,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Tailwind CSS
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -194,7 +194,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Vue.js
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -204,7 +204,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Nuxt.js
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -214,7 +214,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Angular
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -224,7 +224,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Responsive Design
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -234,7 +234,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           SEO
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -244,7 +244,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           SSR
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -254,7 +254,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Sass
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -264,7 +264,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Semantical HTML
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -274,7 +274,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Webpack
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -284,7 +284,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Redux
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -294,7 +294,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           jQuery
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -304,7 +304,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Web Accessibility
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -314,7 +314,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Core Web Vitals
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -324,7 +324,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Web Performance
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -334,7 +334,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Web Security
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -344,7 +344,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Web Sockets
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -354,7 +354,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Styled Components
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -364,7 +364,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           PWA
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -374,7 +374,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Storybook
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -396,7 +396,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Node.js
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -406,7 +406,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Nest.js
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -416,7 +416,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Express
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -426,7 +426,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           LoopBack
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -436,7 +436,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Meteor
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -446,7 +446,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Kong
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -456,7 +456,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Kong
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -466,7 +466,17 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           .NET
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Unit tests
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -476,7 +486,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Jest
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -486,7 +496,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Code Coverage
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -496,7 +506,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           React Testing Library
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -506,7 +516,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Cypress
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -516,7 +526,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Chromatic
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -526,7 +536,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           HTTP
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -536,7 +546,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           GraphQL
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -546,7 +556,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           REST
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -556,7 +566,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           PHP
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -566,7 +576,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           WordPress
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -576,7 +586,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Magento
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -586,7 +596,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Laravel
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -596,7 +606,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Nginx
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -606,7 +616,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Apache
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -616,7 +626,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Linux Servers
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -626,7 +636,17 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Windows Servers
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          CI/CD
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -636,7 +656,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           GitHub Actions
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -646,7 +666,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Bash
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -656,7 +676,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Docker
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -666,7 +686,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           YML
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -676,7 +696,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           AWS
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -686,7 +706,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           AWS S3
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -696,7 +716,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Kubernets
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -706,7 +726,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Terraform
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -716,7 +736,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           SQL
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -726,7 +746,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           MySQL
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -736,7 +756,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           SQL Server
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -746,7 +766,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           PostgreSQL
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -756,7 +776,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Oracle
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -766,7 +786,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           NoSQL
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -776,7 +796,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           MongoDB
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -786,7 +806,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Jira
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -796,7 +816,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Confluence
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -806,7 +826,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Slack Workflows
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -816,7 +836,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Slack Apps
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -826,7 +846,17 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           BPMN
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Git
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -836,7 +866,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           A/B Testing
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -846,7 +876,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Atomic Design
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -856,7 +886,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Design Systems
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -866,7 +896,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Semantic Versioning
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -876,7 +906,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           UI/UX
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -886,7 +916,37 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Google Ad Manager
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Agile
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Scrum
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Kanban
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -896,7 +956,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Native Android
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -906,7 +966,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Java
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -916,7 +976,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Kotlin
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -926,7 +986,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Native iOS
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -936,7 +996,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           SwiftUI
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -946,7 +1006,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           React Native
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -956,7 +1016,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Firebase
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -966,7 +1026,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Functional Programming
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -976,7 +1036,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           OOP
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -986,7 +1046,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Regular Expressions
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -996,7 +1056,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           MarkDown
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1006,7 +1066,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Elasticsearh
         </li>
         <li
-          class="col-start-1  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1064,7 +1124,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Decision Making
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1086,7 +1146,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Conflict Resolution
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1096,7 +1156,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Adaptability
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1106,7 +1166,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Time Management
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1116,7 +1176,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Organization
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1126,7 +1186,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Strategic Thinking
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1136,7 +1196,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Mentoring
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1158,7 +1218,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Resilience
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1168,7 +1228,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Critical Thinking
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1178,7 +1238,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Creativity
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1188,7 +1248,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Active Listening
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1198,7 +1258,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Team Building
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1208,7 +1268,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Ethical Decision Making
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1218,7 +1278,17 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Customer Orientation
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Stakeholder Management
+        </li>
+        <li
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1228,7 +1298,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Learning Agility
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1238,7 +1308,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Curiosity
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1248,7 +1318,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Patience
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1258,7 +1328,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Public Speaking
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1268,7 +1338,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Networking
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1278,7 +1348,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Multitasking
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1288,7 +1358,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Attention to Detail
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1298,7 +1368,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Motivation
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1308,7 +1378,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Persuasion
         </li>
         <li
-          class="col-start-2  flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1501,7 +1571,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                   class="print:hidden"
                   type="checkbox"
                 />
-                I led team ceremonies with agile practices to ensure a streamlined workflow improving task throughput in 50%;
+                I led team ceremonies with agile practices to ensure a streamlined workflow improving task throughput by 50%;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -1632,7 +1702,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                   class="print:hidden"
                   type="checkbox"
                 />
-                Launched the Design System v3 has been launched, bringing 30% more performance to all pages on the platform;²
+                Launched the Design System v3, bringing 30% more performance to all pages on the platform;²
               </li>
               <li
                 class="mt-1 items-baseline flex gap-x-1.5 "
@@ -1729,7 +1799,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                   class="print:hidden"
                   type="checkbox"
                 />
-                Delivered the Design System roadmap, including a brand new platform home page, created in less than 48 hours;
+                Delivered the Design System roadmap, including a new platform home page, created in less than 48 hours;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"

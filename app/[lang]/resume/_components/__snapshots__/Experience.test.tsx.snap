@@ -184,7 +184,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              I led team ceremonies with agile practices to ensure a streamlined workflow improving task throughput in 50%;
+              I led team ceremonies with agile practices to ensure a streamlined workflow improving task throughput by 50%;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -315,7 +315,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Launched the Design System v3 has been launched, bringing 30% more performance to all pages on the platform;²
+              Launched the Design System v3, bringing 30% more performance to all pages on the platform;²
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 "
@@ -412,7 +412,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Delivered the Design System roadmap, including a brand new platform home page, created in less than 48 hours;
+              Delivered the Design System roadmap, including a new platform home page, created in less than 48 hours;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
