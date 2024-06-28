@@ -42,7 +42,7 @@ exports[`ExperienceItem component renders the component 1`] = `
       <h3
         class="xl:text-xl"
       >
-        I was the leader of the "Ads Seller Experience" team.
+        A tech leader role (80% people / 20% hands-on) where I was responsible for a core team's results.
       </h3>
     </section>
   </article>

@@ -80,7 +80,7 @@ exports[`Experience page (Server-side) renders the page 1`] = `
       <h3
         class="xl:text-xl"
       >
-        I am a Senior Full-Stack developer.
+        A self-employed role where I have been working on some independent client projects.
       </h3>
     </section>
   </article>
@@ -124,7 +124,7 @@ exports[`Experience page (Server-side) renders the page 1`] = `
       <h3
         class="xl:text-xl"
       >
-        I was the leader of the "Ads Seller Experience" team.
+        A tech leader role (80% people / 20% hands-on) where I was responsible for a core team's results.
       </h3>
     </section>
   </article>
@@ -168,7 +168,7 @@ exports[`Experience page (Server-side) renders the page 1`] = `
       <h3
         class="xl:text-xl"
       >
-        I was the leader of the "Search & Recommendation" team¹ and the "Design System" chapter².
+        A double leadership role with a very technical team and a chapter once a week.
       </h3>
     </section>
   </article>
@@ -212,7 +212,7 @@ exports[`Experience page (Server-side) renders the page 1`] = `
       <h3
         class="xl:text-xl"
       >
-        I was the leader of the 'Design System' team.
+        A tech leader role (70% people / 30% hands-on) where I was responsible for the Design System project.
       </h3>
     </section>
   </article>
@@ -256,7 +256,7 @@ exports[`Experience page (Server-side) renders the page 1`] = `
       <h3
         class="xl:text-xl"
       >
-        I was the leader of the "Advertising" team.
+        A tech leader role (90% people / 10% hands-on) where I was responsible for the Advertising system.
       </h3>
     </section>
   </article>
@@ -344,7 +344,7 @@ exports[`Experience page (Server-side) renders the page 1`] = `
       <h3
         class="xl:text-xl"
       >
-        I was the leader of the "Estônia" team.
+        A multidisciplinary team leader role where I was responsible for the team results.
       </h3>
     </section>
   </article>
@@ -388,7 +388,7 @@ exports[`Experience page (Server-side) renders the page 1`] = `
       <h3
         class="xl:text-xl"
       >
-        I was the technical leader of the Front-End chapter.
+        A tech leader position (80% tech / 20% people) where I was responsible for the Front-End best practices.
       </h3>
     </section>
   </article>
@@ -432,7 +432,7 @@ exports[`Experience page (Server-side) renders the page 1`] = `
       <h3
         class="xl:text-xl"
       >
-        I was a Senior Front-End developer on the "França" team.
+        A pure hands-on position where I was responsible for doing all of my team's Front-End deliveries.
       </h3>
     </section>
   </article>
@@ -476,7 +476,7 @@ exports[`Experience page (Server-side) renders the page 1`] = `
       <h3
         class="xl:text-xl"
       >
-        I was a Senior Full-Stack developer on the "Growth Hacking" team.
+        A pure hands-on position where I was responsible for doing all of my team's full-stack deliveries.
       </h3>
     </section>
   </article>
@@ -520,7 +520,7 @@ exports[`Experience page (Server-side) renders the page 1`] = `
       <h3
         class="xl:text-xl"
       >
-        I was a Mid Level Front-End developer on the "User Acquisition" team.
+        A pure hands-on position where I was responsible for doing some of my team's full-stack deliveries.
       </h3>
     </section>
   </article>
