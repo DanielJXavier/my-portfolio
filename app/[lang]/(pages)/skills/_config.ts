@@ -43,6 +43,7 @@ export const hardSkills: SkillInterface[] = [
   { key: "python", name: "Kong", size: 1 },
   { key: "dotnet", name: ".NET", size: 1 },
   /* Test  */
+  { key: "unit-tests", name: "Unit tests", size: 3 },
   { key: "jest", name: "Jest", size: 3 },
   { key: "coverage", name: "Code Coverage", size: 3 },
   { key: "react-testing-library", name: "React Testing Library", size: 3 },
@@ -64,6 +65,7 @@ export const hardSkills: SkillInterface[] = [
   { key: "linux", name: "Linux Servers", size: 3 },
   { key: "windows", name: "Windows Servers", size: 2 },
   /* CI / CD */
+  { key: "ci_cd", name: "CI/CD", size: 2 },
   { key: "github-actions", name: "GitHub Actions", size: 2 },
   { key: "bash", name: "Bash", size: 1 },
   { key: "docker", name: "Docker", size: 1 },
@@ -87,12 +89,16 @@ export const hardSkills: SkillInterface[] = [
   { key: "slack-apps", name: "Slack Apps", size: 1 },
   { key: "bpmn", name: "BPMN", size: 1 },
   /* Business */
+  { key: "git", name: "Git", size: 3 },
   { key: "a_b-testing", name: "A/B Testing", size: 1 },
   { key: "atomic-design", name: "Atomic Design", size: 1 },
   { key: "design-systems", name: "Design Systems", size: 1 },
   { key: "semver", name: "Semantic Versioning", size: 1 },
   { key: "ui_ux", name: "UI/UX", size: 1 },
   { key: "ad-manager", name: "Google Ad Manager", size: 1 },
+  { key: "agile", name: "Agile", size: 3 },
+  { key: "scrum", name: "Scrum", size: 3 },
+  { key: "kanban", name: "Kanban", size: 2 },
   /* Mobile */
   { key: "android", name: "Native Android", size: 1 },
   { key: "java", name: "Java", size: 1 },
@@ -102,7 +108,7 @@ export const hardSkills: SkillInterface[] = [
   { key: "rn", name: "React Native", size: 1 },
   { key: "firebase", name: "Firebase", size: 1 },
   /* Other */
-  { key: "functional-programming", name: "Functional Programming", size: 1 },
+  { key: "functional-programming", name: "Functional Programming", size: 2 },
   { key: "oop", name: "OOP", size: 1 },
   { key: "regex", name: "Regular Expressions", size: 2 },
   { key: "markdown", name: "MarkDown", size: 1 },
@@ -130,6 +136,7 @@ export const softSkills = [
   { key: "team-building", size: 2 },
   { key: "ethical-decision-making", size: 1 },
   { key: "customer-orientation", size: 3 },
+  { key: "stakeholder-management", size: 3 },
   { key: "learning-agility", size: 3 },
   { key: "curiosity", size: 4 },
   { key: "patience", size: 1 },
