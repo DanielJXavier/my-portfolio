@@ -1538,7 +1538,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                   class="print:hidden"
                   type="checkbox"
                 />
-                Created a high-performance and fully accessible professional website using React/Tailwind CSS to handle routing in the front, Next.js/Node.js to provide Server Side Rendering in the back end, Jest/Cypress to provide 100% code coverage including some visual tests, and Vercel's Frontend Cloud for deployment;
+                Created a high-performance and fully accessible professional portfolio website using React/Tailwind CSS to handle routing in the front, Next.js/Node.js to provide Server Side Rendering in the back end, Jest/Cypress to provide 100% code coverage including some visual tests, and Vercel's Frontend Cloud for deployment;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1779,6 +1779,16 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                 We delivered a new LTR ranking algorithm that brings 10% more conversion in the Ad Recommendation system;
               </li>
               <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                I structured this team into 3 independent squads to support the strategic plan for next year and get them focused on each business domain;
+              </li>
+              <li
                 class="items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
                 data-visible=""
@@ -1788,7 +1798,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                   class="print:hidden"
                   type="checkbox"
                 />
-                I structured this team into 3 independent squads to support the strategic plan for next year and get them focused on each business domain;
+                We used the Open AI API to help us in an annotation job with thousands of registries in a simple way and with 60% accuracy;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "

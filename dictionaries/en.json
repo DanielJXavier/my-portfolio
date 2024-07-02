@@ -35,7 +35,7 @@
         "description": "A contractor role where I have been working on some independent client projects.",
         "accomplishments": [
           "Delegating tasks for associate developers, reviewing code, and ensuring deliveries for the customers;",
-          "Created a high-performance and fully accessible professional website using React/Tailwind CSS to handle routing in the front, Next.js/Node.js to provide Server Side Rendering in the back end, Jest/Cypress to provide 100% code coverage including some visual tests, and Vercel's Frontend Cloud for deployment;",
+          "Created a high-performance and fully accessible professional portfolio website using React/Tailwind CSS to handle routing in the front, Next.js/Node.js to provide Server Side Rendering in the back end, Jest/Cypress to provide 100% code coverage including some visual tests, and Vercel's Frontend Cloud for deployment;",
           "Created a template-based app for printing medical reports using React to handle the dynamic fields in the front, Next.js/Node.js to provide Server Side Rendering in the back end, and Vercel's Frontend Cloud for deployment;",
           "Created a ticket booking API using the Nest.js framework (Node.js) to expose some different endpoints, Kong as an API gateway to manage all the requests, and MySQL to store the data in a simple relational database;"
         ],
@@ -61,6 +61,7 @@
           "I led a team of 8 developers, leveraging the strengths of each of them, doing weekly 1:1s, and supporting them in the technical decisions;",
           "We delivered a new LTR ranking algorithm that brings 10% more conversion in the Ad Recommendation system;",
           "I structured this team into 3 independent squads to support the strategic plan for next year and get them focused on each business domain;",
+          "We used the Open AI API to help us in an annotation job with thousands of registries in a simple way and with 60% accuracy;",
           "I also led a Design System chapter with 9 developers, with a once-a-week work meeting, planning the tasks, and keeping them focused on the most valuable deliveries;",
           "We launched the Design System v3, bringing 30% more performance to all pages on the platform;"
         ],
