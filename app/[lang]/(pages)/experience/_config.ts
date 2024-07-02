@@ -97,7 +97,7 @@ export const experience: ExperienceInterface[] = [
       "aws",
     ],
     resume: true,
-    resumeAccomplishments: [1, 3, 5],
+    resumeAccomplishments: [1, 3],
     hasBlackLogo: false,
   },
   {

@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import { useParams } from "next/navigation";
 
 import { ExperienceItemsType, getDictionary } from "get-dictionary";
@@ -7,7 +8,6 @@ import { experience } from "@/[lang]/(pages)/experience/_config";
 import { hardSkills } from "@/[lang]/(pages)/skills/_config";
 
 import VisibilityControl from "./VisibiltyControl";
-import { useRef } from "react";
 
 export default function Experience() {
   const { lang } = useParams<{ lang: Lang }>();
@@ -48,6 +48,9 @@ export default function Experience() {
                     {experienceItems.current[key].role} @ {companyName}
                   </span>
                   <span> ({year})</span>
+                </p>
+                <p className="text-[12pt]">
+                  {experienceItems.current[key].description.replace(".", ":")}
                 </p>
                 <ul className="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]">
                   {experienceItems.current[key].accomplishments.map(
