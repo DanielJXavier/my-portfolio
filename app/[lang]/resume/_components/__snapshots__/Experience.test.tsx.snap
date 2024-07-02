@@ -28,7 +28,7 @@ exports[`Experience component renders the component 1`] = `
             <span
               class="font-bold"
             >
-              Full Stack Engineer
+              Technical Lead
                @ 
               &lt;DanielXavier /&gt;
             </span>
@@ -41,6 +41,18 @@ exports[`Experience component renders the component 1`] = `
           <ul
             class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
           >
+            <li
+              class="items-baseline flex gap-x-1.5 "
+              data-testid="visibility-control"
+              data-visible=""
+            >
+              <input
+                checked=""
+                class="print:hidden"
+                type="checkbox"
+              />
+              Delegating tasks for associate developers, reviewing code, and ensuring deliveries for the customers;
+            </li>
             <li
               class="items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
@@ -66,12 +78,10 @@ exports[`Experience component renders the component 1`] = `
               Created a template-based app for printing medical reports using React to handle the dynamic fields in the front, Next.js/Node.js to provide Server Side Rendering in the back end, and Vercel's Frontend Cloud for deployment;
             </li>
             <li
-              class="items-baseline flex gap-x-1.5 "
+              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
               data-testid="visibility-control"
-              data-visible=""
             >
               <input
-                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -105,7 +115,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              React | Next.js | TypeScript | JavaScript | HTML5 | CSS3 | Tailwind CSS | Node.js | Nest.js | Kong | Jest | Cypress | Docker | MySQL
+              React | Next.js | HTML5 | CSS3 | Tailwind CSS | Node.js | Nest.js | Kong | TypeScript | JavaScript | Jest | Cypress | Docker | Vercel | MySQL
             </li>
           </ul>
         </div>
@@ -127,7 +137,7 @@ exports[`Experience component renders the component 1`] = `
             <span
               class="font-bold"
             >
-              Software Engineering Manager
+              Technical Lead
                @ 
               OLX
             </span>
@@ -234,7 +244,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              React | Node.js | Kong | AWS S3 | Native Android | Kotlin | Native iOS | SwiftUI | React Native | Firebase
+              React | Node.js | Kong | Amazon Web Services (AWS) | Amazon S3 - Cloud Object Storage | Native Android | Kotlin | Native iOS | SwiftUI | React Native | Firebase
             </li>
           </ul>
         </div>
@@ -256,7 +266,7 @@ exports[`Experience component renders the component 1`] = `
             <span
               class="font-bold"
             >
-              Software Engineering Manager
+              Technical Lead
                @ 
               OLX
             </span>
@@ -355,7 +365,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              React | Storybook | Python | AWS S3 | PostgreSQL | Kotlin | Native iOS | SwiftUI | React Native | Elasticsearh
+              React | Storybook | Python | Amazon Web Services (AWS) | Amazon S3 - Cloud Object Storage | PostgreSQL | Kotlin | Native iOS | SwiftUI | React Native | Elasticsearh
             </li>
           </ul>
         </div>
@@ -377,7 +387,7 @@ exports[`Experience component renders the component 1`] = `
             <span
               class="font-bold"
             >
-              Software Engineering Manager
+              Technical Lead
                @ 
               OLX
             </span>
@@ -474,7 +484,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              React | Storybook | AWS S3 | Native Android | Kotlin | Native iOS | SwiftUI
+              React | Storybook | Amazon Web Services (AWS) | Amazon S3 - Cloud Object Storage | Native Android | Kotlin | Native iOS | SwiftUI
             </li>
           </ul>
         </div>
@@ -496,7 +506,7 @@ exports[`Experience component renders the component 1`] = `
             <span
               class="font-bold"
             >
-              Software Engineering Manager
+              Technical Lead
                @ 
               OLX
             </span>
@@ -593,7 +603,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              JavaScript | HTML5 | CSS3 | Java | AWS S3 | Google Ad Manager | Native Android | Java | Kotlin | Native iOS | SwiftUI | Firebase
+              HTML5 | CSS3 | Java | JavaScript | Amazon Web Services (AWS) | Amazon S3 - Cloud Object Storage | Google Ad Manager | Native Android | Java | Kotlin | Native iOS | SwiftUI | Firebase
             </li>
           </ul>
         </div>
@@ -702,7 +712,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              JavaScript | HTML5 | CSS3 | BPMN
+              HTML5 | CSS3 | JavaScript | Google Cloud Platform (GCP) | BPMN
             </li>
           </ul>
         </div>
@@ -724,7 +734,7 @@ exports[`Experience component renders the component 1`] = `
             <span
               class="font-bold"
             >
-              Development Coordinator
+              Team Leader
                @ 
               Softplan
             </span>
@@ -821,7 +831,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              React | Micro Frontends | .NET | GraphQL | SQL Server | Delphi
+              React | Micro Frontends | .NET | GraphQL | Amazon Web Services (AWS) | SQL Server | Delphi
             </li>
           </ul>
         </div>
@@ -843,7 +853,7 @@ exports[`Experience component renders the component 1`] = `
             <span
               class="font-bold"
             >
-              Tech Lead
+              Technical Lead
                @ 
               Softplan
             </span>
@@ -940,7 +950,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              React | Micro Frontends | .NET | GraphQL | SQL Server
+              React | Micro Frontends | .NET | GraphQL | Amazon Web Services (AWS) | SQL Server
             </li>
           </ul>
         </div>
@@ -1039,7 +1049,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              React | Micro Frontends | .NET | GraphQL | SQL Server
+              React | Micro Frontends | .NET | GraphQL | Amazon Web Services (AWS) | SQL Server
             </li>
           </ul>
         </div>
@@ -1126,7 +1136,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              JavaScript | HTML5 | CSS3 | Vue.js | Nuxt.js | Node.js | MySQL
+              HTML5 | CSS3 | Vue.js | Nuxt.js | Node.js | JavaScript | Amazon Web Services (AWS) | MySQL
             </li>
           </ul>
         </div>
@@ -1223,7 +1233,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              JavaScript | HTML5 | CSS3 | Vue.js | Nuxt.js | Node.js | PHP | WordPress | Nginx | MySQL
+              HTML5 | CSS3 | Vue.js | Nuxt.js | Node.js | JavaScript | PHP | WordPress | Nginx | Amazon Web Services (AWS) | MySQL
             </li>
           </ul>
         </div>
@@ -1310,7 +1320,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              JavaScript | HTML5 | CSS3 | PHP | WordPress | Nginx | MySQL
+              HTML5 | CSS3 | JavaScript | PHP | WordPress | Nginx | Amazon Web Services (AWS) | MySQL
             </li>
           </ul>
         </div>
@@ -1407,7 +1417,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              JavaScript | HTML5 | CSS3 | Angular | Node.js | Express | LoopBack | PHP | WordPress | Magento | Apache | Linux Servers | Windows Servers | MySQL | SQL Server | Oracle | BPMN
+              HTML5 | CSS3 | Angular | Node.js | Express | LoopBack | JavaScript | PHP | WordPress | Magento | Apache | Linux Servers | Windows Servers | Amazon Web Services (AWS) | MySQL | SQL Server | Oracle | BPMN
             </li>
           </ul>
         </div>
@@ -1427,7 +1437,7 @@ exports[`Experience component renders the component 1`] = `
             <span
               class="font-bold"
             >
-              Support Intern
+              Support Associate
                @ 
               Sydle
             </span>
@@ -1504,7 +1514,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              JavaScript | Linux Servers | Windows Servers | SQL Server | Oracle | BPMN
+              JavaScript | Linux Servers | Windows Servers | Amazon Web Services (AWS) | SQL Server | Oracle | BPMN
             </li>
           </ul>
         </div>

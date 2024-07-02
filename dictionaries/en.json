@@ -1,7 +1,7 @@
 {
   "global": {
     "author": {
-      "headline": "Fullstack Engineer | Front-End focused | React | Next.js | TypeScript | Node.js | JavaScript | Leadership"
+      "headline": "Tech Lead | Fullstack Engineer | Front-End focused | React | Next.js | TypeScript | Node.js | JavaScript | AWS | Leadership"
     },
     "copyright": "All rights reserved.",
     "menu": {
@@ -14,7 +14,7 @@
   "home": {
     "greeting": "Hey, I'm",
     "summary": [
-      "With more than 10 years of experience in fullstack web development and expertise in React, TypeScript, Next.js, Node.js, and JavaScript, I have consistently delivered elegant solutions to complex challenges. My proficiency extends beyond technical skills, as I have successfully led teams on complex projects with relevant results.",
+      "With more than 12 years of experience in fullstack web development and expertise in React, TypeScript, Next.js, Node.js, and JavaScript, I have consistently delivered elegant solutions to complex challenges. My proficiency extends beyond technical skills, as I have successfully led teams on complex projects with relevant results.",
       "As an experienced Fullstack engineer and leader, I have a proven track record of designing intuitive user interfaces and robust backend systems, ensuring high performance, scalability, and security. My leadership style is rooted in collaboration and continuous improvement, driving my teams to achieve excellence.",
       "I am focused on obtaining an international/global opportunity as a Lead/Senior Full-Stack Engineer, designing and developing robust and scalable solutions with best practices, actively contributing to the company's goals and achieving great results together!"
     ],
@@ -31,9 +31,10 @@
     "mainStackTitle": "Main stack",
     "items": {
       "danielxavier-1": {
-        "role": "Full Stack Engineer",
-        "description": "A self-employed role where I have been working on some independent client projects.",
+        "role": "Technical Lead",
+        "description": "A contractor role where I have been working on some independent client projects.",
         "accomplishments": [
+          "Delegating tasks for associate developers, reviewing code, and ensuring deliveries for the customers;",
           "Created a high-performance and fully accessible professional website using React/Tailwind CSS to handle routing in the front, Next.js/Node.js to provide Server Side Rendering in the back end, Jest/Cypress to provide 100% code coverage including some visual tests, and Vercel's Frontend Cloud for deployment;",
           "Created a template-based app for printing medical reports using React to handle the dynamic fields in the front, Next.js/Node.js to provide Server Side Rendering in the back end, and Vercel's Frontend Cloud for deployment;",
           "Created a ticket booking API using the Nest.js framework (Node.js) to expose some different endpoints, Kong as an API gateway to manage all the requests, and MySQL to store the data in a simple relational database;"
@@ -41,7 +42,7 @@
         "biggestChallenge": "To quickly design and release projects from scratch and with few defined requirements."
       },
       "olx-4": {
-        "role": "Software Engineering Manager",
+        "role": "Technical Lead",
         "description": "A tech leader role (80% people / 20% hands-on) where I was responsible for a core team's results.",
         "accomplishments": [
           "I led a team of 9 developers, engaging them even in a crisis scenario, doing weekly 1:1s, and helping them with their technical challenges;",
@@ -54,7 +55,7 @@
         "biggestChallenge": "To deal with pressure from leadership to do major deliveries in the short term."
       },
       "olx-3": {
-        "role": "Software Engineering Manager",
+        "role": "Technical Lead",
         "description": "A double leadership role with a very technical team and a chapter once a week.",
         "accomplishments": [
           "I led a team of 8 developers, leveraging the strengths of each of them, doing weekly 1:1s, and supporting them in the technical decisions;",
@@ -66,7 +67,7 @@
         "biggestChallenge": "To balance the substantial responsibilities of both the team and the chapter simultaneously."
       },
       "olx-2": {
-        "role": "Software Engineering Manager",
+        "role": "Technical Lead",
         "description": "A tech leader role (70% people / 30% hands-on) where I was responsible for the Design System project.",
         "accomplishments": [
           "Partnered with the Design Manager to make optimal product decisions and define a product roadmap;",
@@ -78,7 +79,7 @@
         "biggestChallenge": "To assume multiple roles simultaneously, including Engineering Manager, Product Manager, Data Analyst, etc."
       },
       "olx-1": {
-        "role": "Software Engineering Manager",
+        "role": "Technical Lead",
         "description": "A tech leader role (90% people / 10% hands-on) where I was responsible for the Advertising system.",
         "accomplishments": [
           "I led a team of 7 developers, serving as a key reference, doing weekly 1:1s, and helping them interact with other teams;",
@@ -101,7 +102,7 @@
         "biggestChallenge": "To find a way to convert a highly \"human-centric\" project, based on personal consultancy, into a systematic approach."
       },
       "softplan-3": {
-        "role": "Development Coordinator",
+        "role": "Team Leader",
         "description": "A multidisciplinary team leader role where I was responsible for the team results.",
         "accomplishments": [
           "I directly led a multidisciplinary software development team of 28 people including Developers, Quality Assurance analysts, Product Owners, Business Analysts, and Agile Masters;",
@@ -113,7 +114,7 @@
         "biggestChallenge": "To manage such a large team and ensure critical deliveries."
       },
       "softplan-2": {
-        "role": "Tech Lead",
+        "role": "Technical Lead",
         "description": "A tech leader position (80% tech / 20% people) where I was responsible for the Front-End best practices.",
         "accomplishments": [
           "I developed some Front-End modules for the new \"SAJ\" system, constructed using React and a Micro Frontend approach;",
@@ -175,8 +176,8 @@
         "biggestChallenge": "To rapidly acquire development skills and contribute to legacy projects."
       },
       "sydle-1": {
-        "role": "Support Intern",
-        "description": "I was a Support Intern on the \"Suporte & Sustentação\" team.",
+        "role": "Support Associate",
+        "description": "I was a Support Associate on the \"Suporte & Sustentação\" team.",
         "accomplishments": [
           "Provided technical support to users of the company's systems;",
           "Configured and monitored infrastructure on Linux and Windows servers;",
@@ -273,9 +274,10 @@
       "soft": "soft"
     },
     "soft": {
-      "communication": "Communication",
       "leadership": "Leadership",
       "problem-solving": "Problem Solving",
+      "stakeholder-management": "Stakeholder Management",
+      "communication": "Communication",
       "decision-making": "Decision Making",
       "empathy": "Empathy",
       "conflict-resolution": "Conflict Resolution",
@@ -292,7 +294,6 @@
       "team-building": "Team Building",
       "ethical-decision-making": "Ethical Decision Making",
       "customer-orientation": "Customer Orientation",
-      "stakeholder-management": "Stakeholder Management",
       "learning-agility": "Learning Agility",
       "curiosity": "Curiosity",
       "patience": "Patience",

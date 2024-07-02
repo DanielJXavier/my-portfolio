@@ -8,8 +8,6 @@ export const hardSkills: SkillInterface[] = [
   /* Front-End */
   { key: "react", name: "React", size: 5 },
   { key: "next", name: "Next.js", size: 4 },
-  { key: "ts", name: "TypeScript", size: 4 },
-  { key: "js", name: "JavaScript", size: 5 },
   { key: "html", name: "HTML5", size: 5 },
   { key: "css", name: "CSS3", size: 5 },
   { key: "tailwind", name: "Tailwind CSS", size: 4 },
@@ -44,6 +42,8 @@ export const hardSkills: SkillInterface[] = [
   { key: "dotnet", name: ".NET", size: 1 },
   { key: "java", name: "Java", size: 1 },
   /* Full-Stack commons */
+  { key: "ts", name: "TypeScript", size: 4 },
+  { key: "js", name: "JavaScript", size: 5 },
   { key: "mern", name: "MERN stack", size: 2 },
   { key: "mach", name: "MACH architecture", size: 2 },
   /* Test  */
@@ -74,8 +74,17 @@ export const hardSkills: SkillInterface[] = [
   { key: "bash", name: "Bash", size: 1 },
   { key: "docker", name: "Docker", size: 1 },
   { key: "yml", name: "YML", size: 1 },
-  { key: "aws", name: "AWS", size: 2 },
-  { key: "s3", name: "AWS S3", size: 2 },
+  { key: "aws", name: "Amazon Web Services (AWS)", size: 2 },
+  { key: "gcp", name: "Google Cloud Platform (GCP)", size: 2 },
+  { key: "ec2", name: "Amazon EC2 - Cloud Compute Capacity", size: 1 },
+  { key: "rds", name: "AWS RDS (Relational Database Service)", size: 1 },
+  { key: "s3", name: "Amazon S3 - Cloud Object Storage", size: 1 },
+  { key: "lambda", name: "AWS Lambda", size: 1 },
+  {
+    key: "cloudfront",
+    name: "Amazon CloudFront - Content Delivery Network",
+    size: 1,
+  },
   { key: "k8s", name: "Kubernets", size: 1 },
   { key: "terraform", name: "Terraform", size: 1 },
   { key: "vercel", name: "Vercel", size: 2 },

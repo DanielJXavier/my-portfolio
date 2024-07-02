@@ -64,16 +64,6 @@ exports[`Skills page (Server-side) renders the page 1`] = `
       Next.js
     </span>
     <span
-      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      TypeScript
-    </span>
-    <span
-      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      JavaScript
-    </span>
-    <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       HTML5
@@ -234,6 +224,16 @@ exports[`Skills page (Server-side) renders the page 1`] = `
       Java
     </span>
     <span
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      TypeScript
+    </span>
+    <span
+      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      JavaScript
+    </span>
+    <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       MERN stack
@@ -356,12 +356,37 @@ exports[`Skills page (Server-side) renders the page 1`] = `
     <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      AWS
+      Amazon Web Services (AWS)
     </span>
     <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      AWS S3
+      Google Cloud Platform (GCP)
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Amazon EC2 - Cloud Compute Capacity
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      AWS RDS (Relational Database Service)
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Amazon S3 - Cloud Object Storage
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      AWS Lambda
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Amazon CloudFront - Content Delivery Network
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"

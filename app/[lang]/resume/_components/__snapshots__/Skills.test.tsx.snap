@@ -36,30 +36,6 @@ exports[`Skills component renders the component 1`] = `
         Next.js
       </li>
       <li
-        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
-        data-testid="visibility-control"
-        data-visible=""
-      >
-        <input
-          checked=""
-          class="print:hidden"
-          type="checkbox"
-        />
-        TypeScript
-      </li>
-      <li
-        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
-        data-testid="visibility-control"
-        data-visible=""
-      >
-        <input
-          checked=""
-          class="print:hidden"
-          type="checkbox"
-        />
-        JavaScript
-      </li>
-      <li
         class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
@@ -80,12 +56,10 @@ exports[`Skills component renders the component 1`] = `
         CSS3
       </li>
       <li
-        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
-        data-visible=""
       >
         <input
-          checked=""
           class="print:hidden"
           type="checkbox"
         />
@@ -384,6 +358,30 @@ exports[`Skills component renders the component 1`] = `
         Java
       </li>
       <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        TypeScript
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        JavaScript
+      </li>
+      <li
         class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
       >
@@ -624,14 +622,16 @@ exports[`Skills component renders the component 1`] = `
         YML
       </li>
       <li
-        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
         data-testid="visibility-control"
+        data-visible=""
       >
         <input
+          checked=""
           class="print:hidden"
           type="checkbox"
         />
-        AWS
+        Amazon Web Services (AWS)
       </li>
       <li
         class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -641,7 +641,57 @@ exports[`Skills component renders the component 1`] = `
           class="print:hidden"
           type="checkbox"
         />
-        AWS S3
+        Google Cloud Platform (GCP)
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Amazon EC2 - Cloud Compute Capacity
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        AWS RDS (Relational Database Service)
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Amazon S3 - Cloud Object Storage
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        AWS Lambda
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Amazon CloudFront - Content Delivery Network
       </li>
       <li
         class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -1060,12 +1110,10 @@ exports[`Skills component renders the component 1`] = `
         Problem Solving
       </li>
       <li
-        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
-        data-visible=""
       >
         <input
-          checked=""
           class="print:hidden"
           type="checkbox"
         />
@@ -1154,12 +1202,10 @@ exports[`Skills component renders the component 1`] = `
         Negotiation
       </li>
       <li
-        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
-        data-visible=""
       >
         <input
-          checked=""
           class="print:hidden"
           type="checkbox"
         />
@@ -1226,10 +1272,12 @@ exports[`Skills component renders the component 1`] = `
         Customer Orientation
       </li>
       <li
-        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
         data-testid="visibility-control"
+        data-visible=""
       >
         <input
+          checked=""
           class="print:hidden"
           type="checkbox"
         />

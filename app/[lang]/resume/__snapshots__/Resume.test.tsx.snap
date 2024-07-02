@@ -87,7 +87,7 @@ exports[`Resume page (Client-side) renders the page 1`] = `
         class="w-full text-[12pt] text-justify align-top border border-primary print:border-none print:resize-none"
         rows="13"
       >
-        With more than 10 years of experience in fullstack web development and expertise in React, TypeScript, Next.js, Node.js, and JavaScript, I have consistently delivered elegant solutions to complex challenges. My proficiency extends beyond technical skills, as I have successfully led teams on complex projects with relevant results.
+        With more than 12 years of experience in fullstack web development and expertise in React, TypeScript, Next.js, Node.js, and JavaScript, I have consistently delivered elegant solutions to complex challenges. My proficiency extends beyond technical skills, as I have successfully led teams on complex projects with relevant results.
 
 As an experienced Fullstack engineer and leader, I have a proven track record of designing intuitive user interfaces and robust backend systems, ensuring high performance, scalability, and security. My leadership style is rooted in collaboration and continuous improvement, driving my teams to achieve excellence.
 
@@ -128,30 +128,6 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Next.js
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
-          data-testid="visibility-control"
-          data-visible=""
-        >
-          <input
-            checked=""
-            class="print:hidden"
-            type="checkbox"
-          />
-          TypeScript
-        </li>
-        <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
-          data-testid="visibility-control"
-          data-visible=""
-        >
-          <input
-            checked=""
-            class="print:hidden"
-            type="checkbox"
-          />
-          JavaScript
-        </li>
-        <li
           class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
@@ -172,12 +148,10 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           CSS3
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
-          data-visible=""
         >
           <input
-            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -476,6 +450,30 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Java
         </li>
         <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          TypeScript
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          JavaScript
+        </li>
+        <li
           class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
@@ -716,14 +714,16 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           YML
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
           data-testid="visibility-control"
+          data-visible=""
         >
           <input
+            checked=""
             class="print:hidden"
             type="checkbox"
           />
-          AWS
+          Amazon Web Services (AWS)
         </li>
         <li
           class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -733,7 +733,57 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
             class="print:hidden"
             type="checkbox"
           />
-          AWS S3
+          Google Cloud Platform (GCP)
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Amazon EC2 - Cloud Compute Capacity
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          AWS RDS (Relational Database Service)
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Amazon S3 - Cloud Object Storage
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          AWS Lambda
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Amazon CloudFront - Content Delivery Network
         </li>
         <li
           class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -1152,12 +1202,10 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Problem Solving
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
-          data-visible=""
         >
           <input
-            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -1246,12 +1294,10 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Negotiation
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
-          data-visible=""
         >
           <input
-            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -1318,10 +1364,12 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
           Customer Orientation
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
           data-testid="visibility-control"
+          data-visible=""
         >
           <input
+            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -1455,7 +1503,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
               <span
                 class="font-bold"
               >
-                Full Stack Engineer
+                Technical Lead
                  @ 
                 &lt;DanielXavier /&gt;
               </span>
@@ -1468,6 +1516,18 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
             <ul
               class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
             >
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Delegating tasks for associate developers, reviewing code, and ensuring deliveries for the customers;
+              </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
@@ -1493,12 +1553,10 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                 Created a template-based app for printing medical reports using React to handle the dynamic fields in the front, Next.js/Node.js to provide Server Side Rendering in the back end, and Vercel's Frontend Cloud for deployment;
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 "
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
-                data-visible=""
               >
                 <input
-                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
@@ -1532,7 +1590,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                 Main stack
                 :
                  
-                React | Next.js | TypeScript | JavaScript | HTML5 | CSS3 | Tailwind CSS | Node.js | Nest.js | Kong | Jest | Cypress | Docker | MySQL
+                React | Next.js | HTML5 | CSS3 | Tailwind CSS | Node.js | Nest.js | Kong | TypeScript | JavaScript | Jest | Cypress | Docker | Vercel | MySQL
               </li>
             </ul>
           </div>
@@ -1554,7 +1612,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
               <span
                 class="font-bold"
               >
-                Software Engineering Manager
+                Technical Lead
                  @ 
                 OLX
               </span>
@@ -1661,7 +1719,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                 Main stack
                 :
                  
-                React | Node.js | Kong | AWS S3 | Native Android | Kotlin | Native iOS | SwiftUI | React Native | Firebase
+                React | Node.js | Kong | Amazon Web Services (AWS) | Amazon S3 - Cloud Object Storage | Native Android | Kotlin | Native iOS | SwiftUI | React Native | Firebase
               </li>
             </ul>
           </div>
@@ -1683,7 +1741,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
               <span
                 class="font-bold"
               >
-                Software Engineering Manager
+                Technical Lead
                  @ 
                 OLX
               </span>
@@ -1782,7 +1840,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                 Main stack
                 :
                  
-                React | Storybook | Python | AWS S3 | PostgreSQL | Kotlin | Native iOS | SwiftUI | React Native | Elasticsearh
+                React | Storybook | Python | Amazon Web Services (AWS) | Amazon S3 - Cloud Object Storage | PostgreSQL | Kotlin | Native iOS | SwiftUI | React Native | Elasticsearh
               </li>
             </ul>
           </div>
@@ -1804,7 +1862,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
               <span
                 class="font-bold"
               >
-                Software Engineering Manager
+                Technical Lead
                  @ 
                 OLX
               </span>
@@ -1901,7 +1959,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                 Main stack
                 :
                  
-                React | Storybook | AWS S3 | Native Android | Kotlin | Native iOS | SwiftUI
+                React | Storybook | Amazon Web Services (AWS) | Amazon S3 - Cloud Object Storage | Native Android | Kotlin | Native iOS | SwiftUI
               </li>
             </ul>
           </div>
@@ -1923,7 +1981,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
               <span
                 class="font-bold"
               >
-                Software Engineering Manager
+                Technical Lead
                  @ 
                 OLX
               </span>
@@ -2020,7 +2078,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                 Main stack
                 :
                  
-                JavaScript | HTML5 | CSS3 | Java | AWS S3 | Google Ad Manager | Native Android | Java | Kotlin | Native iOS | SwiftUI | Firebase
+                HTML5 | CSS3 | Java | JavaScript | Amazon Web Services (AWS) | Amazon S3 - Cloud Object Storage | Google Ad Manager | Native Android | Java | Kotlin | Native iOS | SwiftUI | Firebase
               </li>
             </ul>
           </div>
@@ -2129,7 +2187,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                 Main stack
                 :
                  
-                JavaScript | HTML5 | CSS3 | BPMN
+                HTML5 | CSS3 | JavaScript | Google Cloud Platform (GCP) | BPMN
               </li>
             </ul>
           </div>
@@ -2151,7 +2209,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
               <span
                 class="font-bold"
               >
-                Development Coordinator
+                Team Leader
                  @ 
                 Softplan
               </span>
@@ -2248,7 +2306,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                 Main stack
                 :
                  
-                React | Micro Frontends | .NET | GraphQL | SQL Server | Delphi
+                React | Micro Frontends | .NET | GraphQL | Amazon Web Services (AWS) | SQL Server | Delphi
               </li>
             </ul>
           </div>
@@ -2270,7 +2328,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
               <span
                 class="font-bold"
               >
-                Tech Lead
+                Technical Lead
                  @ 
                 Softplan
               </span>
@@ -2367,7 +2425,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                 Main stack
                 :
                  
-                React | Micro Frontends | .NET | GraphQL | SQL Server
+                React | Micro Frontends | .NET | GraphQL | Amazon Web Services (AWS) | SQL Server
               </li>
             </ul>
           </div>
@@ -2466,7 +2524,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                 Main stack
                 :
                  
-                React | Micro Frontends | .NET | GraphQL | SQL Server
+                React | Micro Frontends | .NET | GraphQL | Amazon Web Services (AWS) | SQL Server
               </li>
             </ul>
           </div>
@@ -2553,7 +2611,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                 Main stack
                 :
                  
-                JavaScript | HTML5 | CSS3 | Vue.js | Nuxt.js | Node.js | MySQL
+                HTML5 | CSS3 | Vue.js | Nuxt.js | Node.js | JavaScript | Amazon Web Services (AWS) | MySQL
               </li>
             </ul>
           </div>
@@ -2650,7 +2708,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                 Main stack
                 :
                  
-                JavaScript | HTML5 | CSS3 | Vue.js | Nuxt.js | Node.js | PHP | WordPress | Nginx | MySQL
+                HTML5 | CSS3 | Vue.js | Nuxt.js | Node.js | JavaScript | PHP | WordPress | Nginx | Amazon Web Services (AWS) | MySQL
               </li>
             </ul>
           </div>
@@ -2737,7 +2795,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                 Main stack
                 :
                  
-                JavaScript | HTML5 | CSS3 | PHP | WordPress | Nginx | MySQL
+                HTML5 | CSS3 | JavaScript | PHP | WordPress | Nginx | Amazon Web Services (AWS) | MySQL
               </li>
             </ul>
           </div>
@@ -2834,7 +2892,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                 Main stack
                 :
                  
-                JavaScript | HTML5 | CSS3 | Angular | Node.js | Express | LoopBack | PHP | WordPress | Magento | Apache | Linux Servers | Windows Servers | MySQL | SQL Server | Oracle | BPMN
+                HTML5 | CSS3 | Angular | Node.js | Express | LoopBack | JavaScript | PHP | WordPress | Magento | Apache | Linux Servers | Windows Servers | Amazon Web Services (AWS) | MySQL | SQL Server | Oracle | BPMN
               </li>
             </ul>
           </div>
@@ -2854,7 +2912,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
               <span
                 class="font-bold"
               >
-                Support Intern
+                Support Associate
                  @ 
                 Sydle
               </span>
@@ -2931,7 +2989,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                 Main stack
                 :
                  
-                JavaScript | Linux Servers | Windows Servers | SQL Server | Oracle | BPMN
+                JavaScript | Linux Servers | Windows Servers | Amazon Web Services (AWS) | SQL Server | Oracle | BPMN
               </li>
             </ul>
           </div>
