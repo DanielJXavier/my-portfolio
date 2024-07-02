@@ -26,6 +26,8 @@
       "simple": "resumida",
       "detailed": "detalhada"
     },
+    "dateSeparatorText": "até",
+    "endDateText": "presente",
     "accomplishmentsTitle": "Principais conquistas",
     "biggestChallengeTitle": "Maior desafio",
     "mainStackTitle": "Stack principal",

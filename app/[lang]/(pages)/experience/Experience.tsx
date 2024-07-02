@@ -42,13 +42,22 @@ export default function Experience() {
         handleClick={setExperienceMode}
       />
       {experience.map(
-        ({ key, companyId, companyName, year, mainStack, hasBlackLogo }) => (
+        ({
+          key,
+          companyId,
+          companyName,
+          startDate,
+          endDate,
+          mainStack,
+          hasBlackLogo,
+        }) => (
           <ExperienceItem
             key={key}
             role={experienceItems.current[key].role}
             companyId={companyId}
             companyName={companyName}
-            year={year}
+            startDate={startDate}
+            endDate={endDate}
             description={experienceItems.current[key].description}
             accomplishments={experienceItems.current[key].accomplishments}
             biggestChallenge={experienceItems.current[key].biggestChallenge}

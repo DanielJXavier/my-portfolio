@@ -14,10 +14,12 @@ export default function Experience() {
 
   const {
     experience: {
-      items,
-      previousItemsText,
+      dateSeparatorText,
+      endDateText,
       biggestChallengeTitle,
       mainStackTitle,
+      items,
+      previousItemsText,
     },
     resume: { sectionTitles },
   } = getDictionary(lang);
@@ -32,7 +34,8 @@ export default function Experience() {
           ({
             key,
             companyName,
-            year,
+            startDate,
+            endDate,
             mainStack,
             resumeAccomplishments,
             resume,
@@ -47,7 +50,10 @@ export default function Experience() {
                   <span className="font-bold">
                     {experienceItems.current[key].role} @ {companyName}
                   </span>
-                  <span> ({year})</span>
+                  <span>
+                    {" "}
+                    ({startDate} {dateSeparatorText} {endDate ?? endDateText})
+                  </span>
                 </p>
                 <p className="text-[12pt]">
                   {experienceItems.current[key].description.replace(".", ":")}

@@ -2,7 +2,8 @@ export interface ExperienceInterface {
   key: string;
   companyId: string;
   companyName: string;
-  year: string;
+  startDate: string;
+  endDate: string | null;
   mainStack: string[];
   resume: boolean;
   resumeAccomplishments: number[];
@@ -14,7 +15,8 @@ export const experience: ExperienceInterface[] = [
     key: "danielxavier-1",
     companyId: "danielxavier",
     companyName: "<DanielXavier />",
-    year: "2024",
+    startDate: "05-2024",
+    endDate: null,
     mainStack: [
       "react",
       "next",
@@ -40,7 +42,8 @@ export const experience: ExperienceInterface[] = [
     key: "olx-4",
     companyId: "olx",
     companyName: "OLX",
-    year: "2024",
+    startDate: "01-2024",
+    endDate: "04-2024",
     mainStack: [
       "react",
       "node",
@@ -62,7 +65,8 @@ export const experience: ExperienceInterface[] = [
     key: "olx-3",
     companyId: "olx",
     companyName: "OLX",
-    year: "2023",
+    startDate: "07-2023",
+    endDate: "12-2023",
     mainStack: [
       "python",
       "es",
@@ -85,7 +89,8 @@ export const experience: ExperienceInterface[] = [
     key: "olx-2",
     companyId: "olx",
     companyName: "OLX",
-    year: "2022 ~ 2023",
+    startDate: "09-2022",
+    endDate: "06-2023",
     mainStack: [
       "react",
       "storybook",
@@ -104,7 +109,8 @@ export const experience: ExperienceInterface[] = [
     key: "olx-1",
     companyId: "olx",
     companyName: "OLX",
-    year: "2021 ~ 2022",
+    startDate: "08-2021",
+    endDate: "08-2022",
     mainStack: [
       "html",
       "css",
@@ -127,7 +133,8 @@ export const experience: ExperienceInterface[] = [
     key: "meaning-1",
     companyId: "meaning",
     companyName: "Meaning",
-    year: "2023",
+    startDate: "03-2022",
+    endDate: "05-2023",
     mainStack: ["html", "css", "js", "bpmn", "gcp"],
     resume: true,
     resumeAccomplishments: [1, 2, 3],
@@ -137,7 +144,8 @@ export const experience: ExperienceInterface[] = [
     key: "softplan-3",
     companyId: "softplan",
     companyName: "Softplan",
-    year: "2020 ~ 2021",
+    startDate: "10-2020",
+    endDate: "07-2021",
     mainStack: [
       "react",
       "micro-frontend",
@@ -155,7 +163,8 @@ export const experience: ExperienceInterface[] = [
     key: "softplan-2",
     companyId: "softplan",
     companyName: "Softplan",
-    year: "2019 ~ 2020",
+    startDate: "09-2019",
+    endDate: "10-2020",
     mainStack: [
       "react",
       "micro-frontend",
@@ -172,7 +181,8 @@ export const experience: ExperienceInterface[] = [
     key: "softplan-1",
     companyId: "softplan",
     companyName: "Softplan",
-    year: "2018 ~ 2019",
+    startDate: "12-2018",
+    endDate: "08-2019",
     mainStack: [
       "react",
       "micro-frontend",
@@ -189,7 +199,8 @@ export const experience: ExperienceInterface[] = [
     key: "hotmart-3",
     companyId: "hotmart",
     companyName: "Hotmart",
-    year: "2018",
+    startDate: "06-2018",
+    endDate: "11-2018",
     mainStack: ["vue", "nuxt", "node", "mysql", "html", "css", "js", "aws"],
     resume: true,
     resumeAccomplishments: [1, 2],
@@ -199,7 +210,8 @@ export const experience: ExperienceInterface[] = [
     key: "hotmart-2",
     companyId: "hotmart",
     companyName: "Hotmart",
-    year: "2017 ~ 2018",
+    startDate: "06-2017",
+    endDate: "05-2018",
     mainStack: [
       "vue",
       "nuxt",
@@ -221,7 +233,8 @@ export const experience: ExperienceInterface[] = [
     key: "hotmart-1",
     companyId: "hotmart",
     companyName: "Hotmart",
-    year: "2016 ~ 2017",
+    startDate: "12-2016",
+    endDate: "05-2017",
     mainStack: [
       "html",
       "css",
@@ -240,7 +253,8 @@ export const experience: ExperienceInterface[] = [
     key: "sydle-2",
     companyId: "sydle",
     companyName: "Sydle",
-    year: "2014 ~ 2016",
+    startDate: "04-2014",
+    endDate: "11-2016",
     mainStack: [
       "node",
       "express",
@@ -269,7 +283,8 @@ export const experience: ExperienceInterface[] = [
     key: "sydle-1",
     companyId: "sydle",
     companyName: "Sydle",
-    year: "2012 ~ 2014",
+    startDate: "04-2012",
+    endDate: "03-2014",
     mainStack: [
       "js",
       "bpmn",

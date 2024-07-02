@@ -30,8 +30,13 @@ exports[`ExperienceItem component renders the component 1`] = `
         <span
           class="text-xs md:text-sm"
         >
-           (
-          2024
+           
+          (
+          01-2024
+           
+          to
+           
+          04-2024
           )
         </span>
       </h2>

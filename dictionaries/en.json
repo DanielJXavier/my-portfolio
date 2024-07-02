@@ -26,6 +26,8 @@
       "simple": "simple",
       "detailed": "detailed"
     },
+    "dateSeparatorText": "to",
+    "endDateText": "present",
     "accomplishmentsTitle": "Main accomplishments",
     "biggestChallengeTitle": "Biggest challenge",
     "mainStackTitle": "Main stack",

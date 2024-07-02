@@ -16,8 +16,15 @@ jest.mock("next/navigation");
 
 describe("ExperienceItem component", () => {
   it("renders the component", () => {
-    const { key, companyId, companyName, year, mainStack, hasBlackLogo } =
-      experienceConfig[1];
+    const {
+      key,
+      companyId,
+      companyName,
+      startDate,
+      endDate,
+      mainStack,
+      hasBlackLogo,
+    } = experienceConfig[1];
 
     const experienceItem = (experience.items as ExperienceItemsType)[key];
     const imageAltText = experience.imageAltText;
@@ -27,7 +34,8 @@ describe("ExperienceItem component", () => {
         role={experienceItem.role}
         companyId={companyId}
         companyName={companyName}
-        year={year}
+        startDate={startDate}
+        endDate={endDate}
         description={experienceItem.description}
         accomplishments={experienceItem.accomplishments}
         biggestChallenge={experienceItem.biggestChallenge}

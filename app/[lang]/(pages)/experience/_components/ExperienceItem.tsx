@@ -44,7 +44,8 @@ export default function ExperienceItem({
   role,
   companyId,
   companyName,
-  year,
+  startDate,
+  endDate,
   description,
   accomplishments,
   biggestChallenge,
@@ -55,7 +56,13 @@ export default function ExperienceItem({
   const { lang } = useParams<{ lang: Lang }>();
 
   const {
-    experience: { accomplishmentsTitle, biggestChallengeTitle, mainStackTitle },
+    experience: {
+      dateSeparatorText,
+      endDateText,
+      accomplishmentsTitle,
+      biggestChallengeTitle,
+      mainStackTitle,
+    },
   } = getDictionary(lang);
 
   const experienceMode = useContext(ExperienceModeContext);
@@ -77,7 +84,10 @@ export default function ExperienceItem({
         />
         <h2 className="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight">
           {role} @ {companyName}
-          <span className="text-xs md:text-sm"> ({year})</span>
+          <span className="text-xs md:text-sm">
+            {" "}
+            ({startDate} {dateSeparatorText} {endDate ?? endDateText})
+          </span>
         </h2>
       </header>
       <section className="pl-14 lg:px-14">
