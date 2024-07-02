@@ -221,12 +221,27 @@ exports[`Skills page (Server-side) renders the page 1`] = `
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Kong
+      Python
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       .NET
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Java
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      MERN stack
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      MACH architecture
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -357,6 +372,11 @@ exports[`Skills page (Server-side) renders the page 1`] = `
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Terraform
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Vercel
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"

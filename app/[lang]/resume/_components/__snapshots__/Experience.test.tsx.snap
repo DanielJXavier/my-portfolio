@@ -355,7 +355,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              React | Storybook | Kong | AWS S3 | PostgreSQL | Kotlin | Native iOS | SwiftUI | React Native | Elasticsearh
+              React | Storybook | Python | AWS S3 | PostgreSQL | Kotlin | Native iOS | SwiftUI | React Native | Elasticsearh
             </li>
           </ul>
         </div>
@@ -593,7 +593,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              JavaScript | HTML5 | CSS3 | AWS S3 | Google Ad Manager | Native Android | Java | Kotlin | Native iOS | SwiftUI | Firebase
+              JavaScript | HTML5 | CSS3 | Java | AWS S3 | Google Ad Manager | Native Android | Java | Kotlin | Native iOS | SwiftUI | Firebase
             </li>
           </ul>
         </div>

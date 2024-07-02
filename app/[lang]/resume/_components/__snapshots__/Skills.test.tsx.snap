@@ -361,7 +361,7 @@ exports[`Skills component renders the component 1`] = `
           class="print:hidden"
           type="checkbox"
         />
-        Kong
+        Python
       </li>
       <li
         class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -372,6 +372,36 @@ exports[`Skills component renders the component 1`] = `
           type="checkbox"
         />
         .NET
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Java
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        MERN stack
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        MACH architecture
       </li>
       <li
         class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -632,6 +662,16 @@ exports[`Skills component renders the component 1`] = `
           type="checkbox"
         />
         Terraform
+      </li>
+      <li
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        data-testid="visibility-control"
+      >
+        <input
+          class="print:hidden"
+          type="checkbox"
+        />
+        Vercel
       </li>
       <li
         class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"

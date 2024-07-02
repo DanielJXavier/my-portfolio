@@ -221,12 +221,27 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Kong
+      Python
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       .NET
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Java
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      MERN stack
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      MACH architecture
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -357,6 +372,11 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Terraform
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Vercel
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -596,6 +616,11 @@ exports[`Skills page (Client-side) calls the handleClick function 2`] = `
     class="my-6 md:my-8 lg:my-10 flex gap-x-3 md:gap-x-5 lg:gap-x-8 gap-y-2 md:gap-y-3 lg:gap-y-4 flex-wrap items-center justify-center lg:justify-between"
   >
     <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Java
+    </span>
+    <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Leadership
@@ -808,6 +833,11 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
     class="my-6 md:my-8 lg:my-10 flex gap-x-3 md:gap-x-5 lg:gap-x-8 gap-y-2 md:gap-y-3 lg:gap-y-4 flex-wrap items-center justify-center lg:justify-between"
   >
     <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Java
+    </span>
+    <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       React
@@ -975,12 +1005,27 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Kong
+      Python
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       .NET
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Java
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      MERN stack
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      MACH architecture
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1111,6 +1156,11 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Terraform
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Vercel
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1667,12 +1717,27 @@ exports[`Skills page (Client-side) renders the page 1`] = `
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Kong
+      Python
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       .NET
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Java
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      MERN stack
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      MACH architecture
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1803,6 +1868,11 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Terraform
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Vercel
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -2359,12 +2429,27 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Kong
+      Python
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       .NET
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Java
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      MERN stack
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      MACH architecture
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -2495,6 +2580,11 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Terraform
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Vercel
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"

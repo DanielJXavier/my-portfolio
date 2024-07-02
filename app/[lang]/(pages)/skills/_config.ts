@@ -40,8 +40,12 @@ export const hardSkills: SkillInterface[] = [
   { key: "loopback", name: "LoopBack", size: 1 },
   { key: "meteor", name: "Meteor", size: 1 },
   { key: "kong", name: "Kong", size: 1 },
-  { key: "python", name: "Kong", size: 1 },
+  { key: "python", name: "Python", size: 1 },
   { key: "dotnet", name: ".NET", size: 1 },
+  { key: "java", name: "Java", size: 1 },
+  /* Full-Stack commons */
+  { key: "mern", name: "MERN stack", size: 2 },
+  { key: "mach", name: "MACH architecture", size: 2 },
   /* Test  */
   { key: "unit-tests", name: "Unit tests", size: 3 },
   { key: "jest", name: "Jest", size: 3 },
@@ -74,6 +78,7 @@ export const hardSkills: SkillInterface[] = [
   { key: "s3", name: "AWS S3", size: 2 },
   { key: "k8s", name: "Kubernets", size: 1 },
   { key: "terraform", name: "Terraform", size: 1 },
+  { key: "vercel", name: "Vercel", size: 2 },
   /* Database */
   { key: "sql", name: "SQL", size: 3 },
   { key: "mysql", name: "MySQL", size: 1 },

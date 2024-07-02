@@ -453,7 +453,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
             class="print:hidden"
             type="checkbox"
           />
-          Kong
+          Python
         </li>
         <li
           class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -464,6 +464,36 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
             type="checkbox"
           />
           .NET
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Java
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          MERN stack
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          MACH architecture
         </li>
         <li
           class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -724,6 +754,16 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
             type="checkbox"
           />
           Terraform
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Vercel
         </li>
         <li
           class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -1742,7 +1782,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                 Main stack
                 :
                  
-                React | Storybook | Kong | AWS S3 | PostgreSQL | Kotlin | Native iOS | SwiftUI | React Native | Elasticsearh
+                React | Storybook | Python | AWS S3 | PostgreSQL | Kotlin | Native iOS | SwiftUI | React Native | Elasticsearh
               </li>
             </ul>
           </div>
@@ -1980,7 +2020,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                 Main stack
                 :
                  
-                JavaScript | HTML5 | CSS3 | AWS S3 | Google Ad Manager | Native Android | Java | Kotlin | Native iOS | SwiftUI | Firebase
+                JavaScript | HTML5 | CSS3 | Java | AWS S3 | Google Ad Manager | Native Android | Java | Kotlin | Native iOS | SwiftUI | Firebase
               </li>
             </ul>
           </div>
