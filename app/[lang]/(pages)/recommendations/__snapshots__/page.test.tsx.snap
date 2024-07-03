@@ -25,6 +25,50 @@ exports[`Recommendations page renders the page 1`] = `
       class="grid grid-cols-[auto_1fr] gap-x-3"
     >
       <img
+        alt="Photo of the author (Wallace Freitas)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Frecommendations%2F1719021291674.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Fimages%2Frecommendations%2F1719021291674.jpeg&w=64&q=75 1x, /_next/image?url=%2Fimages%2Frecommendations%2F1719021291674.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Wallace Freitas
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Full-Stack Engineer
+           @ 
+          NEXT SI
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        I highly recommend Daniel for their expertise in React.js, TypeScript, Node.js, Clean Architecture, and Leadership. They deliver high-quality front-end solutions, build robust backend services, and ensure modular and maintainable codebases. As a natural leader, Daniel inspires and guides their team, fostering collaboration and productivity. Their technical skills and leadership make them an invaluable asset to any team.
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
         alt="Photo of the author (Renan Silva)"
         class="rounded-full"
         data-nimg="1"

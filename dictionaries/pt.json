@@ -310,6 +310,12 @@
   "recommendations": {
     "title": "Recomendações",
     "items": {
+      "1719021291674": {
+        "role": "Desenvolvedor Full-Stack",
+        "paragraphs": [
+          "Eu recomendo fortemente Daniel por sua experiência em React.js, TypeScript, Node.js, Clean Architecture e Leadership. Eles fornecem soluções de front-end de alta qualidade, criam serviços de back-end robustos e garantem bases de código modulares e de fácil manutenção. Como líder natural, Daniel inspira e orienta sua equipe, promovendo a colaboração e a produtividade. Suas habilidades técnicas e liderança os tornam um ativo inestimável para qualquer equipe."
+        ]
+      },
       "1716417055984": {
         "role": "Engenheiro de Software",
         "paragraphs": [
