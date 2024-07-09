@@ -12,7 +12,7 @@ exports[`Summary component renders the component 1`] = `
       class="w-full text-[12pt] text-justify align-top border border-primary print:border-none print:resize-none"
       rows="13"
     >
-      With more than 12 years of experience in fullstack web development and expertise in React, TypeScript, Next.js, Node.js, and JavaScript, I have consistently delivered elegant solutions to complex challenges. My proficiency extends beyond technical skills, as I have successfully led teams on complex projects with relevant results.
+      With more than 12 years of experience in fullstack web development and expertise in React, TypeScript, Next.js, Node.js, and JavaScript, I have consistently delivered elegant solutions to complex problems. My proficiency extends beyond technical skills, as I have successfully led teams on complex projects with relevant results.
 
 As an experienced Fullstack engineer and leader, I have a proven track record of designing intuitive user interfaces and robust backend systems, ensuring high performance, scalability, and security. My leadership style is rooted in collaboration and continuous improvement, driving my teams to achieve excellence.
 
