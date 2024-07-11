@@ -13,7 +13,7 @@ exports[`Home page renders the page 1`] = `
         data-testid="title"
       >
         <svg
-          class="fill-primary w-6 md:w-8 h-6 md:h-8"
+          class="fill-primary size-6 md:size-8"
           viewBox="0 -960 960 960"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -68,7 +68,7 @@ exports[`Home page renders the page 1`] = `
       target="_blank"
     >
       <svg
-        class="fill-primary group-hover/svg:fill-secondary w-5 md:w-6 h-5 md:h-6"
+        class="fill-primary group-hover/svg:fill-secondary size-5 md:size-6"
         viewBox="0 0 512 512"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -84,7 +84,7 @@ exports[`Home page renders the page 1`] = `
       target="_blank"
     >
       <svg
-        class="fill-primary group-hover/svg:fill-secondary w-5 md:w-6 h-5 md:h-6"
+        class="fill-primary group-hover/svg:fill-secondary size-5 md:size-6"
         viewBox="0 0 448 512"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -100,7 +100,7 @@ exports[`Home page renders the page 1`] = `
       target="_blank"
     >
       <svg
-        class="fill-primary group-hover/svg:fill-secondary w-5 md:w-6 h-5 md:h-6"
+        class="fill-primary group-hover/svg:fill-secondary size-5 md:size-6"
         viewBox="0 0 448 512"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -117,7 +117,7 @@ exports[`Home page renders the page 1`] = `
       target="_blank"
     >
       <svg
-        class="fill-primary group-hover/svg:fill-secondary w-5 md:w-6 h-5 md:h-6"
+        class="fill-primary group-hover/svg:fill-secondary size-5 md:size-6"
         viewBox="0 0 496 512"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -134,7 +134,7 @@ exports[`Home page renders the page 1`] = `
       target="_blank"
     >
       <svg
-        class="fill-primary group-hover/svg:fill-secondary w-5 md:w-6 h-5 md:h-6"
+        class="fill-primary group-hover/svg:fill-secondary size-5 md:size-6"
         viewBox="0 0 448 512"
         xmlns="http://www.w3.org/2000/svg"
       >
