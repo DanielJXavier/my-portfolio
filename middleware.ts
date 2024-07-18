@@ -41,7 +41,7 @@ export function middleware(request: NextRequest) {
   const preferedLang = getPreferedLang(request);
 
   return NextResponse.redirect(
-    new URL(`/${preferedLang}${pathname}`, request.url)
+    new URL(`/${preferedLang}${pathname.replace(/\/$/, "")}`, request.url)
   );
 }
 
