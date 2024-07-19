@@ -1,5 +1,10 @@
 export const recommendations = [
   {
+    authorId: "1679942199683",
+    authorName: "Nayane Menezes",
+    company: "AB InBev",
+  },
+  {
     authorId: "1719021291674",
     authorName: "Wallace Freitas",
     company: "NEXT SI",

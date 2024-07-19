@@ -10,14 +10,14 @@ exports[`RecommendationItem component renders the component 1`] = `
       class="grid grid-cols-[auto_1fr] gap-x-3"
     >
       <img
-        alt="Photo of the author (Wallace Freitas)"
+        alt="Photo of the author (Nayane Menezes)"
         class="rounded-full"
         data-nimg="1"
         decoding="async"
         height="64"
         loading="lazy"
-        src="/_next/image?url=%2Fimages%2Frecommendations%2F1719021291674.jpeg&w=128&q=75"
-        srcset="/_next/image?url=%2Fimages%2Frecommendations%2F1719021291674.jpeg&w=64&q=75 1x, /_next/image?url=%2Fimages%2Frecommendations%2F1719021291674.jpeg&w=128&q=75 2x"
+        src="/_next/image?url=%2Fimages%2Frecommendations%2F1679942199683.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Fimages%2Frecommendations%2F1679942199683.jpeg&w=64&q=75 1x, /_next/image?url=%2Fimages%2Frecommendations%2F1679942199683.jpeg&w=128&q=75 2x"
         style="color: transparent;"
         width="64"
       />
@@ -25,14 +25,14 @@ exports[`RecommendationItem component renders the component 1`] = `
         <h2
           class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
         >
-          Wallace Freitas
+          Nayane Menezes
         </h2>
         <h3
           class="text-sm sm:text-base md:text-lg xl:text-xl"
         >
-          Full-Stack Engineer
+          Front-End Engineer
            @ 
-          NEXT SI
+          AB InBev
         </h3>
       </div>
     </header>
@@ -42,7 +42,17 @@ exports[`RecommendationItem component renders the component 1`] = `
       <blockquote
         class="mb-4 text-sm xl:text-base text-justify"
       >
-        I highly recommend Daniel for their expertise in React.js, TypeScript, Node.js, Clean Architecture, and Leadership. They deliver high-quality front-end solutions, build robust backend services, and ensure modular and maintainable codebases. As a natural leader, Daniel inspires and guides their team, fostering collaboration and productivity. Their technical skills and leadership make them an invaluable asset to any team.
+        I had the pleasure to recommend Daniel, who brings over 12 years of exceptional experience in fullstack web development. His expertise in React, TypeScript, Next.js, Node.js, and JavaScript is truly unparalleled. Daniel consistently delivers elegant solutions to complex problems, combining technical prowess with a keen eye for design and user experience.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        As a seasoned Fullstack engineer and leader, Daniel excels in designing intuitive user interfaces and robust backend systems, ensuring top-notch performance, scalability, and security. He has a proven track record of successfully leading teams through complex projects, always achieving relevant and impactful results. His leadership style is rooted in collaboration and continuous improvement, fostering an environment where his teams are motivated to strive for excellence.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        I wholeheartedly recommend Daniel for any position that seeks a talented, experienced, and driven fullstack engineer.
       </blockquote>
     </section>
   </article>
