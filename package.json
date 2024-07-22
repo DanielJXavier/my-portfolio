@@ -50,7 +50,7 @@
   "devDependencies": {
     "@formatjs/intl-localematcher": "^0.5.4",
     "@simonsmith/cypress-image-snapshot": "^9.1.0",
-    "@testing-library/dom": "^10.3.2",
+    "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.4.6",
     "@testing-library/react": "^16.0.0",
     "@types/jest": "^29.5.12",
