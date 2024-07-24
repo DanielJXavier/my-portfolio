@@ -5,10 +5,22 @@
     },
     "copyright": "All rights reserved.",
     "menu": {
-      "experience": "Experience",
-      "education": "Education",
-      "skills": "Skills",
-      "recommendations": "Recommendations"
+      "experience": {
+        "href": "/experience",
+        "title": "Experience"
+      },
+      "education": {
+        "href": "/education",
+        "title": "Education"
+      },
+      "skills": {
+        "href": "/skills",
+        "title": "Skills"
+      },
+      "recommendations": {
+        "href": "/recommendations",
+        "title": "Recommendations"
+      }
     }
   },
   "home": {

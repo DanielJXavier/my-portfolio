@@ -5,10 +5,22 @@
     },
     "copyright": "Todos os direitos reservados.",
     "menu": {
-      "experience": "Experiência",
-      "education": "Formação acadêmica",
-      "skills": "Competências",
-      "recommendations": "Recomendações"
+      "experience": {
+        "href": "/experiencia",
+        "title": "Experiência"
+      },
+      "education": {
+        "href": "/formacao-academica",
+        "title": "Formação acadêmica"
+      },
+      "skills": {
+        "href": "/competencias",
+        "title": "Competências"
+      },
+      "recommendations": {
+        "href": "/recomendacoes",
+        "title": "Recomendações"
+      }
     }
   },
   "home": {
