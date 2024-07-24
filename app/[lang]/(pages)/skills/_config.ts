@@ -40,7 +40,6 @@ export const hardSkills: SkillInterface[] = [
   { key: "kong", name: "Kong", size: 1 },
   { key: "python", name: "Python", size: 1 },
   { key: "dotnet", name: ".NET", size: 1 },
-  { key: "java", name: "Java", size: 1 },
   /* Full-Stack commons */
   { key: "ts", name: "TypeScript", size: 4 },
   { key: "js", name: "JavaScript", size: 5 },
