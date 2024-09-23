@@ -48,7 +48,7 @@
         "role": "Technical Lead",
         "description": "A contractor role where I have been working on some independent client projects.",
         "accomplishments": [
-          "Developed the new Lovevery's checkout (focused on performance improvement and a better user experience), using Next.js + Tailwind CSS, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;",
+          "Developed the new Lovevery's checkout (focused on performance improvement and a better user experience), using Next.js + Tailwind CSS + Contentful, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;",
           "Created a high-performance and fully accessible professional portfolio website using React/Tailwind CSS to handle routing in the front, Next.js/Node.js to provide Server Side Rendering in the back end, Jest/Cypress to provide 100% code coverage including some visual tests, and Vercel's Frontend Cloud for deployment;",
           "Made a template-based app for printing medical reports using React to handle the dynamic fields in the front, Next.js/Node.js to provide Server Side Rendering in the back end, and Vercel's Frontend Cloud for deployment;"
         ],

@@ -581,6 +581,16 @@ I'm currently working as a contractor for US companies, helping them design and 
             class="print:hidden"
             type="checkbox"
           />
+          Contentful
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
           PHP
         </li>
         <li
@@ -1526,7 +1536,7 @@ I'm currently working as a contractor for US companies, helping them design and 
                   class="print:hidden"
                   type="checkbox"
                 />
-                Developed the new Lovevery's checkout (focused on performance improvement and a better user experience), using Next.js + Tailwind CSS, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;
+                Developed the new Lovevery's checkout (focused on performance improvement and a better user experience), using Next.js + Tailwind CSS + Contentful, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1580,7 +1590,7 @@ I'm currently working as a contractor for US companies, helping them design and 
                 Main stack
                 :
                  
-                React | Next.js | HTML5 | CSS3 | Tailwind CSS | Node.js | TypeScript | JavaScript | Jest | Cypress | Docker | Vercel | MySQL
+                React | Next.js | HTML5 | CSS3 | Tailwind CSS | Node.js | TypeScript | JavaScript | Jest | Cypress | Contentful | Docker | Vercel | MySQL
               </li>
             </ul>
           </div>

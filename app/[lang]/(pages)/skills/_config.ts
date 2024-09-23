@@ -56,6 +56,8 @@ export const hardSkills: SkillInterface[] = [
   { key: "http", name: "HTTP", size: 3 },
   { key: "graphql", name: "GraphQL", size: 1 },
   { key: "rest", name: "REST", size: 1 },
+  /* CMS */
+  { key: "contentful", name: "Contentful", size: 3 },
   /* PHP */
   { key: "php", name: "PHP", size: 1 },
   { key: "wordpress", name: "WordPress", size: 1 },

@@ -48,7 +48,7 @@
         "role": "Senior Full-Stack Developer",
         "description": "I am a Senior Full-Stack developer.",
         "accomplishments": [
-          "Desenvolveu o novo checkout da Lovevery (com foco em melhoria de desempenho e melhor experiência do usuário), usando Next.js + Tailwind CSS, suportando 4 países e 5 idiomas, e melhorando a cobertura do código em mais de 20%;",
+          "Desenvolvi o novo checkout da Lovevery (com foco em melhoria de desempenho e melhor experiência do usuário), usando Next.js + Tailwind CSS + Contentful, suportando 4 países e 5 idiomas, e melhorando a cobertura do código em mais de 20%;",
           "Site profissional de alto desempenho e totalmente acessível usando React, Next.js e Tailwind CSS;",
           "Aplicativo baseado em modelo para impressão de relatórios médicos com React e Next.js;"
         ],

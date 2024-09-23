@@ -61,7 +61,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Developed the new Lovevery's checkout (focused on performance improvement and a better user experience), using Next.js + Tailwind CSS, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;
+              Developed the new Lovevery's checkout (focused on performance improvement and a better user experience), using Next.js + Tailwind CSS + Contentful, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -115,7 +115,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              React | Next.js | HTML5 | CSS3 | Tailwind CSS | Node.js | TypeScript | JavaScript | Jest | Cypress | Docker | Vercel | MySQL
+              React | Next.js | HTML5 | CSS3 | Tailwind CSS | Node.js | TypeScript | JavaScript | Jest | Cypress | Contentful | Docker | Vercel | MySQL
             </li>
           </ul>
         </div>

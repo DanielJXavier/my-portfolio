@@ -284,6 +284,11 @@ exports[`Skills page (Server-side) renders the page 1`] = `
       REST
     </span>
     <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Contentful
+    </span>
+    <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       PHP

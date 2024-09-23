@@ -28,6 +28,7 @@ export const experience: ExperienceInterface[] = [
       "html",
       "css",
       "js",
+      "contentful",
       "docker",
       "mysql",
       "vercel",
