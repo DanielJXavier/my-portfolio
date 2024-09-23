@@ -28,7 +28,7 @@
     "summary": [
       "With more than 12 years of experience in fullstack web development and expertise in React, TypeScript, Next.js, Node.js, and JavaScript, I have consistently delivered elegant solutions to complex problems. My proficiency extends beyond technical skills, as I have successfully led teams on complex projects with relevant results.",
       "As an experienced Fullstack engineer and leader, I have a proven track record of designing intuitive user interfaces and robust backend systems, ensuring high performance, scalability, and security. My leadership style is rooted in collaboration and continuous improvement, driving my teams to achieve excellence.",
-      "I am focused on obtaining an international/global opportunity as a Lead/Senior Full-Stack Engineer, designing and developing robust and scalable solutions with best practices, actively contributing to the company's goals and achieving great results together!"
+      "I'm currently working as a contractor for US companies, helping them design and develop modern, robust, and scalable projects applying the best practices, actively contributing to the company's goals, and achieving great results together!"
     ],
     "imageAltText": "Photo of the author"
   },
@@ -48,10 +48,9 @@
         "role": "Technical Lead",
         "description": "A contractor role where I have been working on some independent client projects.",
         "accomplishments": [
-          "Delegating tasks for associate developers, reviewing code, and ensuring deliveries for the customers;",
+          "Developed the new Lovevery's checkout (focused on performance improvement and a better user experience), using Next.js + Tailwind CSS, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;",
           "Created a high-performance and fully accessible professional portfolio website using React/Tailwind CSS to handle routing in the front, Next.js/Node.js to provide Server Side Rendering in the back end, Jest/Cypress to provide 100% code coverage including some visual tests, and Vercel's Frontend Cloud for deployment;",
-          "Made a template-based app for printing medical reports using React to handle the dynamic fields in the front, Next.js/Node.js to provide Server Side Rendering in the back end, and Vercel's Frontend Cloud for deployment;",
-          "Developed a ticket booking API using the Nest.js framework (Node.js) to expose some different endpoints, Kong as an API gateway to manage all the requests, and MySQL to store the data in a simple relational database;"
+          "Made a template-based app for printing medical reports using React to handle the dynamic fields in the front, Next.js/Node.js to provide Server Side Rendering in the back end, and Vercel's Frontend Cloud for deployment;"
         ],
         "biggestChallenge": "To quickly design and release projects from scratch and with few defined requirements."
       },

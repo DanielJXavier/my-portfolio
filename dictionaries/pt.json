@@ -28,7 +28,7 @@
     "summary": [
       "Com mais de 10 anos de experiência em desenvolvimento web e conhecimento em TypeScript, JavaScript, React e Node.js, tenho fornecido consistentemente soluções elegantes para desafios complexos. Minha proficiência vai além das habilidades técnicas, já que liderei equipes com sucesso em tarefas complexas projetos com resultados relevantes para a empresa.",
       "Como desenvolvedor e líder Front-End experiente, tenho um histórico comprovado de design de interfaces de usuário intuitivas e sistemas back-end robustos, garantindo alto desempenho, escalabilidade e segurança. Meu estilo de liderança está enraizado na colaboração e na melhoria contínua, orientando minhas equipes para alcançar a excelência.",
-      "Agora, estou focado em voltar à abordagem prática, projetando e desenvolvendo soluções robustas e escaláveis com as melhores práticas, contribuindo ativamente para os objetivos da empresa, alcançando ótimos resultados juntos!"
+      "Atualmente, trabalho como contratado para empresas dos EUA, ajudando-as a projetar e desenvolver projetos modernos, robustos e escaláveis, aplicando as melhores práticas, contribuindo ativamente para as metas da empresa e alcançando ótimos resultados juntos!"
     ],
     "imageAltText": "Foto do autor"
   },
@@ -48,9 +48,9 @@
         "role": "Senior Full-Stack Developer",
         "description": "I am a Senior Full-Stack developer.",
         "accomplishments": [
+          "Desenvolveu o novo checkout da Lovevery (com foco em melhoria de desempenho e melhor experiência do usuário), usando Next.js + Tailwind CSS, suportando 4 países e 5 idiomas, e melhorando a cobertura do código em mais de 20%;",
           "Site profissional de alto desempenho e totalmente acessível usando React, Next.js e Tailwind CSS;",
-          "Aplicativo baseado em modelo para impressão de relatórios médicos com React e Next.js;",
-          "API de reserva de ingressos com Nest.js e Kong;"
+          "Aplicativo baseado em modelo para impressão de relatórios médicos com React e Next.js;"
         ],
         "biggestChallenge": "Conceptualizar e lançar projetos rapidamente do zero e com poucos requisitos definidos."
       },

@@ -91,7 +91,7 @@ exports[`Resume page (Client-side) renders the page 1`] = `
 
 As an experienced Fullstack engineer and leader, I have a proven track record of designing intuitive user interfaces and robust backend systems, ensuring high performance, scalability, and security. My leadership style is rooted in collaboration and continuous improvement, driving my teams to achieve excellence.
 
-I am focused on obtaining an international/global opportunity as a Lead/Senior Full-Stack Engineer, designing and developing robust and scalable solutions with best practices, actively contributing to the company's goals and achieving great results together!
+I'm currently working as a contractor for US companies, helping them design and develop modern, robust, and scalable projects applying the best practices, actively contributing to the company's goals, and achieving great results together!
       </textarea>
     </section>
     <section>
@@ -1526,7 +1526,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                   class="print:hidden"
                   type="checkbox"
                 />
-                Delegating tasks for associate developers, reviewing code, and ensuring deliveries for the customers;
+                Developed the new Lovevery's checkout (focused on performance improvement and a better user experience), using Next.js + Tailwind CSS, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1551,16 +1551,6 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                   type="checkbox"
                 />
                 Made a template-based app for printing medical reports using React to handle the dynamic fields in the front, Next.js/Node.js to provide Server Side Rendering in the back end, and Vercel's Frontend Cloud for deployment;
-              </li>
-              <li
-                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-                data-testid="visibility-control"
-              >
-                <input
-                  class="print:hidden"
-                  type="checkbox"
-                />
-                Developed a ticket booking API using the Nest.js framework (Node.js) to expose some different endpoints, Kong as an API gateway to manage all the requests, and MySQL to store the data in a simple relational database;
               </li>
               <li
                 class="mt-1 items-baseline flex gap-x-1.5 "
@@ -1590,7 +1580,7 @@ I am focused on obtaining an international/global opportunity as a Lead/Senior F
                 Main stack
                 :
                  
-                React | Next.js | HTML5 | CSS3 | Tailwind CSS | Node.js | Nest.js | Kong | TypeScript | JavaScript | Jest | Cypress | Docker | Vercel | MySQL
+                React | Next.js | HTML5 | CSS3 | Tailwind CSS | Node.js | TypeScript | JavaScript | Jest | Cypress | Docker | Vercel | MySQL
               </li>
             </ul>
           </div>
