@@ -148,10 +148,12 @@ I'm currently working as a contractor for US companies, helping them design and 
           CSS3
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
           data-testid="visibility-control"
+          data-visible=""
         >
           <input
+            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -574,10 +576,12 @@ I'm currently working as a contractor for US companies, helping them design and 
           REST
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
           data-testid="visibility-control"
+          data-visible=""
         >
           <input
+            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -694,10 +698,12 @@ I'm currently working as a contractor for US companies, helping them design and 
           Bash
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
           data-testid="visibility-control"
+          data-visible=""
         >
           <input
+            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -1178,12 +1184,10 @@ I'm currently working as a contractor for US companies, helping them design and 
           Leadership
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
-          data-visible=""
         >
           <input
-            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -1222,12 +1226,10 @@ I'm currently working as a contractor for US companies, helping them design and 
           Empathy
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
-          data-visible=""
         >
           <input
-            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -1563,12 +1565,10 @@ I'm currently working as a contractor for US companies, helping them design and 
                 Made a template-based app for printing medical reports using React to handle the dynamic fields in the front, Next.js/Node.js to provide Server Side Rendering in the back end, and Vercel's Frontend Cloud for deployment;
               </li>
               <li
-                class="mt-1 items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
-                data-visible=""
               >
                 <input
-                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
@@ -1702,12 +1702,10 @@ I'm currently working as a contractor for US companies, helping them design and 
                 Worked closely with the Product Manager to mitigate risks and make effective product decisions;
               </li>
               <li
-                class="mt-1 items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
-                data-visible=""
               >
                 <input
-                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
@@ -1843,12 +1841,10 @@ I'm currently working as a contractor for US companies, helping them design and 
                 Launched the Design System v3, bringing 30% more performance to all pages on the platform;
               </li>
               <li
-                class="mt-1 items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
-                data-visible=""
               >
                 <input
-                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
@@ -1970,12 +1966,10 @@ I'm currently working as a contractor for US companies, helping them design and 
                 Created some processes to contribute to the Design System project, bringing in 10 new external collaborators;
               </li>
               <li
-                class="mt-1 items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
-                data-visible=""
               >
                 <input
-                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
@@ -2099,12 +2093,10 @@ I'm currently working as a contractor for US companies, helping them design and 
                 Proposed a new structure for the entire Advertising area to enhance our results;
               </li>
               <li
-                class="mt-1 items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
-                data-visible=""
               >
                 <input
-                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
@@ -2218,12 +2210,10 @@ I'm currently working as a contractor for US companies, helping them design and 
                 Launched the MVP platform;
               </li>
               <li
-                class="mt-1 items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
-                data-visible=""
               >
                 <input
-                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
@@ -2347,12 +2337,10 @@ I'm currently working as a contractor for US companies, helping them design and 
                 Created formulas and metrics to accurately gauge the team's capacity, and sprint velocity, thereby bringing predictability to deliveries;
               </li>
               <li
-                class="mt-1 items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
-                data-visible=""
               >
                 <input
-                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
@@ -2476,12 +2464,10 @@ I'm currently working as a contractor for US companies, helping them design and 
                 Hired tons of new employees for the company and new contractor professionals aligned with our development culture;
               </li>
               <li
-                class="mt-1 items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
-                data-visible=""
               >
                 <input
-                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
@@ -2585,12 +2571,10 @@ I'm currently working as a contractor for US companies, helping them design and 
                 Created new features for the core system helping tons of law professionals in their work;
               </li>
               <li
-                class="mt-1 items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
-                data-visible=""
               >
                 <input
-                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
@@ -2682,12 +2666,10 @@ I'm currently working as a contractor for US companies, helping them design and 
                 Created a Proof of Concept (POC) interface, only using JavaScript and HTML, that introduced a very simplified method for product registration on the platform (our main bottleneck);
               </li>
               <li
-                class="mt-1 items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
-                data-visible=""
               >
                 <input
-                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
@@ -2789,12 +2771,10 @@ I'm currently working as a contractor for US companies, helping them design and 
                 Implemented the Arabic version of the "Hotmart blog" using pure CSS;
               </li>
               <li
-                class="mt-1 items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
-                data-visible=""
               >
                 <input
-                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />

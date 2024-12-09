@@ -88,12 +88,10 @@ exports[`Experience component renders the component 1`] = `
               Made a template-based app for printing medical reports using React to handle the dynamic fields in the front, Next.js/Node.js to provide Server Side Rendering in the back end, and Vercel's Frontend Cloud for deployment;
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 "
+              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
               data-testid="visibility-control"
-              data-visible=""
             >
               <input
-                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -227,12 +225,10 @@ exports[`Experience component renders the component 1`] = `
               Worked closely with the Product Manager to mitigate risks and make effective product decisions;
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 "
+              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
               data-testid="visibility-control"
-              data-visible=""
             >
               <input
-                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -368,12 +364,10 @@ exports[`Experience component renders the component 1`] = `
               Launched the Design System v3, bringing 30% more performance to all pages on the platform;
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 "
+              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
               data-testid="visibility-control"
-              data-visible=""
             >
               <input
-                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -495,12 +489,10 @@ exports[`Experience component renders the component 1`] = `
               Created some processes to contribute to the Design System project, bringing in 10 new external collaborators;
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 "
+              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
               data-testid="visibility-control"
-              data-visible=""
             >
               <input
-                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -624,12 +616,10 @@ exports[`Experience component renders the component 1`] = `
               Proposed a new structure for the entire Advertising area to enhance our results;
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 "
+              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
               data-testid="visibility-control"
-              data-visible=""
             >
               <input
-                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -743,12 +733,10 @@ exports[`Experience component renders the component 1`] = `
               Launched the MVP platform;
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 "
+              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
               data-testid="visibility-control"
-              data-visible=""
             >
               <input
-                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -872,12 +860,10 @@ exports[`Experience component renders the component 1`] = `
               Created formulas and metrics to accurately gauge the team's capacity, and sprint velocity, thereby bringing predictability to deliveries;
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 "
+              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
               data-testid="visibility-control"
-              data-visible=""
             >
               <input
-                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -1001,12 +987,10 @@ exports[`Experience component renders the component 1`] = `
               Hired tons of new employees for the company and new contractor professionals aligned with our development culture;
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 "
+              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
               data-testid="visibility-control"
-              data-visible=""
             >
               <input
-                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -1110,12 +1094,10 @@ exports[`Experience component renders the component 1`] = `
               Created new features for the core system helping tons of law professionals in their work;
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 "
+              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
               data-testid="visibility-control"
-              data-visible=""
             >
               <input
-                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -1207,12 +1189,10 @@ exports[`Experience component renders the component 1`] = `
               Created a Proof of Concept (POC) interface, only using JavaScript and HTML, that introduced a very simplified method for product registration on the platform (our main bottleneck);
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 "
+              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
               data-testid="visibility-control"
-              data-visible=""
             >
               <input
-                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -1314,12 +1294,10 @@ exports[`Experience component renders the component 1`] = `
               Implemented the Arabic version of the "Hotmart blog" using pure CSS;
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 "
+              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
               data-testid="visibility-control"
-              data-visible=""
             >
               <input
-                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
