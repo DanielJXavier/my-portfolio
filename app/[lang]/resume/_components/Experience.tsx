@@ -75,7 +75,7 @@ export default function Experience() {
                   )}
                   <VisibilityControl
                     className="mt-1 items-baseline"
-                    defaultVisible={resume}
+                    defaultVisible={false}
                   >
                     {biggestChallengeTitle}:{" "}
                     {experienceItems.current[key].biggestChallenge}
