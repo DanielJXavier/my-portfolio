@@ -54,6 +54,16 @@
         ],
         "biggestChallenge": "To quickly design and release projects from scratch and with few defined requirements."
       },
+      "pdsacademy-1": {
+        "role": "Post-graduation professor",
+        "description": "A short-term contract role where I teach Front-End development.",
+        "accomplishments": [
+          "More than 16 hours of Front-End Fundamentals with React classes recorded;",
+          "Live session to help students with their doubts and share some tips to improve their learning;",
+          "Base projects created and shared with students to help them practice the concepts learned;"
+        ],
+        "biggestChallenge": "To create an engaging and effective learning experience for students of another area (Back-End with Java)."
+      },
       "olx-4": {
         "role": "Technical Lead",
         "description": "A tech leader role (80% people / 20% hands-on) where I was responsible for a core team's results.",

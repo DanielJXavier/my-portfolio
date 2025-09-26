@@ -54,6 +54,16 @@
         ],
         "biggestChallenge": "Conceptualizar e lançar projetos rapidamente do zero e com poucos requisitos definidos."
       },
+      "pdsacademy-1": {
+        "role": "Professor de Pós-graduação",
+        "description": "Um contrato de curta duração onde eu ensino desenvolvimento Front-End.",
+        "accomplishments": [
+          "Mais de 16 horas de Fundamentos de Front-End com React classes gravadas;",
+          "Sessão ao vivo para ajudar alunos com suas dúvidas e compartilhar dicas para melhorar seu aprendizado;",
+          "Projetos base criados e compartilhados com alunos para ajudar a praticar os conceitos aprendidos;"
+        ],
+        "biggestChallenge": "Criar uma experiência de aprendizado envolvente e eficaz para alunos de outra área (Back-End com Java)."
+      },
       "olx-4": {
         "role": "Gerente de Engenharia de Software",
         "description": "Eu era o líder da equipe \"Ads Seller Experience\".",
