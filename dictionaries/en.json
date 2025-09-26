@@ -334,6 +334,14 @@
   "recommendations": {
     "title": "Recommendations",
     "items": {
+      "1758032899095": {
+        "role": "Director of Engineering",
+        "paragraphs": [
+          "Daniel is an exceptional engineer whom I had the pleasure of working with at Lovevery. Notably, Daniel was essential in the last mile push for the replatforming of the checkout flow into Next.js. Daniel was selected along with two other high performing individuals to deliver on the project. Without Daniel, the project would have floundered in the final months of the project. He delivered on key aspects of the checkout flow which utilized Stripe Elements for the UI components.",
+          "Daniel was a FE engineer on the Subscription Squad, which focused on subscription growth and retention.",
+          "I would absolutely recommend Daniel and welcome the chance to work with him again."
+        ]
+      },
       "1679942199683": {
         "role": "Front-End Engineer",
         "paragraphs": [
