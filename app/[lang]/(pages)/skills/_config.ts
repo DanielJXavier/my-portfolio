@@ -52,6 +52,7 @@ export const hardSkills: SkillInterface[] = [
   { key: "react-testing-library", name: "React Testing Library", size: 3 },
   { key: "cypress", name: "Cypress", size: 2 },
   { key: "chromatic", name: "Chromatic", size: 1 },
+  { key: "playwright", name: "Playwright", size: 2 },
   /* APIs */
   { key: "http", name: "HTTP", size: 3 },
   { key: "graphql", name: "GraphQL", size: 1 },
@@ -69,6 +70,8 @@ export const hardSkills: SkillInterface[] = [
   /* Servers */
   { key: "linux", name: "Linux Servers", size: 3 },
   { key: "windows", name: "Windows Servers", size: 2 },
+  /* Payment */
+  { key: "stripe", name: "Stripe", size: 3 },
   /* CI / CD */
   { key: "ci_cd", name: "CI/CD", size: 2 },
   { key: "github-actions", name: "GitHub Actions", size: 2 },

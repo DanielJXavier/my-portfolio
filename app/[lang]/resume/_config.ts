@@ -9,6 +9,7 @@ export const chosenHardSkills = [
   "aws",
   "tailwind",
   "contentful",
+  "stripe",
   "docker",
 ];
 
