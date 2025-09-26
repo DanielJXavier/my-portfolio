@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Skills page (Server-side) renders the page 1`] = `
 <div>
@@ -269,6 +269,11 @@ exports[`Skills page (Server-side) renders the page 1`] = `
       Chromatic
     </span>
     <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Playwright
+    </span>
+    <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       HTTP
@@ -327,6 +332,11 @@ exports[`Skills page (Server-side) renders the page 1`] = `
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Windows Servers
+    </span>
+    <span
+      class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Stripe
     </span>
     <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"

@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Recommendations page renders the page 1`] = `
 <div>
@@ -17,6 +17,60 @@ exports[`Recommendations page renders the page 1`] = `
     </svg>
     Recommendations
   </h1>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (Ben Lechlitner)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Frecommendations%2F1758032899095.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Fimages%2Frecommendations%2F1758032899095.jpeg&w=64&q=75 1x, /_next/image?url=%2Fimages%2Frecommendations%2F1758032899095.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Ben Lechlitner
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Director of Engineering
+           @ 
+          Lovevery
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Daniel is an exceptional engineer whom I had the pleasure of working with at Lovevery. Notably, Daniel was essential in the last mile push for the replatforming of the checkout flow into Next.js. Daniel was selected along with two other high performing individuals to deliver on the project. Without Daniel, the project would have floundered in the final months of the project. He delivered on key aspects of the checkout flow which utilized Stripe Elements for the UI components.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Daniel was a FE engineer on the Subscription Squad, which focused on subscription growth and retention.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        I would absolutely recommend Daniel and welcome the chance to work with him again.
+      </blockquote>
+    </section>
+  </article>
   <article
     class="my-6 sm:my-10"
     data-testid="recommendation-item"

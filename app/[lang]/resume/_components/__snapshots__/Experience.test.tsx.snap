@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Experience component renders the component 1`] = `
 <div>
@@ -113,7 +113,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              React | Next.js | Tailwind CSS | HTML5 | CSS3 | TypeScript | JavaScript | Node.js | Jest | Cypress | Contentful | Docker | Vercel
+              React | Next.js | Tailwind CSS | HTML5 | CSS3 | TypeScript | JavaScript | Node.js | Jest | Cypress | Playwright | Contentful | Stripe | Docker | Vercel
             </li>
           </ul>
         </div>

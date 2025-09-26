@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Resume page (Client-side) renders the page 1`] = `
 <div>
@@ -553,6 +553,16 @@ I'm currently working as a contractor for US companies, helping them design and 
             class="print:hidden"
             type="checkbox"
           />
+          Playwright
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
           HTTP
         </li>
         <li
@@ -666,6 +676,18 @@ I'm currently working as a contractor for US companies, helping them design and 
             type="checkbox"
           />
           Windows Servers
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          Stripe
         </li>
         <li
           class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -1590,7 +1612,7 @@ I'm currently working as a contractor for US companies, helping them design and 
                 Main stack
                 :
                  
-                React | Next.js | Tailwind CSS | HTML5 | CSS3 | TypeScript | JavaScript | Node.js | Jest | Cypress | Contentful | Docker | Vercel
+                React | Next.js | Tailwind CSS | HTML5 | CSS3 | TypeScript | JavaScript | Node.js | Jest | Cypress | Playwright | Contentful | Stripe | Docker | Vercel
               </li>
             </ul>
           </div>
