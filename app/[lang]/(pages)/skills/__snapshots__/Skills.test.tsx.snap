@@ -64,6 +64,11 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
       Next.js
     </span>
     <span
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Tailwind CSS
+    </span>
+    <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       HTML5
@@ -72,11 +77,6 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       CSS3
-    </span>
-    <span
-      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      Tailwind CSS
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
@@ -179,6 +179,26 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
       Micro Frontends
     </span>
     <span
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      TypeScript
+    </span>
+    <span
+      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      JavaScript
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      MERN stack
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      MACH architecture
+    </span>
+    <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Node.js
@@ -217,26 +237,6 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       .NET
-    </span>
-    <span
-      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      TypeScript
-    </span>
-    <span
-      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      JavaScript
-    </span>
-    <span
-      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      MERN stack
-    </span>
-    <span
-      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      MACH architecture
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -863,6 +863,11 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
       Next.js
     </span>
     <span
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Tailwind CSS
+    </span>
+    <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       HTML5
@@ -871,11 +876,6 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       CSS3
-    </span>
-    <span
-      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      Tailwind CSS
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
@@ -978,6 +978,26 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
       Micro Frontends
     </span>
     <span
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      TypeScript
+    </span>
+    <span
+      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      JavaScript
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      MERN stack
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      MACH architecture
+    </span>
+    <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Node.js
@@ -1016,26 +1036,6 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       .NET
-    </span>
-    <span
-      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      TypeScript
-    </span>
-    <span
-      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      JavaScript
-    </span>
-    <span
-      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      MERN stack
-    </span>
-    <span
-      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      MACH architecture
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1600,6 +1600,11 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       Next.js
     </span>
     <span
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Tailwind CSS
+    </span>
+    <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       HTML5
@@ -1608,11 +1613,6 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       CSS3
-    </span>
-    <span
-      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      Tailwind CSS
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1715,6 +1715,26 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       Micro Frontends
     </span>
     <span
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      TypeScript
+    </span>
+    <span
+      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      JavaScript
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      MERN stack
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      MACH architecture
+    </span>
+    <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Node.js
@@ -1753,26 +1773,6 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       .NET
-    </span>
-    <span
-      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      TypeScript
-    </span>
-    <span
-      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      JavaScript
-    </span>
-    <span
-      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      MERN stack
-    </span>
-    <span
-      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      MACH architecture
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -2337,6 +2337,11 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
       Next.js
     </span>
     <span
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Tailwind CSS
+    </span>
+    <span
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       HTML5
@@ -2345,11 +2350,6 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
       class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       CSS3
-    </span>
-    <span
-      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      Tailwind CSS
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
@@ -2452,6 +2452,26 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
       Micro Frontends
     </span>
     <span
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      TypeScript
+    </span>
+    <span
+      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      JavaScript
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      MERN stack
+    </span>
+    <span
+      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      MACH architecture
+    </span>
+    <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Node.js
@@ -2490,26 +2510,6 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       .NET
-    </span>
-    <span
-      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      TypeScript
-    </span>
-    <span
-      class="text-3xl md:text-5xl lg:text-6xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      JavaScript
-    </span>
-    <span
-      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      MERN stack
-    </span>
-    <span
-      class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
-    >
-      MACH architecture
     </span>
     <span
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"

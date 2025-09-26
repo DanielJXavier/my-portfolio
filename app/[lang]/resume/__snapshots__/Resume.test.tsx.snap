@@ -85,13 +85,13 @@ exports[`Resume page (Client-side) renders the page 1`] = `
       </h2>
       <textarea
         class="w-full text-[12pt] text-justify align-top border border-primary print:border-none print:resize-none"
-        rows="13"
+        rows="14"
       >
-        With more than 12 years of experience in fullstack web development and expertise in React, TypeScript, Next.js, Node.js, and JavaScript, I have consistently delivered elegant solutions to complex problems. My proficiency extends beyond technical skills, as I have successfully led teams on complex projects with relevant results.
+        With more than 13 years of experience in Front-End web development and expertise in React, TypeScript, Next.js, Node.js, and JavaScript, I have consistently delivered elegant solutions to complex problems. My proficiency extends beyond technical skills, as I have successfully led teams on meaningful projects with relevant results.
 
-As an experienced Fullstack engineer and leader, I have a proven track record of designing intuitive user interfaces and robust backend systems, ensuring high performance, scalability, and security. My leadership style is rooted in collaboration and continuous improvement, driving my teams to achieve excellence.
+As an experienced Specialist Front-End Engineer and Tech Lead, I have a proven track record of designing intuitive user interfaces and pixel-perfect designs, ensuring high performance, scalability and security. My leadership style is rooted in collaboration and continuous improvement, driving my teams to achieve excellence and deliver high-quality products.
 
-I'm currently working as a contractor for US companies, helping them design and develop modern, robust, and scalable projects applying the best practices, actively contributing to the company's goals, and achieving great results together!
+I'm currently working as a contractor for US companies, helping them design and develop modern, robust, and scalable projects, applying the best practices, actively contributing to the company's goals, and achieving great results together!
       </textarea>
     </section>
     <section>
@@ -128,6 +128,18 @@ I'm currently working as a contractor for US companies, helping them design and 
           Next.js
         </li>
         <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          Tailwind CSS
+        </li>
+        <li
           class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
@@ -146,18 +158,6 @@ I'm currently working as a contractor for US companies, helping them design and 
             type="checkbox"
           />
           CSS3
-        </li>
-        <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
-          data-testid="visibility-control"
-          data-visible=""
-        >
-          <input
-            checked=""
-            class="print:hidden"
-            type="checkbox"
-          />
-          Tailwind CSS
         </li>
         <li
           class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -369,6 +369,50 @@ I'm currently working as a contractor for US companies, helping them design and 
             class="print:hidden"
             type="checkbox"
           />
+          TypeScript
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          JavaScript
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          MERN stack
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          MACH architecture
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
           Node.js
         </li>
         <li
@@ -440,50 +484,6 @@ I'm currently working as a contractor for US companies, helping them design and 
             type="checkbox"
           />
           .NET
-        </li>
-        <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
-          data-testid="visibility-control"
-          data-visible=""
-        >
-          <input
-            checked=""
-            class="print:hidden"
-            type="checkbox"
-          />
-          TypeScript
-        </li>
-        <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
-          data-testid="visibility-control"
-          data-visible=""
-        >
-          <input
-            checked=""
-            class="print:hidden"
-            type="checkbox"
-          />
-          JavaScript
-        </li>
-        <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
-          data-testid="visibility-control"
-        >
-          <input
-            class="print:hidden"
-            type="checkbox"
-          />
-          MERN stack
-        </li>
-        <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
-          data-testid="visibility-control"
-        >
-          <input
-            class="print:hidden"
-            type="checkbox"
-          />
-          MACH architecture
         </li>
         <li
           class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -1505,7 +1505,7 @@ I'm currently working as a contractor for US companies, helping them design and 
               <span
                 class="font-bold"
               >
-                Technical Lead
+                Specialist Front-End Engineer | Tech Lead
                  @ 
                 &lt;DanielXavier /&gt;
               </span>
@@ -1538,7 +1538,19 @@ I'm currently working as a contractor for US companies, helping them design and 
                   class="print:hidden"
                   type="checkbox"
                 />
-                Developed the new Lovevery's checkout (focused on performance improvement and a better user experience), using Next.js + Tailwind CSS + Contentful, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;
+                Developed the new Lovevery's (US baby products company) checkout (focused on performance improvement and a better user experience), using Next.js + Tailwind CSS + Contentful, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Led the Design System team at YES Technology (German-owned company), implementing the new Design System to support the whole company ecosystem, keeping a maintainable and scalable codebase, very well aligned with the company's brand and design principles;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1551,18 +1563,6 @@ I'm currently working as a contractor for US companies, helping them design and 
                   type="checkbox"
                 />
                 Created a high-performance and fully accessible professional portfolio website using React/Tailwind CSS to handle routing in the front, Next.js/Node.js to provide Server Side Rendering in the back end, Jest/Cypress to provide 100% code coverage including some visual tests, and Vercel's Frontend Cloud for deployment;
-              </li>
-              <li
-                class="items-baseline flex gap-x-1.5 "
-                data-testid="visibility-control"
-                data-visible=""
-              >
-                <input
-                  checked=""
-                  class="print:hidden"
-                  type="checkbox"
-                />
-                Made a template-based app for printing medical reports using React to handle the dynamic fields in the front, Next.js/Node.js to provide Server Side Rendering in the back end, and Vercel's Frontend Cloud for deployment;
               </li>
               <li
                 class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -1590,7 +1590,114 @@ I'm currently working as a contractor for US companies, helping them design and 
                 Main stack
                 :
                  
-                React | Next.js | HTML5 | CSS3 | Tailwind CSS | Node.js | TypeScript | JavaScript | Jest | Cypress | Contentful | Docker | Vercel | MySQL
+                React | Next.js | Tailwind CSS | HTML5 | CSS3 | TypeScript | JavaScript | Node.js | Jest | Cypress | Contentful | Docker | Vercel
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li
+          class="items-baseline break-inside-avoid flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt]"
+            >
+              <span
+                class="font-bold"
+              >
+                Post-graduation professor
+                 @ 
+                PDSAcademy
+              </span>
+              <span>
+                 
+                (
+                06-2025
+                 
+                to
+                 
+                06-2025
+                )
+              </span>
+            </p>
+            <p
+              class="text-[12pt]"
+            >
+              A short-term contract role where I teach Front-End development:
+            </p>
+            <ul
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+            >
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                More than 16 hours of Front-End Fundamentals with React classes recorded;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Live session to help students with their doubts and share some tips to improve their learning;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Base projects created and shared with students to help them practice the concepts learned;
+              </li>
+              <li
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Biggest challenge
+                :
+                 
+                To create an engaging and effective learning experience for students of another area (Back-End with Java).
+              </li>
+              <li
+                class="mt-1 items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Main stack
+                :
+                 
+                React | Next.js | Tailwind CSS | HTML5 | CSS3 | JavaScript | Functional Programming
               </li>
             </ul>
           </div>
@@ -2241,12 +2348,10 @@ I'm currently working as a contractor for US companies, helping them design and 
           </div>
         </li>
         <li
-          class="items-baseline break-inside-avoid flex gap-x-1.5 "
+          class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
-          data-visible=""
         >
           <input
-            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -2350,12 +2455,10 @@ I'm currently working as a contractor for US companies, helping them design and 
                 To manage such a large team and ensure critical deliveries.
               </li>
               <li
-                class="mt-1 items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
-                data-visible=""
               >
                 <input
-                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
@@ -2368,12 +2471,10 @@ I'm currently working as a contractor for US companies, helping them design and 
           </div>
         </li>
         <li
-          class="items-baseline break-inside-avoid flex gap-x-1.5 "
+          class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
-          data-visible=""
         >
           <input
-            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -2477,12 +2578,10 @@ I'm currently working as a contractor for US companies, helping them design and 
                 To acquire leadership skills and master people management, balancing with hands-on work.
               </li>
               <li
-                class="mt-1 items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
-                data-visible=""
               >
                 <input
-                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
@@ -2495,12 +2594,10 @@ I'm currently working as a contractor for US companies, helping them design and 
           </div>
         </li>
         <li
-          class="items-baseline break-inside-avoid flex gap-x-1.5 "
+          class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
-          data-visible=""
         >
           <input
-            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -2584,12 +2681,10 @@ I'm currently working as a contractor for US companies, helping them design and 
                 To manage all project deliveries as a single Front-End developer.
               </li>
               <li
-                class="mt-1 items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
-                data-visible=""
               >
                 <input
-                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
@@ -2602,12 +2697,10 @@ I'm currently working as a contractor for US companies, helping them design and 
           </div>
         </li>
         <li
-          class="items-baseline break-inside-avoid flex gap-x-1.5 "
+          class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
-          data-visible=""
         >
           <input
-            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -2679,30 +2772,26 @@ I'm currently working as a contractor for US companies, helping them design and 
                 To balance the need to comprehend customer requirements clearly while simultaneously coding.
               </li>
               <li
-                class="mt-1 items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
-                data-visible=""
               >
                 <input
-                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
                 Main stack
                 :
                  
-                HTML5 | CSS3 | Vue.js | Nuxt.js | Node.js | JavaScript | Amazon Web Services (AWS) | MySQL
+                HTML5 | CSS3 | Vue.js | Nuxt.js | JavaScript | Node.js | Amazon Web Services (AWS) | MySQL
               </li>
             </ul>
           </div>
         </li>
         <li
-          class="items-baseline break-inside-avoid flex gap-x-1.5 "
+          class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
-          data-visible=""
         >
           <input
-            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -2784,19 +2873,17 @@ I'm currently working as a contractor for US companies, helping them design and 
                 To design and develop complex solutions from the ground up.
               </li>
               <li
-                class="mt-1 items-baseline flex gap-x-1.5 "
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
                 data-testid="visibility-control"
-                data-visible=""
               >
                 <input
-                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
                 Main stack
                 :
                  
-                HTML5 | CSS3 | Vue.js | Nuxt.js | Node.js | JavaScript | PHP | WordPress | Nginx | Amazon Web Services (AWS) | MySQL
+                HTML5 | CSS3 | Vue.js | Nuxt.js | JavaScript | Node.js | PHP | WordPress | Nginx | Amazon Web Services (AWS) | MySQL
               </li>
             </ul>
           </div>
@@ -3000,7 +3087,7 @@ I'm currently working as a contractor for US companies, helping them design and 
                 Main stack
                 :
                  
-                HTML5 | CSS3 | Angular | Node.js | Express | LoopBack | JavaScript | PHP | WordPress | Magento | Apache | Linux Servers | Windows Servers | Amazon Web Services (AWS) | MySQL | SQL Server | Oracle | BPMN
+                HTML5 | CSS3 | Angular | JavaScript | Node.js | Express | LoopBack | PHP | WordPress | Magento | Apache | Linux Servers | Windows Servers | Amazon Web Services (AWS) | MySQL | SQL Server | Oracle | BPMN
               </li>
             </ul>
           </div>
