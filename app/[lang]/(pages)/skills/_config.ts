@@ -8,9 +8,9 @@ export const hardSkills: SkillInterface[] = [
   /* Front-End */
   { key: "react", name: "React", size: 5 },
   { key: "next", name: "Next.js", size: 4 },
+  { key: "tailwind", name: "Tailwind CSS", size: 4 },
   { key: "html", name: "HTML5", size: 5 },
   { key: "css", name: "CSS3", size: 5 },
-  { key: "tailwind", name: "Tailwind CSS", size: 4 },
   { key: "vue", name: "Vue.js", size: 1 },
   { key: "nuxt", name: "Nuxt.js", size: 1 },
   { key: "angular", name: "Angular", size: 1 },
@@ -31,6 +31,11 @@ export const hardSkills: SkillInterface[] = [
   { key: "pwa", name: "PWA", size: 2 },
   { key: "storybook", name: "Storybook", size: 2 },
   { key: "micro-frontend", name: "Micro Frontends", size: 2 },
+  /* Full-Stack commons */
+  { key: "ts", name: "TypeScript", size: 4 },
+  { key: "js", name: "JavaScript", size: 5 },
+  { key: "mern", name: "MERN stack", size: 2 },
+  { key: "mach", name: "MACH architecture", size: 2 },
   /* Back-End */
   { key: "node", name: "Node.js", size: 3 },
   { key: "nest", name: "Nest.js", size: 2 },
@@ -40,11 +45,6 @@ export const hardSkills: SkillInterface[] = [
   { key: "kong", name: "Kong", size: 1 },
   { key: "python", name: "Python", size: 1 },
   { key: "dotnet", name: ".NET", size: 1 },
-  /* Full-Stack commons */
-  { key: "ts", name: "TypeScript", size: 4 },
-  { key: "js", name: "JavaScript", size: 5 },
-  { key: "mern", name: "MERN stack", size: 2 },
-  { key: "mach", name: "MACH architecture", size: 2 },
   /* Test  */
   { key: "unit-tests", name: "Unit tests", size: 3 },
   { key: "jest", name: "Jest", size: 3 },
