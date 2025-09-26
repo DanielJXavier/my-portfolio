@@ -45,12 +45,12 @@
     "mainStackTitle": "Main stack",
     "items": {
       "danielxavier-1": {
-        "role": "Technical Lead",
+        "role": "Specialist Front-End Engineer | Tech Lead",
         "description": "A contractor role where I have been working on some independent client projects.",
         "accomplishments": [
-          "Developed the new Lovevery's checkout (focused on performance improvement and a better user experience), using Next.js + Tailwind CSS + Contentful, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;",
-          "Created a high-performance and fully accessible professional portfolio website using React/Tailwind CSS to handle routing in the front, Next.js/Node.js to provide Server Side Rendering in the back end, Jest/Cypress to provide 100% code coverage including some visual tests, and Vercel's Frontend Cloud for deployment;",
-          "Made a template-based app for printing medical reports using React to handle the dynamic fields in the front, Next.js/Node.js to provide Server Side Rendering in the back end, and Vercel's Frontend Cloud for deployment;"
+          "Developed the new Lovevery's (US baby products company) checkout (focused on performance improvement and a better user experience), using Next.js + Tailwind CSS + Contentful, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;",
+          "Led the Design System team at YES Technology (German-owned company), implementing the new Design System to support the whole company ecosystem, keeping a maintainable and scalable codebase, very well aligned with the company's brand and design principles;",
+          "Created a high-performance and fully accessible professional portfolio website using React/Tailwind CSS to handle routing in the front, Next.js/Node.js to provide Server Side Rendering in the back end, Jest/Cypress to provide 100% code coverage including some visual tests, and Vercel's Frontend Cloud for deployment;"
         ],
         "biggestChallenge": "To quickly design and release projects from scratch and with few defined requirements."
       },

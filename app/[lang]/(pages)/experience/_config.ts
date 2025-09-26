@@ -30,7 +30,6 @@ export const experience: ExperienceInterface[] = [
       "js",
       "contentful",
       "docker",
-      "mysql",
       "vercel",
     ],
     resume: true,
