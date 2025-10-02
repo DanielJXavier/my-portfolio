@@ -61,49 +61,15 @@
           "Projetos base criados e compartilhados com alunos para ajudar a praticar os conceitos aprendidos;"
         ]
       },
-      "olx-4": {
-        "role": "Gerente de Engenharia de Software",
-        "description": "Eu era o líder da equipe \"Ads Seller Experience\".",
-        "accomplishments": [
-          "Liderei uma equipe de 9 desenvolvedores, engajando-os mesmo em cenário de crise;",
-          "Entreguei a nova jornada de Inserção de Anúncios em etapas, proporcionando aos usuários uma experiência fluida e mais fácil para vender itens na plataforma de classificados;",
-          "Definido um plano de ação para reescrever o aplicativo móvel da plataforma com tecnologias nativas;",
-          "Orientei os membros da equipe em seus ciclos de desempenho com metas claras e alcançáveis para o próximo ano;",
-          "Liderei cerimônias de equipe com práticas ágeis para garantir um fluxo de trabalho simplificado, melhorando o rendimento das tarefas em 50%;",
-          "Trabalhei em estreita colaboração com o Gerente de Produto para mitigar riscos e tomar decisões eficazes sobre produtos;"
-        ]
-      },
-      "olx-3": {
-        "role": "Gerente de Engenharia de Software",
-        "description": "Eu era o líder da equipe \"Search & Recommendation\"¹ e do capítulo \"Design System\"².",
-        "accomplishments": [
-          "Liderei uma equipe de 8 desenvolvedores, aproveitando os pontos fortes de cada um deles;¹",
-          "Forneça um novo algoritmo de classificação LTR que traz 10% mais conversão;¹",
-          "Estruturei a equipe em 3 squads independentes para apoiar o plano estratégico para o próximo ano;¹",
-          "Liderei indiretamente todos os desenvolvedores (9 devs) do capítulo, mantendo o foco nas entregas mais valiosas;²",
-          "Lançado o Design System v3, trazendo 30% mais performance para todas as páginas da plataforma;²"
-        ]
-      },
-      "olx-2": {
-        "role": "Gerente de Engenharia de Software",
-        "description": "Eu era o líder da equipe 'Design System'.",
-        "accomplishments": [
-          "Liderei uma equipe de 9 desenvolvedores, influenciando decisões técnicas;",
-          "Parceria de liderança com o Gerente de Design para tomar decisões de produto ideais e definir um roteiro de produto;",
-          "Entreguei o roteiro do Design System, incluindo uma nova página inicial da plataforma, criada em menos de 48 horas;",
-          "Garanti a evolução contínua do Design System e a sua adoção por outras equipas;",
-          "Criei processos para contribuição no projeto Design System, trazendo 10 novos colaboradores externos;"
-        ]
-      },
       "olx-1": {
         "role": "Gerente de Engenharia de Software",
-        "description": "Eu era o líder da equipe \"Advertising\".",
+        "description": "Eu fui o gerente de diferentes equipes chave da empresa.",
         "accomplishments": [
-          "Liderei uma equipe de 7 desenvolvedores, servindo como referência chave;",
+          "Entreguei a nova jornada de Inserção de Anúncios em etapas, proporcionando aos usuários uma experiência fluida e mais fácil para vender itens na plataforma de classificados;",
+          "Nova página inicial da plataforma, criada em menos de 48 horas, suportada pelo Design System;",
+          "Nova algoritmo de ranking LTR que traz 10% mais conversão no sistema de Recomendação de Anúncios;",
           "Entreguei algumas melhorias publicitárias para a plataforma que geraram receita de R$ 80 milhões;",
-          "Recrutei novos profissionais para aumentar a capacidade produtiva em 300%;",
-          "Parceria ativa com o Gerente de Produto para priorizar e desenvolver iniciativas ideais;",
-          "Propus uma nova estrutura para a área de Publicidade para potencializar resultados;"
+          "Recrutei novos profissionais para aumentar a capacidade produtiva em 300%;"
         ]
       },
       "meaning-1": {

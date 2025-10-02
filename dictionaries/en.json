@@ -61,50 +61,15 @@
           "Base projects created and shared with students to help them practice the concepts learned;"
         ]
       },
-      "olx-4": {
-        "role": "Technical Lead",
-        "description": "A tech leader role (80% people / 20% hands-on) where I was responsible for a core team's results.",
-        "accomplishments": [
-          "Led a team of 9 developers, engaging them even in a crisis scenario, doing weekly 1:1s, and helping them with their technical challenges;",
-          "Launched the new Ad Insertion journey in stages, giving users a fluid and easier experience to sell items in the classified platform;",
-          "Rewrote the mobile app with native technologies to improve the user experience and reduce the crashes;",
-          "Mentored the team members through their performance cycles with clear and achievable goals for the next year;",
-          "Led the team ceremonies with agile practices to ensure a streamlined workflow improving task throughput by 50%;",
-          "Worked closely with the Product Manager to mitigate risks and make effective product decisions;"
-        ]
-      },
-      "olx-3": {
-        "role": "Technical Lead",
-        "description": "A double leadership role with a very technical team and a chapter once a week.",
-        "accomplishments": [
-          "Led a team of 8 developers, leveraging the strengths of each of them, doing weekly 1:1s, and supporting them in the technical decisions;",
-          "Published a new LTR ranking algorithm that brings 10% more conversion in the Ad Recommendation system;",
-          "Structured this team into 3 independent squads to support the strategic plan for next year and get them focused on each business domain;",
-          "Used the OpenAI API to help us in an annotation job with thousands of registries in a simple way and with 60% accuracy;",
-          "Also led a Design System chapter with 9 developers, with a once-a-week work meeting, planning the tasks, and keeping them focused on the most valuable deliveries;",
-          "Launched the Design System v3, bringing 30% more performance to all pages on the platform;"
-        ]
-      },
-      "olx-2": {
-        "role": "Technical Lead",
-        "description": "A tech leader role (70% people / 30% hands-on) where I was responsible for the Design System project.",
-        "accomplishments": [
-          "Led a team of 9 developers, influencing technical decisions and creating some automation scripts for data collection;",
-          "Partnered with the Design Manager to make optimal product decisions and define a product roadmap;",
-          "Executed the Design System roadmap, including a new platform home page, created in less than 48 hours;",
-          "Guaranteed the continuous evolution of the Design System and its adoption by other teams in the company;",
-          "Created some processes to contribute to the Design System project, bringing in 10 new external collaborators;"
-        ]
-      },
       "olx-1": {
         "role": "Technical Lead",
-        "description": "A tech leader role (90% people / 10% hands-on) where I was responsible for the Advertising system.",
+        "description": "A tech leader role where I was responsible for different core teams.",
         "accomplishments": [
-          "Led a team of 7 developers, serving as a key reference, doing weekly 1:1s, and helping them interact with other teams;",
+          "Launched the new Ad Insertion journey in stages, giving users a fluid and easier experience to sell items in the classified platform;",
+          "Published a new LTR ranking algorithm that brings 10% more conversion in the Ad Recommendation system;",
+          "New platform home page, created in less than 48 hours supported by the Design System;",
           "Made some advertising improvements to the platform that generated revenue of R$80 million;",
-          "Recruited new professionals to increase production capacity by 300%, and be able to focus on the functionalities of the mobile application;",
-          "Actively partnered with the Product Manager to prioritize and develop promising initiatives;",
-          "Proposed a new structure for the entire Advertising area to enhance our results;"
+          "Recruited new professionals to increase production capacity by 300%, and be able to focus on the functionalities of the mobile application;"
         ]
       },
       "meaning-1": {
