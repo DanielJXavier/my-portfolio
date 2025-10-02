@@ -223,7 +223,7 @@ exports[`Experience component renders the component 1`] = `
             <span>
                
               (
-              01-2024
+              08-2021
                
               to
                
@@ -234,23 +234,11 @@ exports[`Experience component renders the component 1`] = `
           <p
             class="text-[12pt]"
           >
-            A tech leader role (80% people / 20% hands-on) where I was responsible for a core team's results:
+            A tech leader role where I was responsible for different core teams:
           </p>
           <ul
             class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
           >
-            <li
-              class="items-baseline flex gap-x-1.5 "
-              data-testid="visibility-control"
-              data-visible=""
-            >
-              <input
-                checked=""
-                class="print:hidden"
-                type="checkbox"
-              />
-              Led a team of 9 developers, engaging them even in a crisis scenario, doing weekly 1:1s, and helping them with their technical challenges;
-            </li>
             <li
               class="items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
@@ -262,118 +250,6 @@ exports[`Experience component renders the component 1`] = `
                 type="checkbox"
               />
               Launched the new Ad Insertion journey in stages, giving users a fluid and easier experience to sell items in the classified platform;
-            </li>
-            <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Rewrote the mobile app with native technologies to improve the user experience and reduce the crashes;
-            </li>
-            <li
-              class="items-baseline flex gap-x-1.5 "
-              data-testid="visibility-control"
-              data-visible=""
-            >
-              <input
-                checked=""
-                class="print:hidden"
-                type="checkbox"
-              />
-              Mentored the team members through their performance cycles with clear and achievable goals for the next year;
-            </li>
-            <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Led the team ceremonies with agile practices to ensure a streamlined workflow improving task throughput by 50%;
-            </li>
-            <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Worked closely with the Product Manager to mitigate risks and make effective product decisions;
-            </li>
-            <li
-              class="mt-1 items-baseline flex gap-x-1.5 "
-              data-testid="visibility-control"
-              data-visible=""
-            >
-              <input
-                checked=""
-                class="print:hidden"
-                type="checkbox"
-              />
-              Main stack
-              :
-               
-              React | Node.js | Kong | Amazon Web Services (AWS) | Amazon S3 - Cloud Object Storage | Native Android | Kotlin | Native iOS | SwiftUI | React Native | Firebase
-            </li>
-          </ul>
-        </div>
-      </li>
-      <li
-        class="items-baseline break-inside-avoid flex gap-x-1.5 "
-        data-testid="visibility-control"
-        data-visible=""
-      >
-        <input
-          checked=""
-          class="print:hidden"
-          type="checkbox"
-        />
-        <div>
-          <p
-            class="text-[12pt]"
-          >
-            <span
-              class="font-bold"
-            >
-              Technical Lead
-               @ 
-              OLX
-            </span>
-            <span>
-               
-              (
-              07-2023
-               
-              to
-               
-              12-2023
-              )
-            </span>
-          </p>
-          <p
-            class="text-[12pt]"
-          >
-            A double leadership role with a very technical team and a chapter once a week:
-          </p>
-          <ul
-            class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
-          >
-            <li
-              class="items-baseline flex gap-x-1.5 "
-              data-testid="visibility-control"
-              data-visible=""
-            >
-              <input
-                checked=""
-                class="print:hidden"
-                type="checkbox"
-              />
-              Led a team of 8 developers, leveraging the strengths of each of them, doing weekly 1:1s, and supporting them in the technical decisions;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -388,16 +264,6 @@ exports[`Experience component renders the component 1`] = `
               Published a new LTR ranking algorithm that brings 10% more conversion in the Ad Recommendation system;
             </li>
             <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Structured this team into 3 independent squads to support the strategic plan for next year and get them focused on each business domain;
-            </li>
-            <li
               class="items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
               data-visible=""
@@ -407,211 +273,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Used the OpenAI API to help us in an annotation job with thousands of registries in a simple way and with 60% accuracy;
-            </li>
-            <li
-              class="items-baseline flex gap-x-1.5 "
-              data-testid="visibility-control"
-              data-visible=""
-            >
-              <input
-                checked=""
-                class="print:hidden"
-                type="checkbox"
-              />
-              Also led a Design System chapter with 9 developers, with a once-a-week work meeting, planning the tasks, and keeping them focused on the most valuable deliveries;
-            </li>
-            <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Launched the Design System v3, bringing 30% more performance to all pages on the platform;
-            </li>
-            <li
-              class="mt-1 items-baseline flex gap-x-1.5 "
-              data-testid="visibility-control"
-              data-visible=""
-            >
-              <input
-                checked=""
-                class="print:hidden"
-                type="checkbox"
-              />
-              Main stack
-              :
-               
-              React | Storybook | Python | Amazon Web Services (AWS) | Amazon S3 - Cloud Object Storage | PostgreSQL | Kotlin | Native iOS | SwiftUI | React Native | Elasticsearh
-            </li>
-          </ul>
-        </div>
-      </li>
-      <li
-        class="items-baseline break-inside-avoid flex gap-x-1.5 "
-        data-testid="visibility-control"
-        data-visible=""
-      >
-        <input
-          checked=""
-          class="print:hidden"
-          type="checkbox"
-        />
-        <div>
-          <p
-            class="text-[12pt]"
-          >
-            <span
-              class="font-bold"
-            >
-              Technical Lead
-               @ 
-              OLX
-            </span>
-            <span>
-               
-              (
-              09-2022
-               
-              to
-               
-              06-2023
-              )
-            </span>
-          </p>
-          <p
-            class="text-[12pt]"
-          >
-            A tech leader role (70% people / 30% hands-on) where I was responsible for the Design System project:
-          </p>
-          <ul
-            class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
-          >
-            <li
-              class="items-baseline flex gap-x-1.5 "
-              data-testid="visibility-control"
-              data-visible=""
-            >
-              <input
-                checked=""
-                class="print:hidden"
-                type="checkbox"
-              />
-              Led a team of 9 developers, influencing technical decisions and creating some automation scripts for data collection;
-            </li>
-            <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Partnered with the Design Manager to make optimal product decisions and define a product roadmap;
-            </li>
-            <li
-              class="items-baseline flex gap-x-1.5 "
-              data-testid="visibility-control"
-              data-visible=""
-            >
-              <input
-                checked=""
-                class="print:hidden"
-                type="checkbox"
-              />
-              Executed the Design System roadmap, including a new platform home page, created in less than 48 hours;
-            </li>
-            <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Guaranteed the continuous evolution of the Design System and its adoption by other teams in the company;
-            </li>
-            <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Created some processes to contribute to the Design System project, bringing in 10 new external collaborators;
-            </li>
-            <li
-              class="mt-1 items-baseline flex gap-x-1.5 "
-              data-testid="visibility-control"
-              data-visible=""
-            >
-              <input
-                checked=""
-                class="print:hidden"
-                type="checkbox"
-              />
-              Main stack
-              :
-               
-              React | Storybook | Amazon Web Services (AWS) | Amazon S3 - Cloud Object Storage | Native Android | Kotlin | Native iOS | SwiftUI
-            </li>
-          </ul>
-        </div>
-      </li>
-      <li
-        class="items-baseline break-inside-avoid flex gap-x-1.5 "
-        data-testid="visibility-control"
-        data-visible=""
-      >
-        <input
-          checked=""
-          class="print:hidden"
-          type="checkbox"
-        />
-        <div>
-          <p
-            class="text-[12pt]"
-          >
-            <span
-              class="font-bold"
-            >
-              Technical Lead
-               @ 
-              OLX
-            </span>
-            <span>
-               
-              (
-              08-2021
-               
-              to
-               
-              08-2022
-              )
-            </span>
-          </p>
-          <p
-            class="text-[12pt]"
-          >
-            A tech leader role (90% people / 10% hands-on) where I was responsible for the Advertising system:
-          </p>
-          <ul
-            class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
-          >
-            <li
-              class="items-baseline flex gap-x-1.5 "
-              data-testid="visibility-control"
-              data-visible=""
-            >
-              <input
-                checked=""
-                class="print:hidden"
-                type="checkbox"
-              />
-              Led a team of 7 developers, serving as a key reference, doing weekly 1:1s, and helping them interact with other teams;
+              New platform home page, created in less than 48 hours supported by the Design System;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -638,26 +300,6 @@ exports[`Experience component renders the component 1`] = `
               Recruited new professionals to increase production capacity by 300%, and be able to focus on the functionalities of the mobile application;
             </li>
             <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Actively partnered with the Product Manager to prioritize and develop promising initiatives;
-            </li>
-            <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Proposed a new structure for the entire Advertising area to enhance our results;
-            </li>
-            <li
               class="mt-1 items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
               data-visible=""
@@ -670,7 +312,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              HTML5 | CSS3 | JavaScript | Amazon Web Services (AWS) | Amazon S3 - Cloud Object Storage | Google Ad Manager | Native Android | Java | Kotlin | Native iOS | SwiftUI | Firebase
+              React | HTML5 | CSS3 | Storybook | JavaScript | Node.js | Python | Amazon Web Services (AWS) | Amazon S3 - Cloud Object Storage | PostgreSQL | Google Ad Manager | Native Android | Java | Kotlin | Native iOS | SwiftUI | React Native | Firebase | Elasticsearh
             </li>
           </ul>
         </div>
