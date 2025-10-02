@@ -20,7 +20,6 @@ interface ExperienceItemPropsInterface extends ExperienceConfigType {
   role: string;
   description: string;
   accomplishments: string[];
-  biggestChallenge: string;
   imageAltText: {
     prefix: string;
     sufix: string;
@@ -49,7 +48,6 @@ export default function ExperienceItem({
   endDate,
   description,
   accomplishments,
-  biggestChallenge,
   mainStack,
   imageAltText,
   hasBlackLogo,
@@ -61,7 +59,6 @@ export default function ExperienceItem({
       dateSeparatorText,
       endDateText,
       accomplishmentsTitle,
-      biggestChallengeTitle,
       mainStackTitle,
     },
   } = getDictionary(lang);
@@ -105,12 +102,6 @@ export default function ExperienceItem({
                 <li key={`accomplishment-${i}`}>{accomplishment}</li>
               ))}
             </ul>
-          </section>
-          <section className="mt-4 pl-14 xl:px-14">
-            <h3 className="font-semibold xl:text-xl">
-              {biggestChallengeTitle}:
-            </h3>
-            <p className="text-sm xl:text-base">{biggestChallenge}</p>
           </section>
           <section className="mt-4 pl-14 xl:px-14">
             <h3 className="font-semibold xl:text-xl">{mainStackTitle}:</h3>

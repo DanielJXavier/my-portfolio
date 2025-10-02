@@ -14,7 +14,6 @@ export type ExperienceItemsType = {
     role: string;
     description: string;
     accomplishments: string[];
-    biggestChallenge: string;
   };
 };
 

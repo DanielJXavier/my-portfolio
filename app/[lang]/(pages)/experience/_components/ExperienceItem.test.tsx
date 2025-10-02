@@ -38,7 +38,6 @@ describe("ExperienceItem component", () => {
         endDate={endDate}
         description={experienceItem.description}
         accomplishments={experienceItem.accomplishments}
-        biggestChallenge={experienceItem.biggestChallenge}
         mainStack={mainStack}
         imageAltText={imageAltText}
         hasBlackLogo={hasBlackLogo}

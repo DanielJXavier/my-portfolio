@@ -41,7 +41,6 @@
     "dateSeparatorText": "até",
     "endDateText": "presente",
     "accomplishmentsTitle": "Principais conquistas",
-    "biggestChallengeTitle": "Maior desafio",
     "mainStackTitle": "Stack principal",
     "items": {
       "danielxavier-1": {
@@ -51,8 +50,7 @@
           "Desenvolvi o novo checkout da Lovevery (com foco em melhoria de desempenho e melhor experiência do usuário), usando Next.js + Tailwind CSS + Contentful, suportando 4 países e 5 idiomas, e melhorando a cobertura do código em mais de 20%;",
           "Liderei a equipe de Design System na YES Technology (empresa alemã), implementando o novo Design System para suportar o ecossistema da empresa, mantendo um código base e escalável, muito bem alinhado com a marca e os princípios de design da empresa;",
           "Criei um site profissional de alto desempenho e totalmente acessível usando React, Next.js e Tailwind CSS;"
-        ],
-        "biggestChallenge": "Conceptualizar e lançar projetos rapidamente do zero e com poucos requisitos definidos."
+        ]
       },
       "pdsacademy-1": {
         "role": "Professor de Pós-graduação",
@@ -61,8 +59,7 @@
           "Mais de 16 horas de Fundamentos de Front-End com React classes gravadas;",
           "Sessão ao vivo para ajudar alunos com suas dúvidas e compartilhar dicas para melhorar seu aprendizado;",
           "Projetos base criados e compartilhados com alunos para ajudar a praticar os conceitos aprendidos;"
-        ],
-        "biggestChallenge": "Criar uma experiência de aprendizado envolvente e eficaz para alunos de outra área (Back-End com Java)."
+        ]
       },
       "olx-4": {
         "role": "Gerente de Engenharia de Software",
@@ -74,8 +71,7 @@
           "Orientei os membros da equipe em seus ciclos de desempenho com metas claras e alcançáveis para o próximo ano;",
           "Liderei cerimônias de equipe com práticas ágeis para garantir um fluxo de trabalho simplificado, melhorando o rendimento das tarefas em 50%;",
           "Trabalhei em estreita colaboração com o Gerente de Produto para mitigar riscos e tomar decisões eficazes sobre produtos;"
-        ],
-        "biggestChallenge": "Lidar com a pressão da liderança para fazer grandes entregas a curto prazo."
+        ]
       },
       "olx-3": {
         "role": "Gerente de Engenharia de Software",
@@ -86,8 +82,7 @@
           "Estruturei a equipe em 3 squads independentes para apoiar o plano estratégico para o próximo ano;¹",
           "Liderei indiretamente todos os desenvolvedores (9 devs) do capítulo, mantendo o foco nas entregas mais valiosas;²",
           "Lançado o Design System v3, trazendo 30% mais performance para todas as páginas da plataforma;²"
-        ],
-        "biggestChallenge": "Equilibrar as substanciais responsabilidades da equipe¹ e do capítulo² simultaneamente."
+        ]
       },
       "olx-2": {
         "role": "Gerente de Engenharia de Software",
@@ -98,8 +93,7 @@
           "Entreguei o roteiro do Design System, incluindo uma nova página inicial da plataforma, criada em menos de 48 horas;",
           "Garanti a evolução contínua do Design System e a sua adoção por outras equipas;",
           "Criei processos para contribuição no projeto Design System, trazendo 10 novos colaboradores externos;"
-        ],
-        "biggestChallenge": "Assumir vários papéis simultaneamente, incluindo Gerente de Engenharia, Gerente de Produto, Analista de Dados, entre outros."
+        ]
       },
       "olx-1": {
         "role": "Gerente de Engenharia de Software",
@@ -110,8 +104,7 @@
           "Recrutei novos profissionais para aumentar a capacidade produtiva em 300%;",
           "Parceria ativa com o Gerente de Produto para priorizar e desenvolver iniciativas ideais;",
           "Propus uma nova estrutura para a área de Publicidade para potencializar resultados;"
-        ],
-        "biggestChallenge": "Gerenciar altas expectativas relacionadas aos resultados de receita de Publicidade."
+        ]
       },
       "meaning-1": {
         "role": "CTO & Sócio",
@@ -121,8 +114,7 @@
           "Arquitetei a solução do zero e entreguei para 4 novos clientes;",
           "Refinadas as especificações técnicas do produto;",
           "Desenvolvi um projeto de Prova de Conceito;"
-        ],
-        "biggestChallenge": "Converter um projeto altamente \"humano\", vindo de consultoria pessoal, em uma abordagem sistêmica."
+        ]
       },
       "softplan-3": {
         "role": "Coordenador de Desenvolvimento",
@@ -132,8 +124,7 @@
           "Entregas planejadas e executadas para os 2 módulos mais críticos do sistema \"SAJ\";",
           "Estruturei e aprimorei continuamente o fluxo de trabalho da equipe utilizando metodologias ágeis de desenvolvimento de software;",
           "Criei fórmulas e métricas para medir com precisão a capacidade da equipe, trazendo previsibilidade às entregas;"
-        ],
-        "biggestChallenge": "Gerenciar uma grande equipe (28 profissionais) e supervisionar entregas críticas."
+        ]
       },
       "softplan-2": {
         "role": "Líder Técnico",
@@ -144,8 +135,7 @@
           "Forneci treinamento em HTML, CSS, JavaScript, React JS, GraphQL e testes unitários;",
           "Liderei uma equipe de 10 desenvolvedores Front-End React;",
           "Recrutou novos funcionários para a empresa e novos profissionais terceirizados;"
-        ],
-        "biggestChallenge": "Adquirir habilidades de liderança e dominar a gestão de pessoas."
+        ]
       },
       "softplan-1": {
         "role": "Desenvolvedor Front-End Sênior",
@@ -154,8 +144,7 @@
           "Entregue o projeto mais crítico e complexo em menos de 6 meses",
           "Desenvolvi novas funcionalidades para o portal \"e-SAJ\" utilizando React JS e GraphQL;",
           "Criação de novas funcionalidades para o sistema \"SAJ Tribunais\" utilizando React JS e GraphQL;"
-        ],
-        "biggestChallenge": "Gerenciar todas as entregas do projeto como o único desenvolvedor Front-End."
+        ]
       },
       "hotmart-3": {
         "role": "Desenvolvedor Full-Stack Sênior",
@@ -163,8 +152,7 @@
         "accomplishments": [
           "Desenvolvi sistemas para atender às necessidades internas da empresa e automatizar tarefas, aproveitando tecnologias como Vue.js e Node.js trazendo mais de 1000 novos leads;",
           "Criei uma Prova de Conceito (POC) que introduziu um método simplificado para o registro de produtos na plataforma;"
-        ],
-        "biggestChallenge": "Equilibrar a necessidade de compreender claramente os requisitos do cliente e codificar simultaneamente."
+        ]
       },
       "hotmart-2": {
         "role": "Desenvolvedor Front-End Pleno",
@@ -173,8 +161,7 @@
           "Projetei um sistema para gerar imagens de postagens de blog usando componentes e modelos pré-definidos, aumentando assim a produtividade da equipe de design em 1000%;",
           "Desenvolvi um sistema de cache de alto desempenho para o \"blog Hotmart\" (WordPress), resultando em um aumento de desempenho de 300%;",
           "Implementei a versão em árabe do \"blog Hotmart\";"
-        ],
-        "biggestChallenge": "Conceber e desenvolver soluções complexas do zero."
+        ]
       },
       "hotmart-1": {
         "role": "Desenvolvedor Front-End Júnior",
@@ -183,8 +170,7 @@
           "Desenvolvi um novo tema WordPress para o \"blog Hotmart\" utilizando apenas HTML5, CSS Grid Layout e Vanilla JS;",
           "Implementei o novo layout para o \"blog Hotmart\";",
           "Criei recursos personalizados dentro da interface de administração do WordPress;"
-        ],
-        "biggestChallenge": "Adquirir novas habilidades de desenvolvimento e aplicá-las em projetos complexos."
+        ]
       },
       "sydle-2": {
         "role": "Analista de Suporte",
@@ -194,8 +180,7 @@
           "Facilitei a modelagem e automação dos processos internos da empresa através do BPMN;",
           "Forneci suporte técnico abrangente aos usuários dos sistemas da empresa;",
           "Supervisionei a configuração e monitoramento de servidores Linux e Windows."
-        ],
-        "biggestChallenge": "Adquirir rapidamente habilidades de desenvolvimento e contribuir para projetos legados."
+        ]
       },
       "sydle-1": {
         "role": "Estagiário de Suporte",
@@ -205,8 +190,7 @@
           "Configurei e monitorei a infraestrutura em servidores Linux e Windows;",
           "Compilei relatórios da equipe;",
           "Ofereci suporte de infraestrutura aos funcionários da empresa."
-        ],
-        "biggestChallenge": "Aprender simultaneamente uma infinidade de novos conceitos e equilibrá-los com meus compromissos da faculdade."
+        ]
       }
     },
     "previousItemsText": {

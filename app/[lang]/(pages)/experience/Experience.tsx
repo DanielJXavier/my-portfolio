@@ -60,7 +60,6 @@ export default function Experience() {
             endDate={endDate}
             description={experienceItems.current[key].description}
             accomplishments={experienceItems.current[key].accomplishments}
-            biggestChallenge={experienceItems.current[key].biggestChallenge}
             mainStack={mainStack}
             imageAltText={imageAltText}
             hasBlackLogo={hasBlackLogo}

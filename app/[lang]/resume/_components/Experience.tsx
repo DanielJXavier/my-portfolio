@@ -16,7 +16,6 @@ export default function Experience() {
     experience: {
       dateSeparatorText,
       endDateText,
-      biggestChallengeTitle,
       mainStackTitle,
       items,
       previousItemsText,
@@ -73,13 +72,6 @@ export default function Experience() {
                       </VisibilityControl>
                     )
                   )}
-                  <VisibilityControl
-                    className="mt-1 items-baseline"
-                    defaultVisible={false}
-                  >
-                    {biggestChallengeTitle}:{" "}
-                    {experienceItems.current[key].biggestChallenge}
-                  </VisibilityControl>
                   <VisibilityControl
                     className="mt-1 items-baseline"
                     defaultVisible={resume}
