@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Experience component renders the component 1`] = `
 <div>
@@ -28,7 +28,7 @@ exports[`Experience component renders the component 1`] = `
             <span
               class="font-bold"
             >
-              Specialist Front-End Engineer | Tech Lead
+              Senior Front-End Engineer | Tech Lead
                @ 
               &lt;DanielXavier /&gt;
             </span>
@@ -61,7 +61,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Developed the new Lovevery's (US baby products company) checkout (focused on performance improvement and a better user experience), using Next.js + Tailwind CSS + Contentful, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;
+              Lovevery's ERC launch to reach more than 455k customers;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -73,7 +73,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Led the Design System team at YES Technology (German-owned company), implementing the new Design System to support the whole company ecosystem, keeping a maintainable and scalable codebase, very well aligned with the company's brand and design principles;
+              New Lovevery's checkout with a net gain of 7.3 checkouts per day, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -85,20 +85,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Created a high-performance and fully accessible professional portfolio website using React/Tailwind CSS to handle routing in the front, Next.js/Node.js to provide Server Side Rendering in the back end, Jest/Cypress to provide 100% code coverage including some visual tests, and Vercel's Frontend Cloud for deployment;
-            </li>
-            <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Biggest challenge
-              :
-               
-              To quickly design and release projects from scratch and with few defined requirements.
+              Design System at YES Technology (German-owned company), implementing components to support the whole company ecosystem, keeping a maintainable and scalable codebase, very well aligned with the company's brand and design principles;
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 "
@@ -193,19 +180,6 @@ exports[`Experience component renders the component 1`] = `
                 type="checkbox"
               />
               Base projects created and shared with students to help them practice the concepts learned;
-            </li>
-            <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Biggest challenge
-              :
-               
-              To create an engaging and effective learning experience for students of another area (Back-End with Java).
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 "
@@ -330,19 +304,6 @@ exports[`Experience component renders the component 1`] = `
                 type="checkbox"
               />
               Worked closely with the Product Manager to mitigate risks and make effective product decisions;
-            </li>
-            <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Biggest challenge
-              :
-               
-              To deal with pressure from leadership to do major deliveries in the short term.
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 "
@@ -471,19 +432,6 @@ exports[`Experience component renders the component 1`] = `
               Launched the Design System v3, bringing 30% more performance to all pages on the platform;
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Biggest challenge
-              :
-               
-              To balance the substantial responsibilities of both the team and the chapter simultaneously.
-            </li>
-            <li
               class="mt-1 items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
               data-visible=""
@@ -594,19 +542,6 @@ exports[`Experience component renders the component 1`] = `
                 type="checkbox"
               />
               Created some processes to contribute to the Design System project, bringing in 10 new external collaborators;
-            </li>
-            <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Biggest challenge
-              :
-               
-              To assume multiple roles simultaneously, including Engineering Manager, Product Manager, Data Analyst, etc.
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 "
@@ -723,19 +658,6 @@ exports[`Experience component renders the component 1`] = `
               Proposed a new structure for the entire Advertising area to enhance our results;
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Biggest challenge
-              :
-               
-              To manage high expectations related to Advertising revenue results.
-            </li>
-            <li
               class="mt-1 items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
               data-visible=""
@@ -838,19 +760,6 @@ exports[`Experience component renders the component 1`] = `
                 type="checkbox"
               />
               Launched the MVP platform;
-            </li>
-            <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Biggest challenge
-              :
-               
-              To find a way to convert a highly "human-centric" project, based on personal consultancy, into a systematic approach.
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 "
@@ -972,19 +881,6 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Biggest challenge
-              :
-               
-              To manage such a large team and ensure critical deliveries.
-            </li>
-            <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
               Main stack
               :
                
@@ -1095,19 +991,6 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Biggest challenge
-              :
-               
-              To acquire leadership skills and master people management, balancing with hands-on work.
-            </li>
-            <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
               Main stack
               :
                
@@ -1198,19 +1081,6 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Biggest challenge
-              :
-               
-              To manage all project deliveries as a single Front-End developer.
-            </li>
-            <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
               Main stack
               :
                
@@ -1280,19 +1150,6 @@ exports[`Experience component renders the component 1`] = `
                 type="checkbox"
               />
               Created a Proof of Concept (POC) interface, only using JavaScript and HTML, that introduced a very simplified method for product registration on the platform (our main bottleneck);
-            </li>
-            <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Biggest challenge
-              :
-               
-              To balance the need to comprehend customer requirements clearly while simultaneously coding.
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -1390,19 +1247,6 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Biggest challenge
-              :
-               
-              To design and develop complex solutions from the ground up.
-            </li>
-            <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
               Main stack
               :
                
@@ -1478,19 +1322,6 @@ exports[`Experience component renders the component 1`] = `
                 type="checkbox"
               />
               Created custom features within the WordPress admin interface;
-            </li>
-            <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Biggest challenge
-              :
-               
-              To acquire new development skills and apply them to complex projects.
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -1594,19 +1425,6 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Biggest challenge
-              :
-               
-              To rapidly acquire development skills and contribute to legacy projects.
-            </li>
-            <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
               Main stack
               :
                
@@ -1692,19 +1510,6 @@ exports[`Experience component renders the component 1`] = `
                 type="checkbox"
               />
               Offered infrastructure support to the company's employees.
-            </li>
-            <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Biggest challenge
-              :
-               
-              To simultaneously learn a multitude of new concepts and balance them with my university commitments.
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
