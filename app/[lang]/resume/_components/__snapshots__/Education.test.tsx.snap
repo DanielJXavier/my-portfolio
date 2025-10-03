@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Education component renders the component 1`] = `
 <div>
@@ -29,6 +29,9 @@ exports[`Education component renders the component 1`] = `
             ,
              
             Strategic People Management
+             (
+            2021
+            )
           </p>
           <p
             class="text-[12pt]"
@@ -55,6 +58,9 @@ exports[`Education component renders the component 1`] = `
             ,
              
             Computer Science
+             (
+            2014
+            )
           </p>
           <p
             class="text-[12pt]"

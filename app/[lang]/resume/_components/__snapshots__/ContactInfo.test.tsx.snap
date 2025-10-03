@@ -1,18 +1,29 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ContactInfo component renders the component 1`] = `
 <div>
   <section>
     <h1
-      class="text-[18pt] font-bold"
+      class="text-[18pt] font-bold text-center"
     >
       Daniel
        
       Xavier
     </h1>
-    <ul>
+    <p
+      class="text-center"
+    >
+      Florianópolis
+      , 
+      Santa Catarina
+      , 
+      Brazil
+    </p>
+    <ul
+      class="print:flex print:gap-x-4 print:justify-center"
+    >
       <li
-        class=" flex gap-x-1.5 "
+        class="print:relative print:flex print:items-center print:after:content-[''] print:after:absolute print:after:-right-2 print:after:w-px print:after:h-3 print:after:bg-primary flex gap-x-1.5 "
         data-testid="visibility-control"
         data-visible=""
       >
@@ -24,7 +35,7 @@ exports[`ContactInfo component renders the component 1`] = `
         dxdanielxavier@gmail.com
       </li>
       <li
-        class=" flex gap-x-1.5 "
+        class="print:relative print:flex print:items-center print:after:content-[''] print:after:absolute print:after:-right-2 print:after:w-px print:after:h-3 print:after:bg-primary flex gap-x-1.5 "
         data-testid="visibility-control"
         data-visible=""
       >
@@ -36,7 +47,7 @@ exports[`ContactInfo component renders the component 1`] = `
         +55 31 99732-5804
       </li>
       <li
-        class=" flex gap-x-1.5 "
+        class="print:relative print:flex print:items-center print:after:content-[''] print:after:absolute print:after:-right-2 print:after:w-px print:after:h-3 print:after:bg-primary flex gap-x-1.5 "
         data-testid="visibility-control"
         data-visible=""
       >

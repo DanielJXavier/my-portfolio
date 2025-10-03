@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`EducationItem component renders the component 1`] = `
 <div>
@@ -30,8 +30,11 @@ exports[`EducationItem component renders the component 1`] = `
         <span
           class="text-xs md:text-sm"
         >
-           (
-          2020 ~ 2021
+           
+          (
+          2020
+           ~ 
+          2021
           )
         </span>
       </h2>

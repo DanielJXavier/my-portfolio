@@ -10,13 +10,13 @@ exports[`Summary component renders the component 1`] = `
     </h2>
     <textarea
       class="w-full text-[12pt] text-justify align-top border border-primary print:border-none print:resize-none"
-      rows="14"
+      rows="12"
     >
-      A Lead Front-End Engineer with 13+ years of experience helping US-based companies build intuitive user interfaces, ensuring code quality, high performance, scalability, accessibility, and security. Specialized in React, Next.js, TypeScript, Tailwind, Node.js, Contentful, Stripe, AWS, and Vercel, now powered by top AI tools to go even faster.
+      A Lead Front-End Engineer with 13+ years of experience helping US-based companies build intuitive user interfaces, ensuring code quality, high performance, scalability, accessibility, and security. Specialized in React, Next.js, TypeScript, and Tailwind CSS, now powered by top AI tools to go even faster.
 
-Currently working at Lovevery, leading meaningful projects like the New Checkout with a net gain of 7.3 checkouts per day and the ERC launch to reach more than 455k customers. I also had the pleasant opportunity to teach Front-End development in a post-graduate program, sharing my knowledge with Back-End developers who want to get new skills.
+Currently working at Lovevery, delivering meaningful projects like the New Checkout with a net gain of 7.3 new checkouts per day and the ERC launch to reach more than 455k customers in just a few months.
 
-Passionate about Front-End, combining clean code, best practices, and design to create products that really make a difference for real users and expressive results for the business!
+What I like most about Front-End is combining clean code, best practices, and design to create products that truly make a difference for real users and bring noticeable business results!
     </textarea>
   </section>
 </div>

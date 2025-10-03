@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Skills component renders the component 1`] = `
 <div>
@@ -434,10 +434,12 @@ exports[`Skills component renders the component 1`] = `
         React Testing Library
       </li>
       <li
-        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
         data-testid="visibility-control"
+        data-visible=""
       >
         <input
+          checked=""
           class="print:hidden"
           type="checkbox"
         />
@@ -454,10 +456,12 @@ exports[`Skills component renders the component 1`] = `
         Chromatic
       </li>
       <li
-        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
         data-testid="visibility-control"
+        data-visible=""
       >
         <input
+          checked=""
           class="print:hidden"
           type="checkbox"
         />
@@ -742,10 +746,12 @@ exports[`Skills component renders the component 1`] = `
         Terraform
       </li>
       <li
-        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
         data-testid="visibility-control"
+        data-visible=""
       >
         <input
+          checked=""
           class="print:hidden"
           type="checkbox"
         />
@@ -1102,12 +1108,10 @@ exports[`Skills component renders the component 1`] = `
         Delphi
       </li>
       <li
-        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
-        data-visible=""
       >
         <input
-          checked=""
           class="print:hidden"
           type="checkbox"
         />
@@ -1124,12 +1128,10 @@ exports[`Skills component renders the component 1`] = `
         Communication
       </li>
       <li
-        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
-        data-visible=""
       >
         <input
-          checked=""
           class="print:hidden"
           type="checkbox"
         />
@@ -1296,12 +1298,10 @@ exports[`Skills component renders the component 1`] = `
         Customer Orientation
       </li>
       <li
-        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+        class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
-        data-visible=""
       >
         <input
-          checked=""
           class="print:hidden"
           type="checkbox"
         />

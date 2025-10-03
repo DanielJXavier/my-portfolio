@@ -3,19 +3,30 @@
 exports[`Resume page (Client-side) renders the page 1`] = `
 <div>
   <main
-    class="max-w-[210mm] print:w-[210mm] row-span-3 flex flex-col gap-y-3 font-serif p-[0.5in] leading-snug"
+    class="max-w-[210mm] print:w-[210mm] row-span-3 flex flex-col gap-y-3 text-sm font-serif p-[0.5in] leading-snug"
   >
     <section>
       <h1
-        class="text-[18pt] font-bold"
+        class="text-[18pt] font-bold text-center"
       >
         Daniel
          
         Xavier
       </h1>
-      <ul>
+      <p
+        class="text-center"
+      >
+        Florianópolis
+        , 
+        Santa Catarina
+        , 
+        Brazil
+      </p>
+      <ul
+        class="print:flex print:gap-x-4 print:justify-center"
+      >
         <li
-          class=" flex gap-x-1.5 "
+          class="print:relative print:flex print:items-center print:after:content-[''] print:after:absolute print:after:-right-2 print:after:w-px print:after:h-3 print:after:bg-primary flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -27,7 +38,7 @@ exports[`Resume page (Client-side) renders the page 1`] = `
           dxdanielxavier@gmail.com
         </li>
         <li
-          class=" flex gap-x-1.5 "
+          class="print:relative print:flex print:items-center print:after:content-[''] print:after:absolute print:after:-right-2 print:after:w-px print:after:h-3 print:after:bg-primary flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -39,7 +50,7 @@ exports[`Resume page (Client-side) renders the page 1`] = `
           +55 31 99732-5804
         </li>
         <li
-          class=" flex gap-x-1.5 "
+          class="print:relative print:flex print:items-center print:after:content-[''] print:after:absolute print:after:-right-2 print:after:w-px print:after:h-3 print:after:bg-primary flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -85,13 +96,13 @@ exports[`Resume page (Client-side) renders the page 1`] = `
       </h2>
       <textarea
         class="w-full text-[12pt] text-justify align-top border border-primary print:border-none print:resize-none"
-        rows="14"
+        rows="12"
       >
-        A Lead Front-End Engineer with 13+ years of experience helping US-based companies build intuitive user interfaces, ensuring code quality, high performance, scalability, accessibility, and security. Specialized in React, Next.js, TypeScript, Tailwind, Node.js, Contentful, Stripe, AWS, and Vercel, now powered by top AI tools to go even faster.
+        A Lead Front-End Engineer with 13+ years of experience helping US-based companies build intuitive user interfaces, ensuring code quality, high performance, scalability, accessibility, and security. Specialized in React, Next.js, TypeScript, and Tailwind CSS, now powered by top AI tools to go even faster.
 
-Currently working at Lovevery, leading meaningful projects like the New Checkout with a net gain of 7.3 checkouts per day and the ERC launch to reach more than 455k customers. I also had the pleasant opportunity to teach Front-End development in a post-graduate program, sharing my knowledge with Back-End developers who want to get new skills.
+Currently working at Lovevery, delivering meaningful projects like the New Checkout with a net gain of 7.3 new checkouts per day and the ERC launch to reach more than 455k customers in just a few months.
 
-Passionate about Front-End, combining clean code, best practices, and design to create products that really make a difference for real users and expressive results for the business!
+What I like most about Front-End is combining clean code, best practices, and design to create products that truly make a difference for real users and bring noticeable business results!
       </textarea>
     </section>
     <section>
@@ -526,10 +537,12 @@ Passionate about Front-End, combining clean code, best practices, and design to 
           React Testing Library
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
           data-testid="visibility-control"
+          data-visible=""
         >
           <input
+            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -546,10 +559,12 @@ Passionate about Front-End, combining clean code, best practices, and design to 
           Chromatic
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
           data-testid="visibility-control"
+          data-visible=""
         >
           <input
+            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -834,10 +849,12 @@ Passionate about Front-End, combining clean code, best practices, and design to 
           Terraform
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
           data-testid="visibility-control"
+          data-visible=""
         >
           <input
+            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -1194,12 +1211,10 @@ Passionate about Front-End, combining clean code, best practices, and design to 
           Delphi
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
-          data-visible=""
         >
           <input
-            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -1216,12 +1231,10 @@ Passionate about Front-End, combining clean code, best practices, and design to 
           Communication
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
-          data-visible=""
         >
           <input
-            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -1388,12 +1401,10 @@ Passionate about Front-End, combining clean code, best practices, and design to 
           Customer Orientation
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
-          data-visible=""
         >
           <input
-            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -1560,7 +1571,7 @@ Passionate about Front-End, combining clean code, best practices, and design to 
                   class="print:hidden"
                   type="checkbox"
                 />
-                Lovevery's ERC launch to reach more than 455k customers;
+                Launched Lovevery's ERC to reach more than 455k customers;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1572,7 +1583,7 @@ Passionate about Front-End, combining clean code, best practices, and design to 
                   class="print:hidden"
                   type="checkbox"
                 />
-                New Lovevery's checkout with a net gain of 7.3 checkouts per day, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;
+                Built new Lovevery's checkout with a net gain of 7.3 checkouts per day, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1584,7 +1595,7 @@ Passionate about Front-End, combining clean code, best practices, and design to 
                   class="print:hidden"
                   type="checkbox"
                 />
-                Design System at YES Technology (German-owned company), implementing components to support the whole company ecosystem, keeping a maintainable and scalable codebase, very well aligned with the company's brand and design principles;
+                Led the Design System project at YES Technology (German-owned company), implementing components to support the whole company ecosystem, keeping a maintainable and scalable codebase, very well aligned with the company's brand and design principles;
               </li>
               <li
                 class="mt-1 items-baseline flex gap-x-1.5 "
@@ -1654,7 +1665,7 @@ Passionate about Front-End, combining clean code, best practices, and design to 
                   class="print:hidden"
                   type="checkbox"
                 />
-                More than 16 hours of Front-End Fundamentals with React classes recorded;
+                Recorded more than 16 hours of Front-End Fundamentals with React classes;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1666,7 +1677,7 @@ Passionate about Front-End, combining clean code, best practices, and design to 
                   class="print:hidden"
                   type="checkbox"
                 />
-                Live session to help students with their doubts and share some tips to improve their learning;
+                Did live sessions to support students with their doubts and share some tips to improve their learning;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1678,7 +1689,7 @@ Passionate about Front-End, combining clean code, best practices, and design to 
                   class="print:hidden"
                   type="checkbox"
                 />
-                Base projects created and shared with students to help them practice the concepts learned;
+                Created base projects and shared with students to practice the concepts learned;
               </li>
               <li
                 class="mt-1 items-baseline flex gap-x-1.5 "
@@ -1772,7 +1783,7 @@ Passionate about Front-End, combining clean code, best practices, and design to 
                   class="print:hidden"
                   type="checkbox"
                 />
-                New platform home page, created in less than 48 hours supported by the Design System;
+                Led the new platform home page initiative, created in less than 48 hours, supported by the Design System;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1866,7 +1877,7 @@ Passionate about Front-End, combining clean code, best practices, and design to 
                   class="print:hidden"
                   type="checkbox"
                 />
-                Crafted the startup's technical vision and product strategy;
+                Defined the startup's technical vision and product strategy;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1878,7 +1889,7 @@ Passionate about Front-End, combining clean code, best practices, and design to 
                   class="print:hidden"
                   type="checkbox"
                 />
-                Refined the product's technical specifications;
+                Refined the product's technical specifications with the Product Team;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1890,7 +1901,7 @@ Passionate about Front-End, combining clean code, best practices, and design to 
                   class="print:hidden"
                   type="checkbox"
                 />
-                Architected the solution from the ground up and we delivered it to 4 new clients;
+                Developed the solution from the ground up and delivered it to 4 new clients;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -2702,6 +2713,9 @@ Passionate about Front-End, combining clean code, best practices, and design to 
               ,
                
               Strategic People Management
+               (
+              2021
+              )
             </p>
             <p
               class="text-[12pt]"
@@ -2728,6 +2742,9 @@ Passionate about Front-End, combining clean code, best practices, and design to 
               ,
                
               Computer Science
+               (
+              2014
+              )
             </p>
             <p
               class="text-[12pt]"

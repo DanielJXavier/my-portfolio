@@ -61,7 +61,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Lovevery's ERC launch to reach more than 455k customers;
+              Launched Lovevery's ERC to reach more than 455k customers;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -73,7 +73,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              New Lovevery's checkout with a net gain of 7.3 checkouts per day, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;
+              Built new Lovevery's checkout with a net gain of 7.3 checkouts per day, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -85,7 +85,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Design System at YES Technology (German-owned company), implementing components to support the whole company ecosystem, keeping a maintainable and scalable codebase, very well aligned with the company's brand and design principles;
+              Led the Design System project at YES Technology (German-owned company), implementing components to support the whole company ecosystem, keeping a maintainable and scalable codebase, very well aligned with the company's brand and design principles;
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 "
@@ -155,7 +155,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              More than 16 hours of Front-End Fundamentals with React classes recorded;
+              Recorded more than 16 hours of Front-End Fundamentals with React classes;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -167,7 +167,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Live session to help students with their doubts and share some tips to improve their learning;
+              Did live sessions to support students with their doubts and share some tips to improve their learning;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -179,7 +179,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Base projects created and shared with students to help them practice the concepts learned;
+              Created base projects and shared with students to practice the concepts learned;
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 "
@@ -273,7 +273,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              New platform home page, created in less than 48 hours supported by the Design System;
+              Led the new platform home page initiative, created in less than 48 hours, supported by the Design System;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -367,7 +367,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Crafted the startup's technical vision and product strategy;
+              Defined the startup's technical vision and product strategy;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -379,7 +379,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Refined the product's technical specifications;
+              Refined the product's technical specifications with the Product Team;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -391,7 +391,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Architected the solution from the ground up and we delivered it to 4 new clients;
+              Developed the solution from the ground up and delivered it to 4 new clients;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
