@@ -423,6 +423,11 @@
       "skills": "Competências",
       "experience": "Experiência",
       "education": "Formação acadêmica"
+    },
+    "locationInfo": {
+      "city": "Florianópolis",
+      "state": "Santa Catarina",
+      "country": "Brasil"
     }
   },
   "not-found": {

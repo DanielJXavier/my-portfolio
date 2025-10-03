@@ -420,6 +420,11 @@
       "skills": "Skills",
       "experience": "Experience",
       "education": "Education"
+    },
+    "locationInfo": {
+      "city": "Florianópolis",
+      "state": "Santa Catarina",
+      "country": "Brazil"
     }
   },
   "not-found": {
