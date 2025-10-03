@@ -31,14 +31,15 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
   return (
     <>
       <Title icon={<School />}>{title}</Title>
-      {education.map(({ schoolId, schoolName, years }, i) => (
+      {education.map(({ schoolId, schoolName, startYear, endYear }, i) => (
         <EducationItem
           key={`education-item-${i}`}
           schoolId={schoolId}
           schoolName={schoolName}
           fieldOfStudy={educationStrings[schoolId].fieldOfStudy}
           degree={educationStrings[schoolId].degree}
-          years={years}
+          startYear={startYear}
+          endYear={endYear}
           subjects={educationStrings[schoolId].subjects}
           imageAltText={imageAltText}
         />

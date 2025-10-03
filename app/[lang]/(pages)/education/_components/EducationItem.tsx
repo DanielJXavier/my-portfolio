@@ -5,7 +5,8 @@ type EducationItemPropsType = Readonly<{
   schoolName: string;
   fieldOfStudy: string;
   degree: string;
-  years: string;
+  startYear: string;
+  endYear: string;
   subjects: string[];
   imageAltText: {
     prefix: string;
@@ -27,7 +28,8 @@ export default function EducationItem({
   schoolName,
   fieldOfStudy,
   degree,
-  years,
+  startYear,
+  endYear,
   subjects,
   imageAltText,
 }: EducationItemPropsType) {
@@ -46,7 +48,10 @@ export default function EducationItem({
         />
         <h2 className="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight">
           {fieldOfStudy} @ {schoolName}
-          <span className="text-xs md:text-sm"> ({years})</span>
+          <span className="text-xs md:text-sm">
+            {" "}
+            ({startYear} ~ {endYear})
+          </span>
         </h2>
       </header>
       <section className="pl-14 lg:px-14">

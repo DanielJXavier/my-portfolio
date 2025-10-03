@@ -19,7 +19,7 @@ export default function Education() {
     <section>
       <h2 className="mb-2 text-[16pt] font-bold">{sectionTitles.education}</h2>
       <ul className="flex flex-col gap-y-3">
-        {education.map(({ schoolId, schoolName }, i) => (
+        {education.map(({ schoolId, schoolName, endYear }, i) => (
           <VisibilityControl
             key={`education-item-${i}`}
             className="items-baseline break-inside-avoid"
@@ -27,7 +27,7 @@ export default function Education() {
             <div>
               <p className="text-[12pt] font-bold">
                 {educationStrings[schoolId].degree},{" "}
-                {educationStrings[schoolId].fieldOfStudy}
+                {educationStrings[schoolId].fieldOfStudy} ({endYear})
               </p>
               <p className="text-[12pt]">{schoolName}</p>
             </div>
