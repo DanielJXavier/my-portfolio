@@ -26,9 +26,9 @@
   "home": {
     "greeting": "Hey, I'm",
     "summary": [
-      "A Lead Front-End Engineer with 13+ years of experience helping US-based companies build intuitive user interfaces, ensuring code quality, high performance, scalability, accessibility, and security. Specialized in React, Next.js, TypeScript, Tailwind, Node.js, Contentful, Stripe, AWS, and Vercel, now powered by top AI tools to go even faster.",
-      "Currently working at Lovevery, leading meaningful projects like the New Checkout with a net gain of 7.3 checkouts per day and the ERC launch to reach more than 455k customers. I also had the pleasant opportunity to teach Front-End development in a post-graduate program, sharing my knowledge with Back-End developers who want to get new skills.",
-      "Passionate about Front-End, combining clean code, best practices, and design to create products that really make a difference for real users and expressive results for the business!"
+      "A Lead Front-End Engineer with 13+ years of experience helping US-based companies build intuitive user interfaces, ensuring code quality, high performance, scalability, accessibility, and security. Specialized in React, Next.js, TypeScript, and Tailwind CSS, now powered by top AI tools to go even faster.",
+      "Currently working at Lovevery, delivering meaningful projects like the New Checkout with a net gain of 7.3 new checkouts per day and the ERC launch to reach more than 455k customers in just a few months.",
+      "What I like most about Front-End is combining clean code, best practices, and design to create products that truly make a difference for real users and bring noticeable business results!"
     ],
     "imageAltText": "Photo of the author"
   },
@@ -47,18 +47,18 @@
         "role": "Senior Front-End Engineer | Tech Lead",
         "description": "A contractor role where I have been working on some independent client projects.",
         "accomplishments": [
-          "Lovevery's ERC launch to reach more than 455k customers;",
-          "New Lovevery's checkout with a net gain of 7.3 checkouts per day, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;",
-          "Design System at YES Technology (German-owned company), implementing components to support the whole company ecosystem, keeping a maintainable and scalable codebase, very well aligned with the company's brand and design principles;"
+          "Launched Lovevery's ERC to reach more than 455k customers;",
+          "Built new Lovevery's checkout with a net gain of 7.3 checkouts per day, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;",
+          "Led the Design System project at YES Technology (German-owned company), implementing components to support the whole company ecosystem, keeping a maintainable and scalable codebase, very well aligned with the company's brand and design principles;"
         ]
       },
       "pdsacademy-1": {
         "role": "Post-graduation professor",
         "description": "A short-term contract role where I teach Front-End development.",
         "accomplishments": [
-          "More than 16 hours of Front-End Fundamentals with React classes recorded;",
-          "Live session to help students with their doubts and share some tips to improve their learning;",
-          "Base projects created and shared with students to help them practice the concepts learned;"
+          "Recorded more than 16 hours of Front-End Fundamentals with React classes;",
+          "Did live sessions to support students with their doubts and share some tips to improve their learning;",
+          "Created base projects and shared with students to practice the concepts learned;"
         ]
       },
       "olx-1": {
@@ -67,7 +67,7 @@
         "accomplishments": [
           "Launched the new Ad Insertion journey in stages, giving users a fluid and easier experience to sell items in the classified platform;",
           "Published a new LTR ranking algorithm that brings 10% more conversion in the Ad Recommendation system;",
-          "New platform home page, created in less than 48 hours supported by the Design System;",
+          "Led the new platform home page initiative, created in less than 48 hours, supported by the Design System;",
           "Made some advertising improvements to the platform that generated revenue of R$80 million;",
           "Recruited new professionals to increase production capacity by 300%, and be able to focus on the functionalities of the mobile application;"
         ]
@@ -76,9 +76,9 @@
         "role": "CTO & Partner",
         "description": "I held the position of CTO and co-founder at the startup.",
         "accomplishments": [
-          "Crafted the startup's technical vision and product strategy;",
-          "Refined the product's technical specifications;",
-          "Architected the solution from the ground up and we delivered it to 4 new clients;",
+          "Defined the startup's technical vision and product strategy;",
+          "Refined the product's technical specifications with the Product Team;",
+          "Developed the solution from the ground up and delivered it to 4 new clients;",
           "Launched the MVP platform;"
         ]
       },

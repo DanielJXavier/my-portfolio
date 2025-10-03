@@ -26,9 +26,9 @@
   "home": {
     "greeting": "Oie, sou o",
     "summary": [
-      "Com mais de 13 anos de experiência em desenvolvimento web front-end e expertise em React, TypeScript, Next.js, Node.js e JavaScript, tenho entregado consistentemente soluções elegantes para problemas complexos. Minha proficiência vai além das habilidades técnicas, pois liderei equipes com sucesso em projetos significativos com resultados relevantes.",
-      "Como Desenvolvedor Front-End Especialista e Líder Técnico experiente, tenho um histórico comprovado de desenvolvimento de interfaces de usuário intuitivas e designs pixel-perfect, garantindo alto desempenho, escalabilidade e segurança. Meu estilo de liderança é baseado na colaboração e na melhoria contínua, impulsionando minhas equipes a alcançar a excelência e entregar produtos de alta qualidade.",
-      "Atualmente, trabalho como terceirizado para empresas americanas, ajudando-as a projetar e desenvolver projetos modernos, robustos e escaláveis, aplicando as melhores práticas, contribuindo ativamente para os objetivos da empresa e alcançando ótimos resultados juntos!"
+      "Líder de Front-End com mais de 13 anos de experiência auxiliando empresas americanas a criar interfaces de usuário intuitivas, garantindo qualidade de código, alto desempenho, escalabilidade, acessibilidade e segurança. Especializado em React, Next.js, TypeScript e Tailwind CSS, agora equipado com as melhores ferramentas de IA para entregar ainda mais rápida.",
+      "Atualmente trabalhando na Lovevery, entregando projetos significativos como o Novo Checkout, com um ganho líquido de 7,3 novos checkouts por dia, e o lançamento do ERC, alcançando mais de 455 mil clientes em apenas alguns meses.",
+      "O que mais gosto no Front-End é combinar código limpo, melhores práticas e design para criar produtos que realmente fazem a diferença para usuários reais e trazem resultados de negócios relevantes!"
     ],
     "imageAltText": "Foto do autor"
   },
@@ -47,18 +47,18 @@
         "role": "Desenvolvedor Front-End Especialista | Líder Técnico",
         "description": "Contrato terceirizado onde trabalho em alguns projetos independentes.",
         "accomplishments": [
-          "Desenvolvi o novo checkout da Lovevery (com foco em melhoria de desempenho e melhor experiência do usuário), usando Next.js + Tailwind CSS + Contentful, suportando 4 países e 5 idiomas, e melhorando a cobertura do código em mais de 20%;",
-          "Liderei a equipe de Design System na YES Technology (empresa alemã), implementando o novo Design System para suportar o ecossistema da empresa, mantendo um código base e escalável, muito bem alinhado com a marca e os princípios de design da empresa;",
-          "Criei um site profissional de alto desempenho e totalmente acessível usando React, Next.js e Tailwind CSS;"
+          "Lancei o ERC da Lovevery, alcançando mais de 455 mil clientes;",
+          "Construi o novo checkout da Lovevery com um aumento líquido de 7,3 checkouts por dia, oferecendo suporte a 4 países e 5 idiomas, e melhorando a cobertura do código em mais de 20%;",
+          "Liderei o projeto do Sistema de Design na YES Technology (empresa alemã), implementando componentes para dar suporte a todo o ecossistema da empresa, mantendo uma base de código sustentável e escalável, muito bem alinhada com a marca e os princípios de design da empresa;"
         ]
       },
       "pdsacademy-1": {
         "role": "Professor de Pós-graduação",
         "description": "Um contrato de curta duração onde eu ensino desenvolvimento Front-End.",
         "accomplishments": [
-          "Mais de 16 horas de Fundamentos de Front-End com React classes gravadas;",
-          "Sessão ao vivo para ajudar alunos com suas dúvidas e compartilhar dicas para melhorar seu aprendizado;",
-          "Projetos base criados e compartilhados com alunos para ajudar a praticar os conceitos aprendidos;"
+          "Gravei mais de 16 horas de aulas de Fundamentos de Front-End com React;",
+          "Dei aulas ao vivo para auxiliar os alunos com suas dúvidas e compartilhar dicas para aprimorar o aprendizado;",
+          "Criei projetos base e compartilhei com os alunos para praticar os conceitos aprendidos;"
         ]
       },
       "olx-1": {
@@ -66,20 +66,20 @@
         "description": "Eu fui o gerente de diferentes equipes chave da empresa.",
         "accomplishments": [
           "Entreguei a nova jornada de Inserção de Anúncios em etapas, proporcionando aos usuários uma experiência fluida e mais fácil para vender itens na plataforma de classificados;",
-          "Nova página inicial da plataforma, criada em menos de 48 horas, suportada pelo Design System;",
-          "Nova algoritmo de ranking LTR que traz 10% mais conversão no sistema de Recomendação de Anúncios;",
-          "Entreguei algumas melhorias publicitárias para a plataforma que geraram receita de R$ 80 milhões;",
-          "Recrutei novos profissionais para aumentar a capacidade produtiva em 300%;"
+          "Publiquei um novo algoritmo de classificação LTR que gera 10% mais conversões no sistema de Recomendação de Anúncios;",
+          "Liderei a iniciativa da nova página inicial da plataforma, criada em menos de 48 horas, com o apoio do Design System;",
+          "Entreguei algumas melhorias de publicidade para a plataforma que geraram receita de R$ 80 milhões;",
+          "Recrutei novos profissionais para aumentar a capacidade de produção em 300% e poder focar nas funcionalidades do aplicativo mobile;"
         ]
       },
       "meaning-1": {
         "role": "CTO & Sócio",
         "description": "Ocupei a posição de CTO e co-fundador na startup.",
         "accomplishments": [
-          "Elaborei a visão técnica e estratégia de produto da startup;",
-          "Arquitetei a solução do zero e entreguei para 4 novos clientes;",
-          "Refinadas as especificações técnicas do produto;",
-          "Desenvolvi um projeto de Prova de Conceito;"
+          "Criei a visão técnica e a estratégia de produto da startup;",
+          "Refinei as especificações técnicas do produto com a equipe;",
+          "Desenvolvi a nova solução do zero e a entreguei para 4 novos clientes;",
+          "Lancei o MVP da plataforma;"
         ]
       },
       "softplan-3": {
