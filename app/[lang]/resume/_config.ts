@@ -11,10 +11,9 @@ export const chosenHardSkills = [
   "contentful",
   "stripe",
   "docker",
+  "vercel",
+  "cypress",
+  "playwright",
 ];
 
-export const chosenSoftSkills = [
-  "leadership",
-  "stakeholder-management",
-  "problem-solving",
-];
+export const chosenSoftSkills = [];
