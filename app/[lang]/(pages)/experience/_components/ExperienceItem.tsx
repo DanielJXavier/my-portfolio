@@ -46,7 +46,6 @@ export default function ExperienceItem({
   companyName,
   startDate,
   endDate,
-  description,
   accomplishments,
   mainStack,
   imageAltText,
@@ -88,9 +87,6 @@ export default function ExperienceItem({
           </span>
         </h2>
       </header>
-      <section className="pl-14 lg:px-14">
-        <h3 className="xl:text-xl">{description}</h3>
-      </section>
       {experienceMode === "detailed" && (
         <>
           <section className="mt-4 pl-14 xl:px-14">

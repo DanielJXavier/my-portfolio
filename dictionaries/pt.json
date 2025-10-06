@@ -45,7 +45,6 @@
     "items": {
       "danielxavier-1": {
         "role": "Desenvolvedor Front-End Especialista | Líder Técnico",
-        "description": "Contrato terceirizado onde trabalho em alguns projetos independentes.",
         "accomplishments": [
           "Lancei o ERC da Lovevery, alcançando mais de 455 mil clientes;",
           "Construi o novo checkout da Lovevery com um aumento líquido de 7,3 checkouts por dia, oferecendo suporte a 4 países e 5 idiomas, e melhorando a cobertura do código em mais de 20%;",
@@ -54,7 +53,6 @@
       },
       "pdsacademy-1": {
         "role": "Professor de Pós-graduação",
-        "description": "Um contrato de curta duração onde eu ensino desenvolvimento Front-End.",
         "accomplishments": [
           "Gravei mais de 16 horas de aulas de Fundamentos de Front-End com React;",
           "Dei aulas ao vivo para auxiliar os alunos com suas dúvidas e compartilhar dicas para aprimorar o aprendizado;",
@@ -63,7 +61,6 @@
       },
       "olx-1": {
         "role": "Gerente de Engenharia de Software",
-        "description": "Eu fui o gerente de diferentes equipes chave da empresa.",
         "accomplishments": [
           "Entreguei a nova jornada de Inserção de Anúncios em etapas, proporcionando aos usuários uma experiência fluida e mais fácil para vender itens na plataforma de classificados;",
           "Publiquei um novo algoritmo de classificação LTR que gera 10% mais conversões no sistema de Recomendação de Anúncios;",
@@ -74,7 +71,6 @@
       },
       "meaning-1": {
         "role": "CTO & Sócio",
-        "description": "Ocupei a posição de CTO e co-fundador na startup.",
         "accomplishments": [
           "Criei a visão técnica e a estratégia de produto da startup;",
           "Refinei as especificações técnicas do produto com a equipe;",
@@ -84,7 +80,6 @@
       },
       "softplan-3": {
         "role": "Coordenador de Desenvolvimento",
-        "description": "Eu era o líder da equipe \"Estônia\".",
         "accomplishments": [
           "Liderei diretamente uma equipe multidisciplinar de desenvolvimento de software de 28 pessoas;",
           "Entregas planejadas e executadas para os 2 módulos mais críticos do sistema \"SAJ\";",
@@ -94,7 +89,6 @@
       },
       "softplan-2": {
         "role": "Líder Técnico",
-        "description": "Eu era o líder técnico do capítulo de Front-End.",
         "accomplishments": [
           "Desenvolvi o novo sistema \"SAJ\", construído usando React JS, .Net e GraphQL;",
           "Supervisionei as entregas e implantação de 17 módulos do sistema;",
@@ -105,7 +99,6 @@
       },
       "softplan-1": {
         "role": "Desenvolvedor Front-End Sênior",
-        "description": "Eu era um desenvolvedor Front-End sênior na equipe \"França\".",
         "accomplishments": [
           "Entregue o projeto mais crítico e complexo em menos de 6 meses",
           "Desenvolvi novas funcionalidades para o portal \"e-SAJ\" utilizando React JS e GraphQL;",
@@ -114,7 +107,6 @@
       },
       "hotmart-3": {
         "role": "Desenvolvedor Full-Stack Sênior",
-        "description": "Eu era um desenvolvedor Full-Stack sênior na equipe de \"Growth Hacking\".",
         "accomplishments": [
           "Desenvolvi sistemas para atender às necessidades internas da empresa e automatizar tarefas, aproveitando tecnologias como Vue.js e Node.js trazendo mais de 1000 novos leads;",
           "Criei uma Prova de Conceito (POC) que introduziu um método simplificado para o registro de produtos na plataforma;"
@@ -122,7 +114,6 @@
       },
       "hotmart-2": {
         "role": "Desenvolvedor Front-End Pleno",
-        "description": "Eu era um desenvolvedor Front-End Pleno na equipe de \"User Acquisition\".",
         "accomplishments": [
           "Projetei um sistema para gerar imagens de postagens de blog usando componentes e modelos pré-definidos, aumentando assim a produtividade da equipe de design em 1000%;",
           "Desenvolvi um sistema de cache de alto desempenho para o \"blog Hotmart\" (WordPress), resultando em um aumento de desempenho de 300%;",
@@ -131,7 +122,6 @@
       },
       "hotmart-1": {
         "role": "Desenvolvedor Front-End Júnior",
-        "description": "Eu era um desenvolvedor Front-End Júnior na equipe de \"User Acquisition\".",
         "accomplishments": [
           "Desenvolvi um novo tema WordPress para o \"blog Hotmart\" utilizando apenas HTML5, CSS Grid Layout e Vanilla JS;",
           "Implementei o novo layout para o \"blog Hotmart\";",
@@ -140,7 +130,6 @@
       },
       "sydle-2": {
         "role": "Analista de Suporte",
-        "description": "Eu era um Analista de Suporte na equipe de \"Suporte & Sustentação\".",
         "accomplishments": [
           "Liderei o desenvolvimento de projetos web utilizando WordPress e Magento;",
           "Facilitei a modelagem e automação dos processos internos da empresa através do BPMN;",
@@ -150,7 +139,6 @@
       },
       "sydle-1": {
         "role": "Estagiário de Suporte",
-        "description": "Eu era um Estagiário de Suporte na equipe de \"Suporte & Sustentação\".",
         "accomplishments": [
           "Forneci suporte técnico aos usuários dos sistemas da empresa;",
           "Configurei e monitorei a infraestrutura em servidores Linux e Windows;",
