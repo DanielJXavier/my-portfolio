@@ -12,7 +12,6 @@ type DictionariesType = {
 export type ExperienceItemsType = {
   [key: string]: {
     role: string;
-    description: string;
     accomplishments: string[];
   };
 };
