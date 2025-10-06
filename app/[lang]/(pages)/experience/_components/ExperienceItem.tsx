@@ -54,12 +54,7 @@ export default function ExperienceItem({
   const { lang } = useParams<{ lang: Lang }>();
 
   const {
-    experience: {
-      dateSeparatorText,
-      endDateText,
-      accomplishmentsTitle,
-      mainStackTitle,
-    },
+    experience: { dateSeparatorText, endDateText, mainStackTitle },
   } = getDictionary(lang);
 
   const experienceMode = useContext(ExperienceModeContext);
@@ -89,10 +84,7 @@ export default function ExperienceItem({
       </header>
       {experienceMode === "detailed" && (
         <>
-          <section className="mt-4 pl-14 xl:px-14">
-            <h3 className="font-semibold xl:text-xl">
-              {accomplishmentsTitle}:
-            </h3>
+          <section className="pl-14 xl:px-14">
             <ul className="pl-7 list-disc text-sm xl:text-base">
               {accomplishments.map((accomplishment, i) => (
                 <li key={`accomplishment-${i}`}>{accomplishment}</li>
