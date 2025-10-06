@@ -1,7 +1,7 @@
 {
   "global": {
     "author": {
-      "headline": "Desenvolvedor Front-End Especialista | Líder Técnico | React | Next.js | TypeScript | JavaScript | Contentful | Stripe | AWS | Vercel"
+      "headline": "Desenvolvedor Front-End Sênior | React | Next.js | TypeScript | JavaScript | Contentful | Stripe | AWS | Vercel"
     },
     "copyright": "Todos os direitos reservados.",
     "menu": {
@@ -26,7 +26,7 @@
   "home": {
     "greeting": "Oie, sou o",
     "summary": [
-      "Líder de Front-End com mais de 13 anos de experiência auxiliando empresas americanas a criar interfaces de usuário intuitivas, garantindo qualidade de código, alto desempenho, escalabilidade, acessibilidade e segurança. Especializado em React, Next.js, TypeScript e Tailwind CSS, agora equipado com as melhores ferramentas de IA para entregar ainda mais rápida.",
+      "Desenvolvedor Front-End Sênior com mais de 13 anos de experiência auxiliando empresas americanas a criar interfaces de usuário intuitivas, garantindo qualidade de código, alto desempenho, escalabilidade, acessibilidade e segurança. Especializado em React, Next.js, TypeScript e Tailwind CSS, agora equipado com as melhores ferramentas de IA para entregar ainda mais rápida.",
       "Atualmente trabalhando na Lovevery, entregando projetos significativos como o Novo Checkout, com um ganho líquido de 7,3 novos checkouts por dia, e o lançamento do ERC, alcançando mais de 455 mil clientes em apenas alguns meses.",
       "O que mais gosto no Front-End é combinar código limpo, melhores práticas e design para criar produtos que realmente fazem a diferença para usuários reais e trazem resultados de negócios relevantes!"
     ],
@@ -43,7 +43,7 @@
     "mainStackTitle": "Stack principal",
     "items": {
       "danielxavier-1": {
-        "role": "Desenvolvedor Front-End Especialista | Líder Técnico",
+        "role": "Desenvolvedor Front-End Sênior",
         "accomplishments": [
           "Lancei o ERC da Lovevery, alcançando mais de 455 mil clientes;",
           "Construi o novo checkout da Lovevery com um aumento líquido de 7,3 checkouts por dia, oferecendo suporte a 4 países e 5 idiomas, e melhorando a cobertura do código em mais de 20%;",

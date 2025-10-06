@@ -1,7 +1,7 @@
 {
   "global": {
     "author": {
-      "headline": "Lead Front-End Engineer | React | Next.js | TypeScript | Tailwind CSS | Contentful | Stripe | AWS | Vercel"
+      "headline": "Senior Front-End Engineer | React | Next.js | TypeScript | Tailwind CSS | Contentful | Stripe | AWS | Vercel"
     },
     "copyright": "All rights reserved.",
     "menu": {
@@ -26,7 +26,7 @@
   "home": {
     "greeting": "Hey, I'm",
     "summary": [
-      "A Lead Front-End Engineer with 13+ years of experience helping US-based companies build intuitive user interfaces, ensuring code quality, high performance, scalability, accessibility, and security. Specialized in React, Next.js, TypeScript, and Tailwind CSS, now powered by top AI tools to go even faster.",
+      "A Senior Front-End Engineer with 13+ years of experience helping US-based companies build intuitive user interfaces, ensuring code quality, high performance, scalability, accessibility, and security. Specialized in React, Next.js, TypeScript, and Tailwind CSS, now powered by top AI tools to go even faster.",
       "Currently working at Lovevery, delivering meaningful projects like the New Checkout with a net gain of 7.3 new checkouts per day and the ERC launch to reach more than 455k customers in just a few months.",
       "What I like most about Front-End is combining clean code, best practices, and design to create products that truly make a difference for real users and bring noticeable business results!"
     ],
@@ -43,7 +43,7 @@
     "mainStackTitle": "Main stack",
     "items": {
       "danielxavier-1": {
-        "role": "Senior Front-End Engineer | Tech Lead",
+        "role": "Senior Front-End Engineer",
         "accomplishments": [
           "Launched Lovevery's ERC to reach more than 455k customers;",
           "Built new Lovevery's checkout with a net gain of 7.3 checkouts per day, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;",
