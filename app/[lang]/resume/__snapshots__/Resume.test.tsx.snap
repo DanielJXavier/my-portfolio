@@ -98,7 +98,7 @@ exports[`Resume page (Client-side) renders the page 1`] = `
         class="w-full text-[12pt] text-justify align-top border border-primary print:border-none print:resize-none"
         rows="12"
       >
-        A Lead Front-End Engineer with 13+ years of experience helping US-based companies build intuitive user interfaces, ensuring code quality, high performance, scalability, accessibility, and security. Specialized in React, Next.js, TypeScript, and Tailwind CSS, now powered by top AI tools to go even faster.
+        A Senior Front-End Engineer with 13+ years of experience helping US-based companies build intuitive user interfaces, ensuring code quality, high performance, scalability, accessibility, and security. Specialized in React, Next.js, TypeScript, and Tailwind CSS, now powered by top AI tools to go even faster.
 
 Currently working at Lovevery, delivering meaningful projects like the New Checkout with a net gain of 7.3 new checkouts per day and the ERC launch to reach more than 455k customers in just a few months.
 
@@ -1538,7 +1538,7 @@ What I like most about Front-End is combining clean code, best practices, and de
               <span
                 class="font-bold"
               >
-                Senior Front-End Engineer | Tech Lead
+                Senior Front-End Engineer
                  @ 
                 &lt;DanielXavier /&gt;
               </span>

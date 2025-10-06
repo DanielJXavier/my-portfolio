@@ -62,7 +62,7 @@ exports[`Experience page (Server-side) renders the page 1`] = `
       <h2
         class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
       >
-        Senior Front-End Engineer | Tech Lead
+        Senior Front-End Engineer
          @ 
         &lt;DanielXavier /&gt;
         <span
