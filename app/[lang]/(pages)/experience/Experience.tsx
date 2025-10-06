@@ -58,7 +58,6 @@ export default function Experience() {
             companyName={companyName}
             startDate={startDate}
             endDate={endDate}
-            description={experienceItems.current[key].description}
             accomplishments={experienceItems.current[key].accomplishments}
             mainStack={mainStack}
             imageAltText={imageAltText}

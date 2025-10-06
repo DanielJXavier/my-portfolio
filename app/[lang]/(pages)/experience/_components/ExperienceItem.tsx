@@ -18,7 +18,6 @@ type ExperienceConfigType = Omit<
 >;
 interface ExperienceItemPropsInterface extends ExperienceConfigType {
   role: string;
-  description: string;
   accomplishments: string[];
   imageAltText: {
     prefix: string;
