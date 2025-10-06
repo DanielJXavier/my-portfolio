@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ExperienceItem component renders the component 1`] = `
 <div>
@@ -41,15 +41,6 @@ exports[`ExperienceItem component renders the component 1`] = `
         </span>
       </h2>
     </header>
-    <section
-      class="pl-14 lg:px-14"
-    >
-      <h3
-        class="xl:text-xl"
-      >
-        A short-term contract role where I teach Front-End development.
-      </h3>
-    </section>
   </article>
 </div>
 `;

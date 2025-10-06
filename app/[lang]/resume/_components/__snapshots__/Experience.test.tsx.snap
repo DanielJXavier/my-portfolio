@@ -43,11 +43,6 @@ exports[`Experience component renders the component 1`] = `
               )
             </span>
           </p>
-          <p
-            class="text-[12pt]"
-          >
-            A contractor role where I have been working on some independent client projects:
-          </p>
           <ul
             class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
           >
@@ -137,11 +132,6 @@ exports[`Experience component renders the component 1`] = `
               )
             </span>
           </p>
-          <p
-            class="text-[12pt]"
-          >
-            A short-term contract role where I teach Front-End development:
-          </p>
           <ul
             class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
           >
@@ -230,11 +220,6 @@ exports[`Experience component renders the component 1`] = `
               04-2024
               )
             </span>
-          </p>
-          <p
-            class="text-[12pt]"
-          >
-            A tech leader role where I was responsible for different core teams:
           </p>
           <ul
             class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
@@ -349,11 +334,6 @@ exports[`Experience component renders the component 1`] = `
               )
             </span>
           </p>
-          <p
-            class="text-[12pt]"
-          >
-            I held the position of CTO and co-founder at the startup:
-          </p>
           <ul
             class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
           >
@@ -450,11 +430,6 @@ exports[`Experience component renders the component 1`] = `
               07-2021
               )
             </span>
-          </p>
-          <p
-            class="text-[12pt]"
-          >
-            A multidisciplinary team leader role where I was responsible for the team results:
           </p>
           <ul
             class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
@@ -561,11 +536,6 @@ exports[`Experience component renders the component 1`] = `
               )
             </span>
           </p>
-          <p
-            class="text-[12pt]"
-          >
-            A tech leader position (80% tech / 20% people) where I was responsible for the Front-End best practices:
-          </p>
           <ul
             class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
           >
@@ -671,11 +641,6 @@ exports[`Experience component renders the component 1`] = `
               )
             </span>
           </p>
-          <p
-            class="text-[12pt]"
-          >
-            A pure hands-on position where I was responsible for doing all of my team's Front-End deliveries:
-          </p>
           <ul
             class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
           >
@@ -761,11 +726,6 @@ exports[`Experience component renders the component 1`] = `
               )
             </span>
           </p>
-          <p
-            class="text-[12pt]"
-          >
-            A pure hands-on position where I was responsible for doing all of my team's full-stack deliveries:
-          </p>
           <ul
             class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
           >
@@ -838,11 +798,6 @@ exports[`Experience component renders the component 1`] = `
               05-2018
               )
             </span>
-          </p>
-          <p
-            class="text-[12pt]"
-          >
-            A pure hands-on position where I was responsible for doing some of my team's full-stack deliveries:
           </p>
           <ul
             class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
@@ -927,11 +882,6 @@ exports[`Experience component renders the component 1`] = `
               )
             </span>
           </p>
-          <p
-            class="text-[12pt]"
-          >
-            I was an Entry Level Front-End developer on the "User Acquisition" team:
-          </p>
           <ul
             class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
           >
@@ -1010,11 +960,6 @@ exports[`Experience component renders the component 1`] = `
               11-2016
               )
             </span>
-          </p>
-          <p
-            class="text-[12pt]"
-          >
-            I was a Support Analyst on the "Suporte & Sustentação" team:
           </p>
           <ul
             class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
@@ -1104,11 +1049,6 @@ exports[`Experience component renders the component 1`] = `
               03-2014
               )
             </span>
-          </p>
-          <p
-            class="text-[12pt]"
-          >
-            I was a Support Associate on the "Suporte & Sustentação" team:
           </p>
           <ul
             class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
