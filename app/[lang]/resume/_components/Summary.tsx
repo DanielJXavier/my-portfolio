@@ -28,7 +28,7 @@ export default function Summary() {
           (rows, paragraph) =>
             rows +
             (summary.current.length - 1) +
-            Math.ceil(paragraph.length / 160),
+            Math.ceil(paragraph.length / 190),
           0
         )}
       />

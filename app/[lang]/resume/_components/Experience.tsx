@@ -27,7 +27,7 @@ export default function Experience() {
 
   return (
     <section>
-      <h2 className="mb-2 text-[16pt] font-bold">{sectionTitles.experience}</h2>
+      <h2 className="text-[16pt] font-bold">{sectionTitles.experience}</h2>
       <ul className="flex flex-col gap-y-3">
         {experience
           .filter(({ hidden }) => !hidden)

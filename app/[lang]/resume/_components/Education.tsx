@@ -17,7 +17,7 @@ export default function Education() {
 
   return (
     <section>
-      <h2 className="mb-2 text-[16pt] font-bold">{sectionTitles.education}</h2>
+      <h2 className="text-[16pt] font-bold">{sectionTitles.education}</h2>
       <ul className="flex flex-col gap-y-3">
         {education.map(({ schoolId, schoolName, endYear }, i) => (
           <VisibilityControl
