@@ -9,6 +9,7 @@ import Summary from "./_components/Summary";
 import Skills from "./_components/Skills";
 import Experience from "./_components/Experience";
 import Education from "./_components/Education";
+import Languages from "./_components/Languages";
 
 export default function Resume() {
   useEffect(() => {
@@ -37,6 +38,7 @@ export default function Resume() {
       <Skills />
       <Experience />
       <Education />
+      <Languages />
     </main>
   );
 }
