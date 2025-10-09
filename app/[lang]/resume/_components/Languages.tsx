@@ -18,6 +18,7 @@ export default function Languages() {
   return (
     <section>
       <h2 className="text-[16pt] font-bold">{sectionTitles.languages}</h2>
+      <hr />
       <ul className="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]">
         {languages.map(({ languageId }, i) => (
           <VisibilityControl

@@ -21,6 +21,7 @@ export default function Summary() {
   return (
     <section>
       <h2 className="text-[16pt] font-bold">{sectionTitles.summary}</h2>
+      <hr />
       <textarea
         className="w-full text-[12pt] text-justify align-top border border-primary print:border-none print:resize-none"
         defaultValue={summary.current.join("\n\n")}

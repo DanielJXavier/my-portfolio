@@ -40,6 +40,7 @@ export default function Skills() {
   return (
     <section>
       <h2 className="text-[16pt] font-bold">{sectionTitles.skills}</h2>
+      <hr />
       <ul className="grid grid-flow-row-dense grid-cols-2 print:flex print:gap-x-3.5 print:flex-wrap">
         {hardSkills.current.map(({ key, name, visible }) => (
           <VisibilityControl
