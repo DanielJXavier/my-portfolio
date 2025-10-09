@@ -42,9 +42,14 @@
     "endDateText": "presente",
     "mainStackTitle": "Stack principal",
     "items": {
-      "danielxavier-1": {
+      "lovevery-1": {
         "role": "Desenvolvedor Front-End Sênior",
         "accomplishments": [
+          "Lancei o ERC, nova jornada de assinaturas, alcançando mais de 455 mil clientes;",
+          "Construi o novo checkout, integrado com o Stripe, com um aumento líquido de 7,3 checkouts por dia, oferecendo suporte a 4 países e 5 idiomas, e melhorando a cobertura do código em mais de 20%;",
+          "Otimizei o repositório principal do front-end reduzindo o tempo de build de 40s para 2s, sem comprometer a qualidade do código e o desempenho;"
+        ]
+      },
       "yestechnology-1": {
         "role": "Líder Front-End",
         "accomplishments": [

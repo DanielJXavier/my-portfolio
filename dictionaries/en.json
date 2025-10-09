@@ -42,9 +42,14 @@
     "endDateText": "present",
     "mainStackTitle": "Main stack",
     "items": {
-      "danielxavier-1": {
+      "lovevery-1": {
         "role": "Senior Front-End Engineer",
         "accomplishments": [
+          "Optimized the main front-end repository reducing the build time from 40s to 2s, without compromising the code quality and performance;",
+          "Launched the new ERC product journey to reach more than 455k new customers;",
+          "Built the new Stripe integrated checkout with a net gain of 7.3 checkouts per day, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;"
+        ]
+      },
       "yestechnology-1": {
         "role": "Lead Front-End Engineer",
         "accomplishments": [
