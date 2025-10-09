@@ -8,6 +8,7 @@ export interface ExperienceInterface {
   resume: boolean;
   resumeAccomplishments: number[];
   hasBlackLogo: boolean;
+  hidden: boolean;
 }
 
 export const experience: ExperienceInterface[] = [
@@ -33,6 +34,7 @@ export const experience: ExperienceInterface[] = [
     resume: true,
     resumeAccomplishments: [1, 2, 3],
     hasBlackLogo: false,
+    hidden: false,
   },
   {
     key: "yestechnology-1",
@@ -53,6 +55,7 @@ export const experience: ExperienceInterface[] = [
     resume: false,
     resumeAccomplishments: [],
     hasBlackLogo: true,
+    hidden: true,
   },
   {
     key: "pdsacademy-1",
@@ -72,6 +75,7 @@ export const experience: ExperienceInterface[] = [
     resume: true,
     resumeAccomplishments: [1, 2, 3],
     hasBlackLogo: true,
+    hidden: false,
   },
   {
     key: "olx-1",
@@ -103,6 +107,7 @@ export const experience: ExperienceInterface[] = [
     resume: true,
     resumeAccomplishments: [1, 2, 3, 4, 5],
     hasBlackLogo: false,
+    hidden: false,
   },
   {
     key: "meaning-1",
@@ -114,6 +119,7 @@ export const experience: ExperienceInterface[] = [
     resume: true,
     resumeAccomplishments: [1, 2, 3],
     hasBlackLogo: false,
+    hidden: false,
   },
   {
     key: "softplan-3",
@@ -133,6 +139,7 @@ export const experience: ExperienceInterface[] = [
     resume: false,
     resumeAccomplishments: [1, 2, 3],
     hasBlackLogo: false,
+    hidden: false,
   },
   {
     key: "softplan-2",
@@ -151,6 +158,7 @@ export const experience: ExperienceInterface[] = [
     resume: false,
     resumeAccomplishments: [1, 2, 4],
     hasBlackLogo: false,
+    hidden: false,
   },
   {
     key: "softplan-1",
@@ -169,6 +177,7 @@ export const experience: ExperienceInterface[] = [
     resume: false,
     resumeAccomplishments: [1, 2, 3],
     hasBlackLogo: false,
+    hidden: false,
   },
   {
     key: "hotmart-3",
@@ -180,6 +189,7 @@ export const experience: ExperienceInterface[] = [
     resume: false,
     resumeAccomplishments: [1, 2],
     hasBlackLogo: false,
+    hidden: false,
   },
   {
     key: "hotmart-2",
@@ -203,6 +213,7 @@ export const experience: ExperienceInterface[] = [
     resume: false,
     resumeAccomplishments: [1, 2],
     hasBlackLogo: false,
+    hidden: false,
   },
   {
     key: "hotmart-1",
@@ -223,6 +234,7 @@ export const experience: ExperienceInterface[] = [
     resume: false,
     resumeAccomplishments: [],
     hasBlackLogo: false,
+    hidden: false,
   },
   {
     key: "sydle-2",
@@ -253,6 +265,7 @@ export const experience: ExperienceInterface[] = [
     resume: false,
     resumeAccomplishments: [],
     hasBlackLogo: true,
+    hidden: false,
   },
   {
     key: "sydle-1",
@@ -272,5 +285,6 @@ export const experience: ExperienceInterface[] = [
     resume: false,
     resumeAccomplishments: [],
     hasBlackLogo: true,
+    hidden: false,
   },
 ];

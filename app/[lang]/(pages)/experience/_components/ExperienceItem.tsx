@@ -16,7 +16,8 @@ type ExperienceConfigType = Omit<
   ExperienceInterface,
   "key" | "resume" | "resumeAccomplishments"
 >;
-interface ExperienceItemPropsInterface extends ExperienceConfigType {
+interface ExperienceItemPropsInterface
+  extends Omit<ExperienceConfigType, "hidden"> {
   role: string;
   accomplishments: string[];
   imageAltText: {

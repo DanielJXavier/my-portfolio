@@ -41,30 +41,32 @@ export default function Experience() {
         activeItem={experienceMode}
         handleClick={setExperienceMode}
       />
-      {experience.map(
-        ({
-          key,
-          companyId,
-          companyName,
-          startDate,
-          endDate,
-          mainStack,
-          hasBlackLogo,
-        }) => (
-          <ExperienceItem
-            key={key}
-            role={experienceItems.current[key].role}
-            companyId={companyId}
-            companyName={companyName}
-            startDate={startDate}
-            endDate={endDate}
-            accomplishments={experienceItems.current[key].accomplishments}
-            mainStack={mainStack}
-            imageAltText={imageAltText}
-            hasBlackLogo={hasBlackLogo}
-          />
-        )
-      )}
+      {experience
+        .filter(({ hidden }) => !hidden)
+        .map(
+          ({
+            key,
+            companyId,
+            companyName,
+            startDate,
+            endDate,
+            mainStack,
+            hasBlackLogo,
+          }) => (
+            <ExperienceItem
+              key={key}
+              role={experienceItems.current[key].role}
+              companyId={companyId}
+              companyName={companyName}
+              startDate={startDate}
+              endDate={endDate}
+              accomplishments={experienceItems.current[key].accomplishments}
+              mainStack={mainStack}
+              imageAltText={imageAltText}
+              hasBlackLogo={hasBlackLogo}
+            />
+          )
+        )}
     </ExperienceModeContext.Provider>
   );
 }

@@ -29,63 +29,65 @@ export default function Experience() {
     <section>
       <h2 className="mb-2 text-[16pt] font-bold">{sectionTitles.experience}</h2>
       <ul className="flex flex-col gap-y-3">
-        {experience.map(
-          ({
-            key,
-            companyName,
-            startDate,
-            endDate,
-            mainStack,
-            resumeAccomplishments,
-            resume,
-          }) => (
-            <VisibilityControl
-              key={key}
-              className="items-baseline break-inside-avoid"
-              defaultVisible={resume}
-            >
-              <div>
-                <p className="text-[12pt]">
-                  <span className="font-bold">
-                    {experienceItems.current[key].role} @ {companyName}
-                  </span>
-                  <span>
-                    {" "}
-                    ({startDate} {dateSeparatorText} {endDate ?? endDateText})
-                  </span>
-                </p>
-                <ul className="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]">
-                  {experienceItems.current[key].accomplishments.map(
-                    (accomplishment, i) => (
-                      <VisibilityControl
-                        key={`accomplishment-${i}`}
-                        className="items-baseline"
-                        defaultVisible={resumeAccomplishments?.some(
-                          (resumeAccomplishment) =>
-                            resumeAccomplishment === i + 1
-                        )}
-                      >
-                        {accomplishment}
-                      </VisibilityControl>
-                    )
-                  )}
-                  <VisibilityControl
-                    className="mt-1 items-baseline"
-                    defaultVisible={resume}
-                  >
-                    {mainStackTitle}:{" "}
-                    {hardSkills
-                      .filter(({ key }) =>
-                        mainStack.some((stack) => stack === key)
+        {experience
+          .filter(({ hidden }) => !hidden)
+          .map(
+            ({
+              key,
+              companyName,
+              startDate,
+              endDate,
+              mainStack,
+              resumeAccomplishments,
+              resume,
+            }) => (
+              <VisibilityControl
+                key={key}
+                className="items-baseline break-inside-avoid"
+                defaultVisible={resume}
+              >
+                <div>
+                  <p className="text-[12pt]">
+                    <span className="font-bold">
+                      {experienceItems.current[key].role} @ {companyName}
+                    </span>
+                    <span>
+                      {" "}
+                      ({startDate} {dateSeparatorText} {endDate ?? endDateText})
+                    </span>
+                  </p>
+                  <ul className="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]">
+                    {experienceItems.current[key].accomplishments.map(
+                      (accomplishment, i) => (
+                        <VisibilityControl
+                          key={`accomplishment-${i}`}
+                          className="items-baseline"
+                          defaultVisible={resumeAccomplishments?.some(
+                            (resumeAccomplishment) =>
+                              resumeAccomplishment === i + 1
+                          )}
+                        >
+                          {accomplishment}
+                        </VisibilityControl>
                       )
-                      .map(({ name }) => name)
-                      .join(" | ")}
-                  </VisibilityControl>
-                </ul>
-              </div>
-            </VisibilityControl>
-          )
-        )}
+                    )}
+                    <VisibilityControl
+                      className="mt-1 items-baseline"
+                      defaultVisible={resume}
+                    >
+                      {mainStackTitle}:{" "}
+                      {hardSkills
+                        .filter(({ key }) =>
+                          mainStack.some((stack) => stack === key)
+                        )
+                        .map(({ name }) => name)
+                        .join(" | ")}
+                    </VisibilityControl>
+                  </ul>
+                </div>
+              </VisibilityControl>
+            )
+          )}
         <li>
           {previousItemsText.prefix} {previousItemsText.sufix}
         </li>
