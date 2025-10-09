@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Education component renders the component 1`] = `
+exports[`Languages component renders the component 1`] = `
 <div>
   <section>
     <h2
       class="text-[16pt] font-bold"
     >
-      Education
+      Languages
     </h2>
     <ul
-      class="flex flex-col gap-y-3"
+      class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
     >
       <li
         class="items-baseline break-inside-avoid flex gap-x-1.5 "
@@ -23,20 +23,12 @@ exports[`Education component renders the component 1`] = `
         />
         <div>
           <p
-            class="text-[12pt] font-bold"
-          >
-            Master of Business Administration - MBA
-            ,
-             
-            Strategic People Management
-             (
-            2021
-            )
-          </p>
-          <p
             class="text-[12pt]"
           >
-            Estácio
+            Portuguese
+             (
+            Native
+            )
           </p>
         </div>
       </li>
@@ -52,20 +44,33 @@ exports[`Education component renders the component 1`] = `
         />
         <div>
           <p
-            class="text-[12pt] font-bold"
+            class="text-[12pt]"
           >
-            Bachelor
-            ,
-             
-            Computer Science
+            English
              (
-            2014
+            C1
             )
           </p>
+        </div>
+      </li>
+      <li
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        <div>
           <p
             class="text-[12pt]"
           >
-            Universidade FUMEC
+            Spanish
+             (
+            B1
+            )
           </p>
         </div>
       </li>

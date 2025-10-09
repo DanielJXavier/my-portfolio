@@ -10,33 +10,33 @@ exports[`ExperienceItem component renders the component 1`] = `
       class="flex items-start gap-x-2"
     >
       <img
-        alt="Logo of PDSAcademy company"
+        alt="Logo of YES Technology company"
         class="rounded-full border-2 border-solid border-secondary"
         data-nimg="1"
         decoding="async"
         height="40"
         loading="lazy"
-        src="/_next/image?url=%2Fimages%2Fexperience%2Fpdsacademy.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimages%2Fexperience%2Fpdsacademy.jpg&w=48&q=75 1x, /_next/image?url=%2Fimages%2Fexperience%2Fpdsacademy.jpg&w=96&q=75 2x"
+        src="/_next/image?url=%2Fimages%2Fexperience%2Fyestechnology.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fimages%2Fexperience%2Fyestechnology.jpg&w=48&q=75 1x, /_next/image?url=%2Fimages%2Fexperience%2Fyestechnology.jpg&w=96&q=75 2x"
         style="color: transparent;"
         width="40"
       />
       <h2
         class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
       >
-        Post-graduation professor
+        Lead Front-End Engineer
          @ 
-        PDSAcademy
+        YES Technology
         <span
           class="text-xs md:text-sm"
         >
            
           (
-          06-2025
+          08-2024
            
           to
            
-          06-2025
+          09-2025
           )
         </span>
       </h2>

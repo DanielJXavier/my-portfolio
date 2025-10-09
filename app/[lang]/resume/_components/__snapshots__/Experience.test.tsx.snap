@@ -4,7 +4,7 @@ exports[`Experience component renders the component 1`] = `
 <div>
   <section>
     <h2
-      class="mb-2 text-[16pt] font-bold"
+      class="text-[16pt] font-bold"
     >
       Experience
     </h2>
@@ -30,12 +30,12 @@ exports[`Experience component renders the component 1`] = `
             >
               Senior Front-End Engineer
                @ 
-              &lt;DanielXavier /&gt;
+              Lovevery
             </span>
             <span>
                
               (
-              05-2024
+              07-2024
                
               to
                
@@ -56,7 +56,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Launched Lovevery's ERC to reach more than 455k customers;
+              Optimized the main front-end repository reducing the build time from 40s to 2s, without compromising the code quality and performance;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -68,7 +68,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Built new Lovevery's checkout with a net gain of 7.3 checkouts per day, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;
+              Launched the new ERC product journey to reach more than 455k new customers;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -80,7 +80,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Led the Design System project at YES Technology (German-owned company), implementing components to support the whole company ecosystem, keeping a maintainable and scalable codebase, very well aligned with the company's brand and design principles;
+              Built the new Stripe integrated checkout with a net gain of 7.3 checkouts per day, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 "
@@ -95,7 +95,7 @@ exports[`Experience component renders the component 1`] = `
               Main stack
               :
                
-              React | Next.js | Tailwind CSS | HTML5 | CSS3 | TypeScript | JavaScript | Node.js | Jest | Cypress | Playwright | Contentful | Stripe | Docker | Vercel
+              React | Next.js | Tailwind CSS | TypeScript | Jest | React Testing Library | Cypress | Playwright | Contentful | Stripe | Vercel
             </li>
           </ul>
         </div>
@@ -117,7 +117,7 @@ exports[`Experience component renders the component 1`] = `
             <span
               class="font-bold"
             >
-              Post-graduation professor
+              Post-graduation Professor
                @ 
               PDSAcademy
             </span>
@@ -157,15 +157,13 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Did live sessions to support students with their doubts and share some tips to improve their learning;
+              Hosted live sessions to support students with their doubts and share some tips to improve their learning;
             </li>
             <li
-              class="items-baseline flex gap-x-1.5 "
+              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
               data-testid="visibility-control"
-              data-visible=""
             >
               <input
-                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -206,7 +204,94 @@ exports[`Experience component renders the component 1`] = `
             <span
               class="font-bold"
             >
-              Technical Lead
+              Senior Full-Stack Engineer
+               @ 
+              &lt;DanielXavier /&gt;
+            </span>
+            <span>
+               
+              (
+              05-2024
+               
+              to
+               
+              06-2024
+              )
+            </span>
+          </p>
+          <ul
+            class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+          >
+            <li
+              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+              data-testid="visibility-control"
+            >
+              <input
+                class="print:hidden"
+                type="checkbox"
+              />
+              Created a high-performance and fully accessible professional portfolio website using React/Tailwind CSS to handle routing in the front, Next.js/Node.js to provide Server Side Rendering in the back end, Jest/Cypress to provide 100% code coverage including some visual tests, and Vercel's Frontend Cloud for deployment;
+            </li>
+            <li
+              class="items-baseline flex gap-x-1.5 "
+              data-testid="visibility-control"
+              data-visible=""
+            >
+              <input
+                checked=""
+                class="print:hidden"
+                type="checkbox"
+              />
+              Built a template-based app for printing medical reports using React to handle the dynamic fields in the front, Next.js/Node.js to provide Server Side Rendering in the back end, and Vercel's Frontend Cloud for deployment;
+            </li>
+            <li
+              class="items-baseline flex gap-x-1.5 "
+              data-testid="visibility-control"
+              data-visible=""
+            >
+              <input
+                checked=""
+                class="print:hidden"
+                type="checkbox"
+              />
+              Created a ticket booking API using the Nest.js framework (Node.js) to expose some different endpoints, Kong as an API gateway to manage all the requests, and MySQL to store the data in a simple relational database;
+            </li>
+            <li
+              class="mt-1 items-baseline flex gap-x-1.5 "
+              data-testid="visibility-control"
+              data-visible=""
+            >
+              <input
+                checked=""
+                class="print:hidden"
+                type="checkbox"
+              />
+              Main stack
+              :
+               
+              Next.js | Tailwind CSS | TypeScript | Nest.js | Kong | Jest | React Testing Library | Cypress | Vercel | MySQL
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
+        data-testid="visibility-control"
+        data-visible=""
+      >
+        <input
+          checked=""
+          class="print:hidden"
+          type="checkbox"
+        />
+        <div>
+          <p
+            class="text-[12pt]"
+          >
+            <span
+              class="font-bold"
+            >
+              Engineering Manager
                @ 
               OLX
             </span>
@@ -273,12 +358,10 @@ exports[`Experience component renders the component 1`] = `
               Made some advertising improvements to the platform that generated revenue of R$80 million;
             </li>
             <li
-              class="items-baseline flex gap-x-1.5 "
+              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
               data-testid="visibility-control"
-              data-visible=""
             >
               <input
-                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -402,10 +485,12 @@ exports[`Experience component renders the component 1`] = `
         </div>
       </li>
       <li
-        class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
         data-testid="visibility-control"
+        data-visible=""
       >
         <input
+          checked=""
           class="print:hidden"
           type="checkbox"
         />
@@ -491,10 +576,12 @@ exports[`Experience component renders the component 1`] = `
               Created formulas and metrics to accurately gauge the team's capacity, and sprint velocity, thereby bringing predictability to deliveries;
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+              class="mt-1 items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
+              data-visible=""
             >
               <input
+                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -507,10 +594,12 @@ exports[`Experience component renders the component 1`] = `
         </div>
       </li>
       <li
-        class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
         data-testid="visibility-control"
+        data-visible=""
       >
         <input
+          checked=""
           class="print:hidden"
           type="checkbox"
         />
@@ -596,10 +685,12 @@ exports[`Experience component renders the component 1`] = `
               Hired tons of new employees for the company and new contractor professionals aligned with our development culture;
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+              class="mt-1 items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
+              data-visible=""
             >
               <input
+                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -612,10 +703,12 @@ exports[`Experience component renders the component 1`] = `
         </div>
       </li>
       <li
-        class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
         data-testid="visibility-control"
+        data-visible=""
       >
         <input
+          checked=""
           class="print:hidden"
           type="checkbox"
         />
@@ -681,10 +774,12 @@ exports[`Experience component renders the component 1`] = `
               Created new features for the core system helping tons of law professionals in their work;
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+              class="mt-1 items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
+              data-visible=""
             >
               <input
+                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -697,10 +792,12 @@ exports[`Experience component renders the component 1`] = `
         </div>
       </li>
       <li
-        class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
         data-testid="visibility-control"
+        data-visible=""
       >
         <input
+          checked=""
           class="print:hidden"
           type="checkbox"
         />
@@ -754,26 +851,30 @@ exports[`Experience component renders the component 1`] = `
               Created a Proof of Concept (POC) interface, only using JavaScript and HTML, that introduced a very simplified method for product registration on the platform (our main bottleneck);
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+              class="mt-1 items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
+              data-visible=""
             >
               <input
+                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
               Main stack
               :
                
-              HTML5 | CSS3 | Vue.js | Nuxt.js | JavaScript | Node.js | Amazon Web Services (AWS) | MySQL
+              HTML5 | CSS3 | Vue.js | Nuxt.js | JavaScript | Node.js | Express | Amazon Web Services (AWS) | MySQL
             </li>
           </ul>
         </div>
       </li>
       <li
-        class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
         data-testid="visibility-control"
+        data-visible=""
       >
         <input
+          checked=""
           class="print:hidden"
           type="checkbox"
         />
@@ -837,26 +938,30 @@ exports[`Experience component renders the component 1`] = `
               Implemented the Arabic version of the "Hotmart blog" using pure CSS;
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+              class="mt-1 items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
+              data-visible=""
             >
               <input
+                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
               Main stack
               :
                
-              HTML5 | CSS3 | Vue.js | Nuxt.js | JavaScript | Node.js | PHP | WordPress | Nginx | Amazon Web Services (AWS) | MySQL
+              HTML5 | CSS3 | Vue.js | Nuxt.js | JavaScript | Node.js | Express | PHP | WordPress | Nginx | Amazon Web Services (AWS) | MySQL
             </li>
           </ul>
         </div>
       </li>
       <li
-        class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="items-baseline break-inside-avoid flex gap-x-1.5 "
         data-testid="visibility-control"
+        data-visible=""
       >
         <input
+          checked=""
           class="print:hidden"
           type="checkbox"
         />
@@ -886,10 +991,12 @@ exports[`Experience component renders the component 1`] = `
             class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
           >
             <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+              class="items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
+              data-visible=""
             >
               <input
+                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -916,10 +1023,12 @@ exports[`Experience component renders the component 1`] = `
               Created custom features within the WordPress admin interface;
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+              class="mt-1 items-baseline flex gap-x-1.5 "
               data-testid="visibility-control"
+              data-visible=""
             >
               <input
+                checked=""
                 class="print:hidden"
                 type="checkbox"
               />

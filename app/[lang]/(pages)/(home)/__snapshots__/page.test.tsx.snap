@@ -26,7 +26,7 @@ exports[`Home page renders the page 1`] = `
       <p
         class="mt-4 text-sm md:text-base text-justify"
       >
-        A Senior Front-End Engineer with 13+ years of experience helping US-based companies build intuitive user interfaces, ensuring code quality, high performance, scalability, accessibility, and security. Specialized in React, Next.js, TypeScript, and Tailwind CSS, now powered by top AI tools to go even faster.
+        A Senior/Lead Front-End Engineer with 13+ years of experience helping US-based companies build intuitive user interfaces, ensuring code quality, high performance, scalability, accessibility, and security. Specialized in React, Next.js, TypeScript, and Tailwind CSS, now powered by top AI tools to go even faster.
       </p>
       <p
         class="mt-4 text-sm md:text-base text-justify"
@@ -36,7 +36,7 @@ exports[`Home page renders the page 1`] = `
       <p
         class="mt-4 text-sm md:text-base text-justify"
       >
-        What I like most about Front-End is combining clean code, best practices, and design to create products that truly make a difference for real users and bring noticeable business results!
+        What I like most about Front-End is combining clean code, best practices, and design to create products that truly make a difference for real users and bring remarkable business results!
       </p>
     </div>
     <div
