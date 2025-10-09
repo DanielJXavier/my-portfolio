@@ -45,9 +45,12 @@
       "danielxavier-1": {
         "role": "Desenvolvedor Front-End Sênior",
         "accomplishments": [
-          "Lancei o ERC da Lovevery, alcançando mais de 455 mil clientes;",
-          "Construi o novo checkout da Lovevery com um aumento líquido de 7,3 checkouts por dia, oferecendo suporte a 4 países e 5 idiomas, e melhorando a cobertura do código em mais de 20%;",
-          "Liderei o projeto do Sistema de Design na YES Technology (empresa alemã), implementando componentes para dar suporte a todo o ecossistema da empresa, mantendo uma base de código sustentável e escalável, muito bem alinhada com a marca e os princípios de design da empresa;"
+      "yestechnology-1": {
+        "role": "Líder Front-End",
+        "accomplishments": [
+          "Liderei o projeto do Sistema de Design, implementando componentes para dar suporte a todo o ecossistema da empresa, mantendo uma base de código sustentável e escalável, muito bem alinhada com a marca e os princípios de design da empresa;",
+          "Criei alguns componentes dinâmicos para dar suporte a um novo site de cliente, fazendo as customizações necessárias para atender aos requisitos do cliente;",
+          "Adicionei algumas novas funcionalidades ao app principal da empresa, melhorando a experiência do usuário e a qualidade do código;"
         ]
       },
       "pdsacademy-1": {

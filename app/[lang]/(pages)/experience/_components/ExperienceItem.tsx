@@ -30,6 +30,7 @@ type MapCompanyIdToColorType = {
 };
 
 const mapCompanyIdToColor: MapCompanyIdToColorType = {
+  yestechnology: "before:from-secondary before:via-secondary",
   pdsacademy: "before:from-secondary before:via-secondary",
   danielxavier: "before:from-secondary before:via-secondary",
   olx: "before:from-[#6d0ad5] before:via-[#6d0ad5]",
