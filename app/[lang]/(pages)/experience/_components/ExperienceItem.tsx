@@ -61,6 +61,10 @@ export default function ExperienceItem({
 
   const experienceMode = useContext(ExperienceModeContext);
 
+  const relatedHardSkills = hardSkills.filter(({ key }) =>
+    mainStack.some((stack) => stack === key)
+  );
+
   return (
     <article
       className={`my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b ${mapCompanyIdToColor[companyId]} before:to-background before:-z-10`}
@@ -93,15 +97,15 @@ export default function ExperienceItem({
               ))}
             </ul>
           </section>
-          <section className="mt-4 pl-14 xl:px-14">
-            <h3 className="font-semibold xl:text-xl">{mainStackTitle}:</h3>
-            <p className="text-sm xl:text-base">
-              {hardSkills
-                .filter(({ key }) => mainStack.some((stack) => stack === key))
-                .map(({ name }) => name)
-                .join(" | ")}
-            </p>
-          </section>
+
+          {relatedHardSkills.length > 0 && (
+            <section className="mt-4 pl-14 xl:px-14">
+              <h3 className="font-semibold xl:text-xl">{mainStackTitle}:</h3>
+              <p className="text-sm xl:text-base">
+                {relatedHardSkills.map(({ name }) => name).join(" | ")}
+              </p>
+            </section>
+          )}
         </>
       )}
     </article>
