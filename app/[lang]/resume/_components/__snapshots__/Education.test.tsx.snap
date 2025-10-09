@@ -8,6 +8,7 @@ exports[`Education component renders the component 1`] = `
     >
       Education
     </h2>
+    <hr />
     <ul
       class="flex flex-col gap-y-3"
     >

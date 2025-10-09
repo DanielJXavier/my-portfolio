@@ -8,6 +8,7 @@ exports[`Summary component renders the component 1`] = `
     >
       Summary
     </h2>
+    <hr />
     <textarea
       class="w-full text-[12pt] text-justify align-top border border-primary print:border-none print:resize-none"
       rows="11"

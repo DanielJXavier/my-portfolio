@@ -8,6 +8,7 @@ exports[`Experience component renders the component 1`] = `
     >
       Experience
     </h2>
+    <hr />
     <ul
       class="flex flex-col gap-y-3"
     >
