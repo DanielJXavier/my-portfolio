@@ -35,7 +35,7 @@ export default function Experience() {
     <section>
       <h2 className="text-[16pt] font-bold">{sectionTitles.experience}</h2>
       <hr />
-      <ul className="flex flex-col gap-y-3">
+      <ul className="flex flex-col gap-y-5">
         {visibleExperience.map(
           ({
             key,
@@ -80,13 +80,18 @@ export default function Experience() {
                     className="mt-1 items-baseline"
                     defaultVisible={resume}
                   >
-                    {mainStackTitle}:{" "}
-                    {hardSkills
-                      .filter(({ key }) =>
-                        mainStack.some((stack) => stack === key)
-                      )
-                      .map(({ name }) => name)
-                      .join(" | ")}
+                    <p>
+                      <span className="font-bold">{mainStackTitle}</span>:
+                      <span>
+                        {" "}
+                        {hardSkills
+                          .filter(({ key }) =>
+                            mainStack.some((stack) => stack === key)
+                          )
+                          .map(({ name }) => name)
+                          .join(" | ")}
+                      </span>
+                    </p>
                   </VisibilityControl>
                 </ul>
               </div>
