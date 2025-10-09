@@ -5,7 +5,7 @@ export const chosenHardSkills = [
   "ts",
   "next",
   "node",
-  "js",
+  "express",
   "aws",
   "tailwind",
   "contentful",
@@ -14,6 +14,9 @@ export const chosenHardSkills = [
   "vercel",
   "cypress",
   "playwright",
+  "mysql",
+  "postgre",
+  "mongo",
 ];
 
 export const chosenSoftSkills = [];
