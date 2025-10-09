@@ -23,7 +23,7 @@ export default function Summary() {
       <h2 className="text-[16pt] font-bold">{sectionTitles.summary}</h2>
       <hr />
       <textarea
-        className="w-full text-[12pt] text-justify align-top border border-primary print:border-none print:resize-none"
+        className="mt-1 w-full text-[12pt] text-justify align-top border border-primary print:mt-0 print:border-none print:resize-none"
         defaultValue={summary.current.join("\n\n")}
         rows={summary.current.reduce(
           (rows, paragraph) =>

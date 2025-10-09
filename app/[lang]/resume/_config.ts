@@ -8,6 +8,7 @@ export const chosenHardSkills = [
   "express",
   "aws",
   "tailwind",
+  "micro-frontend",
   "contentful",
   "stripe",
   "docker",

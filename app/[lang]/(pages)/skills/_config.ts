@@ -78,7 +78,7 @@ export const hardSkills: SkillInterface[] = [
   { key: "bash", name: "Bash", size: 1 },
   { key: "docker", name: "Docker", size: 1 },
   { key: "yml", name: "YML", size: 1 },
-  { key: "aws", name: "Amazon Web Services (AWS)", size: 2 },
+  { key: "aws", name: "AWS", size: 2 },
   { key: "gcp", name: "Google Cloud Platform (GCP)", size: 2 },
   { key: "ec2", name: "Amazon EC2 - Cloud Compute Capacity", size: 1 },
   { key: "rds", name: "AWS RDS (Relational Database Service)", size: 1 },
