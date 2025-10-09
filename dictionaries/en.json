@@ -58,18 +58,24 @@
           "Added some new features to the company's main app, improving the user experience and the code quality;"
         ]
       },
-        ]
-      },
       "pdsacademy-1": {
-        "role": "Post-graduation professor",
+        "role": "Post-graduation Professor",
         "accomplishments": [
           "Recorded more than 16 hours of Front-End Fundamentals with React classes;",
-          "Did live sessions to support students with their doubts and share some tips to improve their learning;",
+          "Hosted live sessions to support students with their doubts and share some tips to improve their learning;",
           "Created base projects and shared with students to practice the concepts learned;"
         ]
       },
+      "danielxavier-1": {
+        "role": "Senior Full-Stack Engineer",
+        "accomplishments": [
+          "Created a high-performance and fully accessible professional portfolio website using React/Tailwind CSS to handle routing in the front, Next.js/Node.js to provide Server Side Rendering in the back end, Jest/Cypress to provide 100% code coverage including some visual tests, and Vercel's Frontend Cloud for deployment;",
+          "Built a template-based app for printing medical reports using React to handle the dynamic fields in the front, Next.js/Node.js to provide Server Side Rendering in the back end, and Vercel's Frontend Cloud for deployment;",
+          "Created a ticket booking API using the Nest.js framework (Node.js) to expose some different endpoints, Kong as an API gateway to manage all the requests, and MySQL to store the data in a simple relational database;"
+        ]
+      },
       "olx-1": {
-        "role": "Technical Lead",
+        "role": "Engineering Manager",
         "accomplishments": [
           "Launched the new Ad Insertion journey in stages, giving users a fluid and easier experience to sell items in the classified platform;",
           "Published a new LTR ranking algorithm that brings 10% more conversion in the Ad Recommendation system;",

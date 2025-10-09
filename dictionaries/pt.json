@@ -66,6 +66,14 @@
           "Criei projetos base e compartilhei com os alunos para praticar os conceitos aprendidos;"
         ]
       },
+      "danielxavier-1": {
+        "role": "Desenvolvedor Full-Stack Sênior",
+        "accomplishments": [
+          "Criei um site profissional e acessível usando React/Tailwind CSS para lidar com a roteamento no front, Next.js/Node.js para fornecer Server Side Rendering no back end, Jest/Cypress para fornecer cobertura de código de 100% incluindo alguns testes visuais, e o Frontend Cloud da Vercel para o deployment;",
+          "Construi um app baseado em templates para imprimir relatórios médicos usando React para lidar com os campos dinâmicos no front, Next.js/Node.js para fornecer Server Side Rendering no back end, e o Frontend Cloud da Vercel para o deployment;",
+          "Criei uma API de agendamento de tickets usando o framework Nest.js (Node.js) para expor alguns endpoints diferentes, Kong como gateway API para gerenciar todos os requests, e MySQL para armazenar os dados em um banco de dados relacional simples;"
+        ]
+      },
       "olx-1": {
         "role": "Gerente de Engenharia de Software",
         "accomplishments": [
