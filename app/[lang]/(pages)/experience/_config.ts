@@ -91,7 +91,7 @@ export const experience: ExperienceInterface[] = [
       "react-testing-library",
       "cypress",
       "vercel",
-      "nest",
+      "node",
       "kong",
       "mysql",
     ],

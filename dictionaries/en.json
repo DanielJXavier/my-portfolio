@@ -69,7 +69,7 @@
       "danielxavier-1": {
         "role": "Senior Full-Stack Engineer",
         "accomplishments": [
-          "Created a high-performance and fully accessible professional portfolio website using React/Tailwind CSS to handle routing in the front, Next.js/Node.js to provide Server Side Rendering in the back end, Jest/Cypress to provide 100% code coverage including some visual tests, and Vercel's Frontend Cloud for deployment;",
+          "Created a high-performance and fully accessible professional portfolio website using React/Tailwind CSS to handle routing in the front, Next.js/Node.js to provide Server Side Rendering in the back end, Jest/Cypress to provide 100% code coverage, including some visual tests, and Vercel's Frontend Cloud for deployment;",
           "Built a template-based app for printing medical reports using React to handle the dynamic fields in the front, Next.js/Node.js to provide Server Side Rendering in the back end, and Vercel's Frontend Cloud for deployment;",
           "Created a ticket booking API using the Nest.js framework (Node.js) to expose some different endpoints, Kong as an API gateway to manage all the requests, and MySQL to store the data in a simple relational database;"
         ]
