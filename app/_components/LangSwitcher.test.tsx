@@ -2,13 +2,14 @@ import "@testing-library/jest-dom";
 
 import { fireEvent, render, screen } from "@testing-library/react";
 
-import LangSwitcher from "./LangSwitcher";
-
 import { useParams, usePathname } from "next/navigation";
+
+import LangSwitcher from "./LangSwitcher";
 
 jest.mock("next/navigation");
 
 (useParams as jest.Mock).mockImplementation(() => ({ lang: "en" }));
+
 (usePathname as jest.Mock).mockImplementation(() => "/en");
 
 describe("LangSwitcher component", () => {

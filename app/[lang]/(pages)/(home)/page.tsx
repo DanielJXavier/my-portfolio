@@ -7,12 +7,12 @@ import Title from "@/_components/Title";
 
 import { author } from "@/_config";
 
-import KeepPublic from "@/_icons/KeepPublic";
 import Email from "@/_icons/Email";
-import WhatsApp from "@/_icons/WhatsApp";
-import LinkedIn from "@/_icons/LinkedIn";
 import GitHub from "@/_icons/GitHub";
 import Instagram from "@/_icons/Instagram";
+import KeepPublic from "@/_icons/KeepPublic";
+import LinkedIn from "@/_icons/LinkedIn";
+import WhatsApp from "@/_icons/WhatsApp";
 
 import { links } from "./_config";
 
@@ -37,6 +37,7 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
             </p>
           ))}
         </div>
+
         <div className="mt-6 lg:mt-0 flex items-center justify-center">
           <div className="relative w-48 md:w-60 lg:w-72 xl:w-80 2xl:w-96 h-48 md:h-60 lg:h-72 xl:h-80 2xl:h-96">
             <Image
@@ -50,6 +51,7 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
           </div>
         </div>
       </section>
+
       <section className="mt-4 py-4 md:py-8 flex flex-col lg:flex-row gap-y-3 md:gap-y-4 lg:gap-x-2 xl:gap-x-12 items-center">
         {links.email && (
           <a
@@ -61,6 +63,7 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
             {links.email}
           </a>
         )}
+
         {links.whatsApp && (
           <a
             className="group/svg flex gap-x-1.5 xl:gap-x-2 hover:text-secondary text-sm md:text-base"
@@ -71,6 +74,7 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
             {links.whatsApp}
           </a>
         )}
+
         {links.linkedIn && (
           <a
             className="group/svg flex gap-x-1.5 xl:gap-x-2 hover:text-secondary text-sm md:text-base"
@@ -80,6 +84,7 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
             <LinkedIn />@{links.linkedIn}
           </a>
         )}
+
         {links.gitHub && (
           <a
             className="group/svg flex gap-x-1.5 xl:gap-x-2 hover:text-secondary text-sm md:text-base"
@@ -89,6 +94,7 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
             <GitHub />@{links.gitHub}
           </a>
         )}
+
         {links.instagram && (
           <a
             className="group/svg flex gap-x-1.5 xl:gap-x-2 hover:text-secondary text-sm md:text-base"

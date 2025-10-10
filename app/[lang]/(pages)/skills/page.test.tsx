@@ -2,11 +2,11 @@ import "@testing-library/jest-dom";
 
 import { render } from "@testing-library/react";
 
-import Page, { generateMetadata } from "./page";
+import { useParams, useSearchParams } from "next/navigation";
 
 import en from "dictionaries/en.json";
 
-import { useParams, useSearchParams } from "next/navigation";
+import Page, { generateMetadata } from "./page";
 
 jest.mock("next/navigation");
 

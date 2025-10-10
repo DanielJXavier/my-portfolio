@@ -2,9 +2,9 @@ import "@testing-library/jest-dom";
 
 import { render } from "@testing-library/react";
 
-import Experience from "./Experience";
-
 import { useParams } from "next/navigation";
+
+import Experience from "./Experience";
 
 jest.mock("next/navigation");
 

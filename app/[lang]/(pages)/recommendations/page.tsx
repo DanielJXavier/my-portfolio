@@ -7,7 +7,6 @@ import Title from "@/_components/Title";
 import Reviews from "@/_icons/Reviews";
 
 import RecommendationItem from "./_components/RecommendationItem";
-
 import { recommendations } from "./_config";
 
 export async function generateMetadata({
@@ -32,6 +31,7 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
   return (
     <>
       <Title icon={<Reviews />}>{title}</Title>
+
       {recommendations.map(({ authorId, authorName, company }) => (
         <RecommendationItem
           key={authorId}

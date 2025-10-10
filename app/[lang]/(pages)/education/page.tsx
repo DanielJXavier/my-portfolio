@@ -6,8 +6,8 @@ import { Lang } from "i18n-config";
 import Title from "@/_components/Title";
 import School from "@/_icons/School";
 
-import { education } from "./_config";
 import EducationItem from "./_components/EducationItem";
+import { education } from "./_config";
 
 export async function generateMetadata({
   params: { lang },
@@ -31,6 +31,7 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
   return (
     <>
       <Title icon={<School />}>{title}</Title>
+
       {education.map(({ schoolId, schoolName, startYear, endYear }, i) => (
         <EducationItem
           key={`education-item-${i}`}

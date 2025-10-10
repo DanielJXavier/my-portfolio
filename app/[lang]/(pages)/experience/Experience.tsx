@@ -12,8 +12,8 @@ import Work from "@/_icons/Work";
 
 import Menu from "../_components/Menu";
 
-import { experience } from "./_config";
 import ExperienceItem from "./_components/ExperienceItem";
+import { experience } from "./_config";
 
 export const ExperienceModeContext = createContext("");
 
@@ -36,11 +36,13 @@ export default function Experience() {
   return (
     <ExperienceModeContext.Provider value={experienceMode}>
       <Title icon={<Work />}>{title}</Title>
+
       <Menu
         items={menuItems.current}
         activeItem={experienceMode}
         handleClick={setExperienceMode}
       />
+
       {experience
         .filter(({ hidden }) => !hidden)
         .map(

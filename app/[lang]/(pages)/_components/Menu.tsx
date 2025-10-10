@@ -30,6 +30,7 @@ export default function Menu({ items, activeItem, handleClick }: MenuProps) {
               {text}
             </button>
           </li>
+
           {items.length - 1 > i && <li>|</li>}
         </Fragment>
       ))}

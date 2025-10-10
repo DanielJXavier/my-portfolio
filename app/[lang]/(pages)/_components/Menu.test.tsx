@@ -22,9 +22,11 @@ describe("Menu component", () => {
     render(<Menu items={menuItems} activeItem="1" handleClick={jest.fn()} />);
 
     const menu = screen.getByTestId("menu");
+
     const activeItem = menu.childNodes[0].childNodes[0];
 
     expect(activeItem).toHaveClass("text-secondary underline cursor-default");
+
     expect(activeItem).toBeDisabled();
   });
 
@@ -38,6 +40,7 @@ describe("Menu component", () => {
     fireEvent.click(menu.childNodes[0].childNodes[0]);
 
     expect(handleClick).toHaveBeenCalledTimes(1);
+
     expect(handleClick).toHaveBeenCalledWith("1");
   });
 });

@@ -1,8 +1,8 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { useParams, usePathname } from "next/navigation";
 import Link from "next/link";
+import { useParams, usePathname } from "next/navigation";
 
 import { Lang } from "i18n-config";
 
@@ -14,6 +14,7 @@ const ThemeSwitcher = dynamic(() => import("./ThemeSwitcher"), { ssr: false });
 
 export default function Header() {
   const pathname = usePathname();
+
   const { lang } = useParams<{ lang: Lang }>();
 
   return (
@@ -31,7 +32,9 @@ export default function Header() {
         >
           {`<${author.firstName}${author.lastName} />`}
         </Link>
+
         <Menu />
+
         <div className="w-7 lg:w-8 h-7 lg:h-8">
           <ThemeSwitcher />
         </div>

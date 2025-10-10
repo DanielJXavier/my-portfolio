@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
-import { usePathname, useParams } from "next/navigation";
 import Link from "next/link";
+import { usePathname, useParams } from "next/navigation";
 
 import { getDictionary } from "get-dictionary";
 import { Lang } from "i18n-config";
@@ -46,17 +46,20 @@ export default function Menu() {
             menuOpen ? "absolute right-1.5 rotate-45" : ""
           }`}
         />
+
         <hr
           className={`w-5 border-t-2 border-t-primary ${
             menuOpen ? "hidden" : ""
           }`}
         />
+
         <hr
           className={`w-5 border-t-2 border-t-primary ${
             menuOpen ? "absolute right-1.5 rotate-[-45deg]" : ""
           }`}
         />
       </button>
+
       <ul
         className={`absolute md:relative top-[38px] md:top-0 right-0 left-0 h-[calc(100vh-46px)] md:h-auto px-4 md:px-0 py-2 md:py-0 bg-background md:bg-transparent z-50 text-lg lg:text-xl font-light ${
           !menuOpen ? "hidden md:flex" : ""

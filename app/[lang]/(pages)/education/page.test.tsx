@@ -2,9 +2,9 @@ import "@testing-library/jest-dom";
 
 import { render } from "@testing-library/react";
 
-import Page, { generateMetadata } from "./page";
-
 import en from "dictionaries/en.json";
+
+import Page, { generateMetadata } from "./page";
 
 describe("Education page", () => {
   it("renders the page", () => {

@@ -2,10 +2,11 @@ import "@testing-library/jest-dom";
 
 import { render } from "@testing-library/react";
 
-import RecommendationItem from "./RecommendationItem";
+import { recommendations as recommendationsStrings } from "dictionaries/en.json";
 
 import { recommendations } from "../_config";
-import { recommendations as recommendationsStrings } from "dictionaries/en.json";
+
+import RecommendationItem from "./RecommendationItem";
 
 describe("RecommendationItem component", () => {
   it("renders the component", () => {

@@ -2,12 +2,13 @@ import "@testing-library/jest-dom";
 
 import { render } from "@testing-library/react";
 
-import EducationItem from "./EducationItem";
+import { useParams } from "next/navigation";
 
-import { education } from "../_config";
 import { education as educationStrings } from "dictionaries/en.json";
 
-import { useParams } from "next/navigation";
+import { education } from "../_config";
+
+import EducationItem from "./EducationItem";
 
 jest.mock("next/navigation");
 

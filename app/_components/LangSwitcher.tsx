@@ -1,7 +1,7 @@
 "use client";
 
-import { useParams, usePathname } from "next/navigation";
 import Link from "next/link";
+import { useParams, usePathname } from "next/navigation";
 
 import { i18n, Lang } from "i18n-config";
 
@@ -12,6 +12,7 @@ const mapLangToFlag: { [key: Lang]: string } = {
 
 export default function LangSwitcher() {
   const { lang } = useParams<{ lang: Lang }>();
+
   const pathname = usePathname();
 
   return (

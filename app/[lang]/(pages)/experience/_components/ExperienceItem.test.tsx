@@ -4,11 +4,12 @@ import { render } from "@testing-library/react";
 
 import { useParams } from "next/navigation";
 
-import { experience as experienceConfig } from "../_config";
 import { experience } from "dictionaries/en.json";
+import { ExperienceItemsType } from "get-dictionary";
+
+import { experience as experienceConfig } from "../_config";
 
 import ExperienceItem from "./ExperienceItem";
-import { ExperienceItemsType } from "get-dictionary";
 
 jest.mock("next/navigation");
 
@@ -27,6 +28,7 @@ describe("ExperienceItem component", () => {
     } = experienceConfig[1];
 
     const experienceItem = (experience.items as ExperienceItemsType)[key];
+
     const imageAltText = experience.imageAltText;
 
     const { container } = render(
@@ -36,7 +38,6 @@ describe("ExperienceItem component", () => {
         companyName={companyName}
         startDate={startDate}
         endDate={endDate}
-        description={experienceItem.description}
         accomplishments={experienceItem.accomplishments}
         mainStack={mainStack}
         imageAltText={imageAltText}

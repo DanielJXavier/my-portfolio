@@ -2,11 +2,11 @@ import "@testing-library/jest-dom";
 
 import { fireEvent, render, screen } from "@testing-library/react";
 
-import Menu from "./Menu";
+import { usePathname, useParams } from "next/navigation";
 
 import { menu } from "@/_config";
 
-import { usePathname, useParams } from "next/navigation";
+import Menu from "./Menu";
 
 jest.mock("next/navigation");
 
@@ -25,14 +25,17 @@ describe("Menu component", () => {
     render(<Menu />);
 
     const menuButton = screen.getByTestId("menu-button");
+
     const menuList = screen.getByTestId("menu-list");
 
     expect(menuButton).not.toHaveClass("relative [&_hr]:border-t-secondary");
+
     expect(menuList).toHaveClass("hidden md:flex");
 
     fireEvent.click(menuButton);
 
     expect(menuButton).toHaveClass("relative [&_hr]:border-t-secondary");
+
     expect(menuList).not.toHaveClass("hidden md:flex");
   });
 
@@ -56,12 +59,15 @@ describe("Menu component", () => {
     render(<Menu />);
 
     const menuButton = screen.getByTestId("menu-button");
+
     const menuList = screen.getByTestId("menu-list");
 
     fireEvent.click(menuButton);
+
     fireEvent.click(menuList.childNodes[1]);
 
     expect(menuButton).not.toHaveClass("relative [&_hr]:border-t-secondary");
+
     expect(menuList).toHaveClass("hidden md:flex");
   });
 });

@@ -1,7 +1,6 @@
 import { useContext } from "react";
 
 import Image from "next/image";
-
 import { useParams } from "next/navigation";
 
 import { getDictionary } from "get-dictionary";
@@ -16,6 +15,7 @@ type ExperienceConfigType = Omit<
   ExperienceInterface,
   "key" | "resume" | "resumeAccomplishments"
 >;
+
 interface ExperienceItemPropsInterface
   extends Omit<ExperienceConfigType, "hidden"> {
   role: string;
@@ -80,6 +80,7 @@ export default function ExperienceItem({
           height={40}
           alt={`${imageAltText.prefix}${companyName}${imageAltText.sufix}`}
         />
+
         <h2 className="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight">
           {role} @ {companyName}
           <span className="text-xs md:text-sm">
@@ -88,6 +89,7 @@ export default function ExperienceItem({
           </span>
         </h2>
       </header>
+
       {experienceMode === "detailed" && (
         <>
           <section className="pl-14 xl:px-14">
@@ -101,6 +103,7 @@ export default function ExperienceItem({
           {relatedHardSkills.length > 0 && (
             <section className="mt-4 pl-14 xl:px-14">
               <h3 className="font-semibold xl:text-xl">{mainStackTitle}:</h3>
+
               <p className="text-sm xl:text-base">
                 {relatedHardSkills.map(({ name }) => name).join(" | ")}
               </p>

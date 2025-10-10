@@ -24,6 +24,7 @@ export default function Footer() {
       data-testid="footer"
     >
       <LangSwitcher />
+
       <p className="text-xs md:text-sm text-center">
         {author.firstName} {author.lastName} © {year}.{" "}
         <br className="sm:hidden" />

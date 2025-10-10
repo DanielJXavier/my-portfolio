@@ -2,9 +2,9 @@ import "@testing-library/jest-dom";
 
 import { fireEvent, render, screen } from "@testing-library/react";
 
-import Skills from "./Skills";
-
 import { useParams, useSearchParams } from "next/navigation";
+
+import Skills from "./Skills";
 
 jest.mock("next/navigation");
 

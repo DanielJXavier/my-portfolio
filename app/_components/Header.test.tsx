@@ -4,9 +4,9 @@ import "@testing-library/jest-dom";
 
 import { render, screen } from "@testing-library/react";
 
-import Header from "./Header";
-
 import { usePathname, useParams } from "next/navigation";
+
+import Header from "./Header";
 
 jest.mock("next/navigation");
 

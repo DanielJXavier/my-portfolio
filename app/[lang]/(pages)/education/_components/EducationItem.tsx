@@ -46,6 +46,7 @@ export default function EducationItem({
           height={40}
           alt={`${imageAltText.prefix}${schoolName}${imageAltText.sufix}`}
         />
+
         <h2 className="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight">
           {fieldOfStudy} @ {schoolName}
           <span className="text-xs md:text-sm">
@@ -54,9 +55,11 @@ export default function EducationItem({
           </span>
         </h2>
       </header>
+
       <section className="pl-14 lg:px-14">
         <h3 className="xl:text-xl">{degree}</h3>
       </section>
+
       <section className="mt-4 pl-14 xl:px-14">
         <ul className="pl-7 list-disc text-sm xl:text-base">
           {subjects.map((subject, i) => (

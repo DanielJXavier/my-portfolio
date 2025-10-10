@@ -25,6 +25,7 @@ const mapSizeToFontSize = {
 
 export default function Skills() {
   const { lang } = useParams<{ lang: Lang }>();
+
   const searchParams = useSearchParams();
 
   const random = searchParams.get("random");
@@ -43,6 +44,7 @@ export default function Skills() {
   const allSkills = useRef([...hardSkills, ...softSkills.current]);
 
   const [skills, setSkills] = useState(allSkills.current);
+
   const [filter, setFilter] = useState("all");
 
   const menuItems = useRef([
@@ -66,11 +68,13 @@ export default function Skills() {
   return (
     <>
       <Title icon={<Psychology />}>{title}</Title>
+
       <Menu
         items={menuItems.current}
         activeItem={filter}
         handleClick={handleClick}
       />
+
       <article className="my-6 md:my-8 lg:my-10 flex gap-x-3 md:gap-x-5 lg:gap-x-8 gap-y-2 md:gap-y-3 lg:gap-y-4 flex-wrap items-center justify-center lg:justify-between">
         {(random === "0" ? skills : shuffle(skills)).map(
           ({ key, name, size }) => (
@@ -84,6 +88,7 @@ export default function Skills() {
           )
         )}
       </article>
+
       <article className="py-5 md:py-6 lg:py-8 text-base md:text-lg lg:text-2xl font-light text-center lg:text-justify">
         {bottomText}
       </article>
