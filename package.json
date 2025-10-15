@@ -48,15 +48,15 @@
     "sharp": "^0.34.4"
   },
   "devDependencies": {
-    "@formatjs/intl-localematcher": "^0.6.1",
+    "@formatjs/intl-localematcher": "^0.6.2",
     "@simonsmith/cypress-image-snapshot": "^9.1.0",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",
     "@types/jest": "^29.5.14",
     "@types/negotiator": "^0.6.4",
-    "@types/node": "^22.18.8",
-    "@types/react": "^18.3.25",
+    "@types/node": "^22.18.10",
+    "@types/react": "^18.3.26",
     "@types/react-dom": "^18.3.7",
     "cypress": "^13.17.0",
     "eslint": "^8.57.1",
