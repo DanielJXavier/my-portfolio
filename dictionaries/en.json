@@ -47,7 +47,7 @@
         "accomplishments": [
           "Reduced front-end build time by 95% (40s → 2s) through deep refactoring and dependency optimization, accelerating CI/CD pipelines and developer iteration speed;",
           "Built a new Stripe-powered checkout experience supporting 4 countries and 5 languages, resulting in a net gain of +7.3 checkouts/day and 20% higher test coverage;",
-          "Launched the ERC product journey that reached 455K+ new customers in just a few months, helping scale Lovevery's ecommerce reach and conversion funnel;"
+          "Launched the ERC product journey that reached 455K+ new customers in just a few months, helping scale Lovevery's ecommerce reach and conversion funnel."
         ]
       },
       "yestechnology-1": {
@@ -55,7 +55,7 @@
         "accomplishments": [
           "Led the Design System project, implementing components to support the whole company ecosystem, keeping a maintainable and scalable codebase, very well aligned with the company's brand and design principles;",
           "Created a few dynamic components to support a new client website, making the customizations needed to fit the client's requirements;",
-          "Added some new features to the company's main app, improving the user experience and the code quality;"
+          "Added some new features to the company's main app, improving the user experience and the code quality."
         ]
       },
       "pdsacademy-1": {
@@ -63,7 +63,7 @@
         "accomplishments": [
           "Taught 16+ hours of Front-End Fundamentals with React;",
           "Led interactive sessions with Q&A, focusing on React best practices, design patterns, and developer efficiency;",
-          "Created base projects and shared with students to practice the concepts learned;"
+          "Created base projects and shared with students to practice the concepts learned."
         ]
       },
       "danielxavier-1": {
@@ -71,7 +71,7 @@
         "accomplishments": [
           "Created a high-performance and fully accessible professional portfolio website using React/Tailwind CSS to handle routing in the front, Next.js/Node.js to provide Server Side Rendering in the back end, Jest/Cypress to provide 100% code coverage, including some visual tests, and Vercel's Frontend Cloud for deployment;",
           "Delivered a dynamic medical report printing platform built with React and Next.js/Node.js (SSR), hosted on Vercel for rapid deployment and scalability;",
-          "Developed a ticket booking API using Nest.js, Kong, and MySQL, showcasing strong backend design and DevOps integration;"
+          "Developed a ticket booking API using Nest.js, Kong, and MySQL, showcasing strong backend design and DevOps integration."
         ]
       },
       "olx-1": {
@@ -81,7 +81,7 @@
           "Shipped a machine learning-powered LTR algorithm that boosted ad recommendation engagement by 10%;",
           "Delivered a brand new homepage in under 48 hours, supported by the Design System, to accelerate validation and rollout;",
           "Made some advertising improvements to the platform that generated revenue of R$80 million;",
-          "Recruited new professionals to increase production capacity by 300%, and be able to focus on the functionalities of the mobile application;"
+          "Recruited new professionals to increase production capacity by 300%, and be able to focus on the functionalities of the mobile application."
         ]
       },
       "meaning-1": {
@@ -89,7 +89,7 @@
         "accomplishments": [
           "Defined the technical vision and product roadmap from scratch, translating the company's business goals into an executable engineering strategy;",
           "Collaborated directly with founders and product stakeholders to iterate rapidly and align technical direction with customer feedback;",
-          "Built and launched the MVP platform, acquiring 4 clients within the first months and establishing scalable cloud infrastructure on GCP;"
+          "Built and launched the MVP platform, acquiring 4 clients within the first months and establishing scalable cloud infrastructure on GCP."
         ]
       },
       "softplan-3": {
@@ -99,7 +99,7 @@
           "Made bi-weekly 1:1s to help the devs with the technical challenges, to help the QAs integrate their tasks with the team process flows, avoid creating bottlenecks and develop new automation test approaches, and the PO/BAs to handle the customer's urgent needs;",
           "Also guided the agile masters to structure and continuously enhance the team's workflow using agile software development methodologies;",
           "Planned and executed deliveries for the most 2 critical modules of the core system;",
-          "Created formulas and metrics to accurately gauge the team's capacity, and sprint velocity, thereby bringing predictability to deliveries;"
+          "Created formulas and metrics to accurately gauge the team's capacity, and sprint velocity, thereby bringing predictability to deliveries."
         ]
       },
       "softplan-2": {
@@ -109,7 +109,7 @@
           "Handled for the code reviews, deliveries, and deployment of 17 modules of the system;",
           "Formed the Delphi developers team up to work with HTML, CSS, JavaScript, React, GraphQL, and unit tests;",
           "Led a team of 10 Front-End developers, doing weekly 1:1s, and partnering with their coordinators to do career plans;",
-          "Hired tons of new employees for the company and new contractor professionals aligned with our development culture;"
+          "Hired tons of new employees for the company and new contractor professionals aligned with our development culture."
         ]
       },
       "softplan-1": {
@@ -117,14 +117,14 @@
         "accomplishments": [
           "Successfully delivered the team's most critical and complex project in less than 6 months, helping the Product Owner improve some features;",
           "Developed new features for the public portal helping attorneys in their jobs;",
-          "Created new features for the core system helping tons of law professionals in their work;"
+          "Created new features for the core system helping tons of law professionals in their work."
         ]
       },
       "hotmart-3": {
         "role": "Senior Full-Stack Engineer",
         "accomplishments": [
           "Designed and implemented a system to address the company's internal needs and automate tasks, using Vue.js/Nuxt.js for the user interface, Node.js/Express for the data requests, and MySQL for storing data, that brought more than 1000 new leads for the commercial team;",
-          "Created a Proof of Concept (POC) interface, only using JavaScript and HTML, that introduced a very simplified method for product registration on the platform (our main bottleneck);"
+          "Created a Proof of Concept (POC) interface, only using JavaScript and HTML, that introduced a very simplified method for product registration on the platform (our main bottleneck)."
         ]
       },
       "hotmart-2": {
@@ -132,7 +132,7 @@
         "accomplishments": [
           "Designed from scratch a system to generate blog post images using components and pre-defined templates, using Vue.js/Nuxt.js for the interface, and Node.js for the assets API, thereby enhancing the productivity of the design team by 1000%;",
           "Created a high-performance caching system for the \"Hotmart blog\" (WordPress), using only some Nginx configs and PHP hooks, which resulted in a 300% increase in performance;",
-          "Implemented the Arabic version of the \"Hotmart blog\" using pure CSS;"
+          "Implemented the Arabic version of the \"Hotmart blog\" using pure CSS."
         ]
       },
       "hotmart-1": {
@@ -140,7 +140,7 @@
         "accomplishments": [
           "Developed a new WordPress theme for the \"Hotmart blog\" utilizing only HTML5, CSS Grid Layout, and Vanilla JS;",
           "Implemented the new layout for the \"Hotmart blog\";",
-          "Created custom features within the WordPress admin interface;"
+          "Created custom features within the WordPress admin interface."
         ]
       },
       "sydle-2": {
