@@ -45,9 +45,9 @@
       "lovevery-1": {
         "role": "Senior Front-End Engineer",
         "accomplishments": [
-          "Optimized the main front-end repository reducing the build time from 40s to 2s, without compromising the code quality and performance;",
-          "Launched the new ERC product journey to reach more than 455k new customers;",
-          "Built the new Stripe integrated checkout with a net gain of 7.3 checkouts per day, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;"
+          "Reduced front-end build time by 95% (40s → 2s) through deep refactoring and dependency optimization, accelerating CI/CD pipelines and developer iteration speed;",
+          "Built a new Stripe-powered checkout experience supporting 4 countries and 5 languages, resulting in a net gain of +7.3 checkouts/day and 20% higher test coverage;",
+          "Launched the ERC product journey that reached 455K+ new customers in just a few months, helping scale Lovevery's ecommerce reach and conversion funnel;"
         ]
       },
       "yestechnology-1": {
@@ -61,8 +61,8 @@
       "pdsacademy-1": {
         "role": "Post-graduation Professor",
         "accomplishments": [
-          "Recorded more than 16 hours of Front-End Fundamentals with React classes;",
-          "Hosted live sessions to support students with their doubts and share some tips to improve their learning;",
+          "Taught 16+ hours of Front-End Fundamentals with React;",
+          "Led interactive sessions with Q&A, focusing on React best practices, design patterns, and developer efficiency;",
           "Created base projects and shared with students to practice the concepts learned;"
         ]
       },
@@ -70,16 +70,16 @@
         "role": "Senior Full-Stack Engineer",
         "accomplishments": [
           "Created a high-performance and fully accessible professional portfolio website using React/Tailwind CSS to handle routing in the front, Next.js/Node.js to provide Server Side Rendering in the back end, Jest/Cypress to provide 100% code coverage, including some visual tests, and Vercel's Frontend Cloud for deployment;",
-          "Built a template-based app for printing medical reports using React to handle the dynamic fields in the front, Next.js/Node.js to provide Server Side Rendering in the back end, and Vercel's Frontend Cloud for deployment;",
-          "Created a ticket booking API using the Nest.js framework (Node.js) to expose some different endpoints, Kong as an API gateway to manage all the requests, and MySQL to store the data in a simple relational database;"
+          "Delivered a dynamic medical report printing platform built with React and Next.js/Node.js (SSR), hosted on Vercel for rapid deployment and scalability;",
+          "Developed a ticket booking API using Nest.js, Kong, and MySQL, showcasing strong backend design and DevOps integration;"
         ]
       },
       "olx-1": {
         "role": "Engineering Manager",
         "accomplishments": [
-          "Launched the new Ad Insertion journey in stages, giving users a fluid and easier experience to sell items in the classified platform;",
-          "Published a new LTR ranking algorithm that brings 10% more conversion in the Ad Recommendation system;",
-          "Led the new platform home page initiative, created in less than 48 hours, supported by the Design System;",
+          "Launched the new Ad Insertion experience, increasing ad posting conversions and simplifying the selling process for millions of users;",
+          "Shipped a machine learning-powered LTR algorithm that boosted ad recommendation engagement by 10%;",
+          "Delivered a brand new homepage in under 48 hours, supported by the Design System, to accelerate validation and rollout;",
           "Made some advertising improvements to the platform that generated revenue of R$80 million;",
           "Recruited new professionals to increase production capacity by 300%, and be able to focus on the functionalities of the mobile application;"
         ]
@@ -87,10 +87,9 @@
       "meaning-1": {
         "role": "CTO & Partner",
         "accomplishments": [
-          "Defined the startup's technical vision and product strategy;",
-          "Refined the product's technical specifications with the Product Team;",
-          "Developed the solution from the ground up and delivered it to 4 new clients;",
-          "Launched the MVP platform;"
+          "Defined the technical vision and product roadmap from scratch, translating the company's business goals into an executable engineering strategy;",
+          "Collaborated directly with founders and product stakeholders to iterate rapidly and align technical direction with customer feedback;",
+          "Built and launched the MVP platform, acquiring 4 clients within the first months and establishing scalable cloud infrastructure on GCP;"
         ]
       },
       "softplan-3": {
