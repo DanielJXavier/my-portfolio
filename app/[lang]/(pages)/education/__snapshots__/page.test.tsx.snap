@@ -60,7 +60,7 @@ exports[`Education page renders the page 1`] = `
       <h3
         class="xl:text-xl"
       >
-        Master of Business Administration - MBA
+        MBA
       </h3>
     </section>
     <section

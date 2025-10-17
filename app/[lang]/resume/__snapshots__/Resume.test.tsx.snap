@@ -3,7 +3,7 @@
 exports[`Resume page (Client-side) renders the page 1`] = `
 <div>
   <main
-    class="max-w-[210mm] print:w-[210mm] row-span-3 flex flex-col gap-y-5 text-sm font-serif p-[0.5in] leading-snug"
+    class="max-w-[210mm] print:w-[210mm] row-span-3 flex flex-col gap-y-6 text-sm font-serif p-[0.5in] leading-snug"
   >
     <section>
       <h1
@@ -96,7 +96,7 @@ exports[`Resume page (Client-side) renders the page 1`] = `
       </h2>
       <hr />
       <textarea
-        class="w-full text-[12pt] text-justify align-top border border-primary print:border-none print:resize-none"
+        class="mt-1 w-full text-[12pt] text-justify align-top border border-primary print:mt-0 print:border-none print:resize-none"
         rows="11"
       >
         A Senior/Lead Front-End Engineer with 13+ years of experience helping US-based companies build intuitive user interfaces, ensuring code quality, high performance, scalability, accessibility, and security. Specialized in React, Next.js, TypeScript, and Tailwind CSS, now powered by top AI tools to go even faster.
@@ -363,10 +363,12 @@ What I like most about Front-End is combining clean code, best practices, and de
           Storybook
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
           data-testid="visibility-control"
+          data-visible=""
         >
           <input
+            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -768,7 +770,7 @@ What I like most about Front-End is combining clean code, best practices, and de
             class="print:hidden"
             type="checkbox"
           />
-          Amazon Web Services (AWS)
+          AWS
         </li>
         <li
           class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -778,7 +780,7 @@ What I like most about Front-End is combining clean code, best practices, and de
             class="print:hidden"
             type="checkbox"
           />
-          Google Cloud Platform (GCP)
+          GCP
         </li>
         <li
           class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -1528,7 +1530,7 @@ What I like most about Front-End is combining clean code, best practices, and de
       </h2>
       <hr />
       <ul
-        class="flex flex-col gap-y-3"
+        class="flex flex-col gap-y-5"
       >
         <li
           class="items-baseline break-inside-avoid flex gap-x-1.5 "
@@ -1575,7 +1577,7 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Optimized the main front-end repository reducing the build time from 40s to 2s, without compromising the code quality and performance;
+                Reduced front-end build time by 95% (40s → 2s) through deep refactoring and dependency optimization, accelerating CI/CD pipelines and developer iteration speed;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1587,7 +1589,7 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Launched the new ERC product journey to reach more than 455k new customers;
+                Built a new Stripe-powered checkout experience supporting 4 countries and 5 languages, resulting in a net gain of +7.3 checkouts/day and 20% higher test coverage;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1599,7 +1601,7 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Built the new Stripe integrated checkout with a net gain of 7.3 checkouts per day, supporting 4 countries and 5 languages, and improving the code coverage by more than 20%;
+                Launched the ERC product journey that reached 455K+ new customers in just a few months, helping scale Lovevery's ecommerce reach and conversion funnel;
               </li>
               <li
                 class="mt-1 items-baseline flex gap-x-1.5 "
@@ -1611,10 +1613,18 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Main stack
-                :
-                 
-                React | Next.js | Tailwind CSS | TypeScript | Jest | React Testing Library | Cypress | Playwright | Contentful | Stripe | Vercel
+                <p>
+                  <span
+                    class="font-bold"
+                  >
+                    Main stack
+                  </span>
+                  :
+                  <span>
+                     
+                    React | Next.js | Tailwind CSS | TypeScript | Jest | React Testing Library | Cypress | Playwright | Contentful | Stripe | Vercel
+                  </span>
+                </p>
               </li>
             </ul>
           </div>
@@ -1664,7 +1674,7 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Recorded more than 16 hours of Front-End Fundamentals with React classes;
+                Taught 16+ hours of Front-End Fundamentals with React;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1676,7 +1686,7 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Hosted live sessions to support students with their doubts and share some tips to improve their learning;
+                Led interactive sessions with Q&A, focusing on React best practices, design patterns, and developer efficiency;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -1698,10 +1708,18 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Main stack
-                :
-                 
-                React | Next.js | Tailwind CSS | HTML5 | CSS3 | JavaScript | Functional Programming
+                <p>
+                  <span
+                    class="font-bold"
+                  >
+                    Main stack
+                  </span>
+                  :
+                  <span>
+                     
+                    React | Next.js | Tailwind CSS | HTML5 | CSS3 | JavaScript | Functional Programming
+                  </span>
+                </p>
               </li>
             </ul>
           </div>
@@ -1749,7 +1767,7 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Created a high-performance and fully accessible professional portfolio website using React/Tailwind CSS to handle routing in the front, Next.js/Node.js to provide Server Side Rendering in the back end, Jest/Cypress to provide 100% code coverage including some visual tests, and Vercel's Frontend Cloud for deployment;
+                Created a high-performance and fully accessible professional portfolio website using React/Tailwind CSS to handle routing in the front, Next.js/Node.js to provide Server Side Rendering in the back end, Jest/Cypress to provide 100% code coverage, including some visual tests, and Vercel's Frontend Cloud for deployment;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1761,7 +1779,7 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Built a template-based app for printing medical reports using React to handle the dynamic fields in the front, Next.js/Node.js to provide Server Side Rendering in the back end, and Vercel's Frontend Cloud for deployment;
+                Delivered a dynamic medical report printing platform built with React and Next.js/Node.js (SSR), hosted on Vercel for rapid deployment and scalability;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1773,7 +1791,7 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Created a ticket booking API using the Nest.js framework (Node.js) to expose some different endpoints, Kong as an API gateway to manage all the requests, and MySQL to store the data in a simple relational database;
+                Developed a ticket booking API using Nest.js, Kong, and MySQL, showcasing strong backend design and DevOps integration;
               </li>
               <li
                 class="mt-1 items-baseline flex gap-x-1.5 "
@@ -1785,10 +1803,18 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Main stack
-                :
-                 
-                Next.js | Tailwind CSS | TypeScript | Nest.js | Kong | Jest | React Testing Library | Cypress | Vercel | MySQL
+                <p>
+                  <span
+                    class="font-bold"
+                  >
+                    Main stack
+                  </span>
+                  :
+                  <span>
+                     
+                    Next.js | Tailwind CSS | TypeScript | Node.js | Kong | Jest | React Testing Library | Cypress | Vercel | MySQL
+                  </span>
+                </p>
               </li>
             </ul>
           </div>
@@ -1838,7 +1864,7 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Launched the new Ad Insertion journey in stages, giving users a fluid and easier experience to sell items in the classified platform;
+                Launched the new Ad Insertion experience, increasing ad posting conversions and simplifying the selling process for millions of users;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1850,7 +1876,7 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Published a new LTR ranking algorithm that brings 10% more conversion in the Ad Recommendation system;
+                Shipped a machine learning-powered LTR algorithm that boosted ad recommendation engagement by 10%;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1862,7 +1888,7 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Led the new platform home page initiative, created in less than 48 hours, supported by the Design System;
+                Delivered a brand new homepage in under 48 hours, supported by the Design System, to accelerate validation and rollout;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1896,10 +1922,18 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Main stack
-                :
-                 
-                React | HTML5 | CSS3 | Storybook | JavaScript | Node.js | Python | Amazon Web Services (AWS) | Amazon S3 - Cloud Object Storage | PostgreSQL | Google Ad Manager | Native Android | Java | Kotlin | Native iOS | SwiftUI | React Native | Firebase | Elasticsearh
+                <p>
+                  <span
+                    class="font-bold"
+                  >
+                    Main stack
+                  </span>
+                  :
+                  <span>
+                     
+                    React | HTML5 | CSS3 | Storybook | JavaScript | Node.js | Python | AWS | Amazon S3 - Cloud Object Storage | PostgreSQL | Google Ad Manager | Native Android | Java | Kotlin | Native iOS | SwiftUI | React Native | Firebase | Elasticsearh
+                  </span>
+                </p>
               </li>
             </ul>
           </div>
@@ -1949,7 +1983,7 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Defined the startup's technical vision and product strategy;
+                Defined the technical vision and product roadmap from scratch, translating the company's business goals into an executable engineering strategy;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1961,7 +1995,7 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Refined the product's technical specifications with the Product Team;
+                Collaborated directly with founders and product stakeholders to iterate rapidly and align technical direction with customer feedback;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1973,17 +2007,7 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Developed the solution from the ground up and delivered it to 4 new clients;
-              </li>
-              <li
-                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-                data-testid="visibility-control"
-              >
-                <input
-                  class="print:hidden"
-                  type="checkbox"
-                />
-                Launched the MVP platform;
+                Built and launched the MVP platform, acquiring 4 clients within the first months and establishing scalable cloud infrastructure on GCP;
               </li>
               <li
                 class="mt-1 items-baseline flex gap-x-1.5 "
@@ -1995,10 +2019,18 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Main stack
-                :
-                 
-                HTML5 | CSS3 | JavaScript | Google Cloud Platform (GCP) | BPMN
+                <p>
+                  <span
+                    class="font-bold"
+                  >
+                    Main stack
+                  </span>
+                  :
+                  <span>
+                     
+                    HTML5 | CSS3 | JavaScript | GCP | BPMN
+                  </span>
+                </p>
               </li>
             </ul>
           </div>
@@ -2104,10 +2136,18 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Main stack
-                :
-                 
-                React | Micro Frontends | .NET | GraphQL | Amazon Web Services (AWS) | SQL Server | Delphi
+                <p>
+                  <span
+                    class="font-bold"
+                  >
+                    Main stack
+                  </span>
+                  :
+                  <span>
+                     
+                    React | Micro Frontends | .NET | GraphQL | AWS | SQL Server | Delphi
+                  </span>
+                </p>
               </li>
             </ul>
           </div>
@@ -2213,10 +2253,18 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Main stack
-                :
-                 
-                React | Micro Frontends | .NET | GraphQL | Amazon Web Services (AWS) | SQL Server
+                <p>
+                  <span
+                    class="font-bold"
+                  >
+                    Main stack
+                  </span>
+                  :
+                  <span>
+                     
+                    React | Micro Frontends | .NET | GraphQL | AWS | SQL Server
+                  </span>
+                </p>
               </li>
             </ul>
           </div>
@@ -2302,10 +2350,18 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Main stack
-                :
-                 
-                React | Micro Frontends | .NET | GraphQL | Amazon Web Services (AWS) | SQL Server
+                <p>
+                  <span
+                    class="font-bold"
+                  >
+                    Main stack
+                  </span>
+                  :
+                  <span>
+                     
+                    React | Micro Frontends | .NET | GraphQL | AWS | SQL Server
+                  </span>
+                </p>
               </li>
             </ul>
           </div>
@@ -2379,10 +2435,18 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Main stack
-                :
-                 
-                HTML5 | CSS3 | Vue.js | Nuxt.js | JavaScript | Node.js | Express | Amazon Web Services (AWS) | MySQL
+                <p>
+                  <span
+                    class="font-bold"
+                  >
+                    Main stack
+                  </span>
+                  :
+                  <span>
+                     
+                    HTML5 | CSS3 | Vue.js | Nuxt.js | JavaScript | Node.js | Express | AWS | MySQL
+                  </span>
+                </p>
               </li>
             </ul>
           </div>
@@ -2466,10 +2530,18 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Main stack
-                :
-                 
-                HTML5 | CSS3 | Vue.js | Nuxt.js | JavaScript | Node.js | Express | PHP | WordPress | Nginx | Amazon Web Services (AWS) | MySQL
+                <p>
+                  <span
+                    class="font-bold"
+                  >
+                    Main stack
+                  </span>
+                  :
+                  <span>
+                     
+                    HTML5 | CSS3 | Vue.js | Nuxt.js | JavaScript | Node.js | Express | PHP | WordPress | Nginx | AWS | MySQL
+                  </span>
+                </p>
               </li>
             </ul>
           </div>
@@ -2551,19 +2623,29 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Main stack
-                :
-                 
-                HTML5 | CSS3 | JavaScript | PHP | WordPress | Nginx | Amazon Web Services (AWS) | MySQL
+                <p>
+                  <span
+                    class="font-bold"
+                  >
+                    Main stack
+                  </span>
+                  :
+                  <span>
+                     
+                    HTML5 | CSS3 | JavaScript | PHP | WordPress | Nginx | AWS | MySQL
+                  </span>
+                </p>
               </li>
             </ul>
           </div>
         </li>
         <li
-          class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="items-baseline break-inside-avoid flex gap-x-1.5 "
           data-testid="visibility-control"
+          data-visible=""
         >
           <input
+            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -2593,24 +2675,40 @@ What I like most about Front-End is combining clean code, best practices, and de
               class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
             >
               <li
-                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                class="items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
+                data-visible=""
               >
                 <input
+                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
-                Spearheaded the development of web projects utilizing WordPress and Magento;
+                Led the development of new web projects with WordPress and Magento;
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                class="items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
+                data-visible=""
               >
                 <input
+                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
-                Facilitated the modeling and automation of the company's internal processes through BPMN;
+                Added new features to a plataform built in Angular, Express and MySQL;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Updated the modeling and automation of the company's internal processes through BPMN;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -2633,26 +2731,38 @@ What I like most about Front-End is combining clean code, best practices, and de
                 Oversaw the configuration and monitoring of both Linux and Windows servers.
               </li>
               <li
-                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                class="mt-1 items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
+                data-visible=""
               >
                 <input
+                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
-                Main stack
-                :
-                 
-                HTML5 | CSS3 | Angular | JavaScript | Node.js | Express | LoopBack | PHP | WordPress | Magento | Apache | Linux Servers | Windows Servers | Amazon Web Services (AWS) | MySQL | SQL Server | Oracle | BPMN
+                <p>
+                  <span
+                    class="font-bold"
+                  >
+                    Main stack
+                  </span>
+                  :
+                  <span>
+                     
+                    Angular | Node.js | Express | PHP | WordPress | Magento | MySQL | BPMN
+                  </span>
+                </p>
               </li>
             </ul>
           </div>
         </li>
         <li
-          class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="items-baseline break-inside-avoid flex gap-x-1.5 "
           data-testid="visibility-control"
+          data-visible=""
         >
           <input
+            checked=""
             class="print:hidden"
             type="checkbox"
           />
@@ -2682,20 +2792,24 @@ What I like most about Front-End is combining clean code, best practices, and de
               class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
             >
               <li
-                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                class="items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
+                data-visible=""
               >
                 <input
+                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
                 Provided technical support to users of the company's systems;
               </li>
               <li
-                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                class="items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
+                data-visible=""
               >
                 <input
+                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
@@ -2722,22 +2836,39 @@ What I like most about Front-End is combining clean code, best practices, and de
                 Offered infrastructure support to the company's employees.
               </li>
               <li
-                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                class="mt-1 items-baseline flex gap-x-1.5 "
                 data-testid="visibility-control"
+                data-visible=""
               >
                 <input
+                  checked=""
                   class="print:hidden"
                   type="checkbox"
                 />
-                Main stack
-                :
-                 
-                JavaScript | Linux Servers | Windows Servers | Amazon Web Services (AWS) | SQL Server | Oracle | BPMN
+                <p>
+                  <span
+                    class="font-bold"
+                  >
+                    Main stack
+                  </span>
+                  :
+                  <span>
+                     
+                    JavaScript | Apache | Linux Servers | Windows Servers | AWS
+                  </span>
+                </p>
               </li>
             </ul>
           </div>
         </li>
-        <li>
+        <li
+          class=" flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
           ... and
            
           other previous roles
@@ -2768,7 +2899,7 @@ What I like most about Front-End is combining clean code, best practices, and de
             <p
               class="text-[12pt] font-bold"
             >
-              Master of Business Administration - MBA
+              MBA
               ,
                
               Strategic People Management

@@ -45,7 +45,7 @@ exports[`EducationItem component renders the component 1`] = `
       <h3
         class="xl:text-xl"
       >
-        Master of Business Administration - MBA
+        MBA
       </h3>
     </section>
     <section

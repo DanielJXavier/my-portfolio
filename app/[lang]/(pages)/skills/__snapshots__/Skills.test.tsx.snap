@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Skills page (Client-side) calls the handleClick function 1`] = `
 <div>
@@ -366,12 +366,12 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
     <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Amazon Web Services (AWS)
+      AWS
     </span>
     <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Google Cloud Platform (GCP)
+      GCP
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1175,12 +1175,12 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
     <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Amazon Web Services (AWS)
+      AWS
     </span>
     <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Google Cloud Platform (GCP)
+      GCP
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1922,12 +1922,12 @@ exports[`Skills page (Client-side) renders the page 1`] = `
     <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Amazon Web Services (AWS)
+      AWS
     </span>
     <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Google Cloud Platform (GCP)
+      GCP
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
@@ -2669,12 +2669,12 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
     <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Amazon Web Services (AWS)
+      AWS
     </span>
     <span
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Google Cloud Platform (GCP)
+      GCP
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"

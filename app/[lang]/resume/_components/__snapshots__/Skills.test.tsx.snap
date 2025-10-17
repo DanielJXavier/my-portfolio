@@ -259,10 +259,12 @@ exports[`Skills component renders the component 1`] = `
         Storybook
       </li>
       <li
-        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
         data-testid="visibility-control"
+        data-visible=""
       >
         <input
+          checked=""
           class="print:hidden"
           type="checkbox"
         />
@@ -664,7 +666,7 @@ exports[`Skills component renders the component 1`] = `
           class="print:hidden"
           type="checkbox"
         />
-        Amazon Web Services (AWS)
+        AWS
       </li>
       <li
         class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -674,7 +676,7 @@ exports[`Skills component renders the component 1`] = `
           class="print:hidden"
           type="checkbox"
         />
-        Google Cloud Platform (GCP)
+        GCP
       </li>
       <li
         class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
