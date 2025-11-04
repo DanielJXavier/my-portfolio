@@ -75,7 +75,7 @@ export const experience: ExperienceInterface[] = [
     resume: true,
     resumeAccomplishments: [1, 2],
     hasBlackLogo: true,
-    hidden: false,
+    hidden: true,
   },
   {
     key: "danielxavier-1",
