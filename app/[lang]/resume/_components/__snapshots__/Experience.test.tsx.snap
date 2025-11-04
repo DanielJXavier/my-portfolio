@@ -81,7 +81,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Launched the ERC product journey that reached 455K+ new customers in just a few months, helping scale Lovevery's ecommerce reach and conversion funnel;
+              Launched the ERC product journey that reached 455K+ new customers in just a few months, helping scale Lovevery's ecommerce reach and conversion funnel.
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 "
@@ -103,101 +103,6 @@ exports[`Experience component renders the component 1`] = `
                 <span>
                    
                   React | Next.js | Tailwind CSS | TypeScript | Jest | React Testing Library | Cypress | Playwright | Contentful | Stripe | Vercel
-                </span>
-              </p>
-            </li>
-          </ul>
-        </div>
-      </li>
-      <li
-        class="items-baseline break-inside-avoid flex gap-x-1.5 "
-        data-testid="visibility-control"
-        data-visible=""
-      >
-        <input
-          checked=""
-          class="print:hidden"
-          type="checkbox"
-        />
-        <div>
-          <p
-            class="text-[12pt]"
-          >
-            <span
-              class="font-bold"
-            >
-              Post-graduation Professor
-               @ 
-              PDSAcademy
-            </span>
-            <span>
-               
-              (
-              06-2025
-               
-              to
-               
-              06-2025
-              )
-            </span>
-          </p>
-          <ul
-            class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
-          >
-            <li
-              class="items-baseline flex gap-x-1.5 "
-              data-testid="visibility-control"
-              data-visible=""
-            >
-              <input
-                checked=""
-                class="print:hidden"
-                type="checkbox"
-              />
-              Taught 16+ hours of Front-End Fundamentals with React;
-            </li>
-            <li
-              class="items-baseline flex gap-x-1.5 "
-              data-testid="visibility-control"
-              data-visible=""
-            >
-              <input
-                checked=""
-                class="print:hidden"
-                type="checkbox"
-              />
-              Led interactive sessions with Q&A, focusing on React best practices, design patterns, and developer efficiency;
-            </li>
-            <li
-              class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
-              data-testid="visibility-control"
-            >
-              <input
-                class="print:hidden"
-                type="checkbox"
-              />
-              Created base projects and shared with students to practice the concepts learned;
-            </li>
-            <li
-              class="mt-1 items-baseline flex gap-x-1.5 "
-              data-testid="visibility-control"
-              data-visible=""
-            >
-              <input
-                checked=""
-                class="print:hidden"
-                type="checkbox"
-              />
-              <p>
-                <span
-                  class="font-bold"
-                >
-                  Main stack
-                </span>
-                :
-                <span>
-                   
-                  React | Next.js | Tailwind CSS | HTML5 | CSS3 | JavaScript | Functional Programming
                 </span>
               </p>
             </li>
@@ -271,7 +176,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Developed a ticket booking API using Nest.js, Kong, and MySQL, showcasing strong backend design and DevOps integration;
+              Developed a ticket booking API using Nest.js, Kong, and MySQL, showcasing strong backend design and DevOps integration.
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 "
@@ -390,7 +295,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Recruited new professionals to increase production capacity by 300%, and be able to focus on the functionalities of the mobile application;
+              Recruited new professionals to increase production capacity by 300%, and be able to focus on the functionalities of the mobile application.
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 "
@@ -487,7 +392,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Built and launched the MVP platform, acquiring 4 clients within the first months and establishing scalable cloud infrastructure on GCP;
+              Built and launched the MVP platform, acquiring 4 clients within the first months and establishing scalable cloud infrastructure on GCP.
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 "
@@ -604,7 +509,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Created formulas and metrics to accurately gauge the team's capacity, and sprint velocity, thereby bringing predictability to deliveries;
+              Created formulas and metrics to accurately gauge the team's capacity, and sprint velocity, thereby bringing predictability to deliveries.
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 "
@@ -721,7 +626,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Hired tons of new employees for the company and new contractor professionals aligned with our development culture;
+              Hired tons of new employees for the company and new contractor professionals aligned with our development culture.
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 "
@@ -794,7 +699,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Successful delivered the team's most critical and complex project in less than 6 months, helping the Product Owner improve some features;
+              Successfully delivered the team's most critical and complex project in less than 6 months, helping the Product Owner improve some features;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -818,7 +723,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Created new features for the core system helping tons of law professionals in their work;
+              Created new features for the core system helping tons of law professionals in their work.
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 "
@@ -903,7 +808,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Created a Proof of Concept (POC) interface, only using JavaScript and HTML, that introduced a very simplified method for product registration on the platform (our main bottleneck);
+              Created a Proof of Concept (POC) interface, only using JavaScript and HTML, that introduced a very simplified method for product registration on the platform (our main bottleneck).
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 "
@@ -998,7 +903,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Implemented the Arabic version of the "Hotmart blog" using pure CSS;
+              Implemented the Arabic version of the "Hotmart blog" using pure CSS.
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 "
@@ -1091,7 +996,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Created custom features within the WordPress admin interface;
+              Created custom features within the WordPress admin interface.
             </li>
             <li
               class="mt-1 items-baseline flex gap-x-1.5 "

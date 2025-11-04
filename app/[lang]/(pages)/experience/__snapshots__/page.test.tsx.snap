@@ -88,46 +88,6 @@ exports[`Experience page (Server-side) renders the page 1`] = `
       class="flex items-start gap-x-2"
     >
       <img
-        alt="Logo of PDSAcademy company"
-        class="rounded-full border-2 border-solid border-secondary"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimages%2Fexperience%2Fpdsacademy.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimages%2Fexperience%2Fpdsacademy.jpg&w=48&q=75 1x, /_next/image?url=%2Fimages%2Fexperience%2Fpdsacademy.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <h2
-        class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
-      >
-        Post-graduation Professor
-         @ 
-        PDSAcademy
-        <span
-          class="text-xs md:text-sm"
-        >
-           
-          (
-          06-2025
-           
-          to
-           
-          06-2025
-          )
-        </span>
-      </h2>
-    </header>
-  </article>
-  <article
-    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-secondary before:via-secondary before:to-background before:-z-10"
-    data-testid="experience-item"
-  >
-    <header
-      class="flex items-start gap-x-2"
-    >
-      <img
         alt="Logo of <DanielXavier /> company"
         class="rounded-full border-2 border-solid border-secondary"
         data-nimg="1"
