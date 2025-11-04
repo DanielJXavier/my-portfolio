@@ -25,10 +25,6 @@ export default function Experience() {
 
   const visibleExperience = experience.filter(({ hidden }) => !hidden);
 
-  const visibleExperienceResume = visibleExperience.filter(
-    ({ resume }) => resume
-  );
-
   const experienceItems = useRef<ExperienceItemsType>(items);
 
   return (
@@ -98,11 +94,7 @@ export default function Experience() {
             </VisibilityControl>
           )
         )}
-        <VisibilityControl
-          defaultVisible={
-            visibleExperience.length > visibleExperienceResume.length
-          }
-        >
+        <VisibilityControl defaultVisible={false}>
           {previousItemsText.prefix} {previousItemsText.sufix}
         </VisibilityControl>
       </ul>
