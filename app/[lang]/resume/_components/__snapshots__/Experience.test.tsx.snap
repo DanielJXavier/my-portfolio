@@ -110,12 +110,10 @@ exports[`Experience component renders the component 1`] = `
         </div>
       </li>
       <li
-        class="items-baseline break-inside-avoid flex gap-x-1.5 "
+        class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
-        data-visible=""
       >
         <input
-          checked=""
           class="print:hidden"
           type="checkbox"
         />
@@ -179,12 +177,10 @@ exports[`Experience component renders the component 1`] = `
               Developed a ticket booking API using Nest.js, Kong, and MySQL, showcasing strong backend design and DevOps integration.
             </li>
             <li
-              class="mt-1 items-baseline flex gap-x-1.5 "
+              class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
               data-testid="visibility-control"
-              data-visible=""
             >
               <input
-                checked=""
                 class="print:hidden"
                 type="checkbox"
               />
@@ -1247,10 +1243,12 @@ exports[`Experience component renders the component 1`] = `
         </div>
       </li>
       <li
-        class=" flex gap-x-1.5 opacity-50 line-through print:hidden"
+        class=" flex gap-x-1.5 "
         data-testid="visibility-control"
+        data-visible=""
       >
         <input
+          checked=""
           class="print:hidden"
           type="checkbox"
         />
