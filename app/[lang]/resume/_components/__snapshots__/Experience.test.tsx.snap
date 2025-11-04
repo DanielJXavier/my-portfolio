@@ -1243,12 +1243,10 @@ exports[`Experience component renders the component 1`] = `
         </div>
       </li>
       <li
-        class=" flex gap-x-1.5 "
+        class=" flex gap-x-1.5 opacity-50 line-through print:hidden"
         data-testid="visibility-control"
-        data-visible=""
       >
         <input
-          checked=""
           class="print:hidden"
           type="checkbox"
         />

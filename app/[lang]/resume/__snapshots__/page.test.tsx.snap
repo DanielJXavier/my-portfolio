@@ -2763,12 +2763,10 @@ What I like most about Front-End is combining clean code, best practices, and de
           </div>
         </li>
         <li
-          class=" flex gap-x-1.5 "
+          class=" flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
-          data-visible=""
         >
           <input
-            checked=""
             class="print:hidden"
             type="checkbox"
           />
