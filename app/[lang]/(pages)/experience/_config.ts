@@ -98,7 +98,7 @@ export const experience: ExperienceInterface[] = [
     resume: false,
     resumeAccomplishments: [2, 3],
     hasBlackLogo: true,
-    hidden: false,
+    hidden: true,
   },
   {
     key: "olx-1",
