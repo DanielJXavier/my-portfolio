@@ -624,6 +624,26 @@ What I like most about Front-End is combining clean code, best practices, and de
             class="print:hidden"
             type="checkbox"
           />
+          Cursor
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          Copilot
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
           PHP
         </li>
         <li
