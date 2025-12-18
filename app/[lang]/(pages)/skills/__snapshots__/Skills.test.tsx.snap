@@ -126,6 +126,21 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
+      Rollup
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Vite
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Babel
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
       Redux
     </span>
     <span
@@ -177,6 +192,21 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Micro Frontends
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      React Query
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      React Router
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      CSS-in-JS
     </span>
     <span
       class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -945,6 +975,21 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
+      Rollup
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Vite
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Babel
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
       Redux
     </span>
     <span
@@ -996,6 +1041,21 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Micro Frontends
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      React Query
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      React Router
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      CSS-in-JS
     </span>
     <span
       class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -1702,6 +1762,21 @@ exports[`Skills page (Client-side) renders the page 1`] = `
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
+      Rollup
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Vite
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Babel
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
       Redux
     </span>
     <span
@@ -1753,6 +1828,21 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Micro Frontends
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      React Query
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      React Router
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      CSS-in-JS
     </span>
     <span
       class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
@@ -2459,6 +2549,21 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
+      Rollup
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Vite
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Babel
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
       Redux
     </span>
     <span
@@ -2510,6 +2615,21 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
       class="text-base md:text-xl lg:text-2xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Micro Frontends
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      React Query
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      React Router
+    </span>
+    <span
+      class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      CSS-in-JS
     </span>
     <span
       class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
