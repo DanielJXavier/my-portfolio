@@ -18,6 +18,97 @@ exports[`Education page renders the page 1`] = `
     Education
   </h1>
   <article
+    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-secondary before:via-secondary before:to-background before:-z-10"
+    data-testid="education-item"
+  >
+    <header
+      class="flex items-start gap-x-2"
+    >
+      <img
+        alt="Logo of UNIPDS school"
+        class="rounded-full border-2 border-solid border-secondary"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Feducation%2Funipds.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fimages%2Feducation%2Funipds.jpg&w=48&q=75 1x, /_next/image?url=%2Fimages%2Feducation%2Funipds.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <h2
+        class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
+      >
+        Applied AI Engineering
+         @ 
+        UNIPDS
+        <span
+          class="text-xs md:text-sm"
+        >
+           
+          (
+          2025
+           ~ 
+          2026
+          )
+        </span>
+      </h2>
+    </header>
+    <section
+      class="pl-14 lg:px-14"
+    >
+      <h3
+        class="xl:text-xl"
+      >
+        Postgraduate Degree
+      </h3>
+    </section>
+    <section
+      class="mt-4 pl-14 xl:px-14"
+    >
+      <ul
+        class="pl-7 list-disc text-sm xl:text-base"
+      >
+        <li>
+          AI Fundamentals and LLMs for Programmers
+        </li>
+        <li>
+          Generative AI APIs and Prompt Engineering
+        </li>
+        <li>
+          MCP - Model Context Protocol
+        </li>
+        <li>
+          Creating Autonomous Agents
+        </li>
+        <li>
+          AI Tools for UX & UI
+        </li>
+        <li>
+          AI Tools for DevOps
+        </li>
+        <li>
+          AI Tools for Project Management
+        </li>
+        <li>
+          AI Systems Architecture
+        </li>
+        <li>
+          Data Processing and Model Fine-Tuning
+        </li>
+        <li>
+          Security and Governance in AI
+        </li>
+        <li>
+          Integrative Project - Capstone Project
+        </li>
+        <li>
+          Career and Interviews for Applied AI Engineers
+        </li>
+      </ul>
+    </section>
+  </article>
+  <article
     class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-[#2f4ccc] before:via-[#2f4ccc] before:to-background before:-z-10"
     data-testid="education-item"
   >
@@ -26,7 +117,7 @@ exports[`Education page renders the page 1`] = `
     >
       <img
         alt="Logo of Estácio school"
-        class="rounded-full"
+        class="rounded-full "
         data-nimg="1"
         decoding="async"
         height="40"
@@ -108,7 +199,7 @@ exports[`Education page renders the page 1`] = `
     >
       <img
         alt="Logo of Universidade FUMEC school"
-        class="rounded-full"
+        class="rounded-full "
         data-nimg="1"
         decoding="async"
         height="40"

@@ -2789,6 +2789,35 @@ What I like most about Front-End is combining clean code, best practices, and de
             <p
               class="text-[12pt] font-bold"
             >
+              Postgraduate Degree
+              ,
+               
+              Applied AI Engineering
+               (
+              2026
+              )
+            </p>
+            <p
+              class="text-[12pt]"
+            >
+              UNIPDS
+            </p>
+          </div>
+        </li>
+        <li
+          class="items-baseline break-inside-avoid flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt] font-bold"
+            >
               MBA
               ,
                

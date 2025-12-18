@@ -3,38 +3,38 @@
 exports[`EducationItem component renders the component 1`] = `
 <div>
   <article
-    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-[#2f4ccc] before:via-[#2f4ccc] before:to-background before:-z-10"
+    class="my-6 sm:my-10 relative before:content-[''] before:absolute before:top-[40px] before:bottom-[-21px] before:sm:bottom-[-36px] last-of-type:before:bottom-0 before:left-[16px] before:ml-0.5 before:w-1 before:bg-gradient-to-b before:from-secondary before:via-secondary before:to-background before:-z-10"
     data-testid="education-item"
   >
     <header
       class="flex items-start gap-x-2"
     >
       <img
-        alt="Logo of Estácio school"
-        class="rounded-full"
+        alt="Logo of UNIPDS school"
+        class="rounded-full "
         data-nimg="1"
         decoding="async"
         height="40"
         loading="lazy"
-        src="/_next/image?url=%2Fimages%2Feducation%2Festacio.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimages%2Feducation%2Festacio.jpg&w=48&q=75 1x, /_next/image?url=%2Fimages%2Feducation%2Festacio.jpg&w=96&q=75 2x"
+        src="/_next/image?url=%2Fimages%2Feducation%2Funipds.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fimages%2Feducation%2Funipds.jpg&w=48&q=75 1x, /_next/image?url=%2Fimages%2Feducation%2Funipds.jpg&w=96&q=75 2x"
         style="color: transparent;"
         width="40"
       />
       <h2
         class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
       >
-        Strategic People Management
+        Applied AI Engineering
          @ 
-        Estácio
+        UNIPDS
         <span
           class="text-xs md:text-sm"
         >
            
           (
-          2020
+          2025
            ~ 
-          2021
+          2026
           )
         </span>
       </h2>
@@ -45,7 +45,7 @@ exports[`EducationItem component renders the component 1`] = `
       <h3
         class="xl:text-xl"
       >
-        MBA
+        Postgraduate Degree
       </h3>
     </section>
     <section
@@ -55,31 +55,40 @@ exports[`EducationItem component renders the component 1`] = `
         class="pl-7 list-disc text-sm xl:text-base"
       >
         <li>
-          Coaching and Leadership
+          AI Fundamentals and LLMs for Programmers
         </li>
         <li>
-          Communication in Organizations
+          Generative AI APIs and Prompt Engineering
         </li>
         <li>
-          Conflict Management and Negotiation
+          MCP - Model Context Protocol
         </li>
         <li>
-          Corporative Education
+          Creating Autonomous Agents
         </li>
         <li>
-          Creativity and Organizational Innovation
+          AI Tools for UX & UI
         </li>
         <li>
-          Finance Principles
+          AI Tools for DevOps
         </li>
         <li>
-          Knowledge Management
+          AI Tools for Project Management
         </li>
         <li>
-          Strategic Vision in People Management
+          AI Systems Architecture
         </li>
         <li>
-          Theory of Organizational Development
+          Data Processing and Model Fine-Tuning
+        </li>
+        <li>
+          Security and Governance in AI
+        </li>
+        <li>
+          Integrative Project - Capstone Project
+        </li>
+        <li>
+          Career and Interviews for Applied AI Engineers
         </li>
       </ul>
     </section>
