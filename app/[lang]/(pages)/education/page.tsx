@@ -32,19 +32,22 @@ export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
     <>
       <Title icon={<School />}>{title}</Title>
 
-      {education.map(({ schoolId, schoolName, startYear, endYear }, i) => (
-        <EducationItem
-          key={`education-item-${i}`}
-          schoolId={schoolId}
-          schoolName={schoolName}
-          fieldOfStudy={educationStrings[schoolId].fieldOfStudy}
-          degree={educationStrings[schoolId].degree}
-          startYear={startYear}
-          endYear={endYear}
-          subjects={educationStrings[schoolId].subjects}
-          imageAltText={imageAltText}
-        />
-      ))}
+      {education.map(
+        ({ schoolId, schoolName, startYear, endYear, hasBlackLogo }, i) => (
+          <EducationItem
+            key={`education-item-${i}`}
+            schoolId={schoolId}
+            schoolName={schoolName}
+            fieldOfStudy={educationStrings[schoolId].fieldOfStudy}
+            degree={educationStrings[schoolId].degree}
+            startYear={startYear}
+            endYear={endYear}
+            subjects={educationStrings[schoolId].subjects}
+            imageAltText={imageAltText}
+            hasBlackLogo={hasBlackLogo}
+          />
+        )
+      )}
     </>
   );
 }

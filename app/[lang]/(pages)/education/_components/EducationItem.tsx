@@ -12,6 +12,7 @@ type EducationItemPropsType = Readonly<{
     prefix: string;
     sufix: string;
   };
+  hasBlackLogo: boolean;
 }>;
 
 type MapSchoolIdToColorType = {
@@ -32,6 +33,7 @@ export default function EducationItem({
   endYear,
   subjects,
   imageAltText,
+  hasBlackLogo,
 }: EducationItemPropsType) {
   return (
     <article
@@ -40,7 +42,9 @@ export default function EducationItem({
     >
       <header className="flex items-start gap-x-2">
         <Image
-          className="rounded-full"
+          className={`rounded-full ${
+            hasBlackLogo ? "border-2 border-solid border-secondary" : ""
+          }`}
           src={`/images/education/${schoolId}.jpg`}
           width={40}
           height={40}
