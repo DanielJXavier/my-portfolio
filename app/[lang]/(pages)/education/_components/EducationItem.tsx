@@ -20,6 +20,7 @@ type MapSchoolIdToColorType = {
 };
 
 const mapSchoolIdToColor: MapSchoolIdToColorType = {
+  unipds: "before:from-secondary before:via-secondary",
   estacio: "before:from-[#2f4ccc] before:via-[#2f4ccc]",
   fumec: "before:from-[#316ba9] before:via-[#316ba9]",
 };

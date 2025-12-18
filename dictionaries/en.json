@@ -175,6 +175,24 @@
   "education": {
     "title": "Education",
     "items": {
+      "unipds": {
+        "fieldOfStudy": "Applied AI Engineering",
+        "degree": "Postgraduate Degree",
+        "subjects": [
+          "AI Fundamentals and LLMs for Programmers",
+          "Generative AI APIs and Prompt Engineering",
+          "MCP - Model Context Protocol",
+          "Creating Autonomous Agents",
+          "AI Tools for UX & UI",
+          "AI Tools for DevOps",
+          "AI Tools for Project Management",
+          "AI Systems Architecture",
+          "Data Processing and Model Fine-Tuning",
+          "Security and Governance in AI",
+          "Integrative Project - Capstone Project",
+          "Career and Interviews for Applied AI Engineers"
+        ]
+      },
       "estacio": {
         "fieldOfStudy": "Strategic People Management",
         "degree": "MBA",
