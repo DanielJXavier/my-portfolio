@@ -48,7 +48,7 @@
     "sharp": "^0.34.5"
   },
   "devDependencies": {
-    "@formatjs/intl-localematcher": "^0.7.5",
+    "@formatjs/intl-localematcher": "^0.8.1",
     "@simonsmith/cypress-image-snapshot": "^9.1.0",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",

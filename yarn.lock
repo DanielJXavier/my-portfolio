@@ -524,22 +524,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@formatjs/fast-memoize@npm:3.0.3":
-  version: 3.0.3
-  resolution: "@formatjs/fast-memoize@npm:3.0.3"
+"@formatjs/fast-memoize@npm:3.1.0":
+  version: 3.1.0
+  resolution: "@formatjs/fast-memoize@npm:3.1.0"
   dependencies:
-    tslib: "npm:^2.8.0"
-  checksum: 10c0/074b7d85b0ad1d6c6b3eba9a56b6ba30eb3c9de4fb6e33f1ca70a77a42ba7df4129f11dd912556c9a15d20ab4c2e6674cc6a340718ced33130fc71c640543fa1
+    tslib: "npm:^2.8.1"
+  checksum: 10c0/367cf8b2816117a3870224a56a3127f2fa5fb854f696102e1cb6229c2f6dec35ccb433fa5343cda76ee5a0a21bff977fad1e4a15f9fba06bcb11f5d4e76d8919
   languageName: node
   linkType: hard
 
-"@formatjs/intl-localematcher@npm:^0.7.5":
-  version: 0.7.5
-  resolution: "@formatjs/intl-localematcher@npm:0.7.5"
+"@formatjs/intl-localematcher@npm:^0.8.1":
+  version: 0.8.1
+  resolution: "@formatjs/intl-localematcher@npm:0.8.1"
   dependencies:
-    "@formatjs/fast-memoize": "npm:3.0.3"
-    tslib: "npm:^2.8.0"
-  checksum: 10c0/b5c1837165c357c7f26e537c8ad261b387b06be8c8e189cfa4f252567e6de0b69c67efbf027ce9621eaa6d1020449c6fd574406c63ead3022a2c78d1f4f51b57
+    "@formatjs/fast-memoize": "npm:3.1.0"
+    tslib: "npm:^2.8.1"
+  checksum: 10c0/c1ecd407891dec31bc5e9cab7ac4294bfb8c9eb11a5e624d9ae81627fb4dbb27ce38b0efafcfd8b26981b3ea43d765de34238a50474d07fd9556d1e79cfbcc6b
   languageName: node
   linkType: hard
 
@@ -6514,7 +6514,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "my-portfolio@workspace:."
   dependencies:
-    "@formatjs/intl-localematcher": "npm:^0.7.5"
+    "@formatjs/intl-localematcher": "npm:^0.8.1"
     "@simonsmith/cypress-image-snapshot": "npm:^9.1.0"
     "@testing-library/dom": "npm:^10.4.1"
     "@testing-library/jest-dom": "npm:^6.9.1"
@@ -8536,7 +8536,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.1.0, tslib@npm:^2.4.0, tslib@npm:^2.8.0":
+"tslib@npm:^2.1.0, tslib@npm:^2.4.0, tslib@npm:^2.8.1":
   version: 2.8.1
   resolution: "tslib@npm:2.8.1"
   checksum: 10c0/9c4759110a19c53f992d9aae23aac5ced636e99887b51b9e61def52611732872ff7668757d4e4c61f19691e36f4da981cd9485e869b4a7408d689f6bf1f14e62
