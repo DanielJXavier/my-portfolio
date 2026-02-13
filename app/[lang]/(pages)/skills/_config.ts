@@ -139,7 +139,7 @@ export const hardSkills: SkillInterface[] = [
   { key: "oop", name: "OOP", size: 1 },
   { key: "regex", name: "Regular Expressions", size: 2 },
   { key: "markdown", name: "MarkDown", size: 1 },
-  { key: "es", name: "Elasticsearh", size: 1 },
+  { key: "es", name: "Elasticsearch", size: 1 },
   { key: "delphi", name: "Delphi", size: 1 },
 ];
 
