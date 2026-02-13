@@ -26,11 +26,13 @@ export default function Education() {
             className="items-baseline break-inside-avoid"
           >
             <div>
-              <p className="text-[12pt] font-bold">
-                {educationStrings[schoolId].degree},{" "}
-                {educationStrings[schoolId].fieldOfStudy} ({endYear})
+              <p className="text-[12pt]">
+                <span className="font-bold">
+                  {educationStrings[schoolId].degree},{" "}
+                  {educationStrings[schoolId].fieldOfStudy} @ {schoolName}
+                </span>
+                <span> ({endYear})</span>
               </p>
-              <p className="text-[12pt]">{schoolName}</p>
             </div>
           </VisibilityControl>
         ))}

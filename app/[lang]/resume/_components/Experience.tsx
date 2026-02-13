@@ -31,7 +31,7 @@ export default function Experience() {
     <section>
       <h2 className="text-[16pt] font-bold">{sectionTitles.experience}</h2>
       <hr />
-      <ul className="flex flex-col gap-y-5">
+      <ul className="flex flex-col gap-y-3">
         {visibleExperience.map(
           ({
             key,
@@ -65,16 +65,16 @@ export default function Experience() {
                         className="items-baseline"
                         defaultVisible={resumeAccomplishments?.some(
                           (resumeAccomplishment) =>
-                            resumeAccomplishment === i + 1
+                            resumeAccomplishment === i + 1,
                         )}
                       >
                         {accomplishment}
                       </VisibilityControl>
-                    )
+                    ),
                   )}
                   <VisibilityControl
                     className="mt-1 items-baseline"
-                    defaultVisible={resume}
+                    defaultVisible={resumeAccomplishments.length > 0}
                   >
                     <p>
                       <span className="font-bold">{mainStackTitle}</span>:
@@ -82,7 +82,7 @@ export default function Experience() {
                         {" "}
                         {hardSkills
                           .filter(({ key }) =>
-                            mainStack.some((stack) => stack === key)
+                            mainStack.some((stack) => stack === key),
                           )
                           .map(({ name }) => name)
                           .join(" | ")}
@@ -92,7 +92,7 @@ export default function Experience() {
                 </ul>
               </div>
             </VisibilityControl>
-          )
+          ),
         )}
         <VisibilityControl defaultVisible={false}>
           {previousItemsText.prefix} {previousItemsText.sufix}
