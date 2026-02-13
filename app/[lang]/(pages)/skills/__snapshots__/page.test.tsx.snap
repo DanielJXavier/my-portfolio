@@ -621,7 +621,7 @@ exports[`Skills page (Server-side) renders the page 1`] = `
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
-      Elasticsearh
+      Elasticsearch
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"

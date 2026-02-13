@@ -1184,7 +1184,7 @@ exports[`Skills component renders the component 1`] = `
           class="print:hidden"
           type="checkbox"
         />
-        Elasticsearh
+        Elasticsearch
       </li>
       <li
         class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"

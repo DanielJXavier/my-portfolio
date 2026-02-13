@@ -190,7 +190,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Made some advertising improvements to the platform that generated revenue of R$80 million;
+              Made strategic advertising improvements to the platform that generated revenue of R$80 million;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -221,7 +221,7 @@ exports[`Experience component renders the component 1`] = `
                 :
                 <span>
                    
-                  React | HTML5 | CSS3 | Storybook | JavaScript | Node.js | Python | AWS | Amazon S3 - Cloud Object Storage | PostgreSQL | Google Ad Manager | Native Android | Java | Kotlin | Native iOS | SwiftUI | React Native | Firebase | Elasticsearh
+                  React | HTML5 | CSS3 | Storybook | JavaScript | Node.js | Python | AWS | Amazon S3 - Cloud Object Storage | PostgreSQL | Google Ad Manager | React Native | Elasticsearch
                 </span>
               </p>
             </li>
@@ -273,7 +273,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Defined the technical vision and product roadmap from scratch, translating the company's business goals into an executable engineering strategy;
+              Side project with limited time availability, but with a strong focus on delivering value to the company and its customers;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "
@@ -285,7 +285,7 @@ exports[`Experience component renders the component 1`] = `
                 class="print:hidden"
                 type="checkbox"
               />
-              Collaborated directly with founders and product stakeholders to iterate rapidly and align technical direction with customer feedback;
+              Defined the technical vision and product roadmap from scratch, translating the company's business goals into an executable engineering strategy;
             </li>
             <li
               class="items-baseline flex gap-x-1.5 "

@@ -97,13 +97,13 @@ exports[`Resume page (Client-side) renders the page 1`] = `
       <hr />
       <textarea
         class="mt-1 w-full text-[12pt] text-justify align-top border border-primary print:mt-0 print:border-none print:resize-none"
-        rows="11"
+        rows="12"
       >
         A Senior/Lead Front-End Engineer with 13+ years of experience helping US-based companies build intuitive user interfaces, ensuring code quality, high performance, scalability, accessibility, and security. Specialized in React, Next.js, TypeScript, and Tailwind CSS, now powered by top AI tools to go even faster.
 
 Currently working at Lovevery, delivering meaningful projects like the New Checkout with a net gain of 7.3 new checkouts per day and the ERC launch to reach more than 455k customers in just a few months.
 
-What I like most about Front-End is combining clean code, best practices, and design to create products that truly make a difference for real users and bring remarkable business results!
+The most exciting thing about Front-End is combining clean code, best practices, and design to create products that truly make a difference for real users and bring remarkable business results!
       </textarea>
     </section>
     <section>
@@ -1288,7 +1288,7 @@ What I like most about Front-End is combining clean code, best practices, and de
             class="print:hidden"
             type="checkbox"
           />
-          Elasticsearh
+          Elasticsearch
         </li>
         <li
           class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -1790,7 +1790,7 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Made some advertising improvements to the platform that generated revenue of R$80 million;
+                Made strategic advertising improvements to the platform that generated revenue of R$80 million;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -1821,7 +1821,7 @@ What I like most about Front-End is combining clean code, best practices, and de
                   :
                   <span>
                      
-                    React | HTML5 | CSS3 | Storybook | JavaScript | Node.js | Python | AWS | Amazon S3 - Cloud Object Storage | PostgreSQL | Google Ad Manager | Native Android | Java | Kotlin | Native iOS | SwiftUI | React Native | Firebase | Elasticsearh
+                    React | HTML5 | CSS3 | Storybook | JavaScript | Node.js | Python | AWS | Amazon S3 - Cloud Object Storage | PostgreSQL | Google Ad Manager | React Native | Elasticsearch
                   </span>
                 </p>
               </li>
@@ -1873,7 +1873,7 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Defined the technical vision and product roadmap from scratch, translating the company's business goals into an executable engineering strategy;
+                Side project with limited time availability, but with a strong focus on delivering value to the company and its customers;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1885,7 +1885,7 @@ What I like most about Front-End is combining clean code, best practices, and de
                   class="print:hidden"
                   type="checkbox"
                 />
-                Collaborated directly with founders and product stakeholders to iterate rapidly and align technical direction with customer feedback;
+                Defined the technical vision and product roadmap from scratch, translating the company's business goals into an executable engineering strategy;
               </li>
               <li
                 class="items-baseline flex gap-x-1.5 "
