@@ -28,7 +28,7 @@
     "summary": [
       "A Senior/Lead Front-End Engineer with 13+ years of experience helping US-based companies build intuitive user interfaces, ensuring code quality, high performance, scalability, accessibility, and security. Specialized in React, Next.js, TypeScript, and Tailwind CSS, now powered by top AI tools to go even faster.",
       "Currently working at Lovevery, delivering meaningful projects like the New Checkout with a net gain of 7.3 new checkouts per day and the ERC launch to reach more than 455k customers in just a few months.",
-      "What I like most about Front-End is combining clean code, best practices, and design to create products that truly make a difference for real users and bring remarkable business results!"
+      "The most exciting thing about Front-End is combining clean code, best practices, and design to create products that truly make a difference for real users and bring remarkable business results!"
     ],
     "imageAltText": "Photo of the author"
   },
@@ -80,15 +80,15 @@
           "Launched the new Ad Insertion experience, increasing ad posting conversions and simplifying the selling process for millions of users;",
           "Shipped a machine learning-powered LTR algorithm that boosted ad recommendation engagement by 10%;",
           "Delivered a brand new homepage in under 48 hours, supported by the Design System, to accelerate validation and rollout;",
-          "Made some advertising improvements to the platform that generated revenue of R$80 million;",
+          "Made strategic advertising improvements to the platform that generated revenue of R$80 million;",
           "Recruited new professionals to increase production capacity by 300%, and be able to focus on the functionalities of the mobile application."
         ]
       },
       "meaning-1": {
         "role": "CTO & Partner",
         "accomplishments": [
+          "Side project with limited time availability, but with a strong focus on delivering value to the company and its customers;",
           "Defined the technical vision and product roadmap from scratch, translating the company's business goals into an executable engineering strategy;",
-          "Collaborated directly with founders and product stakeholders to iterate rapidly and align technical direction with customer feedback;",
           "Built and launched the MVP platform, acquiring 4 clients within the first months and establishing scalable cloud infrastructure on GCP."
         ]
       },
