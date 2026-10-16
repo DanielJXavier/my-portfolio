@@ -16,7 +16,7 @@ jest.mock("next/navigation");
 
 describe("EducationItem component", () => {
   it("renders the component", () => {
-    const { schoolId, schoolName, startYear, endYear } = education[0];
+    const { schoolId, schoolName, startYear, endYear, hasBlackLogo } = education[0];
 
     const { container } = render(
       <EducationItem
@@ -28,6 +28,7 @@ describe("EducationItem component", () => {
         endYear={endYear}
         subjects={educationStrings.items[schoolId].subjects}
         imageAltText={educationStrings.imageAltText}
+        hasBlackLogo={hasBlackLogo}
       />
     );
 
