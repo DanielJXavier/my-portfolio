@@ -704,6 +704,16 @@ The most exciting thing about Front-End is combining clean code, best practices,
             class="print:hidden"
             type="checkbox"
           />
+          Claude Code
+        </li>
+        <li
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
           PHP
         </li>
         <li
@@ -1703,6 +1713,190 @@ The most exciting thing about Front-End is combining clean code, best practices,
                   <span>
                      
                     React | Next.js | Tailwind CSS | TypeScript | Jest | React Testing Library | Cypress | Playwright | Contentful | Stripe | Vercel
+                  </span>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li
+          class="items-baseline break-inside-avoid flex gap-x-1.5 "
+          data-testid="visibility-control"
+          data-visible=""
+        >
+          <input
+            checked=""
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt]"
+            >
+              <span
+                class="font-bold"
+              >
+                Software Engineer
+                 @ 
+                Constructor
+              </span>
+              <span>
+                 
+                (
+                05-2026
+                 
+                to
+                 
+                10-2026
+                )
+              </span>
+            </p>
+            <ul
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+            >
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Implemented 100+ Amplitude events across core platform flows, enabling data-driven analysis of user journeys and product adoption;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Supported the team in delivering over 20 customer-ready demos, streamlining the demo setup process and improving efficiency in showcasing the platform's capabilities;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Launched a Soft Reset feature that gives users a clear path to recover from configuration issues without losing their existing platform setup, improving usability and reducing friction in core workflows.
+              </li>
+              <li
+                class="mt-1 items-baseline flex gap-x-1.5 "
+                data-testid="visibility-control"
+                data-visible=""
+              >
+                <input
+                  checked=""
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                <p>
+                  <span
+                    class="font-bold"
+                  >
+                    Main stack
+                  </span>
+                  :
+                  <span>
+                     
+                    React | Next.js | Tailwind CSS | TypeScript | JavaScript | Cypress | Claude Code
+                  </span>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li
+          class="items-baseline break-inside-avoid flex gap-x-1.5 opacity-50 line-through print:hidden"
+          data-testid="visibility-control"
+        >
+          <input
+            class="print:hidden"
+            type="checkbox"
+          />
+          <div>
+            <p
+              class="text-[12pt]"
+            >
+              <span
+                class="font-bold"
+              >
+                Lead Front-End Engineer
+                 @ 
+                YES Technology
+              </span>
+              <span>
+                 
+                (
+                08-2024
+                 
+                to
+                 
+                09-2025
+                )
+              </span>
+            </p>
+            <ul
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+            >
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Led the Design System project, implementing components to support the whole company ecosystem, keeping a maintainable and scalable codebase, very well aligned with the company's brand and design principles;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Created a few dynamic components to support a new client website, making the customizations needed to fit the client's requirements;
+              </li>
+              <li
+                class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                Added some new features to the company's main app, improving the user experience and the code quality.
+              </li>
+              <li
+                class="mt-1 items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
+                data-testid="visibility-control"
+              >
+                <input
+                  class="print:hidden"
+                  type="checkbox"
+                />
+                <p>
+                  <span
+                    class="font-bold"
+                  >
+                    Main stack
+                  </span>
+                  :
+                  <span>
+                     
+                    React | Styled Components | Storybook | Micro Frontends | TypeScript | Jest | React Testing Library | Docker
                   </span>
                 </p>
               </li>

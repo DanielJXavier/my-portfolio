@@ -334,6 +334,11 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
       Copilot
     </span>
     <span
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Claude Code
+    </span>
+    <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       PHP
@@ -1183,6 +1188,11 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
       Copilot
     </span>
     <span
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Claude Code
+    </span>
+    <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       PHP
@@ -1970,6 +1980,11 @@ exports[`Skills page (Client-side) renders the page 1`] = `
       Copilot
     </span>
     <span
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Claude Code
+    </span>
+    <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"
     >
       PHP
@@ -2755,6 +2770,11 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
       class="text-xl md:text-2px	lg:text-3xl font-light tracking-tighter [word-spacing:-0.35em]"
     >
       Copilot
+    </span>
+    <span
+      class="text-2xl md:text-4xl lg:text-5xl font-light tracking-tighter [word-spacing:-0.35em]"
+    >
+      Claude Code
     </span>
     <span
       class="text-sm md:text-base lg:text-lg font-light tracking-tighter [word-spacing:-0.35em]"

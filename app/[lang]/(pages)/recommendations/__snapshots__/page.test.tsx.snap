@@ -25,6 +25,261 @@ exports[`Recommendations page renders the page 1`] = `
       class="grid grid-cols-[auto_1fr] gap-x-3"
     >
       <img
+        alt="Photo of the author (Ana Topalovic)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Frecommendations%2F1768895512984.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Fimages%2Frecommendations%2F1768895512984.jpeg&w=64&q=75 1x, /_next/image?url=%2Fimages%2Frecommendations%2F1768895512984.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Ana Topalovic
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Software Engineer
+           @ 
+          Constructor
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        It was a pleasure to work with Daniel!
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        We had many interesting and productive 1-1's. He is always interested in what everyone is doing and how he can contribute or improve his approach. Always proactive, speaking up and sharing knowledge.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Besides being a great engineer, Daniel is always a supportive colleague and easy to talk to, he always listens and doesn't judge!
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (George Karan Kommers Mueller)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Frecommendations%2F1783790048537.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Fimages%2Frecommendations%2F1783790048537.jpeg&w=64&q=75 1x, /_next/image?url=%2Fimages%2Frecommendations%2F1783790048537.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          George Karan Kommers Mueller
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Software Engineer
+           @ 
+          Constructor
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        I had the pleasure of working with Daniel for about six months, and I have nothing but good things to say about him. He took full ownership of our Amplitude implementation, making it much easier for the team to understand and analyze user flows.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Daniel is an excellent communicator: his decisions are clear and concise, and whenever he encounters a roadblock he proactively raises it with the right context and options.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        In team meetings, Daniel is highly engaged and consistently helps turn discussions into concrete action items. I strongly recommend him for any team looking for a proactive, analytical, and collaborative teammate.
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (Correy Lim)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Frecommendations%2F1632408608181.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Fimages%2Frecommendations%2F1632408608181.jpeg&w=64&q=75 1x, /_next/image?url=%2Fimages%2Frecommendations%2F1632408608181.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Correy Lim
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Engineering Manager
+           @ 
+          Constructor
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        In my time working with Daniel, he has always demonstrated critical considerations on projects we collaborated on together, from consistently providing a fresh perspective and speaking up to raise awareness of processes that could be implemented more sustainably, all the way to creatively thinking about how to leverage existing tools in new ways— for example, expanding our data collection suite to reduce potential blind spots areas and prevent coverage gaps, in effort to minimize the likelihood of the team being caught off guard in the data pipelines we worked on. A pleasure to work with and easy to relate to day-to-day, Daniel is a great to have as a colleague!
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (Wlad Kłaczkow)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Frecommendations%2F1771322647219.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Fimages%2Frecommendations%2F1771322647219.jpeg&w=64&q=75 1x, /_next/image?url=%2Fimages%2Frecommendations%2F1771322647219.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Wlad Kłaczkow
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Senior UI Engineer
+           @ 
+          Constructor
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Daniel is a senior UI engineer, with huge experience and broad knowledge on wide range of technologies. I've really enjoyed working with him. He's always gave new & interesting ideas to different problems, he's very sharp on modern technology approaches/designs/architecture. And i've also enjoyed working with him as a person, as a part of our team. He's good communicator, supportive and honest.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Having Daniel in your team will only benefit you!
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
+        alt="Photo of the author (Hannah Koh)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Frecommendations%2F1724961576793.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Fimages%2Frecommendations%2F1724961576793.jpeg&w=64&q=75 1x, /_next/image?url=%2Fimages%2Frecommendations%2F1724961576793.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Hannah Koh
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Solutions Engineer
+           @ 
+          Constructor
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Daniel brings a positive, proactive and humble attitude to the work he does. When working with Daniel I could tell he was eager to learn and think critically through how to develop for the best solution. He knows when to ask for help and always invites collaboration and feedback after thoughtfully explaining his approach and the problem he is facing. Overall, Daniel is a great coworker and operates with a positive attitude!
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        It was a pleasure working with Daniel and I would definitely recommend working with him.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        I hope our paths cross again in the near future!
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
         alt="Photo of the author (Ben Lechlitner)"
         class="rounded-full"
         data-nimg="1"
