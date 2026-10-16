@@ -42,18 +42,18 @@ jobs:
         with:
           cache: "yarn"
           node-version: 24.22
-      
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build
+        run: yarn build
+
       - name: E2E Tests
-        uses: cypress-io/github-action@v7
-        with:
-          install-command: yarn install --immutable
-          build: yarn build
-          start: yarn start
-          wait-on: 'http://localhost:3000'
-          command: yarn cy:run
-        env:
-          CYPRESS_INSTALL_BINARY: '1'
-          YARN_ENABLE_SCRIPTS: 'true'
+        run: |
+          yarn start & npx wait-on http://localhost:3000
+          npx cypress install
+          yarn cy:run
 
       - uses: actions/upload-artifact@v7
         if: failure()
