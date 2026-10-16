@@ -68,6 +68,7 @@ export const hardSkills: SkillInterface[] = [
   /* AI */
   { key: "cursor", name: "Cursor", size: 3 },
   { key: "copilot", name: "Copilot", size: 3 },
+  { key: "claude", name: "Claude Code", size: 4 },
   /* PHP */
   { key: "php", name: "PHP", size: 1 },
   { key: "wordpress", name: "WordPress", size: 1 },
