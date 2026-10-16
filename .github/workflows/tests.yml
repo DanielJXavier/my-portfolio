@@ -43,24 +43,14 @@ jobs:
           cache: "yarn"
           node-version: 24.22
       
-      - name: Cache Cypress Binary
-        uses: actions/cache@v6
-        with:
-          path: ~/.cache/Cypress
-          key: cypress-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            cypress-${{ runner.os }}-
-
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-
-      - name: Build
-        run: yarn build
-
       - name: E2E Tests
-        run: |
-          yarn start & npx wait-on http://localhost:3000
-          yarn cy:run
+        uses: cypress-io/github-action@v7
+        with:
+          install-command: yarn install --frozen-lockfile
+          build: yarn build
+          start: yarn start
+          wait-on: 'http://localhost:3000'
+          command: yarn cy:run
 
       - uses: actions/upload-artifact@v7
         if: failure()
