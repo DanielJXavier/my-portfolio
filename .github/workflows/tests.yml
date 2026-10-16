@@ -42,6 +42,14 @@ jobs:
         with:
           cache: "yarn"
           node-version: 24.22
+      
+      - name: Cache Cypress Binary
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/Cypress
+          key: cypress-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            cypress-${{ runner.os }}-
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
@@ -52,7 +60,6 @@ jobs:
       - name: E2E Tests
         run: |
           yarn start & npx wait-on http://localhost:3000
-          npx cypress install
           yarn cy:run
 
       - uses: actions/upload-artifact@v7
