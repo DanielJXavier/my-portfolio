@@ -3,8 +3,8 @@ import { useContext } from "react";
 import Image from "next/image";
 import { useParams } from "next/navigation";
 
-import { getDictionary } from "get-dictionary";
-import { Lang } from "i18n-config";
+import { getDictionary } from "@/get-dictionary";
+import { Lang } from "@/i18n-config";
 
 import { hardSkills } from "../../skills/_config";
 

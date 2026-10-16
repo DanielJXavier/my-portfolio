@@ -1,10 +1,10 @@
 import { Metadata } from "next";
 
-import { getDictionary } from "get-dictionary";
-import { Lang } from "i18n-config";
+import { getDictionary } from "@/get-dictionary";
+import { Lang } from "@/i18n-config";
 
-import Title from "@/_components/Title";
-import Reviews from "@/_icons/Reviews";
+import Title from "@/app/_components/Title";
+import Reviews from "@/app/_icons/Reviews";
 
 import RecommendationItem from "./_components/RecommendationItem";
 import { recommendations } from "./_config";

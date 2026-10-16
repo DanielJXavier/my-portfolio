@@ -4,9 +4,9 @@ import "@testing-library/jest-dom";
 
 import { render } from "@testing-library/react";
 
-import en from "dictionaries/en.json";
+import en from "@/dictionaries/en.json";
 
-import { author } from "@/_config";
+import { author } from "@/app/_config";
 
 import RootLayout, { generateMetadata, generateStaticParams } from "./layout";
 

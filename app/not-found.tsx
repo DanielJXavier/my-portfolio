@@ -6,10 +6,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import { getDictionary } from "get-dictionary";
-import { getCurrentLang } from "i18n-config";
+import { getDictionary } from "@/get-dictionary";
+import { getCurrentLang } from "@/i18n-config";
 
-import { author } from "@/_config";
+import { author } from "@/app/_config";
 
 export default function NotFound() {
   const pathname = usePathname();

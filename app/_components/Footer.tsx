@@ -2,10 +2,10 @@
 
 import { useParams } from "next/navigation";
 
-import { getDictionary } from "get-dictionary";
-import { Lang } from "i18n-config";
+import { getDictionary } from "@/get-dictionary";
+import { Lang } from "@/i18n-config";
 
-import { author } from "@/_config";
+import { author } from "@/app/_config";
 
 import LangSwitcher from "./LangSwitcher";
 

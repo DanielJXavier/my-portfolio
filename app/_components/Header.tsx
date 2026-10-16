@@ -4,9 +4,9 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
 
-import { Lang } from "i18n-config";
+import { Lang } from "@/i18n-config";
 
-import { author } from "@/_config";
+import { author } from "@/app/_config";
 
 import Menu from "./Menu";
 

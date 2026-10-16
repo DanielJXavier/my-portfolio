@@ -4,7 +4,7 @@ import { render } from "@testing-library/react";
 
 import Page from "./page";
 
-import { author } from "@/_config";
+import { author } from "@/app/_config";
 
 import { useParams } from "next/navigation";
 

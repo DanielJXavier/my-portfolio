@@ -3,10 +3,10 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname, useParams } from "next/navigation";
 
-import { getDictionary } from "get-dictionary";
-import { Lang } from "i18n-config";
+import { getDictionary } from "@/get-dictionary";
+import { Lang } from "@/i18n-config";
 
-import { menu } from "@/_config";
+import { menu } from "@/app/_config";
 
 export default function Menu() {
   const { lang } = useParams<{ lang: Lang }>();

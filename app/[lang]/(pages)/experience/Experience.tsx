@@ -4,11 +4,11 @@ import { createContext, useRef, useState } from "react";
 
 import { useParams } from "next/navigation";
 
-import { ExperienceItemsType, getDictionary } from "get-dictionary";
-import { Lang } from "i18n-config";
+import { ExperienceItemsType, getDictionary } from "@/get-dictionary";
+import { Lang } from "@/i18n-config";
 
-import Title from "@/_components/Title";
-import Work from "@/_icons/Work";
+import Title from "@/app/_components/Title";
+import Work from "@/app/_icons/Work";
 
 import Menu from "../_components/Menu";
 

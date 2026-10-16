@@ -4,7 +4,7 @@ import { fireEvent, render, screen } from "@testing-library/react";
 
 import { usePathname, useParams } from "next/navigation";
 
-import { menu } from "@/_config";
+import { menu } from "@/app/_config";
 
 import Menu from "./Menu";
 

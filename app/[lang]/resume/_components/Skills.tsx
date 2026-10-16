@@ -2,13 +2,13 @@ import { useRef } from "react";
 
 import { useParams } from "next/navigation";
 
-import { getDictionary } from "get-dictionary";
-import { Lang } from "i18n-config";
+import { getDictionary } from "@/get-dictionary";
+import { Lang } from "@/i18n-config";
 
 import {
   hardSkills as allHardSkills,
   softSkills as softSkillsKeys,
-} from "@/[lang]/(pages)/skills/_config";
+} from "@/app/[lang]/(pages)/skills/_config";
 
 import { chosenHardSkills, chosenSoftSkills } from "../_config";
 

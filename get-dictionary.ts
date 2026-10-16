@@ -1,7 +1,7 @@
-import { i18n, Lang } from "i18n-config";
+import { i18n, Lang } from "@/i18n-config";
 
-import en from "dictionaries/en.json" with { type: "json" };
-import pt from "dictionaries/pt.json" with { type: "json" };
+import en from "@/dictionaries/en.json" with { type: "json" };
+import pt from "@/dictionaries/pt.json" with { type: "json" };
 
 type DictionaryType = typeof en;
 

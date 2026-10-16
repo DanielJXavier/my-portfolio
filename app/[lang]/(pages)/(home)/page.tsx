@@ -1,18 +1,18 @@
 import Image from "next/image";
 
-import { getDictionary } from "get-dictionary";
-import { Lang } from "i18n-config";
+import { getDictionary } from "@/get-dictionary";
+import { Lang } from "@/i18n-config";
 
-import Title from "@/_components/Title";
+import Title from "@/app/_components/Title";
 
-import { author } from "@/_config";
+import { author } from "@/app/_config";
 
-import Email from "@/_icons/Email";
-import GitHub from "@/_icons/GitHub";
-import Instagram from "@/_icons/Instagram";
-import KeepPublic from "@/_icons/KeepPublic";
-import LinkedIn from "@/_icons/LinkedIn";
-import WhatsApp from "@/_icons/WhatsApp";
+import Email from "@/app/_icons/Email";
+import GitHub from "@/app/_icons/GitHub";
+import Instagram from "@/app/_icons/Instagram";
+import KeepPublic from "@/app/_icons/KeepPublic";
+import LinkedIn from "@/app/_icons/LinkedIn";
+import WhatsApp from "@/app/_icons/WhatsApp";
 
 import { links } from "./_config";
 

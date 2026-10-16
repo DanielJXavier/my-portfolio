@@ -1,10 +1,10 @@
 import { Metadata } from "next";
 
-import { getDictionary } from "get-dictionary";
-import { Lang } from "i18n-config";
+import { getDictionary } from "@/get-dictionary";
+import { Lang } from "@/i18n-config";
 
-import Title from "@/_components/Title";
-import School from "@/_icons/School";
+import Title from "@/app/_components/Title";
+import School from "@/app/_icons/School";
 
 import EducationItem from "./_components/EducationItem";
 import { education } from "./_config";

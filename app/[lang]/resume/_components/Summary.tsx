@@ -1,7 +1,7 @@
 import { useParams } from "next/navigation";
 
-import { getDictionary } from "get-dictionary";
-import { Lang } from "i18n-config";
+import { getDictionary } from "@/get-dictionary";
+import { Lang } from "@/i18n-config";
 
 import { maxSummaryParagraphs } from "../_config";
 import { useRef } from "react";

@@ -4,7 +4,7 @@ import { render } from "@testing-library/react";
 
 import Page, { generateMetadata } from "./page";
 
-import en from "dictionaries/en.json";
+import en from "@/dictionaries/en.json";
 
 import { useParams } from "next/navigation";
 

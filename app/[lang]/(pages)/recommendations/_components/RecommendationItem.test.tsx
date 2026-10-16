@@ -2,7 +2,7 @@ import "@testing-library/jest-dom";
 
 import { render } from "@testing-library/react";
 
-import { recommendations as recommendationsStrings } from "dictionaries/en.json";
+import { recommendations as recommendationsStrings } from "@/dictionaries/en.json";
 
 import { recommendations } from "../_config";
 

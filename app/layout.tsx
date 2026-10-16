@@ -15,12 +15,12 @@ const SpeedInsights = dynamic(() =>
   )
 );
 
-import { getDictionary } from "get-dictionary";
-import { getAlternateLanguages, langStaticParams, Lang } from "i18n-config";
+import { getDictionary } from "@/get-dictionary";
+import { getAlternateLanguages, langStaticParams, Lang } from "@/i18n-config";
 
-import { author } from "@/_config";
+import { author } from "@/app/_config";
 
-import "@/globals.css";
+import "@/app/globals.css";
 
 type RootLayoutProps = Readonly<{
   children: ReactNode;

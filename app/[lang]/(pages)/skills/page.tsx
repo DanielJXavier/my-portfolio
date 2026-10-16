@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
-import { getDictionary } from "get-dictionary";
-import { Lang } from "i18n-config";
+import { getDictionary } from "@/get-dictionary";
+import { Lang } from "@/i18n-config";
 
 import Skills from "./Skills";
 

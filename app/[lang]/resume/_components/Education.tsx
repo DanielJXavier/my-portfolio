@@ -1,9 +1,9 @@
 import { useParams } from "next/navigation";
 
-import { getDictionary } from "get-dictionary";
-import { Lang } from "i18n-config";
+import { getDictionary } from "@/get-dictionary";
+import { Lang } from "@/i18n-config";
 
-import { education } from "@/[lang]/(pages)/education/_config";
+import { education } from "@/app/[lang]/(pages)/education/_config";
 
 import VisibilityControl from "./VisibiltyControl";
 

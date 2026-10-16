@@ -4,8 +4,8 @@ import { render } from "@testing-library/react";
 
 import { useParams } from "next/navigation";
 
-import { experience } from "dictionaries/en.json";
-import { ExperienceItemsType } from "get-dictionary";
+import { experience } from "@/dictionaries/en.json";
+import { ExperienceItemsType } from "@/get-dictionary";
 
 import { experience as experienceConfig } from "../_config";
 

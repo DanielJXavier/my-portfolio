@@ -4,7 +4,7 @@ import { render } from "@testing-library/react";
 
 import { useParams } from "next/navigation";
 
-import { education as educationStrings } from "dictionaries/en.json";
+import { education as educationStrings } from "@/dictionaries/en.json";
 
 import { education } from "../_config";
 

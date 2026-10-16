@@ -4,11 +4,11 @@ import { useRef, useState } from "react";
 
 import { useParams, useSearchParams } from "next/navigation";
 
-import { getDictionary } from "get-dictionary";
-import { Lang } from "i18n-config";
+import { getDictionary } from "@/get-dictionary";
+import { Lang } from "@/i18n-config";
 
-import Title from "@/_components/Title";
-import Psychology from "@/_icons/Psychology";
+import Title from "@/app/_components/Title";
+import Psychology from "@/app/_icons/Psychology";
 
 import Menu from "../_components/Menu";
 

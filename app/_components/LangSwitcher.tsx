@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
 
-import { i18n, Lang } from "i18n-config";
+import { i18n, Lang } from "@/i18n-config";
 
 const mapLangToFlag: { [key: Lang]: string } = {
   en: "🇺🇸",
