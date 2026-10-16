@@ -1,5 +1,30 @@
 export const recommendations = [
   {
+    authorId: "1768895512984",
+    authorName: "Ana Topalovic",
+    company: "Constructor",
+  },
+  {
+    authorId: "1783790048537",
+    authorName: "George Karan Kommers Mueller",
+    company: "Constructor",
+  },
+  {
+    authorId: "1632408608181",
+    authorName: "Correy Lim",
+    company: "Constructor",
+  },
+  {
+    authorId: "1771322647219",
+    authorName: "Wlad Kłaczkow",
+    company: "Constructor",
+  },
+  {
+    authorId: "1724961576793",
+    authorName: "Hannah Koh",
+    company: "Constructor",
+  },
+  {
     authorId: "1758032899095",
     authorName: "Ben Lechlitner",
     company: "Lovevery",
