@@ -55,7 +55,7 @@
     "@testing-library/react": "^16.3.3",
     "@types/jest": "^30.0.0",
     "@types/negotiator": "^0.6.5",
-    "@types/node": "^22.20.5",
+    "@types/node": "^26.6.5",
     "@types/react": "^18.3.31",
     "@types/react-dom": "^18.3.7",
     "cypress": "^16.2.0",
