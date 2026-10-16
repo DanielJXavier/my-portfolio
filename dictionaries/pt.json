@@ -50,6 +50,14 @@
           "Otimizei o repositório principal do front-end reduzindo o tempo de build de 40s para 2s, sem comprometer a qualidade do código e o desempenho;"
         ]
       },
+      "constructor-1": {
+        "role": "Engenheiro de Software",
+        "accomplishments": [
+          "Implementei mais de 100 eventos do Amplitude em fluxos principais da plataforma, permitindo análise orientada por dados das jornadas dos usuários e adoção do produto;",
+          "Apoiei a equipe na entrega de mais de 20 demos prontas para clientes, agilizando o processo de configuração das demos e melhorando a eficiência na apresentação das capacidades da plataforma;",
+          "Lancei um recurso de Soft Reset que oferece aos usuários um caminho claro para se recuperar de problemas de configuração sem perder a configuração existente da plataforma, melhorando a usabilidade e reduzindo atritos nos fluxos principais."
+        ]
+      },
       "yestechnology-1": {
         "role": "Líder Front-End",
         "accomplishments": [

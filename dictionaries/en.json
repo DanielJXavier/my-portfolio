@@ -50,6 +50,14 @@
           "Launched the ERC product journey that reached 455K+ new customers in just a few months, helping scale Lovevery's ecommerce reach and conversion funnel."
         ]
       },
+      "constructor-1": {
+        "role": "Software Engineer",
+        "accomplishments": [
+          "Implemented 100+ Amplitude events across core platform flows, enabling data-driven analysis of user journeys and product adoption;",
+          "Supported the team in delivering over 20 customer-ready demos, streamlining the demo setup process and improving efficiency in showcasing the platform's capabilities;",
+          "Launched a Soft Reset feature that gives users a clear path to recover from configuration issues without losing their existing platform setup, improving usability and reducing friction in core workflows."
+        ]
+      },
       "yestechnology-1": {
         "role": "Lead Front-End Engineer",
         "accomplishments": [

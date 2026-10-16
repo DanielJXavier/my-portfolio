@@ -32,6 +32,7 @@ type MapCompanyIdToColorType = {
 
 const mapCompanyIdToColor: MapCompanyIdToColorType = {
   lovevery: "before:from-secondary before:via-secondary",
+  constructor: "before:from-[#0e62bb] before:via-[#0e62bb]",
   yestechnology: "before:from-secondary before:via-secondary",
   pdsacademy: "before:from-secondary before:via-secondary",
   danielxavier: "before:from-secondary before:via-secondary",

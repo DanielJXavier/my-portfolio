@@ -37,6 +37,26 @@ export const experience: ExperienceInterface[] = [
     hidden: false,
   },
   {
+    key: "constructor-1",
+    companyId: "constructor",
+    companyName: "Constructor",
+    startDate: "05-2026",
+    endDate: "10-2026",
+    mainStack: [
+      "react",
+      "next",
+      "tailwind",
+      "ts",
+      "js",
+      "cypress",
+      "claude"
+    ],
+    resume: true,
+    resumeAccomplishments: [1, 2, 3],
+    hasBlackLogo: false,
+    hidden: false,
+  },
+  {
     key: "yestechnology-1",
     companyId: "yestechnology",
     companyName: "YES Technology",
@@ -55,7 +75,7 @@ export const experience: ExperienceInterface[] = [
     resume: false,
     resumeAccomplishments: [],
     hasBlackLogo: true,
-    hidden: true,
+    hidden: false,
   },
   {
     key: "pdsacademy-1",
