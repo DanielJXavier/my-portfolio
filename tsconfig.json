@@ -8,10 +8,10 @@
     "noUnusedParameters": true,
     "strict": true,
     /* Modules */
-    "baseUrl": ".",
     "module": "esnext",
     "moduleResolution": "bundler",
     "paths": {
+      "*": ["./*"],
       "@/*": ["./app/*"]
     },
     "resolveJsonModule": true,
