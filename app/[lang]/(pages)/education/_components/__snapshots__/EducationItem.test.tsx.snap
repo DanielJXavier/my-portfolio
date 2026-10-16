@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`EducationItem component renders the component 1`] = `
 <div>
@@ -11,7 +11,7 @@ exports[`EducationItem component renders the component 1`] = `
     >
       <img
         alt="Logo of UNIPDS school"
-        class="rounded-full "
+        class="rounded-full border-2 border-solid border-secondary"
         data-nimg="1"
         decoding="async"
         height="40"
