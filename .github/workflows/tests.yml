@@ -54,7 +54,7 @@ jobs:
           yarn start & npx wait-on http://localhost:3000
           yarn cy:run
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: failure()
         with:
           name: cypress-screenshots
