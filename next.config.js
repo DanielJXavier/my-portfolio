@@ -14,6 +14,9 @@ const cspHeader = `
 `;
 
 module.exports = {
+  experimental: {
+    globalNotFound: true,
+  },
   async headers() {
     return [
       {
