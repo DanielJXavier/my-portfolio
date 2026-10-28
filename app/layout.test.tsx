@@ -2,7 +2,7 @@ import "tests/matchMedia.mock";
 
 import "@testing-library/jest-dom";
 
-import { render } from "@testing-library/react";
+import { renderToStaticMarkup } from "react-dom/server";
 
 import en from "@/dictionaries/en.json";
 
@@ -11,7 +11,7 @@ import { author } from "@/app/_config";
 import RootLayout, { generateMetadata, generateStaticParams } from "./layout";
 
 jest.mock("next/headers", () => ({
-  headers: jest.fn().mockImplementation(() => ({
+  headers: jest.fn().mockImplementation(async () => ({
     get: jest.fn().mockImplementation((header) => {
       switch (header) {
         case "x-lang":
@@ -34,10 +34,11 @@ jest.mock("@vercel/speed-insights/next", () => ({
 }));
 
 describe("Root layout", () => {
-  it("renders the layout", () => {
-    const { container } = render(<RootLayout>children</RootLayout>);
+  it("renders the layout", async () => {
+    const layout = await RootLayout({ children: "children" });
+    const markup = renderToStaticMarkup(layout);
 
-    expect(container).toMatchSnapshot();
+    expect(markup).toMatchSnapshot();
   });
 
   it("generate the static params", async () => {

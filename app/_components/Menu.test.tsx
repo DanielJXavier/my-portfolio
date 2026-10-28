@@ -54,20 +54,22 @@ describe("Menu component", () => {
   });
 
   it("closes the menu when pathname changes", () => {
-    (usePathname as jest.Mock).mockImplementationOnce(() => menu[0].href);
+    const pathname = usePathname as jest.Mock;
+    pathname.mockReturnValue(menu[0].href);
 
-    render(<Menu />);
+    const { rerender } = render(<Menu />);
 
     const menuButton = screen.getByTestId("menu-button");
 
-    const menuList = screen.getByTestId("menu-list");
-
     fireEvent.click(menuButton);
 
-    fireEvent.click(menuList.childNodes[1]);
+    pathname.mockReturnValue(menu[1].href);
+    rerender(<Menu />);
 
-    expect(menuButton).not.toHaveClass("relative [&_hr]:border-t-secondary");
+    expect(screen.getByTestId("menu-button")).not.toHaveClass(
+      "relative [&_hr]:border-t-secondary"
+    );
 
-    expect(menuList).toHaveClass("hidden md:flex");
+    expect(screen.getByTestId("menu-list")).toHaveClass("hidden md:flex");
   });
 });

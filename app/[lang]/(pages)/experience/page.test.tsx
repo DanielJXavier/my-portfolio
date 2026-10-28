@@ -21,9 +21,9 @@ describe("Experience page (Server-side)", () => {
 
   it("generate the page metadata", async () => {
     const metadata = await generateMetadata({
-      params: {
+      params: Promise.resolve({
         lang: "en",
-      },
+      }),
     });
 
     const {
