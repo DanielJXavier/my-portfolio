@@ -6,10 +6,11 @@ import { Lang } from "@/i18n-config";
 import Skills from "./Skills";
 
 export async function generateMetadata({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Lang };
+  params: Promise<{ lang: Lang }>;
 }): Promise<Metadata> {
+  const { lang } = await params;
   const {
     skills: { title },
   } = getDictionary(lang);

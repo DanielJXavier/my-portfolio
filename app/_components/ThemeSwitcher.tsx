@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import DarkMode from "@/app/_icons/DarkMode";
 import LightMode from "@/app/_icons/LightMode";

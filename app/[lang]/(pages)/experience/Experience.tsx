@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useRef, useState } from "react";
+import { createContext, useState } from "react";
 
 import { useParams } from "next/navigation";
 
@@ -26,19 +26,19 @@ export default function Experience() {
 
   const [experienceMode, setExperienceMode] = useState("simple");
 
-  const menuItems = useRef([
+  const menuItems = [
     { text: menu.simple, value: "simple" },
     { text: menu.detailed, value: "detailed" },
-  ]);
+  ];
 
-  const experienceItems = useRef<ExperienceItemsType>(items);
+  const experienceItems: ExperienceItemsType = items;
 
   return (
     <ExperienceModeContext.Provider value={experienceMode}>
       <Title icon={<Work />}>{title}</Title>
 
       <Menu
-        items={menuItems.current}
+        items={menuItems}
         activeItem={experienceMode}
         handleClick={setExperienceMode}
       />
@@ -57,12 +57,12 @@ export default function Experience() {
           }) => (
             <ExperienceItem
               key={key}
-              role={experienceItems.current[key].role}
+              role={experienceItems[key].role}
               companyId={companyId}
               companyName={companyName}
               startDate={startDate}
               endDate={endDate}
-              accomplishments={experienceItems.current[key].accomplishments}
+              accomplishments={experienceItems[key].accomplishments}
               mainStack={mainStack}
               imageAltText={imageAltText}
               hasBlackLogo={hasBlackLogo}

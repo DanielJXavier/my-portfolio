@@ -4,8 +4,6 @@ import { getDictionary } from "@/get-dictionary";
 import { Lang } from "@/i18n-config";
 
 import { maxSummaryParagraphs } from "../_config";
-import { useRef } from "react";
-
 export default function Summary() {
   const { lang } = useParams<{ lang: Lang }>();
 
@@ -14,9 +12,7 @@ export default function Summary() {
     resume: { sectionTitles },
   } = getDictionary(lang);
 
-  const summary = useRef(
-    defaultSummary.filter((_, i) => i < maxSummaryParagraphs)
-  );
+  const summary = defaultSummary.filter((_, i) => i < maxSummaryParagraphs);
 
   return (
     <section>
@@ -24,11 +20,11 @@ export default function Summary() {
       <hr />
       <textarea
         className="mt-1 w-full text-[12pt] text-justify align-top border border-primary print:mt-0 print:border-none print:resize-none"
-        defaultValue={summary.current.join("\n\n")}
-        rows={summary.current.reduce(
+        defaultValue={summary.join("\n\n")}
+        rows={summary.reduce(
           (rows, paragraph) =>
             rows +
-            (summary.current.length - 1) +
+            (summary.length - 1) +
             Math.ceil(paragraph.length / 190),
           0
         )}

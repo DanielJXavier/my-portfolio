@@ -29,7 +29,7 @@ export default function Resume() {
         document.title = title;
       });
     }
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <main className="max-w-[210mm] print:w-[210mm] row-span-3 flex flex-col gap-y-4 text-sm font-serif p-[0.5in] leading-snug">

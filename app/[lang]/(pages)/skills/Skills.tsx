@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useState } from "react";
 
 import { useParams, useSearchParams } from "next/navigation";
 
@@ -34,35 +34,26 @@ export default function Skills() {
     skills: { title, menu: menuStrings, soft: softSkillsStrings, bottomText },
   } = getDictionary(lang);
 
-  const softSkills = useRef(
-    softSkillsKeys.map((skill) => ({
-      ...skill,
-      name: softSkillsStrings[skill.key],
-    }))
-  );
+  const softSkills = softSkillsKeys.map((skill) => ({
+    ...skill,
+    name: softSkillsStrings[skill.key],
+  }));
 
-  const allSkills = useRef([...hardSkills, ...softSkills.current]);
-
-  const [skills, setSkills] = useState(allSkills.current);
+  const allSkills = [...hardSkills, ...softSkills];
 
   const [filter, setFilter] = useState("all");
 
-  const menuItems = useRef([
+  const menuItems = [
     { text: menuStrings.all, value: "all" },
     { text: menuStrings.hard, value: "hard" },
     { text: menuStrings.soft, value: "soft" },
-  ]);
+  ];
+
+  const skills =
+    filter === "hard" ? hardSkills : filter === "soft" ? softSkills : allSkills;
 
   const handleClick = (item: string) => {
     setFilter(item);
-
-    if (item === "hard") {
-      setSkills(hardSkills);
-    } else if (item === "soft") {
-      setSkills(softSkills.current);
-    } else {
-      setSkills(allSkills.current);
-    }
   };
 
   return (
@@ -70,7 +61,7 @@ export default function Skills() {
       <Title icon={<Psychology />}>{title}</Title>
 
       <Menu
-        items={menuItems.current}
+        items={menuItems}
         activeItem={filter}
         handleClick={handleClick}
       />

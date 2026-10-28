@@ -16,7 +16,12 @@ import WhatsApp from "@/app/_icons/WhatsApp";
 
 import { links } from "./_config";
 
-export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ lang: Lang }>;
+}) {
+  const { lang } = await params;
   const {
     home: { greeting, summary, imageAltText },
   } = getDictionary(lang);

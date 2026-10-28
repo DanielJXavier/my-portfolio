@@ -9,25 +9,23 @@ import { Lang } from "@/i18n-config";
 import { menu } from "@/app/_config";
 
 export default function Menu() {
+  const pathname = usePathname();
+
+  return <MenuContent key={pathname} pathname={pathname} />;
+}
+
+function MenuContent({ pathname }: { pathname: string }) {
   const { lang } = useParams<{ lang: Lang }>();
 
   const {
     global: { menu: menuStrings },
   } = getDictionary(lang);
 
-  const pathname = usePathname();
-
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "visible";
   }, [menuOpen]);
-
-  useEffect(() => {
-    if (menuOpen) {
-      setMenuOpen(!menuOpen);
-    }
-  }, [pathname]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <nav className="order-last md:order-none" data-testid="menu">

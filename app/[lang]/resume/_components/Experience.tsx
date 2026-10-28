@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import { useParams } from "next/navigation";
 
 import { ExperienceItemsType, getDictionary } from "@/get-dictionary";
@@ -25,7 +24,7 @@ export default function Experience() {
 
   const visibleExperience = experience.filter(({ hidden }) => !hidden);
 
-  const experienceItems = useRef<ExperienceItemsType>(items);
+  const experienceItems: ExperienceItemsType = items;
 
   return (
     <section>
@@ -50,7 +49,7 @@ export default function Experience() {
               <div>
                 <p className="text-[12pt]">
                   <span className="font-bold">
-                    {experienceItems.current[key].role} @ {companyName}
+                    {experienceItems[key].role} @ {companyName}
                   </span>
                   <span>
                     {" "}
@@ -58,7 +57,7 @@ export default function Experience() {
                   </span>
                 </p>
                 <ul className="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]">
-                  {experienceItems.current[key].accomplishments.map(
+                  {experienceItems[key].accomplishments.map(
                     (accomplishment, i) => (
                       <VisibilityControl
                         key={`accomplishment-${i}`}

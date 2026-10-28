@@ -31,7 +31,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata() {
-  const headersList = headers();
+  const headersList = await headers();
 
   const lang = headersList.get("x-lang") as Lang;
   const href = headersList.get("x-href") as string;
@@ -57,8 +57,8 @@ export async function generateMetadata() {
 
 const font = Source_Code_Pro({ subsets: ["latin"] });
 
-export default function RootLayout({ children }: RootLayoutProps) {
-  const headersList = headers();
+export default async function RootLayout({ children }: RootLayoutProps) {
+  const headersList = await headers();
   const lang = headersList.get("x-lang") as Lang;
 
   return (

@@ -10,10 +10,11 @@ import RecommendationItem from "./_components/RecommendationItem";
 import { recommendations } from "./_config";
 
 export async function generateMetadata({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Lang };
+  params: Promise<{ lang: Lang }>;
 }): Promise<Metadata> {
+  const { lang } = await params;
   const {
     recommendations: { title },
   } = getDictionary(lang);
@@ -23,7 +24,12 @@ export async function generateMetadata({
   };
 }
 
-export default function Page({ params: { lang } }: { params: { lang: Lang } }) {
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ lang: Lang }>;
+}) {
+  const { lang } = await params;
   const {
     recommendations: { title, items: recommendationsStrings, imageAltText },
   } = getDictionary(lang);

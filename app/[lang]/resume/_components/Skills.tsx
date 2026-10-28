@@ -1,5 +1,3 @@
-import { useRef } from "react";
-
 import { useParams } from "next/navigation";
 
 import { getDictionary } from "@/get-dictionary";
@@ -22,27 +20,23 @@ export default function Skills() {
     resume: { sectionTitles },
   } = getDictionary(lang);
 
-  const hardSkills = useRef(
-    allHardSkills.map((skill) => ({
-      ...skill,
-      visible: chosenHardSkills.some((key) => key === skill.key),
-    }))
-  );
+  const hardSkills = allHardSkills.map((skill) => ({
+    ...skill,
+    visible: chosenHardSkills.some((key) => key === skill.key),
+  }));
 
-  const softSkills = useRef(
-    softSkillsKeys.map((skill) => ({
-      ...skill,
-      name: softSkillsStrings[skill.key],
-      visible: chosenSoftSkills.some((key) => key === skill.key),
-    }))
-  );
+  const softSkills = softSkillsKeys.map((skill) => ({
+    ...skill,
+    name: softSkillsStrings[skill.key],
+    visible: chosenSoftSkills.some((key) => key === skill.key),
+  }));
 
   return (
     <section>
       <h2 className="text-[16pt] font-bold">{sectionTitles.skills}</h2>
       <hr />
       <ul className="grid grid-flow-row-dense grid-cols-2 print:flex print:gap-x-3.5 print:flex-wrap">
-        {hardSkills.current.map(({ key, name, visible }) => (
+        {hardSkills.map(({ key, name, visible }) => (
           <VisibilityControl
             className="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px]"
             key={key}
@@ -51,7 +45,7 @@ export default function Skills() {
             {name}
           </VisibilityControl>
         ))}
-        {softSkills.current.map(({ key, name, visible }) => (
+        {softSkills.map(({ key, name, visible }) => (
           <VisibilityControl
             className="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px]"
             key={key}
