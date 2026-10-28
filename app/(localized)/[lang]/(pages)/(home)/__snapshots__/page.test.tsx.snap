@@ -50,9 +50,9 @@ exports[`Home page renders the page 1`] = `
           class="object-contain rounded-full"
           data-nimg="fill"
           decoding="async"
-          sizes="50vw, (min-width: 768px): 33vw, (min-width: 1024px): 30vw, (min-width: 1280px): 25vw, (min-width: 1536px): 20vw"
+          sizes="(min-width: 1536px) 384px, (min-width: 1280px) 320px, (min-width: 1024px) 288px, (min-width: 768px) 240px, 192px"
           src="/_next/image?url=%2Fimages%2Fprofile.jpg&w=3840&q=75"
-          srcset="/_next/image?url=%2Fimages%2Fprofile.jpg&w=128&q=75 128w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=256&q=75 256w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=384&q=75 384w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=3840&q=75 3840w"
+          srcset="/_next/image?url=%2Fimages%2Fprofile.jpg&w=32&q=75 32w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=48&q=75 48w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=64&q=75 64w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=96&q=75 96w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=128&q=75 128w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=256&q=75 256w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=384&q=75 384w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fprofile.jpg&w=3840&q=75 3840w"
           style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
         />
       </div>

@@ -62,7 +62,7 @@ export default async function Page({
               priority={true}
               src="/images/profile.jpg"
               fill
-              sizes="50vw, (min-width: 768px): 33vw, (min-width: 1024px): 30vw, (min-width: 1280px): 25vw, (min-width: 1536px): 20vw"
+              sizes="(min-width: 1536px) 384px, (min-width: 1280px) 320px, (min-width: 1024px) 288px, (min-width: 768px) 240px, 192px"
               alt={`${imageAltText} (${author.firstName} ${author.lastName})`}
             />
           </div>
