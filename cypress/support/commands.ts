@@ -3,12 +3,12 @@
 declare global {
   namespace Cypress {
     interface Chainable {
-      visitDarkTheme(url: string, isDarkTheme?: boolean): void;
+      visitDarkTheme(url: string, isDarkTheme?: boolean): Chainable<void>;
     }
   }
 }
 
-Cypress.Commands.add("visitDarkTheme", (url, isDarkTheme = true) => {
+Cypress.Commands.add("visitDarkTheme", (url, isDarkTheme = true) =>
   cy.visit(url, {
     onBeforeLoad(win) {
       cy.stub(win, "matchMedia")
@@ -17,5 +17,11 @@ Cypress.Commands.add("visitDarkTheme", (url, isDarkTheme = true) => {
           matches: isDarkTheme,
         });
     },
-  });
-});
+  })
+    .then(() => cy.get('[data-testid="title"]', { timeout: 15000 }))
+    .should("be.visible")
+    .then(() => cy.document())
+    .its("fonts.status")
+    .should("eq", "loaded")
+    .then(() => undefined)
+);
