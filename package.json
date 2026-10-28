@@ -65,7 +65,7 @@
     "jest": "^30.5.2",
     "jest-environment-jsdom": "^30.5.2",
     "negotiator": "^1.1.0",
-    "postcss": "^8.5.30",
+    "postcss": "^8.5.32",
     "tailwindcss": "^3.4.19",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
