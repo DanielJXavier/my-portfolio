@@ -1,17 +1,24 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-background: var(--background);
+
+  --drop-shadow-shaped:
+    2px 0 0 var(--primary),
+    0 2px 0 var(--primary),
+    -2px 0 0 var(--primary),
+    0 -2px 0 var(--primary);
+}
 
 :root {
   --primary: #444;
   --secondary: #000;
   --surface: #ddd;
   --background: #fff;
-}
-* {
-  @apply text-primary;
-  @apply antialiased;
-  transition: all 0.25s;
 }
 
 html {
@@ -26,15 +33,20 @@ html {
   }
 }
 
-body {
-  @apply bg-background;
-}
-
 hr {
   border-top-color: var(--primary);
 }
 
 @layer base {
+  * {
+    @apply text-primary antialiased;
+    transition: all 0.25s;
+  }
+
+  body {
+    @apply bg-background;
+  }
+
   /* main */
   .main-container {
     @apply container mx-auto px-4 md:px-5 xl:px-6;
