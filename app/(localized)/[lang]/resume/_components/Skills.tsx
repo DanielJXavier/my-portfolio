@@ -38,7 +38,7 @@ export default function Skills() {
       <ul className="grid grid-flow-row-dense grid-cols-2 print:flex print:gap-x-3.5 print:flex-wrap">
         {hardSkills.map(({ key, name, visible }) => (
           <VisibilityControl
-            className="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px]"
+            className="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5"
             key={key}
             defaultVisible={visible}
           >
@@ -47,7 +47,7 @@ export default function Skills() {
         ))}
         {softSkills.map(({ key, name, visible }) => (
           <VisibilityControl
-            className="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px]"
+            className="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5"
             key={key}
             defaultVisible={visible}
           >

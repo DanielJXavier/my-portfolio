@@ -17,12 +17,12 @@ exports[`Pages layout renders the layout 1`] = `
         &lt;DanielXavier /&gt;
       </a>
       <nav
-        class="order-last md:order-none"
+        class="order-last md:order-0"
         data-testid="menu"
       >
         <button
           aria-label="Menu"
-          class="w-8 h-[26px] p-1.5 flex items-center justify-center gap-y-1 flex-col [&_hr]:hover:border-t-secondary  md:hidden"
+          class="w-8 h-6.5 p-1.5 flex items-center justify-center gap-y-1 flex-col [&_hr]:hover:border-t-secondary  md:hidden"
           data-testid="menu-button"
         >
           <hr
@@ -36,7 +36,7 @@ exports[`Pages layout renders the layout 1`] = `
           />
         </button>
         <ul
-          class="absolute md:relative top-[38px] md:top-0 right-0 left-0 h-[calc(100vh-46px)] md:h-auto px-4 md:px-0 py-2 md:py-0 bg-background md:bg-transparent z-50 text-lg lg:text-xl font-light hidden md:flex flex flex-col md:flex-row gap-y-2 md:gap-x-3"
+          class="absolute md:relative top-9.5 md:top-0 right-0 left-0 h-[calc(100vh-46px)] md:h-auto px-4 md:px-0 py-2 md:py-0 bg-background md:bg-transparent z-50 text-lg lg:text-xl font-light hidden md:flex flex flex-col md:flex-row gap-y-2 md:gap-x-3"
           data-testid="menu-list"
         >
           <li>

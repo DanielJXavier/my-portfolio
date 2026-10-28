@@ -10,7 +10,7 @@ exports[`Languages component renders the component 1`] = `
     </h2>
     <hr />
     <ul
-      class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+      class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5"
     >
       <li
         class="items-baseline break-inside-avoid flex gap-x-1.5 "

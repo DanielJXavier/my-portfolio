@@ -28,9 +28,9 @@ function MenuContent({ pathname }: { pathname: string }) {
   }, [menuOpen]);
 
   return (
-    <nav className="order-last md:order-none" data-testid="menu">
+    <nav className="order-last md:order-0" data-testid="menu">
       <button
-        className={`w-8 h-[26px] p-1.5 flex items-center justify-center gap-y-1 flex-col [&_hr]:hover:border-t-secondary ${
+        className={`w-8 h-6.5 p-1.5 flex items-center justify-center gap-y-1 flex-col [&_hr]:hover:border-t-secondary ${
           menuOpen ? "relative [&_hr]:border-t-secondary" : ""
         } md:hidden`}
         onClick={() => {
@@ -53,13 +53,13 @@ function MenuContent({ pathname }: { pathname: string }) {
 
         <hr
           className={`w-5 border-t-2 border-t-primary ${
-            menuOpen ? "absolute right-1.5 rotate-[-45deg]" : ""
+            menuOpen ? "absolute right-1.5 -rotate-45" : ""
           }`}
         />
       </button>
 
       <ul
-        className={`absolute md:relative top-[38px] md:top-0 right-0 left-0 h-[calc(100vh-46px)] md:h-auto px-4 md:px-0 py-2 md:py-0 bg-background md:bg-transparent z-50 text-lg lg:text-xl font-light ${
+        className={`absolute md:relative top-9.5 md:top-0 right-0 left-0 h-[calc(100vh-46px)] md:h-auto px-4 md:px-0 py-2 md:py-0 bg-background md:bg-transparent z-50 text-lg lg:text-xl font-light ${
           !menuOpen ? "hidden md:flex" : ""
         } flex flex-col md:flex-row gap-y-2 md:gap-x-3`}
         data-testid="menu-list"

@@ -56,7 +56,7 @@ export default function Experience() {
                     ({startDate} {dateSeparatorText} {endDate ?? endDateText})
                   </span>
                 </p>
-                <ul className="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]">
+                <ul className="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5">
                   {experienceItems[key].accomplishments.map(
                     (accomplishment, i) => (
                       <VisibilityControl

@@ -63,7 +63,7 @@ export default async function RootLayout({
   return (
     <html lang={lang}>
       <body
-        className={`${font.className} grid min-h-dvh grid-rows-[repeat(2,_auto)_1fr] gap-y-6 md:gap-y-8 xl:gap-y-12`}
+        className={`${font.className} grid min-h-dvh grid-rows-[repeat(2,auto)_1fr] gap-y-6 md:gap-y-8 xl:gap-y-12`}
       >
         {children}
         <Analytics />

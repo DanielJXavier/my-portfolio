@@ -3,7 +3,7 @@
 exports[`Resume page (Server-side) renders the page 1`] = `
 <div>
   <main
-    class="max-w-[210mm] print:w-[210mm] row-span-3 flex flex-col gap-y-4 text-sm font-serif p-[0.5in] leading-snug"
+    class="max-w-[210mm] print:w-[210mm] row-span-3 flex flex-col gap-y-4 text-sm font-serif p-12 leading-snug"
   >
     <section>
       <h1
@@ -117,7 +117,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
         class="grid grid-flow-row-dense grid-cols-2 print:flex print:gap-x-3.5 print:flex-wrap"
       >
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -129,7 +129,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           React
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -141,7 +141,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Next.js
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -153,7 +153,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Tailwind CSS
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -163,7 +163,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           HTML5
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -173,7 +173,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           CSS3
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -183,7 +183,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Vue.js
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -193,7 +193,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Nuxt.js
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -203,7 +203,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Angular
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -213,7 +213,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Responsive Design
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -223,7 +223,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           SEO
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -233,7 +233,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           SSR
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -243,7 +243,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Sass
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -253,7 +253,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Semantical HTML
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -263,7 +263,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Webpack
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -273,7 +273,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Rollup
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -283,7 +283,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Vite
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -293,7 +293,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Babel
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -303,7 +303,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Redux
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -313,7 +313,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           jQuery
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -323,7 +323,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Web Accessibility
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -333,7 +333,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Core Web Vitals
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -343,7 +343,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Web Performance
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -353,7 +353,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Web Security
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -363,7 +363,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Web Sockets
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -373,7 +373,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Styled Components
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -383,7 +383,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           PWA
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -393,7 +393,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Storybook
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -405,7 +405,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Micro Frontends
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -415,7 +415,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           React Query
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -425,7 +425,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           React Router
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -435,7 +435,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           CSS-in-JS
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -447,7 +447,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           TypeScript
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -457,7 +457,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           JavaScript
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -467,7 +467,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           MERN stack
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -477,7 +477,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           MACH architecture
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -489,7 +489,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Node.js
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -499,7 +499,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Nest.js
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -511,7 +511,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Express
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -521,7 +521,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           LoopBack
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -531,7 +531,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Meteor
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -541,7 +541,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Kong
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -551,7 +551,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Python
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -561,7 +561,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           .NET
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -571,7 +571,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Unit tests
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -581,7 +581,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Jest
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -591,7 +591,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Code Coverage
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -601,7 +601,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           React Testing Library
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -613,7 +613,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Cypress
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -623,7 +623,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Chromatic
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -635,7 +635,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Playwright
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -645,7 +645,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           HTTP
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -655,7 +655,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           GraphQL
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -665,7 +665,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           REST
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -677,7 +677,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Contentful
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -687,7 +687,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Cursor
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -697,7 +697,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Copilot
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -707,7 +707,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Claude Code
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -717,7 +717,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           PHP
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -727,7 +727,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           WordPress
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -737,7 +737,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Magento
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -747,7 +747,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Laravel
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -757,7 +757,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Nginx
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -767,7 +767,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Apache
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -777,7 +777,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Linux Servers
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -787,7 +787,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Windows Servers
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -799,7 +799,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Stripe
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -809,7 +809,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           CI/CD
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -819,7 +819,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           GitHub Actions
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -829,7 +829,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Bash
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -841,7 +841,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Docker
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -851,7 +851,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           YML
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -863,7 +863,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           AWS
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -873,7 +873,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           GCP
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -883,7 +883,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Amazon EC2 - Cloud Compute Capacity
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -893,7 +893,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           AWS RDS (Relational Database Service)
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -903,7 +903,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Amazon S3 - Cloud Object Storage
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -913,7 +913,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           AWS Lambda
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -923,7 +923,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Amazon CloudFront - Content Delivery Network
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -933,7 +933,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Kubernets
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -943,7 +943,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Terraform
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -955,7 +955,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Vercel
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -965,7 +965,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           SQL
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -977,7 +977,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           MySQL
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -987,7 +987,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           SQL Server
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -999,7 +999,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           PostgreSQL
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1009,7 +1009,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Oracle
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1019,7 +1019,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           NoSQL
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 "
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -1031,7 +1031,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           MongoDB
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1041,7 +1041,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Jira
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1051,7 +1051,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Confluence
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1061,7 +1061,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Slack Workflows
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1071,7 +1071,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Slack Apps
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1081,7 +1081,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           BPMN
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1091,7 +1091,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Git
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1101,7 +1101,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           A/B Testing
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1111,7 +1111,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Atomic Design
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1121,7 +1121,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Design Systems
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1131,7 +1131,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Semantic Versioning
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1141,7 +1141,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           UI/UX
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1151,7 +1151,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Google Ad Manager
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1161,7 +1161,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Agile
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1171,7 +1171,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Scrum
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1181,7 +1181,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Kanban
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1191,7 +1191,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Native Android
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1201,7 +1201,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Java
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1211,7 +1211,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Kotlin
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1221,7 +1221,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Native iOS
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1231,7 +1231,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           SwiftUI
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1241,7 +1241,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           React Native
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1251,7 +1251,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Firebase
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1261,7 +1261,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Functional Programming
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1271,7 +1271,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           OOP
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1281,7 +1281,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Regular Expressions
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1291,7 +1291,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           MarkDown
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1301,7 +1301,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Elasticsearch
         </li>
         <li
-          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1311,7 +1311,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Delphi
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1321,7 +1321,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Leadership
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1331,7 +1331,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Communication
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1341,7 +1341,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Problem Solving
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1351,7 +1351,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Decision Making
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1361,7 +1361,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Empathy
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1371,7 +1371,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Conflict Resolution
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1381,7 +1381,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Adaptability
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1391,7 +1391,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Time Management
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1401,7 +1401,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Organization
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1411,7 +1411,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Strategic Thinking
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1421,7 +1421,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Mentoring
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1431,7 +1431,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Negotiation
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1441,7 +1441,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Resilience
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1451,7 +1451,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Critical Thinking
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1461,7 +1461,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Creativity
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1471,7 +1471,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Active Listening
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1481,7 +1481,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Team Building
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1491,7 +1491,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Ethical Decision Making
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1501,7 +1501,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Customer Orientation
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1511,7 +1511,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Stakeholder Management
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1521,7 +1521,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Learning Agility
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1531,7 +1531,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Curiosity
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1541,7 +1541,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Patience
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1551,7 +1551,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Public Speaking
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1561,7 +1561,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Networking
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1571,7 +1571,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Multitasking
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1581,7 +1581,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Attention to Detail
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1591,7 +1591,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Motivation
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1601,7 +1601,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           Persuasion
         </li>
         <li
-          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-[10px] flex gap-x-1.5 opacity-50 line-through print:hidden"
+          class="col-start-2 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 opacity-50 line-through print:hidden"
           data-testid="visibility-control"
         >
           <input
@@ -1655,7 +1655,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
               </span>
             </p>
             <ul
-              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5"
             >
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1752,7 +1752,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
               </span>
             </p>
             <ul
-              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5"
             >
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -1847,7 +1847,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
               </span>
             </p>
             <ul
-              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5"
             >
               <li
                 class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -1936,7 +1936,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
               </span>
             </p>
             <ul
-              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5"
             >
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -2055,7 +2055,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
               </span>
             </p>
             <ul
-              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5"
             >
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -2152,7 +2152,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
               </span>
             </p>
             <ul
-              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5"
             >
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -2265,7 +2265,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
               </span>
             </p>
             <ul
-              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5"
             >
               <li
                 class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -2380,7 +2380,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
               </span>
             </p>
             <ul
-              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5"
             >
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -2473,7 +2473,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
               </span>
             </p>
             <ul
-              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5"
             >
               <li
                 class="items-baseline flex gap-x-1.5 "
@@ -2558,7 +2558,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
               </span>
             </p>
             <ul
-              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5"
             >
               <li
                 class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -2647,7 +2647,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
               </span>
             </p>
             <ul
-              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5"
             >
               <li
                 class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -2736,7 +2736,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
               </span>
             </p>
             <ul
-              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5"
             >
               <li
                 class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -2845,7 +2845,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
               </span>
             </p>
             <ul
-              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+              class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5"
             >
               <li
                 class="items-baseline flex gap-x-1.5 opacity-50 line-through print:hidden"
@@ -3041,7 +3041,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
       </h2>
       <hr />
       <ul
-        class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-[10px]"
+        class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5"
       >
         <li
           class="items-baseline break-inside-avoid flex gap-x-1.5 "
