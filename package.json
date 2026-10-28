@@ -32,6 +32,7 @@
     "test": "jest",
     "test:update": "jest --updateSnapshot",
     "test:coverage": "jest --coverage",
+    "typecheck": "tsc --noEmit",
     "cy:prepare": "yarn build && yarn start",
     "cy:open": "cypress open",
     "cy:run": "cypress run --browser chrome",

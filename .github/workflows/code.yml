@@ -47,4 +47,4 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: TypeScript
-        run: tsc
+        run: yarn typecheck
