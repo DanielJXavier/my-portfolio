@@ -1,7 +1,9 @@
 import Image from "next/image";
+import { Metadata } from "next";
 
 import { getDictionary } from "@/get-dictionary";
 import { Lang } from "@/i18n-config";
+import { getLocalizedAlternates } from "@/app/_metadata";
 
 import Title from "@/app/_components/Title";
 
@@ -15,6 +17,16 @@ import LinkedIn from "@/app/_icons/LinkedIn";
 import WhatsApp from "@/app/_icons/WhatsApp";
 
 import { links } from "./_config";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: Lang }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+
+  return { alternates: getLocalizedAlternates("home", lang) };
+}
 
 export default async function Page({
   params,

@@ -20,22 +20,13 @@ const getPreferedLang = (request: NextRequest): string | undefined => {
   return preferedLang;
 };
 
-export function middleware(request: NextRequest) {
-  const { href, pathname } = request.nextUrl;
+export function proxy(request: NextRequest) {
+  const { pathname } = request.nextUrl;
 
   const lang = getCurrentLang(pathname);
 
-  const requestHeaders = new Headers(request.headers);
-
-  requestHeaders.set("x-lang", lang);
-  requestHeaders.set("x-href", href);
-
   if (lang) {
-    return NextResponse.next({
-      request: {
-        headers: requestHeaders,
-      },
-    });
+    return NextResponse.next();
   }
 
   const preferedLang = getPreferedLang(request);

@@ -3,8 +3,8 @@ import { useParams } from "next/navigation";
 import { ExperienceItemsType, getDictionary } from "@/get-dictionary";
 import { Lang } from "@/i18n-config";
 
-import { experience } from "@/app/[lang]/(pages)/experience/_config";
-import { hardSkills } from "@/app/[lang]/(pages)/skills/_config";
+import { experience } from "@/app/(localized)/[lang]/(pages)/experience/_config";
+import { hardSkills } from "@/app/(localized)/[lang]/(pages)/skills/_config";
 
 import VisibilityControl from "./VisibiltyControl";
 

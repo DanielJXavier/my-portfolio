@@ -10,21 +10,6 @@ import { author } from "@/app/_config";
 
 import RootLayout, { generateMetadata, generateStaticParams } from "./layout";
 
-jest.mock("next/headers", () => ({
-  headers: jest.fn().mockImplementation(async () => ({
-    get: jest.fn().mockImplementation((header) => {
-      switch (header) {
-        case "x-lang":
-          return "en";
-        case "x-href":
-          return "http://localhost:3000/en/experience";
-        default:
-          return null;
-      }
-    }),
-  })),
-}));
-
 jest.mock("@vercel/analytics/react", () => ({
   Analytics: jest.fn(),
 }));
@@ -35,7 +20,10 @@ jest.mock("@vercel/speed-insights/next", () => ({
 
 describe("Root layout", () => {
   it("renders the layout", async () => {
-    const layout = await RootLayout({ children: "children" });
+    const layout = await RootLayout({
+      children: "children",
+      params: Promise.resolve({ lang: "en" }),
+    });
     const markup = renderToStaticMarkup(layout);
 
     expect(markup).toMatchSnapshot();
@@ -48,7 +36,9 @@ describe("Root layout", () => {
   });
 
   it("generate the page metadata", async () => {
-    const metadata = await generateMetadata();
+    const metadata = await generateMetadata({
+      params: Promise.resolve({ lang: "en" }),
+    });
 
     const {
       global: {
@@ -56,13 +46,10 @@ describe("Root layout", () => {
       },
     } = en;
 
-    expect(metadata.title.template).toEqual(
-      `%s | ${author.firstName} ${author.lastName}`
-    );
-
-    expect(metadata.title.default).toEqual(
-      `<${author.firstName}${author.lastName} />`
-    );
+    expect(metadata.title).toEqual({
+      template: `%s | ${author.firstName} ${author.lastName}`,
+      default: `<${author.firstName}${author.lastName} />`,
+    });
 
     expect(metadata.description).toEqual(headline);
   });

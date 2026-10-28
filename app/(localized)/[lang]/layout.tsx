@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 import dynamic from "next/dynamic";
-import { headers } from "next/headers";
+import { Metadata } from "next";
 
 import { Source_Code_Pro } from "next/font/google";
 
@@ -16,7 +16,7 @@ const SpeedInsights = dynamic(() =>
 );
 
 import { getDictionary } from "@/get-dictionary";
-import { getAlternateLanguages, langStaticParams, Lang } from "@/i18n-config";
+import { langStaticParams, Lang } from "@/i18n-config";
 
 import { author } from "@/app/_config";
 
@@ -24,18 +24,19 @@ import "@/app/globals.css";
 
 type RootLayoutProps = Readonly<{
   children: ReactNode;
+  params: Promise<{ lang: Lang }>;
+}>;
+
+type MetadataProps = Readonly<{
+  params: Promise<{ lang: Lang }>;
 }>;
 
 export async function generateStaticParams() {
   return langStaticParams;
 }
 
-export async function generateMetadata() {
-  const headersList = await headers();
-
-  const lang = headersList.get("x-lang") as Lang;
-  const href = headersList.get("x-href") as string;
-
+export async function generateMetadata({ params }: MetadataProps): Promise<Metadata> {
+  const { lang } = await params;
   const {
     global: {
       author: { headline },
@@ -43,24 +44,22 @@ export async function generateMetadata() {
   } = getDictionary(lang);
 
   return {
+    metadataBase: new URL("https://danielxavier.dev"),
     title: {
       template: `%s | ${author.firstName} ${author.lastName}`,
       default: `<${author.firstName}${author.lastName} />`,
     },
     description: headline,
-    alternates: {
-      canonical: !href.endsWith(`/${lang}`) && href.replace(`/${lang}`, ""),
-      languages: getAlternateLanguages(href, lang),
-    },
   };
 }
 
 const font = Source_Code_Pro({ subsets: ["latin"] });
 
-export default async function RootLayout({ children }: RootLayoutProps) {
-  const headersList = await headers();
-  const lang = headersList.get("x-lang") as Lang;
-
+export default async function RootLayout({
+  children,
+  params,
+}: RootLayoutProps) {
+  const { lang } = await params;
   return (
     <html lang={lang}>
       <body

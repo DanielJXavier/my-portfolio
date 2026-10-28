@@ -5,7 +5,7 @@ import { Lang } from "@/i18n-config";
 
 import { author } from "@/app/_config";
 
-import { links } from "@/app/[lang]/(pages)/(home)/_config";
+import { links } from "@/app/(localized)/[lang]/(pages)/(home)/_config";
 
 import VisibilityControl from "./VisibiltyControl";
 

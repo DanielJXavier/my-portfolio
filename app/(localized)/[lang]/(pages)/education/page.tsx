@@ -2,6 +2,7 @@ import { Metadata } from "next";
 
 import { getDictionary } from "@/get-dictionary";
 import { Lang } from "@/i18n-config";
+import { getLocalizedAlternates } from "@/app/_metadata";
 
 import Title from "@/app/_components/Title";
 import School from "@/app/_icons/School";
@@ -21,6 +22,7 @@ export async function generateMetadata({
 
   return {
     title,
+    alternates: getLocalizedAlternates("education", lang),
   };
 }
 

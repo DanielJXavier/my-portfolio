@@ -1,9 +1,10 @@
 import { Metadata } from "next";
 
+import Experience from "./Experience";
+
 import { getDictionary } from "@/get-dictionary";
 import { Lang } from "@/i18n-config";
-
-import Resume from "./Resume";
+import { getLocalizedAlternates } from "@/app/_metadata";
 
 export async function generateMetadata({
   params,
@@ -12,14 +13,15 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   const {
-    resume: { title },
+    experience: { title },
   } = getDictionary(lang);
 
   return {
     title,
+    alternates: getLocalizedAlternates("experience", lang),
   };
 }
 
 export default function Page() {
-  return <Resume />;
+  return <Experience />;
 }

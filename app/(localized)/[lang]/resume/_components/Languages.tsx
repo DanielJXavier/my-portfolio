@@ -3,7 +3,7 @@ import { useParams } from "next/navigation";
 import { getDictionary } from "@/get-dictionary";
 import { Lang } from "@/i18n-config";
 
-import { languages } from "@/app/[lang]/resume/_config";
+import { languages } from "@/app/(localized)/[lang]/resume/_config";
 
 import VisibilityControl from "./VisibiltyControl";
 

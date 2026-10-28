@@ -6,7 +6,7 @@ import { Lang } from "@/i18n-config";
 import {
   hardSkills as allHardSkills,
   softSkills as softSkillsKeys,
-} from "@/app/[lang]/(pages)/skills/_config";
+} from "@/app/(localized)/[lang]/(pages)/skills/_config";
 
 import { chosenHardSkills, chosenSoftSkills } from "../_config";
 
