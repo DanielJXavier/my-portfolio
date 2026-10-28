@@ -14,6 +14,7 @@ const cspHeader = `
 `;
 
 module.exports = {
+  reactCompiler: true,
   experimental: {
     globalNotFound: true,
   },
