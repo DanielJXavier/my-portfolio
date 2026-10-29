@@ -1,17 +1,20 @@
 ---
 name: new-recommendation
-description: Add a recommendation to the portfolio from the author's name, company, role, original recommendation text, and image URL.
+description: Add a portfolio recommendation by reading its details from a screenshot and using the supplied author image URL; clarify details only when needed.
 ---
 
 # Add a recommendation
 
-Use this skill when asked to add a recommendation to the recommendations page. Collect these five inputs if they are not already provided:
+Use this skill when asked to add a recommendation to the recommendations page. The user can provide a screenshot of the recommendation and a URL for the author's image. Extract the needed fields from the screenshot where possible:
 
-1. Author name
-2. Company
-3. Role
-4. Original recommendation text
-5. URL to the author's image
+- Author name
+- Company
+- Role
+- Original recommendation text
+
+The image URL is supplied separately; the screenshot's embedded profile photo is not a download URL. Ignore screenshot details that the page schema does not store, such as connection degree or recommendation date.
+
+Before editing files, check whether the screenshot and supplied context make all required fields clear. Transcribe the original text faithfully. Treat company names mentioned in the recommendation as evidence, not certainty about the author's employer. Ask a concise follow-up for missing or ambiguous details, stating what you could read and what needs confirmation. If a field is clear, do not ask the user to repeat it. Once any needed details are confirmed, proceed with the change.
 
 ## Project structure
 
@@ -28,4 +31,4 @@ Use this skill when asked to add a recommendation to the recommendations page. C
 4. Add an item under the same ID in both locale dictionaries. Each item has `role` and `paragraphs` fields. Keep the original recommendation's meaning, tone, names, and paragraph boundaries. Write natural English in `en.json` and natural Brazilian Portuguese in `pt.json`; translate from the original language as needed. Translate the role naturally in each locale as well, while preserving official job titles or company names when appropriate. Do not add claims or details that are absent from the original.
 5. Preserve valid JSON and the existing formatting. Check that the ID appears exactly once in each dictionary and in the config, and that the corresponding JPEG exists. Review the resulting diff and report the ID and files changed.
 
-If a required input is missing, ask for that input. If the image URL cannot be downloaded or the image cannot be converted, explain the failure and do not leave a broken recommendation entry behind.
+If no screenshot is available, ask the user for the recommendation details or a screenshot. If the image URL is missing, ask for it. If the URL cannot be downloaded or the image cannot be converted, explain the failure and do not leave a broken recommendation entry behind.
