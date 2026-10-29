@@ -25,6 +25,50 @@ exports[`Recommendations page renders the page 1`] = `
       class="grid grid-cols-[auto_1fr] gap-x-3"
     >
       <img
+        alt="Photo of the author (Daniel Tillero)"
+        class="rounded-full"
+        data-nimg="1"
+        decoding="async"
+        height="64"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Frecommendations%2F1783698701269.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Fimages%2Frecommendations%2F1783698701269.jpeg&w=64&q=75 1x, /_next/image?url=%2Fimages%2Frecommendations%2F1783698701269.jpeg&w=128&q=75 2x"
+        style="color: transparent;"
+        width="64"
+      />
+      <div>
+        <h2
+          class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
+        >
+          Daniel Tillero
+        </h2>
+        <h3
+          class="text-sm sm:text-base md:text-lg xl:text-xl"
+        >
+          Software Engineer
+           @ 
+          Constructor
+        </h3>
+      </div>
+    </header>
+    <section
+      class="mt-4 pl-4 border-l"
+    >
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Daniel is an amazing colleague, and working alongside him for six months at Constructor was an absolute joy. He leads by example with empathy and humility, never hesitating to provide proactive feedback or ask the right questions to reach the best solution. On a interpersonal level, Daniel brings a warm, positive energy and genuine care for building strong relationships. Technically, regardless of the stack, I have total confidence in his ability to solve complex problems. I highly recommend Daniel for any team, and I truly hope our paths cross again.
+      </blockquote>
+    </section>
+  </article>
+  <article
+    class="my-6 sm:my-10"
+    data-testid="recommendation-item"
+  >
+    <header
+      class="grid grid-cols-[auto_1fr] gap-x-3"
+    >
+      <img
         alt="Photo of the author (Ana Topalovic)"
         class="rounded-full"
         data-nimg="1"
