@@ -328,6 +328,14 @@
   "recommendations": {
     "title": "Recommendations",
     "items": {
+      "1793375449053": {
+        "role": "Senior Engineering Manager",
+        "paragraphs": [
+          "I hired Daniel at Constructor in May 2026 and was his manager until September. Our weekly 1:1s gave me a close view of how he works.",
+          "He looked beyond his own tasks from the start, proposing improvements to our engineering tooling and sales demo infrastructure and then delivering them. I trusted him with the implementation side of several proof schedules. He was an active voice in backlog grooming, raised blockers early, and made steady progress bringing AI tools into his workflow.",
+          "Meeting him at our team retreat in Panama confirmed what I’d seen remotely: he’s easy to work with and invested in the team. I’d hire him again."
+        ]
+      },
       "1783698701269": {
         "role": "Software Engineer",
         "paragraphs": [
