@@ -2012,9 +2012,9 @@ __metadata:
   linkType: hard
 
 "@types/estree@npm:^1.0.6, @types/estree@npm:^1.0.8":
-  version: 1.0.9
-  resolution: "@types/estree@npm:1.0.9"
-  checksum: 10c0/3ad3286ca2988cd550dafb8f2ad599c8474868e954fa601a36655bdfefd8039f7c714b8c1c7f2ae219ffbd58bd4660e66fa7479a0120fc02d4777057d4865387
+  version: 1.0.10
+  resolution: "@types/estree@npm:1.0.10"
+  checksum: 10c0/d258926dac68425e77e43fd64045123b77f998ab2cf0bd0cc5a6ff016c365e60ed26f42adac64551906c1beab3bea08d60d113f905829ac60cfd6409db4761e9
   languageName: node
   linkType: hard
 
@@ -2085,12 +2085,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^26.6.5":
-  version: 26.6.5
-  resolution: "@types/node@npm:26.6.5"
+"@types/node@npm:*, @types/node@npm:^26.6.6":
+  version: 26.6.6
+  resolution: "@types/node@npm:26.6.6"
   dependencies:
     undici-types: "npm:~8.9.0"
-  checksum: 10c0/4f791f69466ace7842c09e7bef96cb1ddbb65cf3db916ef7e84f0e2b2a17220b6b816dc7539d01520cadfb17ed7169b8214910900493e0a83be8bc7d124ec20a
+  checksum: 10c0/5cb63f644f6e85a257a9cd2403cbcbe196760e2a35fd3ec9fb8b5cff663e14cc832b198cc17b53f870a2e30900ed45a1fb3f53e6589aba26b8e8c484aa672053
   languageName: node
   linkType: hard
 
@@ -2835,9 +2835,9 @@ __metadata:
   linkType: hard
 
 "ansi-regex@npm:^6.2.2":
-  version: 6.4.0
-  resolution: "ansi-regex@npm:6.4.0"
-  checksum: 10c0/e42f68ffa21aac4c4de27aad601bb5ea415b5a07b127681ef44728195f22231b77bc39230ce0c976420d84650b7bf5a5b60eb4e7500c1f74e9a3f3cd4a68f3f6
+  version: 6.5.0
+  resolution: "ansi-regex@npm:6.5.0"
+  checksum: 10c0/778908f1af800e39f6da2167e515ecef5d7c912fd7e383520dcd80052cf1f8d57b89b6b1f31f58480a5579ab7cc48e401ac194125362d92bdeb8569ac678e3aa
   languageName: node
   linkType: hard
 
@@ -3391,9 +3391,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001819":
-  version: 1.0.30001819
-  resolution: "caniuse-lite@npm:1.0.30001819"
-  checksum: 10c0/6842319cdb9c8ac950ef0910fc3cc7dac3320b96b150de83ac65162c6b4906d2721ca830943a9e5a833c265b186aa0c417402ddd4157108bbf5474d6fabdc843
+  version: 1.0.30001820
+  resolution: "caniuse-lite@npm:1.0.30001820"
+  checksum: 10c0/b7752a246ba6b0d4a1cbede0d9beda1790ec5bd1d9270bc61d2c42e19f427cf79ba79cf3e0ae85fa80ef7cfe7fcfd8a3db41e0e3be6db94586379f4d595956d8
   languageName: node
   linkType: hard
 
@@ -3648,9 +3648,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:^16.2.0":
-  version: 16.2.0
-  resolution: "cypress@npm:16.2.0"
+"cypress@npm:^16.2.1":
+  version: 16.2.1
+  resolution: "cypress@npm:16.2.1"
   dependencies:
     "@cypress/request": "npm:^4.0.0"
     "@cypress/xvfb": "npm:^1.2.4"
@@ -3693,7 +3693,7 @@ __metadata:
     yauzl: "npm:^3.3.1"
   bin:
     cypress: bin/cypress
-  checksum: 10c0/ebc26bb60dd5441421232e5bc290dd13ee98d30d5aa7e6c1931311a59b142d4359c72f7c46a8b7fbb950c950a1808fe5c884d2652def7e60512b5f05c2d229e4
+  checksum: 10c0/a809756d44bbfff21ccb487a3115197551b9164103e9258f4a535993d819f1c035ced31b4024a02d673aa88a1f33ccbf15e96566339847a628cb0916a84b9a36
   languageName: node
   linkType: hard
 
@@ -3926,9 +3926,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.464":
-  version: 1.5.466
-  resolution: "electron-to-chromium@npm:1.5.466"
-  checksum: 10c0/6fe02934bcbd15ed8ffc0cbd51f7df82c553f4d98bac6f51b235bb8c672ae91c8ec6aefa5283edeb50bf61de28893dd1742fb8f30ca7c5d7a22785b0235be610
+  version: 1.5.467
+  resolution: "electron-to-chromium@npm:1.5.467"
+  checksum: 10c0/6bd9ae721c5cbe3e01e0194a6af84be5dcb5961fec1a01149e67c95d6de2f2308ec21cfcdedd3b3d12eac8e3774628f2216f852eb5468575b827cf6ad517ea82
   languageName: node
   linkType: hard
 
@@ -6761,14 +6761,14 @@ __metadata:
     "@testing-library/react": "npm:^16.3.3"
     "@types/jest": "npm:^30.0.0"
     "@types/negotiator": "npm:^0.6.5"
-    "@types/node": "npm:^26.6.5"
+    "@types/node": "npm:^26.6.6"
     "@types/react": "npm:^19.3.0"
     "@types/react-dom": "npm:^19.3.0"
     "@typescript/native": "npm:typescript@^7.0.2"
     "@vercel/analytics": "npm:^2.0.1"
     "@vercel/speed-insights": "npm:^2.0.0"
     babel-plugin-react-compiler: "npm:^1.0.0"
-    cypress: "npm:^16.2.0"
+    cypress: "npm:^16.2.1"
     eslint: "npm:^10.13.0"
     eslint-config-next: "npm:^16.4.3"
     eslint-config-prettier: "npm:^10.1.8"
@@ -6930,9 +6930,9 @@ __metadata:
   linkType: hard
 
 "node-releases@npm:^2.0.60":
-  version: 2.0.60
-  resolution: "node-releases@npm:2.0.60"
-  checksum: 10c0/f0c7b37cf83405291c0de87e15b5cef4af167248f8cc91b7c1c2281338c0e7e9aebfb77e0153ba335bb4c6ec5b1563431cfba93e8c83292760856012d93cb93e
+  version: 2.0.61
+  resolution: "node-releases@npm:2.0.61"
+  checksum: 10c0/51181a3743e68366547404f8fa04760e31675c11b00ed6a11462e5bb6d0c61ed0ae459cc905c25597c03355c565468db35af48e06ab62e93956d6659a581e713
   languageName: node
   linkType: hard
 
@@ -7439,12 +7439,12 @@ __metadata:
   linkType: hard
 
 "qs@npm:^6.15.2":
-  version: 6.17.0
-  resolution: "qs@npm:6.17.0"
+  version: 6.17.1
+  resolution: "qs@npm:6.17.1"
   dependencies:
     es-define-property: "npm:^1.0.1"
     side-channel: "npm:^1.1.1"
-  checksum: 10c0/62d59fddc00fa6e141a8b3de78df89bb5863a02346af844403c6ad3b1d175b236602df293c1f2c0fa010b95ea862cacef337f108a2eef0a34556897454fcebe6
+  checksum: 10c0/55f09dd0282fda70ce9475719158f910f2214477b95aa7284675fb9977c9cdae89fb495423399227331de76766703aaa71372e96cded05046e21713c033e885d
   languageName: node
   linkType: hard
 
@@ -8267,11 +8267,11 @@ __metadata:
   linkType: hard
 
 "systeminformation@npm:^5.31.1":
-  version: 5.33.16
-  resolution: "systeminformation@npm:5.33.16"
+  version: 5.33.18
+  resolution: "systeminformation@npm:5.33.18"
   bin:
     systeminformation: lib/cli.js
-  checksum: 10c0/b63a2d7eafed679d7541de3dbcad4b0fd4384774c7c506a2847f62b5eb38ef55f81b55fce9d29a0308e0922c25adbcbc120129009819911aeb0b2985b4ab1335
+  checksum: 10c0/317afb50c83f9018f3a091a852d89cebb7f6bf84ac4c9c8c43232d5a77468491eed4eb42d41ef6da10360e5048fad2d246c14b1db1511ebde499c3648469e664
   conditions: (os=darwin | os=linux | os=win32 | os=freebsd | os=openbsd | os=netbsd | os=sunos | os=android)
   languageName: node
   linkType: hard
