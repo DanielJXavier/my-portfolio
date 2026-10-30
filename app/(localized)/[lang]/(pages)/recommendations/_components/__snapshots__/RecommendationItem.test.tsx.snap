@@ -10,14 +10,14 @@ exports[`RecommendationItem component renders the component 1`] = `
       class="grid grid-cols-[auto_1fr] gap-x-3"
     >
       <img
-        alt="Photo of the author (Daniel Tillero)"
+        alt="Photo of the author (Vrat Bartonicek)"
         class="rounded-full"
         data-nimg="1"
         decoding="async"
         height="64"
         loading="lazy"
-        src="/_next/image?url=%2Fimages%2Frecommendations%2F1783698701269.jpeg&w=128&q=75"
-        srcset="/_next/image?url=%2Fimages%2Frecommendations%2F1783698701269.jpeg&w=64&q=75 1x, /_next/image?url=%2Fimages%2Frecommendations%2F1783698701269.jpeg&w=128&q=75 2x"
+        src="/_next/image?url=%2Fimages%2Frecommendations%2F1793375449053.jpeg&w=128&q=75"
+        srcset="/_next/image?url=%2Fimages%2Frecommendations%2F1793375449053.jpeg&w=64&q=75 1x, /_next/image?url=%2Fimages%2Frecommendations%2F1793375449053.jpeg&w=128&q=75 2x"
         style="color: transparent;"
         width="64"
       />
@@ -25,12 +25,12 @@ exports[`RecommendationItem component renders the component 1`] = `
         <h2
           class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold"
         >
-          Daniel Tillero
+          Vrat Bartonicek
         </h2>
         <h3
           class="text-sm sm:text-base md:text-lg xl:text-xl"
         >
-          Software Engineer
+          Senior Engineering Manager
            @ 
           Constructor
         </h3>
@@ -42,7 +42,17 @@ exports[`RecommendationItem component renders the component 1`] = `
       <blockquote
         class="mb-4 text-sm xl:text-base text-justify"
       >
-        Daniel is an amazing colleague, and working alongside him for six months at Constructor was an absolute joy. He leads by example with empathy and humility, never hesitating to provide proactive feedback or ask the right questions to reach the best solution. On a interpersonal level, Daniel brings a warm, positive energy and genuine care for building strong relationships. Technically, regardless of the stack, I have total confidence in his ability to solve complex problems. I highly recommend Daniel for any team, and I truly hope our paths cross again.
+        I hired Daniel at Constructor in May 2026 and was his manager until September. Our weekly 1:1s gave me a close view of how he works.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        He looked beyond his own tasks from the start, proposing improvements to our engineering tooling and sales demo infrastructure and then delivering them. I trusted him with the implementation side of several proof schedules. He was an active voice in backlog grooming, raised blockers early, and made steady progress bringing AI tools into his workflow.
+      </blockquote>
+      <blockquote
+        class="mb-4 text-sm xl:text-base text-justify"
+      >
+        Meeting him at our team retreat in Panama confirmed what I’d seen remotely: he’s easy to work with and invested in the team. I’d hire him again.
       </blockquote>
     </section>
   </article>
