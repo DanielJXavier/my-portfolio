@@ -637,12 +637,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@formatjs/intl-localematcher@npm:^0.9.0":
-  version: 0.9.0
-  resolution: "@formatjs/intl-localematcher@npm:0.9.0"
+"@formatjs/intl-localematcher@npm:^0.10.1":
+  version: 0.10.1
+  resolution: "@formatjs/intl-localematcher@npm:0.10.1"
   dependencies:
     "@formatjs/fast-memoize": "npm:3.1.7"
-  checksum: 10c0/02020d68e9295ac4fdde953f34b1496c030ac8e8a712779c1112257a3b90d0cd2dd44de0cba6719884133a64ff1bcb23cce71086473f2fb4778d8a690be0f343
+  checksum: 10c0/1c0a944a30cbb8285ad795ac9d88f6d3811bcd93cbce085c92656e19a3a6723c62ad70701685709a988d92db8e88dc8bcd99c6ae8fb79ee778e7284cd49a4554
   languageName: node
   linkType: hard
 
@@ -4358,7 +4358,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^10.13.0":
+"eslint@npm:^10.14.0":
   version: 10.14.0
   resolution: "eslint@npm:10.14.0"
   dependencies:
@@ -6714,7 +6714,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "my-portfolio@workspace:."
   dependencies:
-    "@formatjs/intl-localematcher": "npm:^0.9.0"
+    "@formatjs/intl-localematcher": "npm:^0.10.1"
     "@simonsmith/cypress-image-snapshot": "npm:^11.0.0"
     "@tailwindcss/postcss": "npm:^4.3.4"
     "@testing-library/dom": "npm:^10.4.2"
@@ -6730,7 +6730,7 @@ __metadata:
     "@vercel/speed-insights": "npm:^2.0.0"
     babel-plugin-react-compiler: "npm:^1.0.0"
     cypress: "npm:^16.2.1"
-    eslint: "npm:^10.13.0"
+    eslint: "npm:^10.14.0"
     eslint-config-next: "npm:^16.4.4"
     eslint-config-prettier: "npm:^10.1.8"
     jest: "npm:^30.5.2"
