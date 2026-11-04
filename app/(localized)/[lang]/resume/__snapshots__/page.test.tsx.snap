@@ -114,7 +114,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
       </h2>
       <hr />
       <ul
-        class="grid grid-flow-row-dense grid-cols-2 print:flex print:gap-x-3.5 print:flex-wrap"
+        class="grid grid-flow-row-dense grid-cols-2 print:flex print:gap-x-3.5 print:flex-wrap print:[&>li[data-visible]:not(:has(~_li[data-visible])):after]:content-none"
       >
         <li
           class="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5 flex gap-x-1.5 "
