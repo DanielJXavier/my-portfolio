@@ -35,7 +35,7 @@ export default function Skills() {
     <section>
       <h2 className="text-[16pt] font-bold">{sectionTitles.skills}</h2>
       <hr />
-      <ul className="grid grid-flow-row-dense grid-cols-2 print:flex print:gap-x-3.5 print:flex-wrap">
+      <ul className="grid grid-flow-row-dense grid-cols-2 print:flex print:gap-x-3.5 print:flex-wrap print:[&>li[data-visible]:not(:has(~_li[data-visible])):after]:content-none">
         {hardSkills.map(({ key, name, visible }) => (
           <VisibilityControl
             className="col-start-1 print:relative print:text-[12pt] print:after:content-['•'] print:after:absolute print:after:-right-2.5"
