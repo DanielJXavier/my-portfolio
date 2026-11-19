@@ -72,15 +72,17 @@ export default function ExperienceItem({
       data-testid="experience-item"
     >
       <header className="flex items-start gap-x-2">
-        <Image
-          className={`rounded-full ${
-            hasBlackLogo ? "border-2 border-solid border-secondary" : ""
-          }`}
-          src={`/images/experience/${companyId}.jpg`}
-          width={40}
-          height={40}
-          alt={`${imageAltText.prefix}${companyName}${imageAltText.sufix}`}
-        />
+        <span className="relative block size-10 shrink-0">
+          <Image
+            className={`size-10 rounded-full ${
+              hasBlackLogo ? "border-2 border-solid border-secondary" : ""
+            }`}
+            src={`/images/experience/${companyId}.jpg`}
+            fill
+            sizes="40px"
+            alt={`${imageAltText.prefix}${companyName}${imageAltText.sufix}`}
+          />
+        </span>
 
         <h2 className="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight">
           {role} @ {companyName}

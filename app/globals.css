@@ -40,7 +40,6 @@ hr {
 @layer base {
   * {
     @apply text-primary antialiased;
-    transition: all 0.25s;
   }
 
   body {
