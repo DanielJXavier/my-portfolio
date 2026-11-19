@@ -2698,7 +2698,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/speed-insights@npm:^2.0.0":
+"@vercel/speed-insights@npm:^2.1.0":
   version: 2.1.0
   resolution: "@vercel/speed-insights@npm:2.1.0"
   peerDependencies:
@@ -3620,7 +3620,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:^16.2.1":
+"cypress@npm:^16.3.0":
   version: 16.3.0
   resolution: "cypress@npm:16.3.0"
   dependencies:
@@ -4369,7 +4369,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^10.14.0":
+"eslint@npm:^10.15.0":
   version: 10.15.0
   resolution: "eslint@npm:10.15.0"
   dependencies:
@@ -6748,10 +6748,10 @@ __metadata:
     "@types/react-dom": "npm:^19.3.0"
     "@typescript/native": "npm:typescript@^7.0.2"
     "@vercel/analytics": "npm:^2.0.1"
-    "@vercel/speed-insights": "npm:^2.0.0"
+    "@vercel/speed-insights": "npm:^2.1.0"
     babel-plugin-react-compiler: "npm:^1.0.0"
-    cypress: "npm:^16.2.1"
-    eslint: "npm:^10.14.0"
+    cypress: "npm:^16.3.0"
+    eslint: "npm:^10.15.0"
     eslint-config-next: "npm:^16.4.6"
     eslint-config-prettier: "npm:^10.1.8"
     jest: "npm:^30.5.2"
