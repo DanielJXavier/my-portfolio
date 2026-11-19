@@ -80,7 +80,7 @@ hr {
     }
 
     &::before {
-      @apply -top-0 -right-0 -bottom-0 -left-0;
+      @apply top-0 right-0 bottom-0 left-0;
       @apply border-t-[rgba(255_255_255_0.87)] border-r-[rgba(255_255_255_0.87)] border-b-transparent	border-l-transparent;
     }
 
