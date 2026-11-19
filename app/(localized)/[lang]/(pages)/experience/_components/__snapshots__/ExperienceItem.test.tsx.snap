@@ -9,18 +9,21 @@ exports[`ExperienceItem component renders the component 1`] = `
     <header
       class="flex items-start gap-x-2"
     >
-      <img
-        alt="Logo of Constructor company"
-        class="rounded-full "
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimages%2Fexperience%2Fconstructor.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimages%2Fexperience%2Fconstructor.jpg&w=48&q=75 1x, /_next/image?url=%2Fimages%2Fexperience%2Fconstructor.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
+      <span
+        class="relative block size-10 shrink-0"
+      >
+        <img
+          alt="Logo of Constructor company"
+          class="size-10 rounded-full "
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="40px"
+          src="/_next/image?url=%2Fimages%2Fexperience%2Fconstructor.jpg&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimages%2Fexperience%2Fconstructor.jpg&w=32&q=75 32w, /_next/image?url=%2Fimages%2Fexperience%2Fconstructor.jpg&w=48&q=75 48w, /_next/image?url=%2Fimages%2Fexperience%2Fconstructor.jpg&w=64&q=75 64w, /_next/image?url=%2Fimages%2Fexperience%2Fconstructor.jpg&w=96&q=75 96w, /_next/image?url=%2Fimages%2Fexperience%2Fconstructor.jpg&w=128&q=75 128w, /_next/image?url=%2Fimages%2Fexperience%2Fconstructor.jpg&w=256&q=75 256w, /_next/image?url=%2Fimages%2Fexperience%2Fconstructor.jpg&w=384&q=75 384w, /_next/image?url=%2Fimages%2Fexperience%2Fconstructor.jpg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fexperience%2Fconstructor.jpg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fexperience%2Fconstructor.jpg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fexperience%2Fconstructor.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fexperience%2Fconstructor.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fexperience%2Fconstructor.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fexperience%2Fconstructor.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fexperience%2Fconstructor.jpg&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+        />
+      </span>
       <h2
         class="text-base sm:text-lg md:text-xl xl:text-2xl font-bold leading-tight"
       >
