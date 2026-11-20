@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-import { author } from "@/app/_config";
+import { author } from "@/app/_content/site";
 
 import ContactInfo from "./_components/ContactInfo";
 import Summary from "./_components/Summary";

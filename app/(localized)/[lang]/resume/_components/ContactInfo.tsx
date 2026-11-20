@@ -3,9 +3,7 @@ import { useParams } from "next/navigation";
 import { getDictionary } from "@/get-dictionary";
 import { Lang } from "@/i18n-config";
 
-import { author } from "@/app/_config";
-
-import { links } from "@/app/(localized)/[lang]/(pages)/(home)/_config";
+import { author, contact } from "@/app/_content/site";
 
 import VisibilityControl from "./VisibiltyControl";
 
@@ -31,30 +29,30 @@ export default function ContactInfo() {
 
       <ul className="print:flex print:gap-x-4 print:justify-center">
         <VisibilityControl className={commonClassName}>
-          {links.email}
+          {contact.email}
         </VisibilityControl>
 
         <VisibilityControl className={commonClassName}>
-          {links.whatsApp}
+          {contact.whatsApp}
         </VisibilityControl>
 
         <VisibilityControl className={commonClassName}>
           <a
             className="underline"
-            href={`https://www.linkedin.com/in/${links.linkedIn}/`}
+            href={`https://www.linkedin.com/in/${contact.linkedIn}/`}
             target="_blank"
           >
-            linkedin.com/in/{links.linkedIn}
+            linkedin.com/in/{contact.linkedIn}
           </a>
         </VisibilityControl>
 
         <VisibilityControl>
           <a
             className="underline"
-            href={`https://www.${links.site}/`}
+            href={`https://www.${contact.site}/`}
             target="_blank"
           >
-            {links.site}
+            {contact.site}
           </a>
         </VisibilityControl>
       </ul>

@@ -6,7 +6,7 @@ import { useParams, usePathname } from "next/navigation";
 
 import { Lang } from "@/i18n-config";
 
-import { author } from "@/app/_config";
+import { author } from "@/app/_content/site";
 
 import Menu from "./Menu";
 

@@ -2,10 +2,8 @@
 
 import { useParams } from "next/navigation";
 
-import { getDictionary } from "@/get-dictionary";
+import { author, getSiteLocales } from "@/app/_content/site";
 import { Lang } from "@/i18n-config";
-
-import { author } from "@/app/_config";
 
 import LangSwitcher from "./LangSwitcher";
 
@@ -14,9 +12,7 @@ const year = new Date().getFullYear();
 export default function Footer() {
   const { lang } = useParams<{ lang: Lang }>();
 
-  const {
-    global: { copyright },
-  } = getDictionary(lang);
+  const { copyright } = getSiteLocales(lang);
 
   return (
     <footer

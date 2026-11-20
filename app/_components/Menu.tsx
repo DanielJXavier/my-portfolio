@@ -3,10 +3,8 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname, useParams } from "next/navigation";
 
-import { getDictionary } from "@/get-dictionary";
+import { getSiteLocales, menu } from "@/app/_content/site";
 import { Lang } from "@/i18n-config";
-
-import { menu } from "@/app/_config";
 
 export default function Menu() {
   const pathname = usePathname();
@@ -17,9 +15,7 @@ export default function Menu() {
 function MenuContent({ pathname }: { pathname: string }) {
   const { lang } = useParams<{ lang: Lang }>();
 
-  const {
-    global: { menu: menuStrings },
-  } = getDictionary(lang);
+  const { menu: menuStrings } = getSiteLocales(lang);
 
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -64,17 +60,17 @@ function MenuContent({ pathname }: { pathname: string }) {
         } flex flex-col md:flex-row gap-y-2 md:gap-x-3`}
         data-testid="menu-list"
       >
-        {menu.map(({ key }) => (
+        {menu.map(({ key, href }) => (
           <li key={key}>
             <Link
               className={`${
-                pathname === `/${lang}${menuStrings[key].href}`
+                pathname === `/${lang}${href}`
                   ? "text-secondary pointer-events-none cursor-default underline"
                   : ""
               } decoration-0 underline-offset-2 tracking-tighter [word-spacing:-0.25em] hover:text-secondary hover:underline`}
-              href={`/${lang}${menuStrings[key].href}`}
+              href={`/${lang}${href}`}
             >
-              {menuStrings[key].title}
+              {menuStrings[key]}
             </Link>
           </li>
         ))}

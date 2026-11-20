@@ -7,7 +7,7 @@ import { getLocalizedAlternates } from "@/app/_metadata";
 
 import Title from "@/app/_components/Title";
 
-import { author } from "@/app/_config";
+import { author } from "@/app/_content/site";
 
 import Email from "@/app/_icons/Email";
 import GitHub from "@/app/_icons/GitHub";

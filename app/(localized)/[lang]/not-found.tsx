@@ -9,7 +9,7 @@ import { usePathname } from "next/navigation";
 import { getDictionary } from "@/get-dictionary";
 import { getCurrentLang } from "@/i18n-config";
 
-import { author } from "@/app/_config";
+import { author } from "@/app/_content/site";
 
 export default function NotFound() {
   const pathname = usePathname();
