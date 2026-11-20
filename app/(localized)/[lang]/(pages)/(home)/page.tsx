@@ -1,13 +1,11 @@
 import Image from "next/image";
 import { Metadata } from "next";
 
-import { getDictionary } from "@/get-dictionary";
+import { getHomeContent } from "@/app/_content/home";
 import { Lang } from "@/i18n-config";
 import { getLocalizedAlternates } from "@/app/_metadata";
 
 import Title from "@/app/_components/Title";
-
-import { author } from "@/app/_content/site";
 
 import Email from "@/app/_icons/Email";
 import GitHub from "@/app/_icons/GitHub";
@@ -15,8 +13,6 @@ import Instagram from "@/app/_icons/Instagram";
 import KeepPublic from "@/app/_icons/KeepPublic";
 import LinkedIn from "@/app/_icons/LinkedIn";
 import WhatsApp from "@/app/_icons/WhatsApp";
-
-import { links } from "./_config";
 
 export async function generateMetadata({
   params,
@@ -34,9 +30,8 @@ export default async function Page({
   params: Promise<{ lang: Lang }>;
 }) {
   const { lang } = await params;
-  const {
-    home: { greeting, summary, imageAltText },
-  } = getDictionary(lang);
+  const { author, contact: links, greeting, summary, image } =
+    getHomeContent(lang);
 
   return (
     <>
@@ -60,10 +55,10 @@ export default async function Page({
             <Image
               className="object-contain rounded-full"
               priority={true}
-              src="/images/profile.jpg"
+              src={image.src}
               fill
               sizes="(min-width: 1536px) 384px, (min-width: 1280px) 320px, (min-width: 1024px) 288px, (min-width: 768px) 240px, 192px"
-              alt={`${imageAltText} (${author.firstName} ${author.lastName})`}
+              alt={`${image.alt} (${author.firstName} ${author.lastName})`}
             />
           </div>
         </div>

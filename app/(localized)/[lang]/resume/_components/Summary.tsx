@@ -1,14 +1,15 @@
 import { useParams } from "next/navigation";
 
 import { getDictionary } from "@/get-dictionary";
+import { getHomeContent } from "@/app/_content/home";
 import { Lang } from "@/i18n-config";
 
 import { maxSummaryParagraphs } from "../_config";
 export default function Summary() {
   const { lang } = useParams<{ lang: Lang }>();
 
+  const { summary: defaultSummary } = getHomeContent(lang);
   const {
-    home: { summary: defaultSummary },
     resume: { sectionTitles },
   } = getDictionary(lang);
 
