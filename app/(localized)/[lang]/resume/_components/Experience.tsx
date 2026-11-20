@@ -1,15 +1,11 @@
-import { useParams } from "next/navigation";
-
 import { getDictionary } from "@/get-dictionary";
-import { Lang } from "@/i18n-config";
-
-import { getExperienceContent } from "@/app/_content/experience";
+import { useExperienceContent } from "@/app/_hooks/useExperienceContent";
 import { hardSkills } from "@/app/(localized)/[lang]/(pages)/skills/_config";
 
 import VisibilityControl from "./VisibiltyControl";
 
 export default function Experience() {
-  const { lang } = useParams<{ lang: Lang }>();
+  const { lang, ...content } = useExperienceContent();
 
   const {
     dateSeparatorText,
@@ -17,7 +13,7 @@ export default function Experience() {
     mainStackTitle,
     previousItemsText,
     items,
-  } = getExperienceContent(lang);
+  } = content;
   const {
     resume: { sectionTitles },
   } = getDictionary(lang);

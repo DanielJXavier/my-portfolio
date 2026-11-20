@@ -2,10 +2,7 @@
 
 import { createContext, useState } from "react";
 
-import { useParams } from "next/navigation";
-
-import { getExperienceContent } from "@/app/_content/experience";
-import { Lang } from "@/i18n-config";
+import { useExperienceContent } from "@/app/_hooks/useExperienceContent";
 
 import Title from "@/app/_components/Title";
 import Work from "@/app/_icons/Work";
@@ -16,9 +13,7 @@ import ExperienceItem from "./_components/ExperienceItem";
 export const ExperienceModeContext = createContext("");
 
 export default function Experience() {
-  const { lang } = useParams<{ lang: Lang }>();
-
-  const content = getExperienceContent(lang);
+  const content = useExperienceContent();
 
   const [experienceMode, setExperienceMode] = useState("simple");
 

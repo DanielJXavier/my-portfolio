@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
 
 import Link from "next/link";
-import { usePathname, useParams } from "next/navigation";
+import { usePathname } from "next/navigation";
 
-import { getSiteContent } from "@/app/_content/site";
-import { Lang } from "@/i18n-config";
+import { useSiteContent } from "@/app/_hooks/useSiteContent";
 
 export default function Menu() {
   const pathname = usePathname();
@@ -13,9 +12,7 @@ export default function Menu() {
 }
 
 function MenuContent({ pathname }: { pathname: string }) {
-  const { lang } = useParams<{ lang: Lang }>();
-
-  const { menu } = getSiteContent(lang);
+  const { lang, menu } = useSiteContent();
 
   const [menuOpen, setMenuOpen] = useState(false);
 

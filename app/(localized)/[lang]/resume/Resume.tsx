@@ -2,10 +2,7 @@
 
 import { useEffect } from "react";
 
-import { useParams } from "next/navigation";
-
-import { getSiteContent } from "@/app/_content/site";
-import { Lang } from "@/i18n-config";
+import { useSiteContent } from "@/app/_hooks/useSiteContent";
 
 import ContactInfo from "./_components/ContactInfo";
 import Summary from "./_components/Summary";
@@ -15,8 +12,7 @@ import Education from "./_components/Education";
 import Languages from "./_components/Languages";
 
 export default function Resume() {
-  const { lang } = useParams<{ lang: Lang }>();
-  const { author } = getSiteContent(lang);
+  const { author } = useSiteContent();
 
   useEffect(() => {
     if (typeof window !== "undefined") {

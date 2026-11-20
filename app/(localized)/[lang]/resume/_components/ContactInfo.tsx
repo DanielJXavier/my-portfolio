@@ -1,9 +1,5 @@
-import { useParams } from "next/navigation";
-
 import { getDictionary } from "@/get-dictionary";
-import { Lang } from "@/i18n-config";
-
-import { getSiteContent } from "@/app/_content/site";
+import { useSiteContent } from "@/app/_hooks/useSiteContent";
 
 import VisibilityControl from "./VisibiltyControl";
 
@@ -11,8 +7,7 @@ const commonClassName =
   "print:relative print:flex print:items-center print:after:content-[''] print:after:absolute print:after:-right-2 print:after:w-px print:after:h-3 print:after:bg-primary";
 
 export default function ContactInfo() {
-  const { lang } = useParams<{ lang: Lang }>();
-  const { author, contact } = getSiteContent(lang);
+  const { author, contact, lang } = useSiteContent();
 
   const {
     resume: { locationInfo },
