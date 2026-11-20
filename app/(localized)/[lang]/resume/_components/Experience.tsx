@@ -1,9 +1,9 @@
 import { useParams } from "next/navigation";
 
-import { ExperienceItemsType, getDictionary } from "@/get-dictionary";
+import { getDictionary } from "@/get-dictionary";
 import { Lang } from "@/i18n-config";
 
-import { experience } from "@/app/(localized)/[lang]/(pages)/experience/_config";
+import { getExperienceContent } from "@/app/_content/experience";
 import { hardSkills } from "@/app/(localized)/[lang]/(pages)/skills/_config";
 
 import VisibilityControl from "./VisibiltyControl";
@@ -12,19 +12,17 @@ export default function Experience() {
   const { lang } = useParams<{ lang: Lang }>();
 
   const {
-    experience: {
-      dateSeparatorText,
-      endDateText,
-      mainStackTitle,
-      items,
-      previousItemsText,
-    },
+    dateSeparatorText,
+    endDateText,
+    mainStackTitle,
+    previousItemsText,
+    items,
+  } = getExperienceContent(lang);
+  const {
     resume: { sectionTitles },
   } = getDictionary(lang);
 
-  const visibleExperience = experience.filter(({ hidden }) => !hidden);
-
-  const experienceItems: ExperienceItemsType = items;
+  const visibleExperience = items.filter(({ hidden }) => !hidden);
 
   return (
     <section>
@@ -40,6 +38,8 @@ export default function Experience() {
             mainStack,
             resumeAccomplishments,
             resume,
+            role,
+            accomplishments,
           }) => (
             <VisibilityControl
               key={key}
@@ -49,7 +49,7 @@ export default function Experience() {
               <div>
                 <p className="text-[12pt]">
                   <span className="font-bold">
-                    {experienceItems[key].role} @ {companyName}
+                    {role} @ {companyName}
                   </span>
                   <span>
                     {" "}
@@ -57,20 +57,18 @@ export default function Experience() {
                   </span>
                 </p>
                 <ul className="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5">
-                  {experienceItems[key].accomplishments.map(
-                    (accomplishment, i) => (
-                      <VisibilityControl
-                        key={`accomplishment-${i}`}
-                        className="items-baseline"
-                        defaultVisible={resumeAccomplishments?.some(
-                          (resumeAccomplishment) =>
-                            resumeAccomplishment === i + 1,
-                        )}
-                      >
-                        {accomplishment}
-                      </VisibilityControl>
-                    ),
-                  )}
+                  {accomplishments.map((accomplishment, i) => (
+                    <VisibilityControl
+                      key={`accomplishment-${i}`}
+                      className="items-baseline"
+                      defaultVisible={resumeAccomplishments?.some(
+                        (resumeAccomplishment) =>
+                          resumeAccomplishment === i + 1,
+                      )}
+                    >
+                      {accomplishment}
+                    </VisibilityControl>
+                  ))}
                   <VisibilityControl
                     className="mt-1 items-baseline"
                     defaultVisible={resumeAccomplishments.length > 0}

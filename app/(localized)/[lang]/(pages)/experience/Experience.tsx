@@ -4,7 +4,7 @@ import { createContext, useState } from "react";
 
 import { useParams } from "next/navigation";
 
-import { ExperienceItemsType, getDictionary } from "@/get-dictionary";
+import { getExperienceContent } from "@/app/_content/experience";
 import { Lang } from "@/i18n-config";
 
 import Title from "@/app/_components/Title";
@@ -13,29 +13,23 @@ import Work from "@/app/_icons/Work";
 import Menu from "../_components/Menu";
 
 import ExperienceItem from "./_components/ExperienceItem";
-import { experience } from "./_config";
-
 export const ExperienceModeContext = createContext("");
 
 export default function Experience() {
   const { lang } = useParams<{ lang: Lang }>();
 
-  const {
-    experience: { title, menu, items, imageAltText },
-  } = getDictionary(lang);
+  const content = getExperienceContent(lang);
 
   const [experienceMode, setExperienceMode] = useState("simple");
 
   const menuItems = [
-    { text: menu.simple, value: "simple" },
-    { text: menu.detailed, value: "detailed" },
+    { text: content.menu.simple, value: "simple" },
+    { text: content.menu.detailed, value: "detailed" },
   ];
-
-  const experienceItems: ExperienceItemsType = items;
 
   return (
     <ExperienceModeContext.Provider value={experienceMode}>
-      <Title icon={<Work />}>{title}</Title>
+      <Title icon={<Work />}>{content.title}</Title>
 
       <Menu
         items={menuItems}
@@ -43,7 +37,7 @@ export default function Experience() {
         handleClick={setExperienceMode}
       />
 
-      {experience
+      {content.items
         .filter(({ hidden }) => !hidden)
         .map(
           ({
@@ -54,18 +48,23 @@ export default function Experience() {
             endDate,
             mainStack,
             hasBlackLogo,
+            role,
+            accomplishments,
           }) => (
             <ExperienceItem
               key={key}
-              role={experienceItems[key].role}
+              role={role}
               companyId={companyId}
               companyName={companyName}
               startDate={startDate}
               endDate={endDate}
-              accomplishments={experienceItems[key].accomplishments}
+              accomplishments={accomplishments}
               mainStack={mainStack}
-              imageAltText={imageAltText}
+              imageAltText={content.imageAltText}
               hasBlackLogo={hasBlackLogo}
+              dateSeparatorText={content.dateSeparatorText}
+              endDateText={content.endDateText}
+              mainStackTitle={content.mainStackTitle}
             />
           )
         )}

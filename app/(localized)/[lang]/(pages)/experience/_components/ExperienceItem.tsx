@@ -1,14 +1,10 @@
 import { useContext } from "react";
 
 import Image from "next/image";
-import { useParams } from "next/navigation";
-
-import { getDictionary } from "@/get-dictionary";
-import { Lang } from "@/i18n-config";
 
 import { hardSkills } from "../../skills/_config";
 
-import { ExperienceInterface } from "../_config";
+import type { ExperienceInterface } from "@/app/_content/experience/shared";
 import { ExperienceModeContext } from "../Experience";
 
 type ExperienceConfigType = Omit<
@@ -24,6 +20,9 @@ interface ExperienceItemPropsInterface
     prefix: string;
     sufix: string;
   };
+  dateSeparatorText: string;
+  endDateText: string;
+  mainStackTitle: string;
 }
 
 type MapCompanyIdToColorType = {
@@ -53,13 +52,10 @@ export default function ExperienceItem({
   mainStack,
   imageAltText,
   hasBlackLogo,
+  dateSeparatorText,
+  endDateText,
+  mainStackTitle,
 }: ExperienceItemPropsInterface) {
-  const { lang } = useParams<{ lang: Lang }>();
-
-  const {
-    experience: { dateSeparatorText, endDateText, mainStackTitle },
-  } = getDictionary(lang);
-
   const experienceMode = useContext(ExperienceModeContext);
 
   const relatedHardSkills = hardSkills.filter(({ key }) =>

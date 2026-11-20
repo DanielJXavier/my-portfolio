@@ -9,13 +9,6 @@ type DictionariesType = {
   [key: Lang]: DictionaryType;
 };
 
-export type ExperienceItemsType = {
-  [key: string]: {
-    role: string;
-    accomplishments: string[];
-  };
-};
-
 const dictionaries: DictionariesType = {
   en,
   pt,
