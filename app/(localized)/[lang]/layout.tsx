@@ -15,7 +15,7 @@ const SpeedInsights = dynamic(() =>
   )
 );
 
-import { author, getSiteLocales } from "@/app/_content/site";
+import { getSiteContent } from "@/app/_content/site";
 import { langStaticParams, Lang } from "@/i18n-config";
 
 import "@/app/globals.css";
@@ -35,7 +35,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: MetadataProps): Promise<Metadata> {
   const { lang } = await params;
-  const { author: { headline } } = getSiteLocales(lang);
+  const { author } = getSiteContent(lang);
 
   return {
     metadataBase: new URL("https://danielxavier.dev"),
@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
       template: `%s | ${author.firstName} ${author.lastName}`,
       default: `<${author.firstName}${author.lastName} />`,
     },
-    description: headline,
+    description: author.headline,
   };
 }
 

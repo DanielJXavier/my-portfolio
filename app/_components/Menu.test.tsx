@@ -4,7 +4,7 @@ import { fireEvent, render, screen } from "@testing-library/react";
 
 import { usePathname, useParams } from "next/navigation";
 
-import { menu } from "@/app/_content/site";
+import { getSiteContent } from "@/app/_content/site";
 
 import Menu from "./Menu";
 
@@ -40,6 +40,8 @@ describe("Menu component", () => {
   });
 
   it("renders the component with the first link highlighted", () => {
+    const { menu } = getSiteContent("en");
+
     (usePathname as jest.Mock).mockImplementationOnce(
       () => `/en${menu[0].href}`
     );
@@ -54,6 +56,7 @@ describe("Menu component", () => {
   });
 
   it("closes the menu when pathname changes", () => {
+    const { menu } = getSiteContent("en");
     const pathname = usePathname as jest.Mock;
     pathname.mockReturnValue(menu[0].href);
 

@@ -5,8 +5,7 @@ import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
 
 import { Lang } from "@/i18n-config";
-
-import { author } from "@/app/_content/site";
+import { getSiteContent } from "@/app/_content/site";
 
 import Menu from "./Menu";
 
@@ -16,6 +15,7 @@ export default function Header() {
   const pathname = usePathname();
 
   const { lang } = useParams<{ lang: Lang }>();
+  const { author } = getSiteContent(lang);
 
   return (
     <header

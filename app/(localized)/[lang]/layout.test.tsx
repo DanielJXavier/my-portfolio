@@ -4,8 +4,7 @@ import "@testing-library/jest-dom";
 
 import { renderToStaticMarkup } from "react-dom/server";
 
-import enSite from "@/app/_content/site/locales/en.json";
-import { author } from "@/app/_content/site";
+import { getSiteContent } from "@/app/_content/site";
 
 import RootLayout, { generateMetadata, generateStaticParams } from "./layout";
 
@@ -39,13 +38,13 @@ describe("Root layout", () => {
       params: Promise.resolve({ lang: "en" }),
     });
 
-    const { author: { headline } } = enSite;
+    const { author } = getSiteContent("en");
 
     expect(metadata.title).toEqual({
       template: `%s | ${author.firstName} ${author.lastName}`,
       default: `<${author.firstName}${author.lastName} />`,
     });
 
-    expect(metadata.description).toEqual(headline);
+    expect(metadata.description).toEqual(author.headline);
   });
 });

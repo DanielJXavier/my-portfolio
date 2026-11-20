@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname, useParams } from "next/navigation";
 
-import { getSiteLocales, menu } from "@/app/_content/site";
+import { getSiteContent } from "@/app/_content/site";
 import { Lang } from "@/i18n-config";
 
 export default function Menu() {
@@ -15,7 +15,7 @@ export default function Menu() {
 function MenuContent({ pathname }: { pathname: string }) {
   const { lang } = useParams<{ lang: Lang }>();
 
-  const { menu: menuStrings } = getSiteLocales(lang);
+  const { menu } = getSiteContent(lang);
 
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -60,7 +60,7 @@ function MenuContent({ pathname }: { pathname: string }) {
         } flex flex-col md:flex-row gap-y-2 md:gap-x-3`}
         data-testid="menu-list"
       >
-        {menu.map(({ key, href }) => (
+        {menu.map(({ key, href, title }) => (
           <li key={key}>
             <Link
               className={`${
@@ -70,7 +70,7 @@ function MenuContent({ pathname }: { pathname: string }) {
               } decoration-0 underline-offset-2 tracking-tighter [word-spacing:-0.25em] hover:text-secondary hover:underline`}
               href={`/${lang}${href}`}
             >
-              {menuStrings[key]}
+              {title}
             </Link>
           </li>
         ))}

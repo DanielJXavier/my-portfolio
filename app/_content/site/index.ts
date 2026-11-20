@@ -4,10 +4,9 @@ import pt from "./locales/pt.json" with { type: "json" };
 import { Lang } from "@/i18n-config";
 
 import type { SiteMenuKey } from "./shared";
+import { author, contact, menu } from "./shared";
 
-export { author, contact, menu } from "./shared";
-
-export type SiteLocale = {
+type SiteLocale = {
   author: {
     headline: string;
   };
@@ -17,4 +16,23 @@ export type SiteLocale = {
 
 const locales: Record<Lang, SiteLocale> = { en, pt };
 
-export const getSiteLocales = (lang: Lang): SiteLocale => locales[lang];
+export type SiteContent = {
+  author: typeof author & SiteLocale["author"];
+  contact: typeof contact;
+  copyright: string;
+  menu: Array<(typeof menu)[number] & { title: string }>;
+};
+
+export function getSiteContent(lang: Lang): SiteContent {
+  const locale = locales[lang];
+
+  return {
+    author: { ...author, ...locale.author },
+    contact,
+    copyright: locale.copyright,
+    menu: menu.map((item) => ({
+      ...item,
+      title: locale.menu[item.key],
+    })),
+  };
+}

@@ -3,7 +3,7 @@ import { useParams } from "next/navigation";
 import { getDictionary } from "@/get-dictionary";
 import { Lang } from "@/i18n-config";
 
-import { author, contact } from "@/app/_content/site";
+import { getSiteContent } from "@/app/_content/site";
 
 import VisibilityControl from "./VisibiltyControl";
 
@@ -12,6 +12,7 @@ const commonClassName =
 
 export default function ContactInfo() {
   const { lang } = useParams<{ lang: Lang }>();
+  const { author, contact } = getSiteContent(lang);
 
   const {
     resume: { locationInfo },

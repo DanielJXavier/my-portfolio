@@ -9,12 +9,13 @@ import { usePathname } from "next/navigation";
 import { getDictionary } from "@/get-dictionary";
 import { getCurrentLang } from "@/i18n-config";
 
-import { author } from "@/app/_content/site";
+import { getSiteContent } from "@/app/_content/site";
 
 export default function NotFound() {
   const pathname = usePathname();
 
   const lang = getCurrentLang(pathname);
+  const { author } = getSiteContent(lang);
 
   const {
     "not-found": { text, link, imageAltText },
