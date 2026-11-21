@@ -8,6 +8,13 @@ import Skills from "./Skills";
 
 jest.mock("next/navigation");
 
+jest.mock("@/app/_hooks/useSkillsContent", () => ({
+  useSkillsContent: () => ({
+    lang: "en",
+    ...jest.requireActual("@/app/_content/skills").getSkillsContent("en"),
+  }),
+}));
+
 (useParams as jest.Mock).mockImplementation(() => ({ lang: "en" }));
 
 (useSearchParams as jest.Mock).mockImplementation(() => ({

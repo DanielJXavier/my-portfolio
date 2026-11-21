@@ -10,6 +10,13 @@ import { usePathname } from "next/navigation";
 
 jest.mock("next/navigation");
 
+jest.mock("@/app/_hooks/useNotFoundContent", () => ({
+  useNotFoundContent: () => ({
+    lang: "en",
+    ...jest.requireActual("@/app/_content/not-found").getNotFoundContent("en"),
+  }),
+}));
+
 (usePathname as jest.Mock).mockImplementation(() => "/en");
 
 describe("NotFound page", () => {

@@ -9,6 +9,9 @@ const createJestConfig = nextJest({
 const config: Config = {
   coverageProvider: "v8",
   testEnvironment: "jsdom",
+  moduleNameMapper: {
+    "^@/(.*)$": "<rootDir>/$1",
+  },
   collectCoverageFrom: [
     "app/**/*.{ts,tsx}",
     "!app/**/_config.ts",

@@ -10,6 +10,13 @@ import Layout from "./layout";
 
 jest.mock("next/navigation");
 
+jest.mock("@/app/_hooks/useSiteContent", () => ({
+  useSiteContent: () => ({
+    lang: "en",
+    ...jest.requireActual("@/app/_content/site").getSiteContent("en"),
+  }),
+}));
+
 (useParams as jest.Mock).mockImplementation(() => ({ lang: "en" }));
 
 (usePathname as jest.Mock).mockImplementation(() => "/en");

@@ -10,6 +10,13 @@ import Header from "./Header";
 
 jest.mock("next/navigation");
 
+jest.mock("@/app/_hooks/useSiteContent", () => ({
+  useSiteContent: () => ({
+    lang: "en",
+    ...jest.requireActual("@/app/_content/site").getSiteContent("en"),
+  }),
+}));
+
 (useParams as jest.Mock).mockImplementation(() => ({ lang: "en" }));
 
 describe("Header component", () => {
