@@ -8,8 +8,9 @@ import RecommendationItem from "./RecommendationItem";
 
 describe("RecommendationItem component", () => {
   it("renders the component", () => {
-    const { authorId, authorName, company, role, paragraphs, imageAltText } =
-      getRecommendationsContent("en").items[0];
+    const recommendations = getRecommendationsContent("en");
+    const { authorId, authorName, company, role, paragraphs } =
+      recommendations.items[0];
 
     const { container } = render(
       <RecommendationItem
@@ -18,7 +19,7 @@ describe("RecommendationItem component", () => {
         role={role}
         company={company}
         paragraphs={paragraphs}
-        imageAltText={imageAltText}
+        imageAltText={recommendations.imageAltText}
       />
     );
 

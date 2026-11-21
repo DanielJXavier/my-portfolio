@@ -177,6 +177,8 @@ export const softSkills = [
   { key: "emotional-intelligence", size: 1 },
 ] as const;
 
+export type SoftSkillKey = (typeof softSkills)[number]["key"];
+
 export const chosenHardSkills = [
   "react",
   "ts",
@@ -197,4 +199,4 @@ export const chosenHardSkills = [
   "mongo",
 ];
 
-export const chosenSoftSkills: string[] = [];
+export const chosenSoftSkills: SoftSkillKey[] = [];

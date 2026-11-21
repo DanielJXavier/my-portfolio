@@ -10,6 +10,7 @@ import {
   hardSkills,
   softSkills,
   type SkillInterface,
+  type SoftSkillKey,
 } from "./shared";
 
 export type SkillLocale = {
@@ -23,7 +24,11 @@ export type SkillContent = {
   title: string;
   menu: SkillLocale["menu"];
   hardSkills: SkillInterface[];
-  softSkills: Array<{ key: string; name: string; size: number }>;
+  softSkills: Array<{
+    key: SoftSkillKey;
+    name: string;
+    size: SkillInterface["size"];
+  }>;
   bottomText: string;
   chosenHardSkills: string[];
   chosenSoftSkills: string[];
