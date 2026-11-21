@@ -2,6 +2,7 @@ import en from "./locales/en.json" with { type: "json" };
 import pt from "./locales/pt.json" with { type: "json" };
 
 import type { Lang } from "@/i18n-config";
+import { validateLocaleKeys } from "@/app/_content/_utils/validate-locale-keys";
 
 import {
   chosenHardSkills,
@@ -30,31 +31,14 @@ export type SkillContent = {
 
 const locales: Record<Lang, SkillLocale> = { en, pt };
 
-function validateLocaleKeys(lang: Lang, locale: SkillLocale) {
-  const sharedIds = softSkills.map(({ key }) => key);
-  const sharedIdSet = new Set(sharedIds);
-  const localeIds = Object.keys(locale.soft);
-  const localeIdSet = new Set(localeIds);
-  const missingIds = sharedIds.filter((key) => !localeIdSet.has(key));
-  const unknownIds = localeIds.filter((key) => !sharedIdSet.has(key));
-  const hasDuplicateSharedIds = sharedIdSet.size !== sharedIds.length;
-
-  if (hasDuplicateSharedIds || missingIds.length || unknownIds.length) {
-    throw new Error(
-      [
-        `Skills content keys do not match for locale "${lang}".`,
-        missingIds.length ? `Missing: ${missingIds.join(", ")}` : "",
-        unknownIds.length ? `Unknown: ${unknownIds.join(", ")}` : "",
-        hasDuplicateSharedIds ? "Shared entries contain duplicate IDs." : "",
-      ]
-        .filter(Boolean)
-        .join("\n"),
-    );
-  }
-}
-
 for (const lang of Object.keys(locales) as Lang[]) {
-  validateLocaleKeys(lang, locales[lang]);
+  validateLocaleKeys(
+    "Skills",
+    lang,
+    softSkills,
+    locales[lang].soft,
+    ({ key }) => key,
+  );
 }
 
 function validateResumeSkillKeys() {
