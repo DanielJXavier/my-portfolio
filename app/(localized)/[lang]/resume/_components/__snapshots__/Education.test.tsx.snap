@@ -30,8 +30,7 @@ exports[`Education component renders the component 1`] = `
               class="font-bold"
             >
               Postgraduate Degree
-              ,
-               
+              , 
               Applied AI Engineering
                @ 
               UNIPDS
@@ -62,8 +61,7 @@ exports[`Education component renders the component 1`] = `
               class="font-bold"
             >
               MBA
-              ,
-               
+              , 
               Strategic People Management
                @ 
               Estácio
@@ -94,8 +92,7 @@ exports[`Education component renders the component 1`] = `
               class="font-bold"
             >
               Bachelor
-              ,
-               
+              , 
               Computer Science
                @ 
               Universidade FUMEC

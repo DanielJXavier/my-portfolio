@@ -53,6 +53,7 @@
   "exclude": [
     "cypress.config.ts",
     "cypress",
-    "node_modules"
+    "node_modules",
+    ".next/dev/types/validator.ts"
   ]
 }

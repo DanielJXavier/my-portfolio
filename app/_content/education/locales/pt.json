@@ -1,0 +1,88 @@
+{
+  "title": "Formação acadêmica",
+  "items": {
+    "unipds": {
+      "fieldOfStudy": "Engenharia de IA Aplicada",
+      "degree": "Pós-graduação",
+      "subjects": [
+        "Fundamentos de IA e LLMs para Programadores",
+        "APIs de IA Generativa e Prompt Engineering",
+        "MCP - Model Context Protocol",
+        "Criação de Agentes Autônomos",
+        "Ferramentas de IA para UX & UI",
+        "Ferramentas de IA para DevOps",
+        "Ferramentas de IA para Gestão de Projetos",
+        "Arquitetura de Sistemas com IA",
+        "Processamento de Dados e Fine-Tuning de Modelos",
+        "Segurança e Governança em IA",
+        "Projeto Integrador - Capstone Project",
+        "Carreira e entrevistas para engenheiros de ia aplicada"
+      ]
+    },
+    "estacio": {
+      "fieldOfStudy": "Gestão Estratégica de Pessoas",
+      "degree": "Pós-graduação - MBA",
+      "subjects": [
+        "Coaching e Liderança",
+        "Comunicação nas Organizações",
+        "Gestão de Conflitos e Negociação",
+        "Educação Corporativa",
+        "Criatividade e Inovação Organizacional",
+        "Princípios de Finanças",
+        "Gestão do Conhecimento",
+        "Visão Estratégica no Gerenciamento de Pessoas",
+        "Teoria do Desenvolvimento Organizacional"
+      ]
+    },
+    "fumec": {
+      "fieldOfStudy": "Ciência da Computação",
+      "degree": "Bacharelado",
+      "subjects": [
+        "Álgebra e Geometria Análitica",
+        "Linguagens e Técnicas de Programação I",
+        "Arquitetura de Computadores",
+        "Fundamentos de Sistemas Distribuídos",
+        "Cálculo I",
+        "Introdução aos Sistemas Lógicos",
+        "Linguagens e Técnicas de Programação II",
+        "Redes de Computadores",
+        "Estrutura de Dados I",
+        "Cálculo II",
+        "Linguagens e Técnicas de Programação III",
+        "Estrutura de Dados II",
+        "Introdução à Robótica",
+        "Estatística",
+        "Linguagens e Técnicas de Programação IV",
+        "Administração de Recursos Humanos",
+        "Conectividade",
+        "Análise de Algoritmos",
+        "Sistemas Operacionais e Software Básico",
+        "Introdução à Administração",
+        "Fundamentos de Física",
+        "Interface Homem-Máquina",
+        "Fundamentos Teóricos da Computação",
+        "Telecomunicações",
+        "Análise e Projetos de Sistemas",
+        "Engenharia de Software I",
+        "Banco de Dados I",
+        "Compiladores",
+        "Computação Gráfica",
+        "Engenharia de Software II",
+        "Direito aplicado à Informática",
+        "Banco de Dados II",
+        "Cálculo Numérico",
+        "Administração de Sistemas de Informação",
+        "Gestão de Projetos de Tecnologia da Informação",
+        "Segurança em Redes de Computadores",
+        "Trabalho de Conclusão de Curso",
+        "Inteligência Artificial",
+        "Desenvolvimento Web",
+        "Desenvolvimento de Sistemas Distribuídos"
+      ]
+    }
+  },
+  "imageAltText": {
+    "prefix": "Logo da instituição ",
+    "sufix": ""
+  }
+}

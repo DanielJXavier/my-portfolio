@@ -1,0 +1,24 @@
+{
+  "author": {
+    "headline": "Senior/Lead Front-End Engineer | React | Next.js | TypeScript | Tailwind CSS | Contentful | Stripe | AWS | Vercel"
+  },
+  "copyright": "All rights reserved.",
+  "menu": {
+    "experience": {
+      "href": "/experience",
+      "title": "Experience"
+    },
+    "education": {
+      "href": "/education",
+      "title": "Education"
+    },
+    "skills": {
+      "href": "/skills",
+      "title": "Skills"
+    },
+    "recommendations": {
+      "href": "/recommendations",
+      "title": "Recommendations"
+    }
+  }
+}

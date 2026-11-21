@@ -1,22 +1,13 @@
 "use client";
 
-import { useParams } from "next/navigation";
-
-import { getDictionary } from "@/get-dictionary";
-import { Lang } from "@/i18n-config";
-
-import { author } from "@/app/_config";
+import { useSiteContent } from "@/app/_hooks/useSiteContent";
 
 import LangSwitcher from "./LangSwitcher";
 
 const year = new Date().getFullYear();
 
 export default function Footer() {
-  const { lang } = useParams<{ lang: Lang }>();
-
-  const {
-    global: { copyright },
-  } = getDictionary(lang);
+  const { author, copyright } = useSiteContent();
 
   return (
     <footer

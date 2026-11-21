@@ -4,10 +4,7 @@ import { render } from "@testing-library/react";
 
 import { useParams } from "next/navigation";
 
-import { experience } from "@/dictionaries/en.json";
-import { ExperienceItemsType } from "@/get-dictionary";
-
-import { experience as experienceConfig } from "../_config";
+import { getExperienceContent } from "@/app/_content/experience";
 
 import ExperienceItem from "./ExperienceItem";
 
@@ -17,31 +14,32 @@ jest.mock("next/navigation");
 
 describe("ExperienceItem component", () => {
   it("renders the component", () => {
+    const content = getExperienceContent("en");
     const {
-      key,
       companyId,
       companyName,
       startDate,
       endDate,
       mainStack,
       hasBlackLogo,
-    } = experienceConfig[1];
-
-    const experienceItem = (experience.items as ExperienceItemsType)[key];
-
-    const imageAltText = experience.imageAltText;
+      role,
+      accomplishments,
+    } = content.items[1];
 
     const { container } = render(
       <ExperienceItem
-        role={experienceItem.role}
+        role={role}
         companyId={companyId}
         companyName={companyName}
         startDate={startDate}
         endDate={endDate}
-        accomplishments={experienceItem.accomplishments}
+        accomplishments={accomplishments}
         mainStack={mainStack}
-        imageAltText={imageAltText}
+        imageAltText={content.imageAltText}
         hasBlackLogo={hasBlackLogo}
+        dateSeparatorText={content.dateSeparatorText}
+        endDateText={content.endDateText}
+        mainStackTitle={content.mainStackTitle}
       />
     );
 

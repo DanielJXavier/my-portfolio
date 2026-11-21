@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-import { author } from "@/app/_config";
+import { useSiteContent } from "@/app/_hooks/useSiteContent";
 
 import ContactInfo from "./_components/ContactInfo";
 import Summary from "./_components/Summary";
@@ -12,6 +12,8 @@ import Education from "./_components/Education";
 import Languages from "./_components/Languages";
 
 export default function Resume() {
+  const { author } = useSiteContent();
+
   useEffect(() => {
     if (typeof window !== "undefined") {
       const title = document.title;

@@ -4,7 +4,7 @@ import { render } from "@testing-library/react";
 
 import Page from "./page";
 
-import { author } from "@/app/_config";
+import { getSiteContent } from "@/app/_content/site";
 
 import { useParams } from "next/navigation";
 
@@ -30,9 +30,9 @@ describe("Resume page (Client-side)", () => {
     const beforeprint = new Event("beforeprint");
     window.dispatchEvent(beforeprint);
 
-    expect(document.title).toEqual(
-      `Resume_${author.firstName}-${author.lastName}_${year}${month}${day}`
-    );
+    const { author } = getSiteContent("en");
+
+    expect(document.title).toEqual(`Resume_${author.firstName}-${author.lastName}_${year}${month}${day}`);
 
     const afterprint = new Event("afterprint");
     window.dispatchEvent(afterprint);

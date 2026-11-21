@@ -4,7 +4,7 @@ import { render } from "@testing-library/react";
 
 import Page, { generateMetadata } from "./page";
 
-import en from "@/dictionaries/en.json";
+import { getResumeContent } from "@/app/_content/resume";
 
 import { useParams } from "next/navigation";
 
@@ -26,9 +26,7 @@ describe("Resume page (Server-side)", () => {
       }),
     });
 
-    const {
-      resume: { title },
-    } = en;
+    const { title } = getResumeContent("en");
 
     expect(metadata.title).toEqual(title);
   });

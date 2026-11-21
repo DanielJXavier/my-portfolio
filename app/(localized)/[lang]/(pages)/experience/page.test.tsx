@@ -4,7 +4,7 @@ import { render } from "@testing-library/react";
 
 import { useParams } from "next/navigation";
 
-import en from "@/dictionaries/en.json";
+import { getExperienceContent } from "@/app/_content/experience";
 
 import Page, { generateMetadata } from "./page";
 
@@ -26,10 +26,6 @@ describe("Experience page (Server-side)", () => {
       }),
     });
 
-    const {
-      experience: { title },
-    } = en;
-
-    expect(metadata.title).toEqual(title);
+    expect(metadata.title).toEqual(getExperienceContent("en").title);
   });
 });

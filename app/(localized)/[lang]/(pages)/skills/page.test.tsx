@@ -4,7 +4,7 @@ import { render } from "@testing-library/react";
 
 import { useParams, useSearchParams } from "next/navigation";
 
-import en from "@/dictionaries/en.json";
+import { getSkillsContent } from "@/app/_content/skills";
 
 import Page, { generateMetadata } from "./page";
 
@@ -30,9 +30,7 @@ describe("Skills page (Server-side)", () => {
       }),
     });
 
-    const {
-      skills: { title },
-    } = en;
+    const { title } = getSkillsContent("en");
 
     expect(metadata.title).toEqual(title);
   });
