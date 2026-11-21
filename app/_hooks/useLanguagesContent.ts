@@ -1,20 +1,16 @@
 "use client";
 
-import { useParams } from "next/navigation";
-
 import {
   getLanguagesContent,
   type LanguageContent,
 } from "@/app/_content/languages";
-import type { Lang } from "@/i18n-config";
+import {
+  useLocalizedContent,
+  type LocalizedContent,
+} from "@/app/_hooks/useLocalizedContent";
 
-export type LocalizedLanguagesContent = LanguageContent & { lang: Lang };
+export type LocalizedLanguagesContent = LocalizedContent<LanguageContent>;
 
 export function useLanguagesContent(): LocalizedLanguagesContent {
-  const { lang } = useParams<{ lang: Lang }>();
-
-  return {
-    lang,
-    ...getLanguagesContent(lang),
-  };
+  return useLocalizedContent(getLanguagesContent);
 }

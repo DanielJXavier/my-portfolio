@@ -1,17 +1,13 @@
 "use client";
 
-import { useParams } from "next/navigation";
-
 import { getSiteContent, type SiteContent } from "@/app/_content/site";
-import type { Lang } from "@/i18n-config";
+import {
+  useLocalizedContent,
+  type LocalizedContent,
+} from "@/app/_hooks/useLocalizedContent";
 
-export type LocalizedSiteContent = SiteContent & { lang: Lang };
+export type LocalizedSiteContent = LocalizedContent<SiteContent>;
 
 export function useSiteContent(): LocalizedSiteContent {
-  const { lang } = useParams<{ lang: Lang }>();
-
-  return {
-    lang,
-    ...getSiteContent(lang),
-  };
+  return useLocalizedContent(getSiteContent);
 }

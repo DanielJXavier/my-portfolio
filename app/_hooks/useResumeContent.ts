@@ -1,17 +1,13 @@
 "use client";
 
-import { useParams } from "next/navigation";
-
 import { getResumeContent, type ResumeContent } from "@/app/_content/resume";
-import type { Lang } from "@/i18n-config";
+import {
+  useLocalizedContent,
+  type LocalizedContent,
+} from "@/app/_hooks/useLocalizedContent";
 
-export type LocalizedResumeContent = ResumeContent & { lang: Lang };
+export type LocalizedResumeContent = LocalizedContent<ResumeContent>;
 
 export function useResumeContent(): LocalizedResumeContent {
-  const { lang } = useParams<{ lang: Lang }>();
-
-  return {
-    lang,
-    ...getResumeContent(lang),
-  };
+  return useLocalizedContent(getResumeContent);
 }

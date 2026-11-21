@@ -1,20 +1,16 @@
 "use client";
 
-import { useParams } from "next/navigation";
-
 import {
   getEducationContent,
   type EducationContent,
 } from "@/app/_content/education";
-import type { Lang } from "@/i18n-config";
+import {
+  useLocalizedContent,
+  type LocalizedContent,
+} from "@/app/_hooks/useLocalizedContent";
 
-export type LocalizedEducationContent = EducationContent & { lang: Lang };
+export type LocalizedEducationContent = LocalizedContent<EducationContent>;
 
 export function useEducationContent(): LocalizedEducationContent {
-  const { lang } = useParams<{ lang: Lang }>();
-
-  return {
-    lang,
-    ...getEducationContent(lang),
-  };
+  return useLocalizedContent(getEducationContent);
 }
