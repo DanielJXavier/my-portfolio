@@ -1,11 +1,12 @@
 import { getDictionary } from "@/get-dictionary";
 import { useExperienceContent } from "@/app/_hooks/useExperienceContent";
-import { hardSkills } from "@/app/(localized)/[lang]/(pages)/skills/_config";
+import { useSkillsContent } from "@/app/_hooks/useSkillsContent";
 
 import VisibilityControl from "./VisibiltyControl";
 
 export default function Experience() {
   const { lang, ...content } = useExperienceContent();
+  const { hardSkills } = useSkillsContent();
 
   const {
     dateSeparatorText,

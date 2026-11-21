@@ -2,17 +2,14 @@
 
 import { useState } from "react";
 
-import { useParams, useSearchParams } from "next/navigation";
-
-import { getDictionary } from "@/get-dictionary";
-import { Lang } from "@/i18n-config";
+import { useSearchParams } from "next/navigation";
 
 import Title from "@/app/_components/Title";
 import Psychology from "@/app/_icons/Psychology";
+import { useSkillsContent } from "@/app/_hooks/useSkillsContent";
 
 import Menu from "../_components/Menu";
 
-import { hardSkills, softSkills as softSkillsKeys } from "./_config";
 import shuffle from "./_utils/shuffle";
 
 const mapSizeToFontSize = {
@@ -24,29 +21,21 @@ const mapSizeToFontSize = {
 };
 
 export default function Skills() {
-  const { lang } = useParams<{ lang: Lang }>();
-
   const searchParams = useSearchParams();
 
   const random = searchParams.get("random");
 
-  const {
-    skills: { title, menu: menuStrings, soft: softSkillsStrings, bottomText },
-  } = getDictionary(lang);
-
-  const softSkills = softSkillsKeys.map((skill) => ({
-    ...skill,
-    name: softSkillsStrings[skill.key],
-  }));
+  const { title, menu, hardSkills, softSkills, bottomText } =
+    useSkillsContent();
 
   const allSkills = [...hardSkills, ...softSkills];
 
   const [filter, setFilter] = useState("all");
 
   const menuItems = [
-    { text: menuStrings.all, value: "all" },
-    { text: menuStrings.hard, value: "hard" },
-    { text: menuStrings.soft, value: "soft" },
+    { text: menu.all, value: "all" },
+    { text: menu.hard, value: "hard" },
+    { text: menu.soft, value: "soft" },
   ];
 
   const skills =

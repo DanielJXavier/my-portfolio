@@ -2,7 +2,7 @@ import { useContext } from "react";
 
 import Image from "next/image";
 
-import { hardSkills } from "../../skills/_config";
+import { useSkillsContent } from "@/app/_hooks/useSkillsContent";
 
 import type { ExperienceInterface } from "@/app/_content/experience/shared";
 import { ExperienceModeContext } from "../Experience";
@@ -56,6 +56,7 @@ export default function ExperienceItem({
   endDateText,
   mainStackTitle,
 }: ExperienceItemPropsInterface) {
+  const { hardSkills } = useSkillsContent();
   const experienceMode = useContext(ExperienceModeContext);
 
   const relatedHardSkills = hardSkills.filter(({ key }) =>

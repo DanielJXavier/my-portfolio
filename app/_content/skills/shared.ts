@@ -176,3 +176,25 @@ export const softSkills = [
   { key: "persuasion", size: 1 },
   { key: "emotional-intelligence", size: 1 },
 ] as const;
+
+export const chosenHardSkills = [
+  "react",
+  "ts",
+  "next",
+  "node",
+  "express",
+  "aws",
+  "tailwind",
+  "micro-frontend",
+  "contentful",
+  "stripe",
+  "docker",
+  "vercel",
+  "cypress",
+  "playwright",
+  "mysql",
+  "postgre",
+  "mongo",
+];
+
+export const chosenSoftSkills: string[] = [];

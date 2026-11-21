@@ -1,6 +1,6 @@
 import shuffle from "./shuffle";
 
-import { hardSkills } from "../_config";
+import { hardSkills } from "@/app/_content/skills/shared";
 
 describe("shuffle util", () => {
   const NODE_ENV_ORIGINAL = process.env.NODE_ENV;

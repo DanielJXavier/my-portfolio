@@ -1,22 +1,18 @@
-import { useParams } from "next/navigation";
-
 import { getDictionary } from "@/get-dictionary";
-import { Lang } from "@/i18n-config";
-
-import {
-  hardSkills as allHardSkills,
-  softSkills as softSkillsKeys,
-} from "@/app/(localized)/[lang]/(pages)/skills/_config";
-
-import { chosenHardSkills, chosenSoftSkills } from "../_config";
+import { useSkillsContent } from "@/app/_hooks/useSkillsContent";
 
 import VisibilityControl from "./VisibiltyControl";
 
 export default function Skills() {
-  const { lang } = useParams<{ lang: Lang }>();
+  const {
+    lang,
+    hardSkills: allHardSkills,
+    softSkills: softSkillsKeys,
+    chosenHardSkills,
+    chosenSoftSkills,
+  } = useSkillsContent();
 
   const {
-    skills: { soft: softSkillsStrings },
     resume: { sectionTitles },
   } = getDictionary(lang);
 
@@ -27,7 +23,6 @@ export default function Skills() {
 
   const softSkills = softSkillsKeys.map((skill) => ({
     ...skill,
-    name: softSkillsStrings[skill.key],
     visible: chosenSoftSkills.some((key) => key === skill.key),
   }));
 
