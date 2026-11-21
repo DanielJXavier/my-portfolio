@@ -1,10 +1,1 @@
-{
-  "not-found": {
-    "text": "There is no page here.",
-    "link": "Let's see a real page!",
-    "imageAltText": {
-      "prefix": "Photo of the author",
-      "sufix": "indicating a link with his finger"
-    }
-  }
-}
+{}

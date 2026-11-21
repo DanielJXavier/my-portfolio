@@ -4,22 +4,13 @@ import { useEffect } from "react";
 
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-
-import { getDictionary } from "@/get-dictionary";
-import { getCurrentLang } from "@/i18n-config";
 
 import { getSiteContent } from "@/app/_content/site";
+import { useNotFoundContent } from "@/app/_hooks/useNotFoundContent";
 
 export default function NotFound() {
-  const pathname = usePathname();
-
-  const lang = getCurrentLang(pathname);
+  const { lang, text, link, imageAltText } = useNotFoundContent();
   const { author } = getSiteContent(lang);
-
-  const {
-    "not-found": { text, link, imageAltText },
-  } = getDictionary(lang);
 
   useEffect(() => {
     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
