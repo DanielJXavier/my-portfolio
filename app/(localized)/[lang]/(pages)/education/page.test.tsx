@@ -2,7 +2,7 @@ import "@testing-library/jest-dom";
 
 import { render } from "@testing-library/react";
 
-import en from "@/dictionaries/en.json";
+import { getEducationContent } from "@/app/_content/education";
 
 import Page, { generateMetadata } from "./page";
 
@@ -21,10 +21,6 @@ describe("Education page", () => {
       }),
     });
 
-    const {
-      education: { title },
-    } = en;
-
-    expect(metadata.title).toEqual(title);
+    expect(metadata.title).toEqual(getEducationContent("en").title);
   });
 });

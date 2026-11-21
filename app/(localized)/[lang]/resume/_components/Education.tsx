@@ -1,17 +1,12 @@
-import { useParams } from "next/navigation";
-
 import { getDictionary } from "@/get-dictionary";
-import { Lang } from "@/i18n-config";
-
-import { education } from "@/app/(localized)/[lang]/(pages)/education/_config";
+import { useEducationContent } from "@/app/_hooks/useEducationContent";
 
 import VisibilityControl from "./VisibiltyControl";
 
 export default function Education() {
-  const { lang } = useParams<{ lang: Lang }>();
+  const { lang, items } = useEducationContent();
 
   const {
-    education: { items: educationStrings },
     resume: { sectionTitles },
   } = getDictionary(lang);
 
@@ -20,22 +15,23 @@ export default function Education() {
       <h2 className="text-[16pt] font-bold">{sectionTitles.education}</h2>
       <hr />
       <ul className="flex flex-col gap-y-3">
-        {education.map(({ schoolId, schoolName, endYear }, i) => (
-          <VisibilityControl
-            key={`education-item-${i}`}
-            className="items-baseline break-inside-avoid"
-          >
-            <div>
-              <p className="text-[12pt]">
-                <span className="font-bold">
-                  {educationStrings[schoolId].degree},{" "}
-                  {educationStrings[schoolId].fieldOfStudy} @ {schoolName}
-                </span>
-                <span> ({endYear})</span>
-              </p>
-            </div>
-          </VisibilityControl>
-        ))}
+        {items.map(
+          ({ schoolName, endYear, degree, fieldOfStudy }, i) => (
+            <VisibilityControl
+              key={`education-item-${i}`}
+              className="items-baseline break-inside-avoid"
+            >
+              <div>
+                <p className="text-[12pt]">
+                  <span className="font-bold">
+                    {degree}, {fieldOfStudy} @ {schoolName}
+                  </span>
+                  <span> ({endYear})</span>
+                </p>
+              </div>
+            </VisibilityControl>
+          ),
+        )}
       </ul>
     </section>
   );
