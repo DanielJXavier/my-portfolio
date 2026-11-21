@@ -13,10 +13,10 @@ export const contact = {
 };
 
 export const menu = [
-  { href: "/experience", key: "experience" },
-  { href: "/education", key: "education" },
-  { href: "/skills", key: "skills" },
-  { href: "/recommendations", key: "recommendations" },
+  "experience",
+  "education",
+  "skills",
+  "recommendations",
 ] as const;
 
-export type SiteMenuKey = (typeof menu)[number]["key"];
+export type SiteMenuKey = (typeof menu)[number];

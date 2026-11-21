@@ -11,7 +11,7 @@ type SiteLocale = {
     headline: string;
   };
   copyright: string;
-  menu: Record<SiteMenuKey, string>;
+  menu: Record<SiteMenuKey, { href: string; title: string }>;
 };
 
 const locales: Record<Lang, SiteLocale> = { en, pt };
@@ -20,7 +20,7 @@ export type SiteContent = {
   author: typeof author & SiteLocale["author"];
   contact: typeof contact;
   copyright: string;
-  menu: Array<(typeof menu)[number] & { title: string }>;
+  menu: Array<{ key: SiteMenuKey; href: string; title: string }>;
 };
 
 export function getSiteContent(lang: Lang): SiteContent {
@@ -30,9 +30,6 @@ export function getSiteContent(lang: Lang): SiteContent {
     author: { ...author, ...locale.author },
     contact,
     copyright: locale.copyright,
-    menu: menu.map((item) => ({
-      ...item,
-      title: locale.menu[item.key],
-    })),
+    menu: menu.map((key) => ({ key, ...locale.menu[key] })),
   };
 }
