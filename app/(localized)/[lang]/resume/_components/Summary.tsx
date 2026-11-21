@@ -1,12 +1,9 @@
-import { getDictionary } from "@/get-dictionary";
 import { useHomeContent } from "@/app/_hooks/useHomeContent";
+import { useResumeContent } from "@/app/_hooks/useResumeContent";
 
-import { maxSummaryParagraphs } from "../_config";
 export default function Summary() {
-  const { lang, summary: defaultSummary } = useHomeContent();
-  const {
-    resume: { sectionTitles },
-  } = getDictionary(lang);
+  const { summary: defaultSummary } = useHomeContent();
+  const { sectionTitles, maxSummaryParagraphs } = useResumeContent();
 
   const summary = defaultSummary.filter((_, i) => i < maxSummaryParagraphs);
 

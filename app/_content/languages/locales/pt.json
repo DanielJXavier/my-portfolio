@@ -1,0 +1,16 @@
+{
+  "items": {
+    "pt": {
+      "name": "Português",
+      "level": "Nativo"
+    },
+    "en": {
+      "name": "Inglês",
+      "level": "C1 Avançado"
+    },
+    "es": {
+      "name": "Espanhol",
+      "level": "B1 Intermediário"
+    }
+  }
+}

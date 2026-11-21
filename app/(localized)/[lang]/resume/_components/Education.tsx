@@ -1,14 +1,11 @@
-import { getDictionary } from "@/get-dictionary";
 import { useEducationContent } from "@/app/_hooks/useEducationContent";
+import { useResumeContent } from "@/app/_hooks/useResumeContent";
 
 import VisibilityControl from "./VisibiltyControl";
 
 export default function Education() {
-  const { lang, items } = useEducationContent();
-
-  const {
-    resume: { sectionTitles },
-  } = getDictionary(lang);
+  const { items } = useEducationContent();
+  const { sectionTitles } = useResumeContent();
 
   return (
     <section>

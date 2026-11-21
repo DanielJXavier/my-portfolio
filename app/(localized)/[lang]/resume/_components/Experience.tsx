@@ -1,11 +1,11 @@
-import { getDictionary } from "@/get-dictionary";
 import { useExperienceContent } from "@/app/_hooks/useExperienceContent";
 import { useSkillsContent } from "@/app/_hooks/useSkillsContent";
+import { useResumeContent } from "@/app/_hooks/useResumeContent";
 
 import VisibilityControl from "./VisibiltyControl";
 
 export default function Experience() {
-  const { lang, ...content } = useExperienceContent();
+  const content = useExperienceContent();
   const { hardSkills } = useSkillsContent();
 
   const {
@@ -15,9 +15,7 @@ export default function Experience() {
     previousItemsText,
     items,
   } = content;
-  const {
-    resume: { sectionTitles },
-  } = getDictionary(lang);
+  const { sectionTitles } = useResumeContent();
 
   const visibleExperience = items.filter(({ hidden }) => !hidden);
 

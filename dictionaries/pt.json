@@ -1,35 +1,4 @@
 {
-  "languages": {
-    "items": {
-      "pt": {
-        "name": "Português",
-        "level": "Nativo"
-      },
-      "en": {
-        "name": "Inglês",
-        "level": "C1 Avançado"
-      },
-      "es": {
-        "name": "Espanhol",
-        "level": "B1 Intermediário"
-      }
-    }
-  },
-  "resume": {
-    "title": "Currículo",
-    "sectionTitles": {
-      "summary": "Resumo",
-      "skills": "Competências",
-      "experience": "Experiência",
-      "education": "Formação acadêmica",
-      "languages": "Idiomas"
-    },
-    "locationInfo": {
-      "city": "Florianópolis",
-      "state": "Santa Catarina",
-      "country": "Brasil"
-    }
-  },
   "not-found": {
     "text": "Nenhuma página aqui.",
     "link": "Vamos para uma página!",

@@ -1,35 +1,4 @@
 {
-  "languages": {
-    "items": {
-      "pt": {
-        "name": "Portuguese",
-        "level": "Native"
-      },
-      "en": {
-        "name": "English",
-        "level": "C1"
-      },
-      "es": {
-        "name": "Spanish",
-        "level": "B1"
-      }
-    }
-  },
-  "resume": {
-    "title": "Resume",
-    "sectionTitles": {
-      "summary": "Summary",
-      "skills": "Skills",
-      "experience": "Experience",
-      "education": "Education",
-      "languages": "Languages"
-    },
-    "locationInfo": {
-      "city": "Florianópolis",
-      "state": "Santa Catarina",
-      "country": "Brazil"
-    }
-  },
   "not-found": {
     "text": "There is no page here.",
     "link": "Let's see a real page!",

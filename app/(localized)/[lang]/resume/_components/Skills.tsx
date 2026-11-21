@@ -1,20 +1,17 @@
-import { getDictionary } from "@/get-dictionary";
 import { useSkillsContent } from "@/app/_hooks/useSkillsContent";
+import { useResumeContent } from "@/app/_hooks/useResumeContent";
 
 import VisibilityControl from "./VisibiltyControl";
 
 export default function Skills() {
   const {
-    lang,
     hardSkills: allHardSkills,
     softSkills: softSkillsKeys,
     chosenHardSkills,
     chosenSoftSkills,
   } = useSkillsContent();
 
-  const {
-    resume: { sectionTitles },
-  } = getDictionary(lang);
+  const { sectionTitles } = useResumeContent();
 
   const hardSkills = allHardSkills.map((skill) => ({
     ...skill,

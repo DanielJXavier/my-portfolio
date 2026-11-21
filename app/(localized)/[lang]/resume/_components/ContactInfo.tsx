@@ -1,5 +1,5 @@
-import { getDictionary } from "@/get-dictionary";
 import { useSiteContent } from "@/app/_hooks/useSiteContent";
+import { useResumeContent } from "@/app/_hooks/useResumeContent";
 
 import VisibilityControl from "./VisibiltyControl";
 
@@ -7,11 +7,8 @@ const commonClassName =
   "print:relative print:flex print:items-center print:after:content-[''] print:after:absolute print:after:-right-2 print:after:w-px print:after:h-3 print:after:bg-primary";
 
 export default function ContactInfo() {
-  const { author, contact, lang } = useSiteContent();
-
-  const {
-    resume: { locationInfo },
-  } = getDictionary(lang);
+  const { author, contact } = useSiteContent();
+  const { locationInfo } = useResumeContent();
 
   return (
     <section>
