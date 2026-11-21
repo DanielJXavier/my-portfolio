@@ -2,6 +2,7 @@ import en from "./locales/en.json" with { type: "json" };
 import pt from "./locales/pt.json" with { type: "json" };
 
 import { Lang } from "@/i18n-config";
+
 import { getSiteContent } from "@/app/_content/site";
 
 const PROFILE_IMAGE_PATH = "/images/profile.jpg";

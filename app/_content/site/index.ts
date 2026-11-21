@@ -1,7 +1,7 @@
 import en from "./locales/en.json" with { type: "json" };
 import pt from "./locales/pt.json" with { type: "json" };
 
-import { Lang } from "@/i18n-config";
+import type { Lang } from "@/i18n-config";
 
 import type { SiteMenuKey } from "./shared";
 import { author, contact, menu } from "./shared";

@@ -2,15 +2,16 @@ import en from "./locales/en.json" with { type: "json" };
 import pt from "./locales/pt.json" with { type: "json" };
 
 import type { Lang } from "@/i18n-config";
+
 import { validateLocaleKeys } from "@/app/_content/_utils/validate-locale-keys";
+
+import type { SkillInterface, SoftSkillKey } from "./shared";
 
 import {
   chosenHardSkills,
   chosenSoftSkills,
   hardSkills,
   softSkills,
-  type SkillInterface,
-  type SoftSkillKey,
 } from "./shared";
 
 export type SkillLocale = {
@@ -49,27 +50,30 @@ for (const lang of Object.keys(locales) as Lang[]) {
 function validateResumeSkillKeys() {
   const hardSkillIds = new Set(hardSkills.map(({ key }) => key));
   const softSkillIds = new Set(softSkills.map(({ key }) => key));
+
   const unknownHardSkillIds = chosenHardSkills.filter(
     (key) => !hardSkillIds.has(key),
   );
+
   const unknownSoftSkillIds = chosenSoftSkills.filter(
     (key) => !softSkillIds.has(key),
   );
 
-  if (unknownHardSkillIds.length || unknownSoftSkillIds.length) {
-    throw new Error(
-      [
-        unknownHardSkillIds.length
-          ? `Unknown resume hard skills: ${unknownHardSkillIds.join(", ")}`
-          : "",
-        unknownSoftSkillIds.length
-          ? `Unknown resume soft skills: ${unknownSoftSkillIds.join(", ")}`
-          : "",
-      ]
-        .filter(Boolean)
-        .join("\n"),
-    );
+  const issues: string[] = [];
+
+  if (unknownHardSkillIds.length > 0) {
+    issues.push(`Unknown resume hard skills: ${unknownHardSkillIds.join(", ")}`);
   }
+
+  if (unknownSoftSkillIds.length > 0) {
+    issues.push(`Unknown resume soft skills: ${unknownSoftSkillIds.join(", ")}`);
+  }
+
+  if (issues.length === 0) {
+    return;
+  }
+
+  throw new Error(issues.join("\n"));
 }
 
 validateResumeSkillKeys();

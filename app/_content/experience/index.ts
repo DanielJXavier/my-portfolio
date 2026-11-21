@@ -2,10 +2,11 @@ import en from "./locales/en.json" with { type: "json" };
 import pt from "./locales/pt.json" with { type: "json" };
 
 import type { Lang } from "@/i18n-config";
+
 import { validateLocaleKeys } from "@/app/_content/_utils/validate-locale-keys";
 
-import { experience } from "./shared";
 import type { ExperienceInterface } from "./shared";
+import { experience } from "./shared";
 
 export type ExperienceLocaleItem = {
   role: string;
