@@ -13,7 +13,7 @@ export type LocalizedNotFoundContent = NotFoundContent & { lang: Lang };
 
 export function useNotFoundContent(): LocalizedNotFoundContent {
   const pathname = usePathname();
-  const lang = getCurrentLang(pathname);
+  const lang = getCurrentLang(pathname) ?? "en";
 
   return getLocalizedContent(lang, getNotFoundContent);
 }
