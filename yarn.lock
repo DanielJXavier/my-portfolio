@@ -637,7 +637,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@formatjs/intl-localematcher@npm:^0.10.1":
+"@formatjs/intl-localematcher@npm:^0.10.2":
   version: 0.10.2
   resolution: "@formatjs/intl-localematcher@npm:0.10.2"
   dependencies:
@@ -6735,7 +6735,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "my-portfolio@workspace:."
   dependencies:
-    "@formatjs/intl-localematcher": "npm:^0.10.1"
+    "@formatjs/intl-localematcher": "npm:^0.10.2"
     "@simonsmith/cypress-image-snapshot": "npm:^11.0.0"
     "@tailwindcss/postcss": "npm:^4.3.5"
     "@testing-library/dom": "npm:^10.4.2"
