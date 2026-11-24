@@ -26,9 +26,9 @@ export async function generateMetadata({
 
 export default async function Page({
   params,
-}: {
+}: Readonly<{
   params: Promise<{ lang: Lang }>;
-}) {
+}>) {
   const { lang } = await params;
   const { author, contact: links, greeting, summary, image } =
     getHomeContent(lang);

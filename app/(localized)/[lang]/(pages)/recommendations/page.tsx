@@ -25,9 +25,9 @@ export async function generateMetadata({
 
 export default async function Page({
   params,
-}: {
+}: Readonly<{
   params: Promise<{ lang: Lang }>;
-}) {
+}>) {
   const { lang } = await params;
   const { title, items, imageAltText } = getRecommendationsContent(lang);
 
