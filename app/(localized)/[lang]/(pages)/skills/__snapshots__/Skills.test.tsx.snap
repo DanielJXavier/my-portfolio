@@ -7,6 +7,7 @@ exports[`Skills page (Client-side) calls the handleClick function 1`] = `
     data-testid="title"
   >
     <svg
+      aria-hidden="true"
       class="fill-primary size-6 md:size-8"
       viewBox="0 -960 960 960"
       xmlns="http://www.w3.org/2000/svg"
@@ -649,6 +650,7 @@ exports[`Skills page (Client-side) calls the handleClick function 2`] = `
     data-testid="title"
   >
     <svg
+      aria-hidden="true"
       class="fill-primary size-6 md:size-8"
       viewBox="0 -960 960 960"
       xmlns="http://www.w3.org/2000/svg"
@@ -861,6 +863,7 @@ exports[`Skills page (Client-side) calls the handleClick function 3`] = `
     data-testid="title"
   >
     <svg
+      aria-hidden="true"
       class="fill-primary size-6 md:size-8"
       viewBox="0 -960 960 960"
       xmlns="http://www.w3.org/2000/svg"
@@ -1653,6 +1656,7 @@ exports[`Skills page (Client-side) renders the page 1`] = `
     data-testid="title"
   >
     <svg
+      aria-hidden="true"
       class="fill-primary size-6 md:size-8"
       viewBox="0 -960 960 960"
       xmlns="http://www.w3.org/2000/svg"
@@ -2445,6 +2449,7 @@ exports[`Skills page (Client-side) renders the page with random=0 param 1`] = `
     data-testid="title"
   >
     <svg
+      aria-hidden="true"
       class="fill-primary size-6 md:size-8"
       viewBox="0 -960 960 960"
       xmlns="http://www.w3.org/2000/svg"

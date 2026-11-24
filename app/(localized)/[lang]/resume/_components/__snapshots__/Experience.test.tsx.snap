@@ -100,8 +100,8 @@ exports[`Experience component renders the component 1`] = `
                   Main stack
                 </span>
                 :
+                 
                 <span>
-                   
                   React | Next.js | Tailwind CSS | TypeScript | Jest | React Testing Library | Cypress | Playwright | Contentful | Stripe | Vercel
                 </span>
               </p>
@@ -197,8 +197,8 @@ exports[`Experience component renders the component 1`] = `
                   Main stack
                 </span>
                 :
+                 
                 <span>
-                   
                   React | Next.js | Tailwind CSS | TypeScript | JavaScript | Cypress | Claude Code
                 </span>
               </p>
@@ -284,8 +284,8 @@ exports[`Experience component renders the component 1`] = `
                   Main stack
                 </span>
                 :
+                 
                 <span>
-                   
                   React | Styled Components | Storybook | Micro Frontends | TypeScript | Jest | React Testing Library | Docker
                 </span>
               </p>
@@ -403,8 +403,8 @@ exports[`Experience component renders the component 1`] = `
                   Main stack
                 </span>
                 :
+                 
                 <span>
-                   
                   React | HTML5 | CSS3 | Storybook | JavaScript | Node.js | Python | AWS | Amazon S3 - Cloud Object Storage | PostgreSQL | Google Ad Manager | React Native | Elasticsearch
                 </span>
               </p>
@@ -500,8 +500,8 @@ exports[`Experience component renders the component 1`] = `
                   Main stack
                 </span>
                 :
+                 
                 <span>
-                   
                   HTML5 | CSS3 | JavaScript | GCP | BPMN
                 </span>
               </p>
@@ -613,8 +613,8 @@ exports[`Experience component renders the component 1`] = `
                   Main stack
                 </span>
                 :
+                 
                 <span>
-                   
                   React | Micro Frontends | .NET | GraphQL | AWS | SQL Server | Delphi
                 </span>
               </p>
@@ -728,8 +728,8 @@ exports[`Experience component renders the component 1`] = `
                   Main stack
                 </span>
                 :
+                 
                 <span>
-                   
                   React | Micro Frontends | .NET | GraphQL | AWS | SQL Server
                 </span>
               </p>
@@ -821,8 +821,8 @@ exports[`Experience component renders the component 1`] = `
                   Main stack
                 </span>
                 :
+                 
                 <span>
-                   
                   React | Micro Frontends | .NET | GraphQL | AWS | SQL Server
                 </span>
               </p>
@@ -906,8 +906,8 @@ exports[`Experience component renders the component 1`] = `
                   Main stack
                 </span>
                 :
+                 
                 <span>
-                   
                   HTML5 | CSS3 | Vue.js | Nuxt.js | JavaScript | Node.js | Express | AWS | MySQL
                 </span>
               </p>
@@ -995,8 +995,8 @@ exports[`Experience component renders the component 1`] = `
                   Main stack
                 </span>
                 :
+                 
                 <span>
-                   
                   HTML5 | CSS3 | Vue.js | Nuxt.js | JavaScript | Node.js | Express | PHP | WordPress | Nginx | AWS | MySQL
                 </span>
               </p>
@@ -1084,8 +1084,8 @@ exports[`Experience component renders the component 1`] = `
                   Main stack
                 </span>
                 :
+                 
                 <span>
-                   
                   HTML5 | CSS3 | JavaScript | PHP | WordPress | Nginx | AWS | MySQL
                 </span>
               </p>
@@ -1193,8 +1193,8 @@ exports[`Experience component renders the component 1`] = `
                   Main stack
                 </span>
                 :
+                 
                 <span>
-                   
                   Angular | Node.js | Express | PHP | WordPress | Magento | MySQL | BPMN
                 </span>
               </p>
@@ -1292,8 +1292,8 @@ exports[`Experience component renders the component 1`] = `
                   Main stack
                 </span>
                 :
+                 
                 <span>
-                   
                   JavaScript | Apache | Linux Servers | Windows Servers | AWS
                 </span>
               </p>
