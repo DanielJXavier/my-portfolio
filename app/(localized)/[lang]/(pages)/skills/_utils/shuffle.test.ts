@@ -1,3 +1,5 @@
+/** @jest-environment node */
+
 import shuffle from "./shuffle";
 
 import { hardSkills } from "@/app/_content/skills/shared";
