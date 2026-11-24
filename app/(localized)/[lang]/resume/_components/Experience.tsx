@@ -56,10 +56,7 @@ export default function Experience() {
                     <VisibilityControl
                       key={accomplishment}
                       className="items-baseline"
-                      defaultVisible={resumeAccomplishments?.some(
-                        (resumeAccomplishment) =>
-                          resumeAccomplishment === i + 1,
-                      )}
+                      defaultVisible={resumeAccomplishments?.includes(i + 1)}
                     >
                       {accomplishment}
                     </VisibilityControl>
