@@ -29,7 +29,7 @@ type MetadataProps = Readonly<{
   params: Promise<{ lang: Lang }>;
 }>;
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   return langStaticParams;
 }
 
