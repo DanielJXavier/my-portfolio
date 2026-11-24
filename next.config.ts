@@ -1,4 +1,4 @@
-/** @type {import('next').NextConfig} */
+import type { NextConfig } from "next";
 
 const cspHeader = `
     default-src 'self';
@@ -13,7 +13,7 @@ const cspHeader = `
     upgrade-insecure-requests;
 `;
 
-module.exports = {
+const nextConfig: NextConfig = {
   reactCompiler: true,
   experimental: {
     globalNotFound: true,
@@ -102,3 +102,5 @@ module.exports = {
     };
   },
 };
+
+export default nextConfig;
