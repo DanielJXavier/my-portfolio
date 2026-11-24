@@ -7,9 +7,9 @@ import { getCurrentLang } from "@/i18n-config";
 
 export default function GlobalNotFoundShell({
   fontClassName,
-}: {
+}: Readonly<{
   fontClassName: string;
-}) {
+}>) {
   const pathname = usePathname() ?? "/en";
   const lang = getCurrentLang(pathname) ?? "en";
 
