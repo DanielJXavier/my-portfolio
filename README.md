@@ -23,15 +23,14 @@ All the pages were created following the LinkedIn profile structure to keep it s
     - My profile photo;
 - [Experience](https://www.danielxavier.dev/en/experience)
   - This page has a timeline of all my professional positions;
-  - The items are listed by default as a simple list only showing:
+  - The items are listed by default as a timeline showing:
     - Company logo;
     - Role name;
     - Company name;
-    - Start and end years;
-    - A short description of the role;
+    - Start and end dates;
   - It's possible to see a detailed version including:
-    - A list of the main accomplishments;
-    - The biggest challenge faced;
+    - A list of accomplishments;
+    - Related skills and technologies;
 - [Education](https://www.danielxavier.dev/en/education)
   - This page has a timeline of all my school and education history;
   - The items are listed as a list including:
@@ -42,8 +41,8 @@ All the pages were created following the LinkedIn profile structure to keep it s
     - Degree;
     - Subjects;
 - [Skills](https://www.danielxavier.dev/en/skills)
-  - This page has a list of my most relevant skills;
-  - The items are listed by default as a random sorted Word Cloud including:
+  - This page has a list of my most relevant skills, displayed as a randomly ordered word cloud by default;
+  - The skills can be filtered by all, hard, or soft skills, including:
     - Hard skills;
     - Soft skills;
   - The words have a size between 1 and 5 where:
@@ -66,10 +65,11 @@ All the pages were created following the LinkedIn profile structure to keep it s
     - Skills;
     - Experience;
     - Education;
+    - Languages;
 
 ### Responsive design
 
-The design is fully responsive and was validated for the most [common screen resolutions](https://testsigma.com/blog/common-screen-resolutions/) of each platform (desktop, mobile, and tablet).
+The design is responsive and has Cypress visual regression coverage for the screen resolutions listed below. The tests cover the homepage, education, experience, recommendations, and skills pages.
 
 #### Desktop resolutions
 
@@ -111,7 +111,7 @@ There is a menu in the website footer with all available languages ​​that al
 
 ### Performance
 
-All pages were highly optimized following the Google [Core Web Vitals](https://web.dev/articles/vitals) guidelines and validated in [PageSpeed Insights](https://pagespeed.web.dev/) achieving a score of 100 in all evaluations.
+The app is optimized with Google's [Core Web Vitals](https://web.dev/articles/vitals) in mind. Performance can be measured with [PageSpeed Insights](https://pagespeed.web.dev/).
 
 It uses [Vercel Speed Insights](https://vercel.com/docs/speed-insights) which provides a detailed view of the website's performance metrics and a near real-time Real Experience Score monitoring.
 
@@ -121,7 +121,7 @@ This website is properly designed and coded following the [WCAG](https://www.w3.
 
 ## Getting Started
 
-`yarn install` to install the dependencies
+Run `yarn install` to install the dependencies. The project uses Node.js 26.x and Yarn 4.19.0.
 
 ## Available scripts
 
@@ -130,6 +130,8 @@ This website is properly designed and coded following the [WCAG](https://www.w3.
 `yarn dev` to run the server in development mode
 
 `yarn lint` to run the static code analysis
+
+`yarn typecheck` to generate Next.js route types and check TypeScript
 
 ### Tests
 
@@ -156,7 +158,7 @@ This website is properly designed and coded following the [WCAG](https://www.w3.
 ## Tech Stack
 
 - [React](https://github.com/facebook/react) to build the interfaces
-- [Next.js](https://github.com/vercel/next.js) to improve the performance
+- [Next.js](https://github.com/vercel/next.js) for the application framework and routing
 - [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) to level up the CSS
 - [TypeScript](https://github.com/microsoft/TypeScript) to level up the JavaScript
 - [Jest](https://github.com/jestjs/jest) and [React Testing Library](https://github.com/testing-library/react-testing-library) to the unit tests
