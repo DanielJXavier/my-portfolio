@@ -69,9 +69,8 @@ export default function Experience() {
                     defaultVisible={resumeAccomplishments.length > 0}
                   >
                     <p>
-                      <span className="font-bold">{mainStackTitle}</span>:
+                      <span className="font-bold">{mainStackTitle}</span>:{" "}
                       <span>
-                        {" "}
                         {hardSkills
                           .filter(({ key }) =>
                             mainStack.some((stack) => stack === key),
