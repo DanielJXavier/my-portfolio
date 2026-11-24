@@ -60,8 +60,8 @@ jobs:
             sleep 1
           done
           curl --fail --silent --output /dev/null http://localhost:3000
-          # Use the Cypress version pinned in the Yarn lockfile; avoid an on-demand npx install.
-          yarn cypress install
+          # Install the Cypress binary through the lockfile-pinned local CLI, without npx.
+          ./node_modules/.bin/cypress install
           yarn cy:run
 
       - uses: actions/upload-artifact@v7
