@@ -38,8 +38,15 @@ export default function Skills() {
     { text: menu.soft, value: "soft" },
   ];
 
-  const skills =
-    filter === "hard" ? hardSkills : filter === "soft" ? softSkills : allSkills;
+  let skills;
+
+  if (filter === "hard") {
+    skills = hardSkills;
+  } else if (filter === "soft") {
+    skills = softSkills;
+  } else {
+    skills = allSkills;
+  }
 
   const handleClick = (item: string) => {
     setFilter(item);
