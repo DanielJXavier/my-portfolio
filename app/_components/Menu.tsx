@@ -11,7 +11,7 @@ export default function Menu() {
   return <MenuContent key={pathname} pathname={pathname} />;
 }
 
-function MenuContent({ pathname }: { pathname: string }) {
+function MenuContent({ pathname }: Readonly<{ pathname: string }>) {
   const { lang, menu } = useSiteContent();
 
   const [menuOpen, setMenuOpen] = useState(false);
