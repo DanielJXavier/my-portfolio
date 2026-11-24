@@ -13,9 +13,9 @@ export default function Education() {
       <hr />
       <ul className="flex flex-col gap-y-3">
         {items.map(
-          ({ schoolName, endYear, degree, fieldOfStudy }, i) => (
+          ({ schoolId, schoolName, endYear, degree, fieldOfStudy }) => (
             <VisibilityControl
-              key={`education-item-${i}`}
+              key={schoolId}
               className="items-baseline break-inside-avoid"
             >
               <div>

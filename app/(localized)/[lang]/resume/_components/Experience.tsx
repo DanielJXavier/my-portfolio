@@ -54,7 +54,7 @@ export default function Experience() {
                 <ul className="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5">
                   {accomplishments.map((accomplishment, i) => (
                     <VisibilityControl
-                      key={`accomplishment-${i}`}
+                      key={accomplishment}
                       className="items-baseline"
                       defaultVisible={resumeAccomplishments?.some(
                         (resumeAccomplishment) =>

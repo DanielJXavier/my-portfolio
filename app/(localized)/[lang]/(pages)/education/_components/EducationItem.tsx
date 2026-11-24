@@ -57,8 +57,8 @@ export default function EducationItem({
 
       <section className="mt-4 pl-14 xl:px-14">
         <ul className="pl-7 list-disc text-sm xl:text-base">
-          {subjects.map((subject, i) => (
-            <li key={`subject-${i}`}>{subject}</li>
+          {subjects.map((subject) => (
+            <li key={subject}>{subject}</li>
           ))}
         </ul>
       </section>

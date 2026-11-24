@@ -40,9 +40,9 @@ export default async function Page({
           <Title
             icon={<KeepPublic />}
           >{`${greeting} ${author.firstName}!`}</Title>
-          {summary.map((paragraph, i) => (
+          {summary.map((paragraph) => (
             <p
-              key={`paragraph-${i}`}
+              key={paragraph}
               className="mt-4 text-sm md:text-base text-justify"
             >
               {paragraph}

@@ -92,8 +92,8 @@ export default function ExperienceItem({
         <>
           <section className="pl-14 xl:px-14">
             <ul className="pl-7 list-disc text-sm xl:text-base">
-              {accomplishments.map((accomplishment, i) => (
-                <li key={`accomplishment-${i}`}>{accomplishment}</li>
+              {accomplishments.map((accomplishment) => (
+                <li key={accomplishment}>{accomplishment}</li>
               ))}
             </ul>
           </section>

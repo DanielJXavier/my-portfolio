@@ -35,9 +35,9 @@ export default async function Page({
     <>
       <Title icon={<School />}>{title}</Title>
 
-      {items.map((item, i) => (
+      {items.map((item) => (
         <EducationItem
-          key={`education-item-${i}`}
+          key={item.schoolId}
           {...item}
           imageAltText={imageAltText}
         />
