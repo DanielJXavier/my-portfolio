@@ -51,8 +51,17 @@ jobs:
 
       - name: E2E Tests
         run: |
-          yarn start & npx wait-on http://localhost:3000
-          npx cypress install
+          yarn start &
+          # Give the app up to 60 seconds to become available before running Cypress.
+          for attempt in $(seq 1 60); do
+            if curl --fail --silent --output /dev/null http://localhost:3000; then
+              break
+            fi
+            sleep 1
+          done
+          curl --fail --silent --output /dev/null http://localhost:3000
+          # Use the Cypress version pinned in the Yarn lockfile; avoid an on-demand npx install.
+          yarn cypress install
           yarn cy:run
 
       - uses: actions/upload-artifact@v7
