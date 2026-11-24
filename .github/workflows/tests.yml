@@ -21,7 +21,7 @@ jobs:
           node-version: 26.x
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install --frozen-lockfile --mode=skip-build
 
       - name: Unit Tests
         run: yarn test
@@ -44,7 +44,7 @@ jobs:
           node-version: 26.x
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install --frozen-lockfile --mode=skip-build
 
       - name: Build
         run: yarn build

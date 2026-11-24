@@ -21,7 +21,7 @@ jobs:
           node-version: 26.x
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install --frozen-lockfile --mode=skip-build
 
       - name: Lint
         run: yarn lint
@@ -44,7 +44,7 @@ jobs:
           node-version: 26.x
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install --frozen-lockfile --mode=skip-build
 
       - name: TypeScript
         run: yarn typecheck
