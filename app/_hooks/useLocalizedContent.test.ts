@@ -1,11 +1,13 @@
 import { renderHook } from "@testing-library/react";
+
 import { useParams } from "next/navigation";
+
+import type { Lang } from "@/i18n-config";
 
 import {
   getLocalizedContent,
   useLocalizedContent,
 } from "@/app/_hooks/useLocalizedContent";
-import type { Lang } from "@/i18n-config";
 
 jest.mock("next/navigation");
 
