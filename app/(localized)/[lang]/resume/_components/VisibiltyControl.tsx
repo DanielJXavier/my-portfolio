@@ -1,14 +1,16 @@
 import { ReactNode, useState } from "react";
 
+type VisibilityControlProps = Readonly<{
+  children: ReactNode;
+  className?: string;
+  defaultVisible?: boolean;
+}>;
+
 export default function VisibilityControl({
   children,
   className,
   defaultVisible,
-}: {
-  children: ReactNode;
-  className?: string;
-  defaultVisible?: boolean;
-}) {
+}: VisibilityControlProps) {
   const [visible, setVisible] = useState(defaultVisible ?? true);
 
   return (
