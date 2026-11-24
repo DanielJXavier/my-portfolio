@@ -15,23 +15,29 @@ export default function Resume() {
   const { author } = useSiteContent();
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      const title = document.title;
+    const title = document.title;
 
-      window.addEventListener("beforeprint", () => {
-        const today = new Date();
-        const year = today.getFullYear();
-        const month = String(today.getMonth() + 1).padStart(2, "0");
-        const day = String(today.getDate()).padStart(2, "0");
+    const handleBeforePrint = () => {
+      const today = new Date();
+      const year = today.getFullYear();
+      const month = String(today.getMonth() + 1).padStart(2, "0");
+      const day = String(today.getDate()).padStart(2, "0");
 
-        document.title = `Resume_${author.firstName}-${author.lastName}_${year}${month}${day}`;
-      });
+      document.title = `Resume_${author.firstName}-${author.lastName}_${year}${month}${day}`;
+    };
 
-      window.addEventListener("afterprint", () => {
-        document.title = title;
-      });
-    }
-  }, []);
+    const handleAfterPrint = () => {
+      document.title = title;
+    };
+
+    window.addEventListener("beforeprint", handleBeforePrint);
+    window.addEventListener("afterprint", handleAfterPrint);
+
+    return () => {
+      window.removeEventListener("beforeprint", handleBeforePrint);
+      window.removeEventListener("afterprint", handleAfterPrint);
+    };
+  }, [author.firstName, author.lastName]);
 
   return (
     <main className="max-w-[210mm] print:w-[210mm] row-span-3 flex flex-col gap-y-4 text-sm font-serif p-12 leading-snug">
