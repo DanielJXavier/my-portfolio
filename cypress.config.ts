@@ -10,8 +10,10 @@ export default defineConfig({
 
       on("before:browser:launch", (browser, launchOptions) => {
         if (browser.name === "chrome") {
-          launchOptions.args.push("--window-size=1920,1080");
-          launchOptions.args.push("--force-device-scale-factor=1");
+          launchOptions.args.push(
+            "--window-size=1920,1080",
+            "--force-device-scale-factor=1",
+          );
         }
 
         return launchOptions;
