@@ -12,18 +12,19 @@ type ExperienceConfigType = Omit<
   "key" | "resume" | "resumeAccomplishments"
 >;
 
-interface ExperienceItemPropsInterface
-  extends Omit<ExperienceConfigType, "hidden"> {
-  role: string;
-  accomplishments: string[];
-  imageAltText: {
-    prefix: string;
-    sufix: string;
-  };
-  dateSeparatorText: string;
-  endDateText: string;
-  mainStackTitle: string;
-}
+type ExperienceItemPropsType = Readonly<
+  Omit<ExperienceConfigType, "hidden"> & {
+    role: string;
+    accomplishments: string[];
+    imageAltText: {
+      prefix: string;
+      sufix: string;
+    };
+    dateSeparatorText: string;
+    endDateText: string;
+    mainStackTitle: string;
+  }
+>;
 
 type MapCompanyIdToColorType = {
   [key: string]: string;
@@ -55,7 +56,7 @@ export default function ExperienceItem({
   dateSeparatorText,
   endDateText,
   mainStackTitle,
-}: ExperienceItemPropsInterface) {
+}: ExperienceItemPropsType) {
   const { hardSkills } = useSkillsContent();
   const experienceMode = useContext(ExperienceModeContext);
 
