@@ -6,7 +6,7 @@ import type { Lang } from "@/i18n-config";
 import { CONTENT_DOMAINS } from "@/app/_content/constants";
 import { validateLocaleKeys } from "@/app/_content/_utils/validate-locale-keys";
 
-import type { ExperienceInterface } from "./shared";
+import type { Experience } from "./shared";
 import { experience } from "./shared";
 
 export type ExperienceLocaleItem = {
@@ -35,7 +35,7 @@ export type ExperienceLocale = {
 };
 
 export type ExperienceContent = Omit<ExperienceLocale, "items"> & {
-  items: Array<ExperienceInterface & ExperienceLocaleItem>;
+  items: Array<Experience & ExperienceLocaleItem>;
 };
 
 const locales: Record<Lang, ExperienceLocale> = { en, pt };

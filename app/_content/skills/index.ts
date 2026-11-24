@@ -6,7 +6,7 @@ import type { Lang } from "@/i18n-config";
 import { CONTENT_DOMAINS } from "@/app/_content/constants";
 import { validateLocaleKeys } from "@/app/_content/_utils/validate-locale-keys";
 
-import type { SkillInterface, SoftSkillKey } from "./shared";
+import type { Skill, SoftSkillKey } from "./shared";
 
 import {
   chosenHardSkills,
@@ -25,11 +25,11 @@ export type SkillLocale = {
 export type SkillContent = {
   title: string;
   menu: SkillLocale["menu"];
-  hardSkills: SkillInterface[];
+  hardSkills: Skill[];
   softSkills: Array<{
     key: SoftSkillKey;
     name: string;
-    size: SkillInterface["size"];
+    size: Skill["size"];
   }>;
   bottomText: string;
   chosenHardSkills: string[];

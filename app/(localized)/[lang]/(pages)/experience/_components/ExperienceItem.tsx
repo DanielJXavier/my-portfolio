@@ -4,16 +4,16 @@ import Image from "next/image";
 
 import { useSkillsContent } from "@/app/_hooks/useSkillsContent";
 
-import type { ExperienceInterface } from "@/app/_content/experience/shared";
+import type { Experience } from "@/app/_content/experience/shared";
 import { ExperienceModeContext } from "../Experience";
 
-type ExperienceConfigType = Omit<
-  ExperienceInterface,
+type ExperienceConfig = Omit<
+  Experience,
   "key" | "resume" | "resumeAccomplishments"
 >;
 
-type ExperienceItemPropsType = Readonly<
-  Omit<ExperienceConfigType, "hidden"> & {
+type ExperienceItemProps = Readonly<
+  Omit<ExperienceConfig, "hidden"> & {
     role: string;
     accomplishments: string[];
     imageAltText: {
@@ -26,11 +26,11 @@ type ExperienceItemPropsType = Readonly<
   }
 >;
 
-type MapCompanyIdToColorType = {
+type MapCompanyIdToColor = {
   [key: string]: string;
 };
 
-const mapCompanyIdToColor: MapCompanyIdToColorType = {
+const mapCompanyIdToColor: MapCompanyIdToColor = {
   lovevery: "before:from-secondary before:via-secondary",
   constructor: "before:from-[#0e62bb] before:via-[#0e62bb]",
   yestechnology: "before:from-secondary before:via-secondary",
@@ -56,7 +56,7 @@ export default function ExperienceItem({
   dateSeparatorText,
   endDateText,
   mainStackTitle,
-}: ExperienceItemPropsType) {
+}: ExperienceItemProps) {
   const { hardSkills } = useSkillsContent();
   const experienceMode = useContext(ExperienceModeContext);
 

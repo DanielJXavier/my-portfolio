@@ -2,14 +2,14 @@ import Image from "next/image";
 
 import type { EducationContent } from "@/app/_content/education";
 
-type EducationItemPropsType = EducationContent["items"][number] &
+type EducationItemProps = EducationContent["items"][number] &
   Pick<EducationContent, "imageAltText">;
 
-type MapSchoolIdToColorType = {
+type MapSchoolIdToColor = {
   [key: string]: string;
 };
 
-const mapSchoolIdToColor: MapSchoolIdToColorType = {
+const mapSchoolIdToColor: MapSchoolIdToColor = {
   unipds: "before:from-secondary before:via-secondary",
   estacio: "before:from-[#2f4ccc] before:via-[#2f4ccc]",
   fumec: "before:from-[#316ba9] before:via-[#316ba9]",
@@ -25,7 +25,7 @@ export default function EducationItem({
   subjects,
   imageAltText,
   hasBlackLogo,
-}: EducationItemPropsType) {
+}: EducationItemProps) {
   return (
     <article
       className={`my-6 sm:my-10 relative before:content-[''] before:absolute before:top-10 before:-bottom-5.25 before:sm:-bottom-9 last-of-type:before:bottom-0 before:left-4 before:ml-0.5 before:w-1 before:bg-gradient-to-b ${mapSchoolIdToColor[schoolId]} before:to-background before:-z-10`}

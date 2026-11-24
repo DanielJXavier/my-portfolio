@@ -1,10 +1,10 @@
-export interface SkillInterface {
+export interface Skill {
   key: string;
   name: string;
   size: 1 | 2 | 3 | 4 | 5;
 }
 
-export const hardSkills: SkillInterface[] = [
+export const hardSkills: Skill[] = [
   /* Front-End */
   { key: "react", name: "React", size: 5 },
   { key: "next", name: "Next.js", size: 4 },

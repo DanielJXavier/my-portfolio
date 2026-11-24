@@ -1,4 +1,4 @@
-export interface ExperienceInterface {
+export interface Experience {
   key: string;
   companyId: string;
   companyName: string;
@@ -11,7 +11,7 @@ export interface ExperienceInterface {
   hidden: boolean;
 }
 
-export const experience: ExperienceInterface[] = [
+export const experience: Experience[] = [
   {
     key: "lovevery-1",
     companyId: "lovevery",
