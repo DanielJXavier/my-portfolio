@@ -3,6 +3,7 @@ import pt from "./locales/pt.json" with { type: "json" };
 
 import type { Lang } from "@/i18n-config";
 
+import { CONTENT_DOMAINS } from "@/app/_content/constants";
 import { validateLocaleKeys } from "@/app/_content/_utils/validate-locale-keys";
 
 import { recommendations } from "./shared";
@@ -26,7 +27,7 @@ const locales: Record<Lang, RecommendationLocale> = { en, pt };
 
 for (const lang of Object.keys(locales) as Lang[]) {
   validateLocaleKeys(
-    "Recommendations",
+    CONTENT_DOMAINS.recommendations,
     lang,
     recommendations,
     locales[lang].items,

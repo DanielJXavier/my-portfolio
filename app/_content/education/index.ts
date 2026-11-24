@@ -3,6 +3,7 @@ import pt from "./locales/pt.json" with { type: "json" };
 
 import type { Lang } from "@/i18n-config";
 
+import { CONTENT_DOMAINS } from "@/app/_content/constants";
 import { validateLocaleKeys } from "@/app/_content/_utils/validate-locale-keys";
 
 import { education } from "./shared";
@@ -30,7 +31,7 @@ const locales: Record<Lang, EducationLocale> = { en, pt };
 
 for (const lang of Object.keys(locales) as Lang[]) {
   validateLocaleKeys(
-    "Education",
+    CONTENT_DOMAINS.education,
     lang,
     education,
     locales[lang].items,
