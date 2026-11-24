@@ -18,7 +18,7 @@ const nextConfig: NextConfig = {
   experimental: {
     globalNotFound: true,
   },
-  async headers() {
+  headers() {
     return [
       {
         source: "/(.*)",
@@ -31,7 +31,7 @@ const nextConfig: NextConfig = {
       },
     ];
   },
-  async redirects() {
+  redirects() {
     return [
       {
         source: "/pt/experience/:path*",
@@ -75,7 +75,7 @@ const nextConfig: NextConfig = {
       },
     ];
   },
-  async rewrites() {
+  rewrites() {
     return {
       afterFiles: [
         {
