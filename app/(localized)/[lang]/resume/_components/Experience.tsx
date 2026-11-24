@@ -73,7 +73,7 @@ export default function Experience() {
                       <span>
                         {hardSkills
                           .filter(({ key }) =>
-                            mainStack.some((stack) => stack === key),
+                            mainStack.includes(key),
                           )
                           .map(({ name }) => name)
                           .join(" | ")}

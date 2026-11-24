@@ -15,12 +15,12 @@ export default function Skills() {
 
   const hardSkills = allHardSkills.map((skill) => ({
     ...skill,
-    visible: chosenHardSkills.some((key) => key === skill.key),
+    visible: chosenHardSkills.includes(skill.key),
   }));
 
   const softSkills = softSkillsKeys.map((skill) => ({
     ...skill,
-    visible: chosenSoftSkills.some((key) => key === skill.key),
+    visible: chosenSoftSkills.includes(skill.key),
   }));
 
   return (

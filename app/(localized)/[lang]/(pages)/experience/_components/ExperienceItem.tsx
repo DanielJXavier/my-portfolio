@@ -59,9 +59,7 @@ export default function ExperienceItem({
   const { hardSkills } = useSkillsContent();
   const experienceMode = useContext(ExperienceModeContext);
 
-  const relatedHardSkills = hardSkills.filter(({ key }) =>
-    mainStack.some((stack) => stack === key)
-  );
+  const relatedHardSkills = hardSkills.filter(({ key }) => mainStack.includes(key));
 
   return (
     <article
