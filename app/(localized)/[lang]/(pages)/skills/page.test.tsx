@@ -4,11 +4,18 @@ import { render } from "@testing-library/react";
 
 import { useParams, useSearchParams } from "next/navigation";
 
-import en from "@/dictionaries/en.json";
+import { getSkillsContent } from "@/app/_content/skills";
 
 import Page, { generateMetadata } from "./page";
 
 jest.mock("next/navigation");
+
+jest.mock("@/app/_hooks/useSkillsContent", () => ({
+  useSkillsContent: () => ({
+    lang: "en",
+    ...jest.requireActual("@/app/_content/skills").getSkillsContent("en"),
+  }),
+}));
 
 (useParams as jest.Mock).mockImplementation(() => ({ lang: "en" }));
 
@@ -30,9 +37,7 @@ describe("Skills page (Server-side)", () => {
       }),
     });
 
-    const {
-      skills: { title },
-    } = en;
+    const { title } = getSkillsContent("en");
 
     expect(metadata.title).toEqual(title);
   });

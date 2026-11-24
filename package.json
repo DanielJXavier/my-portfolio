@@ -32,7 +32,7 @@
     "test": "jest",
     "test:update": "jest --updateSnapshot",
     "test:coverage": "jest --coverage",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "next typegen && tsc --noEmit",
     "cy:prepare": "yarn build && yarn start",
     "cy:open": "cypress open",
     "cy:run": "cypress run --browser chrome",
@@ -75,7 +75,7 @@
     "typescript": "npm:@typescript/typescript6@^6.0.2"
   },
   "engines": {
-    "node": ">=24.22.2",
+    "node": "26.x",
     "yarn": "^4.18.1"
   },
   "private": true,

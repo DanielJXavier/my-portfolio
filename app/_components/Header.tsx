@@ -2,11 +2,9 @@
 
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import { useParams, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 
-import { Lang } from "@/i18n-config";
-
-import { author } from "@/app/_config";
+import { useSiteContent } from "@/app/_hooks/useSiteContent";
 
 import Menu from "./Menu";
 
@@ -15,7 +13,7 @@ const ThemeSwitcher = dynamic(() => import("./ThemeSwitcher"), { ssr: false });
 export default function Header() {
   const pathname = usePathname();
 
-  const { lang } = useParams<{ lang: Lang }>();
+  const { author, lang } = useSiteContent();
 
   return (
     <header

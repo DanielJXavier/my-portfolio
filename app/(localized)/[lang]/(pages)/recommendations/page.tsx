@@ -1,14 +1,13 @@
 import { Metadata } from "next";
 
-import { getDictionary } from "@/get-dictionary";
 import { Lang } from "@/i18n-config";
 import { getLocalizedAlternates } from "@/app/_metadata";
+import { getRecommendationsContent } from "@/app/_content/recommendations";
 
 import Title from "@/app/_components/Title";
 import Reviews from "@/app/_icons/Reviews";
 
 import RecommendationItem from "./_components/RecommendationItem";
-import { recommendations } from "./_config";
 
 export async function generateMetadata({
   params,
@@ -16,9 +15,7 @@ export async function generateMetadata({
   params: Promise<{ lang: Lang }>;
 }): Promise<Metadata> {
   const { lang } = await params;
-  const {
-    recommendations: { title },
-  } = getDictionary(lang);
+  const { title } = getRecommendationsContent(lang);
 
   return {
     title,
@@ -32,22 +29,20 @@ export default async function Page({
   params: Promise<{ lang: Lang }>;
 }) {
   const { lang } = await params;
-  const {
-    recommendations: { title, items: recommendationsStrings, imageAltText },
-  } = getDictionary(lang);
+  const { title, items, imageAltText } = getRecommendationsContent(lang);
 
   return (
     <>
       <Title icon={<Reviews />}>{title}</Title>
 
-      {recommendations.map(({ authorId, authorName, company }) => (
+      {items.map(({ authorId, authorName, company, role, paragraphs }) => (
         <RecommendationItem
           key={authorId}
           authorId={authorId}
           authorName={authorName}
-          role={recommendationsStrings[authorId].role}
+          role={role}
           company={company}
-          paragraphs={recommendationsStrings[authorId].paragraphs}
+          paragraphs={paragraphs}
           imageAltText={imageAltText}
         />
       ))}

@@ -1,0 +1,24 @@
+{
+  "author": {
+    "headline": "Desenvolvedor Front-End Sênior/Líder Técnico | React | Next.js | TypeScript | JavaScript | Contentful | Stripe | AWS | Vercel"
+  },
+  "copyright": "Todos os direitos reservados.",
+  "menu": {
+    "experience": {
+      "href": "/experiencia",
+      "title": "Experiência"
+    },
+    "education": {
+      "href": "/formacao-academica",
+      "title": "Formação acadêmica"
+    },
+    "skills": {
+      "href": "/competencias",
+      "title": "Competências"
+    },
+    "recommendations": {
+      "href": "/recomendacoes",
+      "title": "Recomendações"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Competências",
+  "menu": {
+    "all": "todas",
+    "hard": "técnicas",
+    "soft": "comportamentais"
+  },
+  "soft": {
+    "communication": "Comunicação",
+    "leadership": "Liderança",
+    "problem-solving": "Resolução de Problemas",
+    "decision-making": "Tomada de Decisão",
+    "empathy": "Empatia",
+    "conflict-resolution": "Resolução de Conflitos",
+    "adaptability": "Adaptabilidade",
+    "time-management": "Gestão do Tempo",
+    "organization": "Organização",
+    "strategic-thinking": "Pensamento Estratégico",
+    "mentoring": "Mentoria",
+    "negotiation": "Negociação",
+    "resilience": "Resiliência",
+    "critical-thinking": "Pensamento Crítico",
+    "creativity": "Criatividade",
+    "active-listening": "Escuta Ativa",
+    "team-building": "Construção de Equipe",
+    "ethical-decision-making": "Tomada de Decisão Ética",
+    "customer-orientation": "Foco no Cliente",
+    "stakeholder-management": "Gestão de Stakeholder",
+    "learning-agility": "Aprendizado Rápido",
+    "curiosity": "Curiosidade",
+    "patience": "Paciência",
+    "public-speaking": "Falar em Público",
+    "networking": "Networking",
+    "multitasking": "Multitarefa",
+    "attention-to-detail": "Atenção aos Detalhes",
+    "motivation": "Motivação",
+    "persuasion": "Persuasão",
+    "emotional-intelligence": "Inteligência Emocional"
+  },
+  "bottomText": "E sempre aprendendo coisas novas para ampliar a lista..."
+}

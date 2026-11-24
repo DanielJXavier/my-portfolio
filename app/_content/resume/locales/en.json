@@ -1,0 +1,15 @@
+{
+  "title": "Resume",
+  "sectionTitles": {
+    "summary": "Summary",
+    "skills": "Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "languages": "Languages"
+  },
+  "locationInfo": {
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "country": "Brazil"
+  }
+}

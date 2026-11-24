@@ -2,7 +2,7 @@ import "@testing-library/jest-dom";
 
 import { render } from "@testing-library/react";
 
-import en from "@/dictionaries/en.json";
+import { getRecommendationsContent } from "@/app/_content/recommendations";
 
 import Page, { generateMetadata } from "./page";
 
@@ -21,9 +21,7 @@ describe("Recommendations page", () => {
       }),
     });
 
-    const {
-      recommendations: { title },
-    } = en;
+    const { title } = getRecommendationsContent("en");
 
     expect(metadata.title).toEqual(title);
   });

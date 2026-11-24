@@ -1,0 +1,16 @@
+{
+  "items": {
+    "pt": {
+      "name": "Portuguese",
+      "level": "Native"
+    },
+    "en": {
+      "name": "English",
+      "level": "C1"
+    },
+    "es": {
+      "name": "Spanish",
+      "level": "B1"
+    }
+  }
+}

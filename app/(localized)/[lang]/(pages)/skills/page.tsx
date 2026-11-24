@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
-import { getDictionary } from "@/get-dictionary";
 import { Lang } from "@/i18n-config";
 import { getLocalizedAlternates } from "@/app/_metadata";
+import { getSkillsContent } from "@/app/_content/skills";
 
 import Skills from "./Skills";
 
@@ -12,9 +12,7 @@ export async function generateMetadata({
   params: Promise<{ lang: Lang }>;
 }): Promise<Metadata> {
   const { lang } = await params;
-  const {
-    skills: { title },
-  } = getDictionary(lang);
+  const { title } = getSkillsContent(lang);
 
   return {
     title,

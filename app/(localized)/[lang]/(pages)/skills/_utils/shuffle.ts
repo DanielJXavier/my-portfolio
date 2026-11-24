@@ -1,4 +1,4 @@
-import { SkillInterface } from "../_config";
+import type { SkillInterface } from "@/app/_content/skills/shared";
 
 type SkillsArrayType = SkillInterface[];
 

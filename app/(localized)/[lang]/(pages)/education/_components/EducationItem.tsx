@@ -1,19 +1,9 @@
 import Image from "next/image";
 
-type EducationItemPropsType = Readonly<{
-  schoolId: string;
-  schoolName: string;
-  fieldOfStudy: string;
-  degree: string;
-  startYear: string;
-  endYear: string;
-  subjects: string[];
-  imageAltText: {
-    prefix: string;
-    sufix: string;
-  };
-  hasBlackLogo: boolean;
-}>;
+import type { EducationContent } from "@/app/_content/education";
+
+type EducationItemPropsType = EducationContent["items"][number] &
+  Pick<EducationContent, "imageAltText">;
 
 type MapSchoolIdToColorType = {
   [key: string]: string;

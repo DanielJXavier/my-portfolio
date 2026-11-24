@@ -4,11 +4,25 @@ import { render } from "@testing-library/react";
 
 import { useParams } from "next/navigation";
 
-import en from "@/dictionaries/en.json";
+import { getExperienceContent } from "@/app/_content/experience";
 
 import Page, { generateMetadata } from "./page";
 
 jest.mock("next/navigation");
+
+jest.mock("@/app/_hooks/useExperienceContent", () => ({
+  useExperienceContent: () => ({
+    lang: "en",
+    ...jest.requireActual("@/app/_content/experience").getExperienceContent("en"),
+  }),
+}));
+
+jest.mock("@/app/_hooks/useSkillsContent", () => ({
+  useSkillsContent: () => ({
+    lang: "en",
+    ...jest.requireActual("@/app/_content/skills").getSkillsContent("en"),
+  }),
+}));
 
 (useParams as jest.Mock).mockImplementation(() => ({ lang: "en" }));
 
@@ -26,10 +40,6 @@ describe("Experience page (Server-side)", () => {
       }),
     });
 
-    const {
-      experience: { title },
-    } = en;
-
-    expect(metadata.title).toEqual(title);
+    expect(metadata.title).toEqual(getExperienceContent("en").title);
   });
 });

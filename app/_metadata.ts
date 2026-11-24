@@ -1,4 +1,4 @@
-import { getDictionary } from "@/get-dictionary";
+import { getSiteContent } from "@/app/_content/site";
 import { i18n, Lang } from "@/i18n-config";
 
 export type LocalizedPage =
@@ -13,7 +13,7 @@ const getLocalizedPath = (page: LocalizedPage, lang: Lang) => {
   if (page === "home") return "";
   if (page === "resume") return "/resume";
 
-  return getDictionary(lang).global.menu[page].href;
+  return getSiteContent(lang).menu.find(({ key }) => key === page)?.href ?? "";
 };
 
 export const getLocalizedAlternates = (page: LocalizedPage, lang: Lang) => ({

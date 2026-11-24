@@ -1,0 +1,15 @@
+{
+  "title": "Currículo",
+  "sectionTitles": {
+    "summary": "Resumo",
+    "skills": "Competências",
+    "experience": "Experiência",
+    "education": "Formação acadêmica",
+    "languages": "Idiomas"
+  },
+  "locationInfo": {
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "country": "Brasil"
+  }
+}
