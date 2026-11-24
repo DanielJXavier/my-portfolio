@@ -6,6 +6,17 @@ import { fireEvent, render, screen } from "@testing-library/react";
 
 import ThemeSwitcher from "./ThemeSwitcher";
 
+jest.mock("@/app/_hooks/useSiteContent", () => ({
+  useSiteContent: () => ({
+    themeSwitcher: {
+      darkMode: "Dark mode",
+      lightMode: "Light mode",
+      toggleToDark: "Toggle to dark theme",
+      toggleToLight: "Toggle to light theme",
+    },
+  }),
+}));
+
 describe("ThemeSwitcher component", () => {
   it("renders the component", () => {
     render(<ThemeSwitcher />);

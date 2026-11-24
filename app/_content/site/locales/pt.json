@@ -3,6 +3,12 @@
     "headline": "Desenvolvedor Front-End Sênior/Líder Técnico | React | Next.js | TypeScript | JavaScript | Contentful | Stripe | AWS | Vercel"
   },
   "copyright": "Todos os direitos reservados.",
+  "themeSwitcher": {
+    "darkMode": "Modo escuro",
+    "lightMode": "Modo claro",
+    "toggleToDark": "Alternar para o tema escuro",
+    "toggleToLight": "Alternar para o tema claro"
+  },
   "menu": {
     "experience": {
       "href": "/experiencia",

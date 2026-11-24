@@ -1,6 +1,7 @@
 export default function LinkedIn() {
   return (
     <svg
+      aria-hidden="true"
       className="fill-primary group-hover/svg:fill-secondary size-5 md:size-6"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 448 512"

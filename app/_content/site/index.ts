@@ -11,6 +11,12 @@ type SiteLocale = {
     headline: string;
   };
   copyright: string;
+  themeSwitcher: {
+    darkMode: string;
+    lightMode: string;
+    toggleToDark: string;
+    toggleToLight: string;
+  };
   menu: Record<SiteMenuKey, { href: string; title: string }>;
 };
 
@@ -20,6 +26,7 @@ export type SiteContent = {
   author: typeof author & SiteLocale["author"];
   contact: typeof contact;
   copyright: string;
+  themeSwitcher: SiteLocale["themeSwitcher"];
   menu: Array<{ key: SiteMenuKey; href: string; title: string }>;
 };
 
@@ -30,6 +37,7 @@ export function getSiteContent(lang: Lang): SiteContent {
     author: { ...author, ...locale.author },
     contact,
     copyright: locale.copyright,
+    themeSwitcher: locale.themeSwitcher,
     menu: menu.map((key) => ({ key, ...locale.menu[key] })),
   };
 }

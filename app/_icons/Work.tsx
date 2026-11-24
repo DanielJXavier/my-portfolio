@@ -1,6 +1,7 @@
 export default function Work() {
   return (
     <svg
+      aria-hidden="true"
       className="fill-primary size-6 md:size-8"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 -960 960 960"

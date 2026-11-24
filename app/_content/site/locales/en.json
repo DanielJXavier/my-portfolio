@@ -3,6 +3,12 @@
     "headline": "Senior/Lead Front-End Engineer | React | Next.js | TypeScript | Tailwind CSS | Contentful | Stripe | AWS | Vercel"
   },
   "copyright": "All rights reserved.",
+  "themeSwitcher": {
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode",
+    "toggleToDark": "Toggle to dark theme",
+    "toggleToLight": "Toggle to light theme"
+  },
   "menu": {
     "experience": {
       "href": "/experience",
