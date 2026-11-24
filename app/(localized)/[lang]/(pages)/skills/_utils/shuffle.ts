@@ -7,7 +7,7 @@ export default function shuffle(array: SkillsArray) {
     return array;
   }
 
-  const shuffledArray: SkillsArray = JSON.parse(JSON.stringify(array));
+  const shuffledArray: SkillsArray = structuredClone(array);
 
   for (let i = shuffledArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
