@@ -13,12 +13,12 @@ This project was created to practice some development skills and also used as my
 ## Quality gate
 
 [![Quality gate status](https://sonarcloud.io/api/project_badges/measure?project=DanielJXavier_my-portfolio&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=DanielJXavier_my-portfolio)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=DanielJXavier_my-portfolio&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=DanielJXavier_my-portfolio)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=DanielJXavier_my-portfolio&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=DanielJXavier_my-portfolio)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=DanielJXavier_my-portfolio&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=DanielJXavier_my-portfolio)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=DanielJXavier_my-portfolio&metric=coverage)](https://sonarcloud.io/summary/new_code?id=DanielJXavier_my-portfolio)
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=DanielJXavier_my-portfolio&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=DanielJXavier_my-portfolio)
 [![Lines of code](https://sonarcloud.io/api/project_badges/measure?project=DanielJXavier_my-portfolio&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=DanielJXavier_my-portfolio)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=DanielJXavier_my-portfolio&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=DanielJXavier_my-portfolio)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=DanielJXavier_my-portfolio&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=DanielJXavier_my-portfolio)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=DanielJXavier_my-portfolio&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=DanielJXavier_my-portfolio)
 
 ## About the project
 
