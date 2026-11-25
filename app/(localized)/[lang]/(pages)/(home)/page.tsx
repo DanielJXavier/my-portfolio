@@ -192,7 +192,7 @@ export default async function Page({
         </div>
 
         <ul
-          className="mt-3 flex flex-wrap items-center justify-center gap-x-2 gap-y-1 rounded-md bg-primary/5 py-2 lg:justify-start"
+          className="mx-auto mt-3 flex w-fit max-w-full flex-wrap items-center justify-center gap-x-2 gap-y-1 py-2 lg:mx-0 lg:justify-start"
           aria-label={aboutProject.metricsLabel}
         >
           {SONAR_BADGES.map(({ key, metric, width }) => (
