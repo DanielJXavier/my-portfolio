@@ -33,7 +33,7 @@ Cypress.Commands.add("waitForProjectBadges", () => {
     .scrollIntoView()
     .find("img")
     .should(($images) => {
-      expect($images).to.have.length(12);
+      expect($images).to.have.length(14);
 
       $images.each((_, element) => {
         const image = element as HTMLImageElement;

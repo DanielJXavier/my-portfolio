@@ -184,7 +184,7 @@ exports[`Home page renders the page 1`] = `
       </a>
     </div>
     <div
-      aria-label="Technologies and testing tools"
+      aria-label="Technologies and tools"
       class="mt-3"
       role="group"
     >
@@ -249,6 +249,20 @@ exports[`Home page renders the page 1`] = `
         </li>
         <li
           class="relative block h-5"
+          style="width: 61px;"
+        >
+          <img
+            alt="Vercel"
+            class="object-contain"
+            data-nimg="fill"
+            decoding="async"
+            loading="lazy"
+            src="https://shields.io/badge/vercel-545454?logo=vercel"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          />
+        </li>
+        <li
+          class="relative block h-5"
           style="width: 49px;"
         >
           <img
@@ -286,6 +300,20 @@ exports[`Home page renders the page 1`] = `
             decoding="async"
             loading="lazy"
             src="https://shields.io/badge/cypress-545454?logo=cypress"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          />
+        </li>
+        <li
+          class="relative block h-5"
+          style="width: 103px;"
+        >
+          <img
+            alt="GitHub Actions"
+            class="object-contain"
+            data-nimg="fill"
+            decoding="async"
+            loading="lazy"
+            src="https://shields.io/badge/githubactions-545454?logo=githubactions"
             style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
           />
         </li>

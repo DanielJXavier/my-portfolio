@@ -15,6 +15,7 @@ import LinkedIn from "@/app/_icons/LinkedIn";
 import WhatsApp from "@/app/_icons/WhatsApp";
 
 const SONAR_PROJECT = "DanielJXavier_my-portfolio";
+
 const SONAR_BADGES = [
   { key: "qualityGate", metric: "alert_status", width: 148 },
   { key: "coverage", metric: "coverage", width: 127 },
@@ -22,7 +23,8 @@ const SONAR_BADGES = [
   { key: "reliability", metric: "reliability_rating", width: 101 },
   { key: "maintainability", metric: "sqale_rating", width: 133 },
 ] as const;
-const CORE_TECHNOLOGY_BADGES = [
+
+const TECHNOLOGY_BADGES = [
   { name: "React", badge: "react", logo: "react", width: 55 },
   { name: "Next.js", badge: "next.js", logo: "next.js", width: 65 },
   {
@@ -37,8 +39,7 @@ const CORE_TECHNOLOGY_BADGES = [
     logo: "typescript",
     width: 83,
   },
-] as const;
-const TESTING_TOOL_BADGES = [
+  { name: "Vercel", badge: "vercel", logo: "vercel", width: 61 },
   { name: "Jest", badge: "jest", logo: "jest", width: 49 },
   {
     name: "Testing Library",
@@ -47,8 +48,14 @@ const TESTING_TOOL_BADGES = [
     width: 101,
   },
   { name: "Cypress", badge: "cypress", logo: "cypress", width: 69 },
+  {
+    name: "GitHub Actions",
+    badge: "githubactions",
+    logo: "githubactions",
+    width: 103,
+  },
 ] as const;
-const PROJECT_TOOL_BADGES = [...CORE_TECHNOLOGY_BADGES, ...TESTING_TOOL_BADGES];
+
 export async function generateMetadata({
   params,
 }: {
@@ -174,7 +181,7 @@ export default async function Page({
 
         <div className="mt-3" role="group" aria-label={aboutProject.toolsLabel}>
           <ul className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 lg:justify-start">
-            {PROJECT_TOOL_BADGES.map(({ name, badge, logo, width }) => (
+            {TECHNOLOGY_BADGES.map(({ name, badge, logo, width }) => (
               <li key={badge} className="relative block h-5" style={{ width }}>
                 <Image
                   src={`https://shields.io/badge/${badge}-545454?logo=${logo}`}

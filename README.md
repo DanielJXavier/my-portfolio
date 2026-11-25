@@ -2,9 +2,11 @@
 ![](https://shields.io/badge/next.js-black?logo=next.js&style=for-the-badge)
 ![](https://shields.io/badge/tailwindcss-black?logo=tailwindcss&style=for-the-badge)
 ![](https://shields.io/badge/typescript-black?logo=typescript&style=for-the-badge)
+![](https://shields.io/badge/vercel-black?logo=vercel&style=for-the-badge)
 ![](https://shields.io/badge/jest-black?logo=jest&style=for-the-badge)
 ![](https://shields.io/badge/testinglibrary-black?logo=testinglibrary&style=for-the-badge)
 ![](https://shields.io/badge/cypress-black?logo=cypress&style=for-the-badge)
+![](https://shields.io/badge/githubactions-black?logo=githubactions&style=for-the-badge)
 
 # my-portfolio
 

@@ -28,14 +28,14 @@ describe("Home page", () => {
       "en",
       "About this project",
       "View source on GitHub",
-      "Technologies and testing tools",
+      "Technologies and tools",
       "Code quality metrics",
     ],
     [
       "pt",
       "Sobre este projeto",
       "Ver código-fonte no GitHub",
-      "Tecnologias e ferramentas de teste",
+      "Tecnologias e ferramentas",
       "Métricas de qualidade do código",
     ],
   ] as const)(
@@ -65,9 +65,11 @@ describe("Home page", () => {
         "Next.js",
         "Tailwind CSS",
         "TypeScript",
+        "Vercel",
         "Jest",
         "Testing Library",
         "Cypress",
+        "GitHub Actions",
       ]);
       expect(within(tools).getAllByRole("list")).toHaveLength(1);
       expect(

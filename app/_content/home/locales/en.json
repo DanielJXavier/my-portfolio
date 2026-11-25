@@ -3,7 +3,7 @@
   "aboutProject": {
     "title": "About this project",
     "sourceLinkLabel": "View source on GitHub",
-    "toolsLabel": "Technologies and testing tools",
+    "toolsLabel": "Technologies and tools",
     "metricsLabel": "Code quality metrics",
     "badges": {
       "qualityGate": "SonarCloud quality gate status",
