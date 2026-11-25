@@ -13,6 +13,7 @@ const config: Config = {
     "^@/(.*)$": "<rootDir>/$1",
   },
   collectCoverageFrom: [
+    "proxy.ts",
     "app/**/*.{ts,tsx}",
     "!app/**/_config.ts",
     "!app/_icons/*",
