@@ -1,5 +1,18 @@
 {
   "greeting": "Oie, sou o",
+  "aboutProject": {
+    "title": "Sobre este projeto",
+    "sourceLinkLabel": "Ver código-fonte no GitHub",
+    "toolsLabel": "Tecnologias e ferramentas de teste",
+    "metricsLabel": "Métricas de qualidade do código",
+    "badges": {
+      "qualityGate": "Status do quality gate do SonarCloud",
+      "coverage": "Cobertura de testes do SonarCloud",
+      "security": "Classificação de segurança do SonarCloud",
+      "reliability": "Classificação de confiabilidade do SonarCloud",
+      "maintainability": "Classificação de manutenibilidade do SonarCloud"
+    }
+  },
   "summary": [
     "Desenvolvedor Front-End Sênior/Líder Técnico com mais de 14 anos de experiência auxiliando empresas americanas a criar interfaces de usuário intuitivas, garantindo qualidade de código, alto desempenho, escalabilidade, acessibilidade e segurança. Especializado em React, Next.js, TypeScript e Tailwind CSS, agora equipado com as melhores ferramentas de IA para entregar ainda mais rápida.",
     "Atualmente trabalhando na Lovevery, entregando projetos significativos como o Novo Checkout, com um ganho líquido de 7,3 novos checkouts por dia, e o lançamento do ERC, alcançando mais de 455 mil clientes em apenas alguns meses.",

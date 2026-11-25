@@ -27,4 +27,12 @@ describe("Footer component", () => {
 
     expect(footer).toBeInTheDocument();
   });
+
+  it("keeps project quality badges out of the shared footer", () => {
+    render(<Footer />);
+
+    expect(
+      screen.queryByRole("region", { name: "Code quality metrics" }),
+    ).not.toBeInTheDocument();
+  });
 });

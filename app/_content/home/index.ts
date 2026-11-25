@@ -11,6 +11,19 @@ export type HomeContent = {
   author: ReturnType<typeof getSiteContent>["author"];
   contact: ReturnType<typeof getSiteContent>["contact"];
   greeting: string;
+  aboutProject: {
+    title: string;
+    sourceLinkLabel: string;
+    toolsLabel: string;
+    metricsLabel: string;
+    badges: {
+      qualityGate: string;
+      coverage: string;
+      security: string;
+      reliability: string;
+      maintainability: string;
+    };
+  };
   summary: string[];
   image: {
     src: string;
@@ -18,20 +31,21 @@ export type HomeContent = {
   };
 };
 
-type HomeLocale = Pick<HomeContent, "greeting" | "summary"> & {
+type HomeLocale = Pick<HomeContent, "greeting" | "aboutProject" | "summary"> & {
   imageAltText: string;
 };
 
 const locales: Record<Lang, HomeLocale> = { en, pt };
 
 export function getHomeContent(lang: Lang): HomeContent {
-  const { greeting, summary, imageAltText } = locales[lang];
+  const { greeting, aboutProject, summary, imageAltText } = locales[lang];
   const { author, contact } = getSiteContent(lang);
 
   return {
     author,
     contact,
     greeting,
+    aboutProject,
     summary,
     image: { src: PROFILE_IMAGE_PATH, alt: imageAltText },
   };
