@@ -23,30 +23,30 @@ const SONAR_BADGES = [
   { key: "maintainability", metric: "sqale_rating", width: 133 },
 ] as const;
 const CORE_TECHNOLOGY_BADGES = [
-  { name: "React", badge: "react", logo: "react", width: 86 },
-  { name: "Next.js", badge: "next.js", logo: "next.js", width: 99 },
+  { name: "React", badge: "react", logo: "react", width: 55 },
+  { name: "Next.js", badge: "next.js", logo: "next.js", width: 65 },
   {
     name: "Tailwind CSS",
     badge: "tailwindcss",
     logo: "tailwindcss",
-    width: 139,
+    width: 89,
   },
   {
     name: "TypeScript",
     badge: "typescript",
     logo: "typescript",
-    width: 127,
+    width: 83,
   },
 ] as const;
 const TESTING_TOOL_BADGES = [
-  { name: "Jest", badge: "jest", logo: "jest", width: 82 },
+  { name: "Jest", badge: "jest", logo: "jest", width: 49 },
   {
     name: "Testing Library",
     badge: "testinglibrary",
     logo: "testinglibrary",
-    width: 156,
+    width: 101,
   },
-  { name: "Cypress", badge: "cypress", logo: "cypress", width: 104 },
+  { name: "Cypress", badge: "cypress", logo: "cypress", width: 69 },
 ] as const;
 const PROJECT_TOOL_BADGES = [...CORE_TECHNOLOGY_BADGES, ...TESTING_TOOL_BADGES];
 export async function generateMetadata({
@@ -175,9 +175,9 @@ export default async function Page({
         <div className="mt-3" role="group" aria-label={aboutProject.toolsLabel}>
           <ul className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 lg:justify-start">
             {PROJECT_TOOL_BADGES.map(({ name, badge, logo, width }) => (
-              <li key={badge} className="relative block h-7" style={{ width }}>
+              <li key={badge} className="relative block h-5" style={{ width }}>
                 <Image
-                  src={`https://shields.io/badge/${badge}-black?logo=${logo}&style=for-the-badge`}
+                  src={`https://shields.io/badge/${badge}-545454?logo=${logo}`}
                   alt={name}
                   fill
                   sizes={`${width}px`}
@@ -192,7 +192,7 @@ export default async function Page({
         </div>
 
         <ul
-          className="mx-auto mt-3 flex w-fit max-w-full flex-wrap items-center justify-center gap-x-2 gap-y-1 py-2 lg:mx-0 lg:justify-start"
+          className="mx-auto mt-3 flex w-fit max-w-full flex-wrap items-center justify-center gap-x-3 gap-y-1 py-2 lg:mx-0 lg:justify-start"
           aria-label={aboutProject.metricsLabel}
         >
           {SONAR_BADGES.map(({ key, metric, width }) => (

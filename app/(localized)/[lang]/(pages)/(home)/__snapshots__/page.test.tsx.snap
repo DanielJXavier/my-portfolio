@@ -192,8 +192,8 @@ exports[`Home page renders the page 1`] = `
         class="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 lg:justify-start"
       >
         <li
-          class="relative block h-7"
-          style="width: 86px;"
+          class="relative block h-5"
+          style="width: 55px;"
         >
           <img
             alt="React"
@@ -201,13 +201,13 @@ exports[`Home page renders the page 1`] = `
             data-nimg="fill"
             decoding="async"
             loading="lazy"
-            src="https://shields.io/badge/react-black?logo=react&style=for-the-badge"
+            src="https://shields.io/badge/react-545454?logo=react"
             style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
           />
         </li>
         <li
-          class="relative block h-7"
-          style="width: 99px;"
+          class="relative block h-5"
+          style="width: 65px;"
         >
           <img
             alt="Next.js"
@@ -215,13 +215,13 @@ exports[`Home page renders the page 1`] = `
             data-nimg="fill"
             decoding="async"
             loading="lazy"
-            src="https://shields.io/badge/next.js-black?logo=next.js&style=for-the-badge"
+            src="https://shields.io/badge/next.js-545454?logo=next.js"
             style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
           />
         </li>
         <li
-          class="relative block h-7"
-          style="width: 139px;"
+          class="relative block h-5"
+          style="width: 89px;"
         >
           <img
             alt="Tailwind CSS"
@@ -229,13 +229,13 @@ exports[`Home page renders the page 1`] = `
             data-nimg="fill"
             decoding="async"
             loading="lazy"
-            src="https://shields.io/badge/tailwindcss-black?logo=tailwindcss&style=for-the-badge"
+            src="https://shields.io/badge/tailwindcss-545454?logo=tailwindcss"
             style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
           />
         </li>
         <li
-          class="relative block h-7"
-          style="width: 127px;"
+          class="relative block h-5"
+          style="width: 83px;"
         >
           <img
             alt="TypeScript"
@@ -243,13 +243,13 @@ exports[`Home page renders the page 1`] = `
             data-nimg="fill"
             decoding="async"
             loading="lazy"
-            src="https://shields.io/badge/typescript-black?logo=typescript&style=for-the-badge"
+            src="https://shields.io/badge/typescript-545454?logo=typescript"
             style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
           />
         </li>
         <li
-          class="relative block h-7"
-          style="width: 82px;"
+          class="relative block h-5"
+          style="width: 49px;"
         >
           <img
             alt="Jest"
@@ -257,13 +257,13 @@ exports[`Home page renders the page 1`] = `
             data-nimg="fill"
             decoding="async"
             loading="lazy"
-            src="https://shields.io/badge/jest-black?logo=jest&style=for-the-badge"
+            src="https://shields.io/badge/jest-545454?logo=jest"
             style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
           />
         </li>
         <li
-          class="relative block h-7"
-          style="width: 156px;"
+          class="relative block h-5"
+          style="width: 101px;"
         >
           <img
             alt="Testing Library"
@@ -271,13 +271,13 @@ exports[`Home page renders the page 1`] = `
             data-nimg="fill"
             decoding="async"
             loading="lazy"
-            src="https://shields.io/badge/testinglibrary-black?logo=testinglibrary&style=for-the-badge"
+            src="https://shields.io/badge/testinglibrary-545454?logo=testinglibrary"
             style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
           />
         </li>
         <li
-          class="relative block h-7"
-          style="width: 104px;"
+          class="relative block h-5"
+          style="width: 69px;"
         >
           <img
             alt="Cypress"
@@ -285,7 +285,7 @@ exports[`Home page renders the page 1`] = `
             data-nimg="fill"
             decoding="async"
             loading="lazy"
-            src="https://shields.io/badge/cypress-black?logo=cypress&style=for-the-badge"
+            src="https://shields.io/badge/cypress-545454?logo=cypress"
             style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
           />
         </li>
@@ -293,7 +293,7 @@ exports[`Home page renders the page 1`] = `
     </div>
     <ul
       aria-label="Code quality metrics"
-      class="mx-auto mt-3 flex w-fit max-w-full flex-wrap items-center justify-center gap-x-2 gap-y-1 py-2 lg:mx-0 lg:justify-start"
+      class="mx-auto mt-3 flex w-fit max-w-full flex-wrap items-center justify-center gap-x-3 gap-y-1 py-2 lg:mx-0 lg:justify-start"
     >
       <li>
         <a
