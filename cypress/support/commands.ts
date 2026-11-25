@@ -27,7 +27,7 @@ Cypress.Commands.add("visitDarkTheme", (url, isDarkTheme = true) =>
     .then(() => undefined)
 );
 
-Cypress.Commands.add("waitForProjectBadges", () =>
+Cypress.Commands.add("waitForProjectBadges", () => {
   cy
     .get('section[aria-labelledby="about-project-heading"]', { timeout: 30000 })
     .scrollIntoView()
@@ -44,6 +44,5 @@ Cypress.Commands.add("waitForProjectBadges", () =>
         ).to.be.true;
       });
     })
-    .then(() => cy.scrollTo("top"))
-    .then(() => undefined),
-);
+    .then(() => cy.scrollTo("top"));
+});
