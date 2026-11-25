@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@page {
+  margin: 0;
+}
+
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme inline {
