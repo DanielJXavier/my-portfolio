@@ -8,7 +8,7 @@ export default function Education() {
   const { sectionTitles } = useResumeContent();
 
   return (
-    <section>
+    <section className="break-inside-avoid">
       <h2 className="text-[16pt] font-bold">{sectionTitles.education}</h2>
       <hr />
       <ul className="flex flex-col gap-y-3">
@@ -16,7 +16,7 @@ export default function Education() {
           ({ schoolId, schoolName, endYear, degree, fieldOfStudy }) => (
             <VisibilityControl
               key={schoolId}
-              className="items-baseline break-inside-avoid"
+              className="items-baseline"
             >
               <div>
                 <p className="text-[12pt]">

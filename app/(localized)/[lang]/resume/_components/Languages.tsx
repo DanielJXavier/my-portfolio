@@ -8,14 +8,14 @@ export default function Languages() {
   const { sectionTitles } = useResumeContent();
 
   return (
-    <section>
+    <section className="break-inside-avoid">
       <h2 className="text-[16pt] font-bold">{sectionTitles.languages}</h2>
       <hr />
       <ul className="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5">
         {items.map(({ languageId, name, level }) => (
           <VisibilityControl
             key={languageId}
-            className="items-baseline break-inside-avoid"
+            className="items-baseline"
           >
             <div>
               <p className="text-[12pt]">

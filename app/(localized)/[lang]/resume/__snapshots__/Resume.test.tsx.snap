@@ -2925,7 +2925,9 @@ The most exciting thing about Front-End is combining clean code, best practices,
         </li>
       </ul>
     </section>
-    <section>
+    <section
+      class="break-inside-avoid"
+    >
       <h2
         class="text-[16pt] font-bold"
       >
@@ -2936,7 +2938,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
         class="flex flex-col gap-y-3"
       >
         <li
-          class="items-baseline break-inside-avoid flex gap-x-1.5 "
+          class="items-baseline flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -2967,7 +2969,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           </div>
         </li>
         <li
-          class="items-baseline break-inside-avoid flex gap-x-1.5 "
+          class="items-baseline flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -2998,7 +3000,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           </div>
         </li>
         <li
-          class="items-baseline break-inside-avoid flex gap-x-1.5 "
+          class="items-baseline flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -3030,7 +3032,9 @@ The most exciting thing about Front-End is combining clean code, best practices,
         </li>
       </ul>
     </section>
-    <section>
+    <section
+      class="break-inside-avoid"
+    >
       <h2
         class="text-[16pt] font-bold"
       >
@@ -3041,7 +3045,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
         class="pl-3.5 [&_li]:relative [&_li]:text-[12pt] [&_li]:text-justify [&_li]:before:content-['•'] [&_li]:before:absolute [&_li]:before:-left-2.5"
       >
         <li
-          class="items-baseline break-inside-avoid flex gap-x-1.5 "
+          class="items-baseline flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -3062,7 +3066,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           </div>
         </li>
         <li
-          class="items-baseline break-inside-avoid flex gap-x-1.5 "
+          class="items-baseline flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
@@ -3083,7 +3087,7 @@ The most exciting thing about Front-End is combining clean code, best practices,
           </div>
         </li>
         <li
-          class="items-baseline break-inside-avoid flex gap-x-1.5 "
+          class="items-baseline flex gap-x-1.5 "
           data-testid="visibility-control"
           data-visible=""
         >
