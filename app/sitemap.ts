@@ -1,72 +1,42 @@
-import { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
+
+import {
+  getLocalizedAlternates,
+  type LocalizedPage,
+} from "@/app/_metadata";
+
+const siteUrl = "https://www.danielxavier.dev";
+
+const pages: { page: LocalizedPage; priority: number }[] = [
+  { page: "home", priority: 1 },
+  { page: "experience", priority: 0.5 },
+  { page: "education", priority: 0.5 },
+  { page: "skills", priority: 0.5 },
+  { page: "recommendations", priority: 0.5 },
+  { page: "resume", priority: 0.5 },
+];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    {
-      url: "https://www.danielxavier.dev/en",
-      lastModified: new Date(),
-      changeFrequency: "daily",
-      priority: 1,
-      // alternates: {
-      //   languages: {
-      //     pt: "https://www.danielxavier.dev/pt",
-      //   },
-      // },
-    },
-    {
-      url: "https://www.danielxavier.dev/en/experience",
-      lastModified: new Date(),
-      changeFrequency: "daily",
-      priority: 0.5,
-      // alternates: {
-      //   languages: {
-      //     pt: "https://www.danielxavier.dev/pt/experience",
-      //   },
-      // },
-    },
-    {
-      url: "https://www.danielxavier.dev/en/education",
-      lastModified: new Date(),
-      changeFrequency: "daily",
-      priority: 0.5,
-      // alternates: {
-      //   languages: {
-      //     pt: "https://www.danielxavier.dev/pt/education",
-      //   },
-      // },
-    },
-    {
-      url: "https://www.danielxavier.dev/en/skills",
-      lastModified: new Date(),
-      changeFrequency: "daily",
-      priority: 0.5,
-      // alternates: {
-      //   languages: {
-      //     pt: "https://www.danielxavier.dev/pt/skills",
-      //   },
-      // },
-    },
-    {
-      url: "https://www.danielxavier.dev/en/recommendations",
-      lastModified: new Date(),
-      changeFrequency: "daily",
-      priority: 0.5,
-      // alternates: {
-      //   languages: {
-      //     pt: "https://www.danielxavier.dev/pt/recommendations",
-      //   },
-      // },
-    },
-    {
-      url: "https://www.danielxavier.dev/en/resume",
-      lastModified: new Date(),
-      changeFrequency: "daily",
-      priority: 0.5,
-      // alternates: {
-      //   languages: {
-      //     pt: "https://www.danielxavier.dev/pt/resume",
-      //   },
-      // },
-    },
-  ];
+  const lastModified = new Date();
+
+  return pages.flatMap(({ page, priority }) => {
+    const { languages } = getLocalizedAlternates(page, "en");
+
+    const localizedUrls = Object.fromEntries(
+      Object.entries(languages).map(([lang, path]) => [
+        lang,
+        new URL(path, siteUrl).toString(),
+      ]),
+    );
+
+    const alternates = { languages: localizedUrls };
+
+    return Object.values(localizedUrls).map((url) => ({
+      url,
+      lastModified,
+      changeFrequency: "daily" as const,
+      priority,
+      alternates,
+    }));
+  });
 }

@@ -18,7 +18,6 @@ const config: Config = {
     "!app/**/_config.ts",
     "!app/_icons/*",
     "!app/robots.ts",
-    "!app/sitemap.ts",
   ],
   coverageThreshold: {
     global: {
