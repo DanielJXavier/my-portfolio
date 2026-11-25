@@ -44,5 +44,5 @@ Cypress.Commands.add("waitForProjectBadges", () => {
         ).to.be.true;
       });
     })
-    .then(() => cy.scrollTo("top"));
+    .then(() => cy.scrollTo("top", { ensureScrollable: false }));
 });
