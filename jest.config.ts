@@ -17,7 +17,6 @@ const config: Config = {
     "app/**/*.{ts,tsx}",
     "!app/**/_config.ts",
     "!app/_icons/*",
-    "!app/robots.ts",
   ],
   coverageThreshold: {
     global: {
