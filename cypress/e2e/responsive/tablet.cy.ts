@@ -9,6 +9,10 @@ describe("Tablet", () => {
 
           cy.visitDarkTheme(path, false);
 
+          if (path === "/en") {
+            cy.waitForProjectBadges();
+          }
+
           cy.matchImageSnapshot(`tablet-${i + 1}-${name.toLowerCase()}-page`);
         });
       });

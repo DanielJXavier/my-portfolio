@@ -9,6 +9,10 @@ describe("Mobile", () => {
 
           cy.visitDarkTheme(path, false);
 
+          if (path === "/en") {
+            cy.waitForProjectBadges();
+          }
+
           cy.matchImageSnapshot(`mobile-${i + 1}-${name.toLowerCase()}-page`);
         });
       });

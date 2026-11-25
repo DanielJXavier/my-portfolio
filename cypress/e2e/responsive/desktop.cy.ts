@@ -9,6 +9,10 @@ describe("Desktop", () => {
 
           cy.visitDarkTheme(path, false);
 
+          if (path === "/en") {
+            cy.waitForProjectBadges();
+          }
+
           cy.matchImageSnapshot(`desktop-${i + 1}-${name.toLowerCase()}-page`);
         });
       });
